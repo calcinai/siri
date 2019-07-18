@@ -24,7 +24,7 @@ class PrimitiveSubscriber implements EventSubscriberInterface
 
     public function onPreSerialize(PreSerializeEvent $event)
     {
-       if(is_string($event->getObject())){
+       if(!is_object($event->getObject())){
            $event->setType(PrimitiveType::class);
        }
     }

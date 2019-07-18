@@ -7,7 +7,6 @@
 namespace Calcinai\Siri;
 
 
-use Calcinai\Siri\Objects\RequestorRef;
 use JMS\Serializer\Context;
 use JMS\Serializer\GraphNavigator;
 use JMS\Serializer\Handler\SubscribingHandlerInterface;
@@ -46,7 +45,14 @@ class PrimitiveHandler implements SubscribingHandlerInterface
 
     public function serializePrimitive(XmlSerializationVisitor $visitor, $primitive, array $type, Context $context)
     {
-        return $visitor->visitSimpleString($primitive, $type, $context);
+        switch (true) {
+            case is_bool($primitive):
+                return $visitor->visitBoolean($primitive, $type, $context);
+            case is_string($primitive):
+            default:
+                return $visitor->visitSimpleString($primitive, $type, $context);
+
+        }
     }
 
 }
