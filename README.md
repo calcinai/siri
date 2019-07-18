@@ -16,9 +16,10 @@ composer require calcinai/siri
 ### Serialization
 
 ```php
-use Calcinai\Siri\Objects\ServiceRequest;
 use Calcinai\Siri\Objects\Siri;
+use Calcinai\Siri\Objects\ServiceRequest;
 use Calcinai\Siri\Objects\VehicleMonitoringRequest;
+use Calcinai\Siri\Serializer
 
 $requestTimestamp = new DateTime();
 
@@ -37,7 +38,7 @@ $request->setVehicleMonitoringRequest($vmRequest)
     ->setRequestTimestamp($requestTimestamp)
     ->setRequestorRef('Requestor');
 
-$serializer = new \Calcinai\Siri\Serializer();
+$serializer = new Serializer();
 $xml = $serializer->serialize($siri);
 
 echo $xml;
