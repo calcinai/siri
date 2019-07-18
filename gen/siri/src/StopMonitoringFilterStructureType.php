@@ -105,7 +105,7 @@ class StopMonitoringFilterStructureType
     /**
      * If calls are to be returned, maximum number of calls to include in response. If absent, exclude all calls.
      *
-     * @property \Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
+     * @property \Calcinai\Siri\Objects\StopMonitoringFilterStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
      */
     private $maximumNumberOfCalls = null;
 
@@ -457,7 +457,7 @@ class StopMonitoringFilterStructureType
      *
      * If calls are to be returned, maximum number of calls to include in response. If absent, exclude all calls.
      *
-     * @return \Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType
+     * @return \Calcinai\Siri\Objects\StopMonitoringFilterStructureType\MaximumNumberOfCallsAType
      */
     public function getMaximumNumberOfCalls()
     {
@@ -469,10 +469,10 @@ class StopMonitoringFilterStructureType
      *
      * If calls are to be returned, maximum number of calls to include in response. If absent, exclude all calls.
      *
-     * @param \Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
+     * @param \Calcinai\Siri\Objects\StopMonitoringFilterStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
      * @return self
      */
-    public function setMaximumNumberOfCalls(\Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls)
+    public function setMaximumNumberOfCalls(\Calcinai\Siri\Objects\StopMonitoringFilterStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls)
     {
         $this->maximumNumberOfCalls = $maximumNumberOfCalls;
         return $this;

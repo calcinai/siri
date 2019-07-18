@@ -1,2 +1,112 @@
 Calcinai\Siri\Objects\ServiceRequestStructureType:
-    properties: {  }
+    properties:
+        productionTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductionTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductionTimetableRequest
+                setter: setProductionTimetableRequest
+            type: Calcinai\Siri\Objects\ProductionTimetableRequest
+        estimatedTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedTimetableRequest
+                setter: setEstimatedTimetableRequest
+            type: Calcinai\Siri\Objects\EstimatedTimetableRequest
+        stopTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: StopTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopTimetableRequest
+                setter: setStopTimetableRequest
+            type: Calcinai\Siri\Objects\StopTimetableRequest
+        stopMonitoringMultipleRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitoringMultipleRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitoringMultipleRequest
+                setter: setStopMonitoringMultipleRequest
+            type: Calcinai\Siri\Objects\StopMonitoringMultipleRequest
+        stopMonitoringRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitoringRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitoringRequest
+                setter: setStopMonitoringRequest
+            type: Calcinai\Siri\Objects\StopMonitoringRequest
+        vehicleMonitoringRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringRequest
+                setter: setVehicleMonitoringRequest
+            type: Calcinai\Siri\Objects\VehicleMonitoringRequest
+        connectionTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionTimetableRequest
+                setter: setConnectionTimetableRequest
+            type: Calcinai\Siri\Objects\ConnectionTimetableRequest
+        connectionMonitoringRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringRequest
+                setter: setConnectionMonitoringRequest
+            type: Calcinai\Siri\Objects\ConnectionMonitoringRequest
+        generalMessageRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessageRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessageRequest
+                setter: setGeneralMessageRequest
+            type: Calcinai\Siri\Objects\GeneralMessageRequest
+        facilityMonitoringRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityMonitoringRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityMonitoringRequest
+                setter: setFacilityMonitoringRequest
+            type: Calcinai\Siri\Objects\FacilityMonitoringRequest
+        situationExchangeRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationExchangeRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationExchangeRequest
+                setter: setSituationExchangeRequest
+            type: Calcinai\Siri\Objects\SituationExchangeRequest

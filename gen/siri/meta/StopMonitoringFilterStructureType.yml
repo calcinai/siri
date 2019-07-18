@@ -139,7 +139,7 @@ Calcinai\Siri\Objects\StopMonitoringFilterStructureType:
             accessor:
                 getter: getMaximumNumberOfCalls
                 setter: setMaximumNumberOfCalls
-            type: Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType
+            type: Calcinai\Siri\Objects\StopMonitoringFilterStructureType\MaximumNumberOfCallsAType
         extensions:
             expose: true
             access_type: public_method

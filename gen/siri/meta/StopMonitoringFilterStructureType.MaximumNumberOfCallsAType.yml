@@ -1,0 +1,22 @@
+Calcinai\Siri\Objects\StopMonitoringFilterStructureType\MaximumNumberOfCallsAType:
+    properties:
+        previous:
+            expose: true
+            access_type: public_method
+            serialized_name: Previous
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPrevious
+                setter: setPrevious
+            type: int
+        onwards:
+            expose: true
+            access_type: public_method
+            serialized_name: Onwards
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOnwards
+                setter: setOnwards
+            type: int
