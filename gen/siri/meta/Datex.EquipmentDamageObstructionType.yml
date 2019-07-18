@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\EquipmentDamageObstructionType:
+Calcinai\Siri\Objects\Datex\EquipmentDamageObstructionType:
     properties:
         equipmentDamageType:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\EquipmentDamageObstructionType:
             accessor:
                 getter: getEquipmentDamageObstructionExtension
                 setter: setEquipmentDamageObstructionExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

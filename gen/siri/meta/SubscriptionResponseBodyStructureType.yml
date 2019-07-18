@@ -1,4 +1,4 @@
-Calcinai\Siri\SubscriptionResponseBodyStructureType:
+Calcinai\Siri\Objects\SubscriptionResponseBodyStructureType:
     properties:
         responseStatus:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\SubscriptionResponseBodyStructureType:
                 inline: true
                 entry_name: ResponseStatus
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ResponseStatus>
+            type: array<Calcinai\Siri\Objects\ResponseStatus>
         subscriptionManagerAddress:
             expose: true
             access_type: public_method

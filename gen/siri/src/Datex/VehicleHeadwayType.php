@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehicleHeadwayType
@@ -26,7 +26,7 @@ class VehicleHeadwayType
     private $distanceHeadway = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehicleHeadwayExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleHeadwayExtension
      */
     private $vehicleHeadwayExtension = null;
 
@@ -85,7 +85,7 @@ class VehicleHeadwayType
     /**
      * Gets as vehicleHeadwayExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehicleHeadwayExtension()
     {
@@ -95,10 +95,10 @@ class VehicleHeadwayType
     /**
      * Sets a new vehicleHeadwayExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehicleHeadwayExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleHeadwayExtension
      * @return self
      */
-    public function setVehicleHeadwayExtension(\Calcinai\Siri\Datex\ExtensionType $vehicleHeadwayExtension)
+    public function setVehicleHeadwayExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehicleHeadwayExtension)
     {
         $this->vehicleHeadwayExtension = $vehicleHeadwayExtension;
         return $this;

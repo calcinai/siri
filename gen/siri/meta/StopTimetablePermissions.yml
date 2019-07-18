@@ -1,4 +1,4 @@
-Calcinai\Siri\StopTimetablePermissions:
+Calcinai\Siri\Objects\StopTimetablePermissions:
     xml_root_name: StopTimetablePermissions
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -15,4 +15,4 @@ Calcinai\Siri\StopTimetablePermissions:
                 inline: true
                 entry_name: StopTimetablePermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\StopMonitoringServicePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType>

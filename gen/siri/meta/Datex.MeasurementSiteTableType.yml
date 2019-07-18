@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\MeasurementSiteTableType:
+Calcinai\Siri\Objects\Datex\MeasurementSiteTableType:
     properties:
         id:
             expose: true
@@ -42,7 +42,7 @@ Calcinai\Siri\Datex\MeasurementSiteTableType:
                 inline: true
                 entry_name: measurementSiteRecord
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\MeasurementSiteRecordType>
+            type: array<Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType>
         measurementSiteTableExtension:
             expose: true
             access_type: public_method
@@ -52,4 +52,4 @@ Calcinai\Siri\Datex\MeasurementSiteTableType:
             accessor:
                 getter: getMeasurementSiteTableExtension
                 setter: setMeasurementSiteTableExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing HeaderInformationType
@@ -49,7 +49,7 @@ class HeaderInformationType
     private $urgency = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $headerInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $headerInformationExtension
      */
     private $headerInformationExtension = null;
 
@@ -226,7 +226,7 @@ class HeaderInformationType
     /**
      * Gets as headerInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getHeaderInformationExtension()
     {
@@ -236,10 +236,10 @@ class HeaderInformationType
     /**
      * Sets a new headerInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $headerInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $headerInformationExtension
      * @return self
      */
-    public function setHeaderInformationExtension(\Calcinai\Siri\Datex\ExtensionType $headerInformationExtension)
+    public function setHeaderInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $headerInformationExtension)
     {
         $this->headerInformationExtension = $headerInformationExtension;
         return $this;

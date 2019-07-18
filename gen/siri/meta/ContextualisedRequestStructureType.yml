@@ -1,4 +1,4 @@
-Calcinai\Siri\ContextualisedRequestStructureType:
+Calcinai\Siri\Objects\ContextualisedRequestStructureType:
     properties:
         serviceRequestContext:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ContextualisedRequestStructureType:
             accessor:
                 getter: getServiceRequestContext
                 setter: setServiceRequestContext
-            type: Calcinai\Siri\ServiceRequestContextStructureType
+            type: Calcinai\Siri\Objects\ServiceRequestContextStructureType
         requestTimestamp:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\ContextualisedRequestStructureType:
             accessor:
                 getter: getRequestorRef
                 setter: setRequestorRef
-            type: Calcinai\Siri\RequestorRef
+            type: Calcinai\Siri\Objects\RequestorRef
         messageIdentifier:
             expose: true
             access_type: public_method
@@ -49,4 +49,4 @@ Calcinai\Siri\ContextualisedRequestStructureType:
             accessor:
                 getter: getMessageIdentifier
                 setter: setMessageIdentifier
-            type: Calcinai\Siri\MessageQualifierStructureType
+            type: Calcinai\Siri\Objects\MessageQualifierStructureType

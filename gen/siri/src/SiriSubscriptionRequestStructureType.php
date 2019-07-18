@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SiriSubscriptionRequestStructureType
@@ -12,59 +12,59 @@ class SiriSubscriptionRequestStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\ProductionTimetableSubscriptionRequest $productionTimetableSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\ProductionTimetableSubscriptionRequest $productionTimetableSubscriptionRequest
      */
     private $productionTimetableSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedTimetableSubscriptionRequest $estimatedTimetableSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\EstimatedTimetableSubscriptionRequest $estimatedTimetableSubscriptionRequest
      */
     private $estimatedTimetableSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\StopTimetableSubscriptionRequest $stopTimetableSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\StopTimetableSubscriptionRequest $stopTimetableSubscriptionRequest
      */
     private $stopTimetableSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\StopMonitoringSubscriptionRequest $stopMonitoringSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\StopMonitoringSubscriptionRequest $stopMonitoringSubscriptionRequest
      */
     private $stopMonitoringSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\VehicleMonitoringSubscriptionRequest $vehicleMonitoringSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringSubscriptionRequest $vehicleMonitoringSubscriptionRequest
      */
     private $vehicleMonitoringSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionTimetableSubscriptionRequest $connectionTimetableSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableSubscriptionRequest $connectionTimetableSubscriptionRequest
      */
     private $connectionTimetableSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionMonitoringSubscriptionRequest $connectionMonitoringSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequest $connectionMonitoringSubscriptionRequest
      */
     private $connectionMonitoringSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\GeneralMessageSubscriptionRequest $generalMessageSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\GeneralMessageSubscriptionRequest $generalMessageSubscriptionRequest
      */
     private $generalMessageSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityMonitoringSubscriptionRequest $facilityMonitoringSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringSubscriptionRequest $facilityMonitoringSubscriptionRequest
      */
     private $facilityMonitoringSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\SituationExchangeSubscriptionRequest $situationExchangeSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\SituationExchangeSubscriptionRequest $situationExchangeSubscriptionRequest
      */
     private $situationExchangeSubscriptionRequest = null;
 
     /**
      * Gets as productionTimetableSubscriptionRequest
      *
-     * @return \Calcinai\Siri\ProductionTimetableSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\ProductionTimetableSubscriptionRequest
      */
     public function getProductionTimetableSubscriptionRequest()
     {
@@ -74,10 +74,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new productionTimetableSubscriptionRequest
      *
-     * @param \Calcinai\Siri\ProductionTimetableSubscriptionRequest $productionTimetableSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\ProductionTimetableSubscriptionRequest $productionTimetableSubscriptionRequest
      * @return self
      */
-    public function setProductionTimetableSubscriptionRequest(\Calcinai\Siri\ProductionTimetableSubscriptionRequest $productionTimetableSubscriptionRequest)
+    public function setProductionTimetableSubscriptionRequest(\Calcinai\Siri\Objects\ProductionTimetableSubscriptionRequest $productionTimetableSubscriptionRequest)
     {
         $this->productionTimetableSubscriptionRequest = $productionTimetableSubscriptionRequest;
         return $this;
@@ -86,7 +86,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as estimatedTimetableSubscriptionRequest
      *
-     * @return \Calcinai\Siri\EstimatedTimetableSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\EstimatedTimetableSubscriptionRequest
      */
     public function getEstimatedTimetableSubscriptionRequest()
     {
@@ -96,10 +96,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new estimatedTimetableSubscriptionRequest
      *
-     * @param \Calcinai\Siri\EstimatedTimetableSubscriptionRequest $estimatedTimetableSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\EstimatedTimetableSubscriptionRequest $estimatedTimetableSubscriptionRequest
      * @return self
      */
-    public function setEstimatedTimetableSubscriptionRequest(\Calcinai\Siri\EstimatedTimetableSubscriptionRequest $estimatedTimetableSubscriptionRequest)
+    public function setEstimatedTimetableSubscriptionRequest(\Calcinai\Siri\Objects\EstimatedTimetableSubscriptionRequest $estimatedTimetableSubscriptionRequest)
     {
         $this->estimatedTimetableSubscriptionRequest = $estimatedTimetableSubscriptionRequest;
         return $this;
@@ -108,7 +108,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as stopTimetableSubscriptionRequest
      *
-     * @return \Calcinai\Siri\StopTimetableSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\StopTimetableSubscriptionRequest
      */
     public function getStopTimetableSubscriptionRequest()
     {
@@ -118,10 +118,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new stopTimetableSubscriptionRequest
      *
-     * @param \Calcinai\Siri\StopTimetableSubscriptionRequest $stopTimetableSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\StopTimetableSubscriptionRequest $stopTimetableSubscriptionRequest
      * @return self
      */
-    public function setStopTimetableSubscriptionRequest(\Calcinai\Siri\StopTimetableSubscriptionRequest $stopTimetableSubscriptionRequest)
+    public function setStopTimetableSubscriptionRequest(\Calcinai\Siri\Objects\StopTimetableSubscriptionRequest $stopTimetableSubscriptionRequest)
     {
         $this->stopTimetableSubscriptionRequest = $stopTimetableSubscriptionRequest;
         return $this;
@@ -130,7 +130,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as stopMonitoringSubscriptionRequest
      *
-     * @return \Calcinai\Siri\StopMonitoringSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\StopMonitoringSubscriptionRequest
      */
     public function getStopMonitoringSubscriptionRequest()
     {
@@ -140,10 +140,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new stopMonitoringSubscriptionRequest
      *
-     * @param \Calcinai\Siri\StopMonitoringSubscriptionRequest $stopMonitoringSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\StopMonitoringSubscriptionRequest $stopMonitoringSubscriptionRequest
      * @return self
      */
-    public function setStopMonitoringSubscriptionRequest(\Calcinai\Siri\StopMonitoringSubscriptionRequest $stopMonitoringSubscriptionRequest)
+    public function setStopMonitoringSubscriptionRequest(\Calcinai\Siri\Objects\StopMonitoringSubscriptionRequest $stopMonitoringSubscriptionRequest)
     {
         $this->stopMonitoringSubscriptionRequest = $stopMonitoringSubscriptionRequest;
         return $this;
@@ -152,7 +152,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as vehicleMonitoringSubscriptionRequest
      *
-     * @return \Calcinai\Siri\VehicleMonitoringSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringSubscriptionRequest
      */
     public function getVehicleMonitoringSubscriptionRequest()
     {
@@ -162,10 +162,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new vehicleMonitoringSubscriptionRequest
      *
-     * @param \Calcinai\Siri\VehicleMonitoringSubscriptionRequest $vehicleMonitoringSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringSubscriptionRequest $vehicleMonitoringSubscriptionRequest
      * @return self
      */
-    public function setVehicleMonitoringSubscriptionRequest(\Calcinai\Siri\VehicleMonitoringSubscriptionRequest $vehicleMonitoringSubscriptionRequest)
+    public function setVehicleMonitoringSubscriptionRequest(\Calcinai\Siri\Objects\VehicleMonitoringSubscriptionRequest $vehicleMonitoringSubscriptionRequest)
     {
         $this->vehicleMonitoringSubscriptionRequest = $vehicleMonitoringSubscriptionRequest;
         return $this;
@@ -174,7 +174,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as connectionTimetableSubscriptionRequest
      *
-     * @return \Calcinai\Siri\ConnectionTimetableSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableSubscriptionRequest
      */
     public function getConnectionTimetableSubscriptionRequest()
     {
@@ -184,10 +184,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new connectionTimetableSubscriptionRequest
      *
-     * @param \Calcinai\Siri\ConnectionTimetableSubscriptionRequest $connectionTimetableSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableSubscriptionRequest $connectionTimetableSubscriptionRequest
      * @return self
      */
-    public function setConnectionTimetableSubscriptionRequest(\Calcinai\Siri\ConnectionTimetableSubscriptionRequest $connectionTimetableSubscriptionRequest)
+    public function setConnectionTimetableSubscriptionRequest(\Calcinai\Siri\Objects\ConnectionTimetableSubscriptionRequest $connectionTimetableSubscriptionRequest)
     {
         $this->connectionTimetableSubscriptionRequest = $connectionTimetableSubscriptionRequest;
         return $this;
@@ -196,7 +196,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as connectionMonitoringSubscriptionRequest
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequest
      */
     public function getConnectionMonitoringSubscriptionRequest()
     {
@@ -206,10 +206,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new connectionMonitoringSubscriptionRequest
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringSubscriptionRequest $connectionMonitoringSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequest $connectionMonitoringSubscriptionRequest
      * @return self
      */
-    public function setConnectionMonitoringSubscriptionRequest(\Calcinai\Siri\ConnectionMonitoringSubscriptionRequest $connectionMonitoringSubscriptionRequest)
+    public function setConnectionMonitoringSubscriptionRequest(\Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequest $connectionMonitoringSubscriptionRequest)
     {
         $this->connectionMonitoringSubscriptionRequest = $connectionMonitoringSubscriptionRequest;
         return $this;
@@ -218,7 +218,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as generalMessageSubscriptionRequest
      *
-     * @return \Calcinai\Siri\GeneralMessageSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\GeneralMessageSubscriptionRequest
      */
     public function getGeneralMessageSubscriptionRequest()
     {
@@ -228,10 +228,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new generalMessageSubscriptionRequest
      *
-     * @param \Calcinai\Siri\GeneralMessageSubscriptionRequest $generalMessageSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\GeneralMessageSubscriptionRequest $generalMessageSubscriptionRequest
      * @return self
      */
-    public function setGeneralMessageSubscriptionRequest(\Calcinai\Siri\GeneralMessageSubscriptionRequest $generalMessageSubscriptionRequest)
+    public function setGeneralMessageSubscriptionRequest(\Calcinai\Siri\Objects\GeneralMessageSubscriptionRequest $generalMessageSubscriptionRequest)
     {
         $this->generalMessageSubscriptionRequest = $generalMessageSubscriptionRequest;
         return $this;
@@ -240,7 +240,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as facilityMonitoringSubscriptionRequest
      *
-     * @return \Calcinai\Siri\FacilityMonitoringSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringSubscriptionRequest
      */
     public function getFacilityMonitoringSubscriptionRequest()
     {
@@ -250,10 +250,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new facilityMonitoringSubscriptionRequest
      *
-     * @param \Calcinai\Siri\FacilityMonitoringSubscriptionRequest $facilityMonitoringSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringSubscriptionRequest $facilityMonitoringSubscriptionRequest
      * @return self
      */
-    public function setFacilityMonitoringSubscriptionRequest(\Calcinai\Siri\FacilityMonitoringSubscriptionRequest $facilityMonitoringSubscriptionRequest)
+    public function setFacilityMonitoringSubscriptionRequest(\Calcinai\Siri\Objects\FacilityMonitoringSubscriptionRequest $facilityMonitoringSubscriptionRequest)
     {
         $this->facilityMonitoringSubscriptionRequest = $facilityMonitoringSubscriptionRequest;
         return $this;
@@ -262,7 +262,7 @@ class SiriSubscriptionRequestStructureType
     /**
      * Gets as situationExchangeSubscriptionRequest
      *
-     * @return \Calcinai\Siri\SituationExchangeSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\SituationExchangeSubscriptionRequest
      */
     public function getSituationExchangeSubscriptionRequest()
     {
@@ -272,10 +272,10 @@ class SiriSubscriptionRequestStructureType
     /**
      * Sets a new situationExchangeSubscriptionRequest
      *
-     * @param \Calcinai\Siri\SituationExchangeSubscriptionRequest $situationExchangeSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\SituationExchangeSubscriptionRequest $situationExchangeSubscriptionRequest
      * @return self
      */
-    public function setSituationExchangeSubscriptionRequest(\Calcinai\Siri\SituationExchangeSubscriptionRequest $situationExchangeSubscriptionRequest)
+    public function setSituationExchangeSubscriptionRequest(\Calcinai\Siri\Objects\SituationExchangeSubscriptionRequest $situationExchangeSubscriptionRequest)
     {
         $this->situationExchangeSubscriptionRequest = $situationExchangeSubscriptionRequest;
         return $this;

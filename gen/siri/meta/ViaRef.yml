@@ -1,3 +1,3 @@
-Calcinai\Siri\ViaRef:
+Calcinai\Siri\Objects\ViaRef:
     xml_root_name: ViaRef
     xml_root_namespace: 'http://www.siri.org.uk/siri'

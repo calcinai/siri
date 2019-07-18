@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing AbstractEquipmentStructureType
@@ -21,7 +21,7 @@ class AbstractEquipmentStructureType extends DataManagedObjectStructureType
     /**
      * If absent then manager same as for parent
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $equipmentName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $equipmentName
      */
     private $equipmentName = null;
 
@@ -63,7 +63,7 @@ class AbstractEquipmentStructureType extends DataManagedObjectStructureType
      *
      * If absent then manager same as for parent
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getEquipmentName()
     {
@@ -75,10 +75,10 @@ class AbstractEquipmentStructureType extends DataManagedObjectStructureType
      *
      * If absent then manager same as for parent
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $equipmentName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $equipmentName
      * @return self
      */
-    public function setEquipmentName(\Calcinai\Siri\NaturalLanguageStringStructureType $equipmentName)
+    public function setEquipmentName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $equipmentName)
     {
         $this->equipmentName = $equipmentName;
         return $this;

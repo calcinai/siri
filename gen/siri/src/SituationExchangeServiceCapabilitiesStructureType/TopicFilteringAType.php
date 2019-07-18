@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

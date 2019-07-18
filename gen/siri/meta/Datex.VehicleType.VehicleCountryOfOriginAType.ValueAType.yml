@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType:
+Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType:
     properties:
         __value:
             expose: true

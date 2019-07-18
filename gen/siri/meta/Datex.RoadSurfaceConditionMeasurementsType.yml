@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType:
+Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType:
     properties:
         deIcingApplicationRate:
             expose: true
@@ -69,4 +69,4 @@ Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType:
             accessor:
                 getter: getRoadSurfaceConditionMeasurementsExtension
                 setter: setRoadSurfaceConditionMeasurementsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

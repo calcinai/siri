@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SupplementaryPositionalDescriptionType
@@ -53,7 +53,7 @@ class SupplementaryPositionalDescriptionType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $supplementaryPositionalDescriptionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $supplementaryPositionalDescriptionExtension
      */
     private $supplementaryPositionalDescriptionExtension = null;
 
@@ -310,7 +310,7 @@ class SupplementaryPositionalDescriptionType
     /**
      * Gets as supplementaryPositionalDescriptionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSupplementaryPositionalDescriptionExtension()
     {
@@ -320,10 +320,10 @@ class SupplementaryPositionalDescriptionType
     /**
      * Sets a new supplementaryPositionalDescriptionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $supplementaryPositionalDescriptionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $supplementaryPositionalDescriptionExtension
      * @return self
      */
-    public function setSupplementaryPositionalDescriptionExtension(\Calcinai\Siri\Datex\ExtensionType $supplementaryPositionalDescriptionExtension)
+    public function setSupplementaryPositionalDescriptionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $supplementaryPositionalDescriptionExtension)
     {
         $this->supplementaryPositionalDescriptionExtension = $supplementaryPositionalDescriptionExtension;
         return $this;

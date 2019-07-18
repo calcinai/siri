@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\MeasurementSiteRecordType;
+namespace Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType;
 
 /**
  * Class representing MeasurementSiteNameAType
@@ -9,7 +9,7 @@ class MeasurementSiteNameAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class MeasurementSiteNameAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class MeasurementSiteNameAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class MeasurementSiteNameAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

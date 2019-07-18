@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractSubscriptionStructureType:
+Calcinai\Siri\Objects\AbstractSubscriptionStructureType:
     properties:
         subscriberRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AbstractSubscriptionStructureType:
             accessor:
                 getter: getSubscriberRef
                 setter: setSubscriberRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         subscriptionIdentifier:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AbstractSubscriptionStructureType:
             accessor:
                 getter: getSubscriptionIdentifier
                 setter: setSubscriptionIdentifier
-            type: Calcinai\Siri\SubscriptionQualifierStructureType
+            type: Calcinai\Siri\Objects\SubscriptionQualifierStructureType
         initialTerminationTime:
             expose: true
             access_type: public_method

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringPermissions
@@ -11,7 +11,7 @@ class ConnectionMonitoringPermissions
 {
 
     /**
-     * @property \Calcinai\Siri\ConnectionServicePermissionStructureType[] $connectionMonitoringPermission
+     * @property \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $connectionMonitoringPermission
      */
     private $connectionMonitoringPermission = [
         
@@ -21,9 +21,9 @@ class ConnectionMonitoringPermissions
      * Adds as connectionMonitoringPermission
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType $connectionMonitoringPermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $connectionMonitoringPermission
      */
-    public function addToConnectionMonitoringPermission(\Calcinai\Siri\ConnectionServicePermissionStructureType $connectionMonitoringPermission)
+    public function addToConnectionMonitoringPermission(\Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $connectionMonitoringPermission)
     {
         $this->connectionMonitoringPermission[] = $connectionMonitoringPermission;
         return $this;
@@ -54,7 +54,7 @@ class ConnectionMonitoringPermissions
     /**
      * Gets as connectionMonitoringPermission
      *
-     * @return \Calcinai\Siri\ConnectionServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[]
      */
     public function getConnectionMonitoringPermission()
     {
@@ -64,7 +64,7 @@ class ConnectionMonitoringPermissions
     /**
      * Sets a new connectionMonitoringPermission
      *
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType[] $connectionMonitoringPermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $connectionMonitoringPermission
      * @return self
      */
     public function setConnectionMonitoringPermission(array $connectionMonitoringPermission)

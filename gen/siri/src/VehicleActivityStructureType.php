@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleActivityStructureType
@@ -28,28 +28,28 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Provides information about the progress of the vehicle along its current link.
      *
-     * @property \Calcinai\Siri\ProgressBetweenStopsStructureType $progressBetweenStops
+     * @property \Calcinai\Siri\Objects\ProgressBetweenStopsStructureType $progressBetweenStops
      */
     private $progressBetweenStops = null;
 
     /**
      * Monitored vehicle journey that vehicle is following.
      *
-     * @property \Calcinai\Siri\VehicleActivityStructureType\MonitoredVehicleJourneyAType $monitoredVehicleJourney
+     * @property \Calcinai\Siri\Objects\VehicleActivityStructureType\MonitoredVehicleJourneyAType $monitoredVehicleJourney
      */
     private $monitoredVehicleJourney = null;
 
     /**
      * Text associated with Delivery.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType[] $vehicleActivityNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $vehicleActivityNote
      */
     private $vehicleActivityNote = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -110,7 +110,7 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
      *
      * Provides information about the progress of the vehicle along its current link.
      *
-     * @return \Calcinai\Siri\ProgressBetweenStopsStructureType
+     * @return \Calcinai\Siri\Objects\ProgressBetweenStopsStructureType
      */
     public function getProgressBetweenStops()
     {
@@ -122,10 +122,10 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
      *
      * Provides information about the progress of the vehicle along its current link.
      *
-     * @param \Calcinai\Siri\ProgressBetweenStopsStructureType $progressBetweenStops
+     * @param \Calcinai\Siri\Objects\ProgressBetweenStopsStructureType $progressBetweenStops
      * @return self
      */
-    public function setProgressBetweenStops(\Calcinai\Siri\ProgressBetweenStopsStructureType $progressBetweenStops)
+    public function setProgressBetweenStops(\Calcinai\Siri\Objects\ProgressBetweenStopsStructureType $progressBetweenStops)
     {
         $this->progressBetweenStops = $progressBetweenStops;
         return $this;
@@ -136,7 +136,7 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
      *
      * Monitored vehicle journey that vehicle is following.
      *
-     * @return \Calcinai\Siri\VehicleActivityStructureType\MonitoredVehicleJourneyAType
+     * @return \Calcinai\Siri\Objects\VehicleActivityStructureType\MonitoredVehicleJourneyAType
      */
     public function getMonitoredVehicleJourney()
     {
@@ -148,10 +148,10 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
      *
      * Monitored vehicle journey that vehicle is following.
      *
-     * @param \Calcinai\Siri\VehicleActivityStructureType\MonitoredVehicleJourneyAType $monitoredVehicleJourney
+     * @param \Calcinai\Siri\Objects\VehicleActivityStructureType\MonitoredVehicleJourneyAType $monitoredVehicleJourney
      * @return self
      */
-    public function setMonitoredVehicleJourney(\Calcinai\Siri\VehicleActivityStructureType\MonitoredVehicleJourneyAType $monitoredVehicleJourney)
+    public function setMonitoredVehicleJourney(\Calcinai\Siri\Objects\VehicleActivityStructureType\MonitoredVehicleJourneyAType $monitoredVehicleJourney)
     {
         $this->monitoredVehicleJourney = $monitoredVehicleJourney;
         return $this;
@@ -163,9 +163,9 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
      * Text associated with Delivery.
      *
      * @return self
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleActivityNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote
      */
-    public function addToVehicleActivityNote(\Calcinai\Siri\NaturalLanguageStringStructureType $vehicleActivityNote)
+    public function addToVehicleActivityNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote)
     {
         $this->vehicleActivityNote[] = $vehicleActivityNote;
         return $this;
@@ -202,7 +202,7 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
      *
      * Text associated with Delivery.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType[]
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[]
      */
     public function getVehicleActivityNote()
     {
@@ -214,7 +214,7 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
      *
      * Text associated with Delivery.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType[] $vehicleActivityNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $vehicleActivityNote
      * @return self
      */
     public function setVehicleActivityNote(array $vehicleActivityNote)
@@ -226,7 +226,7 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -236,10 +236,10 @@ class VehicleActivityStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

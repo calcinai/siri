@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductionTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\ProductionTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         filterByValidityPeriod:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\NetworkRefStructureType:
+Calcinai\Siri\Objects\NetworkRefStructureType:
     properties:
         __value:
             expose: true

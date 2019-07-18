@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopTimetableServiceCapabilitiesStructureType
@@ -14,26 +14,26 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
     /**
      * Available Filtering Capabilities
      *
-     * @property \Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @property \Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      */
     private $topicFiltering = null;
 
     /**
      * Available request policy options.
      *
-     * @property \Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType $requestPolicy
+     * @property \Calcinai\Siri\Objects\StopMonitoringCapabilityRequestPolicyStructureType $requestPolicy
      */
     private $requestPolicy = null;
 
     /**
      * Access control that can be used.
      *
-     * @property \Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\AccessControlAType $accessControl
+     * @property \Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\AccessControlAType $accessControl
      */
     private $accessControl = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -42,7 +42,7 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
      *
      * Available Filtering Capabilities
      *
-     * @return \Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType
+     * @return \Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType
      */
     public function getTopicFiltering()
     {
@@ -54,10 +54,10 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
      *
      * Available Filtering Capabilities
      *
-     * @param \Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @param \Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      * @return self
      */
-    public function setTopicFiltering(\Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
+    public function setTopicFiltering(\Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
     {
         $this->topicFiltering = $topicFiltering;
         return $this;
@@ -68,7 +68,7 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
      *
      * Available request policy options.
      *
-     * @return \Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType
+     * @return \Calcinai\Siri\Objects\StopMonitoringCapabilityRequestPolicyStructureType
      */
     public function getRequestPolicy()
     {
@@ -80,10 +80,10 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
      *
      * Available request policy options.
      *
-     * @param \Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType $requestPolicy
+     * @param \Calcinai\Siri\Objects\StopMonitoringCapabilityRequestPolicyStructureType $requestPolicy
      * @return self
      */
-    public function setRequestPolicy(\Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType $requestPolicy)
+    public function setRequestPolicy(\Calcinai\Siri\Objects\StopMonitoringCapabilityRequestPolicyStructureType $requestPolicy)
     {
         $this->requestPolicy = $requestPolicy;
         return $this;
@@ -94,7 +94,7 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
      *
      * Access control that can be used.
      *
-     * @return \Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\AccessControlAType
+     * @return \Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\AccessControlAType
      */
     public function getAccessControl()
     {
@@ -106,10 +106,10 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
      *
      * Access control that can be used.
      *
-     * @param \Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\AccessControlAType $accessControl
+     * @param \Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\AccessControlAType $accessControl
      * @return self
      */
-    public function setAccessControl(\Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\AccessControlAType $accessControl)
+    public function setAccessControl(\Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\AccessControlAType $accessControl)
     {
         $this->accessControl = $accessControl;
         return $this;
@@ -118,7 +118,7 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -128,10 +128,10 @@ class StopTimetableServiceCapabilitiesStructureType extends AbstractCapabilities
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

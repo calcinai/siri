@@ -1,4 +1,4 @@
-Calcinai\Siri\CasualtiesStructureType:
+Calcinai\Siri\Objects\CasualtiesStructureType:
     properties:
         numberOfDeaths:
             expose: true

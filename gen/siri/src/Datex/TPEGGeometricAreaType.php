@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGGeometricAreaType
@@ -19,17 +19,17 @@ class TPEGGeometricAreaType extends TPEGAreaLocationType
     private $radius = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\PointCoordinatesType $centrePoint
+     * @property \Calcinai\Siri\Objects\Datex\PointCoordinatesType $centrePoint
      */
     private $centrePoint = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGAreaDescriptorType $name
+     * @property \Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType $name
      */
     private $name = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpeggeometricAreaExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpeggeometricAreaExtension
      */
     private $tpeggeometricAreaExtension = null;
 
@@ -62,7 +62,7 @@ class TPEGGeometricAreaType extends TPEGAreaLocationType
     /**
      * Gets as centrePoint
      *
-     * @return \Calcinai\Siri\Datex\PointCoordinatesType
+     * @return \Calcinai\Siri\Objects\Datex\PointCoordinatesType
      */
     public function getCentrePoint()
     {
@@ -72,10 +72,10 @@ class TPEGGeometricAreaType extends TPEGAreaLocationType
     /**
      * Sets a new centrePoint
      *
-     * @param \Calcinai\Siri\Datex\PointCoordinatesType $centrePoint
+     * @param \Calcinai\Siri\Objects\Datex\PointCoordinatesType $centrePoint
      * @return self
      */
-    public function setCentrePoint(\Calcinai\Siri\Datex\PointCoordinatesType $centrePoint)
+    public function setCentrePoint(\Calcinai\Siri\Objects\Datex\PointCoordinatesType $centrePoint)
     {
         $this->centrePoint = $centrePoint;
         return $this;
@@ -84,7 +84,7 @@ class TPEGGeometricAreaType extends TPEGAreaLocationType
     /**
      * Gets as name
      *
-     * @return \Calcinai\Siri\Datex\TPEGAreaDescriptorType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType
      */
     public function getName()
     {
@@ -94,10 +94,10 @@ class TPEGGeometricAreaType extends TPEGAreaLocationType
     /**
      * Sets a new name
      *
-     * @param \Calcinai\Siri\Datex\TPEGAreaDescriptorType $name
+     * @param \Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType $name
      * @return self
      */
-    public function setName(\Calcinai\Siri\Datex\TPEGAreaDescriptorType $name)
+    public function setName(\Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType $name)
     {
         $this->name = $name;
         return $this;
@@ -106,7 +106,7 @@ class TPEGGeometricAreaType extends TPEGAreaLocationType
     /**
      * Gets as tpeggeometricAreaExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpeggeometricAreaExtension()
     {
@@ -116,10 +116,10 @@ class TPEGGeometricAreaType extends TPEGAreaLocationType
     /**
      * Sets a new tpeggeometricAreaExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpeggeometricAreaExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpeggeometricAreaExtension
      * @return self
      */
-    public function setTpeggeometricAreaExtension(\Calcinai\Siri\Datex\ExtensionType $tpeggeometricAreaExtension)
+    public function setTpeggeometricAreaExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpeggeometricAreaExtension)
     {
         $this->tpeggeometricAreaExtension = $tpeggeometricAreaExtension;
         return $this;

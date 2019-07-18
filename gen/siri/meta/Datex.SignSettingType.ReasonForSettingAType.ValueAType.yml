@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType:
+Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType\ValueAType:
     properties:
         __value:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\InfoMessageRefStructureType:
+Calcinai\Siri\Objects\InfoMessageRefStructureType:
     properties:
         __value:
             expose: true

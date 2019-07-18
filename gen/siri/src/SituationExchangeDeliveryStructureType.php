@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationExchangeDeliveryStructureType
@@ -21,19 +21,19 @@ class SituationExchangeDeliveryStructureType extends AbstractServiceDeliveryStru
     /**
      * Default context for common properties of Situations, Values specified apply to all situations unless overridden. Can be used optionally to reduce file bulk.
      *
-     * @property \Calcinai\Siri\ContextStructureType $ptSituationContext
+     * @property \Calcinai\Siri\Objects\ContextStructureType $ptSituationContext
      */
     private $ptSituationContext = null;
 
     /**
      * Situations in Delivery
      *
-     * @property \Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType $situations
+     * @property \Calcinai\Siri\Objects\SituationExchangeDeliveryStructureType\SituationsAType $situations
      */
     private $situations = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -68,7 +68,7 @@ class SituationExchangeDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Default context for common properties of Situations, Values specified apply to all situations unless overridden. Can be used optionally to reduce file bulk.
      *
-     * @return \Calcinai\Siri\ContextStructureType
+     * @return \Calcinai\Siri\Objects\ContextStructureType
      */
     public function getPtSituationContext()
     {
@@ -80,10 +80,10 @@ class SituationExchangeDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Default context for common properties of Situations, Values specified apply to all situations unless overridden. Can be used optionally to reduce file bulk.
      *
-     * @param \Calcinai\Siri\ContextStructureType $ptSituationContext
+     * @param \Calcinai\Siri\Objects\ContextStructureType $ptSituationContext
      * @return self
      */
-    public function setPtSituationContext(\Calcinai\Siri\ContextStructureType $ptSituationContext)
+    public function setPtSituationContext(\Calcinai\Siri\Objects\ContextStructureType $ptSituationContext)
     {
         $this->ptSituationContext = $ptSituationContext;
         return $this;
@@ -94,7 +94,7 @@ class SituationExchangeDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Situations in Delivery
      *
-     * @return \Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType
+     * @return \Calcinai\Siri\Objects\SituationExchangeDeliveryStructureType\SituationsAType
      */
     public function getSituations()
     {
@@ -106,10 +106,10 @@ class SituationExchangeDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Situations in Delivery
      *
-     * @param \Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType $situations
+     * @param \Calcinai\Siri\Objects\SituationExchangeDeliveryStructureType\SituationsAType $situations
      * @return self
      */
-    public function setSituations(\Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType $situations)
+    public function setSituations(\Calcinai\Siri\Objects\SituationExchangeDeliveryStructureType\SituationsAType $situations)
     {
         $this->situations = $situations;
         return $this;
@@ -118,7 +118,7 @@ class SituationExchangeDeliveryStructureType extends AbstractServiceDeliveryStru
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -128,10 +128,10 @@ class SituationExchangeDeliveryStructureType extends AbstractServiceDeliveryStru
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

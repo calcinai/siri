@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\DatedVehicleJourneyStructureType;
+namespace Calcinai\Siri\Objects\DatedVehicleJourneyStructureType;
 
 /**
  * Class representing DatedCallsAType
@@ -9,7 +9,7 @@ class DatedCallsAType
 {
 
     /**
-     * @property \Calcinai\Siri\DatedCall[] $datedCall
+     * @property \Calcinai\Siri\Objects\DatedCall[] $datedCall
      */
     private $datedCall = [
         
@@ -19,9 +19,9 @@ class DatedCallsAType
      * Adds as datedCall
      *
      * @return self
-     * @param \Calcinai\Siri\DatedCall $datedCall
+     * @param \Calcinai\Siri\Objects\DatedCall $datedCall
      */
-    public function addToDatedCall(\Calcinai\Siri\DatedCall $datedCall)
+    public function addToDatedCall(\Calcinai\Siri\Objects\DatedCall $datedCall)
     {
         $this->datedCall[] = $datedCall;
         return $this;
@@ -52,7 +52,7 @@ class DatedCallsAType
     /**
      * Gets as datedCall
      *
-     * @return \Calcinai\Siri\DatedCall[]
+     * @return \Calcinai\Siri\Objects\DatedCall[]
      */
     public function getDatedCall()
     {
@@ -62,7 +62,7 @@ class DatedCallsAType
     /**
      * Sets a new datedCall
      *
-     * @param \Calcinai\Siri\DatedCall[] $datedCall
+     * @param \Calcinai\Siri\Objects\DatedCall[] $datedCall
      * @return self
      */
     public function setDatedCall(array $datedCall)

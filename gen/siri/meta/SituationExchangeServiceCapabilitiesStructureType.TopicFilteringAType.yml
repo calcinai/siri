@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         defaultPreviewInterval:
             expose: true

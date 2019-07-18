@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGAreaLocationType
@@ -19,12 +19,12 @@ class TPEGAreaLocationType
     private $tpegLocationType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGHeightType $tpegheight
+     * @property \Calcinai\Siri\Objects\Datex\TPEGHeightType $tpegheight
      */
     private $tpegheight = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegareaLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegareaLocationExtension
      */
     private $tpegareaLocationExtension = null;
 
@@ -57,7 +57,7 @@ class TPEGAreaLocationType
     /**
      * Gets as tpegheight
      *
-     * @return \Calcinai\Siri\Datex\TPEGHeightType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGHeightType
      */
     public function getTpegheight()
     {
@@ -67,10 +67,10 @@ class TPEGAreaLocationType
     /**
      * Sets a new tpegheight
      *
-     * @param \Calcinai\Siri\Datex\TPEGHeightType $tpegheight
+     * @param \Calcinai\Siri\Objects\Datex\TPEGHeightType $tpegheight
      * @return self
      */
-    public function setTpegheight(\Calcinai\Siri\Datex\TPEGHeightType $tpegheight)
+    public function setTpegheight(\Calcinai\Siri\Objects\Datex\TPEGHeightType $tpegheight)
     {
         $this->tpegheight = $tpegheight;
         return $this;
@@ -79,7 +79,7 @@ class TPEGAreaLocationType
     /**
      * Gets as tpegareaLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegareaLocationExtension()
     {
@@ -89,10 +89,10 @@ class TPEGAreaLocationType
     /**
      * Sets a new tpegareaLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegareaLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegareaLocationExtension
      * @return self
      */
-    public function setTpegareaLocationExtension(\Calcinai\Siri\Datex\ExtensionType $tpegareaLocationExtension)
+    public function setTpegareaLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegareaLocationExtension)
     {
         $this->tpegareaLocationExtension = $tpegareaLocationExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ACSB;
+namespace Calcinai\Siri\Objects\ACSB;
 
 /**
  * Class representing SuitabilityStructureType
@@ -19,7 +19,7 @@ class SuitabilityStructureType
     private $suitable = null;
 
     /**
-     * @property \Calcinai\Siri\ACSB\UserNeedStructureType $userNeed
+     * @property \Calcinai\Siri\Objects\ACSB\UserNeedStructureType $userNeed
      */
     private $userNeed = null;
 
@@ -52,7 +52,7 @@ class SuitabilityStructureType
     /**
      * Gets as userNeed
      *
-     * @return \Calcinai\Siri\ACSB\UserNeedStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\UserNeedStructureType
      */
     public function getUserNeed()
     {
@@ -62,10 +62,10 @@ class SuitabilityStructureType
     /**
      * Sets a new userNeed
      *
-     * @param \Calcinai\Siri\ACSB\UserNeedStructureType $userNeed
+     * @param \Calcinai\Siri\Objects\ACSB\UserNeedStructureType $userNeed
      * @return self
      */
-    public function setUserNeed(\Calcinai\Siri\ACSB\UserNeedStructureType $userNeed)
+    public function setUserNeed(\Calcinai\Siri\Objects\ACSB\UserNeedStructureType $userNeed)
     {
         $this->userNeed = $userNeed;
         return $this;

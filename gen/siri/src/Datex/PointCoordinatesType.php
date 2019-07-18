@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PointCoordinatesType
@@ -26,7 +26,7 @@ class PointCoordinatesType
     private $longitude = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $pointCoordinatesExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $pointCoordinatesExtension
      */
     private $pointCoordinatesExtension = null;
 
@@ -85,7 +85,7 @@ class PointCoordinatesType
     /**
      * Gets as pointCoordinatesExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPointCoordinatesExtension()
     {
@@ -95,10 +95,10 @@ class PointCoordinatesType
     /**
      * Sets a new pointCoordinatesExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $pointCoordinatesExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $pointCoordinatesExtension
      * @return self
      */
-    public function setPointCoordinatesExtension(\Calcinai\Siri\Datex\ExtensionType $pointCoordinatesExtension)
+    public function setPointCoordinatesExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $pointCoordinatesExtension)
     {
         $this->pointCoordinatesExtension = $pointCoordinatesExtension;
         return $this;

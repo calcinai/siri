@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilitiesResponseStructureType:
+Calcinai\Siri\Objects\CapabilitiesResponseStructureType:
     properties:
         productionTimetableCapabilitiesResponse:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getProductionTimetableCapabilitiesResponse
                 setter: setProductionTimetableCapabilitiesResponse
-            type: Calcinai\Siri\ProductionTimetableCapabilitiesResponse
+            type: Calcinai\Siri\Objects\ProductionTimetableCapabilitiesResponse
         estimatedTimetableCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getEstimatedTimetableCapabilitiesResponse
                 setter: setEstimatedTimetableCapabilitiesResponse
-            type: Calcinai\Siri\EstimatedTimetableCapabilitiesResponse
+            type: Calcinai\Siri\Objects\EstimatedTimetableCapabilitiesResponse
         stopTimetableCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getStopTimetableCapabilitiesResponse
                 setter: setStopTimetableCapabilitiesResponse
-            type: Calcinai\Siri\StopTimetableCapabilitiesResponse
+            type: Calcinai\Siri\Objects\StopTimetableCapabilitiesResponse
         stopMonitoringCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getStopMonitoringCapabilitiesResponse
                 setter: setStopMonitoringCapabilitiesResponse
-            type: Calcinai\Siri\StopMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\Objects\StopMonitoringCapabilitiesResponse
         vehicleMonitoringCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getVehicleMonitoringCapabilitiesResponse
                 setter: setVehicleMonitoringCapabilitiesResponse
-            type: Calcinai\Siri\VehicleMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesResponse
         connectionTimetableCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getConnectionTimetableCapabilitiesResponse
                 setter: setConnectionTimetableCapabilitiesResponse
-            type: Calcinai\Siri\ConnectionTimetableCapabilitiesResponse
+            type: Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponse
         connectionMonitoringCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getConnectionMonitoringCapabilitiesResponse
                 setter: setConnectionMonitoringCapabilitiesResponse
-            type: Calcinai\Siri\ConnectionMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\Objects\ConnectionMonitoringCapabilitiesResponse
         generalMessageCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getGeneralMessageCapabilitiesResponse
                 setter: setGeneralMessageCapabilitiesResponse
-            type: Calcinai\Siri\GeneralMessageCapabilitiesResponse
+            type: Calcinai\Siri\Objects\GeneralMessageCapabilitiesResponse
         facilityMonitoringCapabilitiesResponse:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getFacilityMonitoringCapabilitiesResponse
                 setter: setFacilityMonitoringCapabilitiesResponse
-            type: Calcinai\Siri\FacilityMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\Objects\FacilityMonitoringCapabilitiesResponse
         situationExchangeServiceCapabilities:
             expose: true
             access_type: public_method
@@ -99,4 +99,4 @@ Calcinai\Siri\CapabilitiesResponseStructureType:
             accessor:
                 getter: getSituationExchangeServiceCapabilities
                 setter: setSituationExchangeServiceCapabilities
-            type: Calcinai\Siri\SituationExchangeServiceCapabilities
+            type: Calcinai\Siri\Objects\SituationExchangeServiceCapabilities

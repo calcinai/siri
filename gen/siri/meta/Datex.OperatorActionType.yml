@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\OperatorActionType:
+Calcinai\Siri\Objects\Datex\OperatorActionType:
     properties:
         actionOrigin:
             expose: true
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\OperatorActionType:
             accessor:
                 getter: getOperatorActionExtension
                 setter: setOperatorActionExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

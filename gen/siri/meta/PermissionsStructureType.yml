@@ -1,4 +1,4 @@
-Calcinai\Siri\PermissionsStructureType:
+Calcinai\Siri\Objects\PermissionsStructureType:
     properties:
         permissionVersionRef:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\PermissionsStructureType:
             accessor:
                 getter: getPermissionVersionRef
                 setter: setPermissionVersionRef
-            type: Calcinai\Siri\VersionRefStructureType
+            type: Calcinai\Siri\Objects\VersionRefStructureType

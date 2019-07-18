@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing DelaysType
@@ -33,7 +33,7 @@ class DelaysType
     private $delayTimeValue = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $delaysExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $delaysExtension
      */
     private $delaysExtension = null;
 
@@ -118,7 +118,7 @@ class DelaysType
     /**
      * Gets as delaysExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getDelaysExtension()
     {
@@ -128,10 +128,10 @@ class DelaysType
     /**
      * Sets a new delaysExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $delaysExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $delaysExtension
      * @return self
      */
-    public function setDelaysExtension(\Calcinai\Siri\Datex\ExtensionType $delaysExtension)
+    public function setDelaysExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $delaysExtension)
     {
         $this->delaysExtension = $delaysExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedLineStructureType\SectionsAType:
+Calcinai\Siri\Objects\AffectedLineStructureType\SectionsAType:
     properties:
         affectedSection:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectedLineStructureType\SectionsAType:
                 inline: true
                 entry_name: AffectedSection
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedSectionStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedSectionStructureType>

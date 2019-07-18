@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractDiscoveryDeliveryStructureType:
+Calcinai\Siri\Objects\AbstractDiscoveryDeliveryStructureType:
     properties:
         status:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\AbstractDiscoveryDeliveryStructureType:
             accessor:
                 getter: getErrorCondition
                 setter: setErrorCondition
-            type: Calcinai\Siri\ServiceDeliveryErrorConditionStructureType
+            type: Calcinai\Siri\Objects\ServiceDeliveryErrorConditionStructureType
         validUntil:
             expose: true
             access_type: public_method

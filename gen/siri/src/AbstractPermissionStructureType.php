@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AbstractPermissionStructureType
@@ -28,7 +28,7 @@ class AbstractPermissionStructureType
     /**
      * Permissions for general capabilities
      *
-     * @property \Calcinai\Siri\AbstractPermissionStructureType\GeneralCapabilitiesAType $generalCapabilities
+     * @property \Calcinai\Siri\Objects\AbstractPermissionStructureType\GeneralCapabilitiesAType $generalCapabilities
      */
     private $generalCapabilities = null;
 
@@ -89,7 +89,7 @@ class AbstractPermissionStructureType
      *
      * Permissions for general capabilities
      *
-     * @return \Calcinai\Siri\AbstractPermissionStructureType\GeneralCapabilitiesAType
+     * @return \Calcinai\Siri\Objects\AbstractPermissionStructureType\GeneralCapabilitiesAType
      */
     public function getGeneralCapabilities()
     {
@@ -101,10 +101,10 @@ class AbstractPermissionStructureType
      *
      * Permissions for general capabilities
      *
-     * @param \Calcinai\Siri\AbstractPermissionStructureType\GeneralCapabilitiesAType $generalCapabilities
+     * @param \Calcinai\Siri\Objects\AbstractPermissionStructureType\GeneralCapabilitiesAType $generalCapabilities
      * @return self
      */
-    public function setGeneralCapabilities(\Calcinai\Siri\AbstractPermissionStructureType\GeneralCapabilitiesAType $generalCapabilities)
+    public function setGeneralCapabilities(\Calcinai\Siri\Objects\AbstractPermissionStructureType\GeneralCapabilitiesAType $generalCapabilities)
     {
         $this->generalCapabilities = $generalCapabilities;
         return $this;

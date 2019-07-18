@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ReferencePointSecondaryLocationType:
+Calcinai\Siri\Objects\Datex\ReferencePointSecondaryLocationType:
     properties:
         referencePoint:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\ReferencePointSecondaryLocationType:
             accessor:
                 getter: getReferencePoint
                 setter: setReferencePoint
-            type: Calcinai\Siri\Datex\ReferencePointType
+            type: Calcinai\Siri\Objects\Datex\ReferencePointType
         referencePointSecondaryLocationExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\ReferencePointSecondaryLocationType:
             accessor:
                 getter: getReferencePointSecondaryLocationExtension
                 setter: setReferencePointSecondaryLocationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType:
+Calcinai\Siri\Objects\Datex\AssociatedMaintenanceVehiclesType:
     properties:
         numberOfMaintenanceVehicles:
             expose: true
@@ -33,4 +33,4 @@ Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType:
             accessor:
                 getter: getAssociatedMaintenanceVehiclesExtension
                 setter: setAssociatedMaintenanceVehiclesExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

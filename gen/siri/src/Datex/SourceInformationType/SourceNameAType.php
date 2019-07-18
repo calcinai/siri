@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\SourceInformationType;
+namespace Calcinai\Siri\Objects\Datex\SourceInformationType;
 
 /**
  * Class representing SourceNameAType
@@ -9,7 +9,7 @@ class SourceNameAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class SourceNameAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class SourceNameAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class SourceNameAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

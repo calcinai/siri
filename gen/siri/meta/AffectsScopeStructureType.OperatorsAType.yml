@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectsScopeStructureType\OperatorsAType:
+Calcinai\Siri\Objects\AffectsScopeStructureType\OperatorsAType:
     properties:
         allOperators:
             expose: true
@@ -23,4 +23,4 @@ Calcinai\Siri\AffectsScopeStructureType\OperatorsAType:
                 inline: true
                 entry_name: AffectedOperator
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedOperatorStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedOperatorStructureType>

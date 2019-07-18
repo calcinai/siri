@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ImpactType
@@ -19,17 +19,17 @@ class ImpactType
     private $impactOnTraffic = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ImpactDetailsType $impactDetails
+     * @property \Calcinai\Siri\Objects\Datex\ImpactDetailsType $impactDetails
      */
     private $impactDetails = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\DelaysType $delays
+     * @property \Calcinai\Siri\Objects\Datex\DelaysType $delays
      */
     private $delays = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $impactExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $impactExtension
      */
     private $impactExtension = null;
 
@@ -62,7 +62,7 @@ class ImpactType
     /**
      * Gets as impactDetails
      *
-     * @return \Calcinai\Siri\Datex\ImpactDetailsType
+     * @return \Calcinai\Siri\Objects\Datex\ImpactDetailsType
      */
     public function getImpactDetails()
     {
@@ -72,10 +72,10 @@ class ImpactType
     /**
      * Sets a new impactDetails
      *
-     * @param \Calcinai\Siri\Datex\ImpactDetailsType $impactDetails
+     * @param \Calcinai\Siri\Objects\Datex\ImpactDetailsType $impactDetails
      * @return self
      */
-    public function setImpactDetails(\Calcinai\Siri\Datex\ImpactDetailsType $impactDetails)
+    public function setImpactDetails(\Calcinai\Siri\Objects\Datex\ImpactDetailsType $impactDetails)
     {
         $this->impactDetails = $impactDetails;
         return $this;
@@ -84,7 +84,7 @@ class ImpactType
     /**
      * Gets as delays
      *
-     * @return \Calcinai\Siri\Datex\DelaysType
+     * @return \Calcinai\Siri\Objects\Datex\DelaysType
      */
     public function getDelays()
     {
@@ -94,10 +94,10 @@ class ImpactType
     /**
      * Sets a new delays
      *
-     * @param \Calcinai\Siri\Datex\DelaysType $delays
+     * @param \Calcinai\Siri\Objects\Datex\DelaysType $delays
      * @return self
      */
-    public function setDelays(\Calcinai\Siri\Datex\DelaysType $delays)
+    public function setDelays(\Calcinai\Siri\Objects\Datex\DelaysType $delays)
     {
         $this->delays = $delays;
         return $this;
@@ -106,7 +106,7 @@ class ImpactType
     /**
      * Gets as impactExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getImpactExtension()
     {
@@ -116,10 +116,10 @@ class ImpactType
     /**
      * Sets a new impactExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $impactExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $impactExtension
      * @return self
      */
-    public function setImpactExtension(\Calcinai\Siri\Datex\ExtensionType $impactExtension)
+    public function setImpactExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $impactExtension)
     {
         $this->impactExtension = $impactExtension;
         return $this;

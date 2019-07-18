@@ -1,4 +1,4 @@
-Calcinai\Siri\DirectionRefStructureType:
+Calcinai\Siri\Objects\DirectionRefStructureType:
     properties:
         __value:
             expose: true

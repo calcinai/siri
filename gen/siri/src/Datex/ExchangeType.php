@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ExchangeType
@@ -82,36 +82,36 @@ class ExchangeType
     private $subscriptionReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\InternationalIdentifierType $supplierIdentification
+     * @property \Calcinai\Siri\Objects\Datex\InternationalIdentifierType $supplierIdentification
      */
     private $supplierIdentification = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TargetType $target
+     * @property \Calcinai\Siri\Objects\Datex\TargetType $target
      */
     private $target = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SubscriptionType $subscription
+     * @property \Calcinai\Siri\Objects\Datex\SubscriptionType $subscription
      */
     private $subscription = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\FilterReferenceType[] $filterReference
+     * @property \Calcinai\Siri\Objects\Datex\FilterReferenceType[] $filterReference
      */
     private $filterReference = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\CatalogueReferenceType[] $catalogueReference
+     * @property \Calcinai\Siri\Objects\Datex\CatalogueReferenceType[] $catalogueReference
      */
     private $catalogueReference = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $exchangeExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $exchangeExtension
      */
     private $exchangeExtension = null;
 
@@ -378,7 +378,7 @@ class ExchangeType
     /**
      * Gets as supplierIdentification
      *
-     * @return \Calcinai\Siri\Datex\InternationalIdentifierType
+     * @return \Calcinai\Siri\Objects\Datex\InternationalIdentifierType
      */
     public function getSupplierIdentification()
     {
@@ -388,10 +388,10 @@ class ExchangeType
     /**
      * Sets a new supplierIdentification
      *
-     * @param \Calcinai\Siri\Datex\InternationalIdentifierType $supplierIdentification
+     * @param \Calcinai\Siri\Objects\Datex\InternationalIdentifierType $supplierIdentification
      * @return self
      */
-    public function setSupplierIdentification(\Calcinai\Siri\Datex\InternationalIdentifierType $supplierIdentification)
+    public function setSupplierIdentification(\Calcinai\Siri\Objects\Datex\InternationalIdentifierType $supplierIdentification)
     {
         $this->supplierIdentification = $supplierIdentification;
         return $this;
@@ -400,7 +400,7 @@ class ExchangeType
     /**
      * Gets as target
      *
-     * @return \Calcinai\Siri\Datex\TargetType
+     * @return \Calcinai\Siri\Objects\Datex\TargetType
      */
     public function getTarget()
     {
@@ -410,10 +410,10 @@ class ExchangeType
     /**
      * Sets a new target
      *
-     * @param \Calcinai\Siri\Datex\TargetType $target
+     * @param \Calcinai\Siri\Objects\Datex\TargetType $target
      * @return self
      */
-    public function setTarget(\Calcinai\Siri\Datex\TargetType $target)
+    public function setTarget(\Calcinai\Siri\Objects\Datex\TargetType $target)
     {
         $this->target = $target;
         return $this;
@@ -422,7 +422,7 @@ class ExchangeType
     /**
      * Gets as subscription
      *
-     * @return \Calcinai\Siri\Datex\SubscriptionType
+     * @return \Calcinai\Siri\Objects\Datex\SubscriptionType
      */
     public function getSubscription()
     {
@@ -432,10 +432,10 @@ class ExchangeType
     /**
      * Sets a new subscription
      *
-     * @param \Calcinai\Siri\Datex\SubscriptionType $subscription
+     * @param \Calcinai\Siri\Objects\Datex\SubscriptionType $subscription
      * @return self
      */
-    public function setSubscription(\Calcinai\Siri\Datex\SubscriptionType $subscription)
+    public function setSubscription(\Calcinai\Siri\Objects\Datex\SubscriptionType $subscription)
     {
         $this->subscription = $subscription;
         return $this;
@@ -445,9 +445,9 @@ class ExchangeType
      * Adds as filterReference
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\FilterReferenceType $filterReference
+     * @param \Calcinai\Siri\Objects\Datex\FilterReferenceType $filterReference
      */
-    public function addToFilterReference(\Calcinai\Siri\Datex\FilterReferenceType $filterReference)
+    public function addToFilterReference(\Calcinai\Siri\Objects\Datex\FilterReferenceType $filterReference)
     {
         $this->filterReference[] = $filterReference;
         return $this;
@@ -478,7 +478,7 @@ class ExchangeType
     /**
      * Gets as filterReference
      *
-     * @return \Calcinai\Siri\Datex\FilterReferenceType[]
+     * @return \Calcinai\Siri\Objects\Datex\FilterReferenceType[]
      */
     public function getFilterReference()
     {
@@ -488,7 +488,7 @@ class ExchangeType
     /**
      * Sets a new filterReference
      *
-     * @param \Calcinai\Siri\Datex\FilterReferenceType[] $filterReference
+     * @param \Calcinai\Siri\Objects\Datex\FilterReferenceType[] $filterReference
      * @return self
      */
     public function setFilterReference(array $filterReference)
@@ -501,9 +501,9 @@ class ExchangeType
      * Adds as catalogueReference
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\CatalogueReferenceType $catalogueReference
+     * @param \Calcinai\Siri\Objects\Datex\CatalogueReferenceType $catalogueReference
      */
-    public function addToCatalogueReference(\Calcinai\Siri\Datex\CatalogueReferenceType $catalogueReference)
+    public function addToCatalogueReference(\Calcinai\Siri\Objects\Datex\CatalogueReferenceType $catalogueReference)
     {
         $this->catalogueReference[] = $catalogueReference;
         return $this;
@@ -534,7 +534,7 @@ class ExchangeType
     /**
      * Gets as catalogueReference
      *
-     * @return \Calcinai\Siri\Datex\CatalogueReferenceType[]
+     * @return \Calcinai\Siri\Objects\Datex\CatalogueReferenceType[]
      */
     public function getCatalogueReference()
     {
@@ -544,7 +544,7 @@ class ExchangeType
     /**
      * Sets a new catalogueReference
      *
-     * @param \Calcinai\Siri\Datex\CatalogueReferenceType[] $catalogueReference
+     * @param \Calcinai\Siri\Objects\Datex\CatalogueReferenceType[] $catalogueReference
      * @return self
      */
     public function setCatalogueReference(array $catalogueReference)
@@ -556,7 +556,7 @@ class ExchangeType
     /**
      * Gets as exchangeExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getExchangeExtension()
     {
@@ -566,10 +566,10 @@ class ExchangeType
     /**
      * Sets a new exchangeExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $exchangeExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $exchangeExtension
      * @return self
      */
-    public function setExchangeExtension(\Calcinai\Siri\Datex\ExtensionType $exchangeExtension)
+    public function setExchangeExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $exchangeExtension)
     {
         $this->exchangeExtension = $exchangeExtension;
         return $this;

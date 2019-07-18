@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringRequestStructureType
@@ -35,14 +35,14 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
     /**
      * Return only journeys for the specified time
      *
-     * @property \Calcinai\Siri\ConnectingTimeFilterStructureType $connectingTimeFilter
+     * @property \Calcinai\Siri\Objects\ConnectingTimeFilterStructureType $connectingTimeFilter
      */
     private $connectingTimeFilter = null;
 
     /**
      * Return only the specified journeys
      *
-     * @property \Calcinai\Siri\ConnectingJourneyFilterStructureType $connectingJourneyFilter
+     * @property \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter
      */
     private $connectingJourneyFilter = null;
 
@@ -54,7 +54,7 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
     private $language = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -141,7 +141,7 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
      *
      * Return only journeys for the specified time
      *
-     * @return \Calcinai\Siri\ConnectingTimeFilterStructureType
+     * @return \Calcinai\Siri\Objects\ConnectingTimeFilterStructureType
      */
     public function getConnectingTimeFilter()
     {
@@ -153,10 +153,10 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
      *
      * Return only journeys for the specified time
      *
-     * @param \Calcinai\Siri\ConnectingTimeFilterStructureType $connectingTimeFilter
+     * @param \Calcinai\Siri\Objects\ConnectingTimeFilterStructureType $connectingTimeFilter
      * @return self
      */
-    public function setConnectingTimeFilter(\Calcinai\Siri\ConnectingTimeFilterStructureType $connectingTimeFilter)
+    public function setConnectingTimeFilter(\Calcinai\Siri\Objects\ConnectingTimeFilterStructureType $connectingTimeFilter)
     {
         $this->connectingTimeFilter = $connectingTimeFilter;
         return $this;
@@ -167,7 +167,7 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
      *
      * Return only the specified journeys
      *
-     * @return \Calcinai\Siri\ConnectingJourneyFilterStructureType
+     * @return \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType
      */
     public function getConnectingJourneyFilter()
     {
@@ -179,10 +179,10 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
      *
      * Return only the specified journeys
      *
-     * @param \Calcinai\Siri\ConnectingJourneyFilterStructureType $connectingJourneyFilter
+     * @param \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter
      * @return self
      */
-    public function setConnectingJourneyFilter(\Calcinai\Siri\ConnectingJourneyFilterStructureType $connectingJourneyFilter)
+    public function setConnectingJourneyFilter(\Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter)
     {
         $this->connectingJourneyFilter = $connectingJourneyFilter;
         return $this;
@@ -217,7 +217,7 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -227,10 +227,10 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityMonitoringDeliveryStructureType
@@ -19,12 +19,12 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityConditionStructureType $facilityCondition
+     * @property \Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition
      */
     private $facilityCondition = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -57,7 +57,7 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Gets as facilityCondition
      *
-     * @return \Calcinai\Siri\FacilityConditionStructureType
+     * @return \Calcinai\Siri\Objects\FacilityConditionStructureType
      */
     public function getFacilityCondition()
     {
@@ -67,10 +67,10 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Sets a new facilityCondition
      *
-     * @param \Calcinai\Siri\FacilityConditionStructureType $facilityCondition
+     * @param \Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition
      * @return self
      */
-    public function setFacilityCondition(\Calcinai\Siri\FacilityConditionStructureType $facilityCondition)
+    public function setFacilityCondition(\Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition)
     {
         $this->facilityCondition = $facilityCondition;
         return $this;
@@ -79,7 +79,7 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -89,10 +89,10 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

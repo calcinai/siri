@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing WinterDrivingType
@@ -19,7 +19,7 @@ class WinterDrivingType extends AdviceType
     private $winterDrivingAdvice = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $winterDrivingExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $winterDrivingExtension
      */
     private $winterDrivingExtension = null;
 
@@ -52,7 +52,7 @@ class WinterDrivingType extends AdviceType
     /**
      * Gets as winterDrivingExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getWinterDrivingExtension()
     {
@@ -62,10 +62,10 @@ class WinterDrivingType extends AdviceType
     /**
      * Sets a new winterDrivingExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $winterDrivingExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $winterDrivingExtension
      * @return self
      */
-    public function setWinterDrivingExtension(\Calcinai\Siri\Datex\ExtensionType $winterDrivingExtension)
+    public function setWinterDrivingExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $winterDrivingExtension)
     {
         $this->winterDrivingExtension = $winterDrivingExtension;
         return $this;

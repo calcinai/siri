@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\PtSituationElementStructureType;
+namespace Calcinai\Siri\Objects\PtSituationElementStructureType;
 
 /**
  * Class representing InfoLinksAType
@@ -11,7 +11,7 @@ class InfoLinksAType
     /**
      * Hyperlink description
      *
-     * @property \Calcinai\Siri\InfoLinkStructureType[] $infoLink
+     * @property \Calcinai\Siri\Objects\InfoLinkStructureType[] $infoLink
      */
     private $infoLink = [
         
@@ -23,9 +23,9 @@ class InfoLinksAType
      * Hyperlink description
      *
      * @return self
-     * @param \Calcinai\Siri\InfoLinkStructureType $infoLink
+     * @param \Calcinai\Siri\Objects\InfoLinkStructureType $infoLink
      */
-    public function addToInfoLink(\Calcinai\Siri\InfoLinkStructureType $infoLink)
+    public function addToInfoLink(\Calcinai\Siri\Objects\InfoLinkStructureType $infoLink)
     {
         $this->infoLink[] = $infoLink;
         return $this;
@@ -62,7 +62,7 @@ class InfoLinksAType
      *
      * Hyperlink description
      *
-     * @return \Calcinai\Siri\InfoLinkStructureType[]
+     * @return \Calcinai\Siri\Objects\InfoLinkStructureType[]
      */
     public function getInfoLink()
     {
@@ -74,7 +74,7 @@ class InfoLinksAType
      *
      * Hyperlink description
      *
-     * @param \Calcinai\Siri\InfoLinkStructureType[] $infoLink
+     * @param \Calcinai\Siri\Objects\InfoLinkStructureType[] $infoLink
      * @return self
      */
     public function setInfoLink(array $infoLink)

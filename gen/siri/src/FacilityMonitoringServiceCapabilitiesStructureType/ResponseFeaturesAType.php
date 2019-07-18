@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType;
 
 /**
  * Class representing ResponseFeaturesAType

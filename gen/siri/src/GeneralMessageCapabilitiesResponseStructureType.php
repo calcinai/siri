@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing GeneralMessageCapabilitiesResponseStructureType
@@ -19,17 +19,17 @@ class GeneralMessageCapabilitiesResponseStructureType extends AbstractServiceCap
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\GeneralMessageServiceCapabilities $generalMessageServiceCapabilities
+     * @property \Calcinai\Siri\Objects\GeneralMessageServiceCapabilities $generalMessageServiceCapabilities
      */
     private $generalMessageServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\GeneralMessagePermissions $generalMessagePermissions
+     * @property \Calcinai\Siri\Objects\GeneralMessagePermissions $generalMessagePermissions
      */
     private $generalMessagePermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class GeneralMessageCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Gets as generalMessageServiceCapabilities
      *
-     * @return \Calcinai\Siri\GeneralMessageServiceCapabilities
+     * @return \Calcinai\Siri\Objects\GeneralMessageServiceCapabilities
      */
     public function getGeneralMessageServiceCapabilities()
     {
@@ -72,10 +72,10 @@ class GeneralMessageCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Sets a new generalMessageServiceCapabilities
      *
-     * @param \Calcinai\Siri\GeneralMessageServiceCapabilities $generalMessageServiceCapabilities
+     * @param \Calcinai\Siri\Objects\GeneralMessageServiceCapabilities $generalMessageServiceCapabilities
      * @return self
      */
-    public function setGeneralMessageServiceCapabilities(\Calcinai\Siri\GeneralMessageServiceCapabilities $generalMessageServiceCapabilities)
+    public function setGeneralMessageServiceCapabilities(\Calcinai\Siri\Objects\GeneralMessageServiceCapabilities $generalMessageServiceCapabilities)
     {
         $this->generalMessageServiceCapabilities = $generalMessageServiceCapabilities;
         return $this;
@@ -84,7 +84,7 @@ class GeneralMessageCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Gets as generalMessagePermissions
      *
-     * @return \Calcinai\Siri\GeneralMessagePermissions
+     * @return \Calcinai\Siri\Objects\GeneralMessagePermissions
      */
     public function getGeneralMessagePermissions()
     {
@@ -94,10 +94,10 @@ class GeneralMessageCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Sets a new generalMessagePermissions
      *
-     * @param \Calcinai\Siri\GeneralMessagePermissions $generalMessagePermissions
+     * @param \Calcinai\Siri\Objects\GeneralMessagePermissions $generalMessagePermissions
      * @return self
      */
-    public function setGeneralMessagePermissions(\Calcinai\Siri\GeneralMessagePermissions $generalMessagePermissions)
+    public function setGeneralMessagePermissions(\Calcinai\Siri\Objects\GeneralMessagePermissions $generalMessagePermissions)
     {
         $this->generalMessagePermissions = $generalMessagePermissions;
         return $this;
@@ -106,7 +106,7 @@ class GeneralMessageCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class GeneralMessageCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\CheckStatusRequestStructureType:
+Calcinai\Siri\Objects\CheckStatusRequestStructureType:
     properties:
         extensions:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\CheckStatusRequestStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

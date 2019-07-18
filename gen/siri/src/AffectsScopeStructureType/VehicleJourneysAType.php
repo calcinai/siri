@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectsScopeStructureType;
+namespace Calcinai\Siri\Objects\AffectsScopeStructureType;
 
 /**
  * Class representing VehicleJourneysAType
@@ -9,14 +9,14 @@ class VehicleJourneysAType
 {
 
     /**
-     * @property \Calcinai\Siri\AffectedVehicleJourneyStructureType $affectedVehicleJourney
+     * @property \Calcinai\Siri\Objects\AffectedVehicleJourneyStructureType $affectedVehicleJourney
      */
     private $affectedVehicleJourney = null;
 
     /**
      * Gets as affectedVehicleJourney
      *
-     * @return \Calcinai\Siri\AffectedVehicleJourneyStructureType
+     * @return \Calcinai\Siri\Objects\AffectedVehicleJourneyStructureType
      */
     public function getAffectedVehicleJourney()
     {
@@ -26,10 +26,10 @@ class VehicleJourneysAType
     /**
      * Sets a new affectedVehicleJourney
      *
-     * @param \Calcinai\Siri\AffectedVehicleJourneyStructureType $affectedVehicleJourney
+     * @param \Calcinai\Siri\Objects\AffectedVehicleJourneyStructureType $affectedVehicleJourney
      * @return self
      */
-    public function setAffectedVehicleJourney(\Calcinai\Siri\AffectedVehicleJourneyStructureType $affectedVehicleJourney)
+    public function setAffectedVehicleJourney(\Calcinai\Siri\Objects\AffectedVehicleJourneyStructureType $affectedVehicleJourney)
     {
         $this->affectedVehicleJourney = $affectedVehicleJourney;
         return $this;

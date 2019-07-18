@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\CheckPointRefStructureType:
+Calcinai\Siri\Objects\IFOpt\CheckPointRefStructureType:
     properties:
         __value:
             expose: true

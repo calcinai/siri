@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectsScopeStructureType\StopPointsAType:
+Calcinai\Siri\Objects\AffectsScopeStructureType\StopPointsAType:
     properties:
         affectedStopPoint:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectsScopeStructureType\StopPointsAType:
                 inline: true
                 entry_name: AffectedStopPoint
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedStopPointStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedStopPointStructureType>

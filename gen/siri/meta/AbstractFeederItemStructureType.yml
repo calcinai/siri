@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractFeederItemStructureType:
+Calcinai\Siri\Objects\AbstractFeederItemStructureType:
     properties:
         interchangeRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AbstractFeederItemStructureType:
             accessor:
                 getter: getInterchangeRef
                 setter: setInterchangeRef
-            type: Calcinai\Siri\InterchangeRefStructureType
+            type: Calcinai\Siri\Objects\InterchangeRefStructureType
         connectionLinkRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AbstractFeederItemStructureType:
             accessor:
                 getter: getConnectionLinkRef
                 setter: setConnectionLinkRef
-            type: Calcinai\Siri\ConnectionLinkRefStructureType
+            type: Calcinai\Siri\Objects\ConnectionLinkRefStructureType
         stopPointRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\AbstractFeederItemStructureType:
             accessor:
                 getter: getStopPointRef
                 setter: setStopPointRef
-            type: Calcinai\Siri\StopPointRef
+            type: Calcinai\Siri\Objects\StopPointRef
         visitNumber:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\AbstractFeederItemStructureType:
             accessor:
                 getter: getVisitNumber
                 setter: setVisitNumber
-            type: Calcinai\Siri\VisitNumber
+            type: Calcinai\Siri\Objects\VisitNumber
         order:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Calcinai\Siri\AbstractFeederItemStructureType:
             accessor:
                 getter: getStopPointName
                 setter: setStopPointName
-            type: Calcinai\Siri\StopPointName
+            type: Calcinai\Siri\Objects\StopPointName

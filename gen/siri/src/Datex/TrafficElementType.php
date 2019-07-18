@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficElementType
@@ -12,14 +12,14 @@ class TrafficElementType extends SituationRecordType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficElementExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficElementExtension
      */
     private $trafficElementExtension = null;
 
     /**
      * Gets as trafficElementExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficElementExtension()
     {
@@ -29,10 +29,10 @@ class TrafficElementType extends SituationRecordType
     /**
      * Sets a new trafficElementExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficElementExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficElementExtension
      * @return self
      */
-    public function setTrafficElementExtension(\Calcinai\Siri\Datex\ExtensionType $trafficElementExtension)
+    public function setTrafficElementExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficElementExtension)
     {
         $this->trafficElementExtension = $trafficElementExtension;
         return $this;

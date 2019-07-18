@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopMonitoringMultipleRequestStructureType
@@ -19,7 +19,7 @@ class StopMonitoringMultipleRequestStructureType extends AbstractFunctionalServi
     /**
      * Request particulars for an individual stop as part of a list of multipel requests.
      *
-     * @property \Calcinai\Siri\StopMonitoringFilterStructureType[] $stopMonitoringFIlter
+     * @property \Calcinai\Siri\Objects\StopMonitoringFilterStructureType[] $stopMonitoringFIlter
      */
     private $stopMonitoringFIlter = [
         
@@ -53,9 +53,9 @@ class StopMonitoringMultipleRequestStructureType extends AbstractFunctionalServi
      * Request particulars for an individual stop as part of a list of multipel requests.
      *
      * @return self
-     * @param \Calcinai\Siri\StopMonitoringFilterStructureType $stopMonitoringFIlter
+     * @param \Calcinai\Siri\Objects\StopMonitoringFilterStructureType $stopMonitoringFIlter
      */
-    public function addToStopMonitoringFIlter(\Calcinai\Siri\StopMonitoringFilterStructureType $stopMonitoringFIlter)
+    public function addToStopMonitoringFIlter(\Calcinai\Siri\Objects\StopMonitoringFilterStructureType $stopMonitoringFIlter)
     {
         $this->stopMonitoringFIlter[] = $stopMonitoringFIlter;
         return $this;
@@ -92,7 +92,7 @@ class StopMonitoringMultipleRequestStructureType extends AbstractFunctionalServi
      *
      * Request particulars for an individual stop as part of a list of multipel requests.
      *
-     * @return \Calcinai\Siri\StopMonitoringFilterStructureType[]
+     * @return \Calcinai\Siri\Objects\StopMonitoringFilterStructureType[]
      */
     public function getStopMonitoringFIlter()
     {
@@ -104,7 +104,7 @@ class StopMonitoringMultipleRequestStructureType extends AbstractFunctionalServi
      *
      * Request particulars for an individual stop as part of a list of multipel requests.
      *
-     * @param \Calcinai\Siri\StopMonitoringFilterStructureType[] $stopMonitoringFIlter
+     * @param \Calcinai\Siri\Objects\StopMonitoringFilterStructureType[] $stopMonitoringFIlter
      * @return self
      */
     public function setStopMonitoringFIlter(array $stopMonitoringFIlter)

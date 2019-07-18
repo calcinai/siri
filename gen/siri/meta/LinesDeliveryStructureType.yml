@@ -1,4 +1,4 @@
-Calcinai\Siri\LinesDeliveryStructureType:
+Calcinai\Siri\Objects\LinesDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -22,7 +22,7 @@ Calcinai\Siri\LinesDeliveryStructureType:
                 inline: true
                 entry_name: AnnotatedLineRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AnnotatedLineStructureType>
+            type: array<Calcinai\Siri\Objects\AnnotatedLineStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ Calcinai\Siri\LinesDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

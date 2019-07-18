@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\RoadworksType:
+Calcinai\Siri\Objects\Datex\RoadworksType:
     properties:
         effectOnRoadLayout:
             expose: true
@@ -63,7 +63,7 @@ Calcinai\Siri\Datex\RoadworksType:
             accessor:
                 getter: getMobility
                 setter: setMobility
-            type: Calcinai\Siri\Datex\MobilityType
+            type: Calcinai\Siri\Objects\Datex\MobilityType
         subjectTypeOfWorks:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ Calcinai\Siri\Datex\RoadworksType:
             accessor:
                 getter: getSubjectTypeOfWorks
                 setter: setSubjectTypeOfWorks
-            type: Calcinai\Siri\Datex\SubjectTypeOfWorksType
+            type: Calcinai\Siri\Objects\Datex\SubjectTypeOfWorksType
         associatedMaintenanceVehicles:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ Calcinai\Siri\Datex\RoadworksType:
             accessor:
                 getter: getAssociatedMaintenanceVehicles
                 setter: setAssociatedMaintenanceVehicles
-            type: Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType
+            type: Calcinai\Siri\Objects\Datex\AssociatedMaintenanceVehiclesType
         roadworksExtension:
             expose: true
             access_type: public_method
@@ -93,4 +93,4 @@ Calcinai\Siri\Datex\RoadworksType:
             accessor:
                 getter: getRoadworksExtension
                 setter: setRoadworksExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

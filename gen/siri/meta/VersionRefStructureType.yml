@@ -1,4 +1,4 @@
-Calcinai\Siri\VersionRefStructureType:
+Calcinai\Siri\Objects\VersionRefStructureType:
     properties:
         __value:
             expose: true

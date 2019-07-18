@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing InfoMessageStructureType
@@ -47,7 +47,7 @@ class InfoMessageStructureType extends AbstractIdentifiedItemStructureType
     private $validUntilTime = null;
 
     /**
-     * @property \Calcinai\Siri\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
      */
     private $situationRef = null;
 
@@ -191,7 +191,7 @@ class InfoMessageStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef
      */
     public function getSituationRef()
     {
@@ -201,10 +201,10 @@ class InfoMessageStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;

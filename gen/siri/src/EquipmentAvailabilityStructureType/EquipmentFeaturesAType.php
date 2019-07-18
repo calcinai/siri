@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\EquipmentAvailabilityStructureType;
+namespace Calcinai\Siri\Objects\EquipmentAvailabilityStructureType;
 
 /**
  * Class representing EquipmentFeaturesAType

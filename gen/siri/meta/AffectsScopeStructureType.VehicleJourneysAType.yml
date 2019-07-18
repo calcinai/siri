@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectsScopeStructureType\VehicleJourneysAType:
+Calcinai\Siri\Objects\AffectsScopeStructureType\VehicleJourneysAType:
     properties:
         affectedVehicleJourney:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\AffectsScopeStructureType\VehicleJourneysAType:
             accessor:
                 getter: getAffectedVehicleJourney
                 setter: setAffectedVehicleJourney
-            type: Calcinai\Siri\AffectedVehicleJourneyStructureType
+            type: Calcinai\Siri\Objects\AffectedVehicleJourneyStructureType

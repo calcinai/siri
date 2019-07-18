@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PointType
@@ -12,34 +12,34 @@ class PointType extends NetworkLocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGPointLocationType $tpegpointLocation
+     * @property \Calcinai\Siri\Objects\Datex\TPEGPointLocationType $tpegpointLocation
      */
     private $tpegpointLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCPointType $alertCPoint
+     * @property \Calcinai\Siri\Objects\Datex\AlertCPointType $alertCPoint
      */
     private $alertCPoint = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferencePointType $referencePoint
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointType $referencePoint
      */
     private $referencePoint = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\PointByCoordinatesType $pointByCoordinates
+     * @property \Calcinai\Siri\Objects\Datex\PointByCoordinatesType $pointByCoordinates
      */
     private $pointByCoordinates = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $pointExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $pointExtension
      */
     private $pointExtension = null;
 
     /**
      * Gets as tpegpointLocation
      *
-     * @return \Calcinai\Siri\Datex\TPEGPointLocationType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGPointLocationType
      */
     public function getTpegpointLocation()
     {
@@ -49,10 +49,10 @@ class PointType extends NetworkLocationType
     /**
      * Sets a new tpegpointLocation
      *
-     * @param \Calcinai\Siri\Datex\TPEGPointLocationType $tpegpointLocation
+     * @param \Calcinai\Siri\Objects\Datex\TPEGPointLocationType $tpegpointLocation
      * @return self
      */
-    public function setTpegpointLocation(\Calcinai\Siri\Datex\TPEGPointLocationType $tpegpointLocation)
+    public function setTpegpointLocation(\Calcinai\Siri\Objects\Datex\TPEGPointLocationType $tpegpointLocation)
     {
         $this->tpegpointLocation = $tpegpointLocation;
         return $this;
@@ -61,7 +61,7 @@ class PointType extends NetworkLocationType
     /**
      * Gets as alertCPoint
      *
-     * @return \Calcinai\Siri\Datex\AlertCPointType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCPointType
      */
     public function getAlertCPoint()
     {
@@ -71,10 +71,10 @@ class PointType extends NetworkLocationType
     /**
      * Sets a new alertCPoint
      *
-     * @param \Calcinai\Siri\Datex\AlertCPointType $alertCPoint
+     * @param \Calcinai\Siri\Objects\Datex\AlertCPointType $alertCPoint
      * @return self
      */
-    public function setAlertCPoint(\Calcinai\Siri\Datex\AlertCPointType $alertCPoint)
+    public function setAlertCPoint(\Calcinai\Siri\Objects\Datex\AlertCPointType $alertCPoint)
     {
         $this->alertCPoint = $alertCPoint;
         return $this;
@@ -83,7 +83,7 @@ class PointType extends NetworkLocationType
     /**
      * Gets as referencePoint
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointType
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointType
      */
     public function getReferencePoint()
     {
@@ -93,10 +93,10 @@ class PointType extends NetworkLocationType
     /**
      * Sets a new referencePoint
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointType $referencePoint
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType $referencePoint
      * @return self
      */
-    public function setReferencePoint(\Calcinai\Siri\Datex\ReferencePointType $referencePoint)
+    public function setReferencePoint(\Calcinai\Siri\Objects\Datex\ReferencePointType $referencePoint)
     {
         $this->referencePoint = $referencePoint;
         return $this;
@@ -105,7 +105,7 @@ class PointType extends NetworkLocationType
     /**
      * Gets as pointByCoordinates
      *
-     * @return \Calcinai\Siri\Datex\PointByCoordinatesType
+     * @return \Calcinai\Siri\Objects\Datex\PointByCoordinatesType
      */
     public function getPointByCoordinates()
     {
@@ -115,10 +115,10 @@ class PointType extends NetworkLocationType
     /**
      * Sets a new pointByCoordinates
      *
-     * @param \Calcinai\Siri\Datex\PointByCoordinatesType $pointByCoordinates
+     * @param \Calcinai\Siri\Objects\Datex\PointByCoordinatesType $pointByCoordinates
      * @return self
      */
-    public function setPointByCoordinates(\Calcinai\Siri\Datex\PointByCoordinatesType $pointByCoordinates)
+    public function setPointByCoordinates(\Calcinai\Siri\Objects\Datex\PointByCoordinatesType $pointByCoordinates)
     {
         $this->pointByCoordinates = $pointByCoordinates;
         return $this;
@@ -127,7 +127,7 @@ class PointType extends NetworkLocationType
     /**
      * Gets as pointExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPointExtension()
     {
@@ -137,10 +137,10 @@ class PointType extends NetworkLocationType
     /**
      * Sets a new pointExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $pointExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $pointExtension
      * @return self
      */
-    public function setPointExtension(\Calcinai\Siri\Datex\ExtensionType $pointExtension)
+    public function setPointExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $pointExtension)
     {
         $this->pointExtension = $pointExtension;
         return $this;

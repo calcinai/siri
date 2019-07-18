@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing NtoRType
@@ -27,7 +27,7 @@ class NtoRType
     private $roadMaintenanceTypeEnum = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $ntoRExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $ntoRExtension
      */
     private $ntoRExtension = null;
 
@@ -190,7 +190,7 @@ class NtoRType
     /**
      * Gets as ntoRExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getNtoRExtension()
     {
@@ -200,10 +200,10 @@ class NtoRType
     /**
      * Sets a new ntoRExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $ntoRExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $ntoRExtension
      * @return self
      */
-    public function setNtoRExtension(\Calcinai\Siri\Datex\ExtensionType $ntoRExtension)
+    public function setNtoRExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $ntoRExtension)
     {
         $this->ntoRExtension = $ntoRExtension;
         return $this;

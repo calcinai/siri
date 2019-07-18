@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\NonManagedCauseType;
+namespace Calcinai\Siri\Objects\Datex\NonManagedCauseType;
 
 /**
  * Class representing CauseDescriptionAType
@@ -9,7 +9,7 @@ class CauseDescriptionAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class CauseDescriptionAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class CauseDescriptionAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class CauseDescriptionAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

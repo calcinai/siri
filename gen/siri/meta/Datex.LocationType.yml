@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\LocationType:
+Calcinai\Siri\Objects\Datex\LocationType:
     properties:
         locationExtension:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\Datex\LocationType:
             accessor:
                 getter: getLocationExtension
                 setter: setLocationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

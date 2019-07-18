@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGAreaDescriptorType
@@ -19,7 +19,7 @@ class TPEGAreaDescriptorType extends TPEGDescriptorType
     private $tpegDescriptorType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegareaDescriptorExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegareaDescriptorExtension
      */
     private $tpegareaDescriptorExtension = null;
 
@@ -52,7 +52,7 @@ class TPEGAreaDescriptorType extends TPEGDescriptorType
     /**
      * Gets as tpegareaDescriptorExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegareaDescriptorExtension()
     {
@@ -62,10 +62,10 @@ class TPEGAreaDescriptorType extends TPEGDescriptorType
     /**
      * Sets a new tpegareaDescriptorExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegareaDescriptorExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegareaDescriptorExtension
      * @return self
      */
-    public function setTpegareaDescriptorExtension(\Calcinai\Siri\Datex\ExtensionType $tpegareaDescriptorExtension)
+    public function setTpegareaDescriptorExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegareaDescriptorExtension)
     {
         $this->tpegareaDescriptorExtension = $tpegareaDescriptorExtension;
         return $this;

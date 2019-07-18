@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ReferencePointPrimaryLocationType
@@ -12,19 +12,19 @@ class ReferencePointPrimaryLocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferencePointType $referencePoint
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointType $referencePoint
      */
     private $referencePoint = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $referencePointPrimaryLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $referencePointPrimaryLocationExtension
      */
     private $referencePointPrimaryLocationExtension = null;
 
     /**
      * Gets as referencePoint
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointType
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointType
      */
     public function getReferencePoint()
     {
@@ -34,10 +34,10 @@ class ReferencePointPrimaryLocationType
     /**
      * Sets a new referencePoint
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointType $referencePoint
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType $referencePoint
      * @return self
      */
-    public function setReferencePoint(\Calcinai\Siri\Datex\ReferencePointType $referencePoint)
+    public function setReferencePoint(\Calcinai\Siri\Objects\Datex\ReferencePointType $referencePoint)
     {
         $this->referencePoint = $referencePoint;
         return $this;
@@ -46,7 +46,7 @@ class ReferencePointPrimaryLocationType
     /**
      * Gets as referencePointPrimaryLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getReferencePointPrimaryLocationExtension()
     {
@@ -56,10 +56,10 @@ class ReferencePointPrimaryLocationType
     /**
      * Sets a new referencePointPrimaryLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $referencePointPrimaryLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $referencePointPrimaryLocationExtension
      * @return self
      */
-    public function setReferencePointPrimaryLocationExtension(\Calcinai\Siri\Datex\ExtensionType $referencePointPrimaryLocationExtension)
+    public function setReferencePointPrimaryLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $referencePointPrimaryLocationExtension)
     {
         $this->referencePointPrimaryLocationExtension = $referencePointPrimaryLocationExtension;
         return $this;

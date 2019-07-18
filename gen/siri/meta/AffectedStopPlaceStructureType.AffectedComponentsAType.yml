@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedStopPlaceStructureType\AffectedComponentsAType:
+Calcinai\Siri\Objects\AffectedStopPlaceStructureType\AffectedComponentsAType:
     properties:
         affectedComponent:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectedStopPlaceStructureType\AffectedComponentsAType:
                 inline: true
                 entry_name: AffectedComponent
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedStopPlaceComponentStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType>

@@ -1,4 +1,4 @@
-Calcinai\Siri\PushedActionStructureType\BeforeNoticesAType:
+Calcinai\Siri\Objects\PushedActionStructureType\BeforeNoticesAType:
     properties:
         interval:
             expose: true

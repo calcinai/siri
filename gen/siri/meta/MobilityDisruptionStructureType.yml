@@ -1,4 +1,4 @@
-Calcinai\Siri\MobilityDisruptionStructureType:
+Calcinai\Siri\Objects\MobilityDisruptionStructureType:
     properties:
         mobilityImpairedAccess:
             expose: true
@@ -23,4 +23,4 @@ Calcinai\Siri\MobilityDisruptionStructureType:
                 inline: true
                 entry_name: AccessFacility
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AccessFacility>
+            type: array<Calcinai\Siri\Objects\AccessFacility>

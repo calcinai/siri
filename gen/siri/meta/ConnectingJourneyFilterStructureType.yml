@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectingJourneyFilterStructureType:
+Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType:
     properties:
         datedVehicleJourneyRef:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\ConnectingJourneyFilterStructureType:
             accessor:
                 getter: getVisitNumber
                 setter: setVisitNumber
-            type: Calcinai\Siri\VisitNumber
+            type: Calcinai\Siri\Objects\VisitNumber
         timetabledArrivalTime:
             expose: true
             access_type: public_method

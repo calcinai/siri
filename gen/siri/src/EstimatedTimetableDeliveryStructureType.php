@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedTimetableDeliveryStructureType
@@ -21,12 +21,12 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Estomated JorneyVersions, grouped by timetable version.
      *
-     * @property \Calcinai\Siri\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame
+     * @property \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame
      */
     private $estimatedJourneyVersionFrame = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -61,7 +61,7 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
      *
      * Estomated JorneyVersions, grouped by timetable version.
      *
-     * @return \Calcinai\Siri\EstimatedVersionFrameStructureType
+     * @return \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType
      */
     public function getEstimatedJourneyVersionFrame()
     {
@@ -73,10 +73,10 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
      *
      * Estomated JorneyVersions, grouped by timetable version.
      *
-     * @param \Calcinai\Siri\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame
+     * @param \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame
      * @return self
      */
-    public function setEstimatedJourneyVersionFrame(\Calcinai\Siri\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame)
+    public function setEstimatedJourneyVersionFrame(\Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame)
     {
         $this->estimatedJourneyVersionFrame = $estimatedJourneyVersionFrame;
         return $this;
@@ -85,7 +85,7 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -95,10 +95,10 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

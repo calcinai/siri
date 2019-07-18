@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\ProductionTimetableServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\ProductionTimetableServiceCapabilitiesStructureType;
 
-use Calcinai\Siri\CapabilityRequestPolicyStructureType;
+use Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType;
 
 /**
  * Class representing RequestPolicyAType

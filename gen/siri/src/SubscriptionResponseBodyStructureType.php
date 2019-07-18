@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SubscriptionResponseBodyStructureType
@@ -12,7 +12,7 @@ class SubscriptionResponseBodyStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\ResponseStatus[] $responseStatus
+     * @property \Calcinai\Siri\Objects\ResponseStatus[] $responseStatus
      */
     private $responseStatus = [
         
@@ -36,9 +36,9 @@ class SubscriptionResponseBodyStructureType
      * Adds as responseStatus
      *
      * @return self
-     * @param \Calcinai\Siri\ResponseStatus $responseStatus
+     * @param \Calcinai\Siri\Objects\ResponseStatus $responseStatus
      */
-    public function addToResponseStatus(\Calcinai\Siri\ResponseStatus $responseStatus)
+    public function addToResponseStatus(\Calcinai\Siri\Objects\ResponseStatus $responseStatus)
     {
         $this->responseStatus[] = $responseStatus;
         return $this;
@@ -69,7 +69,7 @@ class SubscriptionResponseBodyStructureType
     /**
      * Gets as responseStatus
      *
-     * @return \Calcinai\Siri\ResponseStatus[]
+     * @return \Calcinai\Siri\Objects\ResponseStatus[]
      */
     public function getResponseStatus()
     {
@@ -79,7 +79,7 @@ class SubscriptionResponseBodyStructureType
     /**
      * Sets a new responseStatus
      *
-     * @param \Calcinai\Siri\ResponseStatus[] $responseStatus
+     * @param \Calcinai\Siri\Objects\ResponseStatus[] $responseStatus
      * @return self
      */
     public function setResponseStatus(array $responseStatus)

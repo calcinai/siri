@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing RestrictionType
@@ -33,7 +33,7 @@ class RestrictionType
     private $sequentialRampNumber = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $restrictionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $restrictionExtension
      */
     private $restrictionExtension = null;
 
@@ -118,7 +118,7 @@ class RestrictionType
     /**
      * Gets as restrictionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getRestrictionExtension()
     {
@@ -128,10 +128,10 @@ class RestrictionType
     /**
      * Sets a new restrictionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $restrictionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $restrictionExtension
      * @return self
      */
-    public function setRestrictionExtension(\Calcinai\Siri\Datex\ExtensionType $restrictionExtension)
+    public function setRestrictionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $restrictionExtension)
     {
         $this->restrictionExtension = $restrictionExtension;
         return $this;

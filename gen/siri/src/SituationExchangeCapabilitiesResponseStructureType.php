@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationExchangeCapabilitiesResponseStructureType
@@ -19,17 +19,17 @@ class SituationExchangeCapabilitiesResponseStructureType extends AbstractService
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
+     * @property \Calcinai\Siri\Objects\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
      */
     private $situationExchangeServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\SituationExchangePermissions $situationExchangePermissions
+     * @property \Calcinai\Siri\Objects\SituationExchangePermissions $situationExchangePermissions
      */
     private $situationExchangePermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class SituationExchangeCapabilitiesResponseStructureType extends AbstractService
     /**
      * Gets as situationExchangeServiceCapabilities
      *
-     * @return \Calcinai\Siri\SituationExchangeServiceCapabilities
+     * @return \Calcinai\Siri\Objects\SituationExchangeServiceCapabilities
      */
     public function getSituationExchangeServiceCapabilities()
     {
@@ -72,10 +72,10 @@ class SituationExchangeCapabilitiesResponseStructureType extends AbstractService
     /**
      * Sets a new situationExchangeServiceCapabilities
      *
-     * @param \Calcinai\Siri\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
+     * @param \Calcinai\Siri\Objects\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
      * @return self
      */
-    public function setSituationExchangeServiceCapabilities(\Calcinai\Siri\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities)
+    public function setSituationExchangeServiceCapabilities(\Calcinai\Siri\Objects\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities)
     {
         $this->situationExchangeServiceCapabilities = $situationExchangeServiceCapabilities;
         return $this;
@@ -84,7 +84,7 @@ class SituationExchangeCapabilitiesResponseStructureType extends AbstractService
     /**
      * Gets as situationExchangePermissions
      *
-     * @return \Calcinai\Siri\SituationExchangePermissions
+     * @return \Calcinai\Siri\Objects\SituationExchangePermissions
      */
     public function getSituationExchangePermissions()
     {
@@ -94,10 +94,10 @@ class SituationExchangeCapabilitiesResponseStructureType extends AbstractService
     /**
      * Sets a new situationExchangePermissions
      *
-     * @param \Calcinai\Siri\SituationExchangePermissions $situationExchangePermissions
+     * @param \Calcinai\Siri\Objects\SituationExchangePermissions $situationExchangePermissions
      * @return self
      */
-    public function setSituationExchangePermissions(\Calcinai\Siri\SituationExchangePermissions $situationExchangePermissions)
+    public function setSituationExchangePermissions(\Calcinai\Siri\Objects\SituationExchangePermissions $situationExchangePermissions)
     {
         $this->situationExchangePermissions = $situationExchangePermissions;
         return $this;
@@ -106,7 +106,7 @@ class SituationExchangeCapabilitiesResponseStructureType extends AbstractService
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class SituationExchangeCapabilitiesResponseStructureType extends AbstractService
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

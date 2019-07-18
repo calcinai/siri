@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType:
+Calcinai\Siri\Objects\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType:
     properties:
         __value:
             expose: true

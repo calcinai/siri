@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductionTimetableDeliveryStructureType:
+Calcinai\Siri\Objects\ProductionTimetableDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\ProductionTimetableDeliveryStructureType:
             accessor:
                 getter: getDatedTimetableVersionFrame
                 setter: setDatedTimetableVersionFrame
-            type: Calcinai\Siri\DatedTimetableVersionFrame
+            type: Calcinai\Siri\Objects\DatedTimetableVersionFrame
         extensions:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ Calcinai\Siri\ProductionTimetableDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

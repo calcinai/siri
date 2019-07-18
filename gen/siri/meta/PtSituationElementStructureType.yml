@@ -1,4 +1,4 @@
-Calcinai\Siri\PtSituationElementStructureType:
+Calcinai\Siri\Objects\PtSituationElementStructureType:
     properties:
         verification:
             expose: true
@@ -69,7 +69,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: Calcinai\Siri\PtSituationElementStructureType\ValidityPeriodAType
+            type: Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType
         repetitions:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getRepetitions
                 setter: setRepetitions
-            type: array<Calcinai\Siri\DayType>
+            type: array<Calcinai\Siri\Objects\DayType>
             xml_list:
                 inline: false
                 entry_name: DayType
@@ -94,7 +94,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getPublicationWindow
                 setter: setPublicationWindow
-            type: Calcinai\Siri\HalfOpenTimestampRangeStructureType
+            type: Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType
         unknownReason:
             expose: true
             access_type: public_method
@@ -114,7 +114,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getMiscellaneousReason
                 setter: setMiscellaneousReason
-            type: Calcinai\Siri\MiscellaneousReason
+            type: Calcinai\Siri\Objects\MiscellaneousReason
         personnelReason:
             expose: true
             access_type: public_method
@@ -124,7 +124,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getPersonnelReason
                 setter: setPersonnelReason
-            type: Calcinai\Siri\PersonnelReason
+            type: Calcinai\Siri\Objects\PersonnelReason
         equipmentReason:
             expose: true
             access_type: public_method
@@ -134,7 +134,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getEquipmentReason
                 setter: setEquipmentReason
-            type: Calcinai\Siri\EquipmentReason
+            type: Calcinai\Siri\Objects\EquipmentReason
         environmentReason:
             expose: true
             access_type: public_method
@@ -144,7 +144,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getEnvironmentReason
                 setter: setEnvironmentReason
-            type: Calcinai\Siri\EnvironmentReason
+            type: Calcinai\Siri\Objects\EnvironmentReason
         undefinedReason:
             expose: true
             access_type: public_method
@@ -174,7 +174,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getReasonName
                 setter: setReasonName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         severity:
             expose: true
             access_type: public_method
@@ -184,7 +184,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getSeverity
                 setter: setSeverity
-            type: Calcinai\Siri\Severity
+            type: Calcinai\Siri\Objects\Severity
         priority:
             expose: true
             access_type: public_method
@@ -234,7 +234,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getReportType
                 setter: setReportType
-            type: Calcinai\Siri\ReportType
+            type: Calcinai\Siri\Objects\ReportType
         planned:
             expose: true
             access_type: public_method
@@ -264,7 +264,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getSecondaryReasons
                 setter: setSecondaryReasons
-            type: array<Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType>
+            type: array<Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType>
             xml_list:
                 inline: false
                 entry_name: Reason
@@ -289,7 +289,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getSummary
                 setter: setSummary
-            type: Calcinai\Siri\DefaultedTextStructureType
+            type: Calcinai\Siri\Objects\DefaultedTextStructureType
         description:
             expose: true
             access_type: public_method
@@ -299,7 +299,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: Calcinai\Siri\DefaultedTextStructureType
+            type: Calcinai\Siri\Objects\DefaultedTextStructureType
         detail:
             expose: true
             access_type: public_method
@@ -309,7 +309,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getDetail
                 setter: setDetail
-            type: Calcinai\Siri\DefaultedTextStructureType
+            type: Calcinai\Siri\Objects\DefaultedTextStructureType
         advice:
             expose: true
             access_type: public_method
@@ -319,7 +319,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getAdvice
                 setter: setAdvice
-            type: Calcinai\Siri\DefaultedTextStructureType
+            type: Calcinai\Siri\Objects\DefaultedTextStructureType
         internal:
             expose: true
             access_type: public_method
@@ -329,7 +329,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getInternal
                 setter: setInternal
-            type: Calcinai\Siri\DefaultedTextStructureType
+            type: Calcinai\Siri\Objects\DefaultedTextStructureType
         images:
             expose: true
             access_type: public_method
@@ -339,7 +339,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getImages
                 setter: setImages
-            type: array<Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType>
+            type: array<Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType>
             xml_list:
                 inline: false
                 entry_name: Image
@@ -354,7 +354,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getInfoLinks
                 setter: setInfoLinks
-            type: array<Calcinai\Siri\InfoLinkStructureType>
+            type: array<Calcinai\Siri\Objects\InfoLinkStructureType>
             xml_list:
                 inline: false
                 entry_name: InfoLink
@@ -369,7 +369,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getAffects
                 setter: setAffects
-            type: Calcinai\Siri\AffectsScopeStructureType
+            type: Calcinai\Siri\Objects\AffectsScopeStructureType
         consequences:
             expose: true
             access_type: public_method
@@ -379,7 +379,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getConsequences
                 setter: setConsequences
-            type: array<Calcinai\Siri\PtConsequenceStructureType>
+            type: array<Calcinai\Siri\Objects\PtConsequenceStructureType>
             xml_list:
                 inline: false
                 entry_name: Consequence
@@ -394,7 +394,7 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getPublishingActions
                 setter: setPublishingActions
-            type: Calcinai\Siri\ActionsStructureType
+            type: Calcinai\Siri\Objects\ActionsStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -404,4 +404,4 @@ Calcinai\Siri\PtSituationElementStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

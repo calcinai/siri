@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedCallStructureType:
+Calcinai\Siri\Objects\AffectedCallStructureType:
     properties:
         order:
             expose: true
@@ -39,7 +39,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getVehicleLocationAtStop
                 setter: setVehicleLocationAtStop
-            type: Calcinai\Siri\LocationStructureType
+            type: Calcinai\Siri\Objects\LocationStructureType
         aimedArrivalTime:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getArrivalStatus
                 setter: setArrivalStatus
-            type: Calcinai\Siri\ArrivalStatus
+            type: Calcinai\Siri\Objects\ArrivalStatus
         arrivalPlatformName:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getArrivalPlatformName
                 setter: setArrivalPlatformName
-            type: Calcinai\Siri\ArrivalPlatformName
+            type: Calcinai\Siri\Objects\ArrivalPlatformName
         arrivalBoardingActivity:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getArrivalBoardingActivity
                 setter: setArrivalBoardingActivity
-            type: Calcinai\Siri\ArrivalBoardingActivity
+            type: Calcinai\Siri\Objects\ArrivalBoardingActivity
         aimedDepartureTime:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getDepartureStatus
                 setter: setDepartureStatus
-            type: Calcinai\Siri\DepartureStatus
+            type: Calcinai\Siri\Objects\DepartureStatus
         departurePlatformName:
             expose: true
             access_type: public_method
@@ -149,7 +149,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getDeparturePlatformName
                 setter: setDeparturePlatformName
-            type: Calcinai\Siri\DeparturePlatformName
+            type: Calcinai\Siri\Objects\DeparturePlatformName
         departureBoardingActivity:
             expose: true
             access_type: public_method
@@ -159,7 +159,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getDepartureBoardingActivity
                 setter: setDepartureBoardingActivity
-            type: Calcinai\Siri\DepartureBoardingActivity
+            type: Calcinai\Siri\Objects\DepartureBoardingActivity
         aimedHeadwayInterval:
             expose: true
             access_type: public_method
@@ -169,7 +169,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getAimedHeadwayInterval
                 setter: setAimedHeadwayInterval
-            type: Calcinai\Siri\AimedHeadwayInterval
+            type: Calcinai\Siri\Objects\AimedHeadwayInterval
         expectedHeadwayInterval:
             expose: true
             access_type: public_method
@@ -179,7 +179,7 @@ Calcinai\Siri\AffectedCallStructureType:
             accessor:
                 getter: getExpectedHeadwayInterval
                 setter: setExpectedHeadwayInterval
-            type: Calcinai\Siri\ExpectedHeadwayInterval
+            type: Calcinai\Siri\Objects\ExpectedHeadwayInterval
         affectedInterchange:
             expose: true
             access_type: public_method
@@ -193,4 +193,4 @@ Calcinai\Siri\AffectedCallStructureType:
                 inline: true
                 entry_name: AffectedInterchange
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedInterchangeStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedInterchangeStructureType>

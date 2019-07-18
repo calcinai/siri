@@ -1,4 +1,4 @@
-Calcinai\Siri\ErrorDescriptionStructureType:
+Calcinai\Siri\Objects\ErrorDescriptionStructureType:
     properties:
         __value:
             expose: true

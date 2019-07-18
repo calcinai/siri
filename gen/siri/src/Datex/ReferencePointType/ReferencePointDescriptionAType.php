@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\ReferencePointType;
+namespace Calcinai\Siri\Objects\Datex\ReferencePointType;
 
 /**
  * Class representing ReferencePointDescriptionAType
@@ -9,7 +9,7 @@ class ReferencePointDescriptionAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class ReferencePointDescriptionAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class ReferencePointDescriptionAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class ReferencePointDescriptionAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

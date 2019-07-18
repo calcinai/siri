@@ -1,4 +1,4 @@
-Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType\LimitationsAType:
+Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType\LimitationsAType:
     properties:
         accessibilityLimitation:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType\LimitationsAType:
                 inline: true
                 entry_name: AccessibilityLimitation
                 namespace: 'http://www.ifopt.org.uk/acsb'
-            type: array<Calcinai\Siri\ACSB\AccessibilityLimitationStructureType>
+            type: array<Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType>

@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\AbstractProjectionType\FeaturesAType:
+Calcinai\Siri\Objects\IFOpt\AbstractProjectionType\FeaturesAType:
     properties:
         gisFeatureRef:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\IFOpt\AbstractProjectionType\FeaturesAType:
                 inline: true
                 entry_name: GisFeatureRef
                 namespace: 'http://www.ifopt.org.uk/ifopt'
-            type: array<Calcinai\Siri\IFOpt\FeatureRefStructureType>
+            type: array<Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType>

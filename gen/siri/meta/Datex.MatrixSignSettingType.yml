@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\MatrixSignSettingType:
+Calcinai\Siri\Objects\Datex\MatrixSignSettingType:
     properties:
         aspectDisplayed:
             expose: true
@@ -43,4 +43,4 @@ Calcinai\Siri\Datex\MatrixSignSettingType:
             accessor:
                 getter: getMatrixSignSettingExtension
                 setter: setMatrixSignSettingExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

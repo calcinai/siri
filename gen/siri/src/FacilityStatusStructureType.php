@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityStatusStructureType
@@ -21,19 +21,19 @@ class FacilityStatusStructureType
     /**
      * Description of the facility Status
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      */
     private $description = null;
 
     /**
      * Accessibility of the facility
      *
-     * @property \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @property \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      */
     private $accessibilityAssessment = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -68,7 +68,7 @@ class FacilityStatusStructureType
      *
      * Description of the facility Status
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDescription()
     {
@@ -80,10 +80,10 @@ class FacilityStatusStructureType
      *
      * Description of the facility Status
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      * @return self
      */
-    public function setDescription(\Calcinai\Siri\NaturalLanguageStringStructureType $description)
+    public function setDescription(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description)
     {
         $this->description = $description;
         return $this;
@@ -94,7 +94,7 @@ class FacilityStatusStructureType
      *
      * Accessibility of the facility
      *
-     * @return \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType
      */
     public function getAccessibilityAssessment()
     {
@@ -106,10 +106,10 @@ class FacilityStatusStructureType
      *
      * Accessibility of the facility
      *
-     * @param \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      * @return self
      */
-    public function setAccessibilityAssessment(\Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
+    public function setAccessibilityAssessment(\Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
     {
         $this->accessibilityAssessment = $accessibilityAssessment;
         return $this;
@@ -118,7 +118,7 @@ class FacilityStatusStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -128,10 +128,10 @@ class FacilityStatusStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

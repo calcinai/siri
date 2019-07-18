@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing CatalogueReferenceType
@@ -19,7 +19,7 @@ class CatalogueReferenceType
     private $keyCatalogueReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $catalogueReferenceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $catalogueReferenceExtension
      */
     private $catalogueReferenceExtension = null;
 
@@ -52,7 +52,7 @@ class CatalogueReferenceType
     /**
      * Gets as catalogueReferenceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getCatalogueReferenceExtension()
     {
@@ -62,10 +62,10 @@ class CatalogueReferenceType
     /**
      * Sets a new catalogueReferenceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $catalogueReferenceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $catalogueReferenceExtension
      * @return self
      */
-    public function setCatalogueReferenceExtension(\Calcinai\Siri\Datex\ExtensionType $catalogueReferenceExtension)
+    public function setCatalogueReferenceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $catalogueReferenceExtension)
     {
         $this->catalogueReferenceExtension = $catalogueReferenceExtension;
         return $this;

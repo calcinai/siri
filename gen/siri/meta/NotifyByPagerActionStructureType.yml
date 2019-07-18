@@ -1,4 +1,4 @@
-Calcinai\Siri\NotifyByPagerActionStructureType:
+Calcinai\Siri\Objects\NotifyByPagerActionStructureType:
     properties:
         pagerGroupRef:
             expose: true

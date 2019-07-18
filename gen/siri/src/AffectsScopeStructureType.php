@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectsScopeStructureType
@@ -21,54 +21,54 @@ class AffectsScopeStructureType
     /**
      * Affected operators, If absent, taken from context. If present, any operators stated completely replace those from context.
      *
-     * @property \Calcinai\Siri\AffectsScopeStructureType\OperatorsAType $operators
+     * @property \Calcinai\Siri\Objects\AffectsScopeStructureType\OperatorsAType $operators
      */
     private $operators = null;
 
     /**
      * Networks affected by situation.
      *
-     * @property \Calcinai\Siri\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType[] $networks
+     * @property \Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType[] $networks
      */
     private $networks = null;
 
     /**
      * Stop points affected by situation.
      *
-     * @property \Calcinai\Siri\AffectedStopPointStructureType[] $stopPoints
+     * @property \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $stopPoints
      */
     private $stopPoints = null;
 
     /**
      * Places other than Stop points affected by situation.
      *
-     * @property \Calcinai\Siri\AffectedStopPlaceStructureType[] $stopPlaces
+     * @property \Calcinai\Siri\Objects\AffectedStopPlaceStructureType[] $stopPlaces
      */
     private $stopPlaces = null;
 
     /**
      * Places other than Stop points affected by situation.
      *
-     * @property \Calcinai\Siri\AffectedPlaceStructureType[] $places
+     * @property \Calcinai\Siri\Objects\AffectedPlaceStructureType[] $places
      */
     private $places = null;
 
     /**
      * Specific journeys affected by situation.
      *
-     * @property \Calcinai\Siri\AffectsScopeStructureType\VehicleJourneysAType $vehicleJourneys
+     * @property \Calcinai\Siri\Objects\AffectsScopeStructureType\VehicleJourneysAType $vehicleJourneys
      */
     private $vehicleJourneys = null;
 
     /**
      * Roads affected by
      *
-     * @property \Calcinai\Siri\AffectedRoadsStructureType $roads
+     * @property \Calcinai\Siri\Objects\AffectedRoadsStructureType $roads
      */
     private $roads = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -103,7 +103,7 @@ class AffectsScopeStructureType
      *
      * Affected operators, If absent, taken from context. If present, any operators stated completely replace those from context.
      *
-     * @return \Calcinai\Siri\AffectsScopeStructureType\OperatorsAType
+     * @return \Calcinai\Siri\Objects\AffectsScopeStructureType\OperatorsAType
      */
     public function getOperators()
     {
@@ -115,10 +115,10 @@ class AffectsScopeStructureType
      *
      * Affected operators, If absent, taken from context. If present, any operators stated completely replace those from context.
      *
-     * @param \Calcinai\Siri\AffectsScopeStructureType\OperatorsAType $operators
+     * @param \Calcinai\Siri\Objects\AffectsScopeStructureType\OperatorsAType $operators
      * @return self
      */
-    public function setOperators(\Calcinai\Siri\AffectsScopeStructureType\OperatorsAType $operators)
+    public function setOperators(\Calcinai\Siri\Objects\AffectsScopeStructureType\OperatorsAType $operators)
     {
         $this->operators = $operators;
         return $this;
@@ -130,9 +130,9 @@ class AffectsScopeStructureType
      * Networks affected by situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType $affectedNetwork
+     * @param \Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType $affectedNetwork
      */
-    public function addToNetworks(\Calcinai\Siri\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType $affectedNetwork)
+    public function addToNetworks(\Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType $affectedNetwork)
     {
         $this->networks[] = $affectedNetwork;
         return $this;
@@ -169,7 +169,7 @@ class AffectsScopeStructureType
      *
      * Networks affected by situation.
      *
-     * @return \Calcinai\Siri\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType[]
+     * @return \Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType[]
      */
     public function getNetworks()
     {
@@ -181,7 +181,7 @@ class AffectsScopeStructureType
      *
      * Networks affected by situation.
      *
-     * @param \Calcinai\Siri\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType[] $networks
+     * @param \Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType[] $networks
      * @return self
      */
     public function setNetworks(array $networks)
@@ -196,9 +196,9 @@ class AffectsScopeStructureType
      * Stop points affected by situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPointStructureType $affectedStopPoint
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType $affectedStopPoint
      */
-    public function addToStopPoints(\Calcinai\Siri\AffectedStopPointStructureType $affectedStopPoint)
+    public function addToStopPoints(\Calcinai\Siri\Objects\AffectedStopPointStructureType $affectedStopPoint)
     {
         $this->stopPoints[] = $affectedStopPoint;
         return $this;
@@ -235,7 +235,7 @@ class AffectsScopeStructureType
      *
      * Stop points affected by situation.
      *
-     * @return \Calcinai\Siri\AffectedStopPointStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPointStructureType[]
      */
     public function getStopPoints()
     {
@@ -247,7 +247,7 @@ class AffectsScopeStructureType
      *
      * Stop points affected by situation.
      *
-     * @param \Calcinai\Siri\AffectedStopPointStructureType[] $stopPoints
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $stopPoints
      * @return self
      */
     public function setStopPoints(array $stopPoints)
@@ -262,9 +262,9 @@ class AffectsScopeStructureType
      * Places other than Stop points affected by situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPlaceStructureType $affectedStopPlace
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceStructureType $affectedStopPlace
      */
-    public function addToStopPlaces(\Calcinai\Siri\AffectedStopPlaceStructureType $affectedStopPlace)
+    public function addToStopPlaces(\Calcinai\Siri\Objects\AffectedStopPlaceStructureType $affectedStopPlace)
     {
         $this->stopPlaces[] = $affectedStopPlace;
         return $this;
@@ -301,7 +301,7 @@ class AffectsScopeStructureType
      *
      * Places other than Stop points affected by situation.
      *
-     * @return \Calcinai\Siri\AffectedStopPlaceStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPlaceStructureType[]
      */
     public function getStopPlaces()
     {
@@ -313,7 +313,7 @@ class AffectsScopeStructureType
      *
      * Places other than Stop points affected by situation.
      *
-     * @param \Calcinai\Siri\AffectedStopPlaceStructureType[] $stopPlaces
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceStructureType[] $stopPlaces
      * @return self
      */
     public function setStopPlaces(array $stopPlaces)
@@ -328,9 +328,9 @@ class AffectsScopeStructureType
      * Places other than Stop points affected by situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedPlaceStructureType $affectedPlace
+     * @param \Calcinai\Siri\Objects\AffectedPlaceStructureType $affectedPlace
      */
-    public function addToPlaces(\Calcinai\Siri\AffectedPlaceStructureType $affectedPlace)
+    public function addToPlaces(\Calcinai\Siri\Objects\AffectedPlaceStructureType $affectedPlace)
     {
         $this->places[] = $affectedPlace;
         return $this;
@@ -367,7 +367,7 @@ class AffectsScopeStructureType
      *
      * Places other than Stop points affected by situation.
      *
-     * @return \Calcinai\Siri\AffectedPlaceStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedPlaceStructureType[]
      */
     public function getPlaces()
     {
@@ -379,7 +379,7 @@ class AffectsScopeStructureType
      *
      * Places other than Stop points affected by situation.
      *
-     * @param \Calcinai\Siri\AffectedPlaceStructureType[] $places
+     * @param \Calcinai\Siri\Objects\AffectedPlaceStructureType[] $places
      * @return self
      */
     public function setPlaces(array $places)
@@ -393,7 +393,7 @@ class AffectsScopeStructureType
      *
      * Specific journeys affected by situation.
      *
-     * @return \Calcinai\Siri\AffectsScopeStructureType\VehicleJourneysAType
+     * @return \Calcinai\Siri\Objects\AffectsScopeStructureType\VehicleJourneysAType
      */
     public function getVehicleJourneys()
     {
@@ -405,10 +405,10 @@ class AffectsScopeStructureType
      *
      * Specific journeys affected by situation.
      *
-     * @param \Calcinai\Siri\AffectsScopeStructureType\VehicleJourneysAType $vehicleJourneys
+     * @param \Calcinai\Siri\Objects\AffectsScopeStructureType\VehicleJourneysAType $vehicleJourneys
      * @return self
      */
-    public function setVehicleJourneys(\Calcinai\Siri\AffectsScopeStructureType\VehicleJourneysAType $vehicleJourneys)
+    public function setVehicleJourneys(\Calcinai\Siri\Objects\AffectsScopeStructureType\VehicleJourneysAType $vehicleJourneys)
     {
         $this->vehicleJourneys = $vehicleJourneys;
         return $this;
@@ -419,7 +419,7 @@ class AffectsScopeStructureType
      *
      * Roads affected by
      *
-     * @return \Calcinai\Siri\AffectedRoadsStructureType
+     * @return \Calcinai\Siri\Objects\AffectedRoadsStructureType
      */
     public function getRoads()
     {
@@ -431,10 +431,10 @@ class AffectsScopeStructureType
      *
      * Roads affected by
      *
-     * @param \Calcinai\Siri\AffectedRoadsStructureType $roads
+     * @param \Calcinai\Siri\Objects\AffectedRoadsStructureType $roads
      * @return self
      */
-    public function setRoads(\Calcinai\Siri\AffectedRoadsStructureType $roads)
+    public function setRoads(\Calcinai\Siri\Objects\AffectedRoadsStructureType $roads)
     {
         $this->roads = $roads;
         return $this;
@@ -443,7 +443,7 @@ class AffectsScopeStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -453,10 +453,10 @@ class AffectsScopeStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

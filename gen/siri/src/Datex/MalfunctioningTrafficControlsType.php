@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MalfunctioningTrafficControlsType
@@ -26,7 +26,7 @@ class MalfunctioningTrafficControlsType
     private $numberOfMalfunctioningTrafficControlEquipments = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $malfunctioningTrafficControlsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $malfunctioningTrafficControlsExtension
      */
     private $malfunctioningTrafficControlsExtension = null;
 
@@ -85,7 +85,7 @@ class MalfunctioningTrafficControlsType
     /**
      * Gets as malfunctioningTrafficControlsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMalfunctioningTrafficControlsExtension()
     {
@@ -95,10 +95,10 @@ class MalfunctioningTrafficControlsType
     /**
      * Sets a new malfunctioningTrafficControlsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $malfunctioningTrafficControlsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $malfunctioningTrafficControlsExtension
      * @return self
      */
-    public function setMalfunctioningTrafficControlsExtension(\Calcinai\Siri\Datex\ExtensionType $malfunctioningTrafficControlsExtension)
+    public function setMalfunctioningTrafficControlsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $malfunctioningTrafficControlsExtension)
     {
         $this->malfunctioningTrafficControlsExtension = $malfunctioningTrafficControlsExtension;
         return $this;

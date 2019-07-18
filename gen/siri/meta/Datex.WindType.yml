@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\WindType:
+Calcinai\Siri\Objects\Datex\WindType:
     properties:
         maximumWindSpeed:
             expose: true
@@ -59,4 +59,4 @@ Calcinai\Siri\Datex\WindType:
             accessor:
                 getter: getWindExtension
                 setter: setWindExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

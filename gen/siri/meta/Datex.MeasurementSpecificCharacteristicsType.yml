@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\MeasurementSpecificCharacteristicsType:
+Calcinai\Siri\Objects\Datex\MeasurementSpecificCharacteristicsType:
     properties:
         accuracy:
             expose: true
@@ -59,7 +59,7 @@ Calcinai\Siri\Datex\MeasurementSpecificCharacteristicsType:
             accessor:
                 getter: getSpecificVehicleCharacteristics
                 setter: setSpecificVehicleCharacteristics
-            type: Calcinai\Siri\Datex\VehicleCharacteristicsType
+            type: Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType
         measurementSpecificCharacteristicsExtension:
             expose: true
             access_type: public_method
@@ -69,4 +69,4 @@ Calcinai\Siri\Datex\MeasurementSpecificCharacteristicsType:
             accessor:
                 getter: getMeasurementSpecificCharacteristicsExtension
                 setter: setMeasurementSpecificCharacteristicsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

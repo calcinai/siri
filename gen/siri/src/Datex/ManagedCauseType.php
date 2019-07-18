@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ManagedCauseType
@@ -19,7 +19,7 @@ class ManagedCauseType extends CauseType
     private $managedCause = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $managedCauseExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $managedCauseExtension
      */
     private $managedCauseExtension = null;
 
@@ -52,7 +52,7 @@ class ManagedCauseType extends CauseType
     /**
      * Gets as managedCauseExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getManagedCauseExtension()
     {
@@ -62,10 +62,10 @@ class ManagedCauseType extends CauseType
     /**
      * Sets a new managedCauseExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $managedCauseExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $managedCauseExtension
      * @return self
      */
-    public function setManagedCauseExtension(\Calcinai\Siri\Datex\ExtensionType $managedCauseExtension)
+    public function setManagedCauseExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $managedCauseExtension)
     {
         $this->managedCauseExtension = $managedCauseExtension;
         return $this;

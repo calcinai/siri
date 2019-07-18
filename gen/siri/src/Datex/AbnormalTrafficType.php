@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AbnormalTrafficType
@@ -47,7 +47,7 @@ class AbnormalTrafficType extends TrafficElementType
     private $trafficTrendType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $abnormalTrafficExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $abnormalTrafficExtension
      */
     private $abnormalTrafficExtension = null;
 
@@ -184,7 +184,7 @@ class AbnormalTrafficType extends TrafficElementType
     /**
      * Gets as abnormalTrafficExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAbnormalTrafficExtension()
     {
@@ -194,10 +194,10 @@ class AbnormalTrafficType extends TrafficElementType
     /**
      * Sets a new abnormalTrafficExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $abnormalTrafficExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $abnormalTrafficExtension
      * @return self
      */
-    public function setAbnormalTrafficExtension(\Calcinai\Siri\Datex\ExtensionType $abnormalTrafficExtension)
+    public function setAbnormalTrafficExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $abnormalTrafficExtension)
     {
         $this->abnormalTrafficExtension = $abnormalTrafficExtension;
         return $this;

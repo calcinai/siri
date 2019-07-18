@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType:
+Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType:
     properties:
         hasLocation:
             expose: true

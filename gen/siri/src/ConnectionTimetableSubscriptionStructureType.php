@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionTimetableSubscriptionStructureType
@@ -12,14 +12,14 @@ class ConnectionTimetableSubscriptionStructureType extends AbstractSubscriptionS
 {
 
     /**
-     * @property \Calcinai\Siri\ConnectionTimetableRequest $connectionTimetableRequest
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableRequest $connectionTimetableRequest
      */
     private $connectionTimetableRequest = null;
 
     /**
      * Gets as connectionTimetableRequest
      *
-     * @return \Calcinai\Siri\ConnectionTimetableRequest
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableRequest
      */
     public function getConnectionTimetableRequest()
     {
@@ -29,10 +29,10 @@ class ConnectionTimetableSubscriptionStructureType extends AbstractSubscriptionS
     /**
      * Sets a new connectionTimetableRequest
      *
-     * @param \Calcinai\Siri\ConnectionTimetableRequest $connectionTimetableRequest
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableRequest $connectionTimetableRequest
      * @return self
      */
-    public function setConnectionTimetableRequest(\Calcinai\Siri\ConnectionTimetableRequest $connectionTimetableRequest)
+    public function setConnectionTimetableRequest(\Calcinai\Siri\Objects\ConnectionTimetableRequest $connectionTimetableRequest)
     {
         $this->connectionTimetableRequest = $connectionTimetableRequest;
         return $this;

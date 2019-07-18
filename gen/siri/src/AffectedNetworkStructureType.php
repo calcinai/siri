@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedNetworkStructureType
@@ -14,7 +14,7 @@ class AffectedNetworkStructureType
     /**
      * Operators of lines affected by incident. Overrides any value specified for (i) General Context.
      *
-     * @property \Calcinai\Siri\AffectedOperatorStructureType[] $affectedOperator
+     * @property \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $affectedOperator
      */
     private $affectedOperator = [
         
@@ -30,14 +30,14 @@ class AffectedNetworkStructureType
     /**
      * Name of Network.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $networkName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $networkName
      */
     private $networkName = null;
 
     /**
      * Textual description of overall routes affected. Should correspond to any structured description in the AffectedLines element.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $routesAffected
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $routesAffected
      */
     private $routesAffected = null;
 
@@ -103,14 +103,14 @@ class AffectedNetworkStructureType
     /**
      * Information about the indvidual lines in the network that are affected. If not explclitly overrided Modes and submodes will be defaulted to any values present (i) in the AffectedNetwork (ii) In the general Context.
      *
-     * @property \Calcinai\Siri\AffectedLineStructureType[] $affectedLine
+     * @property \Calcinai\Siri\Objects\AffectedLineStructureType[] $affectedLine
      */
     private $affectedLine = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -120,9 +120,9 @@ class AffectedNetworkStructureType
      * Operators of lines affected by incident. Overrides any value specified for (i) General Context.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedOperatorStructureType $affectedOperator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType $affectedOperator
      */
-    public function addToAffectedOperator(\Calcinai\Siri\AffectedOperatorStructureType $affectedOperator)
+    public function addToAffectedOperator(\Calcinai\Siri\Objects\AffectedOperatorStructureType $affectedOperator)
     {
         $this->affectedOperator[] = $affectedOperator;
         return $this;
@@ -159,7 +159,7 @@ class AffectedNetworkStructureType
      *
      * Operators of lines affected by incident. Overrides any value specified for (i) General Context.
      *
-     * @return \Calcinai\Siri\AffectedOperatorStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedOperatorStructureType[]
      */
     public function getAffectedOperator()
     {
@@ -171,7 +171,7 @@ class AffectedNetworkStructureType
      *
      * Operators of lines affected by incident. Overrides any value specified for (i) General Context.
      *
-     * @param \Calcinai\Siri\AffectedOperatorStructureType[] $affectedOperator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $affectedOperator
      * @return self
      */
     public function setAffectedOperator(array $affectedOperator)
@@ -211,7 +211,7 @@ class AffectedNetworkStructureType
      *
      * Name of Network.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getNetworkName()
     {
@@ -223,10 +223,10 @@ class AffectedNetworkStructureType
      *
      * Name of Network.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $networkName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $networkName
      * @return self
      */
-    public function setNetworkName(\Calcinai\Siri\NaturalLanguageStringStructureType $networkName)
+    public function setNetworkName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $networkName)
     {
         $this->networkName = $networkName;
         return $this;
@@ -237,7 +237,7 @@ class AffectedNetworkStructureType
      *
      * Textual description of overall routes affected. Should correspond to any structured description in the AffectedLines element.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getRoutesAffected()
     {
@@ -249,10 +249,10 @@ class AffectedNetworkStructureType
      *
      * Textual description of overall routes affected. Should correspond to any structured description in the AffectedLines element.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $routesAffected
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $routesAffected
      * @return self
      */
-    public function setRoutesAffected(\Calcinai\Siri\NaturalLanguageStringStructureType $routesAffected)
+    public function setRoutesAffected(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $routesAffected)
     {
         $this->routesAffected = $routesAffected;
         return $this;
@@ -514,9 +514,9 @@ class AffectedNetworkStructureType
      * Information about the indvidual lines in the network that are affected. If not explclitly overrided Modes and submodes will be defaulted to any values present (i) in the AffectedNetwork (ii) In the general Context.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedLineStructureType $affectedLine
+     * @param \Calcinai\Siri\Objects\AffectedLineStructureType $affectedLine
      */
-    public function addToAffectedLine(\Calcinai\Siri\AffectedLineStructureType $affectedLine)
+    public function addToAffectedLine(\Calcinai\Siri\Objects\AffectedLineStructureType $affectedLine)
     {
         $this->affectedLine[] = $affectedLine;
         return $this;
@@ -553,7 +553,7 @@ class AffectedNetworkStructureType
      *
      * Information about the indvidual lines in the network that are affected. If not explclitly overrided Modes and submodes will be defaulted to any values present (i) in the AffectedNetwork (ii) In the general Context.
      *
-     * @return \Calcinai\Siri\AffectedLineStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedLineStructureType[]
      */
     public function getAffectedLine()
     {
@@ -565,7 +565,7 @@ class AffectedNetworkStructureType
      *
      * Information about the indvidual lines in the network that are affected. If not explclitly overrided Modes and submodes will be defaulted to any values present (i) in the AffectedNetwork (ii) In the general Context.
      *
-     * @param \Calcinai\Siri\AffectedLineStructureType[] $affectedLine
+     * @param \Calcinai\Siri\Objects\AffectedLineStructureType[] $affectedLine
      * @return self
      */
     public function setAffectedLine(array $affectedLine)
@@ -577,7 +577,7 @@ class AffectedNetworkStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -587,10 +587,10 @@ class AffectedNetworkStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing PtConsequenceStructureType
@@ -14,7 +14,7 @@ class PtConsequenceStructureType
     /**
      * Period of effect of disruption, if different from that of situation.
      *
-     * @property \Calcinai\Siri\HalfOpenTimestampRangeStructureType $period
+     * @property \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $period
      */
     private $period = null;
 
@@ -33,61 +33,61 @@ class PtConsequenceStructureType
     /**
      * Parts of transport network affected by disruption if different from that of situation.
      *
-     * @property \Calcinai\Siri\AffectsScopeStructureType $affects
+     * @property \Calcinai\Siri\Objects\AffectsScopeStructureType $affects
      */
     private $affects = null;
 
     /**
      * Effect on different passenger needs
      *
-     * @property \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitabilities
+     * @property \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitabilities
      */
     private $suitabilities = null;
 
     /**
      * Advice to passengers.
      *
-     * @property \Calcinai\Siri\PtAdviceStructureType $advice
+     * @property \Calcinai\Siri\Objects\PtAdviceStructureType $advice
      */
     private $advice = null;
 
     /**
      * How Disruption should be handled in Info systems
      *
-     * @property \Calcinai\Siri\BlockingStructureType $blocking
+     * @property \Calcinai\Siri\Objects\BlockingStructureType $blocking
      */
     private $blocking = null;
 
     /**
      * Change to normal boarding activity allowed at stop.
      *
-     * @property \Calcinai\Siri\BoardingStructureType $boarding
+     * @property \Calcinai\Siri\Objects\BoardingStructureType $boarding
      */
     private $boarding = null;
 
     /**
-     * @property \Calcinai\Siri\DelaysStructureType $delays
+     * @property \Calcinai\Siri\Objects\DelaysStructureType $delays
      */
     private $delays = null;
 
     /**
      * Information on casualties
      *
-     * @property \Calcinai\Siri\CasualtiesStructureType $casualties
+     * @property \Calcinai\Siri\Objects\CasualtiesStructureType $casualties
      */
     private $casualties = null;
 
     /**
      * Description of fare exceptions allowed because of disruption.
      *
-     * @property \Calcinai\Siri\EasementsStructureType[] $easements
+     * @property \Calcinai\Siri\Objects\EasementsStructureType[] $easements
      */
     private $easements = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -96,7 +96,7 @@ class PtConsequenceStructureType
      *
      * Period of effect of disruption, if different from that of situation.
      *
-     * @return \Calcinai\Siri\HalfOpenTimestampRangeStructureType
+     * @return \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType
      */
     public function getPeriod()
     {
@@ -108,10 +108,10 @@ class PtConsequenceStructureType
      *
      * Period of effect of disruption, if different from that of situation.
      *
-     * @param \Calcinai\Siri\HalfOpenTimestampRangeStructureType $period
+     * @param \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $period
      * @return self
      */
-    public function setPeriod(\Calcinai\Siri\HalfOpenTimestampRangeStructureType $period)
+    public function setPeriod(\Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $period)
     {
         $this->period = $period;
         return $this;
@@ -170,7 +170,7 @@ class PtConsequenceStructureType
      *
      * Parts of transport network affected by disruption if different from that of situation.
      *
-     * @return \Calcinai\Siri\AffectsScopeStructureType
+     * @return \Calcinai\Siri\Objects\AffectsScopeStructureType
      */
     public function getAffects()
     {
@@ -182,10 +182,10 @@ class PtConsequenceStructureType
      *
      * Parts of transport network affected by disruption if different from that of situation.
      *
-     * @param \Calcinai\Siri\AffectsScopeStructureType $affects
+     * @param \Calcinai\Siri\Objects\AffectsScopeStructureType $affects
      * @return self
      */
-    public function setAffects(\Calcinai\Siri\AffectsScopeStructureType $affects)
+    public function setAffects(\Calcinai\Siri\Objects\AffectsScopeStructureType $affects)
     {
         $this->affects = $affects;
         return $this;
@@ -197,9 +197,9 @@ class PtConsequenceStructureType
      * Effect on different passenger needs
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability
      */
-    public function addToSuitabilities(\Calcinai\Siri\ACSB\SuitabilityStructureType $suitability)
+    public function addToSuitabilities(\Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability)
     {
         $this->suitabilities[] = $suitability;
         return $this;
@@ -236,7 +236,7 @@ class PtConsequenceStructureType
      *
      * Effect on different passenger needs
      *
-     * @return \Calcinai\Siri\ACSB\SuitabilityStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[]
      */
     public function getSuitabilities()
     {
@@ -248,7 +248,7 @@ class PtConsequenceStructureType
      *
      * Effect on different passenger needs
      *
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitabilities
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitabilities
      * @return self
      */
     public function setSuitabilities(array $suitabilities)
@@ -262,7 +262,7 @@ class PtConsequenceStructureType
      *
      * Advice to passengers.
      *
-     * @return \Calcinai\Siri\PtAdviceStructureType
+     * @return \Calcinai\Siri\Objects\PtAdviceStructureType
      */
     public function getAdvice()
     {
@@ -274,10 +274,10 @@ class PtConsequenceStructureType
      *
      * Advice to passengers.
      *
-     * @param \Calcinai\Siri\PtAdviceStructureType $advice
+     * @param \Calcinai\Siri\Objects\PtAdviceStructureType $advice
      * @return self
      */
-    public function setAdvice(\Calcinai\Siri\PtAdviceStructureType $advice)
+    public function setAdvice(\Calcinai\Siri\Objects\PtAdviceStructureType $advice)
     {
         $this->advice = $advice;
         return $this;
@@ -288,7 +288,7 @@ class PtConsequenceStructureType
      *
      * How Disruption should be handled in Info systems
      *
-     * @return \Calcinai\Siri\BlockingStructureType
+     * @return \Calcinai\Siri\Objects\BlockingStructureType
      */
     public function getBlocking()
     {
@@ -300,10 +300,10 @@ class PtConsequenceStructureType
      *
      * How Disruption should be handled in Info systems
      *
-     * @param \Calcinai\Siri\BlockingStructureType $blocking
+     * @param \Calcinai\Siri\Objects\BlockingStructureType $blocking
      * @return self
      */
-    public function setBlocking(\Calcinai\Siri\BlockingStructureType $blocking)
+    public function setBlocking(\Calcinai\Siri\Objects\BlockingStructureType $blocking)
     {
         $this->blocking = $blocking;
         return $this;
@@ -314,7 +314,7 @@ class PtConsequenceStructureType
      *
      * Change to normal boarding activity allowed at stop.
      *
-     * @return \Calcinai\Siri\BoardingStructureType
+     * @return \Calcinai\Siri\Objects\BoardingStructureType
      */
     public function getBoarding()
     {
@@ -326,10 +326,10 @@ class PtConsequenceStructureType
      *
      * Change to normal boarding activity allowed at stop.
      *
-     * @param \Calcinai\Siri\BoardingStructureType $boarding
+     * @param \Calcinai\Siri\Objects\BoardingStructureType $boarding
      * @return self
      */
-    public function setBoarding(\Calcinai\Siri\BoardingStructureType $boarding)
+    public function setBoarding(\Calcinai\Siri\Objects\BoardingStructureType $boarding)
     {
         $this->boarding = $boarding;
         return $this;
@@ -338,7 +338,7 @@ class PtConsequenceStructureType
     /**
      * Gets as delays
      *
-     * @return \Calcinai\Siri\DelaysStructureType
+     * @return \Calcinai\Siri\Objects\DelaysStructureType
      */
     public function getDelays()
     {
@@ -348,10 +348,10 @@ class PtConsequenceStructureType
     /**
      * Sets a new delays
      *
-     * @param \Calcinai\Siri\DelaysStructureType $delays
+     * @param \Calcinai\Siri\Objects\DelaysStructureType $delays
      * @return self
      */
-    public function setDelays(\Calcinai\Siri\DelaysStructureType $delays)
+    public function setDelays(\Calcinai\Siri\Objects\DelaysStructureType $delays)
     {
         $this->delays = $delays;
         return $this;
@@ -362,7 +362,7 @@ class PtConsequenceStructureType
      *
      * Information on casualties
      *
-     * @return \Calcinai\Siri\CasualtiesStructureType
+     * @return \Calcinai\Siri\Objects\CasualtiesStructureType
      */
     public function getCasualties()
     {
@@ -374,10 +374,10 @@ class PtConsequenceStructureType
      *
      * Information on casualties
      *
-     * @param \Calcinai\Siri\CasualtiesStructureType $casualties
+     * @param \Calcinai\Siri\Objects\CasualtiesStructureType $casualties
      * @return self
      */
-    public function setCasualties(\Calcinai\Siri\CasualtiesStructureType $casualties)
+    public function setCasualties(\Calcinai\Siri\Objects\CasualtiesStructureType $casualties)
     {
         $this->casualties = $casualties;
         return $this;
@@ -389,9 +389,9 @@ class PtConsequenceStructureType
      * Description of fare exceptions allowed because of disruption.
      *
      * @return self
-     * @param \Calcinai\Siri\EasementsStructureType $easements
+     * @param \Calcinai\Siri\Objects\EasementsStructureType $easements
      */
-    public function addToEasements(\Calcinai\Siri\EasementsStructureType $easements)
+    public function addToEasements(\Calcinai\Siri\Objects\EasementsStructureType $easements)
     {
         $this->easements[] = $easements;
         return $this;
@@ -428,7 +428,7 @@ class PtConsequenceStructureType
      *
      * Description of fare exceptions allowed because of disruption.
      *
-     * @return \Calcinai\Siri\EasementsStructureType[]
+     * @return \Calcinai\Siri\Objects\EasementsStructureType[]
      */
     public function getEasements()
     {
@@ -440,7 +440,7 @@ class PtConsequenceStructureType
      *
      * Description of fare exceptions allowed because of disruption.
      *
-     * @param \Calcinai\Siri\EasementsStructureType[] $easements
+     * @param \Calcinai\Siri\Objects\EasementsStructureType[] $easements
      * @return self
      */
     public function setEasements(array $easements)
@@ -452,7 +452,7 @@ class PtConsequenceStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -462,10 +462,10 @@ class PtConsequenceStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

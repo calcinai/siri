@@ -1,4 +1,4 @@
-Calcinai\Siri\PtAdviceStructureType:
+Calcinai\Siri\Objects\PtAdviceStructureType:
     properties:
         adviceRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\PtAdviceStructureType:
             accessor:
                 getter: getAdviceRef
                 setter: setAdviceRef
-            type: Calcinai\Siri\AdviceRefStructureType
+            type: Calcinai\Siri\Objects\AdviceRefStructureType
         details:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\PtAdviceStructureType:
             accessor:
                 getter: getDetails
                 setter: setDetails
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType

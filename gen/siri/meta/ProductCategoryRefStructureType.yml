@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductCategoryRefStructureType:
+Calcinai\Siri\Objects\ProductCategoryRefStructureType:
     properties:
         __value:
             expose: true

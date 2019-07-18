@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\PtSituationElementStructureType;
+namespace Calcinai\Siri\Objects\PtSituationElementStructureType;
 
 /**
  * Class representing RepetitionsAType

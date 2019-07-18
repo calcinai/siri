@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGEnumerationsType
@@ -17,7 +17,7 @@ class TPEGEnumerationsType
     private $tpegloc03ILCPointDescriptorSubtypeEnum = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegenumerationsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegenumerationsExtension
      */
     private $tpegenumerationsExtension = null;
 
@@ -91,7 +91,7 @@ class TPEGEnumerationsType
     /**
      * Gets as tpegenumerationsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegenumerationsExtension()
     {
@@ -101,10 +101,10 @@ class TPEGEnumerationsType
     /**
      * Sets a new tpegenumerationsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegenumerationsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegenumerationsExtension
      * @return self
      */
-    public function setTpegenumerationsExtension(\Calcinai\Siri\Datex\ExtensionType $tpegenumerationsExtension)
+    public function setTpegenumerationsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegenumerationsExtension)
     {
         $this->tpegenumerationsExtension = $tpegenumerationsExtension;
         return $this;

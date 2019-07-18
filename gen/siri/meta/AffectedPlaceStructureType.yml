@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedPlaceStructureType:
+Calcinai\Siri\Objects\AffectedPlaceStructureType:
     properties:
         placeRef:
             expose: true
@@ -29,7 +29,7 @@ Calcinai\Siri\AffectedPlaceStructureType:
             accessor:
                 getter: getPlaceName
                 setter: setPlaceName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         location:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\AffectedPlaceStructureType:
             accessor:
                 getter: getLocation
                 setter: setLocation
-            type: Calcinai\Siri\LocationStructureType
+            type: Calcinai\Siri\Objects\LocationStructureType
         placeCategory:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ Calcinai\Siri\AffectedPlaceStructureType:
             accessor:
                 getter: getAccessibilityAssessment
                 setter: setAccessibilityAssessment
-            type: Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+            type: Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -83,4 +83,4 @@ Calcinai\Siri\AffectedPlaceStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

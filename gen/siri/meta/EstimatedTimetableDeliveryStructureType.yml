@@ -1,4 +1,4 @@
-Calcinai\Siri\EstimatedTimetableDeliveryStructureType:
+Calcinai\Siri\Objects\EstimatedTimetableDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\EstimatedTimetableDeliveryStructureType:
             accessor:
                 getter: getEstimatedJourneyVersionFrame
                 setter: setEstimatedJourneyVersionFrame
-            type: Calcinai\Siri\EstimatedVersionFrameStructureType
+            type: Calcinai\Siri\Objects\EstimatedVersionFrameStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ Calcinai\Siri\EstimatedTimetableDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

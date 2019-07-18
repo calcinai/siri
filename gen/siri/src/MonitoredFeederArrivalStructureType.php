@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing MonitoredFeederArrivalStructureType
@@ -21,7 +21,7 @@ class MonitoredFeederArrivalStructureType extends AbstractFeederItemStructureTyp
     /**
      * Information about the feeder journey.
      *
-     * @property \Calcinai\Siri\InterchangeJourneyStructureType $feederJourney
+     * @property \Calcinai\Siri\Objects\InterchangeJourneyStructureType $feederJourney
      */
     private $feederJourney = null;
 
@@ -45,7 +45,7 @@ class MonitoredFeederArrivalStructureType extends AbstractFeederItemStructureTyp
     private $expectedArrivalTime = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -80,7 +80,7 @@ class MonitoredFeederArrivalStructureType extends AbstractFeederItemStructureTyp
      *
      * Information about the feeder journey.
      *
-     * @return \Calcinai\Siri\InterchangeJourneyStructureType
+     * @return \Calcinai\Siri\Objects\InterchangeJourneyStructureType
      */
     public function getFeederJourney()
     {
@@ -92,10 +92,10 @@ class MonitoredFeederArrivalStructureType extends AbstractFeederItemStructureTyp
      *
      * Information about the feeder journey.
      *
-     * @param \Calcinai\Siri\InterchangeJourneyStructureType $feederJourney
+     * @param \Calcinai\Siri\Objects\InterchangeJourneyStructureType $feederJourney
      * @return self
      */
-    public function setFeederJourney(\Calcinai\Siri\InterchangeJourneyStructureType $feederJourney)
+    public function setFeederJourney(\Calcinai\Siri\Objects\InterchangeJourneyStructureType $feederJourney)
     {
         $this->feederJourney = $feederJourney;
         return $this;
@@ -178,7 +178,7 @@ class MonitoredFeederArrivalStructureType extends AbstractFeederItemStructureTyp
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -188,10 +188,10 @@ class MonitoredFeederArrivalStructureType extends AbstractFeederItemStructureTyp
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

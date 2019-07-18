@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficHeadwayType
@@ -26,7 +26,7 @@ class TrafficHeadwayType extends TrafficValueType
     private $averageTimeHeadway = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficHeadwayExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficHeadwayExtension
      */
     private $trafficHeadwayExtension = null;
 
@@ -85,7 +85,7 @@ class TrafficHeadwayType extends TrafficValueType
     /**
      * Gets as trafficHeadwayExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficHeadwayExtension()
     {
@@ -95,10 +95,10 @@ class TrafficHeadwayType extends TrafficValueType
     /**
      * Sets a new trafficHeadwayExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficHeadwayExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficHeadwayExtension
      * @return self
      */
-    public function setTrafficHeadwayExtension(\Calcinai\Siri\Datex\ExtensionType $trafficHeadwayExtension)
+    public function setTrafficHeadwayExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficHeadwayExtension)
     {
         $this->trafficHeadwayExtension = $trafficHeadwayExtension;
         return $this;

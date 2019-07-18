@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringFeederDeliveryStructureType
@@ -21,19 +21,19 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
     /**
      * A feeder arrival at the connection point
      *
-     * @property \Calcinai\Siri\MonitoredFeederArrivalStructureType $monitoredFeederArrival
+     * @property \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival
      */
     private $monitoredFeederArrival = null;
 
     /**
      * Cancellation of a feeder arrival at a connection point.
      *
-     * @property \Calcinai\Siri\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation
+     * @property \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation
      */
     private $monitoredFeederArrivalCancellation = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -68,7 +68,7 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
      *
      * A feeder arrival at the connection point
      *
-     * @return \Calcinai\Siri\MonitoredFeederArrivalStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType
      */
     public function getMonitoredFeederArrival()
     {
@@ -80,10 +80,10 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
      *
      * A feeder arrival at the connection point
      *
-     * @param \Calcinai\Siri\MonitoredFeederArrivalStructureType $monitoredFeederArrival
+     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival
      * @return self
      */
-    public function setMonitoredFeederArrival(\Calcinai\Siri\MonitoredFeederArrivalStructureType $monitoredFeederArrival)
+    public function setMonitoredFeederArrival(\Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival)
     {
         $this->monitoredFeederArrival = $monitoredFeederArrival;
         return $this;
@@ -94,7 +94,7 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
      *
      * Cancellation of a feeder arrival at a connection point.
      *
-     * @return \Calcinai\Siri\MonitoredFeederArrivalCancellationStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType
      */
     public function getMonitoredFeederArrivalCancellation()
     {
@@ -106,10 +106,10 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
      *
      * Cancellation of a feeder arrival at a connection point.
      *
-     * @param \Calcinai\Siri\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation
+     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation
      * @return self
      */
-    public function setMonitoredFeederArrivalCancellation(\Calcinai\Siri\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation)
+    public function setMonitoredFeederArrivalCancellation(\Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation)
     {
         $this->monitoredFeederArrivalCancellation = $monitoredFeederArrivalCancellation;
         return $this;
@@ -118,7 +118,7 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -128,10 +128,10 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

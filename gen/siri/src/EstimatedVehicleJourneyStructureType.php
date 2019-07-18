@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedVehicleJourneyStructureType
@@ -35,7 +35,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * If no vehicle journey reference is available, identify it by origin and destination and the scheduled times at these stops.
      *
-     * @property \Calcinai\Siri\DatedVehicleJourneyIndirectRefStructureType $datedVehicleJourneyIndirectRef
+     * @property \Calcinai\Siri\Objects\DatedVehicleJourneyIndirectRefStructureType $datedVehicleJourneyIndirectRef
      */
     private $datedVehicleJourneyIndirectRef = null;
 
@@ -82,14 +82,14 @@ class EstimatedVehicleJourneyStructureType
     private $routeRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
     /**
      * Description of the direction.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      */
     private $directionName = null;
 
@@ -131,12 +131,12 @@ class EstimatedVehicleJourneyStructureType
     /**
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName
      */
     private $vehicleJourneyName = null;
 
     /**
-     * @property \Calcinai\Siri\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
      */
     private $journeyNote = null;
 
@@ -150,17 +150,17 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @property \Calcinai\Siri\FacilityConditionElement $facilityConditionElement
+     * @property \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
      */
     private $facilityConditionElement = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityChangeElement $facilityChangeElement
+     * @property \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
      */
     private $facilityChangeElement = null;
 
     /**
-     * @property \Calcinai\Siri\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
      */
     private $situationRef = null;
 
@@ -207,12 +207,12 @@ class EstimatedVehicleJourneyStructureType
     private $vehicleRef = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedCall[] $estimatedCalls
+     * @property \Calcinai\Siri\Objects\EstimatedCall[] $estimatedCalls
      */
     private $estimatedCalls = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedCall $estimatedCall
+     * @property \Calcinai\Siri\Objects\EstimatedCall $estimatedCall
      */
     private $estimatedCall = null;
 
@@ -224,7 +224,7 @@ class EstimatedVehicleJourneyStructureType
     private $isCompleteStopSequence = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -311,7 +311,7 @@ class EstimatedVehicleJourneyStructureType
      *
      * If no vehicle journey reference is available, identify it by origin and destination and the scheduled times at these stops.
      *
-     * @return \Calcinai\Siri\DatedVehicleJourneyIndirectRefStructureType
+     * @return \Calcinai\Siri\Objects\DatedVehicleJourneyIndirectRefStructureType
      */
     public function getDatedVehicleJourneyIndirectRef()
     {
@@ -323,10 +323,10 @@ class EstimatedVehicleJourneyStructureType
      *
      * If no vehicle journey reference is available, identify it by origin and destination and the scheduled times at these stops.
      *
-     * @param \Calcinai\Siri\DatedVehicleJourneyIndirectRefStructureType $datedVehicleJourneyIndirectRef
+     * @param \Calcinai\Siri\Objects\DatedVehicleJourneyIndirectRefStructureType $datedVehicleJourneyIndirectRef
      * @return self
      */
-    public function setDatedVehicleJourneyIndirectRef(\Calcinai\Siri\DatedVehicleJourneyIndirectRefStructureType $datedVehicleJourneyIndirectRef)
+    public function setDatedVehicleJourneyIndirectRef(\Calcinai\Siri\Objects\DatedVehicleJourneyIndirectRefStructureType $datedVehicleJourneyIndirectRef)
     {
         $this->datedVehicleJourneyIndirectRef = $datedVehicleJourneyIndirectRef;
         return $this;
@@ -491,7 +491,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -501,10 +501,10 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -515,7 +515,7 @@ class EstimatedVehicleJourneyStructureType
      *
      * Description of the direction.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDirectionName()
     {
@@ -527,10 +527,10 @@ class EstimatedVehicleJourneyStructureType
      *
      * Description of the direction.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      * @return self
      */
-    public function setDirectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $directionName)
+    public function setDirectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName)
     {
         $this->directionName = $directionName;
         return $this;
@@ -671,7 +671,7 @@ class EstimatedVehicleJourneyStructureType
      *
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getVehicleJourneyName()
     {
@@ -683,10 +683,10 @@ class EstimatedVehicleJourneyStructureType
      *
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName
      * @return self
      */
-    public function setVehicleJourneyName(\Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName)
+    public function setVehicleJourneyName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName)
     {
         $this->vehicleJourneyName = $vehicleJourneyName;
         return $this;
@@ -695,7 +695,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote
      */
     public function getJourneyNote()
     {
@@ -705,10 +705,10 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\JourneyNote $journeyNote)
+    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;
@@ -745,7 +745,7 @@ class EstimatedVehicleJourneyStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @return \Calcinai\Siri\FacilityConditionElement
+     * @return \Calcinai\Siri\Objects\FacilityConditionElement
      */
     public function getFacilityConditionElement()
     {
@@ -757,10 +757,10 @@ class EstimatedVehicleJourneyStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @param \Calcinai\Siri\FacilityConditionElement $facilityConditionElement
+     * @param \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
      * @return self
      */
-    public function setFacilityConditionElement(\Calcinai\Siri\FacilityConditionElement $facilityConditionElement)
+    public function setFacilityConditionElement(\Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement)
     {
         $this->facilityConditionElement = $facilityConditionElement;
         return $this;
@@ -769,7 +769,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Gets as facilityChangeElement
      *
-     * @return \Calcinai\Siri\FacilityChangeElement
+     * @return \Calcinai\Siri\Objects\FacilityChangeElement
      */
     public function getFacilityChangeElement()
     {
@@ -779,10 +779,10 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Sets a new facilityChangeElement
      *
-     * @param \Calcinai\Siri\FacilityChangeElement $facilityChangeElement
+     * @param \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
      * @return self
      */
-    public function setFacilityChangeElement(\Calcinai\Siri\FacilityChangeElement $facilityChangeElement)
+    public function setFacilityChangeElement(\Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement)
     {
         $this->facilityChangeElement = $facilityChangeElement;
         return $this;
@@ -791,7 +791,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef
      */
     public function getSituationRef()
     {
@@ -801,10 +801,10 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;
@@ -970,9 +970,9 @@ class EstimatedVehicleJourneyStructureType
      * Adds as estimatedCall
      *
      * @return self
-     * @param \Calcinai\Siri\EstimatedCall $estimatedCall
+     * @param \Calcinai\Siri\Objects\EstimatedCall $estimatedCall
      */
-    public function addToEstimatedCalls(\Calcinai\Siri\EstimatedCall $estimatedCall)
+    public function addToEstimatedCalls(\Calcinai\Siri\Objects\EstimatedCall $estimatedCall)
     {
         $this->estimatedCalls[] = $estimatedCall;
         return $this;
@@ -1003,7 +1003,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Gets as estimatedCalls
      *
-     * @return \Calcinai\Siri\EstimatedCall[]
+     * @return \Calcinai\Siri\Objects\EstimatedCall[]
      */
     public function getEstimatedCalls()
     {
@@ -1013,7 +1013,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Sets a new estimatedCalls
      *
-     * @param \Calcinai\Siri\EstimatedCall[] $estimatedCalls
+     * @param \Calcinai\Siri\Objects\EstimatedCall[] $estimatedCalls
      * @return self
      */
     public function setEstimatedCalls(array $estimatedCalls)
@@ -1025,7 +1025,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Gets as estimatedCall
      *
-     * @return \Calcinai\Siri\EstimatedCall
+     * @return \Calcinai\Siri\Objects\EstimatedCall
      */
     public function getEstimatedCall()
     {
@@ -1035,10 +1035,10 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Sets a new estimatedCall
      *
-     * @param \Calcinai\Siri\EstimatedCall $estimatedCall
+     * @param \Calcinai\Siri\Objects\EstimatedCall $estimatedCall
      * @return self
      */
-    public function setEstimatedCall(\Calcinai\Siri\EstimatedCall $estimatedCall)
+    public function setEstimatedCall(\Calcinai\Siri\Objects\EstimatedCall $estimatedCall)
     {
         $this->estimatedCall = $estimatedCall;
         return $this;
@@ -1073,7 +1073,7 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -1083,10 +1083,10 @@ class EstimatedVehicleJourneyStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

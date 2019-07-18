@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ProductionTimetableDeliveryStructureType
@@ -19,12 +19,12 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\DatedTimetableVersionFrame $datedTimetableVersionFrame
+     * @property \Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame
      */
     private $datedTimetableVersionFrame = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -57,7 +57,7 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Gets as datedTimetableVersionFrame
      *
-     * @return \Calcinai\Siri\DatedTimetableVersionFrame
+     * @return \Calcinai\Siri\Objects\DatedTimetableVersionFrame
      */
     public function getDatedTimetableVersionFrame()
     {
@@ -67,10 +67,10 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Sets a new datedTimetableVersionFrame
      *
-     * @param \Calcinai\Siri\DatedTimetableVersionFrame $datedTimetableVersionFrame
+     * @param \Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame
      * @return self
      */
-    public function setDatedTimetableVersionFrame(\Calcinai\Siri\DatedTimetableVersionFrame $datedTimetableVersionFrame)
+    public function setDatedTimetableVersionFrame(\Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame)
     {
         $this->datedTimetableVersionFrame = $datedTimetableVersionFrame;
         return $this;
@@ -79,7 +79,7 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -89,10 +89,10 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

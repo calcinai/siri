@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SubscriptionResponseStructureType
@@ -12,7 +12,7 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\ResponseStatus $responseStatus
+     * @property \Calcinai\Siri\Objects\ResponseStatus $responseStatus
      */
     private $responseStatus = null;
 
@@ -31,14 +31,14 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
     private $serviceStartedTime = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
     /**
      * Gets as responseStatus
      *
-     * @return \Calcinai\Siri\ResponseStatus
+     * @return \Calcinai\Siri\Objects\ResponseStatus
      */
     public function getResponseStatus()
     {
@@ -48,10 +48,10 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
     /**
      * Sets a new responseStatus
      *
-     * @param \Calcinai\Siri\ResponseStatus $responseStatus
+     * @param \Calcinai\Siri\Objects\ResponseStatus $responseStatus
      * @return self
      */
-    public function setResponseStatus(\Calcinai\Siri\ResponseStatus $responseStatus)
+    public function setResponseStatus(\Calcinai\Siri\Objects\ResponseStatus $responseStatus)
     {
         $this->responseStatus = $responseStatus;
         return $this;
@@ -112,7 +112,7 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -122,10 +122,10 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionMonitoringCapabilityRequestPolicyStructureType:
+Calcinai\Siri\Objects\ConnectionMonitoringCapabilityRequestPolicyStructureType:
     properties:
         foreignJourneysOnly:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ManagedCauseType:
+Calcinai\Siri\Objects\Datex\ManagedCauseType:
     properties:
         managedCause:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\ManagedCauseType:
             accessor:
                 getter: getManagedCauseExtension
                 setter: setManagedCauseExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

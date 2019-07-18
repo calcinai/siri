@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ServiceRequestContextStructureType
@@ -70,7 +70,7 @@ class ServiceRequestContextStructureType
     /**
      * Default names pace used to scope data identifiers.
      *
-     * @property \Calcinai\Siri\DataNameSpacesStructureType $dataNameSpaces
+     * @property \Calcinai\Siri\Objects\DataNameSpacesStructureType $dataNameSpaces
      */
     private $dataNameSpaces = null;
 
@@ -364,7 +364,7 @@ class ServiceRequestContextStructureType
      *
      * Default names pace used to scope data identifiers.
      *
-     * @return \Calcinai\Siri\DataNameSpacesStructureType
+     * @return \Calcinai\Siri\Objects\DataNameSpacesStructureType
      */
     public function getDataNameSpaces()
     {
@@ -376,10 +376,10 @@ class ServiceRequestContextStructureType
      *
      * Default names pace used to scope data identifiers.
      *
-     * @param \Calcinai\Siri\DataNameSpacesStructureType $dataNameSpaces
+     * @param \Calcinai\Siri\Objects\DataNameSpacesStructureType $dataNameSpaces
      * @return self
      */
-    public function setDataNameSpaces(\Calcinai\Siri\DataNameSpacesStructureType $dataNameSpaces)
+    public function setDataNameSpaces(\Calcinai\Siri\Objects\DataNameSpacesStructureType $dataNameSpaces)
     {
         $this->dataNameSpaces = $dataNameSpaces;
         return $this;

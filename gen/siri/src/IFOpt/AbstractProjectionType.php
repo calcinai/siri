@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing AbstractProjectionType
@@ -14,7 +14,7 @@ class AbstractProjectionType
     /**
      * GIS Features that this element projects onto.
      *
-     * @property \Calcinai\Siri\IFOpt\FeatureRefStructureType[] $features
+     * @property \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType[] $features
      */
     private $features = null;
 
@@ -24,9 +24,9 @@ class AbstractProjectionType
      * GIS Features that this element projects onto.
      *
      * @return self
-     * @param \Calcinai\Siri\IFOpt\FeatureRefStructureType $gisFeatureRef
+     * @param \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType $gisFeatureRef
      */
-    public function addToFeatures(\Calcinai\Siri\IFOpt\FeatureRefStructureType $gisFeatureRef)
+    public function addToFeatures(\Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType $gisFeatureRef)
     {
         $this->features[] = $gisFeatureRef;
         return $this;
@@ -63,7 +63,7 @@ class AbstractProjectionType
      *
      * GIS Features that this element projects onto.
      *
-     * @return \Calcinai\Siri\IFOpt\FeatureRefStructureType[]
+     * @return \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType[]
      */
     public function getFeatures()
     {
@@ -75,7 +75,7 @@ class AbstractProjectionType
      *
      * GIS Features that this element projects onto.
      *
-     * @param \Calcinai\Siri\IFOpt\FeatureRefStructureType[] $features
+     * @param \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType[] $features
      * @return self
      */
     public function setFeatures(array $features)

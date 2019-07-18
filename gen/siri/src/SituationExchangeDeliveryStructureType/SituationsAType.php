@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\SituationExchangeDeliveryStructureType;
+namespace Calcinai\Siri\Objects\SituationExchangeDeliveryStructureType;
 
 /**
  * Class representing SituationsAType
@@ -11,14 +11,14 @@ class SituationsAType
     /**
      * Description of an situation.
      *
-     * @property \Calcinai\Siri\PtSituationElementStructureType[] $ptSituationElement
+     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType[] $ptSituationElement
      */
     private $ptSituationElement = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\RoadSituationElement[] $roadSituationElement
+     * @property \Calcinai\Siri\Objects\RoadSituationElement[] $roadSituationElement
      */
     private $roadSituationElement = [
         
@@ -30,9 +30,9 @@ class SituationsAType
      * Description of an situation.
      *
      * @return self
-     * @param \Calcinai\Siri\PtSituationElementStructureType $ptSituationElement
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType $ptSituationElement
      */
-    public function addToPtSituationElement(\Calcinai\Siri\PtSituationElementStructureType $ptSituationElement)
+    public function addToPtSituationElement(\Calcinai\Siri\Objects\PtSituationElementStructureType $ptSituationElement)
     {
         $this->ptSituationElement[] = $ptSituationElement;
         return $this;
@@ -69,7 +69,7 @@ class SituationsAType
      *
      * Description of an situation.
      *
-     * @return \Calcinai\Siri\PtSituationElementStructureType[]
+     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType[]
      */
     public function getPtSituationElement()
     {
@@ -81,7 +81,7 @@ class SituationsAType
      *
      * Description of an situation.
      *
-     * @param \Calcinai\Siri\PtSituationElementStructureType[] $ptSituationElement
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType[] $ptSituationElement
      * @return self
      */
     public function setPtSituationElement(array $ptSituationElement)
@@ -94,9 +94,9 @@ class SituationsAType
      * Adds as roadSituationElement
      *
      * @return self
-     * @param \Calcinai\Siri\RoadSituationElement $roadSituationElement
+     * @param \Calcinai\Siri\Objects\RoadSituationElement $roadSituationElement
      */
-    public function addToRoadSituationElement(\Calcinai\Siri\RoadSituationElement $roadSituationElement)
+    public function addToRoadSituationElement(\Calcinai\Siri\Objects\RoadSituationElement $roadSituationElement)
     {
         $this->roadSituationElement[] = $roadSituationElement;
         return $this;
@@ -127,7 +127,7 @@ class SituationsAType
     /**
      * Gets as roadSituationElement
      *
-     * @return \Calcinai\Siri\RoadSituationElement[]
+     * @return \Calcinai\Siri\Objects\RoadSituationElement[]
      */
     public function getRoadSituationElement()
     {
@@ -137,7 +137,7 @@ class SituationsAType
     /**
      * Sets a new roadSituationElement
      *
-     * @param \Calcinai\Siri\RoadSituationElement[] $roadSituationElement
+     * @param \Calcinai\Siri\Objects\RoadSituationElement[] $roadSituationElement
      * @return self
      */
     public function setRoadSituationElement(array $roadSituationElement)

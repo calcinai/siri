@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt\ZoneProjectionStructureType;
+namespace Calcinai\Siri\Objects\IFOpt\ZoneProjectionStructureType;
 
 /**
  * Class representing BoundaryAType
@@ -9,7 +9,7 @@ class BoundaryAType
 {
 
     /**
-     * @property \Calcinai\Siri\IFOpt\PointProjection[] $pointProjection
+     * @property \Calcinai\Siri\Objects\IFOpt\PointProjection[] $pointProjection
      */
     private $pointProjection = [
         
@@ -19,9 +19,9 @@ class BoundaryAType
      * Adds as pointProjection
      *
      * @return self
-     * @param \Calcinai\Siri\IFOpt\PointProjection $pointProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection
      */
-    public function addToPointProjection(\Calcinai\Siri\IFOpt\PointProjection $pointProjection)
+    public function addToPointProjection(\Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection)
     {
         $this->pointProjection[] = $pointProjection;
         return $this;
@@ -52,7 +52,7 @@ class BoundaryAType
     /**
      * Gets as pointProjection
      *
-     * @return \Calcinai\Siri\IFOpt\PointProjection[]
+     * @return \Calcinai\Siri\Objects\IFOpt\PointProjection[]
      */
     public function getPointProjection()
     {
@@ -62,7 +62,7 @@ class BoundaryAType
     /**
      * Sets a new pointProjection
      *
-     * @param \Calcinai\Siri\IFOpt\PointProjection[] $pointProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\PointProjection[] $pointProjection
      * @return self
      */
     public function setPointProjection(array $pointProjection)

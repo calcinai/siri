@@ -1,4 +1,4 @@
-Calcinai\Siri\ConsumerResponseEndpointStructureType:
+Calcinai\Siri\Objects\ConsumerResponseEndpointStructureType:
     properties:
         consumerRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ConsumerResponseEndpointStructureType:
             accessor:
                 getter: getConsumerRef
                 setter: setConsumerRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         requestMessageRef:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\ConsumerResponseEndpointStructureType:
             accessor:
                 getter: getRequestMessageRef
                 setter: setRequestMessageRef
-            type: Calcinai\Siri\MessageRefStructureType
+            type: Calcinai\Siri\Objects\MessageRefStructureType

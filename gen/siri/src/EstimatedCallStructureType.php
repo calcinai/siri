@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedCallStructureType
@@ -27,7 +27,7 @@ class EstimatedCallStructureType
     private $order = null;
 
     /**
-     * @property \Calcinai\Siri\StopPointName $stopPointName
+     * @property \Calcinai\Siri\Objects\StopPointName $stopPointName
      */
     private $stopPointName = null;
 
@@ -81,31 +81,31 @@ class EstimatedCallStructureType
     /**
      * Destination to show for the vehicle at the specific stop (vehicle signage), if different to the Destination Name for the full journey.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $destinationDisplay
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationDisplay
      */
     private $destinationDisplay = null;
 
     /**
      * Text annotation that applies to this call.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $callNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote
      */
     private $callNote = null;
 
     /**
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @property \Calcinai\Siri\FacilityConditionElement $facilityConditionElement
+     * @property \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
      */
     private $facilityConditionElement = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityChangeElement $facilityChangeElement
+     * @property \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
      */
     private $facilityChangeElement = null;
 
     /**
-     * @property \Calcinai\Siri\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
      */
     private $situationRef = null;
 
@@ -125,7 +125,7 @@ class EstimatedCallStructureType
     private $arrivalStatus = null;
 
     /**
-     * @property \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @property \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      */
     private $arrivalPlatformName = null;
 
@@ -150,7 +150,7 @@ class EstimatedCallStructureType
     private $departureStatus = null;
 
     /**
-     * @property \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @property \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      */
     private $departurePlatformName = null;
 
@@ -170,7 +170,7 @@ class EstimatedCallStructureType
     private $expectedHeadwayInterval = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -243,7 +243,7 @@ class EstimatedCallStructureType
     /**
      * Gets as stopPointName
      *
-     * @return \Calcinai\Siri\StopPointName
+     * @return \Calcinai\Siri\Objects\StopPointName
      */
     public function getStopPointName()
     {
@@ -253,10 +253,10 @@ class EstimatedCallStructureType
     /**
      * Sets a new stopPointName
      *
-     * @param \Calcinai\Siri\StopPointName $stopPointName
+     * @param \Calcinai\Siri\Objects\StopPointName $stopPointName
      * @return self
      */
-    public function setStopPointName(\Calcinai\Siri\StopPointName $stopPointName)
+    public function setStopPointName(\Calcinai\Siri\Objects\StopPointName $stopPointName)
     {
         $this->stopPointName = $stopPointName;
         return $this;
@@ -445,7 +445,7 @@ class EstimatedCallStructureType
      *
      * Destination to show for the vehicle at the specific stop (vehicle signage), if different to the Destination Name for the full journey.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDestinationDisplay()
     {
@@ -457,10 +457,10 @@ class EstimatedCallStructureType
      *
      * Destination to show for the vehicle at the specific stop (vehicle signage), if different to the Destination Name for the full journey.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $destinationDisplay
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationDisplay
      * @return self
      */
-    public function setDestinationDisplay(\Calcinai\Siri\NaturalLanguageStringStructureType $destinationDisplay)
+    public function setDestinationDisplay(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationDisplay)
     {
         $this->destinationDisplay = $destinationDisplay;
         return $this;
@@ -471,7 +471,7 @@ class EstimatedCallStructureType
      *
      * Text annotation that applies to this call.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getCallNote()
     {
@@ -483,10 +483,10 @@ class EstimatedCallStructureType
      *
      * Text annotation that applies to this call.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $callNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote
      * @return self
      */
-    public function setCallNote(\Calcinai\Siri\NaturalLanguageStringStructureType $callNote)
+    public function setCallNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote)
     {
         $this->callNote = $callNote;
         return $this;
@@ -497,7 +497,7 @@ class EstimatedCallStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @return \Calcinai\Siri\FacilityConditionElement
+     * @return \Calcinai\Siri\Objects\FacilityConditionElement
      */
     public function getFacilityConditionElement()
     {
@@ -509,10 +509,10 @@ class EstimatedCallStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @param \Calcinai\Siri\FacilityConditionElement $facilityConditionElement
+     * @param \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
      * @return self
      */
-    public function setFacilityConditionElement(\Calcinai\Siri\FacilityConditionElement $facilityConditionElement)
+    public function setFacilityConditionElement(\Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement)
     {
         $this->facilityConditionElement = $facilityConditionElement;
         return $this;
@@ -521,7 +521,7 @@ class EstimatedCallStructureType
     /**
      * Gets as facilityChangeElement
      *
-     * @return \Calcinai\Siri\FacilityChangeElement
+     * @return \Calcinai\Siri\Objects\FacilityChangeElement
      */
     public function getFacilityChangeElement()
     {
@@ -531,10 +531,10 @@ class EstimatedCallStructureType
     /**
      * Sets a new facilityChangeElement
      *
-     * @param \Calcinai\Siri\FacilityChangeElement $facilityChangeElement
+     * @param \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
      * @return self
      */
-    public function setFacilityChangeElement(\Calcinai\Siri\FacilityChangeElement $facilityChangeElement)
+    public function setFacilityChangeElement(\Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement)
     {
         $this->facilityChangeElement = $facilityChangeElement;
         return $this;
@@ -543,7 +543,7 @@ class EstimatedCallStructureType
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef
      */
     public function getSituationRef()
     {
@@ -553,10 +553,10 @@ class EstimatedCallStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;
@@ -631,7 +631,7 @@ class EstimatedCallStructureType
     /**
      * Gets as arrivalPlatformName
      *
-     * @return \Calcinai\Siri\ArrivalPlatformName
+     * @return \Calcinai\Siri\Objects\ArrivalPlatformName
      */
     public function getArrivalPlatformName()
     {
@@ -641,10 +641,10 @@ class EstimatedCallStructureType
     /**
      * Sets a new arrivalPlatformName
      *
-     * @param \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @param \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      * @return self
      */
-    public function setArrivalPlatformName(\Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName)
+    public function setArrivalPlatformName(\Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName)
     {
         $this->arrivalPlatformName = $arrivalPlatformName;
         return $this;
@@ -741,7 +741,7 @@ class EstimatedCallStructureType
     /**
      * Gets as departurePlatformName
      *
-     * @return \Calcinai\Siri\DeparturePlatformName
+     * @return \Calcinai\Siri\Objects\DeparturePlatformName
      */
     public function getDeparturePlatformName()
     {
@@ -751,10 +751,10 @@ class EstimatedCallStructureType
     /**
      * Sets a new departurePlatformName
      *
-     * @param \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @param \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      * @return self
      */
-    public function setDeparturePlatformName(\Calcinai\Siri\DeparturePlatformName $departurePlatformName)
+    public function setDeparturePlatformName(\Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName)
     {
         $this->departurePlatformName = $departurePlatformName;
         return $this;
@@ -829,7 +829,7 @@ class EstimatedCallStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -839,10 +839,10 @@ class EstimatedCallStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

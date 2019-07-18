@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\StoZType:
+Calcinai\Siri\Objects\Datex\StoZType:
     properties:
         winterEquipmentAdviceEnum:
             expose: true
@@ -269,7 +269,7 @@ Calcinai\Siri\Datex\StoZType:
             accessor:
                 getter: getStoZExtension
                 setter: setStoZExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType
         travelTimeTrendTypeEnum:
             expose: true
             access_type: public_method

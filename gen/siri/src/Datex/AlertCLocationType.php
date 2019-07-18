@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCLocationType
@@ -14,7 +14,7 @@ class AlertCLocationType
     /**
      * Name of Alert C location.
      *
-     * @property \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $alertCLocationName
+     * @property \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $alertCLocationName
      */
     private $alertCLocationName = null;
 
@@ -26,7 +26,7 @@ class AlertCLocationType
     private $specificLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCLocationExtension
      */
     private $alertCLocationExtension = null;
 
@@ -36,9 +36,9 @@ class AlertCLocationType
      * Name of Alert C location.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value
      */
-    public function addToAlertCLocationName(\Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value)
+    public function addToAlertCLocationName(\Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value)
     {
         $this->alertCLocationName[] = $value;
         return $this;
@@ -75,7 +75,7 @@ class AlertCLocationType
      *
      * Name of Alert C location.
      *
-     * @return \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[]
      */
     public function getAlertCLocationName()
     {
@@ -87,7 +87,7 @@ class AlertCLocationType
      *
      * Name of Alert C location.
      *
-     * @param \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $alertCLocationName
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $alertCLocationName
      * @return self
      */
     public function setAlertCLocationName(array $alertCLocationName)
@@ -125,7 +125,7 @@ class AlertCLocationType
     /**
      * Gets as alertCLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCLocationExtension()
     {
@@ -135,10 +135,10 @@ class AlertCLocationType
     /**
      * Sets a new alertCLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCLocationExtension
      * @return self
      */
-    public function setAlertCLocationExtension(\Calcinai\Siri\Datex\ExtensionType $alertCLocationExtension)
+    public function setAlertCLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCLocationExtension)
     {
         $this->alertCLocationExtension = $alertCLocationExtension;
         return $this;

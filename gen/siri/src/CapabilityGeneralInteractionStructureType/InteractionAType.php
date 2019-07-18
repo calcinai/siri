@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\CapabilityGeneralInteractionStructureType;
+namespace Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType;
 
 /**
  * Class representing InteractionAType

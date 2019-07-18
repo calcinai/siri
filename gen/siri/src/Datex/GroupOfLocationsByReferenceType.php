@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing GroupOfLocationsByReferenceType
@@ -19,7 +19,7 @@ class GroupOfLocationsByReferenceType extends GroupOfLocationsType
     private $predefinedLocationSetReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $groupOfLocationsByReferenceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $groupOfLocationsByReferenceExtension
      */
     private $groupOfLocationsByReferenceExtension = null;
 
@@ -52,7 +52,7 @@ class GroupOfLocationsByReferenceType extends GroupOfLocationsType
     /**
      * Gets as groupOfLocationsByReferenceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getGroupOfLocationsByReferenceExtension()
     {
@@ -62,10 +62,10 @@ class GroupOfLocationsByReferenceType extends GroupOfLocationsType
     /**
      * Sets a new groupOfLocationsByReferenceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $groupOfLocationsByReferenceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $groupOfLocationsByReferenceExtension
      * @return self
      */
-    public function setGroupOfLocationsByReferenceExtension(\Calcinai\Siri\Datex\ExtensionType $groupOfLocationsByReferenceExtension)
+    public function setGroupOfLocationsByReferenceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $groupOfLocationsByReferenceExtension)
     {
         $this->groupOfLocationsByReferenceExtension = $groupOfLocationsByReferenceExtension;
         return $this;

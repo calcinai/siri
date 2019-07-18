@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopTimetableDeliveryStructureType
@@ -21,19 +21,19 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
     /**
      * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
      *
-     * @property \Calcinai\Siri\TimetabledStopVisitStructureType $timetabledStopVisit
+     * @property \Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit
      */
     private $timetabledStopVisit = null;
 
     /**
      * A cancellation of a previously issued stop visit
      *
-     * @property \Calcinai\Siri\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation
+     * @property \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation
      */
     private $timetabledStopVisitCancellation = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -68,7 +68,7 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
      *
      * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
      *
-     * @return \Calcinai\Siri\TimetabledStopVisitStructureType
+     * @return \Calcinai\Siri\Objects\TimetabledStopVisitStructureType
      */
     public function getTimetabledStopVisit()
     {
@@ -80,10 +80,10 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
      *
      * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
      *
-     * @param \Calcinai\Siri\TimetabledStopVisitStructureType $timetabledStopVisit
+     * @param \Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit
      * @return self
      */
-    public function setTimetabledStopVisit(\Calcinai\Siri\TimetabledStopVisitStructureType $timetabledStopVisit)
+    public function setTimetabledStopVisit(\Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit)
     {
         $this->timetabledStopVisit = $timetabledStopVisit;
         return $this;
@@ -94,7 +94,7 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
      *
      * A cancellation of a previously issued stop visit
      *
-     * @return \Calcinai\Siri\TimetabledStopVisitCancellationStructureType
+     * @return \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType
      */
     public function getTimetabledStopVisitCancellation()
     {
@@ -106,10 +106,10 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
      *
      * A cancellation of a previously issued stop visit
      *
-     * @param \Calcinai\Siri\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation
+     * @param \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation
      * @return self
      */
-    public function setTimetabledStopVisitCancellation(\Calcinai\Siri\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation)
+    public function setTimetabledStopVisitCancellation(\Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation)
     {
         $this->timetabledStopVisitCancellation = $timetabledStopVisitCancellation;
         return $this;
@@ -118,7 +118,7 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -128,10 +128,10 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

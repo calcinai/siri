@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SituationPublicationType
@@ -12,14 +12,14 @@ class SituationPublicationType extends PayloadPublicationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\SituationType[] $situation
+     * @property \Calcinai\Siri\Objects\Datex\SituationType[] $situation
      */
     private $situation = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $situationPublicationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $situationPublicationExtension
      */
     private $situationPublicationExtension = null;
 
@@ -27,9 +27,9 @@ class SituationPublicationType extends PayloadPublicationType
      * Adds as situation
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SituationType $situation
+     * @param \Calcinai\Siri\Objects\Datex\SituationType $situation
      */
-    public function addToSituation(\Calcinai\Siri\Datex\SituationType $situation)
+    public function addToSituation(\Calcinai\Siri\Objects\Datex\SituationType $situation)
     {
         $this->situation[] = $situation;
         return $this;
@@ -60,7 +60,7 @@ class SituationPublicationType extends PayloadPublicationType
     /**
      * Gets as situation
      *
-     * @return \Calcinai\Siri\Datex\SituationType[]
+     * @return \Calcinai\Siri\Objects\Datex\SituationType[]
      */
     public function getSituation()
     {
@@ -70,7 +70,7 @@ class SituationPublicationType extends PayloadPublicationType
     /**
      * Sets a new situation
      *
-     * @param \Calcinai\Siri\Datex\SituationType[] $situation
+     * @param \Calcinai\Siri\Objects\Datex\SituationType[] $situation
      * @return self
      */
     public function setSituation(array $situation)
@@ -82,7 +82,7 @@ class SituationPublicationType extends PayloadPublicationType
     /**
      * Gets as situationPublicationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSituationPublicationExtension()
     {
@@ -92,10 +92,10 @@ class SituationPublicationType extends PayloadPublicationType
     /**
      * Sets a new situationPublicationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $situationPublicationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $situationPublicationExtension
      * @return self
      */
-    public function setSituationPublicationExtension(\Calcinai\Siri\Datex\ExtensionType $situationPublicationExtension)
+    public function setSituationPublicationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $situationPublicationExtension)
     {
         $this->situationPublicationExtension = $situationPublicationExtension;
         return $this;

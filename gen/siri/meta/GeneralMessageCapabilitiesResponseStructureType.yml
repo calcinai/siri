@@ -1,4 +1,4 @@
-Calcinai\Siri\GeneralMessageCapabilitiesResponseStructureType:
+Calcinai\Siri\Objects\GeneralMessageCapabilitiesResponseStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\GeneralMessageCapabilitiesResponseStructureType:
             accessor:
                 getter: getGeneralMessageServiceCapabilities
                 setter: setGeneralMessageServiceCapabilities
-            type: Calcinai\Siri\GeneralMessageServiceCapabilities
+            type: Calcinai\Siri\Objects\GeneralMessageServiceCapabilities
         generalMessagePermissions:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Calcinai\Siri\GeneralMessageCapabilitiesResponseStructureType:
             accessor:
                 getter: getGeneralMessagePermissions
                 setter: setGeneralMessagePermissions
-            type: Calcinai\Siri\GeneralMessagePermissions
+            type: Calcinai\Siri\Objects\GeneralMessagePermissions
         extensions:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ Calcinai\Siri\GeneralMessageCapabilitiesResponseStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType:
+Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType:
     properties:
         index:
             expose: true

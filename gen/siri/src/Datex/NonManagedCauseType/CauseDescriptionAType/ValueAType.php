@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType;
+namespace Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType;
 
 /**
  * Class representing ValueAType

@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilitySubscriptionPolicyStructureType:
+Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType:
     properties:
         hasIncrementalUpdates:
             expose: true

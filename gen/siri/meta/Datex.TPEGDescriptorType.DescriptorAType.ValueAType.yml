@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType:
+Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType:
     properties:
         __value:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectsScopeStructureType;
+namespace Calcinai\Siri\Objects\AffectsScopeStructureType;
 
 /**
  * Class representing PlacesAType
@@ -11,7 +11,7 @@ class PlacesAType
     /**
      * Stop affected by situation.
      *
-     * @property \Calcinai\Siri\AffectedPlaceStructureType[] $affectedPlace
+     * @property \Calcinai\Siri\Objects\AffectedPlaceStructureType[] $affectedPlace
      */
     private $affectedPlace = [
         
@@ -23,9 +23,9 @@ class PlacesAType
      * Stop affected by situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedPlaceStructureType $affectedPlace
+     * @param \Calcinai\Siri\Objects\AffectedPlaceStructureType $affectedPlace
      */
-    public function addToAffectedPlace(\Calcinai\Siri\AffectedPlaceStructureType $affectedPlace)
+    public function addToAffectedPlace(\Calcinai\Siri\Objects\AffectedPlaceStructureType $affectedPlace)
     {
         $this->affectedPlace[] = $affectedPlace;
         return $this;
@@ -62,7 +62,7 @@ class PlacesAType
      *
      * Stop affected by situation.
      *
-     * @return \Calcinai\Siri\AffectedPlaceStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedPlaceStructureType[]
      */
     public function getAffectedPlace()
     {
@@ -74,7 +74,7 @@ class PlacesAType
      *
      * Stop affected by situation.
      *
-     * @param \Calcinai\Siri\AffectedPlaceStructureType[] $affectedPlace
+     * @param \Calcinai\Siri\Objects\AffectedPlaceStructureType[] $affectedPlace
      * @return self
      */
     public function setAffectedPlace(array $affectedPlace)

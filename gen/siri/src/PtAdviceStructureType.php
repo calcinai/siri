@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing PtAdviceStructureType
@@ -21,7 +21,7 @@ class PtAdviceStructureType
     /**
      * Further Textual advice to passengers.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $details
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $details
      */
     private $details = null;
 
@@ -56,7 +56,7 @@ class PtAdviceStructureType
      *
      * Further Textual advice to passengers.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDetails()
     {
@@ -68,10 +68,10 @@ class PtAdviceStructureType
      *
      * Further Textual advice to passengers.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $details
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $details
      * @return self
      */
-    public function setDetails(\Calcinai\Siri\NaturalLanguageStringStructureType $details)
+    public function setDetails(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $details)
     {
         $this->details = $details;
         return $this;

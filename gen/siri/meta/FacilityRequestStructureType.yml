@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityRequestStructureType:
+Calcinai\Siri\Objects\FacilityRequestStructureType:
     properties:
         version:
             expose: true

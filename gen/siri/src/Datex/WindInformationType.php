@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing WindInformationType
@@ -12,19 +12,19 @@ class WindInformationType extends WeatherValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\WindType $wind
+     * @property \Calcinai\Siri\Objects\Datex\WindType $wind
      */
     private $wind = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $windInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $windInformationExtension
      */
     private $windInformationExtension = null;
 
     /**
      * Gets as wind
      *
-     * @return \Calcinai\Siri\Datex\WindType
+     * @return \Calcinai\Siri\Objects\Datex\WindType
      */
     public function getWind()
     {
@@ -34,10 +34,10 @@ class WindInformationType extends WeatherValueType
     /**
      * Sets a new wind
      *
-     * @param \Calcinai\Siri\Datex\WindType $wind
+     * @param \Calcinai\Siri\Objects\Datex\WindType $wind
      * @return self
      */
-    public function setWind(\Calcinai\Siri\Datex\WindType $wind)
+    public function setWind(\Calcinai\Siri\Objects\Datex\WindType $wind)
     {
         $this->wind = $wind;
         return $this;
@@ -46,7 +46,7 @@ class WindInformationType extends WeatherValueType
     /**
      * Gets as windInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getWindInformationExtension()
     {
@@ -56,10 +56,10 @@ class WindInformationType extends WeatherValueType
     /**
      * Sets a new windInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $windInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $windInformationExtension
      * @return self
      */
-    public function setWindInformationExtension(\Calcinai\Siri\Datex\ExtensionType $windInformationExtension)
+    public function setWindInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $windInformationExtension)
     {
         $this->windInformationExtension = $windInformationExtension;
         return $this;

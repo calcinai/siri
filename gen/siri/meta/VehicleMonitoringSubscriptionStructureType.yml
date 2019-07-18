@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringSubscriptionStructureType:
+Calcinai\Siri\Objects\VehicleMonitoringSubscriptionStructureType:
     properties:
         vehicleMonitoringRequest:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\VehicleMonitoringSubscriptionStructureType:
             accessor:
                 getter: getVehicleMonitoringRequest
                 setter: setVehicleMonitoringRequest
-            type: Calcinai\Siri\VehicleMonitoringRequest
+            type: Calcinai\Siri\Objects\VehicleMonitoringRequest
         incrementalUpdates:
             expose: true
             access_type: public_method

@@ -1,4 +1,4 @@
-Calcinai\Siri\TicketingFacility:
+Calcinai\Siri\Objects\TicketingFacility:
     xml_root_name: TicketingFacility
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

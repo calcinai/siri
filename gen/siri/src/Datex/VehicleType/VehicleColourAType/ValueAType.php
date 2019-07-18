@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\VehicleType\VehicleColourAType;
+namespace Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType;
 
 /**
  * Class representing ValueAType

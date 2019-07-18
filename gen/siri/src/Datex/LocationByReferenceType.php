@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing LocationByReferenceType
@@ -19,7 +19,7 @@ class LocationByReferenceType extends LocationType
     private $predefinedLocationReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $locationByReferenceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $locationByReferenceExtension
      */
     private $locationByReferenceExtension = null;
 
@@ -52,7 +52,7 @@ class LocationByReferenceType extends LocationType
     /**
      * Gets as locationByReferenceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getLocationByReferenceExtension()
     {
@@ -62,10 +62,10 @@ class LocationByReferenceType extends LocationType
     /**
      * Sets a new locationByReferenceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $locationByReferenceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $locationByReferenceExtension
      * @return self
      */
-    public function setLocationByReferenceExtension(\Calcinai\Siri\Datex\ExtensionType $locationByReferenceExtension)
+    public function setLocationByReferenceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $locationByReferenceExtension)
     {
         $this->locationByReferenceExtension = $locationByReferenceExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TimetabledStopVisitCancellationStructureType
@@ -40,7 +40,7 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
     /**
      * A reference to the dated vehicle journey that the vehicle is making.
      *
-     * @property \Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
+     * @property \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
      */
     private $framedVehicleJourneyRef = null;
 
@@ -66,14 +66,14 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
     private $routeRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
     /**
      * Description of the direction.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      */
     private $directionName = null;
 
@@ -85,7 +85,7 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
     private $externalLineRef = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -194,7 +194,7 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
      *
      * A reference to the dated vehicle journey that the vehicle is making.
      *
-     * @return \Calcinai\Siri\FramedVehicleJourneyRefStructureType
+     * @return \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType
      */
     public function getFramedVehicleJourneyRef()
     {
@@ -206,10 +206,10 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
      *
      * A reference to the dated vehicle journey that the vehicle is making.
      *
-     * @param \Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
+     * @param \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
      * @return self
      */
-    public function setFramedVehicleJourneyRef(\Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef)
+    public function setFramedVehicleJourneyRef(\Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef)
     {
         $this->framedVehicleJourneyRef = $framedVehicleJourneyRef;
         return $this;
@@ -296,7 +296,7 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -306,10 +306,10 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -320,7 +320,7 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
      *
      * Description of the direction.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDirectionName()
     {
@@ -332,10 +332,10 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
      *
      * Description of the direction.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      * @return self
      */
-    public function setDirectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $directionName)
+    public function setDirectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName)
     {
         $this->directionName = $directionName;
         return $this;
@@ -370,7 +370,7 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -380,10 +380,10 @@ class TimetabledStopVisitCancellationStructureType extends AbstractReferencingIt
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

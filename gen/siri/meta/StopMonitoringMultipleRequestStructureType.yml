@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitoringMultipleRequestStructureType:
+Calcinai\Siri\Objects\StopMonitoringMultipleRequestStructureType:
     properties:
         version:
             expose: true
@@ -22,4 +22,4 @@ Calcinai\Siri\StopMonitoringMultipleRequestStructureType:
                 inline: true
                 entry_name: StopMonitoringFIlter
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\StopMonitoringFilterStructureType>
+            type: array<Calcinai\Siri\Objects\StopMonitoringFilterStructureType>

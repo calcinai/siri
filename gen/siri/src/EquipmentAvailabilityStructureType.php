@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EquipmentAvailabilityStructureType
@@ -21,7 +21,7 @@ class EquipmentAvailabilityStructureType
     /**
      * Description of equipment.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      */
     private $description = null;
 
@@ -35,7 +35,7 @@ class EquipmentAvailabilityStructureType
     /**
      * Period for which Status Change applies. If omitted, indefinite period.
      *
-     * @property \Calcinai\Siri\HalfOpenTimestampRangeStructureType $validityPeriod
+     * @property \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -54,7 +54,7 @@ class EquipmentAvailabilityStructureType
     private $equipmentFeatures = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -89,7 +89,7 @@ class EquipmentAvailabilityStructureType
      *
      * Description of equipment.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDescription()
     {
@@ -101,10 +101,10 @@ class EquipmentAvailabilityStructureType
      *
      * Description of equipment.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      * @return self
      */
-    public function setDescription(\Calcinai\Siri\NaturalLanguageStringStructureType $description)
+    public function setDescription(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description)
     {
         $this->description = $description;
         return $this;
@@ -141,7 +141,7 @@ class EquipmentAvailabilityStructureType
      *
      * Period for which Status Change applies. If omitted, indefinite period.
      *
-     * @return \Calcinai\Siri\HalfOpenTimestampRangeStructureType
+     * @return \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType
      */
     public function getValidityPeriod()
     {
@@ -153,10 +153,10 @@ class EquipmentAvailabilityStructureType
      *
      * Period for which Status Change applies. If omitted, indefinite period.
      *
-     * @param \Calcinai\Siri\HalfOpenTimestampRangeStructureType $validityPeriod
+     * @param \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(\Calcinai\Siri\HalfOpenTimestampRangeStructureType $validityPeriod)
+    public function setValidityPeriod(\Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $validityPeriod)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
@@ -257,7 +257,7 @@ class EquipmentAvailabilityStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -267,10 +267,10 @@ class EquipmentAvailabilityStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringDistributorDeliveryStructureType
@@ -21,26 +21,26 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
     /**
      * An action to delay the Distributor (fetcher) until a specifed time.
      *
-     * @property \Calcinai\Siri\WaitProlongedDepartureStructureType $waitProlongedDeparture
+     * @property \Calcinai\Siri\Objects\WaitProlongedDepartureStructureType $waitProlongedDeparture
      */
     private $waitProlongedDeparture = null;
 
     /**
      * A Change to a stop position
      *
-     * @property \Calcinai\Siri\StoppingPositionChangedDepartureStructureType $stoppingPositionChangedDeparture
+     * @property \Calcinai\Siri\Objects\StoppingPositionChangedDepartureStructureType $stoppingPositionChangedDeparture
      */
     private $stoppingPositionChangedDeparture = null;
 
     /**
      * Deletion of previous connection.
      *
-     * @property \Calcinai\Siri\DistributorDepartureCancellationStructureType $distributorDepartureCancellation
+     * @property \Calcinai\Siri\Objects\DistributorDepartureCancellationStructureType $distributorDepartureCancellation
      */
     private $distributorDepartureCancellation = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -75,7 +75,7 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
      *
      * An action to delay the Distributor (fetcher) until a specifed time.
      *
-     * @return \Calcinai\Siri\WaitProlongedDepartureStructureType
+     * @return \Calcinai\Siri\Objects\WaitProlongedDepartureStructureType
      */
     public function getWaitProlongedDeparture()
     {
@@ -87,10 +87,10 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
      *
      * An action to delay the Distributor (fetcher) until a specifed time.
      *
-     * @param \Calcinai\Siri\WaitProlongedDepartureStructureType $waitProlongedDeparture
+     * @param \Calcinai\Siri\Objects\WaitProlongedDepartureStructureType $waitProlongedDeparture
      * @return self
      */
-    public function setWaitProlongedDeparture(\Calcinai\Siri\WaitProlongedDepartureStructureType $waitProlongedDeparture)
+    public function setWaitProlongedDeparture(\Calcinai\Siri\Objects\WaitProlongedDepartureStructureType $waitProlongedDeparture)
     {
         $this->waitProlongedDeparture = $waitProlongedDeparture;
         return $this;
@@ -101,7 +101,7 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
      *
      * A Change to a stop position
      *
-     * @return \Calcinai\Siri\StoppingPositionChangedDepartureStructureType
+     * @return \Calcinai\Siri\Objects\StoppingPositionChangedDepartureStructureType
      */
     public function getStoppingPositionChangedDeparture()
     {
@@ -113,10 +113,10 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
      *
      * A Change to a stop position
      *
-     * @param \Calcinai\Siri\StoppingPositionChangedDepartureStructureType $stoppingPositionChangedDeparture
+     * @param \Calcinai\Siri\Objects\StoppingPositionChangedDepartureStructureType $stoppingPositionChangedDeparture
      * @return self
      */
-    public function setStoppingPositionChangedDeparture(\Calcinai\Siri\StoppingPositionChangedDepartureStructureType $stoppingPositionChangedDeparture)
+    public function setStoppingPositionChangedDeparture(\Calcinai\Siri\Objects\StoppingPositionChangedDepartureStructureType $stoppingPositionChangedDeparture)
     {
         $this->stoppingPositionChangedDeparture = $stoppingPositionChangedDeparture;
         return $this;
@@ -127,7 +127,7 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
      *
      * Deletion of previous connection.
      *
-     * @return \Calcinai\Siri\DistributorDepartureCancellationStructureType
+     * @return \Calcinai\Siri\Objects\DistributorDepartureCancellationStructureType
      */
     public function getDistributorDepartureCancellation()
     {
@@ -139,10 +139,10 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
      *
      * Deletion of previous connection.
      *
-     * @param \Calcinai\Siri\DistributorDepartureCancellationStructureType $distributorDepartureCancellation
+     * @param \Calcinai\Siri\Objects\DistributorDepartureCancellationStructureType $distributorDepartureCancellation
      * @return self
      */
-    public function setDistributorDepartureCancellation(\Calcinai\Siri\DistributorDepartureCancellationStructureType $distributorDepartureCancellation)
+    public function setDistributorDepartureCancellation(\Calcinai\Siri\Objects\DistributorDepartureCancellationStructureType $distributorDepartureCancellation)
     {
         $this->distributorDepartureCancellation = $distributorDepartureCancellation;
         return $this;
@@ -151,7 +151,7 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -161,10 +161,10 @@ class ConnectionMonitoringDistributorDeliveryStructureType extends AbstractServi
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

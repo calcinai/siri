@@ -1,3 +1,3 @@
-Calcinai\Siri\IFOpt\PathJunctionRef:
+Calcinai\Siri\Objects\IFOpt\PathJunctionRef:
     xml_root_name: PathJunctionRef
     xml_root_namespace: 'http://www.ifopt.org.uk/ifopt'

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AreaType
@@ -12,24 +12,24 @@ class AreaType extends LocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCAreaType $alertCArea
+     * @property \Calcinai\Siri\Objects\Datex\AlertCAreaType $alertCArea
      */
     private $alertCArea = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGAreaLocationType $tpegareaLocation
+     * @property \Calcinai\Siri\Objects\Datex\TPEGAreaLocationType $tpegareaLocation
      */
     private $tpegareaLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $areaExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $areaExtension
      */
     private $areaExtension = null;
 
     /**
      * Gets as alertCArea
      *
-     * @return \Calcinai\Siri\Datex\AlertCAreaType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCAreaType
      */
     public function getAlertCArea()
     {
@@ -39,10 +39,10 @@ class AreaType extends LocationType
     /**
      * Sets a new alertCArea
      *
-     * @param \Calcinai\Siri\Datex\AlertCAreaType $alertCArea
+     * @param \Calcinai\Siri\Objects\Datex\AlertCAreaType $alertCArea
      * @return self
      */
-    public function setAlertCArea(\Calcinai\Siri\Datex\AlertCAreaType $alertCArea)
+    public function setAlertCArea(\Calcinai\Siri\Objects\Datex\AlertCAreaType $alertCArea)
     {
         $this->alertCArea = $alertCArea;
         return $this;
@@ -51,7 +51,7 @@ class AreaType extends LocationType
     /**
      * Gets as tpegareaLocation
      *
-     * @return \Calcinai\Siri\Datex\TPEGAreaLocationType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGAreaLocationType
      */
     public function getTpegareaLocation()
     {
@@ -61,10 +61,10 @@ class AreaType extends LocationType
     /**
      * Sets a new tpegareaLocation
      *
-     * @param \Calcinai\Siri\Datex\TPEGAreaLocationType $tpegareaLocation
+     * @param \Calcinai\Siri\Objects\Datex\TPEGAreaLocationType $tpegareaLocation
      * @return self
      */
-    public function setTpegareaLocation(\Calcinai\Siri\Datex\TPEGAreaLocationType $tpegareaLocation)
+    public function setTpegareaLocation(\Calcinai\Siri\Objects\Datex\TPEGAreaLocationType $tpegareaLocation)
     {
         $this->tpegareaLocation = $tpegareaLocation;
         return $this;
@@ -73,7 +73,7 @@ class AreaType extends LocationType
     /**
      * Gets as areaExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAreaExtension()
     {
@@ -83,10 +83,10 @@ class AreaType extends LocationType
     /**
      * Sets a new areaExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $areaExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $areaExtension
      * @return self
      */
-    public function setAreaExtension(\Calcinai\Siri\Datex\ExtensionType $areaExtension)
+    public function setAreaExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $areaExtension)
     {
         $this->areaExtension = $areaExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing CheckStatusResponseStructureType
@@ -47,7 +47,7 @@ class CheckStatusResponseStructureType extends ResponseStructureType
     /**
      * Description of any error or warning condition that applies to the status check.
      *
-     * @property \Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
+     * @property \Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
      */
     private $errorCondition = null;
 
@@ -73,7 +73,7 @@ class CheckStatusResponseStructureType extends ResponseStructureType
     private $serviceStartedTime = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -208,7 +208,7 @@ class CheckStatusResponseStructureType extends ResponseStructureType
      *
      * Description of any error or warning condition that applies to the status check.
      *
-     * @return \Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType
+     * @return \Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType
      */
     public function getErrorCondition()
     {
@@ -220,10 +220,10 @@ class CheckStatusResponseStructureType extends ResponseStructureType
      *
      * Description of any error or warning condition that applies to the status check.
      *
-     * @param \Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
+     * @param \Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
      * @return self
      */
-    public function setErrorCondition(\Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition)
+    public function setErrorCondition(\Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition)
     {
         $this->errorCondition = $errorCondition;
         return $this;
@@ -310,7 +310,7 @@ class CheckStatusResponseStructureType extends ResponseStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -320,10 +320,10 @@ class CheckStatusResponseStructureType extends ResponseStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

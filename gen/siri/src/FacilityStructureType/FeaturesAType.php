@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\FacilityStructureType;
+namespace Calcinai\Siri\Objects\FacilityStructureType;
 
 /**
  * Class representing FeaturesAType
@@ -11,7 +11,7 @@ class FeaturesAType
     /**
      * Description of the feauture of the facility. Several features may be associated to a single facility.
      *
-     * @property \Calcinai\Siri\AllFacilitiesFeatureStructureType[] $feature
+     * @property \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType[] $feature
      */
     private $feature = [
         
@@ -23,9 +23,9 @@ class FeaturesAType
      * Description of the feauture of the facility. Several features may be associated to a single facility.
      *
      * @return self
-     * @param \Calcinai\Siri\AllFacilitiesFeatureStructureType $feature
+     * @param \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType $feature
      */
-    public function addToFeature(\Calcinai\Siri\AllFacilitiesFeatureStructureType $feature)
+    public function addToFeature(\Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType $feature)
     {
         $this->feature[] = $feature;
         return $this;
@@ -62,7 +62,7 @@ class FeaturesAType
      *
      * Description of the feauture of the facility. Several features may be associated to a single facility.
      *
-     * @return \Calcinai\Siri\AllFacilitiesFeatureStructureType[]
+     * @return \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType[]
      */
     public function getFeature()
     {
@@ -74,7 +74,7 @@ class FeaturesAType
      *
      * Description of the feauture of the facility. Several features may be associated to a single facility.
      *
-     * @param \Calcinai\Siri\AllFacilitiesFeatureStructureType[] $feature
+     * @param \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType[] $feature
      * @return self
      */
     public function setFeature(array $feature)

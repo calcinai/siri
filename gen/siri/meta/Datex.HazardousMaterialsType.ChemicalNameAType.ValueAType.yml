@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType:
+Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType:
     properties:
         __value:
             expose: true

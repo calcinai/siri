@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\NtoRType:
+Calcinai\Siri\Objects\Datex\NtoRType:
     properties:
         precipitationTypeEnum:
             expose: true
@@ -39,7 +39,7 @@ Calcinai\Siri\Datex\NtoRType:
             accessor:
                 getter: getNtoRExtension
                 setter: setNtoRExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType
         roadsideAssistanceTypeEnum:
             expose: true
             access_type: public_method

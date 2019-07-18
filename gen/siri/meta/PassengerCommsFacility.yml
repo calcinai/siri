@@ -1,4 +1,4 @@
-Calcinai\Siri\PassengerCommsFacility:
+Calcinai\Siri\Objects\PassengerCommsFacility:
     xml_root_name: PassengerCommsFacility
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

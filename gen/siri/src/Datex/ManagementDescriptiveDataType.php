@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ManagementDescriptiveDataType
@@ -19,7 +19,7 @@ class ManagementDescriptiveDataType
     private $messageChain = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $managementDescriptiveDataExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $managementDescriptiveDataExtension
      */
     private $managementDescriptiveDataExtension = null;
 
@@ -52,7 +52,7 @@ class ManagementDescriptiveDataType
     /**
      * Gets as managementDescriptiveDataExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getManagementDescriptiveDataExtension()
     {
@@ -62,10 +62,10 @@ class ManagementDescriptiveDataType
     /**
      * Sets a new managementDescriptiveDataExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $managementDescriptiveDataExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $managementDescriptiveDataExtension
      * @return self
      */
-    public function setManagementDescriptiveDataExtension(\Calcinai\Siri\Datex\ExtensionType $managementDescriptiveDataExtension)
+    public function setManagementDescriptiveDataExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $managementDescriptiveDataExtension)
     {
         $this->managementDescriptiveDataExtension = $managementDescriptiveDataExtension;
         return $this;

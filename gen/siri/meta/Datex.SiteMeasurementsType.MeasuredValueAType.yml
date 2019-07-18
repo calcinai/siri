@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\SiteMeasurementsType\MeasuredValueAType:
+Calcinai\Siri\Objects\Datex\SiteMeasurementsType\MeasuredValueAType:
     properties:
         index:
             expose: true

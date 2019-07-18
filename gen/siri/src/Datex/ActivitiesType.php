@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ActivitiesType
@@ -39,12 +39,12 @@ class ActivitiesType extends TrafficElementType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\MobilityType $mobilityOfActivities
+     * @property \Calcinai\Siri\Objects\Datex\MobilityType $mobilityOfActivities
      */
     private $mobilityOfActivities = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $activitiesExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $activitiesExtension
      */
     private $activitiesExtension = null;
 
@@ -249,7 +249,7 @@ class ActivitiesType extends TrafficElementType
     /**
      * Gets as mobilityOfActivities
      *
-     * @return \Calcinai\Siri\Datex\MobilityType
+     * @return \Calcinai\Siri\Objects\Datex\MobilityType
      */
     public function getMobilityOfActivities()
     {
@@ -259,10 +259,10 @@ class ActivitiesType extends TrafficElementType
     /**
      * Sets a new mobilityOfActivities
      *
-     * @param \Calcinai\Siri\Datex\MobilityType $mobilityOfActivities
+     * @param \Calcinai\Siri\Objects\Datex\MobilityType $mobilityOfActivities
      * @return self
      */
-    public function setMobilityOfActivities(\Calcinai\Siri\Datex\MobilityType $mobilityOfActivities)
+    public function setMobilityOfActivities(\Calcinai\Siri\Objects\Datex\MobilityType $mobilityOfActivities)
     {
         $this->mobilityOfActivities = $mobilityOfActivities;
         return $this;
@@ -271,7 +271,7 @@ class ActivitiesType extends TrafficElementType
     /**
      * Gets as activitiesExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getActivitiesExtension()
     {
@@ -281,10 +281,10 @@ class ActivitiesType extends TrafficElementType
     /**
      * Sets a new activitiesExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $activitiesExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $activitiesExtension
      * @return self
      */
-    public function setActivitiesExtension(\Calcinai\Siri\Datex\ExtensionType $activitiesExtension)
+    public function setActivitiesExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $activitiesExtension)
     {
         $this->activitiesExtension = $activitiesExtension;
         return $this;

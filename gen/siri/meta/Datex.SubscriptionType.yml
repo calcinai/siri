@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\SubscriptionType:
+Calcinai\Siri\Objects\Datex\SubscriptionType:
     properties:
         deleteSubscription:
             expose: true
@@ -39,7 +39,7 @@ Calcinai\Siri\Datex\SubscriptionType:
             accessor:
                 getter: getSubscriptionStartTime
                 setter: setSubscriptionStartTime
-            type: Calcinai\Siri\Datex\DateTimeType
+            type: Calcinai\Siri\Objects\Datex\DateTimeType
         subscriptionState:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\Datex\SubscriptionType:
             accessor:
                 getter: getSubscriptionStopTime
                 setter: setSubscriptionStopTime
-            type: Calcinai\Siri\Datex\DateTimeType
+            type: Calcinai\Siri\Objects\Datex\DateTimeType
         updateMethod:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ Calcinai\Siri\Datex\SubscriptionType:
                 inline: true
                 entry_name: target
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\TargetType>
+            type: array<Calcinai\Siri\Objects\Datex\TargetType>
         filterReference:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ Calcinai\Siri\Datex\SubscriptionType:
             accessor:
                 getter: getFilterReference
                 setter: setFilterReference
-            type: Calcinai\Siri\Datex\FilterReferenceType
+            type: Calcinai\Siri\Objects\Datex\FilterReferenceType
         catalogueReference:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ Calcinai\Siri\Datex\SubscriptionType:
             accessor:
                 getter: getCatalogueReference
                 setter: setCatalogueReference
-            type: Calcinai\Siri\Datex\CatalogueReferenceType
+            type: Calcinai\Siri\Objects\Datex\CatalogueReferenceType
         subscriptionExtension:
             expose: true
             access_type: public_method
@@ -113,4 +113,4 @@ Calcinai\Siri\Datex\SubscriptionType:
             accessor:
                 getter: getSubscriptionExtension
                 setter: setSubscriptionExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

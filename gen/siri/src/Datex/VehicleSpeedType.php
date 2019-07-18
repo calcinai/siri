@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehicleSpeedType
@@ -19,7 +19,7 @@ class VehicleSpeedType
     private $individualVehicleSpeed = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehicleSpeedExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleSpeedExtension
      */
     private $vehicleSpeedExtension = null;
 
@@ -52,7 +52,7 @@ class VehicleSpeedType
     /**
      * Gets as vehicleSpeedExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehicleSpeedExtension()
     {
@@ -62,10 +62,10 @@ class VehicleSpeedType
     /**
      * Sets a new vehicleSpeedExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehicleSpeedExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleSpeedExtension
      * @return self
      */
-    public function setVehicleSpeedExtension(\Calcinai\Siri\Datex\ExtensionType $vehicleSpeedExtension)
+    public function setVehicleSpeedExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehicleSpeedExtension)
     {
         $this->vehicleSpeedExtension = $vehicleSpeedExtension;
         return $this;

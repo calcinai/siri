@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationExchangeSubscriptionStructureType:
+Calcinai\Siri\Objects\SituationExchangeSubscriptionStructureType:
     properties:
         situationExchangeRequest:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\SituationExchangeSubscriptionStructureType:
             accessor:
                 getter: getSituationExchangeRequest
                 setter: setSituationExchangeRequest
-            type: Calcinai\Siri\SituationExchangeRequest
+            type: Calcinai\Siri\Objects\SituationExchangeRequest
         incrementalUpdates:
             expose: true
             access_type: public_method

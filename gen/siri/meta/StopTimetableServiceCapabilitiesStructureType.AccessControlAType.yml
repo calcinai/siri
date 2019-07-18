@@ -1,4 +1,4 @@
-Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\AccessControlAType:
+Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\AccessControlAType:
     properties:
         checkOperatorRef:
             expose: true

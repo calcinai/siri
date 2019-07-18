@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedRoadsStructureType:
+Calcinai\Siri\Objects\AffectedRoadsStructureType:
     properties:
         datex2Locations:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AffectedRoadsStructureType:
             accessor:
                 getter: getDatex2Locations
                 setter: setDatex2Locations
-            type: Calcinai\Siri\Datex\GroupOfLocationsType
+            type: Calcinai\Siri\Objects\Datex\GroupOfLocationsType
         affectedRoad:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ Calcinai\Siri\AffectedRoadsStructureType:
                 inline: true
                 entry_name: AffectedRoad
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedRoadStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedRoadStructureType>

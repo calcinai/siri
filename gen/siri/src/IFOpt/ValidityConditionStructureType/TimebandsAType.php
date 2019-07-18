@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt\ValidityConditionStructureType;
+namespace Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType;
 
 /**
  * Class representing TimebandsAType
@@ -11,7 +11,7 @@ class TimebandsAType
     /**
      * Timeband during which element is available or in effect.
      *
-     * @property \Calcinai\Siri\IFOpt\TimebandStructureType $timeband
+     * @property \Calcinai\Siri\Objects\IFOpt\TimebandStructureType $timeband
      */
     private $timeband = null;
 
@@ -20,7 +20,7 @@ class TimebandsAType
      *
      * Timeband during which element is available or in effect.
      *
-     * @return \Calcinai\Siri\IFOpt\TimebandStructureType
+     * @return \Calcinai\Siri\Objects\IFOpt\TimebandStructureType
      */
     public function getTimeband()
     {
@@ -32,10 +32,10 @@ class TimebandsAType
      *
      * Timeband during which element is available or in effect.
      *
-     * @param \Calcinai\Siri\IFOpt\TimebandStructureType $timeband
+     * @param \Calcinai\Siri\Objects\IFOpt\TimebandStructureType $timeband
      * @return self
      */
-    public function setTimeband(\Calcinai\Siri\IFOpt\TimebandStructureType $timeband)
+    public function setTimeband(\Calcinai\Siri\Objects\IFOpt\TimebandStructureType $timeband)
     {
         $this->timeband = $timeband;
         return $this;

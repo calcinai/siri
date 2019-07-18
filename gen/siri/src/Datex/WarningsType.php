@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing WarningsType
@@ -19,7 +19,7 @@ class WarningsType extends AdviceType
     private $warningAdvice = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $warningsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $warningsExtension
      */
     private $warningsExtension = null;
 
@@ -52,7 +52,7 @@ class WarningsType extends AdviceType
     /**
      * Gets as warningsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getWarningsExtension()
     {
@@ -62,10 +62,10 @@ class WarningsType extends AdviceType
     /**
      * Sets a new warningsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $warningsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $warningsExtension
      * @return self
      */
-    public function setWarningsExtension(\Calcinai\Siri\Datex\ExtensionType $warningsExtension)
+    public function setWarningsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $warningsExtension)
     {
         $this->warningsExtension = $warningsExtension;
         return $this;

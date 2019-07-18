@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\GeneralMessageServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\GeneralMessageServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AbstractPermissionStructureType;
+namespace Calcinai\Siri\Objects\AbstractPermissionStructureType;
 
 /**
  * Class representing GeneralCapabilitiesAType

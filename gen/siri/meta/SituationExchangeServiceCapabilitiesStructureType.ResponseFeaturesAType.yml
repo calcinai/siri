@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType:
+Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType:
     properties:
         hasRemedy:
             expose: true

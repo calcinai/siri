@@ -1,4 +1,4 @@
-Calcinai\Siri\ResponseStructureType:
+Calcinai\Siri\Objects\ResponseStructureType:
     properties:
         responseTimestamp:
             expose: true

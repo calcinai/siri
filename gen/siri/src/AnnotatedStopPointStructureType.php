@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AnnotatedStopPointStructureType
@@ -31,14 +31,14 @@ class AnnotatedStopPointStructureType
     /**
      * Name of stop point.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $stopName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $stopName
      */
     private $stopName = null;
 
     /**
      * Service features of stop.
      *
-     * @property \Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType $features
+     * @property \Calcinai\Siri\Objects\AnnotatedStopPointStructureType\FeaturesAType $features
      */
     private $features = null;
 
@@ -124,7 +124,7 @@ class AnnotatedStopPointStructureType
      *
      * Name of stop point.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getStopName()
     {
@@ -136,10 +136,10 @@ class AnnotatedStopPointStructureType
      *
      * Name of stop point.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $stopName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $stopName
      * @return self
      */
-    public function setStopName(\Calcinai\Siri\NaturalLanguageStringStructureType $stopName)
+    public function setStopName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $stopName)
     {
         $this->stopName = $stopName;
         return $this;
@@ -150,7 +150,7 @@ class AnnotatedStopPointStructureType
      *
      * Service features of stop.
      *
-     * @return \Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType
+     * @return \Calcinai\Siri\Objects\AnnotatedStopPointStructureType\FeaturesAType
      */
     public function getFeatures()
     {
@@ -162,10 +162,10 @@ class AnnotatedStopPointStructureType
      *
      * Service features of stop.
      *
-     * @param \Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType $features
+     * @param \Calcinai\Siri\Objects\AnnotatedStopPointStructureType\FeaturesAType $features
      * @return self
      */
-    public function setFeatures(\Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType $features)
+    public function setFeatures(\Calcinai\Siri\Objects\AnnotatedStopPointStructureType\FeaturesAType $features)
     {
         $this->features = $features;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\PtSituationElementStructureType;
+namespace Calcinai\Siri\Objects\PtSituationElementStructureType;
 
 /**
  * Class representing SecondaryReasonsAType
@@ -11,7 +11,7 @@ class SecondaryReasonsAType
     /**
      * Reason
      *
-     * @property \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $reason
+     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $reason
      */
     private $reason = [
         
@@ -23,9 +23,9 @@ class SecondaryReasonsAType
      * Reason
      *
      * @return self
-     * @param \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason
      */
-    public function addToReason(\Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason)
+    public function addToReason(\Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason)
     {
         $this->reason[] = $reason;
         return $this;
@@ -62,7 +62,7 @@ class SecondaryReasonsAType
      *
      * Reason
      *
-     * @return \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[]
+     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[]
      */
     public function getReason()
     {
@@ -74,7 +74,7 @@ class SecondaryReasonsAType
      *
      * Reason
      *
-     * @param \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $reason
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $reason
      * @return self
      */
     public function setReason(array $reason)

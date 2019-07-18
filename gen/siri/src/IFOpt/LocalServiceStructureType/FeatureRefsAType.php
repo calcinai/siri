@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt\LocalServiceStructureType;
+namespace Calcinai\Siri\Objects\IFOpt\LocalServiceStructureType;
 
 /**
  * Class representing FeatureRefsAType

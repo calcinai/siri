@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGLinearLocationType
@@ -26,17 +26,17 @@ class TPEGLinearLocationType
     private $tpegLocationType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGPointType $to
+     * @property \Calcinai\Siri\Objects\Datex\TPEGPointType $to
      */
     private $to = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGPointType $from
+     * @property \Calcinai\Siri\Objects\Datex\TPEGPointType $from
      */
     private $from = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpeglinearLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpeglinearLocationExtension
      */
     private $tpeglinearLocationExtension = null;
 
@@ -95,7 +95,7 @@ class TPEGLinearLocationType
     /**
      * Gets as to
      *
-     * @return \Calcinai\Siri\Datex\TPEGPointType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGPointType
      */
     public function getTo()
     {
@@ -105,10 +105,10 @@ class TPEGLinearLocationType
     /**
      * Sets a new to
      *
-     * @param \Calcinai\Siri\Datex\TPEGPointType $to
+     * @param \Calcinai\Siri\Objects\Datex\TPEGPointType $to
      * @return self
      */
-    public function setTo(\Calcinai\Siri\Datex\TPEGPointType $to)
+    public function setTo(\Calcinai\Siri\Objects\Datex\TPEGPointType $to)
     {
         $this->to = $to;
         return $this;
@@ -117,7 +117,7 @@ class TPEGLinearLocationType
     /**
      * Gets as from
      *
-     * @return \Calcinai\Siri\Datex\TPEGPointType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGPointType
      */
     public function getFrom()
     {
@@ -127,10 +127,10 @@ class TPEGLinearLocationType
     /**
      * Sets a new from
      *
-     * @param \Calcinai\Siri\Datex\TPEGPointType $from
+     * @param \Calcinai\Siri\Objects\Datex\TPEGPointType $from
      * @return self
      */
-    public function setFrom(\Calcinai\Siri\Datex\TPEGPointType $from)
+    public function setFrom(\Calcinai\Siri\Objects\Datex\TPEGPointType $from)
     {
         $this->from = $from;
         return $this;
@@ -139,7 +139,7 @@ class TPEGLinearLocationType
     /**
      * Gets as tpeglinearLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpeglinearLocationExtension()
     {
@@ -149,10 +149,10 @@ class TPEGLinearLocationType
     /**
      * Sets a new tpeglinearLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpeglinearLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpeglinearLocationExtension
      * @return self
      */
-    public function setTpeglinearLocationExtension(\Calcinai\Siri\Datex\ExtensionType $tpeglinearLocationExtension)
+    public function setTpeglinearLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpeglinearLocationExtension)
     {
         $this->tpeglinearLocationExtension = $tpeglinearLocationExtension;
         return $this;

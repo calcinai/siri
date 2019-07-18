@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilitiesRequestStructureType:
+Calcinai\Siri\Objects\CapabilitiesRequestStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getProductionTimetableCapabilitiesRequest
                 setter: setProductionTimetableCapabilitiesRequest
-            type: Calcinai\Siri\ProductionTimetableCapabilitiesRequest
+            type: Calcinai\Siri\Objects\ProductionTimetableCapabilitiesRequest
         estimatedTimetableCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getEstimatedTimetableCapabilitiesRequest
                 setter: setEstimatedTimetableCapabilitiesRequest
-            type: Calcinai\Siri\EstimatedTimetableCapabilitiesRequest
+            type: Calcinai\Siri\Objects\EstimatedTimetableCapabilitiesRequest
         stopTimetableCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -38,7 +38,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getStopTimetableCapabilitiesRequest
                 setter: setStopTimetableCapabilitiesRequest
-            type: Calcinai\Siri\StopTimetableCapabilitiesRequest
+            type: Calcinai\Siri\Objects\StopTimetableCapabilitiesRequest
         stopMonitoringCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -48,7 +48,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getStopMonitoringCapabilitiesRequest
                 setter: setStopMonitoringCapabilitiesRequest
-            type: Calcinai\Siri\StopMonitoringCapabilitiesRequest
+            type: Calcinai\Siri\Objects\StopMonitoringCapabilitiesRequest
         vehicleMonitoringCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getVehicleMonitoringCapabilitiesRequest
                 setter: setVehicleMonitoringCapabilitiesRequest
-            type: Calcinai\Siri\VehicleMonitoringCapabilitiesRequest
+            type: Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesRequest
         connectionTimetableCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -68,7 +68,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getConnectionTimetableCapabilitiesRequest
                 setter: setConnectionTimetableCapabilitiesRequest
-            type: Calcinai\Siri\ConnectionTimetableCapabilitiesRequest
+            type: Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesRequest
         connectionMonitoringCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -78,7 +78,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getConnectionMonitoringCapabilitiesRequest
                 setter: setConnectionMonitoringCapabilitiesRequest
-            type: Calcinai\Siri\ConnectionMonitoringCapabilitiesRequest
+            type: Calcinai\Siri\Objects\ConnectionMonitoringCapabilitiesRequest
         generalMessageCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -88,7 +88,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getGeneralMessageCapabilitiesRequest
                 setter: setGeneralMessageCapabilitiesRequest
-            type: Calcinai\Siri\GeneralMessageCapabilitiesRequest
+            type: Calcinai\Siri\Objects\GeneralMessageCapabilitiesRequest
         facilityMonitoringCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getFacilityMonitoringCapabilitiesRequest
                 setter: setFacilityMonitoringCapabilitiesRequest
-            type: Calcinai\Siri\FacilityMonitoringCapabilitiesRequest
+            type: Calcinai\Siri\Objects\FacilityMonitoringCapabilitiesRequest
         situationExchangeCapabilitiesRequest:
             expose: true
             access_type: public_method
@@ -108,4 +108,4 @@ Calcinai\Siri\CapabilitiesRequestStructureType:
             accessor:
                 getter: getSituationExchangeCapabilitiesRequest
                 setter: setSituationExchangeCapabilitiesRequest
-            type: Calcinai\Siri\SituationExchangeCapabilitiesRequest
+            type: Calcinai\Siri\Objects\SituationExchangeCapabilitiesRequest

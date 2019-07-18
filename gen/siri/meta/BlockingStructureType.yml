@@ -1,4 +1,4 @@
-Calcinai\Siri\BlockingStructureType:
+Calcinai\Siri\Objects\BlockingStructureType:
     properties:
         journeyPlanner:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\PtConsequenceStructureType:
+Calcinai\Siri\Objects\PtConsequenceStructureType:
     properties:
         period:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getPeriod
                 setter: setPeriod
-            type: Calcinai\Siri\HalfOpenTimestampRangeStructureType
+            type: Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType
         condition:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getCondition
                 setter: setCondition
-            type: Calcinai\Siri\Condition
+            type: Calcinai\Siri\Objects\Condition
         severity:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getAffects
                 setter: setAffects
-            type: Calcinai\Siri\AffectsScopeStructureType
+            type: Calcinai\Siri\Objects\AffectsScopeStructureType
         suitabilities:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getSuitabilities
                 setter: setSuitabilities
-            type: array<Calcinai\Siri\ACSB\SuitabilityStructureType>
+            type: array<Calcinai\Siri\Objects\ACSB\SuitabilityStructureType>
             xml_list:
                 inline: false
                 entry_name: Suitability
@@ -64,7 +64,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getAdvice
                 setter: setAdvice
-            type: Calcinai\Siri\PtAdviceStructureType
+            type: Calcinai\Siri\Objects\PtAdviceStructureType
         blocking:
             expose: true
             access_type: public_method
@@ -74,7 +74,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getBlocking
                 setter: setBlocking
-            type: Calcinai\Siri\BlockingStructureType
+            type: Calcinai\Siri\Objects\BlockingStructureType
         boarding:
             expose: true
             access_type: public_method
@@ -84,7 +84,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getBoarding
                 setter: setBoarding
-            type: Calcinai\Siri\BoardingStructureType
+            type: Calcinai\Siri\Objects\BoardingStructureType
         delays:
             expose: true
             access_type: public_method
@@ -94,7 +94,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getDelays
                 setter: setDelays
-            type: Calcinai\Siri\DelaysStructureType
+            type: Calcinai\Siri\Objects\DelaysStructureType
         casualties:
             expose: true
             access_type: public_method
@@ -104,7 +104,7 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getCasualties
                 setter: setCasualties
-            type: Calcinai\Siri\CasualtiesStructureType
+            type: Calcinai\Siri\Objects\CasualtiesStructureType
         easements:
             expose: true
             access_type: public_method
@@ -118,7 +118,7 @@ Calcinai\Siri\PtConsequenceStructureType:
                 inline: true
                 entry_name: Easements
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\EasementsStructureType>
+            type: array<Calcinai\Siri\Objects\EasementsStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -128,4 +128,4 @@ Calcinai\Siri\PtConsequenceStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

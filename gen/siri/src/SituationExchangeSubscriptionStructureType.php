@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationExchangeSubscriptionStructureType
@@ -12,7 +12,7 @@ class SituationExchangeSubscriptionStructureType extends AbstractSubscriptionStr
 {
 
     /**
-     * @property \Calcinai\Siri\SituationExchangeRequest $situationExchangeRequest
+     * @property \Calcinai\Siri\Objects\SituationExchangeRequest $situationExchangeRequest
      */
     private $situationExchangeRequest = null;
 
@@ -27,7 +27,7 @@ class SituationExchangeSubscriptionStructureType extends AbstractSubscriptionStr
     /**
      * Gets as situationExchangeRequest
      *
-     * @return \Calcinai\Siri\SituationExchangeRequest
+     * @return \Calcinai\Siri\Objects\SituationExchangeRequest
      */
     public function getSituationExchangeRequest()
     {
@@ -37,10 +37,10 @@ class SituationExchangeSubscriptionStructureType extends AbstractSubscriptionStr
     /**
      * Sets a new situationExchangeRequest
      *
-     * @param \Calcinai\Siri\SituationExchangeRequest $situationExchangeRequest
+     * @param \Calcinai\Siri\Objects\SituationExchangeRequest $situationExchangeRequest
      * @return self
      */
-    public function setSituationExchangeRequest(\Calcinai\Siri\SituationExchangeRequest $situationExchangeRequest)
+    public function setSituationExchangeRequest(\Calcinai\Siri\Objects\SituationExchangeRequest $situationExchangeRequest)
     {
         $this->situationExchangeRequest = $situationExchangeRequest;
         return $this;

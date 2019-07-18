@@ -1,4 +1,4 @@
-Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType\SuitabilitiesAType:
+Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType\SuitabilitiesAType:
     properties:
         suitability:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType\SuitabilitiesAType:
                 inline: true
                 entry_name: Suitability
                 namespace: 'http://www.ifopt.org.uk/acsb'
-            type: array<Calcinai\Siri\ACSB\SuitabilityStructureType>
+            type: array<Calcinai\Siri\Objects\ACSB\SuitabilityStructureType>

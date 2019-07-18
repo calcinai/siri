@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\LaneUsageType:
+Calcinai\Siri\Objects\Datex\LaneUsageType:
     properties:
         laneUsageAdvice:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\LaneUsageType:
             accessor:
                 getter: getLaneUsageExtension
                 setter: setLaneUsageExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

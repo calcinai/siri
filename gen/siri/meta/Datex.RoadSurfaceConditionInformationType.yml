@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\RoadSurfaceConditionInformationType:
+Calcinai\Siri\Objects\Datex\RoadSurfaceConditionInformationType:
     properties:
         roadSurfaceConditionMeasurements:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\RoadSurfaceConditionInformationType:
             accessor:
                 getter: getRoadSurfaceConditionMeasurements
                 setter: setRoadSurfaceConditionMeasurements
-            type: Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType
+            type: Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType
         roadSurfaceConditionInformationExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\RoadSurfaceConditionInformationType:
             accessor:
                 getter: getRoadSurfaceConditionInformationExtension
                 setter: setRoadSurfaceConditionInformationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

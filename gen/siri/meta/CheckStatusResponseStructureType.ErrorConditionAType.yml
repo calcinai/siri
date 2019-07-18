@@ -1,4 +1,4 @@
-Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType:
+Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType:
     properties:
         serviceNotAvailableError:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType:
             accessor:
                 getter: getServiceNotAvailableError
                 setter: setServiceNotAvailableError
-            type: Calcinai\Siri\ServiceNotAvailableError
+            type: Calcinai\Siri\Objects\ServiceNotAvailableError
         otherError:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType:
             accessor:
                 getter: getOtherError
                 setter: setOtherError
-            type: Calcinai\Siri\OtherError
+            type: Calcinai\Siri\Objects\OtherError
         description:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: Calcinai\Siri\ErrorDescriptionStructureType
+            type: Calcinai\Siri\Objects\ErrorDescriptionStructureType

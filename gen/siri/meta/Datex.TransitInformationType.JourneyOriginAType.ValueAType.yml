@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType:
+Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType\ValueAType:
     properties:
         __value:
             expose: true

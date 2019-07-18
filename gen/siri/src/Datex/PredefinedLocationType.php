@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PredefinedLocationType
@@ -19,17 +19,17 @@ class PredefinedLocationType
     /**
      * A name of assigned to a predefined location (e.g. extracted out of the network operator's gazetteer).
      *
-     * @property \Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType[] $predefinedLocationName
+     * @property \Calcinai\Siri\Objects\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType[] $predefinedLocationName
      */
     private $predefinedLocationName = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\LocationType $predefinedLocation
+     * @property \Calcinai\Siri\Objects\Datex\LocationType $predefinedLocation
      */
     private $predefinedLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $predefinedLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $predefinedLocationExtension
      */
     private $predefinedLocationExtension = null;
 
@@ -61,9 +61,9 @@ class PredefinedLocationType
      * A name of assigned to a predefined location (e.g. extracted out of the network operator's gazetteer).
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType $value
      */
-    public function addToPredefinedLocationName(\Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType $value)
+    public function addToPredefinedLocationName(\Calcinai\Siri\Objects\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType $value)
     {
         $this->predefinedLocationName[] = $value;
         return $this;
@@ -100,7 +100,7 @@ class PredefinedLocationType
      *
      * A name of assigned to a predefined location (e.g. extracted out of the network operator's gazetteer).
      *
-     * @return \Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType[]
      */
     public function getPredefinedLocationName()
     {
@@ -112,7 +112,7 @@ class PredefinedLocationType
      *
      * A name of assigned to a predefined location (e.g. extracted out of the network operator's gazetteer).
      *
-     * @param \Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType[] $predefinedLocationName
+     * @param \Calcinai\Siri\Objects\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType[] $predefinedLocationName
      * @return self
      */
     public function setPredefinedLocationName(array $predefinedLocationName)
@@ -124,7 +124,7 @@ class PredefinedLocationType
     /**
      * Gets as predefinedLocation
      *
-     * @return \Calcinai\Siri\Datex\LocationType
+     * @return \Calcinai\Siri\Objects\Datex\LocationType
      */
     public function getPredefinedLocation()
     {
@@ -134,10 +134,10 @@ class PredefinedLocationType
     /**
      * Sets a new predefinedLocation
      *
-     * @param \Calcinai\Siri\Datex\LocationType $predefinedLocation
+     * @param \Calcinai\Siri\Objects\Datex\LocationType $predefinedLocation
      * @return self
      */
-    public function setPredefinedLocation(\Calcinai\Siri\Datex\LocationType $predefinedLocation)
+    public function setPredefinedLocation(\Calcinai\Siri\Objects\Datex\LocationType $predefinedLocation)
     {
         $this->predefinedLocation = $predefinedLocation;
         return $this;
@@ -146,7 +146,7 @@ class PredefinedLocationType
     /**
      * Gets as predefinedLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPredefinedLocationExtension()
     {
@@ -156,10 +156,10 @@ class PredefinedLocationType
     /**
      * Sets a new predefinedLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $predefinedLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $predefinedLocationExtension
      * @return self
      */
-    public function setPredefinedLocationExtension(\Calcinai\Siri\Datex\ExtensionType $predefinedLocationExtension)
+    public function setPredefinedLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $predefinedLocationExtension)
     {
         $this->predefinedLocationExtension = $predefinedLocationExtension;
         return $this;

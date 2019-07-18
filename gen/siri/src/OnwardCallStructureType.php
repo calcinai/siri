@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing OnwardCallStructureType
@@ -37,7 +37,7 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     private $arrivalStatus = null;
 
     /**
-     * @property \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @property \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      */
     private $arrivalPlatformName = null;
 
@@ -62,7 +62,7 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     private $departureStatus = null;
 
     /**
-     * @property \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @property \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      */
     private $departurePlatformName = null;
 
@@ -82,7 +82,7 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     private $expectedHeadwayInterval = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -199,7 +199,7 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Gets as arrivalPlatformName
      *
-     * @return \Calcinai\Siri\ArrivalPlatformName
+     * @return \Calcinai\Siri\Objects\ArrivalPlatformName
      */
     public function getArrivalPlatformName()
     {
@@ -209,10 +209,10 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Sets a new arrivalPlatformName
      *
-     * @param \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @param \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      * @return self
      */
-    public function setArrivalPlatformName(\Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName)
+    public function setArrivalPlatformName(\Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName)
     {
         $this->arrivalPlatformName = $arrivalPlatformName;
         return $this;
@@ -309,7 +309,7 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Gets as departurePlatformName
      *
-     * @return \Calcinai\Siri\DeparturePlatformName
+     * @return \Calcinai\Siri\Objects\DeparturePlatformName
      */
     public function getDeparturePlatformName()
     {
@@ -319,10 +319,10 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Sets a new departurePlatformName
      *
-     * @param \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @param \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      * @return self
      */
-    public function setDeparturePlatformName(\Calcinai\Siri\DeparturePlatformName $departurePlatformName)
+    public function setDeparturePlatformName(\Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName)
     {
         $this->departurePlatformName = $departurePlatformName;
         return $this;
@@ -397,7 +397,7 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -407,10 +407,10 @@ class OnwardCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

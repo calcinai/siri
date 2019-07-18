@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\VehicleActivityStructureType;
+namespace Calcinai\Siri\Objects\VehicleActivityStructureType;
 
-use Calcinai\Siri\MonitoredVehicleJourneyStructureType;
+use Calcinai\Siri\Objects\MonitoredVehicleJourneyStructureType;
 
 /**
  * Class representing MonitoredVehicleJourneyAType

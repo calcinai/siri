@@ -1,4 +1,4 @@
-Calcinai\Siri\ClearDownRefStructureType:
+Calcinai\Siri\Objects\ClearDownRefStructureType:
     properties:
         __value:
             expose: true

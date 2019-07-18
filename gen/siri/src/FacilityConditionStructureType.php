@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityConditionStructureType
@@ -14,7 +14,7 @@ class FacilityConditionStructureType
     /**
      * Facility affected by condition
      *
-     * @property \Calcinai\Siri\FacilityStructureType $facility
+     * @property \Calcinai\Siri\Objects\FacilityStructureType $facility
      */
     private $facility = null;
 
@@ -26,38 +26,38 @@ class FacilityConditionStructureType
     /**
      * Status of Facility.
      *
-     * @property \Calcinai\Siri\FacilityStatusStructureType $facilityStatus
+     * @property \Calcinai\Siri\Objects\FacilityStatusStructureType $facilityStatus
      */
     private $facilityStatus = null;
 
     /**
-     * @property \Calcinai\Siri\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
      */
     private $situationRef = null;
 
     /**
      * Setup action to remedy the change of the facility status (if partialy or totaly anavailable)
      *
-     * @property \Calcinai\Siri\RemedyStructureType $remedy
+     * @property \Calcinai\Siri\Objects\RemedyStructureType $remedy
      */
     private $remedy = null;
 
     /**
      * Description of the mechanism used to monitor the change of the facility status
      *
-     * @property \Calcinai\Siri\MonitoringInformationStructureType $monitoringInfo
+     * @property \Calcinai\Siri\Objects\MonitoringInformationStructureType $monitoringInfo
      */
     private $monitoringInfo = null;
 
     /**
      * Period (duration) of the status change for the facility
      *
-     * @property \Calcinai\Siri\HalfOpenTimestampRangeStructureType $validityPeriod
+     * @property \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $validityPeriod
      */
     private $validityPeriod = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -66,7 +66,7 @@ class FacilityConditionStructureType
      *
      * Facility affected by condition
      *
-     * @return \Calcinai\Siri\FacilityStructureType
+     * @return \Calcinai\Siri\Objects\FacilityStructureType
      */
     public function getFacility()
     {
@@ -78,10 +78,10 @@ class FacilityConditionStructureType
      *
      * Facility affected by condition
      *
-     * @param \Calcinai\Siri\FacilityStructureType $facility
+     * @param \Calcinai\Siri\Objects\FacilityStructureType $facility
      * @return self
      */
-    public function setFacility(\Calcinai\Siri\FacilityStructureType $facility)
+    public function setFacility(\Calcinai\Siri\Objects\FacilityStructureType $facility)
     {
         $this->facility = $facility;
         return $this;
@@ -114,7 +114,7 @@ class FacilityConditionStructureType
      *
      * Status of Facility.
      *
-     * @return \Calcinai\Siri\FacilityStatusStructureType
+     * @return \Calcinai\Siri\Objects\FacilityStatusStructureType
      */
     public function getFacilityStatus()
     {
@@ -126,10 +126,10 @@ class FacilityConditionStructureType
      *
      * Status of Facility.
      *
-     * @param \Calcinai\Siri\FacilityStatusStructureType $facilityStatus
+     * @param \Calcinai\Siri\Objects\FacilityStatusStructureType $facilityStatus
      * @return self
      */
-    public function setFacilityStatus(\Calcinai\Siri\FacilityStatusStructureType $facilityStatus)
+    public function setFacilityStatus(\Calcinai\Siri\Objects\FacilityStatusStructureType $facilityStatus)
     {
         $this->facilityStatus = $facilityStatus;
         return $this;
@@ -138,7 +138,7 @@ class FacilityConditionStructureType
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef
      */
     public function getSituationRef()
     {
@@ -148,10 +148,10 @@ class FacilityConditionStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;
@@ -162,7 +162,7 @@ class FacilityConditionStructureType
      *
      * Setup action to remedy the change of the facility status (if partialy or totaly anavailable)
      *
-     * @return \Calcinai\Siri\RemedyStructureType
+     * @return \Calcinai\Siri\Objects\RemedyStructureType
      */
     public function getRemedy()
     {
@@ -174,10 +174,10 @@ class FacilityConditionStructureType
      *
      * Setup action to remedy the change of the facility status (if partialy or totaly anavailable)
      *
-     * @param \Calcinai\Siri\RemedyStructureType $remedy
+     * @param \Calcinai\Siri\Objects\RemedyStructureType $remedy
      * @return self
      */
-    public function setRemedy(\Calcinai\Siri\RemedyStructureType $remedy)
+    public function setRemedy(\Calcinai\Siri\Objects\RemedyStructureType $remedy)
     {
         $this->remedy = $remedy;
         return $this;
@@ -188,7 +188,7 @@ class FacilityConditionStructureType
      *
      * Description of the mechanism used to monitor the change of the facility status
      *
-     * @return \Calcinai\Siri\MonitoringInformationStructureType
+     * @return \Calcinai\Siri\Objects\MonitoringInformationStructureType
      */
     public function getMonitoringInfo()
     {
@@ -200,10 +200,10 @@ class FacilityConditionStructureType
      *
      * Description of the mechanism used to monitor the change of the facility status
      *
-     * @param \Calcinai\Siri\MonitoringInformationStructureType $monitoringInfo
+     * @param \Calcinai\Siri\Objects\MonitoringInformationStructureType $monitoringInfo
      * @return self
      */
-    public function setMonitoringInfo(\Calcinai\Siri\MonitoringInformationStructureType $monitoringInfo)
+    public function setMonitoringInfo(\Calcinai\Siri\Objects\MonitoringInformationStructureType $monitoringInfo)
     {
         $this->monitoringInfo = $monitoringInfo;
         return $this;
@@ -214,7 +214,7 @@ class FacilityConditionStructureType
      *
      * Period (duration) of the status change for the facility
      *
-     * @return \Calcinai\Siri\HalfOpenTimestampRangeStructureType
+     * @return \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType
      */
     public function getValidityPeriod()
     {
@@ -226,10 +226,10 @@ class FacilityConditionStructureType
      *
      * Period (duration) of the status change for the facility
      *
-     * @param \Calcinai\Siri\HalfOpenTimestampRangeStructureType $validityPeriod
+     * @param \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(\Calcinai\Siri\HalfOpenTimestampRangeStructureType $validityPeriod)
+    public function setValidityPeriod(\Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $validityPeriod)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
@@ -238,7 +238,7 @@ class FacilityConditionStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -248,10 +248,10 @@ class FacilityConditionStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

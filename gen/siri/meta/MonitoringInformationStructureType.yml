@@ -1,4 +1,4 @@
-Calcinai\Siri\MonitoringInformationStructureType:
+Calcinai\Siri\Objects\MonitoringInformationStructureType:
     properties:
         monitoringInterval:
             expose: true
@@ -29,7 +29,7 @@ Calcinai\Siri\MonitoringInformationStructureType:
             accessor:
                 getter: getMonitoringPeriod
                 setter: setMonitoringPeriod
-            type: Calcinai\Siri\MonitoringValidityConditionStructureType
+            type: Calcinai\Siri\Objects\MonitoringValidityConditionStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\MonitoringInformationStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

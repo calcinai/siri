@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilityRefStructureType:
+Calcinai\Siri\Objects\CapabilityRefStructureType:
     properties:
         __value:
             expose: true

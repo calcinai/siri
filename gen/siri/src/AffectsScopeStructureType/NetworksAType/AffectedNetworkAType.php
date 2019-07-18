@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\AffectsScopeStructureType\NetworksAType;
+namespace Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType;
 
-use Calcinai\Siri\AffectedNetworkStructureType;
+use Calcinai\Siri\Objects\AffectedNetworkStructureType;
 
 /**
  * Class representing AffectedNetworkAType

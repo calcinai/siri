@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringDeliveryStructureType:
+Calcinai\Siri\Objects\VehicleMonitoringDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\VehicleMonitoringDeliveryStructureType:
             accessor:
                 getter: getVehicleActivity
                 setter: setVehicleActivity
-            type: Calcinai\Siri\VehicleActivityStructureType
+            type: Calcinai\Siri\Objects\VehicleActivityStructureType
         vehicleActivityCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Calcinai\Siri\VehicleMonitoringDeliveryStructureType:
             accessor:
                 getter: getVehicleActivityCancellation
                 setter: setVehicleActivityCancellation
-            type: Calcinai\Siri\VehicleActivityCancellationStructureType
+            type: Calcinai\Siri\Objects\VehicleActivityCancellationStructureType
         vehicleActivityNote:
             expose: true
             access_type: public_method
@@ -38,7 +38,7 @@ Calcinai\Siri\VehicleMonitoringDeliveryStructureType:
             accessor:
                 getter: getVehicleActivityNote
                 setter: setVehicleActivityNote
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -48,4 +48,4 @@ Calcinai\Siri\VehicleMonitoringDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

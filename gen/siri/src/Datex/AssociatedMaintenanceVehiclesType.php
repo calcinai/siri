@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AssociatedMaintenanceVehiclesType
@@ -28,7 +28,7 @@ class AssociatedMaintenanceVehiclesType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $associatedMaintenanceVehiclesExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $associatedMaintenanceVehiclesExtension
      */
     private $associatedMaintenanceVehiclesExtension = null;
 
@@ -127,7 +127,7 @@ class AssociatedMaintenanceVehiclesType
     /**
      * Gets as associatedMaintenanceVehiclesExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAssociatedMaintenanceVehiclesExtension()
     {
@@ -137,10 +137,10 @@ class AssociatedMaintenanceVehiclesType
     /**
      * Sets a new associatedMaintenanceVehiclesExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $associatedMaintenanceVehiclesExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $associatedMaintenanceVehiclesExtension
      * @return self
      */
-    public function setAssociatedMaintenanceVehiclesExtension(\Calcinai\Siri\Datex\ExtensionType $associatedMaintenanceVehiclesExtension)
+    public function setAssociatedMaintenanceVehiclesExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $associatedMaintenanceVehiclesExtension)
     {
         $this->associatedMaintenanceVehiclesExtension = $associatedMaintenanceVehiclesExtension;
         return $this;

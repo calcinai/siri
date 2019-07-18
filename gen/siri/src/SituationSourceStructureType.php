@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationSourceStructureType
@@ -77,7 +77,7 @@ class SituationSourceStructureType
     /**
      * Name of for source.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $name
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $name
      */
     private $name = null;
 
@@ -348,7 +348,7 @@ class SituationSourceStructureType
      *
      * Name of for source.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getName()
     {
@@ -360,10 +360,10 @@ class SituationSourceStructureType
      *
      * Name of for source.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $name
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $name
      * @return self
      */
-    public function setName(\Calcinai\Siri\NaturalLanguageStringStructureType $name)
+    public function setName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $name)
     {
         $this->name = $name;
         return $this;

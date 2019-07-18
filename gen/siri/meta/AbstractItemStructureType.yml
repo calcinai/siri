@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractItemStructureType:
+Calcinai\Siri\Objects\AbstractItemStructureType:
     properties:
         recordedAtTime:
             expose: true

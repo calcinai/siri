@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing CapabilityGeneralInteractionStructureType
@@ -14,14 +14,14 @@ class CapabilityGeneralInteractionStructureType
     /**
      * Interaction capabilities
      *
-     * @property \Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType $interaction
+     * @property \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\InteractionAType $interaction
      */
     private $interaction = null;
 
     /**
      * Delivery capabilities
      *
-     * @property \Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType $delivery
+     * @property \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\DeliveryAType $delivery
      */
     private $delivery = null;
 
@@ -65,7 +65,7 @@ class CapabilityGeneralInteractionStructureType
      *
      * Interaction capabilities
      *
-     * @return \Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType
+     * @return \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\InteractionAType
      */
     public function getInteraction()
     {
@@ -77,10 +77,10 @@ class CapabilityGeneralInteractionStructureType
      *
      * Interaction capabilities
      *
-     * @param \Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType $interaction
+     * @param \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\InteractionAType $interaction
      * @return self
      */
-    public function setInteraction(\Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType $interaction)
+    public function setInteraction(\Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\InteractionAType $interaction)
     {
         $this->interaction = $interaction;
         return $this;
@@ -91,7 +91,7 @@ class CapabilityGeneralInteractionStructureType
      *
      * Delivery capabilities
      *
-     * @return \Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType
+     * @return \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\DeliveryAType
      */
     public function getDelivery()
     {
@@ -103,10 +103,10 @@ class CapabilityGeneralInteractionStructureType
      *
      * Delivery capabilities
      *
-     * @param \Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType $delivery
+     * @param \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\DeliveryAType $delivery
      * @return self
      */
-    public function setDelivery(\Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType $delivery)
+    public function setDelivery(\Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\DeliveryAType $delivery)
     {
         $this->delivery = $delivery;
         return $this;

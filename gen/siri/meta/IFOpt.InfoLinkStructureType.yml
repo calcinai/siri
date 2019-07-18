@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\InfoLinkStructureType:
+Calcinai\Siri\Objects\IFOpt\InfoLinkStructureType:
     properties:
         __value:
             expose: true

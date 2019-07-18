@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedRouteStructureType\RouteLinksAType:
+Calcinai\Siri\Objects\AffectedRouteStructureType\RouteLinksAType:
     properties:
         routeLinkRef:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectedRouteStructureType\RouteLinksAType:
                 inline: true
                 entry_name: RouteLinkRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\RouteLinkRefStructureType>
+            type: array<Calcinai\Siri\Objects\RouteLinkRefStructureType>

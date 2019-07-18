@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\PtSituationElementStructureType\ImagesAType;
+namespace Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType;
 
-use Calcinai\Siri\ImageStructureType;
+use Calcinai\Siri\Objects\ImageStructureType;
 
 /**
  * Class representing ImageAType

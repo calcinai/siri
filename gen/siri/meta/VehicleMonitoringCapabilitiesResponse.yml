@@ -1,3 +1,3 @@
-Calcinai\Siri\VehicleMonitoringCapabilitiesResponse:
+Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesResponse:
     xml_root_name: VehicleMonitoringCapabilitiesResponse
     xml_root_namespace: 'http://www.siri.org.uk/siri'

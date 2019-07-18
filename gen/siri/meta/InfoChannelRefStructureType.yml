@@ -1,4 +1,4 @@
-Calcinai\Siri\InfoChannelRefStructureType:
+Calcinai\Siri\Objects\InfoChannelRefStructureType:
     properties:
         __value:
             expose: true

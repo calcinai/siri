@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing PlaceNameStructureType
@@ -21,14 +21,14 @@ class PlaceNameStructureType
     /**
      * Names of place used to help identify the line,
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $placeName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $placeName
      */
     private $placeName = null;
 
     /**
      * Short name of point. Should only be included if the detail level was requested.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType[] $placeShortName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType[] $placeShortName
      */
     private $placeShortName = [
         
@@ -65,7 +65,7 @@ class PlaceNameStructureType
      *
      * Names of place used to help identify the line,
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getPlaceName()
     {
@@ -77,10 +77,10 @@ class PlaceNameStructureType
      *
      * Names of place used to help identify the line,
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $placeName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $placeName
      * @return self
      */
-    public function setPlaceName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $placeName)
+    public function setPlaceName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $placeName)
     {
         $this->placeName = $placeName;
         return $this;
@@ -92,9 +92,9 @@ class PlaceNameStructureType
      * Short name of point. Should only be included if the detail level was requested.
      *
      * @return self
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $placeShortName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $placeShortName
      */
-    public function addToPlaceShortName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $placeShortName)
+    public function addToPlaceShortName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $placeShortName)
     {
         $this->placeShortName[] = $placeShortName;
         return $this;
@@ -131,7 +131,7 @@ class PlaceNameStructureType
      *
      * Short name of point. Should only be included if the detail level was requested.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType[]
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType[]
      */
     public function getPlaceShortName()
     {
@@ -143,7 +143,7 @@ class PlaceNameStructureType
      *
      * Short name of point. Should only be included if the detail level was requested.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType[] $placeShortName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType[] $placeShortName
      * @return self
      */
     public function setPlaceShortName(array $placeShortName)

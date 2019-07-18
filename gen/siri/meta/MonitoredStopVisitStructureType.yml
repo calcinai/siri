@@ -1,4 +1,4 @@
-Calcinai\Siri\MonitoredStopVisitStructureType:
+Calcinai\Siri\Objects\MonitoredStopVisitStructureType:
     properties:
         monitoringRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\MonitoredStopVisitStructureType:
             accessor:
                 getter: getMonitoringRef
                 setter: setMonitoringRef
-            type: Calcinai\Siri\MonitoringRefStructureType
+            type: Calcinai\Siri\Objects\MonitoringRefStructureType
         clearDownRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\MonitoredStopVisitStructureType:
             accessor:
                 getter: getClearDownRef
                 setter: setClearDownRef
-            type: Calcinai\Siri\ClearDownRefStructureType
+            type: Calcinai\Siri\Objects\ClearDownRefStructureType
         monitoredVehicleJourney:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\MonitoredStopVisitStructureType:
             accessor:
                 getter: getMonitoredVehicleJourney
                 setter: setMonitoredVehicleJourney
-            type: Calcinai\Siri\MonitoredVehicleJourneyStructureType
+            type: Calcinai\Siri\Objects\MonitoredVehicleJourneyStructureType
         stopVisitNote:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Calcinai\Siri\MonitoredStopVisitStructureType:
                 inline: true
                 entry_name: StopVisitNote
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\NaturalLanguageStringStructureType>
+            type: array<Calcinai\Siri\Objects\NaturalLanguageStringStructureType>
         stopFacility:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ Calcinai\Siri\MonitoredStopVisitStructureType:
             accessor:
                 getter: getStopFacility
                 setter: setStopFacility
-            type: Calcinai\Siri\FacilityRefStructureType
+            type: Calcinai\Siri\Objects\FacilityRefStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -63,4 +63,4 @@ Calcinai\Siri\MonitoredStopVisitStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

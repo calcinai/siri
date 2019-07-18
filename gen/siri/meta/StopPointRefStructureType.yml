@@ -1,4 +1,4 @@
-Calcinai\Siri\StopPointRefStructureType:
+Calcinai\Siri\Objects\StopPointRefStructureType:
     properties:
         __value:
             expose: true

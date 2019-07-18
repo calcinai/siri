@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AlertCAreaType:
+Calcinai\Siri\Objects\Datex\AlertCAreaType:
     properties:
         alertCLocationCountryCode:
             expose: true
@@ -39,7 +39,7 @@ Calcinai\Siri\Datex\AlertCAreaType:
             accessor:
                 getter: getAreaLocation
                 setter: setAreaLocation
-            type: Calcinai\Siri\Datex\AlertCLocationType
+            type: Calcinai\Siri\Objects\Datex\AlertCLocationType
         alertCAreaExtension:
             expose: true
             access_type: public_method
@@ -49,4 +49,4 @@ Calcinai\Siri\Datex\AlertCAreaType:
             accessor:
                 getter: getAlertCAreaExtension
                 setter: setAlertCAreaExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

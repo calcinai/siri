@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TransitInformationType
@@ -14,14 +14,14 @@ class TransitInformationType extends NonRoadEventInformationType
     /**
      * Indicates the stated termination point of the transit journey.
      *
-     * @property \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $journeyDestination
+     * @property \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $journeyDestination
      */
     private $journeyDestination = null;
 
     /**
      * Indicates the stated starting point of the transit journey.
      *
-     * @property \Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType[] $journeyOrigin
+     * @property \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType\ValueAType[] $journeyOrigin
      */
     private $journeyOrigin = null;
 
@@ -54,7 +54,7 @@ class TransitInformationType extends NonRoadEventInformationType
     private $scheduledDepartureTime = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $transitInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $transitInformationExtension
      */
     private $transitInformationExtension = null;
 
@@ -64,9 +64,9 @@ class TransitInformationType extends NonRoadEventInformationType
      * Indicates the stated termination point of the transit journey.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value
      */
-    public function addToJourneyDestination(\Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value)
+    public function addToJourneyDestination(\Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value)
     {
         $this->journeyDestination[] = $value;
         return $this;
@@ -103,7 +103,7 @@ class TransitInformationType extends NonRoadEventInformationType
      *
      * Indicates the stated termination point of the transit journey.
      *
-     * @return \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[]
      */
     public function getJourneyDestination()
     {
@@ -115,7 +115,7 @@ class TransitInformationType extends NonRoadEventInformationType
      *
      * Indicates the stated termination point of the transit journey.
      *
-     * @param \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $journeyDestination
+     * @param \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $journeyDestination
      * @return self
      */
     public function setJourneyDestination(array $journeyDestination)
@@ -130,9 +130,9 @@ class TransitInformationType extends NonRoadEventInformationType
      * Indicates the stated starting point of the transit journey.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType\ValueAType $value
      */
-    public function addToJourneyOrigin(\Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType $value)
+    public function addToJourneyOrigin(\Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType\ValueAType $value)
     {
         $this->journeyOrigin[] = $value;
         return $this;
@@ -169,7 +169,7 @@ class TransitInformationType extends NonRoadEventInformationType
      *
      * Indicates the stated starting point of the transit journey.
      *
-     * @return \Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType\ValueAType[]
      */
     public function getJourneyOrigin()
     {
@@ -181,7 +181,7 @@ class TransitInformationType extends NonRoadEventInformationType
      *
      * Indicates the stated starting point of the transit journey.
      *
-     * @param \Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType[] $journeyOrigin
+     * @param \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType\ValueAType[] $journeyOrigin
      * @return self
      */
     public function setJourneyOrigin(array $journeyOrigin)
@@ -297,7 +297,7 @@ class TransitInformationType extends NonRoadEventInformationType
     /**
      * Gets as transitInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTransitInformationExtension()
     {
@@ -307,10 +307,10 @@ class TransitInformationType extends NonRoadEventInformationType
     /**
      * Sets a new transitInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $transitInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $transitInformationExtension
      * @return self
      */
-    public function setTransitInformationExtension(\Calcinai\Siri\Datex\ExtensionType $transitInformationExtension)
+    public function setTransitInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $transitInformationExtension)
     {
         $this->transitInformationExtension = $transitInformationExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCAreaType
@@ -33,12 +33,12 @@ class AlertCAreaType
     private $alertCLocationTableVersion = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCLocationType $areaLocation
+     * @property \Calcinai\Siri\Objects\Datex\AlertCLocationType $areaLocation
      */
     private $areaLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCAreaExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCAreaExtension
      */
     private $alertCAreaExtension = null;
 
@@ -123,7 +123,7 @@ class AlertCAreaType
     /**
      * Gets as areaLocation
      *
-     * @return \Calcinai\Siri\Datex\AlertCLocationType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCLocationType
      */
     public function getAreaLocation()
     {
@@ -133,10 +133,10 @@ class AlertCAreaType
     /**
      * Sets a new areaLocation
      *
-     * @param \Calcinai\Siri\Datex\AlertCLocationType $areaLocation
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType $areaLocation
      * @return self
      */
-    public function setAreaLocation(\Calcinai\Siri\Datex\AlertCLocationType $areaLocation)
+    public function setAreaLocation(\Calcinai\Siri\Objects\Datex\AlertCLocationType $areaLocation)
     {
         $this->areaLocation = $areaLocation;
         return $this;
@@ -145,7 +145,7 @@ class AlertCAreaType
     /**
      * Gets as alertCAreaExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCAreaExtension()
     {
@@ -155,10 +155,10 @@ class AlertCAreaType
     /**
      * Sets a new alertCAreaExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCAreaExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCAreaExtension
      * @return self
      */
-    public function setAlertCAreaExtension(\Calcinai\Siri\Datex\ExtensionType $alertCAreaExtension)
+    public function setAlertCAreaExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCAreaExtension)
     {
         $this->alertCAreaExtension = $alertCAreaExtension;
         return $this;

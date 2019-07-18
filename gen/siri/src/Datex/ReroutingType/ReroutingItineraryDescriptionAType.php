@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\ReroutingType;
+namespace Calcinai\Siri\Objects\Datex\ReroutingType;
 
 /**
  * Class representing ReroutingItineraryDescriptionAType
@@ -9,7 +9,7 @@ class ReroutingItineraryDescriptionAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class ReroutingItineraryDescriptionAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class ReroutingItineraryDescriptionAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class ReroutingItineraryDescriptionAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

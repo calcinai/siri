@@ -1,4 +1,4 @@
-Calcinai\Siri\DestinationRefStructureType:
+Calcinai\Siri\Objects\DestinationRefStructureType:
     properties:
         __value:
             expose: true

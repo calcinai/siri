@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedLineStructureType;
+namespace Calcinai\Siri\Objects\AffectedLineStructureType;
 
 /**
  * Class representing SectionsAType
@@ -9,7 +9,7 @@ class SectionsAType
 {
 
     /**
-     * @property \Calcinai\Siri\AffectedSectionStructureType[] $affectedSection
+     * @property \Calcinai\Siri\Objects\AffectedSectionStructureType[] $affectedSection
      */
     private $affectedSection = [
         
@@ -19,9 +19,9 @@ class SectionsAType
      * Adds as affectedSection
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedSectionStructureType $affectedSection
+     * @param \Calcinai\Siri\Objects\AffectedSectionStructureType $affectedSection
      */
-    public function addToAffectedSection(\Calcinai\Siri\AffectedSectionStructureType $affectedSection)
+    public function addToAffectedSection(\Calcinai\Siri\Objects\AffectedSectionStructureType $affectedSection)
     {
         $this->affectedSection[] = $affectedSection;
         return $this;
@@ -52,7 +52,7 @@ class SectionsAType
     /**
      * Gets as affectedSection
      *
-     * @return \Calcinai\Siri\AffectedSectionStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedSectionStructureType[]
      */
     public function getAffectedSection()
     {
@@ -62,7 +62,7 @@ class SectionsAType
     /**
      * Sets a new affectedSection
      *
-     * @param \Calcinai\Siri\AffectedSectionStructureType[] $affectedSection
+     * @param \Calcinai\Siri\Objects\AffectedSectionStructureType[] $affectedSection
      * @return self
      */
     public function setAffectedSection(array $affectedSection)

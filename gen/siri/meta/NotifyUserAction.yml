@@ -1,3 +1,3 @@
-Calcinai\Siri\NotifyUserAction:
+Calcinai\Siri\Objects\NotifyUserAction:
     xml_root_name: NotifyUserAction
     xml_root_namespace: 'http://www.siri.org.uk/siri'

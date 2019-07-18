@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractServiceRequestStructureType:
+Calcinai\Siri\Objects\AbstractServiceRequestStructureType:
     properties:
         messageIdentifier:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\AbstractServiceRequestStructureType:
             accessor:
                 getter: getMessageIdentifier
                 setter: setMessageIdentifier
-            type: Calcinai\Siri\MessageQualifierStructureType
+            type: Calcinai\Siri\Objects\MessageQualifierStructureType

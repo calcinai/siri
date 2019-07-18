@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityDeliveryStructureType:
+Calcinai\Siri\Objects\FacilityDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -22,7 +22,7 @@ Calcinai\Siri\FacilityDeliveryStructureType:
                 inline: true
                 entry_name: AnnotatedFacility
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AnnotatedFacilityStructureType>
+            type: array<Calcinai\Siri\Objects\AnnotatedFacilityStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ Calcinai\Siri\FacilityDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

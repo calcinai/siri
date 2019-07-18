@@ -1,3 +1,3 @@
-Calcinai\Siri\IFOpt\LinkProjection:
+Calcinai\Siri\Objects\IFOpt\LinkProjection:
     xml_root_name: LinkProjection
     xml_root_namespace: 'http://www.ifopt.org.uk/ifopt'

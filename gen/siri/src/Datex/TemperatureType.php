@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TemperatureType
@@ -40,7 +40,7 @@ class TemperatureType
     private $minimumTemperature = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $temperatureExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $temperatureExtension
      */
     private $temperatureExtension = null;
 
@@ -151,7 +151,7 @@ class TemperatureType
     /**
      * Gets as temperatureExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTemperatureExtension()
     {
@@ -161,10 +161,10 @@ class TemperatureType
     /**
      * Sets a new temperatureExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $temperatureExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $temperatureExtension
      * @return self
      */
-    public function setTemperatureExtension(\Calcinai\Siri\Datex\ExtensionType $temperatureExtension)
+    public function setTemperatureExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $temperatureExtension)
     {
         $this->temperatureExtension = $temperatureExtension;
         return $this;

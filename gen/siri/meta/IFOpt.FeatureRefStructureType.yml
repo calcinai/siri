@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\FeatureRefStructureType:
+Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType:
     properties:
         featureIdRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\IFOpt\FeatureRefStructureType:
             accessor:
                 getter: getFeatureIdRef
                 setter: setFeatureIdRef
-            type: Calcinai\Siri\IFOpt\FeatureIdRefStructureType
+            type: Calcinai\Siri\Objects\IFOpt\FeatureIdRefStructureType
         featureType:
             expose: true
             access_type: public_method

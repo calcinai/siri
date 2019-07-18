@@ -1,4 +1,4 @@
-Calcinai\Siri\SubscriptionContextStructureType:
+Calcinai\Siri\Objects\SubscriptionContextStructureType:
     properties:
         heartbeatInterval:
             expose: true

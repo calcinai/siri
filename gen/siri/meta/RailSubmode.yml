@@ -1,4 +1,4 @@
-Calcinai\Siri\RailSubmode:
+Calcinai\Siri\Objects\RailSubmode:
     xml_root_name: RailSubmode
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

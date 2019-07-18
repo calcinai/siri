@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType:
+Calcinai\Siri\Objects\StopMonitoringCapabilityRequestPolicyStructureType:
     properties:
         useReferences:
             expose: true

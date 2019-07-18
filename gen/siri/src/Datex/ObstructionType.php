@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ObstructionType
@@ -19,12 +19,12 @@ class ObstructionType extends TrafficElementType
     private $numberOfObstructions = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\MobilityType $mobilityOfObstruction
+     * @property \Calcinai\Siri\Objects\Datex\MobilityType $mobilityOfObstruction
      */
     private $mobilityOfObstruction = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $obstructionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $obstructionExtension
      */
     private $obstructionExtension = null;
 
@@ -57,7 +57,7 @@ class ObstructionType extends TrafficElementType
     /**
      * Gets as mobilityOfObstruction
      *
-     * @return \Calcinai\Siri\Datex\MobilityType
+     * @return \Calcinai\Siri\Objects\Datex\MobilityType
      */
     public function getMobilityOfObstruction()
     {
@@ -67,10 +67,10 @@ class ObstructionType extends TrafficElementType
     /**
      * Sets a new mobilityOfObstruction
      *
-     * @param \Calcinai\Siri\Datex\MobilityType $mobilityOfObstruction
+     * @param \Calcinai\Siri\Objects\Datex\MobilityType $mobilityOfObstruction
      * @return self
      */
-    public function setMobilityOfObstruction(\Calcinai\Siri\Datex\MobilityType $mobilityOfObstruction)
+    public function setMobilityOfObstruction(\Calcinai\Siri\Objects\Datex\MobilityType $mobilityOfObstruction)
     {
         $this->mobilityOfObstruction = $mobilityOfObstruction;
         return $this;
@@ -79,7 +79,7 @@ class ObstructionType extends TrafficElementType
     /**
      * Gets as obstructionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getObstructionExtension()
     {
@@ -89,10 +89,10 @@ class ObstructionType extends TrafficElementType
     /**
      * Sets a new obstructionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $obstructionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $obstructionExtension
      * @return self
      */
-    public function setObstructionExtension(\Calcinai\Siri\Datex\ExtensionType $obstructionExtension)
+    public function setObstructionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $obstructionExtension)
     {
         $this->obstructionExtension = $obstructionExtension;
         return $this;

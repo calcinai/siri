@@ -1,4 +1,4 @@
-Calcinai\Siri\Siri:
+Calcinai\Siri\Objects\Siri:
     xml_root_name: Siri
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -20,7 +20,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getServiceRequest
                 setter: setServiceRequest
-            type: Calcinai\Siri\ServiceRequest
+            type: Calcinai\Siri\Objects\ServiceRequest
         subscriptionRequest:
             expose: true
             access_type: public_method
@@ -30,7 +30,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getSubscriptionRequest
                 setter: setSubscriptionRequest
-            type: Calcinai\Siri\SubscriptionRequest
+            type: Calcinai\Siri\Objects\SubscriptionRequest
         terminateSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -40,7 +40,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getTerminateSubscriptionRequest
                 setter: setTerminateSubscriptionRequest
-            type: Calcinai\Siri\TerminateSubscriptionRequest
+            type: Calcinai\Siri\Objects\TerminateSubscriptionRequest
         dataReadyNotification:
             expose: true
             access_type: public_method
@@ -50,7 +50,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getDataReadyNotification
                 setter: setDataReadyNotification
-            type: Calcinai\Siri\DataReadyNotification
+            type: Calcinai\Siri\Objects\DataReadyNotification
         dataSupplyRequest:
             expose: true
             access_type: public_method
@@ -60,7 +60,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getDataSupplyRequest
                 setter: setDataSupplyRequest
-            type: Calcinai\Siri\DataSupplyRequest
+            type: Calcinai\Siri\Objects\DataSupplyRequest
         checkStatusRequest:
             expose: true
             access_type: public_method
@@ -70,7 +70,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getCheckStatusRequest
                 setter: setCheckStatusRequest
-            type: Calcinai\Siri\CheckStatusRequest
+            type: Calcinai\Siri\Objects\CheckStatusRequest
         heartbeatNotification:
             expose: true
             access_type: public_method
@@ -80,7 +80,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getHeartbeatNotification
                 setter: setHeartbeatNotification
-            type: Calcinai\Siri\HeartbeatNotification
+            type: Calcinai\Siri\Objects\HeartbeatNotification
         capabilitiesRequest:
             expose: true
             access_type: public_method
@@ -90,7 +90,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getCapabilitiesRequest
                 setter: setCapabilitiesRequest
-            type: Calcinai\Siri\CapabilitiesRequest
+            type: Calcinai\Siri\Objects\CapabilitiesRequest
         stopPointsRequest:
             expose: true
             access_type: public_method
@@ -100,7 +100,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getStopPointsRequest
                 setter: setStopPointsRequest
-            type: Calcinai\Siri\StopPointsRequest
+            type: Calcinai\Siri\Objects\StopPointsRequest
         linesRequest:
             expose: true
             access_type: public_method
@@ -110,7 +110,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getLinesRequest
                 setter: setLinesRequest
-            type: Calcinai\Siri\LinesRequest
+            type: Calcinai\Siri\Objects\LinesRequest
         serviceFeaturesRequest:
             expose: true
             access_type: public_method
@@ -120,7 +120,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getServiceFeaturesRequest
                 setter: setServiceFeaturesRequest
-            type: Calcinai\Siri\ServiceFeaturesRequest
+            type: Calcinai\Siri\Objects\ServiceFeaturesRequest
         productCategoriesRequest:
             expose: true
             access_type: public_method
@@ -130,7 +130,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getProductCategoriesRequest
                 setter: setProductCategoriesRequest
-            type: Calcinai\Siri\ProductCategoriesRequest
+            type: Calcinai\Siri\Objects\ProductCategoriesRequest
         vehicleFeaturesRequest:
             expose: true
             access_type: public_method
@@ -140,7 +140,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getVehicleFeaturesRequest
                 setter: setVehicleFeaturesRequest
-            type: Calcinai\Siri\VehicleFeaturesRequest
+            type: Calcinai\Siri\Objects\VehicleFeaturesRequest
         infoChannelRequest:
             expose: true
             access_type: public_method
@@ -150,7 +150,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getInfoChannelRequest
                 setter: setInfoChannelRequest
-            type: Calcinai\Siri\InfoChannelRequest
+            type: Calcinai\Siri\Objects\InfoChannelRequest
         facilityRequest:
             expose: true
             access_type: public_method
@@ -160,7 +160,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getFacilityRequest
                 setter: setFacilityRequest
-            type: Calcinai\Siri\FacilityRequest
+            type: Calcinai\Siri\Objects\FacilityRequest
         subscriptionResponse:
             expose: true
             access_type: public_method
@@ -170,7 +170,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getSubscriptionResponse
                 setter: setSubscriptionResponse
-            type: Calcinai\Siri\SubscriptionResponse
+            type: Calcinai\Siri\Objects\SubscriptionResponse
         terminateSubscriptionResponse:
             expose: true
             access_type: public_method
@@ -180,7 +180,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getTerminateSubscriptionResponse
                 setter: setTerminateSubscriptionResponse
-            type: Calcinai\Siri\TerminateSubscriptionResponse
+            type: Calcinai\Siri\Objects\TerminateSubscriptionResponse
         dataReadyAcknowledgement:
             expose: true
             access_type: public_method
@@ -190,7 +190,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getDataReadyAcknowledgement
                 setter: setDataReadyAcknowledgement
-            type: Calcinai\Siri\DataReadyAcknowledgement
+            type: Calcinai\Siri\Objects\DataReadyAcknowledgement
         serviceDelivery:
             expose: true
             access_type: public_method
@@ -200,7 +200,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getServiceDelivery
                 setter: setServiceDelivery
-            type: Calcinai\Siri\ServiceDelivery
+            type: Calcinai\Siri\Objects\ServiceDelivery
         dataReceivedAcknowledgement:
             expose: true
             access_type: public_method
@@ -210,7 +210,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getDataReceivedAcknowledgement
                 setter: setDataReceivedAcknowledgement
-            type: Calcinai\Siri\DataReceivedAcknowledgement
+            type: Calcinai\Siri\Objects\DataReceivedAcknowledgement
         checkStatusResponse:
             expose: true
             access_type: public_method
@@ -220,7 +220,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getCheckStatusResponse
                 setter: setCheckStatusResponse
-            type: Calcinai\Siri\CheckStatusResponse
+            type: Calcinai\Siri\Objects\CheckStatusResponse
         capabilitiesResponse:
             expose: true
             access_type: public_method
@@ -230,7 +230,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getCapabilitiesResponse
                 setter: setCapabilitiesResponse
-            type: Calcinai\Siri\CapabilitiesResponse
+            type: Calcinai\Siri\Objects\CapabilitiesResponse
         stopPointsDelivery:
             expose: true
             access_type: public_method
@@ -240,7 +240,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getStopPointsDelivery
                 setter: setStopPointsDelivery
-            type: Calcinai\Siri\StopPointsDelivery
+            type: Calcinai\Siri\Objects\StopPointsDelivery
         linesDelivery:
             expose: true
             access_type: public_method
@@ -250,7 +250,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getLinesDelivery
                 setter: setLinesDelivery
-            type: Calcinai\Siri\LinesDelivery
+            type: Calcinai\Siri\Objects\LinesDelivery
         productCategoriesDelivery:
             expose: true
             access_type: public_method
@@ -260,7 +260,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getProductCategoriesDelivery
                 setter: setProductCategoriesDelivery
-            type: Calcinai\Siri\ProductCategoriesDelivery
+            type: Calcinai\Siri\Objects\ProductCategoriesDelivery
         serviceFeaturesDelivery:
             expose: true
             access_type: public_method
@@ -270,7 +270,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getServiceFeaturesDelivery
                 setter: setServiceFeaturesDelivery
-            type: Calcinai\Siri\ServiceFeaturesDelivery
+            type: Calcinai\Siri\Objects\ServiceFeaturesDelivery
         vehicleFeaturesDelivery:
             expose: true
             access_type: public_method
@@ -280,7 +280,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getVehicleFeaturesDelivery
                 setter: setVehicleFeaturesDelivery
-            type: Calcinai\Siri\VehicleFeaturesDelivery
+            type: Calcinai\Siri\Objects\VehicleFeaturesDelivery
         infoChannelDelivery:
             expose: true
             access_type: public_method
@@ -290,7 +290,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getInfoChannelDelivery
                 setter: setInfoChannelDelivery
-            type: Calcinai\Siri\InfoChannelDelivery
+            type: Calcinai\Siri\Objects\InfoChannelDelivery
         facilityDelivery:
             expose: true
             access_type: public_method
@@ -300,7 +300,7 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getFacilityDelivery
                 setter: setFacilityDelivery
-            type: Calcinai\Siri\FacilityDelivery
+            type: Calcinai\Siri\Objects\FacilityDelivery
         extensions:
             expose: true
             access_type: public_method
@@ -310,4 +310,4 @@ Calcinai\Siri\Siri:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

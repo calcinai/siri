@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedStopPlaceElementStructureType:
+Calcinai\Siri\Objects\AffectedStopPlaceElementStructureType:
     properties:
         accessibilityAssessment:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\AffectedStopPlaceElementStructureType:
             accessor:
                 getter: getAccessibilityAssessment
                 setter: setAccessibilityAssessment
-            type: Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+            type: Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType

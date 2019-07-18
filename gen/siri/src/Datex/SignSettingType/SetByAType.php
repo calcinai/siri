@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\SignSettingType;
+namespace Calcinai\Siri\Objects\Datex\SignSettingType;
 
 /**
  * Class representing SetByAType
@@ -9,7 +9,7 @@ class SetByAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class SetByAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class SetByAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class SetByAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

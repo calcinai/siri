@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopMonitoringServiceCapabilitiesStructureType
@@ -14,35 +14,35 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
     /**
      * Available Filtering Capabilities.
      *
-     * @property \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @property \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      */
     private $topicFiltering = null;
 
     /**
      * Available Request Policy capabilities.
      *
-     * @property \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
+     * @property \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
      */
     private $requestPolicy = null;
 
     /**
      * Available Subscription Policy capabilities.
      *
-     * @property \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
+     * @property \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
      */
     private $subscriptionPolicy = null;
 
     /**
      * Available Optional Access control capabilities
      *
-     * @property \Calcinai\Siri\MonitoringCapabilityAccessControlStructureType $accessControl
+     * @property \Calcinai\Siri\Objects\MonitoringCapabilityAccessControlStructureType $accessControl
      */
     private $accessControl = null;
 
     /**
      * Available Optional Response capabilities
      *
-     * @property \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
+     * @property \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
      */
     private $responseFeatures = null;
 
@@ -51,7 +51,7 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Filtering Capabilities.
      *
-     * @return \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
+     * @return \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
      */
     public function getTopicFiltering()
     {
@@ -63,10 +63,10 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Filtering Capabilities.
      *
-     * @param \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @param \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      * @return self
      */
-    public function setTopicFiltering(\Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
+    public function setTopicFiltering(\Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
     {
         $this->topicFiltering = $topicFiltering;
         return $this;
@@ -77,7 +77,7 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Request Policy capabilities.
      *
-     * @return \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
+     * @return \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
      */
     public function getRequestPolicy()
     {
@@ -89,10 +89,10 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Request Policy capabilities.
      *
-     * @param \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
+     * @param \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
      * @return self
      */
-    public function setRequestPolicy(\Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy)
+    public function setRequestPolicy(\Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy)
     {
         $this->requestPolicy = $requestPolicy;
         return $this;
@@ -103,7 +103,7 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Subscription Policy capabilities.
      *
-     * @return \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType
+     * @return \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType
      */
     public function getSubscriptionPolicy()
     {
@@ -115,10 +115,10 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Subscription Policy capabilities.
      *
-     * @param \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
+     * @param \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
      * @return self
      */
-    public function setSubscriptionPolicy(\Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy)
+    public function setSubscriptionPolicy(\Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy)
     {
         $this->subscriptionPolicy = $subscriptionPolicy;
         return $this;
@@ -129,7 +129,7 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Optional Access control capabilities
      *
-     * @return \Calcinai\Siri\MonitoringCapabilityAccessControlStructureType
+     * @return \Calcinai\Siri\Objects\MonitoringCapabilityAccessControlStructureType
      */
     public function getAccessControl()
     {
@@ -141,10 +141,10 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Optional Access control capabilities
      *
-     * @param \Calcinai\Siri\MonitoringCapabilityAccessControlStructureType $accessControl
+     * @param \Calcinai\Siri\Objects\MonitoringCapabilityAccessControlStructureType $accessControl
      * @return self
      */
-    public function setAccessControl(\Calcinai\Siri\MonitoringCapabilityAccessControlStructureType $accessControl)
+    public function setAccessControl(\Calcinai\Siri\Objects\MonitoringCapabilityAccessControlStructureType $accessControl)
     {
         $this->accessControl = $accessControl;
         return $this;
@@ -155,7 +155,7 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Optional Response capabilities
      *
-     * @return \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType
+     * @return \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType
      */
     public function getResponseFeatures()
     {
@@ -167,10 +167,10 @@ class StopMonitoringServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Available Optional Response capabilities
      *
-     * @param \Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
+     * @param \Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
      * @return self
      */
-    public function setResponseFeatures(\Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures)
+    public function setResponseFeatures(\Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures)
     {
         $this->responseFeatures = $responseFeatures;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\VehicleType;
+namespace Calcinai\Siri\Objects\Datex\VehicleType;
 
 /**
  * Class representing VehicleCountryOfOriginAType
@@ -9,7 +9,7 @@ class VehicleCountryOfOriginAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class VehicleCountryOfOriginAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class VehicleCountryOfOriginAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class VehicleCountryOfOriginAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         defaultPreviewInterval:
             expose: true

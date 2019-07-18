@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedStopPointStructureType
@@ -24,7 +24,7 @@ class AffectedStopPointStructureType
     private $privateRef = null;
 
     /**
-     * @property \Calcinai\Siri\StopPointName $stopPointName
+     * @property \Calcinai\Siri\Objects\StopPointName $stopPointName
      */
     private $stopPointName = null;
 
@@ -38,14 +38,14 @@ class AffectedStopPointStructureType
     /**
      * Spatial coordinates of Stop point. Derivable from StopRef
      *
-     * @property \Calcinai\Siri\LocationStructureType $location
+     * @property \Calcinai\Siri\Objects\LocationStructureType $location
      */
     private $location = null;
 
     /**
      * Modes affected within station/stop. If not specified, assume all modes of that station.
      *
-     * @property \Calcinai\Siri\AffectedModesStructureType $affectedModes
+     * @property \Calcinai\Siri\Objects\AffectedModesStructureType $affectedModes
      */
     private $affectedModes = null;
 
@@ -59,24 +59,24 @@ class AffectedStopPointStructureType
     /**
      * Name of locality in which stop is found. Derivable from LocalityRef.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $placeName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName
      */
     private $placeName = null;
 
     /**
-     * @property \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @property \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      */
     private $accessibilityAssessment = null;
 
     /**
      * Connections links from stop
      *
-     * @property \Calcinai\Siri\AffectedConnectionLinkStructureType[] $connectionLinks
+     * @property \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[] $connectionLinks
      */
     private $connectionLinks = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -131,7 +131,7 @@ class AffectedStopPointStructureType
     /**
      * Gets as stopPointName
      *
-     * @return \Calcinai\Siri\StopPointName
+     * @return \Calcinai\Siri\Objects\StopPointName
      */
     public function getStopPointName()
     {
@@ -141,10 +141,10 @@ class AffectedStopPointStructureType
     /**
      * Sets a new stopPointName
      *
-     * @param \Calcinai\Siri\StopPointName $stopPointName
+     * @param \Calcinai\Siri\Objects\StopPointName $stopPointName
      * @return self
      */
-    public function setStopPointName(\Calcinai\Siri\StopPointName $stopPointName)
+    public function setStopPointName(\Calcinai\Siri\Objects\StopPointName $stopPointName)
     {
         $this->stopPointName = $stopPointName;
         return $this;
@@ -181,7 +181,7 @@ class AffectedStopPointStructureType
      *
      * Spatial coordinates of Stop point. Derivable from StopRef
      *
-     * @return \Calcinai\Siri\LocationStructureType
+     * @return \Calcinai\Siri\Objects\LocationStructureType
      */
     public function getLocation()
     {
@@ -193,10 +193,10 @@ class AffectedStopPointStructureType
      *
      * Spatial coordinates of Stop point. Derivable from StopRef
      *
-     * @param \Calcinai\Siri\LocationStructureType $location
+     * @param \Calcinai\Siri\Objects\LocationStructureType $location
      * @return self
      */
-    public function setLocation(\Calcinai\Siri\LocationStructureType $location)
+    public function setLocation(\Calcinai\Siri\Objects\LocationStructureType $location)
     {
         $this->location = $location;
         return $this;
@@ -207,7 +207,7 @@ class AffectedStopPointStructureType
      *
      * Modes affected within station/stop. If not specified, assume all modes of that station.
      *
-     * @return \Calcinai\Siri\AffectedModesStructureType
+     * @return \Calcinai\Siri\Objects\AffectedModesStructureType
      */
     public function getAffectedModes()
     {
@@ -219,10 +219,10 @@ class AffectedStopPointStructureType
      *
      * Modes affected within station/stop. If not specified, assume all modes of that station.
      *
-     * @param \Calcinai\Siri\AffectedModesStructureType $affectedModes
+     * @param \Calcinai\Siri\Objects\AffectedModesStructureType $affectedModes
      * @return self
      */
-    public function setAffectedModes(\Calcinai\Siri\AffectedModesStructureType $affectedModes)
+    public function setAffectedModes(\Calcinai\Siri\Objects\AffectedModesStructureType $affectedModes)
     {
         $this->affectedModes = $affectedModes;
         return $this;
@@ -259,7 +259,7 @@ class AffectedStopPointStructureType
      *
      * Name of locality in which stop is found. Derivable from LocalityRef.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getPlaceName()
     {
@@ -271,10 +271,10 @@ class AffectedStopPointStructureType
      *
      * Name of locality in which stop is found. Derivable from LocalityRef.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $placeName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName
      * @return self
      */
-    public function setPlaceName(\Calcinai\Siri\NaturalLanguageStringStructureType $placeName)
+    public function setPlaceName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName)
     {
         $this->placeName = $placeName;
         return $this;
@@ -283,7 +283,7 @@ class AffectedStopPointStructureType
     /**
      * Gets as accessibilityAssessment
      *
-     * @return \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType
      */
     public function getAccessibilityAssessment()
     {
@@ -293,10 +293,10 @@ class AffectedStopPointStructureType
     /**
      * Sets a new accessibilityAssessment
      *
-     * @param \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      * @return self
      */
-    public function setAccessibilityAssessment(\Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
+    public function setAccessibilityAssessment(\Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
     {
         $this->accessibilityAssessment = $accessibilityAssessment;
         return $this;
@@ -308,9 +308,9 @@ class AffectedStopPointStructureType
      * Connections links from stop
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedConnectionLinkStructureType $affectedConnectionLink
+     * @param \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType $affectedConnectionLink
      */
-    public function addToConnectionLinks(\Calcinai\Siri\AffectedConnectionLinkStructureType $affectedConnectionLink)
+    public function addToConnectionLinks(\Calcinai\Siri\Objects\AffectedConnectionLinkStructureType $affectedConnectionLink)
     {
         $this->connectionLinks[] = $affectedConnectionLink;
         return $this;
@@ -347,7 +347,7 @@ class AffectedStopPointStructureType
      *
      * Connections links from stop
      *
-     * @return \Calcinai\Siri\AffectedConnectionLinkStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[]
      */
     public function getConnectionLinks()
     {
@@ -359,7 +359,7 @@ class AffectedStopPointStructureType
      *
      * Connections links from stop
      *
-     * @param \Calcinai\Siri\AffectedConnectionLinkStructureType[] $connectionLinks
+     * @param \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[] $connectionLinks
      * @return self
      */
     public function setConnectionLinks(array $connectionLinks)
@@ -371,7 +371,7 @@ class AffectedStopPointStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -381,10 +381,10 @@ class AffectedStopPointStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

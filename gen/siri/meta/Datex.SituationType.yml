@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\SituationType:
+Calcinai\Siri\Objects\Datex\SituationType:
     properties:
         id:
             expose: true
@@ -42,7 +42,7 @@ Calcinai\Siri\Datex\SituationType:
             accessor:
                 getter: getHeaderInformation
                 setter: setHeaderInformation
-            type: Calcinai\Siri\Datex\HeaderInformationType
+            type: Calcinai\Siri\Objects\Datex\HeaderInformationType
         situationRecord:
             expose: true
             access_type: public_method
@@ -56,7 +56,7 @@ Calcinai\Siri\Datex\SituationType:
                 inline: true
                 entry_name: situationRecord
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\SituationRecordType>
+            type: array<Calcinai\Siri\Objects\Datex\SituationRecordType>
         situationExtension:
             expose: true
             access_type: public_method
@@ -66,4 +66,4 @@ Calcinai\Siri\Datex\SituationType:
             accessor:
                 getter: getSituationExtension
                 setter: setSituationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractPermissionStructureType\GeneralCapabilitiesAType:
+Calcinai\Siri\Objects\AbstractPermissionStructureType\GeneralCapabilitiesAType:
     properties:
         requestResponse:
             expose: true

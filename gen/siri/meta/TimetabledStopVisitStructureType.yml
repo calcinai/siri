@@ -1,4 +1,4 @@
-Calcinai\Siri\TimetabledStopVisitStructureType:
+Calcinai\Siri\Objects\TimetabledStopVisitStructureType:
     properties:
         monitoringRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\TimetabledStopVisitStructureType:
             accessor:
                 getter: getMonitoringRef
                 setter: setMonitoringRef
-            type: Calcinai\Siri\MonitoringRefStructureType
+            type: Calcinai\Siri\Objects\MonitoringRefStructureType
         targetedVehicleJourney:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\TimetabledStopVisitStructureType:
             accessor:
                 getter: getTargetedVehicleJourney
                 setter: setTargetedVehicleJourney
-            type: Calcinai\Siri\TargetedVehicleJourneyStructureType
+            type: Calcinai\Siri\Objects\TargetedVehicleJourneyStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\TimetabledStopVisitStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

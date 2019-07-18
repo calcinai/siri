@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityStructureType
@@ -21,7 +21,7 @@ class FacilityStructureType
     /**
      * Textual description of the facility
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      */
     private $description = null;
 
@@ -37,7 +37,7 @@ class FacilityStructureType
     /**
      * Features of service
      *
-     * @property \Calcinai\Siri\AllFacilitiesFeatureStructureType[] $features
+     * @property \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType[] $features
      */
     private $features = null;
 
@@ -51,47 +51,47 @@ class FacilityStructureType
     /**
      * Textual description of teh owner of the facility
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $ownerName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $ownerName
      */
     private $ownerName = null;
 
     /**
      * When Facility is normally avaialble. If not specified default is always. Values are Logically ANDed together.
      *
-     * @property \Calcinai\Siri\MonitoringValidityConditionStructureType $validityCondition
+     * @property \Calcinai\Siri\Objects\MonitoringValidityConditionStructureType $validityCondition
      */
     private $validityCondition = null;
 
     /**
      * Describes where the facility is located. The location is a Transmodel object reference or an IFOPT object reference.
      *
-     * @property \Calcinai\Siri\FacilityLocationStructureType $facilityLocation
+     * @property \Calcinai\Siri\Objects\FacilityLocationStructureType $facilityLocation
      */
     private $facilityLocation = null;
 
     /**
      * Limitation of facility
      *
-     * @property \Calcinai\Siri\FacilityStructureType\LimitationsAType $limitations
+     * @property \Calcinai\Siri\Objects\FacilityStructureType\LimitationsAType $limitations
      */
     private $limitations = null;
 
     /**
      * Suitabilities of facility for specific passenger needs
      *
-     * @property \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitabilities
+     * @property \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitabilities
      */
     private $suitabilities = null;
 
     /**
      * Accessibility of the facility
      *
-     * @property \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @property \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      */
     private $accessibilityAssessment = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -126,7 +126,7 @@ class FacilityStructureType
      *
      * Textual description of the facility
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDescription()
     {
@@ -138,10 +138,10 @@ class FacilityStructureType
      *
      * Textual description of the facility
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      * @return self
      */
-    public function setDescription(\Calcinai\Siri\NaturalLanguageStringStructureType $description)
+    public function setDescription(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description)
     {
         $this->description = $description;
         return $this;
@@ -219,9 +219,9 @@ class FacilityStructureType
      * Features of service
      *
      * @return self
-     * @param \Calcinai\Siri\AllFacilitiesFeatureStructureType $feature
+     * @param \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType $feature
      */
-    public function addToFeatures(\Calcinai\Siri\AllFacilitiesFeatureStructureType $feature)
+    public function addToFeatures(\Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType $feature)
     {
         $this->features[] = $feature;
         return $this;
@@ -258,7 +258,7 @@ class FacilityStructureType
      *
      * Features of service
      *
-     * @return \Calcinai\Siri\AllFacilitiesFeatureStructureType[]
+     * @return \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType[]
      */
     public function getFeatures()
     {
@@ -270,7 +270,7 @@ class FacilityStructureType
      *
      * Features of service
      *
-     * @param \Calcinai\Siri\AllFacilitiesFeatureStructureType[] $features
+     * @param \Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType[] $features
      * @return self
      */
     public function setFeatures(array $features)
@@ -310,7 +310,7 @@ class FacilityStructureType
      *
      * Textual description of teh owner of the facility
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getOwnerName()
     {
@@ -322,10 +322,10 @@ class FacilityStructureType
      *
      * Textual description of teh owner of the facility
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $ownerName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $ownerName
      * @return self
      */
-    public function setOwnerName(\Calcinai\Siri\NaturalLanguageStringStructureType $ownerName)
+    public function setOwnerName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $ownerName)
     {
         $this->ownerName = $ownerName;
         return $this;
@@ -336,7 +336,7 @@ class FacilityStructureType
      *
      * When Facility is normally avaialble. If not specified default is always. Values are Logically ANDed together.
      *
-     * @return \Calcinai\Siri\MonitoringValidityConditionStructureType
+     * @return \Calcinai\Siri\Objects\MonitoringValidityConditionStructureType
      */
     public function getValidityCondition()
     {
@@ -348,10 +348,10 @@ class FacilityStructureType
      *
      * When Facility is normally avaialble. If not specified default is always. Values are Logically ANDed together.
      *
-     * @param \Calcinai\Siri\MonitoringValidityConditionStructureType $validityCondition
+     * @param \Calcinai\Siri\Objects\MonitoringValidityConditionStructureType $validityCondition
      * @return self
      */
-    public function setValidityCondition(\Calcinai\Siri\MonitoringValidityConditionStructureType $validityCondition)
+    public function setValidityCondition(\Calcinai\Siri\Objects\MonitoringValidityConditionStructureType $validityCondition)
     {
         $this->validityCondition = $validityCondition;
         return $this;
@@ -362,7 +362,7 @@ class FacilityStructureType
      *
      * Describes where the facility is located. The location is a Transmodel object reference or an IFOPT object reference.
      *
-     * @return \Calcinai\Siri\FacilityLocationStructureType
+     * @return \Calcinai\Siri\Objects\FacilityLocationStructureType
      */
     public function getFacilityLocation()
     {
@@ -374,10 +374,10 @@ class FacilityStructureType
      *
      * Describes where the facility is located. The location is a Transmodel object reference or an IFOPT object reference.
      *
-     * @param \Calcinai\Siri\FacilityLocationStructureType $facilityLocation
+     * @param \Calcinai\Siri\Objects\FacilityLocationStructureType $facilityLocation
      * @return self
      */
-    public function setFacilityLocation(\Calcinai\Siri\FacilityLocationStructureType $facilityLocation)
+    public function setFacilityLocation(\Calcinai\Siri\Objects\FacilityLocationStructureType $facilityLocation)
     {
         $this->facilityLocation = $facilityLocation;
         return $this;
@@ -388,7 +388,7 @@ class FacilityStructureType
      *
      * Limitation of facility
      *
-     * @return \Calcinai\Siri\FacilityStructureType\LimitationsAType
+     * @return \Calcinai\Siri\Objects\FacilityStructureType\LimitationsAType
      */
     public function getLimitations()
     {
@@ -400,10 +400,10 @@ class FacilityStructureType
      *
      * Limitation of facility
      *
-     * @param \Calcinai\Siri\FacilityStructureType\LimitationsAType $limitations
+     * @param \Calcinai\Siri\Objects\FacilityStructureType\LimitationsAType $limitations
      * @return self
      */
-    public function setLimitations(\Calcinai\Siri\FacilityStructureType\LimitationsAType $limitations)
+    public function setLimitations(\Calcinai\Siri\Objects\FacilityStructureType\LimitationsAType $limitations)
     {
         $this->limitations = $limitations;
         return $this;
@@ -415,9 +415,9 @@ class FacilityStructureType
      * Suitabilities of facility for specific passenger needs
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability
      */
-    public function addToSuitabilities(\Calcinai\Siri\ACSB\SuitabilityStructureType $suitability)
+    public function addToSuitabilities(\Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability)
     {
         $this->suitabilities[] = $suitability;
         return $this;
@@ -454,7 +454,7 @@ class FacilityStructureType
      *
      * Suitabilities of facility for specific passenger needs
      *
-     * @return \Calcinai\Siri\ACSB\SuitabilityStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[]
      */
     public function getSuitabilities()
     {
@@ -466,7 +466,7 @@ class FacilityStructureType
      *
      * Suitabilities of facility for specific passenger needs
      *
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitabilities
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitabilities
      * @return self
      */
     public function setSuitabilities(array $suitabilities)
@@ -480,7 +480,7 @@ class FacilityStructureType
      *
      * Accessibility of the facility
      *
-     * @return \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType
      */
     public function getAccessibilityAssessment()
     {
@@ -492,10 +492,10 @@ class FacilityStructureType
      *
      * Accessibility of the facility
      *
-     * @param \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      * @return self
      */
-    public function setAccessibilityAssessment(\Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
+    public function setAccessibilityAssessment(\Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
     {
         $this->accessibilityAssessment = $accessibilityAssessment;
         return $this;
@@ -504,7 +504,7 @@ class FacilityStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -514,10 +514,10 @@ class FacilityStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

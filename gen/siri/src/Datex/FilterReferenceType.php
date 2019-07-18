@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing FilterReferenceType
@@ -33,7 +33,7 @@ class FilterReferenceType
     private $keyFilterReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $filterReferenceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $filterReferenceExtension
      */
     private $filterReferenceExtension = null;
 
@@ -118,7 +118,7 @@ class FilterReferenceType
     /**
      * Gets as filterReferenceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getFilterReferenceExtension()
     {
@@ -128,10 +128,10 @@ class FilterReferenceType
     /**
      * Sets a new filterReferenceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $filterReferenceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $filterReferenceExtension
      * @return self
      */
-    public function setFilterReferenceExtension(\Calcinai\Siri\Datex\ExtensionType $filterReferenceExtension)
+    public function setFilterReferenceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $filterReferenceExtension)
     {
         $this->filterReferenceExtension = $filterReferenceExtension;
         return $this;

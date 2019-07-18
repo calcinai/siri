@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ContextualisedRequestStructureType
@@ -14,7 +14,7 @@ class ContextualisedRequestStructureType
     /**
      * General request properties - typically configured rather than repeated on request.
      *
-     * @property \Calcinai\Siri\ServiceRequestContextStructureType $serviceRequestContext
+     * @property \Calcinai\Siri\Objects\ServiceRequestContextStructureType $serviceRequestContext
      */
     private $serviceRequestContext = null;
 
@@ -47,7 +47,7 @@ class ContextualisedRequestStructureType
      *
      * General request properties - typically configured rather than repeated on request.
      *
-     * @return \Calcinai\Siri\ServiceRequestContextStructureType
+     * @return \Calcinai\Siri\Objects\ServiceRequestContextStructureType
      */
     public function getServiceRequestContext()
     {
@@ -59,10 +59,10 @@ class ContextualisedRequestStructureType
      *
      * General request properties - typically configured rather than repeated on request.
      *
-     * @param \Calcinai\Siri\ServiceRequestContextStructureType $serviceRequestContext
+     * @param \Calcinai\Siri\Objects\ServiceRequestContextStructureType $serviceRequestContext
      * @return self
      */
-    public function setServiceRequestContext(\Calcinai\Siri\ServiceRequestContextStructureType $serviceRequestContext)
+    public function setServiceRequestContext(\Calcinai\Siri\Objects\ServiceRequestContextStructureType $serviceRequestContext)
     {
         $this->serviceRequestContext = $serviceRequestContext;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing LengthCharacteristicType
@@ -26,7 +26,7 @@ class LengthCharacteristicType
     private $vehicleLength = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $lengthCharacteristicExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $lengthCharacteristicExtension
      */
     private $lengthCharacteristicExtension = null;
 
@@ -85,7 +85,7 @@ class LengthCharacteristicType
     /**
      * Gets as lengthCharacteristicExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getLengthCharacteristicExtension()
     {
@@ -95,10 +95,10 @@ class LengthCharacteristicType
     /**
      * Sets a new lengthCharacteristicExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $lengthCharacteristicExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $lengthCharacteristicExtension
      * @return self
      */
-    public function setLengthCharacteristicExtension(\Calcinai\Siri\Datex\ExtensionType $lengthCharacteristicExtension)
+    public function setLengthCharacteristicExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $lengthCharacteristicExtension)
     {
         $this->lengthCharacteristicExtension = $lengthCharacteristicExtension;
         return $this;

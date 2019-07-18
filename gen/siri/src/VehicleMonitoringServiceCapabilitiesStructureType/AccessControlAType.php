@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType;
 
-use Calcinai\Siri\CapabilityAccessControlStructureType;
+use Calcinai\Siri\Objects\CapabilityAccessControlStructureType;
 
 /**
  * Class representing AccessControlAType

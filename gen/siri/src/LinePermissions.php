@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing LinePermissions
@@ -18,7 +18,7 @@ class LinePermissions
     /**
      * Participants permission for this Line
      *
-     * @property \Calcinai\Siri\LinePermissionStructureType[] $linePermission
+     * @property \Calcinai\Siri\Objects\LinePermissionStructureType[] $linePermission
      */
     private $linePermission = [
         
@@ -52,9 +52,9 @@ class LinePermissions
      * Participants permission for this Line
      *
      * @return self
-     * @param \Calcinai\Siri\LinePermissionStructureType $linePermission
+     * @param \Calcinai\Siri\Objects\LinePermissionStructureType $linePermission
      */
-    public function addToLinePermission(\Calcinai\Siri\LinePermissionStructureType $linePermission)
+    public function addToLinePermission(\Calcinai\Siri\Objects\LinePermissionStructureType $linePermission)
     {
         $this->linePermission[] = $linePermission;
         return $this;
@@ -91,7 +91,7 @@ class LinePermissions
      *
      * Participants permission for this Line
      *
-     * @return \Calcinai\Siri\LinePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\LinePermissionStructureType[]
      */
     public function getLinePermission()
     {
@@ -103,7 +103,7 @@ class LinePermissions
      *
      * Participants permission for this Line
      *
-     * @param \Calcinai\Siri\LinePermissionStructureType[] $linePermission
+     * @param \Calcinai\Siri\Objects\LinePermissionStructureType[] $linePermission
      * @return self
      */
     public function setLinePermission(array $linePermission)

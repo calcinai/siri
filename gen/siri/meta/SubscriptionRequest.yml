@@ -1,4 +1,4 @@
-Calcinai\Siri\SubscriptionRequest:
+Calcinai\Siri\Objects\SubscriptionRequest:
     xml_root_name: SubscriptionRequest
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties: {  }

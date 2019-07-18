@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType;
+namespace Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType;
 
 /**
  * Class representing ValueAType

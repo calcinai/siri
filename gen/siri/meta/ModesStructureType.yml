@@ -1,4 +1,4 @@
-Calcinai\Siri\ModesStructureType:
+Calcinai\Siri\Objects\ModesStructureType:
     properties:
         exclude:
             expose: true

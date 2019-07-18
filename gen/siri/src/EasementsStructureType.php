@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EasementsStructureType
@@ -21,14 +21,14 @@ class EasementsStructureType
     /**
      * Description of fare exceptions allowed because of disruption.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $easement
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $easement
      */
     private $easement = null;
 
     /**
      * Identifier of a fare exceptions code allowed because of the disruption.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $easementRef
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $easementRef
      */
     private $easementRef = null;
 
@@ -63,7 +63,7 @@ class EasementsStructureType
      *
      * Description of fare exceptions allowed because of disruption.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getEasement()
     {
@@ -75,10 +75,10 @@ class EasementsStructureType
      *
      * Description of fare exceptions allowed because of disruption.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $easement
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $easement
      * @return self
      */
-    public function setEasement(\Calcinai\Siri\NaturalLanguageStringStructureType $easement)
+    public function setEasement(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $easement)
     {
         $this->easement = $easement;
         return $this;
@@ -89,7 +89,7 @@ class EasementsStructureType
      *
      * Identifier of a fare exceptions code allowed because of the disruption.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getEasementRef()
     {
@@ -101,10 +101,10 @@ class EasementsStructureType
      *
      * Identifier of a fare exceptions code allowed because of the disruption.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $easementRef
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $easementRef
      * @return self
      */
-    public function setEasementRef(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $easementRef)
+    public function setEasementRef(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $easementRef)
     {
         $this->easementRef = $easementRef;
         return $this;

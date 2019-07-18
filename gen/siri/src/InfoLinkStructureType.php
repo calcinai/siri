@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing InfoLinkStructureType
@@ -21,14 +21,14 @@ class InfoLinkStructureType
     /**
      * Label for Link
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $label
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $label
      */
     private $label = null;
 
     /**
      * Image to use when presenting hyperlink
      *
-     * @property \Calcinai\Siri\ImageStructureType $image
+     * @property \Calcinai\Siri\Objects\ImageStructureType $image
      */
     private $image = null;
 
@@ -70,7 +70,7 @@ class InfoLinkStructureType
      *
      * Label for Link
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getLabel()
     {
@@ -82,10 +82,10 @@ class InfoLinkStructureType
      *
      * Label for Link
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $label
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $label
      * @return self
      */
-    public function setLabel(\Calcinai\Siri\NaturalLanguageStringStructureType $label)
+    public function setLabel(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $label)
     {
         $this->label = $label;
         return $this;
@@ -96,7 +96,7 @@ class InfoLinkStructureType
      *
      * Image to use when presenting hyperlink
      *
-     * @return \Calcinai\Siri\ImageStructureType
+     * @return \Calcinai\Siri\Objects\ImageStructureType
      */
     public function getImage()
     {
@@ -108,10 +108,10 @@ class InfoLinkStructureType
      *
      * Image to use when presenting hyperlink
      *
-     * @param \Calcinai\Siri\ImageStructureType $image
+     * @param \Calcinai\Siri\Objects\ImageStructureType $image
      * @return self
      */
-    public function setImage(\Calcinai\Siri\ImageStructureType $image)
+    public function setImage(\Calcinai\Siri\Objects\ImageStructureType $image)
     {
         $this->image = $image;
         return $this;

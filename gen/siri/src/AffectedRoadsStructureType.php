@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedRoadsStructureType
@@ -14,14 +14,14 @@ class AffectedRoadsStructureType
     /**
      * Refereences to road network locations affected by the Situation
      *
-     * @property \Calcinai\Siri\Datex\GroupOfLocationsType $datex2Locations
+     * @property \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $datex2Locations
      */
     private $datex2Locations = null;
 
     /**
      * Description of affected road
      *
-     * @property \Calcinai\Siri\AffectedRoadStructureType[] $affectedRoad
+     * @property \Calcinai\Siri\Objects\AffectedRoadStructureType[] $affectedRoad
      */
     private $affectedRoad = [
         
@@ -32,7 +32,7 @@ class AffectedRoadsStructureType
      *
      * Refereences to road network locations affected by the Situation
      *
-     * @return \Calcinai\Siri\Datex\GroupOfLocationsType
+     * @return \Calcinai\Siri\Objects\Datex\GroupOfLocationsType
      */
     public function getDatex2Locations()
     {
@@ -44,10 +44,10 @@ class AffectedRoadsStructureType
      *
      * Refereences to road network locations affected by the Situation
      *
-     * @param \Calcinai\Siri\Datex\GroupOfLocationsType $datex2Locations
+     * @param \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $datex2Locations
      * @return self
      */
-    public function setDatex2Locations(\Calcinai\Siri\Datex\GroupOfLocationsType $datex2Locations)
+    public function setDatex2Locations(\Calcinai\Siri\Objects\Datex\GroupOfLocationsType $datex2Locations)
     {
         $this->datex2Locations = $datex2Locations;
         return $this;
@@ -59,9 +59,9 @@ class AffectedRoadsStructureType
      * Description of affected road
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedRoadStructureType $affectedRoad
+     * @param \Calcinai\Siri\Objects\AffectedRoadStructureType $affectedRoad
      */
-    public function addToAffectedRoad(\Calcinai\Siri\AffectedRoadStructureType $affectedRoad)
+    public function addToAffectedRoad(\Calcinai\Siri\Objects\AffectedRoadStructureType $affectedRoad)
     {
         $this->affectedRoad[] = $affectedRoad;
         return $this;
@@ -98,7 +98,7 @@ class AffectedRoadsStructureType
      *
      * Description of affected road
      *
-     * @return \Calcinai\Siri\AffectedRoadStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedRoadStructureType[]
      */
     public function getAffectedRoad()
     {
@@ -110,7 +110,7 @@ class AffectedRoadsStructureType
      *
      * Description of affected road
      *
-     * @param \Calcinai\Siri\AffectedRoadStructureType[] $affectedRoad
+     * @param \Calcinai\Siri\Objects\AffectedRoadStructureType[] $affectedRoad
      * @return self
      */
     public function setAffectedRoad(array $affectedRoad)

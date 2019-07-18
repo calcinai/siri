@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitoringFilterStructureType:
+Calcinai\Siri\Objects\StopMonitoringFilterStructureType:
     properties:
         previewInterval:
             expose: true
@@ -29,7 +29,7 @@ Calcinai\Siri\StopMonitoringFilterStructureType:
             accessor:
                 getter: getMonitoringRef
                 setter: setMonitoringRef
-            type: Calcinai\Siri\MonitoringRefStructureType
+            type: Calcinai\Siri\Objects\MonitoringRefStructureType
         operatorRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\StopMonitoringFilterStructureType:
             accessor:
                 getter: getOperatorRef
                 setter: setOperatorRef
-            type: Calcinai\Siri\OperatorRefStructureType
+            type: Calcinai\Siri\Objects\OperatorRefStructureType
         lineRef:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\StopMonitoringFilterStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\LineRefStructureType
+            type: Calcinai\Siri\Objects\LineRefStructureType
         directionRef:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\StopMonitoringFilterStructureType:
             accessor:
                 getter: getDirectionRef
                 setter: setDirectionRef
-            type: Calcinai\Siri\DirectionRefStructureType
+            type: Calcinai\Siri\Objects\DirectionRefStructureType
         destinationRef:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\StopMonitoringFilterStructureType:
             accessor:
                 getter: getDestinationRef
                 setter: setDestinationRef
-            type: Calcinai\Siri\DestinationRefStructureType
+            type: Calcinai\Siri\Objects\DestinationRefStructureType
         stopVisitTypes:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ Calcinai\Siri\StopMonitoringFilterStructureType:
             accessor:
                 getter: getMaximumNumberOfCalls
                 setter: setMaximumNumberOfCalls
-            type: Calcinai\Siri\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType
+            type: Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType
         extensions:
             expose: true
             access_type: public_method
@@ -149,4 +149,4 @@ Calcinai\Siri\StopMonitoringFilterStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PeopleInvolvedType
@@ -40,7 +40,7 @@ class PeopleInvolvedType
     private $typeOfPeopleInvolved = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $peopleInvolvedExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $peopleInvolvedExtension
      */
     private $peopleInvolvedExtension = null;
 
@@ -151,7 +151,7 @@ class PeopleInvolvedType
     /**
      * Gets as peopleInvolvedExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPeopleInvolvedExtension()
     {
@@ -161,10 +161,10 @@ class PeopleInvolvedType
     /**
      * Sets a new peopleInvolvedExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $peopleInvolvedExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $peopleInvolvedExtension
      * @return self
      */
-    public function setPeopleInvolvedExtension(\Calcinai\Siri\Datex\ExtensionType $peopleInvolvedExtension)
+    public function setPeopleInvolvedExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $peopleInvolvedExtension)
     {
         $this->peopleInvolvedExtension = $peopleInvolvedExtension;
         return $this;

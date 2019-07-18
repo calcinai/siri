@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\NetworkManagementType:
+Calcinai\Siri\Objects\Datex\NetworkManagementType:
     properties:
         networkManagementType:
             expose: true
@@ -23,7 +23,7 @@ Calcinai\Siri\Datex\NetworkManagementType:
                 inline: true
                 entry_name: forVehicleWithCharacteristicsOf
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\VehicleCharacteristicsType>
+            type: array<Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType>
         restriction:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ Calcinai\Siri\Datex\NetworkManagementType:
             accessor:
                 getter: getRestriction
                 setter: setRestriction
-            type: Calcinai\Siri\Datex\RestrictionType
+            type: Calcinai\Siri\Objects\Datex\RestrictionType
         trafficControl:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Calcinai\Siri\Datex\NetworkManagementType:
             accessor:
                 getter: getTrafficControl
                 setter: setTrafficControl
-            type: Calcinai\Siri\Datex\TrafficControlType
+            type: Calcinai\Siri\Objects\Datex\TrafficControlType
         networkManagementExtension:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ Calcinai\Siri\Datex\NetworkManagementType:
             accessor:
                 getter: getNetworkManagementExtension
                 setter: setNetworkManagementExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

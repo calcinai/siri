@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleMonitoringSubscriptionStructureType
@@ -12,7 +12,7 @@ class VehicleMonitoringSubscriptionStructureType extends AbstractSubscriptionStr
 {
 
     /**
-     * @property \Calcinai\Siri\VehicleMonitoringRequest $vehicleMonitoringRequest
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringRequest $vehicleMonitoringRequest
      */
     private $vehicleMonitoringRequest = null;
 
@@ -41,7 +41,7 @@ class VehicleMonitoringSubscriptionStructureType extends AbstractSubscriptionStr
     /**
      * Gets as vehicleMonitoringRequest
      *
-     * @return \Calcinai\Siri\VehicleMonitoringRequest
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringRequest
      */
     public function getVehicleMonitoringRequest()
     {
@@ -51,10 +51,10 @@ class VehicleMonitoringSubscriptionStructureType extends AbstractSubscriptionStr
     /**
      * Sets a new vehicleMonitoringRequest
      *
-     * @param \Calcinai\Siri\VehicleMonitoringRequest $vehicleMonitoringRequest
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringRequest $vehicleMonitoringRequest
      * @return self
      */
-    public function setVehicleMonitoringRequest(\Calcinai\Siri\VehicleMonitoringRequest $vehicleMonitoringRequest)
+    public function setVehicleMonitoringRequest(\Calcinai\Siri\Objects\VehicleMonitoringRequest $vehicleMonitoringRequest)
     {
         $this->vehicleMonitoringRequest = $vehicleMonitoringRequest;
         return $this;

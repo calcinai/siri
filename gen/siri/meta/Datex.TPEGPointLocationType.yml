@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGPointLocationType:
+Calcinai\Siri\Objects\Datex\TPEGPointLocationType:
     properties:
         tpegDirection:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\TPEGPointLocationType:
             accessor:
                 getter: getTpegpointLocationExtension
                 setter: setTpegpointLocationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

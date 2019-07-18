@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\NetworkLocationType:
+Calcinai\Siri\Objects\Datex\NetworkLocationType:
     properties:
         supplementaryPositionalDescription:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\NetworkLocationType:
             accessor:
                 getter: getSupplementaryPositionalDescription
                 setter: setSupplementaryPositionalDescription
-            type: Calcinai\Siri\Datex\SupplementaryPositionalDescriptionType
+            type: Calcinai\Siri\Objects\Datex\SupplementaryPositionalDescriptionType
         destination:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\NetworkLocationType:
             accessor:
                 getter: getDestination
                 setter: setDestination
-            type: Calcinai\Siri\Datex\DestinationType
+            type: Calcinai\Siri\Objects\Datex\DestinationType
         networkLocationExtension:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\NetworkLocationType:
             accessor:
                 getter: getNetworkLocationExtension
                 setter: setNetworkLocationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

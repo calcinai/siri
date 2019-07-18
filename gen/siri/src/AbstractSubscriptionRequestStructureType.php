@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AbstractSubscriptionRequestStructureType
@@ -28,7 +28,7 @@ class AbstractSubscriptionRequestStructureType extends RequestStructureType
     /**
      * General values that apply to subscription. Usually set by configuration.
      *
-     * @property \Calcinai\Siri\SubscriptionContextStructureType $subscriptionContext
+     * @property \Calcinai\Siri\Objects\SubscriptionContextStructureType $subscriptionContext
      */
     private $subscriptionContext = null;
 
@@ -89,7 +89,7 @@ class AbstractSubscriptionRequestStructureType extends RequestStructureType
      *
      * General values that apply to subscription. Usually set by configuration.
      *
-     * @return \Calcinai\Siri\SubscriptionContextStructureType
+     * @return \Calcinai\Siri\Objects\SubscriptionContextStructureType
      */
     public function getSubscriptionContext()
     {
@@ -101,10 +101,10 @@ class AbstractSubscriptionRequestStructureType extends RequestStructureType
      *
      * General values that apply to subscription. Usually set by configuration.
      *
-     * @param \Calcinai\Siri\SubscriptionContextStructureType $subscriptionContext
+     * @param \Calcinai\Siri\Objects\SubscriptionContextStructureType $subscriptionContext
      * @return self
      */
-    public function setSubscriptionContext(\Calcinai\Siri\SubscriptionContextStructureType $subscriptionContext)
+    public function setSubscriptionContext(\Calcinai\Siri\Objects\SubscriptionContextStructureType $subscriptionContext)
     {
         $this->subscriptionContext = $subscriptionContext;
         return $this;

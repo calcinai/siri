@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TimePeriodByHourType
@@ -26,7 +26,7 @@ class TimePeriodByHourType extends TimePeriodOfDayType
     private $endTimeOfPeriod = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $timePeriodByHourExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $timePeriodByHourExtension
      */
     private $timePeriodByHourExtension = null;
 
@@ -85,7 +85,7 @@ class TimePeriodByHourType extends TimePeriodOfDayType
     /**
      * Gets as timePeriodByHourExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTimePeriodByHourExtension()
     {
@@ -95,10 +95,10 @@ class TimePeriodByHourType extends TimePeriodOfDayType
     /**
      * Sets a new timePeriodByHourExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $timePeriodByHourExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $timePeriodByHourExtension
      * @return self
      */
-    public function setTimePeriodByHourExtension(\Calcinai\Siri\Datex\ExtensionType $timePeriodByHourExtension)
+    public function setTimePeriodByHourExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $timePeriodByHourExtension)
     {
         $this->timePeriodByHourExtension = $timePeriodByHourExtension;
         return $this;

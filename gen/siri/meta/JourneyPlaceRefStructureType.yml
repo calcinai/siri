@@ -1,4 +1,4 @@
-Calcinai\Siri\JourneyPlaceRefStructureType:
+Calcinai\Siri\Objects\JourneyPlaceRefStructureType:
     properties:
         __value:
             expose: true

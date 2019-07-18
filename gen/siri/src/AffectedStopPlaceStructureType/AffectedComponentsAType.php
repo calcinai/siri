@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedStopPlaceStructureType;
+namespace Calcinai\Siri\Objects\AffectedStopPlaceStructureType;
 
 /**
  * Class representing AffectedComponentsAType
@@ -11,7 +11,7 @@ class AffectedComponentsAType
     /**
      * Quay affected by Situation.
      *
-     * @property \Calcinai\Siri\AffectedStopPlaceComponentStructureType[] $affectedComponent
+     * @property \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType[] $affectedComponent
      */
     private $affectedComponent = [
         
@@ -23,9 +23,9 @@ class AffectedComponentsAType
      * Quay affected by Situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPlaceComponentStructureType $affectedComponent
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType $affectedComponent
      */
-    public function addToAffectedComponent(\Calcinai\Siri\AffectedStopPlaceComponentStructureType $affectedComponent)
+    public function addToAffectedComponent(\Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType $affectedComponent)
     {
         $this->affectedComponent[] = $affectedComponent;
         return $this;
@@ -62,7 +62,7 @@ class AffectedComponentsAType
      *
      * Quay affected by Situation.
      *
-     * @return \Calcinai\Siri\AffectedStopPlaceComponentStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType[]
      */
     public function getAffectedComponent()
     {
@@ -74,7 +74,7 @@ class AffectedComponentsAType
      *
      * Quay affected by Situation.
      *
-     * @param \Calcinai\Siri\AffectedStopPlaceComponentStructureType[] $affectedComponent
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType[] $affectedComponent
      * @return self
      */
     public function setAffectedComponent(array $affectedComponent)

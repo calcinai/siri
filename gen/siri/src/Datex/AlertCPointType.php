@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCPointType
@@ -33,7 +33,7 @@ class AlertCPointType
     private $alertCLocationTableVersion = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCPointExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCPointExtension
      */
     private $alertCPointExtension = null;
 
@@ -118,7 +118,7 @@ class AlertCPointType
     /**
      * Gets as alertCPointExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCPointExtension()
     {
@@ -128,10 +128,10 @@ class AlertCPointType
     /**
      * Sets a new alertCPointExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCPointExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCPointExtension
      * @return self
      */
-    public function setAlertCPointExtension(\Calcinai\Siri\Datex\ExtensionType $alertCPointExtension)
+    public function setAlertCPointExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCPointExtension)
     {
         $this->alertCPointExtension = $alertCPointExtension;
         return $this;

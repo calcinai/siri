@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType:
+Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType:
     properties:
         __value:
             expose: true

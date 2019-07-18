@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MobilityType
@@ -19,7 +19,7 @@ class MobilityType
     private $mobilityType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $mobilityExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $mobilityExtension
      */
     private $mobilityExtension = null;
 
@@ -52,7 +52,7 @@ class MobilityType
     /**
      * Gets as mobilityExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMobilityExtension()
     {
@@ -62,10 +62,10 @@ class MobilityType
     /**
      * Sets a new mobilityExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $mobilityExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $mobilityExtension
      * @return self
      */
-    public function setMobilityExtension(\Calcinai\Siri\Datex\ExtensionType $mobilityExtension)
+    public function setMobilityExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $mobilityExtension)
     {
         $this->mobilityExtension = $mobilityExtension;
         return $this;

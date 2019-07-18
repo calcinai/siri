@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType:
+Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType:
     properties:
         topicFiltering:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getTopicFiltering
                 setter: setTopicFiltering
-            type: Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
+            type: Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
         requestPolicy:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getRequestPolicy
                 setter: setRequestPolicy
-            type: Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
+            type: Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
         subscriptionPolicy:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getSubscriptionPolicy
                 setter: setSubscriptionPolicy
-            type: Calcinai\Siri\CapabilitySubscriptionPolicyStructureType
+            type: Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType
         accessControl:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getAccessControl
                 setter: setAccessControl
-            type: Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\AccessControlAType
+            type: Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\AccessControlAType
         responseFeatures:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getResponseFeatures
                 setter: setResponseFeatures
-            type: Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType
+            type: Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType
         extensions:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

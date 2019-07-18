@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing PointProjectionStructureType

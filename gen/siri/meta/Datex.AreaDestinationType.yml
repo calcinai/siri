@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AreaDestinationType:
+Calcinai\Siri\Objects\Datex\AreaDestinationType:
     properties:
         area:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\AreaDestinationType:
             accessor:
                 getter: getArea
                 setter: setArea
-            type: Calcinai\Siri\Datex\AreaType
+            type: Calcinai\Siri\Objects\Datex\AreaType
         areaDestinationExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\AreaDestinationType:
             accessor:
                 getter: getAreaDestinationExtension
                 setter: setAreaDestinationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

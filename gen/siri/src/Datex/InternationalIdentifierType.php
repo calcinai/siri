@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing InternationalIdentifierType
@@ -26,7 +26,7 @@ class InternationalIdentifierType
     private $nationalIdentifier = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $internationalIdentifierExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $internationalIdentifierExtension
      */
     private $internationalIdentifierExtension = null;
 
@@ -85,7 +85,7 @@ class InternationalIdentifierType
     /**
      * Gets as internationalIdentifierExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getInternationalIdentifierExtension()
     {
@@ -95,10 +95,10 @@ class InternationalIdentifierType
     /**
      * Sets a new internationalIdentifierExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $internationalIdentifierExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $internationalIdentifierExtension
      * @return self
      */
-    public function setInternationalIdentifierExtension(\Calcinai\Siri\Datex\ExtensionType $internationalIdentifierExtension)
+    public function setInternationalIdentifierExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $internationalIdentifierExtension)
     {
         $this->internationalIdentifierExtension = $internationalIdentifierExtension;
         return $this;

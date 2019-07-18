@@ -1,4 +1,4 @@
-Calcinai\Siri\AirSubmode:
+Calcinai\Siri\Objects\AirSubmode:
     xml_root_name: AirSubmode
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

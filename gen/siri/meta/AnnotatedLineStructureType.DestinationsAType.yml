@@ -1,4 +1,4 @@
-Calcinai\Siri\AnnotatedLineStructureType\DestinationsAType:
+Calcinai\Siri\Objects\AnnotatedLineStructureType\DestinationsAType:
     properties:
         destination:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AnnotatedLineStructureType\DestinationsAType:
                 inline: true
                 entry_name: Destination
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\Destination>
+            type: array<Calcinai\Siri\Objects\Destination>

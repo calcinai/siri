@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing RoadsideAssistanceType
@@ -19,7 +19,7 @@ class RoadsideAssistanceType extends OperatorActionType
     private $roadsideAssistanceType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $roadsideAssistanceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $roadsideAssistanceExtension
      */
     private $roadsideAssistanceExtension = null;
 
@@ -52,7 +52,7 @@ class RoadsideAssistanceType extends OperatorActionType
     /**
      * Gets as roadsideAssistanceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getRoadsideAssistanceExtension()
     {
@@ -62,10 +62,10 @@ class RoadsideAssistanceType extends OperatorActionType
     /**
      * Sets a new roadsideAssistanceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $roadsideAssistanceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $roadsideAssistanceExtension
      * @return self
      */
-    public function setRoadsideAssistanceExtension(\Calcinai\Siri\Datex\ExtensionType $roadsideAssistanceExtension)
+    public function setRoadsideAssistanceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $roadsideAssistanceExtension)
     {
         $this->roadsideAssistanceExtension = $roadsideAssistanceExtension;
         return $this;

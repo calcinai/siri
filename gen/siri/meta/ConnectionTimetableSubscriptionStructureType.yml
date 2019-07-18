@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionTimetableSubscriptionStructureType:
+Calcinai\Siri\Objects\ConnectionTimetableSubscriptionStructureType:
     properties:
         connectionTimetableRequest:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\ConnectionTimetableSubscriptionStructureType:
             accessor:
                 getter: getConnectionTimetableRequest
                 setter: setConnectionTimetableRequest
-            type: Calcinai\Siri\ConnectionTimetableRequest
+            type: Calcinai\Siri\Objects\ConnectionTimetableRequest

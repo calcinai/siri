@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AnnotatedStopPointStructureType;
+namespace Calcinai\Siri\Objects\AnnotatedStopPointStructureType;
 
 /**
  * Class representing LinesAType

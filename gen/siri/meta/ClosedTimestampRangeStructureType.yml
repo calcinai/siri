@@ -1,4 +1,4 @@
-Calcinai\Siri\ClosedTimestampRangeStructureType:
+Calcinai\Siri\Objects\ClosedTimestampRangeStructureType:
     properties:
         startTime:
             expose: true

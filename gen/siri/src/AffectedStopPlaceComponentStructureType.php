@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedStopPlaceComponentStructureType
@@ -21,7 +21,7 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Name of component.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $componentName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $componentName
      */
     private $componentName = null;
 
@@ -33,29 +33,29 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     private $componentType = null;
 
     /**
-     * @property \Calcinai\Siri\IFOpt\PointProjection $pointProjection
+     * @property \Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection
      */
     private $pointProjection = null;
 
     /**
-     * @property \Calcinai\Siri\IFOpt\LinkProjection $linkProjection
+     * @property \Calcinai\Siri\Objects\IFOpt\LinkProjection $linkProjection
      */
     private $linkProjection = null;
 
     /**
-     * @property \Calcinai\Siri\IFOpt\ZoneProjection $zoneProjection
+     * @property \Calcinai\Siri\Objects\IFOpt\ZoneProjection $zoneProjection
      */
     private $zoneProjection = null;
 
     /**
      * Further qualifcation of affected part of Link projection,
      *
-     * @property \Calcinai\Siri\OffsetStructureType $offset
+     * @property \Calcinai\Siri\Objects\OffsetStructureType $offset
      */
     private $offset = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -90,7 +90,7 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
      *
      * Name of component.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getComponentName()
     {
@@ -102,10 +102,10 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
      *
      * Name of component.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $componentName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $componentName
      * @return self
      */
-    public function setComponentName(\Calcinai\Siri\NaturalLanguageStringStructureType $componentName)
+    public function setComponentName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $componentName)
     {
         $this->componentName = $componentName;
         return $this;
@@ -140,7 +140,7 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Gets as pointProjection
      *
-     * @return \Calcinai\Siri\IFOpt\PointProjection
+     * @return \Calcinai\Siri\Objects\IFOpt\PointProjection
      */
     public function getPointProjection()
     {
@@ -150,10 +150,10 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Sets a new pointProjection
      *
-     * @param \Calcinai\Siri\IFOpt\PointProjection $pointProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection
      * @return self
      */
-    public function setPointProjection(\Calcinai\Siri\IFOpt\PointProjection $pointProjection)
+    public function setPointProjection(\Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection)
     {
         $this->pointProjection = $pointProjection;
         return $this;
@@ -162,7 +162,7 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Gets as linkProjection
      *
-     * @return \Calcinai\Siri\IFOpt\LinkProjection
+     * @return \Calcinai\Siri\Objects\IFOpt\LinkProjection
      */
     public function getLinkProjection()
     {
@@ -172,10 +172,10 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Sets a new linkProjection
      *
-     * @param \Calcinai\Siri\IFOpt\LinkProjection $linkProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\LinkProjection $linkProjection
      * @return self
      */
-    public function setLinkProjection(\Calcinai\Siri\IFOpt\LinkProjection $linkProjection)
+    public function setLinkProjection(\Calcinai\Siri\Objects\IFOpt\LinkProjection $linkProjection)
     {
         $this->linkProjection = $linkProjection;
         return $this;
@@ -184,7 +184,7 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Gets as zoneProjection
      *
-     * @return \Calcinai\Siri\IFOpt\ZoneProjection
+     * @return \Calcinai\Siri\Objects\IFOpt\ZoneProjection
      */
     public function getZoneProjection()
     {
@@ -194,10 +194,10 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Sets a new zoneProjection
      *
-     * @param \Calcinai\Siri\IFOpt\ZoneProjection $zoneProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\ZoneProjection $zoneProjection
      * @return self
      */
-    public function setZoneProjection(\Calcinai\Siri\IFOpt\ZoneProjection $zoneProjection)
+    public function setZoneProjection(\Calcinai\Siri\Objects\IFOpt\ZoneProjection $zoneProjection)
     {
         $this->zoneProjection = $zoneProjection;
         return $this;
@@ -208,7 +208,7 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
      *
      * Further qualifcation of affected part of Link projection,
      *
-     * @return \Calcinai\Siri\OffsetStructureType
+     * @return \Calcinai\Siri\Objects\OffsetStructureType
      */
     public function getOffset()
     {
@@ -220,10 +220,10 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
      *
      * Further qualifcation of affected part of Link projection,
      *
-     * @param \Calcinai\Siri\OffsetStructureType $offset
+     * @param \Calcinai\Siri\Objects\OffsetStructureType $offset
      * @return self
      */
-    public function setOffset(\Calcinai\Siri\OffsetStructureType $offset)
+    public function setOffset(\Calcinai\Siri\Objects\OffsetStructureType $offset)
     {
         $this->offset = $offset;
         return $this;
@@ -232,7 +232,7 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -242,10 +242,10 @@ class AffectedStopPlaceComponentStructureType extends AffectedStopPlaceElementSt
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

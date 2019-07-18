@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionLinkPermissions:
+Calcinai\Siri\Objects\ConnectionLinkPermissions:
     xml_root_name: ConnectionLinkPermissions
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -25,4 +25,4 @@ Calcinai\Siri\ConnectionLinkPermissions:
                 inline: true
                 entry_name: ConnectionLinkPermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionLinkPermissionStructureType>
+            type: array<Calcinai\Siri\Objects\ConnectionLinkPermissionStructureType>

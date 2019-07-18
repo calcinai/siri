@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductionTimetableRequestStructureType\LinesAType:
+Calcinai\Siri\Objects\ProductionTimetableRequestStructureType\LinesAType:
     properties:
         lineDirection:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\ProductionTimetableRequestStructureType\LinesAType:
                 inline: true
                 entry_name: LineDirection
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\LineDirectionStructureType>
+            type: array<Calcinai\Siri\Objects\LineDirectionStructureType>

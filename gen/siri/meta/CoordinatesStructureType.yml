@@ -1,4 +1,4 @@
-Calcinai\Siri\CoordinatesStructureType:
+Calcinai\Siri\Objects\CoordinatesStructureType:
     properties:
         __value:
             expose: true

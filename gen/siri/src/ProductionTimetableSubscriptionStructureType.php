@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ProductionTimetableSubscriptionStructureType
@@ -12,14 +12,14 @@ class ProductionTimetableSubscriptionStructureType extends AbstractSubscriptionS
 {
 
     /**
-     * @property \Calcinai\Siri\ProductionTimetableRequest $productionTimetableRequest
+     * @property \Calcinai\Siri\Objects\ProductionTimetableRequest $productionTimetableRequest
      */
     private $productionTimetableRequest = null;
 
     /**
      * Gets as productionTimetableRequest
      *
-     * @return \Calcinai\Siri\ProductionTimetableRequest
+     * @return \Calcinai\Siri\Objects\ProductionTimetableRequest
      */
     public function getProductionTimetableRequest()
     {
@@ -29,10 +29,10 @@ class ProductionTimetableSubscriptionStructureType extends AbstractSubscriptionS
     /**
      * Sets a new productionTimetableRequest
      *
-     * @param \Calcinai\Siri\ProductionTimetableRequest $productionTimetableRequest
+     * @param \Calcinai\Siri\Objects\ProductionTimetableRequest $productionTimetableRequest
      * @return self
      */
-    public function setProductionTimetableRequest(\Calcinai\Siri\ProductionTimetableRequest $productionTimetableRequest)
+    public function setProductionTimetableRequest(\Calcinai\Siri\Objects\ProductionTimetableRequest $productionTimetableRequest)
     {
         $this->productionTimetableRequest = $productionTimetableRequest;
         return $this;

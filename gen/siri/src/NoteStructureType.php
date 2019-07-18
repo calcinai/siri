@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing NoteStructureType
@@ -12,7 +12,7 @@ class NoteStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
      */
     private $situationRef = null;
 
@@ -22,21 +22,21 @@ class NoteStructureType
     private $situationSimpleRef = null;
 
     /**
-     * @property \Calcinai\Siri\SituationFullRef $situationFullRef
+     * @property \Calcinai\Siri\Objects\SituationFullRef $situationFullRef
      */
     private $situationFullRef = null;
 
     /**
      * Text annotation that applies to this call.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $note
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $note
      */
     private $note = null;
 
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef
      */
     public function getSituationRef()
     {
@@ -46,10 +46,10 @@ class NoteStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;
@@ -80,7 +80,7 @@ class NoteStructureType
     /**
      * Gets as situationFullRef
      *
-     * @return \Calcinai\Siri\SituationFullRef
+     * @return \Calcinai\Siri\Objects\SituationFullRef
      */
     public function getSituationFullRef()
     {
@@ -90,10 +90,10 @@ class NoteStructureType
     /**
      * Sets a new situationFullRef
      *
-     * @param \Calcinai\Siri\SituationFullRef $situationFullRef
+     * @param \Calcinai\Siri\Objects\SituationFullRef $situationFullRef
      * @return self
      */
-    public function setSituationFullRef(\Calcinai\Siri\SituationFullRef $situationFullRef)
+    public function setSituationFullRef(\Calcinai\Siri\Objects\SituationFullRef $situationFullRef)
     {
         $this->situationFullRef = $situationFullRef;
         return $this;
@@ -104,7 +104,7 @@ class NoteStructureType
      *
      * Text annotation that applies to this call.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getNote()
     {
@@ -116,10 +116,10 @@ class NoteStructureType
      *
      * Text annotation that applies to this call.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $note
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $note
      * @return self
      */
-    public function setNote(\Calcinai\Siri\NaturalLanguageStringStructureType $note)
+    public function setNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $note)
     {
         $this->note = $note;
         return $this;

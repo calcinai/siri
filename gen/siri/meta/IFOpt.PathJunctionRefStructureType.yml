@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\PathJunctionRefStructureType:
+Calcinai\Siri\Objects\IFOpt\PathJunctionRefStructureType:
     properties:
         __value:
             expose: true

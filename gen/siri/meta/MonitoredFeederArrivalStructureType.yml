@@ -1,4 +1,4 @@
-Calcinai\Siri\MonitoredFeederArrivalStructureType:
+Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType:
     properties:
         clearDownRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\MonitoredFeederArrivalStructureType:
             accessor:
                 getter: getClearDownRef
                 setter: setClearDownRef
-            type: Calcinai\Siri\ClearDownRefStructureType
+            type: Calcinai\Siri\Objects\ClearDownRefStructureType
         feederJourney:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\MonitoredFeederArrivalStructureType:
             accessor:
                 getter: getFeederJourney
                 setter: setFeederJourney
-            type: Calcinai\Siri\InterchangeJourneyStructureType
+            type: Calcinai\Siri\Objects\InterchangeJourneyStructureType
         vehicleAtStop:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Calcinai\Siri\MonitoredFeederArrivalStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

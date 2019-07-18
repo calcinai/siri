@@ -1,4 +1,4 @@
-Calcinai\Siri\ACSB\PassengerAccessibilityNeedsStructureType:
+Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType:
     properties:
         userNeed:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\ACSB\PassengerAccessibilityNeedsStructureType:
                 inline: true
                 entry_name: UserNeed
                 namespace: 'http://www.ifopt.org.uk/acsb'
-            type: array<Calcinai\Siri\ACSB\UserNeedStructureType>
+            type: array<Calcinai\Siri\Objects\ACSB\UserNeedStructureType>
         accompaniedByCarer:
             expose: true
             access_type: public_method

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType;
+namespace Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType;
 
 /**
  * Class representing LimitationsAType
@@ -11,7 +11,7 @@ class LimitationsAType
     /**
      * The accessibility limitations of a component.
      *
-     * @property \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType[] $accessibilityLimitation
+     * @property \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType[] $accessibilityLimitation
      */
     private $accessibilityLimitation = [
         
@@ -23,9 +23,9 @@ class LimitationsAType
      * The accessibility limitations of a component.
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation
      */
-    public function addToAccessibilityLimitation(\Calcinai\Siri\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation)
+    public function addToAccessibilityLimitation(\Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation)
     {
         $this->accessibilityLimitation[] = $accessibilityLimitation;
         return $this;
@@ -62,7 +62,7 @@ class LimitationsAType
      *
      * The accessibility limitations of a component.
      *
-     * @return \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType[]
      */
     public function getAccessibilityLimitation()
     {
@@ -74,7 +74,7 @@ class LimitationsAType
      *
      * The accessibility limitations of a component.
      *
-     * @param \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType[] $accessibilityLimitation
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType[] $accessibilityLimitation
      * @return self
      */
     public function setAccessibilityLimitation(array $accessibilityLimitation)

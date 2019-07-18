@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\EnvironmentalObstructionType:
+Calcinai\Siri\Objects\Datex\EnvironmentalObstructionType:
     properties:
         depth:
             expose: true
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\EnvironmentalObstructionType:
             accessor:
                 getter: getEnvironmentalObstructionExtension
                 setter: setEnvironmentalObstructionExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

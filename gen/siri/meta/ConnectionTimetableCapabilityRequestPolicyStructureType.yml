@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionTimetableCapabilityRequestPolicyStructureType:
+Calcinai\Siri\Objects\ConnectionTimetableCapabilityRequestPolicyStructureType:
     properties:
         foreignJourneysOnly:
             expose: true

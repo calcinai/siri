@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AnnotatedDestinationStructureType
@@ -19,7 +19,7 @@ class AnnotatedDestinationStructureType
     /**
      * Name of destination place.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $placeName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName
      */
     private $placeName = null;
 
@@ -50,7 +50,7 @@ class AnnotatedDestinationStructureType
      *
      * Name of destination place.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getPlaceName()
     {
@@ -62,10 +62,10 @@ class AnnotatedDestinationStructureType
      *
      * Name of destination place.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $placeName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName
      * @return self
      */
-    public function setPlaceName(\Calcinai\Siri\NaturalLanguageStringStructureType $placeName)
+    public function setPlaceName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName)
     {
         $this->placeName = $placeName;
         return $this;

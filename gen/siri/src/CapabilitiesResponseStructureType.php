@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing CapabilitiesResponseStructureType
@@ -12,59 +12,59 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\ProductionTimetableCapabilitiesResponse $productionTimetableCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\ProductionTimetableCapabilitiesResponse $productionTimetableCapabilitiesResponse
      */
     private $productionTimetableCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedTimetableCapabilitiesResponse $estimatedTimetableCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\EstimatedTimetableCapabilitiesResponse $estimatedTimetableCapabilitiesResponse
      */
     private $estimatedTimetableCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\StopTimetableCapabilitiesResponse $stopTimetableCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\StopTimetableCapabilitiesResponse $stopTimetableCapabilitiesResponse
      */
     private $stopTimetableCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\StopMonitoringCapabilitiesResponse $stopMonitoringCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\StopMonitoringCapabilitiesResponse $stopMonitoringCapabilitiesResponse
      */
     private $stopMonitoringCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\VehicleMonitoringCapabilitiesResponse $vehicleMonitoringCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesResponse $vehicleMonitoringCapabilitiesResponse
      */
     private $vehicleMonitoringCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionTimetableCapabilitiesResponse $connectionTimetableCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponse $connectionTimetableCapabilitiesResponse
      */
     private $connectionTimetableCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionMonitoringCapabilitiesResponse $connectionMonitoringCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringCapabilitiesResponse $connectionMonitoringCapabilitiesResponse
      */
     private $connectionMonitoringCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\GeneralMessageCapabilitiesResponse $generalMessageCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\GeneralMessageCapabilitiesResponse $generalMessageCapabilitiesResponse
      */
     private $generalMessageCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityMonitoringCapabilitiesResponse $facilityMonitoringCapabilitiesResponse
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringCapabilitiesResponse $facilityMonitoringCapabilitiesResponse
      */
     private $facilityMonitoringCapabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
+     * @property \Calcinai\Siri\Objects\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
      */
     private $situationExchangeServiceCapabilities = null;
 
     /**
      * Gets as productionTimetableCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\ProductionTimetableCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\ProductionTimetableCapabilitiesResponse
      */
     public function getProductionTimetableCapabilitiesResponse()
     {
@@ -74,10 +74,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new productionTimetableCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\ProductionTimetableCapabilitiesResponse $productionTimetableCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\ProductionTimetableCapabilitiesResponse $productionTimetableCapabilitiesResponse
      * @return self
      */
-    public function setProductionTimetableCapabilitiesResponse(\Calcinai\Siri\ProductionTimetableCapabilitiesResponse $productionTimetableCapabilitiesResponse)
+    public function setProductionTimetableCapabilitiesResponse(\Calcinai\Siri\Objects\ProductionTimetableCapabilitiesResponse $productionTimetableCapabilitiesResponse)
     {
         $this->productionTimetableCapabilitiesResponse = $productionTimetableCapabilitiesResponse;
         return $this;
@@ -86,7 +86,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as estimatedTimetableCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\EstimatedTimetableCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\EstimatedTimetableCapabilitiesResponse
      */
     public function getEstimatedTimetableCapabilitiesResponse()
     {
@@ -96,10 +96,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new estimatedTimetableCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\EstimatedTimetableCapabilitiesResponse $estimatedTimetableCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\EstimatedTimetableCapabilitiesResponse $estimatedTimetableCapabilitiesResponse
      * @return self
      */
-    public function setEstimatedTimetableCapabilitiesResponse(\Calcinai\Siri\EstimatedTimetableCapabilitiesResponse $estimatedTimetableCapabilitiesResponse)
+    public function setEstimatedTimetableCapabilitiesResponse(\Calcinai\Siri\Objects\EstimatedTimetableCapabilitiesResponse $estimatedTimetableCapabilitiesResponse)
     {
         $this->estimatedTimetableCapabilitiesResponse = $estimatedTimetableCapabilitiesResponse;
         return $this;
@@ -108,7 +108,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as stopTimetableCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\StopTimetableCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\StopTimetableCapabilitiesResponse
      */
     public function getStopTimetableCapabilitiesResponse()
     {
@@ -118,10 +118,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new stopTimetableCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\StopTimetableCapabilitiesResponse $stopTimetableCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\StopTimetableCapabilitiesResponse $stopTimetableCapabilitiesResponse
      * @return self
      */
-    public function setStopTimetableCapabilitiesResponse(\Calcinai\Siri\StopTimetableCapabilitiesResponse $stopTimetableCapabilitiesResponse)
+    public function setStopTimetableCapabilitiesResponse(\Calcinai\Siri\Objects\StopTimetableCapabilitiesResponse $stopTimetableCapabilitiesResponse)
     {
         $this->stopTimetableCapabilitiesResponse = $stopTimetableCapabilitiesResponse;
         return $this;
@@ -130,7 +130,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as stopMonitoringCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\StopMonitoringCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\StopMonitoringCapabilitiesResponse
      */
     public function getStopMonitoringCapabilitiesResponse()
     {
@@ -140,10 +140,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new stopMonitoringCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\StopMonitoringCapabilitiesResponse $stopMonitoringCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\StopMonitoringCapabilitiesResponse $stopMonitoringCapabilitiesResponse
      * @return self
      */
-    public function setStopMonitoringCapabilitiesResponse(\Calcinai\Siri\StopMonitoringCapabilitiesResponse $stopMonitoringCapabilitiesResponse)
+    public function setStopMonitoringCapabilitiesResponse(\Calcinai\Siri\Objects\StopMonitoringCapabilitiesResponse $stopMonitoringCapabilitiesResponse)
     {
         $this->stopMonitoringCapabilitiesResponse = $stopMonitoringCapabilitiesResponse;
         return $this;
@@ -152,7 +152,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as vehicleMonitoringCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\VehicleMonitoringCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesResponse
      */
     public function getVehicleMonitoringCapabilitiesResponse()
     {
@@ -162,10 +162,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new vehicleMonitoringCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\VehicleMonitoringCapabilitiesResponse $vehicleMonitoringCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesResponse $vehicleMonitoringCapabilitiesResponse
      * @return self
      */
-    public function setVehicleMonitoringCapabilitiesResponse(\Calcinai\Siri\VehicleMonitoringCapabilitiesResponse $vehicleMonitoringCapabilitiesResponse)
+    public function setVehicleMonitoringCapabilitiesResponse(\Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesResponse $vehicleMonitoringCapabilitiesResponse)
     {
         $this->vehicleMonitoringCapabilitiesResponse = $vehicleMonitoringCapabilitiesResponse;
         return $this;
@@ -174,7 +174,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as connectionTimetableCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\ConnectionTimetableCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponse
      */
     public function getConnectionTimetableCapabilitiesResponse()
     {
@@ -184,10 +184,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new connectionTimetableCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\ConnectionTimetableCapabilitiesResponse $connectionTimetableCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponse $connectionTimetableCapabilitiesResponse
      * @return self
      */
-    public function setConnectionTimetableCapabilitiesResponse(\Calcinai\Siri\ConnectionTimetableCapabilitiesResponse $connectionTimetableCapabilitiesResponse)
+    public function setConnectionTimetableCapabilitiesResponse(\Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponse $connectionTimetableCapabilitiesResponse)
     {
         $this->connectionTimetableCapabilitiesResponse = $connectionTimetableCapabilitiesResponse;
         return $this;
@@ -196,7 +196,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as connectionMonitoringCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringCapabilitiesResponse
      */
     public function getConnectionMonitoringCapabilitiesResponse()
     {
@@ -206,10 +206,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new connectionMonitoringCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringCapabilitiesResponse $connectionMonitoringCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringCapabilitiesResponse $connectionMonitoringCapabilitiesResponse
      * @return self
      */
-    public function setConnectionMonitoringCapabilitiesResponse(\Calcinai\Siri\ConnectionMonitoringCapabilitiesResponse $connectionMonitoringCapabilitiesResponse)
+    public function setConnectionMonitoringCapabilitiesResponse(\Calcinai\Siri\Objects\ConnectionMonitoringCapabilitiesResponse $connectionMonitoringCapabilitiesResponse)
     {
         $this->connectionMonitoringCapabilitiesResponse = $connectionMonitoringCapabilitiesResponse;
         return $this;
@@ -218,7 +218,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as generalMessageCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\GeneralMessageCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\GeneralMessageCapabilitiesResponse
      */
     public function getGeneralMessageCapabilitiesResponse()
     {
@@ -228,10 +228,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new generalMessageCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\GeneralMessageCapabilitiesResponse $generalMessageCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\GeneralMessageCapabilitiesResponse $generalMessageCapabilitiesResponse
      * @return self
      */
-    public function setGeneralMessageCapabilitiesResponse(\Calcinai\Siri\GeneralMessageCapabilitiesResponse $generalMessageCapabilitiesResponse)
+    public function setGeneralMessageCapabilitiesResponse(\Calcinai\Siri\Objects\GeneralMessageCapabilitiesResponse $generalMessageCapabilitiesResponse)
     {
         $this->generalMessageCapabilitiesResponse = $generalMessageCapabilitiesResponse;
         return $this;
@@ -240,7 +240,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as facilityMonitoringCapabilitiesResponse
      *
-     * @return \Calcinai\Siri\FacilityMonitoringCapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringCapabilitiesResponse
      */
     public function getFacilityMonitoringCapabilitiesResponse()
     {
@@ -250,10 +250,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new facilityMonitoringCapabilitiesResponse
      *
-     * @param \Calcinai\Siri\FacilityMonitoringCapabilitiesResponse $facilityMonitoringCapabilitiesResponse
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringCapabilitiesResponse $facilityMonitoringCapabilitiesResponse
      * @return self
      */
-    public function setFacilityMonitoringCapabilitiesResponse(\Calcinai\Siri\FacilityMonitoringCapabilitiesResponse $facilityMonitoringCapabilitiesResponse)
+    public function setFacilityMonitoringCapabilitiesResponse(\Calcinai\Siri\Objects\FacilityMonitoringCapabilitiesResponse $facilityMonitoringCapabilitiesResponse)
     {
         $this->facilityMonitoringCapabilitiesResponse = $facilityMonitoringCapabilitiesResponse;
         return $this;
@@ -262,7 +262,7 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Gets as situationExchangeServiceCapabilities
      *
-     * @return \Calcinai\Siri\SituationExchangeServiceCapabilities
+     * @return \Calcinai\Siri\Objects\SituationExchangeServiceCapabilities
      */
     public function getSituationExchangeServiceCapabilities()
     {
@@ -272,10 +272,10 @@ class CapabilitiesResponseStructureType extends ProducerResponseStructureType
     /**
      * Sets a new situationExchangeServiceCapabilities
      *
-     * @param \Calcinai\Siri\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
+     * @param \Calcinai\Siri\Objects\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities
      * @return self
      */
-    public function setSituationExchangeServiceCapabilities(\Calcinai\Siri\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities)
+    public function setSituationExchangeServiceCapabilities(\Calcinai\Siri\Objects\SituationExchangeServiceCapabilities $situationExchangeServiceCapabilities)
     {
         $this->situationExchangeServiceCapabilities = $situationExchangeServiceCapabilities;
         return $this;

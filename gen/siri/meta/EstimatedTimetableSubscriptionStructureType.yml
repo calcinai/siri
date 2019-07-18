@@ -1,4 +1,4 @@
-Calcinai\Siri\EstimatedTimetableSubscriptionStructureType:
+Calcinai\Siri\Objects\EstimatedTimetableSubscriptionStructureType:
     properties:
         estimatedTimetableRequest:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\EstimatedTimetableSubscriptionStructureType:
             accessor:
                 getter: getEstimatedTimetableRequest
                 setter: setEstimatedTimetableRequest
-            type: Calcinai\Siri\EstimatedTimetableRequest
+            type: Calcinai\Siri\Objects\EstimatedTimetableRequest
         incrementalUpdates:
             expose: true
             access_type: public_method

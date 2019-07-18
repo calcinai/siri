@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\PointProjectionStructureType:
+Calcinai\Siri\Objects\IFOpt\PointProjectionStructureType:
     properties:
         id:
             expose: true
@@ -57,7 +57,7 @@ Calcinai\Siri\IFOpt\PointProjectionStructureType:
             accessor:
                 getter: getCoordinates
                 setter: setCoordinates
-            type: Calcinai\Siri\CoordinatesStructureType
+            type: Calcinai\Siri\Objects\CoordinatesStructureType
         precision:
             expose: true
             access_type: public_method

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MaintenanceWorksType
@@ -21,7 +21,7 @@ class MaintenanceWorksType extends RoadworksType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $maintenanceWorksExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $maintenanceWorksExtension
      */
     private $maintenanceWorksExtension = null;
 
@@ -94,7 +94,7 @@ class MaintenanceWorksType extends RoadworksType
     /**
      * Gets as maintenanceWorksExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMaintenanceWorksExtension()
     {
@@ -104,10 +104,10 @@ class MaintenanceWorksType extends RoadworksType
     /**
      * Sets a new maintenanceWorksExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $maintenanceWorksExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $maintenanceWorksExtension
      * @return self
      */
-    public function setMaintenanceWorksExtension(\Calcinai\Siri\Datex\ExtensionType $maintenanceWorksExtension)
+    public function setMaintenanceWorksExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $maintenanceWorksExtension)
     {
         $this->maintenanceWorksExtension = $maintenanceWorksExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\FacilityStructureType;
+namespace Calcinai\Siri\Objects\FacilityStructureType;
 
 /**
  * Class representing SuitabilitiesAType
@@ -11,7 +11,7 @@ class SuitabilitiesAType
     /**
      * Type of specific need for wich the facility is appropriate
      *
-     * @property \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitability
+     * @property \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitability
      */
     private $suitability = [
         
@@ -23,9 +23,9 @@ class SuitabilitiesAType
      * Type of specific need for wich the facility is appropriate
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability
      */
-    public function addToSuitability(\Calcinai\Siri\ACSB\SuitabilityStructureType $suitability)
+    public function addToSuitability(\Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability)
     {
         $this->suitability[] = $suitability;
         return $this;
@@ -62,7 +62,7 @@ class SuitabilitiesAType
      *
      * Type of specific need for wich the facility is appropriate
      *
-     * @return \Calcinai\Siri\ACSB\SuitabilityStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[]
      */
     public function getSuitability()
     {
@@ -74,7 +74,7 @@ class SuitabilitiesAType
      *
      * Type of specific need for wich the facility is appropriate
      *
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitability
      * @return self
      */
     public function setSuitability(array $suitability)

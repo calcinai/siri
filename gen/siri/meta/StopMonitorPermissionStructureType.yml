@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitorPermissionStructureType:
+Calcinai\Siri\Objects\StopMonitorPermissionStructureType:
     properties:
         monitoringRef:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\StopMonitorPermissionStructureType:
             accessor:
                 getter: getMonitoringRef
                 setter: setMonitoringRef
-            type: Calcinai\Siri\MonitoringRefStructureType
+            type: Calcinai\Siri\Objects\MonitoringRefStructureType

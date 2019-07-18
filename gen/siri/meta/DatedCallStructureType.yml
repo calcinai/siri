@@ -1,4 +1,4 @@
-Calcinai\Siri\DatedCallStructureType:
+Calcinai\Siri\Objects\DatedCallStructureType:
     properties:
         stopPointRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getStopPointRef
                 setter: setStopPointRef
-            type: Calcinai\Siri\StopPointRef
+            type: Calcinai\Siri\Objects\StopPointRef
         visitNumber:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getVisitNumber
                 setter: setVisitNumber
-            type: Calcinai\Siri\VisitNumber
+            type: Calcinai\Siri\Objects\VisitNumber
         order:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getStopPointName
                 setter: setStopPointName
-            type: Calcinai\Siri\StopPointName
+            type: Calcinai\Siri\Objects\StopPointName
         timingPoint:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getDestinationDisplay
                 setter: setDestinationDisplay
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         callNote:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ Calcinai\Siri\DatedCallStructureType:
                 inline: true
                 entry_name: CallNote
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\NaturalLanguageStringStructureType>
+            type: array<Calcinai\Siri\Objects\NaturalLanguageStringStructureType>
         aimedArrivalTime:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getArrivalPlatformName
                 setter: setArrivalPlatformName
-            type: Calcinai\Siri\ArrivalPlatformName
+            type: Calcinai\Siri\Objects\ArrivalPlatformName
         arrivalBoardingActivity:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getArrivalBoardingActivity
                 setter: setArrivalBoardingActivity
-            type: Calcinai\Siri\ArrivalBoardingActivity
+            type: Calcinai\Siri\Objects\ArrivalBoardingActivity
         aimedDepartureTime:
             expose: true
             access_type: public_method
@@ -143,7 +143,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getDeparturePlatformName
                 setter: setDeparturePlatformName
-            type: Calcinai\Siri\DeparturePlatformName
+            type: Calcinai\Siri\Objects\DeparturePlatformName
         departureBoardingActivity:
             expose: true
             access_type: public_method
@@ -153,7 +153,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getDepartureBoardingActivity
                 setter: setDepartureBoardingActivity
-            type: Calcinai\Siri\DepartureBoardingActivity
+            type: Calcinai\Siri\Objects\DepartureBoardingActivity
         aimedHeadwayInterval:
             expose: true
             access_type: public_method
@@ -163,7 +163,7 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getAimedHeadwayInterval
                 setter: setAimedHeadwayInterval
-            type: Calcinai\Siri\AimedHeadwayInterval
+            type: Calcinai\Siri\Objects\AimedHeadwayInterval
         targetedInterchange:
             expose: true
             access_type: public_method
@@ -177,7 +177,7 @@ Calcinai\Siri\DatedCallStructureType:
                 inline: true
                 entry_name: TargetedInterchange
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\TargetedInterchangeStructureType>
+            type: array<Calcinai\Siri\Objects\TargetedInterchangeStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -187,4 +187,4 @@ Calcinai\Siri\DatedCallStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

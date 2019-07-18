@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGFramedPointType
@@ -19,22 +19,22 @@ class TPEGFramedPointType extends TPEGPointLocationType
     private $tpegLocationType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGNonJunctionPointType $framedPoint
+     * @property \Calcinai\Siri\Objects\Datex\TPEGNonJunctionPointType $framedPoint
      */
     private $framedPoint = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGPointType $to
+     * @property \Calcinai\Siri\Objects\Datex\TPEGPointType $to
      */
     private $to = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGPointType $from
+     * @property \Calcinai\Siri\Objects\Datex\TPEGPointType $from
      */
     private $from = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegframedPointExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegframedPointExtension
      */
     private $tpegframedPointExtension = null;
 
@@ -67,7 +67,7 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Gets as framedPoint
      *
-     * @return \Calcinai\Siri\Datex\TPEGNonJunctionPointType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGNonJunctionPointType
      */
     public function getFramedPoint()
     {
@@ -77,10 +77,10 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Sets a new framedPoint
      *
-     * @param \Calcinai\Siri\Datex\TPEGNonJunctionPointType $framedPoint
+     * @param \Calcinai\Siri\Objects\Datex\TPEGNonJunctionPointType $framedPoint
      * @return self
      */
-    public function setFramedPoint(\Calcinai\Siri\Datex\TPEGNonJunctionPointType $framedPoint)
+    public function setFramedPoint(\Calcinai\Siri\Objects\Datex\TPEGNonJunctionPointType $framedPoint)
     {
         $this->framedPoint = $framedPoint;
         return $this;
@@ -89,7 +89,7 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Gets as to
      *
-     * @return \Calcinai\Siri\Datex\TPEGPointType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGPointType
      */
     public function getTo()
     {
@@ -99,10 +99,10 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Sets a new to
      *
-     * @param \Calcinai\Siri\Datex\TPEGPointType $to
+     * @param \Calcinai\Siri\Objects\Datex\TPEGPointType $to
      * @return self
      */
-    public function setTo(\Calcinai\Siri\Datex\TPEGPointType $to)
+    public function setTo(\Calcinai\Siri\Objects\Datex\TPEGPointType $to)
     {
         $this->to = $to;
         return $this;
@@ -111,7 +111,7 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Gets as from
      *
-     * @return \Calcinai\Siri\Datex\TPEGPointType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGPointType
      */
     public function getFrom()
     {
@@ -121,10 +121,10 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Sets a new from
      *
-     * @param \Calcinai\Siri\Datex\TPEGPointType $from
+     * @param \Calcinai\Siri\Objects\Datex\TPEGPointType $from
      * @return self
      */
-    public function setFrom(\Calcinai\Siri\Datex\TPEGPointType $from)
+    public function setFrom(\Calcinai\Siri\Objects\Datex\TPEGPointType $from)
     {
         $this->from = $from;
         return $this;
@@ -133,7 +133,7 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Gets as tpegframedPointExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegframedPointExtension()
     {
@@ -143,10 +143,10 @@ class TPEGFramedPointType extends TPEGPointLocationType
     /**
      * Sets a new tpegframedPointExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegframedPointExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegframedPointExtension
      * @return self
      */
-    public function setTpegframedPointExtension(\Calcinai\Siri\Datex\ExtensionType $tpegframedPointExtension)
+    public function setTpegframedPointExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegframedPointExtension)
     {
         $this->tpegframedPointExtension = $tpegframedPointExtension;
         return $this;

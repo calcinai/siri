@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleFeaturesStructureType:
+Calcinai\Siri\Objects\VehicleFeaturesStructureType:
     properties:
         vehicleFeatureCode:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\VehicleFeaturesStructureType:
             accessor:
                 getter: getName
                 setter: setName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         icon:
             expose: true
             access_type: public_method

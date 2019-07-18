@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\GroupOfLocationsType:
+Calcinai\Siri\Objects\Datex\GroupOfLocationsType:
     properties:
         locationContainedInGroup:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\Datex\GroupOfLocationsType:
                 inline: true
                 entry_name: locationContainedInGroup
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\LocationType>
+            type: array<Calcinai\Siri\Objects\Datex\LocationType>
         routeDestination:
             expose: true
             access_type: public_method
@@ -27,7 +27,7 @@ Calcinai\Siri\Datex\GroupOfLocationsType:
                 inline: true
                 entry_name: routeDestination
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\DestinationType>
+            type: array<Calcinai\Siri\Objects\Datex\DestinationType>
         groupOfLocationsExtension:
             expose: true
             access_type: public_method
@@ -37,4 +37,4 @@ Calcinai\Siri\Datex\GroupOfLocationsType:
             accessor:
                 getter: getGroupOfLocationsExtension
                 setter: setGroupOfLocationsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing LinearType
@@ -12,29 +12,29 @@ class LinearType extends NetworkLocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGLinearLocationType $tpeglinearLocation
+     * @property \Calcinai\Siri\Objects\Datex\TPEGLinearLocationType $tpeglinearLocation
      */
     private $tpeglinearLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCLinearType $alertCLinear
+     * @property \Calcinai\Siri\Objects\Datex\AlertCLinearType $alertCLinear
      */
     private $alertCLinear = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferencePointLinearType $referencePointLinear
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointLinearType $referencePointLinear
      */
     private $referencePointLinear = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $linearExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $linearExtension
      */
     private $linearExtension = null;
 
     /**
      * Gets as tpeglinearLocation
      *
-     * @return \Calcinai\Siri\Datex\TPEGLinearLocationType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGLinearLocationType
      */
     public function getTpeglinearLocation()
     {
@@ -44,10 +44,10 @@ class LinearType extends NetworkLocationType
     /**
      * Sets a new tpeglinearLocation
      *
-     * @param \Calcinai\Siri\Datex\TPEGLinearLocationType $tpeglinearLocation
+     * @param \Calcinai\Siri\Objects\Datex\TPEGLinearLocationType $tpeglinearLocation
      * @return self
      */
-    public function setTpeglinearLocation(\Calcinai\Siri\Datex\TPEGLinearLocationType $tpeglinearLocation)
+    public function setTpeglinearLocation(\Calcinai\Siri\Objects\Datex\TPEGLinearLocationType $tpeglinearLocation)
     {
         $this->tpeglinearLocation = $tpeglinearLocation;
         return $this;
@@ -56,7 +56,7 @@ class LinearType extends NetworkLocationType
     /**
      * Gets as alertCLinear
      *
-     * @return \Calcinai\Siri\Datex\AlertCLinearType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCLinearType
      */
     public function getAlertCLinear()
     {
@@ -66,10 +66,10 @@ class LinearType extends NetworkLocationType
     /**
      * Sets a new alertCLinear
      *
-     * @param \Calcinai\Siri\Datex\AlertCLinearType $alertCLinear
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLinearType $alertCLinear
      * @return self
      */
-    public function setAlertCLinear(\Calcinai\Siri\Datex\AlertCLinearType $alertCLinear)
+    public function setAlertCLinear(\Calcinai\Siri\Objects\Datex\AlertCLinearType $alertCLinear)
     {
         $this->alertCLinear = $alertCLinear;
         return $this;
@@ -78,7 +78,7 @@ class LinearType extends NetworkLocationType
     /**
      * Gets as referencePointLinear
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointLinearType
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointLinearType
      */
     public function getReferencePointLinear()
     {
@@ -88,10 +88,10 @@ class LinearType extends NetworkLocationType
     /**
      * Sets a new referencePointLinear
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointLinearType $referencePointLinear
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointLinearType $referencePointLinear
      * @return self
      */
-    public function setReferencePointLinear(\Calcinai\Siri\Datex\ReferencePointLinearType $referencePointLinear)
+    public function setReferencePointLinear(\Calcinai\Siri\Objects\Datex\ReferencePointLinearType $referencePointLinear)
     {
         $this->referencePointLinear = $referencePointLinear;
         return $this;
@@ -100,7 +100,7 @@ class LinearType extends NetworkLocationType
     /**
      * Gets as linearExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getLinearExtension()
     {
@@ -110,10 +110,10 @@ class LinearType extends NetworkLocationType
     /**
      * Sets a new linearExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $linearExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $linearExtension
      * @return self
      */
-    public function setLinearExtension(\Calcinai\Siri\Datex\ExtensionType $linearExtension)
+    public function setLinearExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $linearExtension)
     {
         $this->linearExtension = $linearExtension;
         return $this;

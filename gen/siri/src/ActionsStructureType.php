@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ActionsStructureType
@@ -12,47 +12,47 @@ class ActionsStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\PublishToWebAction $publishToWebAction
+     * @property \Calcinai\Siri\Objects\PublishToWebAction $publishToWebAction
      */
     private $publishToWebAction = null;
 
     /**
-     * @property \Calcinai\Siri\PublishToMobileAction $publishToMobileAction
+     * @property \Calcinai\Siri\Objects\PublishToMobileAction $publishToMobileAction
      */
     private $publishToMobileAction = null;
 
     /**
-     * @property \Calcinai\Siri\PublishToTvAction $publishToTvAction
+     * @property \Calcinai\Siri\Objects\PublishToTvAction $publishToTvAction
      */
     private $publishToTvAction = null;
 
     /**
-     * @property \Calcinai\Siri\PublishToAlertsAction $publishToAlertsAction
+     * @property \Calcinai\Siri\Objects\PublishToAlertsAction $publishToAlertsAction
      */
     private $publishToAlertsAction = null;
 
     /**
-     * @property \Calcinai\Siri\ManualAction $manualAction
+     * @property \Calcinai\Siri\Objects\ManualAction $manualAction
      */
     private $manualAction = null;
 
     /**
-     * @property \Calcinai\Siri\NotifyByEmailAction $notifyByEmailAction
+     * @property \Calcinai\Siri\Objects\NotifyByEmailAction $notifyByEmailAction
      */
     private $notifyByEmailAction = null;
 
     /**
-     * @property \Calcinai\Siri\NotifyBySmsAction $notifyBySmsAction
+     * @property \Calcinai\Siri\Objects\NotifyBySmsAction $notifyBySmsAction
      */
     private $notifyBySmsAction = null;
 
     /**
-     * @property \Calcinai\Siri\NotifyByPagerAction $notifyByPagerAction
+     * @property \Calcinai\Siri\Objects\NotifyByPagerAction $notifyByPagerAction
      */
     private $notifyByPagerAction = null;
 
     /**
-     * @property \Calcinai\Siri\NotifyUserAction $notifyUserAction
+     * @property \Calcinai\Siri\Objects\NotifyUserAction $notifyUserAction
      */
     private $notifyUserAction = null;
 
@@ -66,7 +66,7 @@ class ActionsStructureType
     /**
      * Gets as publishToWebAction
      *
-     * @return \Calcinai\Siri\PublishToWebAction
+     * @return \Calcinai\Siri\Objects\PublishToWebAction
      */
     public function getPublishToWebAction()
     {
@@ -76,10 +76,10 @@ class ActionsStructureType
     /**
      * Sets a new publishToWebAction
      *
-     * @param \Calcinai\Siri\PublishToWebAction $publishToWebAction
+     * @param \Calcinai\Siri\Objects\PublishToWebAction $publishToWebAction
      * @return self
      */
-    public function setPublishToWebAction(\Calcinai\Siri\PublishToWebAction $publishToWebAction)
+    public function setPublishToWebAction(\Calcinai\Siri\Objects\PublishToWebAction $publishToWebAction)
     {
         $this->publishToWebAction = $publishToWebAction;
         return $this;
@@ -88,7 +88,7 @@ class ActionsStructureType
     /**
      * Gets as publishToMobileAction
      *
-     * @return \Calcinai\Siri\PublishToMobileAction
+     * @return \Calcinai\Siri\Objects\PublishToMobileAction
      */
     public function getPublishToMobileAction()
     {
@@ -98,10 +98,10 @@ class ActionsStructureType
     /**
      * Sets a new publishToMobileAction
      *
-     * @param \Calcinai\Siri\PublishToMobileAction $publishToMobileAction
+     * @param \Calcinai\Siri\Objects\PublishToMobileAction $publishToMobileAction
      * @return self
      */
-    public function setPublishToMobileAction(\Calcinai\Siri\PublishToMobileAction $publishToMobileAction)
+    public function setPublishToMobileAction(\Calcinai\Siri\Objects\PublishToMobileAction $publishToMobileAction)
     {
         $this->publishToMobileAction = $publishToMobileAction;
         return $this;
@@ -110,7 +110,7 @@ class ActionsStructureType
     /**
      * Gets as publishToTvAction
      *
-     * @return \Calcinai\Siri\PublishToTvAction
+     * @return \Calcinai\Siri\Objects\PublishToTvAction
      */
     public function getPublishToTvAction()
     {
@@ -120,10 +120,10 @@ class ActionsStructureType
     /**
      * Sets a new publishToTvAction
      *
-     * @param \Calcinai\Siri\PublishToTvAction $publishToTvAction
+     * @param \Calcinai\Siri\Objects\PublishToTvAction $publishToTvAction
      * @return self
      */
-    public function setPublishToTvAction(\Calcinai\Siri\PublishToTvAction $publishToTvAction)
+    public function setPublishToTvAction(\Calcinai\Siri\Objects\PublishToTvAction $publishToTvAction)
     {
         $this->publishToTvAction = $publishToTvAction;
         return $this;
@@ -132,7 +132,7 @@ class ActionsStructureType
     /**
      * Gets as publishToAlertsAction
      *
-     * @return \Calcinai\Siri\PublishToAlertsAction
+     * @return \Calcinai\Siri\Objects\PublishToAlertsAction
      */
     public function getPublishToAlertsAction()
     {
@@ -142,10 +142,10 @@ class ActionsStructureType
     /**
      * Sets a new publishToAlertsAction
      *
-     * @param \Calcinai\Siri\PublishToAlertsAction $publishToAlertsAction
+     * @param \Calcinai\Siri\Objects\PublishToAlertsAction $publishToAlertsAction
      * @return self
      */
-    public function setPublishToAlertsAction(\Calcinai\Siri\PublishToAlertsAction $publishToAlertsAction)
+    public function setPublishToAlertsAction(\Calcinai\Siri\Objects\PublishToAlertsAction $publishToAlertsAction)
     {
         $this->publishToAlertsAction = $publishToAlertsAction;
         return $this;
@@ -154,7 +154,7 @@ class ActionsStructureType
     /**
      * Gets as manualAction
      *
-     * @return \Calcinai\Siri\ManualAction
+     * @return \Calcinai\Siri\Objects\ManualAction
      */
     public function getManualAction()
     {
@@ -164,10 +164,10 @@ class ActionsStructureType
     /**
      * Sets a new manualAction
      *
-     * @param \Calcinai\Siri\ManualAction $manualAction
+     * @param \Calcinai\Siri\Objects\ManualAction $manualAction
      * @return self
      */
-    public function setManualAction(\Calcinai\Siri\ManualAction $manualAction)
+    public function setManualAction(\Calcinai\Siri\Objects\ManualAction $manualAction)
     {
         $this->manualAction = $manualAction;
         return $this;
@@ -176,7 +176,7 @@ class ActionsStructureType
     /**
      * Gets as notifyByEmailAction
      *
-     * @return \Calcinai\Siri\NotifyByEmailAction
+     * @return \Calcinai\Siri\Objects\NotifyByEmailAction
      */
     public function getNotifyByEmailAction()
     {
@@ -186,10 +186,10 @@ class ActionsStructureType
     /**
      * Sets a new notifyByEmailAction
      *
-     * @param \Calcinai\Siri\NotifyByEmailAction $notifyByEmailAction
+     * @param \Calcinai\Siri\Objects\NotifyByEmailAction $notifyByEmailAction
      * @return self
      */
-    public function setNotifyByEmailAction(\Calcinai\Siri\NotifyByEmailAction $notifyByEmailAction)
+    public function setNotifyByEmailAction(\Calcinai\Siri\Objects\NotifyByEmailAction $notifyByEmailAction)
     {
         $this->notifyByEmailAction = $notifyByEmailAction;
         return $this;
@@ -198,7 +198,7 @@ class ActionsStructureType
     /**
      * Gets as notifyBySmsAction
      *
-     * @return \Calcinai\Siri\NotifyBySmsAction
+     * @return \Calcinai\Siri\Objects\NotifyBySmsAction
      */
     public function getNotifyBySmsAction()
     {
@@ -208,10 +208,10 @@ class ActionsStructureType
     /**
      * Sets a new notifyBySmsAction
      *
-     * @param \Calcinai\Siri\NotifyBySmsAction $notifyBySmsAction
+     * @param \Calcinai\Siri\Objects\NotifyBySmsAction $notifyBySmsAction
      * @return self
      */
-    public function setNotifyBySmsAction(\Calcinai\Siri\NotifyBySmsAction $notifyBySmsAction)
+    public function setNotifyBySmsAction(\Calcinai\Siri\Objects\NotifyBySmsAction $notifyBySmsAction)
     {
         $this->notifyBySmsAction = $notifyBySmsAction;
         return $this;
@@ -220,7 +220,7 @@ class ActionsStructureType
     /**
      * Gets as notifyByPagerAction
      *
-     * @return \Calcinai\Siri\NotifyByPagerAction
+     * @return \Calcinai\Siri\Objects\NotifyByPagerAction
      */
     public function getNotifyByPagerAction()
     {
@@ -230,10 +230,10 @@ class ActionsStructureType
     /**
      * Sets a new notifyByPagerAction
      *
-     * @param \Calcinai\Siri\NotifyByPagerAction $notifyByPagerAction
+     * @param \Calcinai\Siri\Objects\NotifyByPagerAction $notifyByPagerAction
      * @return self
      */
-    public function setNotifyByPagerAction(\Calcinai\Siri\NotifyByPagerAction $notifyByPagerAction)
+    public function setNotifyByPagerAction(\Calcinai\Siri\Objects\NotifyByPagerAction $notifyByPagerAction)
     {
         $this->notifyByPagerAction = $notifyByPagerAction;
         return $this;
@@ -242,7 +242,7 @@ class ActionsStructureType
     /**
      * Gets as notifyUserAction
      *
-     * @return \Calcinai\Siri\NotifyUserAction
+     * @return \Calcinai\Siri\Objects\NotifyUserAction
      */
     public function getNotifyUserAction()
     {
@@ -252,10 +252,10 @@ class ActionsStructureType
     /**
      * Sets a new notifyUserAction
      *
-     * @param \Calcinai\Siri\NotifyUserAction $notifyUserAction
+     * @param \Calcinai\Siri\Objects\NotifyUserAction $notifyUserAction
      * @return self
      */
-    public function setNotifyUserAction(\Calcinai\Siri\NotifyUserAction $notifyUserAction)
+    public function setNotifyUserAction(\Calcinai\Siri\Objects\NotifyUserAction $notifyUserAction)
     {
         $this->notifyUserAction = $notifyUserAction;
         return $this;

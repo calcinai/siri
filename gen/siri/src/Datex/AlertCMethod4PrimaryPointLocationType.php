@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCMethod4PrimaryPointLocationType
@@ -12,24 +12,24 @@ class AlertCMethod4PrimaryPointLocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCLocationType $alertCLocation
+     * @property \Calcinai\Siri\Objects\Datex\AlertCLocationType $alertCLocation
      */
     private $alertCLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\OffsetDistanceType $offsetDistance
+     * @property \Calcinai\Siri\Objects\Datex\OffsetDistanceType $offsetDistance
      */
     private $offsetDistance = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCMethod4PrimaryPointLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod4PrimaryPointLocationExtension
      */
     private $alertCMethod4PrimaryPointLocationExtension = null;
 
     /**
      * Gets as alertCLocation
      *
-     * @return \Calcinai\Siri\Datex\AlertCLocationType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCLocationType
      */
     public function getAlertCLocation()
     {
@@ -39,10 +39,10 @@ class AlertCMethod4PrimaryPointLocationType
     /**
      * Sets a new alertCLocation
      *
-     * @param \Calcinai\Siri\Datex\AlertCLocationType $alertCLocation
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType $alertCLocation
      * @return self
      */
-    public function setAlertCLocation(\Calcinai\Siri\Datex\AlertCLocationType $alertCLocation)
+    public function setAlertCLocation(\Calcinai\Siri\Objects\Datex\AlertCLocationType $alertCLocation)
     {
         $this->alertCLocation = $alertCLocation;
         return $this;
@@ -51,7 +51,7 @@ class AlertCMethod4PrimaryPointLocationType
     /**
      * Gets as offsetDistance
      *
-     * @return \Calcinai\Siri\Datex\OffsetDistanceType
+     * @return \Calcinai\Siri\Objects\Datex\OffsetDistanceType
      */
     public function getOffsetDistance()
     {
@@ -61,10 +61,10 @@ class AlertCMethod4PrimaryPointLocationType
     /**
      * Sets a new offsetDistance
      *
-     * @param \Calcinai\Siri\Datex\OffsetDistanceType $offsetDistance
+     * @param \Calcinai\Siri\Objects\Datex\OffsetDistanceType $offsetDistance
      * @return self
      */
-    public function setOffsetDistance(\Calcinai\Siri\Datex\OffsetDistanceType $offsetDistance)
+    public function setOffsetDistance(\Calcinai\Siri\Objects\Datex\OffsetDistanceType $offsetDistance)
     {
         $this->offsetDistance = $offsetDistance;
         return $this;
@@ -73,7 +73,7 @@ class AlertCMethod4PrimaryPointLocationType
     /**
      * Gets as alertCMethod4PrimaryPointLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCMethod4PrimaryPointLocationExtension()
     {
@@ -83,10 +83,10 @@ class AlertCMethod4PrimaryPointLocationType
     /**
      * Sets a new alertCMethod4PrimaryPointLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCMethod4PrimaryPointLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod4PrimaryPointLocationExtension
      * @return self
      */
-    public function setAlertCMethod4PrimaryPointLocationExtension(\Calcinai\Siri\Datex\ExtensionType $alertCMethod4PrimaryPointLocationExtension)
+    public function setAlertCMethod4PrimaryPointLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod4PrimaryPointLocationExtension)
     {
         $this->alertCMethod4PrimaryPointLocationExtension = $alertCMethod4PrimaryPointLocationExtension;
         return $this;

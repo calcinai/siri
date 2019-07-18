@@ -1,4 +1,4 @@
-Calcinai\Siri\GeneralMessageServicePermissionStructureType:
+Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType:
     properties:
         infoChannelPermissions:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\GeneralMessageServicePermissionStructureType:
             accessor:
                 getter: getInfoChannelPermissions
                 setter: setInfoChannelPermissions
-            type: Calcinai\Siri\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType
+            type: Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType
         extensions:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\GeneralMessageServicePermissionStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

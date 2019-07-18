@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\LinkProjectionStructureType\LineAType:
+Calcinai\Siri\Objects\IFOpt\LinkProjectionStructureType\LineAType:
     properties:
         pointProjection:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\IFOpt\LinkProjectionStructureType\LineAType:
                 inline: true
                 entry_name: PointProjection
                 namespace: 'http://www.ifopt.org.uk/ifopt'
-            type: array<Calcinai\Siri\IFOpt\PointProjection>
+            type: array<Calcinai\Siri\Objects\IFOpt\PointProjection>

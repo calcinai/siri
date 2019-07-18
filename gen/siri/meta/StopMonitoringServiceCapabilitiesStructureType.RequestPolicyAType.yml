@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
+Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
     properties:
         hasDetailLevel:
             expose: true

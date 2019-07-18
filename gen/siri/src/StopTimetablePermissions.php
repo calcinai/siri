@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopTimetablePermissions
@@ -13,7 +13,7 @@ class StopTimetablePermissions extends PermissionsStructureType
     /**
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @property \Calcinai\Siri\StopMonitoringServicePermissionStructureType[] $stopTimetablePermission
+     * @property \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType[] $stopTimetablePermission
      */
     private $stopTimetablePermission = [
         
@@ -25,9 +25,9 @@ class StopTimetablePermissions extends PermissionsStructureType
      * Permission for a single participant or all participants to use an aspect of the service.
      *
      * @return self
-     * @param \Calcinai\Siri\StopMonitoringServicePermissionStructureType $stopTimetablePermission
+     * @param \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType $stopTimetablePermission
      */
-    public function addToStopTimetablePermission(\Calcinai\Siri\StopMonitoringServicePermissionStructureType $stopTimetablePermission)
+    public function addToStopTimetablePermission(\Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType $stopTimetablePermission)
     {
         $this->stopTimetablePermission[] = $stopTimetablePermission;
         return $this;
@@ -64,7 +64,7 @@ class StopTimetablePermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @return \Calcinai\Siri\StopMonitoringServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType[]
      */
     public function getStopTimetablePermission()
     {
@@ -76,7 +76,7 @@ class StopTimetablePermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @param \Calcinai\Siri\StopMonitoringServicePermissionStructureType[] $stopTimetablePermission
+     * @param \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType[] $stopTimetablePermission
      * @return self
      */
     public function setStopTimetablePermission(array $stopTimetablePermission)

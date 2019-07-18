@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PrecipitationDetailType:
+Calcinai\Siri\Objects\Datex\PrecipitationDetailType:
     properties:
         depositionDepth:
             expose: true
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\PrecipitationDetailType:
             accessor:
                 getter: getPrecipitationDetailExtension
                 setter: setPrecipitationDetailExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\VehicleDetectionTimeType:
+Calcinai\Siri\Objects\Datex\VehicleDetectionTimeType:
     properties:
         arrivalTime:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\VehicleDetectionTimeType:
             accessor:
                 getter: getArrivalTime
                 setter: setArrivalTime
-            type: Calcinai\Siri\Datex\DateTimeType
+            type: Calcinai\Siri\Objects\Datex\DateTimeType
         exitTime:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\VehicleDetectionTimeType:
             accessor:
                 getter: getExitTime
                 setter: setExitTime
-            type: Calcinai\Siri\Datex\DateTimeType
+            type: Calcinai\Siri\Objects\Datex\DateTimeType
         passageTime:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\VehicleDetectionTimeType:
             accessor:
                 getter: getPassageTime
                 setter: setPassageTime
-            type: Calcinai\Siri\Datex\DateTimeType
+            type: Calcinai\Siri\Objects\Datex\DateTimeType
         presenceTime:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\Datex\VehicleDetectionTimeType:
             accessor:
                 getter: getPresenceTime
                 setter: setPresenceTime
-            type: Calcinai\Siri\Datex\DateTimeType
+            type: Calcinai\Siri\Objects\Datex\DateTimeType
         timeGap:
             expose: true
             access_type: public_method
@@ -69,4 +69,4 @@ Calcinai\Siri\Datex\VehicleDetectionTimeType:
             accessor:
                 getter: getVehicleDetectionTimeExtension
                 setter: setVehicleDetectionTimeExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

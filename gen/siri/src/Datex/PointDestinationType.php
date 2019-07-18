@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PointDestinationType
@@ -12,19 +12,19 @@ class PointDestinationType extends DestinationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\PointType $point
+     * @property \Calcinai\Siri\Objects\Datex\PointType $point
      */
     private $point = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $pointDestinationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $pointDestinationExtension
      */
     private $pointDestinationExtension = null;
 
     /**
      * Gets as point
      *
-     * @return \Calcinai\Siri\Datex\PointType
+     * @return \Calcinai\Siri\Objects\Datex\PointType
      */
     public function getPoint()
     {
@@ -34,10 +34,10 @@ class PointDestinationType extends DestinationType
     /**
      * Sets a new point
      *
-     * @param \Calcinai\Siri\Datex\PointType $point
+     * @param \Calcinai\Siri\Objects\Datex\PointType $point
      * @return self
      */
-    public function setPoint(\Calcinai\Siri\Datex\PointType $point)
+    public function setPoint(\Calcinai\Siri\Objects\Datex\PointType $point)
     {
         $this->point = $point;
         return $this;
@@ -46,7 +46,7 @@ class PointDestinationType extends DestinationType
     /**
      * Gets as pointDestinationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPointDestinationExtension()
     {
@@ -56,10 +56,10 @@ class PointDestinationType extends DestinationType
     /**
      * Sets a new pointDestinationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $pointDestinationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $pointDestinationExtension
      * @return self
      */
-    public function setPointDestinationExtension(\Calcinai\Siri\Datex\ExtensionType $pointDestinationExtension)
+    public function setPointDestinationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $pointDestinationExtension)
     {
         $this->pointDestinationExtension = $pointDestinationExtension;
         return $this;

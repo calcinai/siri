@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing OperatorActionType
@@ -33,7 +33,7 @@ class OperatorActionType extends SituationRecordType
     private $provisional = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $operatorActionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $operatorActionExtension
      */
     private $operatorActionExtension = null;
 
@@ -118,7 +118,7 @@ class OperatorActionType extends SituationRecordType
     /**
      * Gets as operatorActionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getOperatorActionExtension()
     {
@@ -128,10 +128,10 @@ class OperatorActionType extends SituationRecordType
     /**
      * Sets a new operatorActionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $operatorActionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $operatorActionExtension
      * @return self
      */
-    public function setOperatorActionExtension(\Calcinai\Siri\Datex\ExtensionType $operatorActionExtension)
+    public function setOperatorActionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $operatorActionExtension)
     {
         $this->operatorActionExtension = $operatorActionExtension;
         return $this;

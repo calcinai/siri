@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing CarParksType
@@ -82,7 +82,7 @@ class CarParksType extends NonRoadEventInformationType
     private $totalCapacity = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $carParksExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $carParksExtension
      */
     private $carParksExtension = null;
 
@@ -349,7 +349,7 @@ class CarParksType extends NonRoadEventInformationType
     /**
      * Gets as carParksExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getCarParksExtension()
     {
@@ -359,10 +359,10 @@ class CarParksType extends NonRoadEventInformationType
     /**
      * Sets a new carParksExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $carParksExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $carParksExtension
      * @return self
      */
-    public function setCarParksExtension(\Calcinai\Siri\Datex\ExtensionType $carParksExtension)
+    public function setCarParksExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $carParksExtension)
     {
         $this->carParksExtension = $carParksExtension;
         return $this;

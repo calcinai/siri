@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionCapabilityAccessControlStructureType:
+Calcinai\Siri\Objects\ConnectionCapabilityAccessControlStructureType:
     properties:
         checkOperatorRef:
             expose: true

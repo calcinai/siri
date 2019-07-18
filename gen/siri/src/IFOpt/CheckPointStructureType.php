@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing CheckPointStructureType
@@ -21,7 +21,7 @@ class CheckPointStructureType
     /**
      * Validty condition governing applicability of hazard.
      *
-     * @property \Calcinai\Siri\IFOpt\ValidityConditionStructureType $validityCondition
+     * @property \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType $validityCondition
      */
     private $validityCondition = null;
 
@@ -112,7 +112,7 @@ class CheckPointStructureType
      *
      * Validty condition governing applicability of hazard.
      *
-     * @return \Calcinai\Siri\IFOpt\ValidityConditionStructureType
+     * @return \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType
      */
     public function getValidityCondition()
     {
@@ -124,10 +124,10 @@ class CheckPointStructureType
      *
      * Validty condition governing applicability of hazard.
      *
-     * @param \Calcinai\Siri\IFOpt\ValidityConditionStructureType $validityCondition
+     * @param \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType $validityCondition
      * @return self
      */
-    public function setValidityCondition(\Calcinai\Siri\IFOpt\ValidityConditionStructureType $validityCondition)
+    public function setValidityCondition(\Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType $validityCondition)
     {
         $this->validityCondition = $validityCondition;
         return $this;

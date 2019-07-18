@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MeasuredValueType
@@ -14,22 +14,22 @@ class MeasuredValueType
     /**
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
-     * @property \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
+     * @property \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
      */
     private $measurementEquipmentTypeUsed = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\LocationCharacteristicsOverrideType $locationCharacteristicsOverride
+     * @property \Calcinai\Siri\Objects\Datex\LocationCharacteristicsOverrideType $locationCharacteristicsOverride
      */
     private $locationCharacteristicsOverride = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\BasicDataValueType $basicDataValue
+     * @property \Calcinai\Siri\Objects\Datex\BasicDataValueType $basicDataValue
      */
     private $basicDataValue = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $measuredValueExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $measuredValueExtension
      */
     private $measuredValueExtension = null;
 
@@ -39,9 +39,9 @@ class MeasuredValueType
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value
      */
-    public function addToMeasurementEquipmentTypeUsed(\Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value)
+    public function addToMeasurementEquipmentTypeUsed(\Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value)
     {
         $this->measurementEquipmentTypeUsed[] = $value;
         return $this;
@@ -78,7 +78,7 @@ class MeasuredValueType
      *
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
-     * @return \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[]
      */
     public function getMeasurementEquipmentTypeUsed()
     {
@@ -90,7 +90,7 @@ class MeasuredValueType
      *
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
-     * @param \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
+     * @param \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
      * @return self
      */
     public function setMeasurementEquipmentTypeUsed(array $measurementEquipmentTypeUsed)
@@ -102,7 +102,7 @@ class MeasuredValueType
     /**
      * Gets as locationCharacteristicsOverride
      *
-     * @return \Calcinai\Siri\Datex\LocationCharacteristicsOverrideType
+     * @return \Calcinai\Siri\Objects\Datex\LocationCharacteristicsOverrideType
      */
     public function getLocationCharacteristicsOverride()
     {
@@ -112,10 +112,10 @@ class MeasuredValueType
     /**
      * Sets a new locationCharacteristicsOverride
      *
-     * @param \Calcinai\Siri\Datex\LocationCharacteristicsOverrideType $locationCharacteristicsOverride
+     * @param \Calcinai\Siri\Objects\Datex\LocationCharacteristicsOverrideType $locationCharacteristicsOverride
      * @return self
      */
-    public function setLocationCharacteristicsOverride(\Calcinai\Siri\Datex\LocationCharacteristicsOverrideType $locationCharacteristicsOverride)
+    public function setLocationCharacteristicsOverride(\Calcinai\Siri\Objects\Datex\LocationCharacteristicsOverrideType $locationCharacteristicsOverride)
     {
         $this->locationCharacteristicsOverride = $locationCharacteristicsOverride;
         return $this;
@@ -124,7 +124,7 @@ class MeasuredValueType
     /**
      * Gets as basicDataValue
      *
-     * @return \Calcinai\Siri\Datex\BasicDataValueType
+     * @return \Calcinai\Siri\Objects\Datex\BasicDataValueType
      */
     public function getBasicDataValue()
     {
@@ -134,10 +134,10 @@ class MeasuredValueType
     /**
      * Sets a new basicDataValue
      *
-     * @param \Calcinai\Siri\Datex\BasicDataValueType $basicDataValue
+     * @param \Calcinai\Siri\Objects\Datex\BasicDataValueType $basicDataValue
      * @return self
      */
-    public function setBasicDataValue(\Calcinai\Siri\Datex\BasicDataValueType $basicDataValue)
+    public function setBasicDataValue(\Calcinai\Siri\Objects\Datex\BasicDataValueType $basicDataValue)
     {
         $this->basicDataValue = $basicDataValue;
         return $this;
@@ -146,7 +146,7 @@ class MeasuredValueType
     /**
      * Gets as measuredValueExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMeasuredValueExtension()
     {
@@ -156,10 +156,10 @@ class MeasuredValueType
     /**
      * Sets a new measuredValueExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $measuredValueExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $measuredValueExtension
      * @return self
      */
-    public function setMeasuredValueExtension(\Calcinai\Siri\Datex\ExtensionType $measuredValueExtension)
+    public function setMeasuredValueExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $measuredValueExtension)
     {
         $this->measuredValueExtension = $measuredValueExtension;
         return $this;

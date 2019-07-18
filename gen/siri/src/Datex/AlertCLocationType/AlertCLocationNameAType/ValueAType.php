@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType;
+namespace Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType;
 
 /**
  * Class representing ValueAType

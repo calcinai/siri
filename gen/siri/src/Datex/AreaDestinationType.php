@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AreaDestinationType
@@ -12,19 +12,19 @@ class AreaDestinationType extends DestinationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AreaType $area
+     * @property \Calcinai\Siri\Objects\Datex\AreaType $area
      */
     private $area = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $areaDestinationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $areaDestinationExtension
      */
     private $areaDestinationExtension = null;
 
     /**
      * Gets as area
      *
-     * @return \Calcinai\Siri\Datex\AreaType
+     * @return \Calcinai\Siri\Objects\Datex\AreaType
      */
     public function getArea()
     {
@@ -34,10 +34,10 @@ class AreaDestinationType extends DestinationType
     /**
      * Sets a new area
      *
-     * @param \Calcinai\Siri\Datex\AreaType $area
+     * @param \Calcinai\Siri\Objects\Datex\AreaType $area
      * @return self
      */
-    public function setArea(\Calcinai\Siri\Datex\AreaType $area)
+    public function setArea(\Calcinai\Siri\Objects\Datex\AreaType $area)
     {
         $this->area = $area;
         return $this;
@@ -46,7 +46,7 @@ class AreaDestinationType extends DestinationType
     /**
      * Gets as areaDestinationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAreaDestinationExtension()
     {
@@ -56,10 +56,10 @@ class AreaDestinationType extends DestinationType
     /**
      * Sets a new areaDestinationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $areaDestinationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $areaDestinationExtension
      * @return self
      */
-    public function setAreaDestinationExtension(\Calcinai\Siri\Datex\ExtensionType $areaDestinationExtension)
+    public function setAreaDestinationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $areaDestinationExtension)
     {
         $this->areaDestinationExtension = $areaDestinationExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TrafficViewRecordType:
+Calcinai\Siri\Objects\Datex\TrafficViewRecordType:
     properties:
         id:
             expose: true
@@ -28,7 +28,7 @@ Calcinai\Siri\Datex\TrafficViewRecordType:
             accessor:
                 getter: getTrafficElement
                 setter: setTrafficElement
-            type: Calcinai\Siri\Datex\TrafficElementType
+            type: Calcinai\Siri\Objects\Datex\TrafficElementType
         operatorAction:
             expose: true
             access_type: public_method
@@ -38,7 +38,7 @@ Calcinai\Siri\Datex\TrafficViewRecordType:
             accessor:
                 getter: getOperatorAction
                 setter: setOperatorAction
-            type: Calcinai\Siri\Datex\OperatorActionType
+            type: Calcinai\Siri\Objects\Datex\OperatorActionType
         elaboratedData:
             expose: true
             access_type: public_method
@@ -48,7 +48,7 @@ Calcinai\Siri\Datex\TrafficViewRecordType:
             accessor:
                 getter: getElaboratedData
                 setter: setElaboratedData
-            type: Calcinai\Siri\Datex\ElaboratedDataType
+            type: Calcinai\Siri\Objects\Datex\ElaboratedDataType
         cctvimages:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ Calcinai\Siri\Datex\TrafficViewRecordType:
             accessor:
                 getter: getCctvimages
                 setter: setCctvimages
-            type: Calcinai\Siri\Datex\CCTVImagesType
+            type: Calcinai\Siri\Objects\Datex\CCTVImagesType
         trafficViewRecordExtension:
             expose: true
             access_type: public_method
@@ -68,4 +68,4 @@ Calcinai\Siri\Datex\TrafficViewRecordType:
             accessor:
                 getter: getTrafficViewRecordExtension
                 setter: setTrafficViewRecordExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType;
 
-use Calcinai\Siri\CapabilityRequestPolicyStructureType;
+use Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType;
 
 /**
  * Class representing RequestPolicyAType

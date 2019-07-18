@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing BasicDataValueType
@@ -35,7 +35,7 @@ class BasicDataValueType
     /**
      * The reason why the value is deemed to be faulty by the supplier.
      *
-     * @property \Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType\ValueAType[] $faultReason
+     * @property \Calcinai\Siri\Objects\Datex\BasicDataValueType\FaultReasonAType\ValueAType[] $faultReason
      */
     private $faultReason = null;
 
@@ -89,12 +89,12 @@ class BasicDataValueType
     private $time = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\GroupOfLocationsType $affectedLocation
+     * @property \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $affectedLocation
      */
     private $affectedLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $basicDataValueExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $basicDataValueExtension
      */
     private $basicDataValueExtension = null;
 
@@ -182,9 +182,9 @@ class BasicDataValueType
      * The reason why the value is deemed to be faulty by the supplier.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\BasicDataValueType\FaultReasonAType\ValueAType $value
      */
-    public function addToFaultReason(\Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType\ValueAType $value)
+    public function addToFaultReason(\Calcinai\Siri\Objects\Datex\BasicDataValueType\FaultReasonAType\ValueAType $value)
     {
         $this->faultReason[] = $value;
         return $this;
@@ -221,7 +221,7 @@ class BasicDataValueType
      *
      * The reason why the value is deemed to be faulty by the supplier.
      *
-     * @return \Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\BasicDataValueType\FaultReasonAType\ValueAType[]
      */
     public function getFaultReason()
     {
@@ -233,7 +233,7 @@ class BasicDataValueType
      *
      * The reason why the value is deemed to be faulty by the supplier.
      *
-     * @param \Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType\ValueAType[] $faultReason
+     * @param \Calcinai\Siri\Objects\Datex\BasicDataValueType\FaultReasonAType\ValueAType[] $faultReason
      * @return self
      */
     public function setFaultReason(array $faultReason)
@@ -427,7 +427,7 @@ class BasicDataValueType
     /**
      * Gets as affectedLocation
      *
-     * @return \Calcinai\Siri\Datex\GroupOfLocationsType
+     * @return \Calcinai\Siri\Objects\Datex\GroupOfLocationsType
      */
     public function getAffectedLocation()
     {
@@ -437,10 +437,10 @@ class BasicDataValueType
     /**
      * Sets a new affectedLocation
      *
-     * @param \Calcinai\Siri\Datex\GroupOfLocationsType $affectedLocation
+     * @param \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $affectedLocation
      * @return self
      */
-    public function setAffectedLocation(\Calcinai\Siri\Datex\GroupOfLocationsType $affectedLocation)
+    public function setAffectedLocation(\Calcinai\Siri\Objects\Datex\GroupOfLocationsType $affectedLocation)
     {
         $this->affectedLocation = $affectedLocation;
         return $this;
@@ -449,7 +449,7 @@ class BasicDataValueType
     /**
      * Gets as basicDataValueExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getBasicDataValueExtension()
     {
@@ -459,10 +459,10 @@ class BasicDataValueType
     /**
      * Sets a new basicDataValueExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $basicDataValueExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $basicDataValueExtension
      * @return self
      */
-    public function setBasicDataValueExtension(\Calcinai\Siri\Datex\ExtensionType $basicDataValueExtension)
+    public function setBasicDataValueExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $basicDataValueExtension)
     {
         $this->basicDataValueExtension = $basicDataValueExtension;
         return $this;

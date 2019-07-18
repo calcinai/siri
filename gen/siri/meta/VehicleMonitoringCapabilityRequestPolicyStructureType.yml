@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringCapabilityRequestPolicyStructureType:
+Calcinai\Siri\Objects\VehicleMonitoringCapabilityRequestPolicyStructureType:
     properties:
         hasReferences:
             expose: true

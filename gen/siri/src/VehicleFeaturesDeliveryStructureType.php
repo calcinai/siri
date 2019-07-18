@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleFeaturesDeliveryStructureType
@@ -19,14 +19,14 @@ class VehicleFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\VehicleFeature[] $vehicleFeature
+     * @property \Calcinai\Siri\Objects\VehicleFeature[] $vehicleFeature
      */
     private $vehicleFeature = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -60,9 +60,9 @@ class VehicleFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
      * Adds as vehicleFeature
      *
      * @return self
-     * @param \Calcinai\Siri\VehicleFeature $vehicleFeature
+     * @param \Calcinai\Siri\Objects\VehicleFeature $vehicleFeature
      */
-    public function addToVehicleFeature(\Calcinai\Siri\VehicleFeature $vehicleFeature)
+    public function addToVehicleFeature(\Calcinai\Siri\Objects\VehicleFeature $vehicleFeature)
     {
         $this->vehicleFeature[] = $vehicleFeature;
         return $this;
@@ -93,7 +93,7 @@ class VehicleFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     /**
      * Gets as vehicleFeature
      *
-     * @return \Calcinai\Siri\VehicleFeature[]
+     * @return \Calcinai\Siri\Objects\VehicleFeature[]
      */
     public function getVehicleFeature()
     {
@@ -103,7 +103,7 @@ class VehicleFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     /**
      * Sets a new vehicleFeature
      *
-     * @param \Calcinai\Siri\VehicleFeature[] $vehicleFeature
+     * @param \Calcinai\Siri\Objects\VehicleFeature[] $vehicleFeature
      * @return self
      */
     public function setVehicleFeature(array $vehicleFeature)
@@ -115,7 +115,7 @@ class VehicleFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -125,10 +125,10 @@ class VehicleFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

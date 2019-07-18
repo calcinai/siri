@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedLineStructureType
@@ -14,7 +14,7 @@ class AffectedLineStructureType
     /**
      * Operators of lines affected by incident. Overrides any value sspecified for (i) Affected Network (ii) General Context.
      *
-     * @property \Calcinai\Siri\AffectedOperatorStructureType[] $affectedOperator
+     * @property \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $affectedOperator
      */
     private $affectedOperator = [
         
@@ -28,7 +28,7 @@ class AffectedLineStructureType
     /**
      * Destinations to which the line runs
      *
-     * @property \Calcinai\Siri\AffectedStopPointStructureType[] $destinations
+     * @property \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $destinations
      */
     private $destinations = [
         
@@ -37,7 +37,7 @@ class AffectedLineStructureType
     /**
      * Directions affected.
      *
-     * @property \Calcinai\Siri\DirectionStructureType[] $direction
+     * @property \Calcinai\Siri\Objects\DirectionStructureType[] $direction
      */
     private $direction = [
         
@@ -46,19 +46,19 @@ class AffectedLineStructureType
     /**
      * Routes affected if line has multiple routes
      *
-     * @property \Calcinai\Siri\AffectedRouteStructureType[] $routes
+     * @property \Calcinai\Siri\Objects\AffectedRouteStructureType[] $routes
      */
     private $routes = null;
 
     /**
      * Line sections affected
      *
-     * @property \Calcinai\Siri\AffectedSectionStructureType[] $sections
+     * @property \Calcinai\Siri\Objects\AffectedSectionStructureType[] $sections
      */
     private $sections = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -68,9 +68,9 @@ class AffectedLineStructureType
      * Operators of lines affected by incident. Overrides any value sspecified for (i) Affected Network (ii) General Context.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedOperatorStructureType $affectedOperator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType $affectedOperator
      */
-    public function addToAffectedOperator(\Calcinai\Siri\AffectedOperatorStructureType $affectedOperator)
+    public function addToAffectedOperator(\Calcinai\Siri\Objects\AffectedOperatorStructureType $affectedOperator)
     {
         $this->affectedOperator[] = $affectedOperator;
         return $this;
@@ -107,7 +107,7 @@ class AffectedLineStructureType
      *
      * Operators of lines affected by incident. Overrides any value sspecified for (i) Affected Network (ii) General Context.
      *
-     * @return \Calcinai\Siri\AffectedOperatorStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedOperatorStructureType[]
      */
     public function getAffectedOperator()
     {
@@ -119,7 +119,7 @@ class AffectedLineStructureType
      *
      * Operators of lines affected by incident. Overrides any value sspecified for (i) Affected Network (ii) General Context.
      *
-     * @param \Calcinai\Siri\AffectedOperatorStructureType[] $affectedOperator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $affectedOperator
      * @return self
      */
     public function setAffectedOperator(array $affectedOperator)
@@ -156,9 +156,9 @@ class AffectedLineStructureType
      * Destinations to which the line runs
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPointStructureType $destinations
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType $destinations
      */
-    public function addToDestinations(\Calcinai\Siri\AffectedStopPointStructureType $destinations)
+    public function addToDestinations(\Calcinai\Siri\Objects\AffectedStopPointStructureType $destinations)
     {
         $this->destinations[] = $destinations;
         return $this;
@@ -195,7 +195,7 @@ class AffectedLineStructureType
      *
      * Destinations to which the line runs
      *
-     * @return \Calcinai\Siri\AffectedStopPointStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPointStructureType[]
      */
     public function getDestinations()
     {
@@ -207,7 +207,7 @@ class AffectedLineStructureType
      *
      * Destinations to which the line runs
      *
-     * @param \Calcinai\Siri\AffectedStopPointStructureType[] $destinations
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $destinations
      * @return self
      */
     public function setDestinations(array $destinations)
@@ -222,9 +222,9 @@ class AffectedLineStructureType
      * Directions affected.
      *
      * @return self
-     * @param \Calcinai\Siri\DirectionStructureType $direction
+     * @param \Calcinai\Siri\Objects\DirectionStructureType $direction
      */
-    public function addToDirection(\Calcinai\Siri\DirectionStructureType $direction)
+    public function addToDirection(\Calcinai\Siri\Objects\DirectionStructureType $direction)
     {
         $this->direction[] = $direction;
         return $this;
@@ -261,7 +261,7 @@ class AffectedLineStructureType
      *
      * Directions affected.
      *
-     * @return \Calcinai\Siri\DirectionStructureType[]
+     * @return \Calcinai\Siri\Objects\DirectionStructureType[]
      */
     public function getDirection()
     {
@@ -273,7 +273,7 @@ class AffectedLineStructureType
      *
      * Directions affected.
      *
-     * @param \Calcinai\Siri\DirectionStructureType[] $direction
+     * @param \Calcinai\Siri\Objects\DirectionStructureType[] $direction
      * @return self
      */
     public function setDirection(array $direction)
@@ -288,9 +288,9 @@ class AffectedLineStructureType
      * Routes affected if line has multiple routes
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedRouteStructureType $affectedRoute
+     * @param \Calcinai\Siri\Objects\AffectedRouteStructureType $affectedRoute
      */
-    public function addToRoutes(\Calcinai\Siri\AffectedRouteStructureType $affectedRoute)
+    public function addToRoutes(\Calcinai\Siri\Objects\AffectedRouteStructureType $affectedRoute)
     {
         $this->routes[] = $affectedRoute;
         return $this;
@@ -327,7 +327,7 @@ class AffectedLineStructureType
      *
      * Routes affected if line has multiple routes
      *
-     * @return \Calcinai\Siri\AffectedRouteStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedRouteStructureType[]
      */
     public function getRoutes()
     {
@@ -339,7 +339,7 @@ class AffectedLineStructureType
      *
      * Routes affected if line has multiple routes
      *
-     * @param \Calcinai\Siri\AffectedRouteStructureType[] $routes
+     * @param \Calcinai\Siri\Objects\AffectedRouteStructureType[] $routes
      * @return self
      */
     public function setRoutes(array $routes)
@@ -354,9 +354,9 @@ class AffectedLineStructureType
      * Line sections affected
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedSectionStructureType $affectedSection
+     * @param \Calcinai\Siri\Objects\AffectedSectionStructureType $affectedSection
      */
-    public function addToSections(\Calcinai\Siri\AffectedSectionStructureType $affectedSection)
+    public function addToSections(\Calcinai\Siri\Objects\AffectedSectionStructureType $affectedSection)
     {
         $this->sections[] = $affectedSection;
         return $this;
@@ -393,7 +393,7 @@ class AffectedLineStructureType
      *
      * Line sections affected
      *
-     * @return \Calcinai\Siri\AffectedSectionStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedSectionStructureType[]
      */
     public function getSections()
     {
@@ -405,7 +405,7 @@ class AffectedLineStructureType
      *
      * Line sections affected
      *
-     * @param \Calcinai\Siri\AffectedSectionStructureType[] $sections
+     * @param \Calcinai\Siri\Objects\AffectedSectionStructureType[] $sections
      * @return self
      */
     public function setSections(array $sections)
@@ -417,7 +417,7 @@ class AffectedLineStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -427,10 +427,10 @@ class AffectedLineStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

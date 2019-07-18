@@ -1,4 +1,4 @@
-Calcinai\Siri\PtSituationElementStructureType\RepetitionsAType:
+Calcinai\Siri\Objects\PtSituationElementStructureType\RepetitionsAType:
     properties:
         dayType:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\PtSituationElementStructureType\RepetitionsAType:
                 inline: true
                 entry_name: DayType
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\DayType>
+            type: array<Calcinai\Siri\Objects\DayType>

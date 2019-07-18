@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing DiversionType
@@ -19,7 +19,7 @@ class DiversionType extends AdviceType
     private $diversionAdvice = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $diversionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $diversionExtension
      */
     private $diversionExtension = null;
 
@@ -52,7 +52,7 @@ class DiversionType extends AdviceType
     /**
      * Gets as diversionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getDiversionExtension()
     {
@@ -62,10 +62,10 @@ class DiversionType extends AdviceType
     /**
      * Sets a new diversionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $diversionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $diversionExtension
      * @return self
      */
-    public function setDiversionExtension(\Calcinai\Siri\Datex\ExtensionType $diversionExtension)
+    public function setDiversionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $diversionExtension)
     {
         $this->diversionExtension = $diversionExtension;
         return $this;

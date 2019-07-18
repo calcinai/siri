@@ -1,4 +1,4 @@
-Calcinai\Siri\StopTimetableSubscriptionStructureType:
+Calcinai\Siri\Objects\StopTimetableSubscriptionStructureType:
     properties:
         stopTimetableRequest:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\StopTimetableSubscriptionStructureType:
             accessor:
                 getter: getStopTimetableRequest
                 setter: setStopTimetableRequest
-            type: Calcinai\Siri\StopTimetableRequest
+            type: Calcinai\Siri\Objects\StopTimetableRequest
         incrementalUpdates:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\StopTimetableSubscriptionStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

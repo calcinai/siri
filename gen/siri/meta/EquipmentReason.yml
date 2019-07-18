@@ -1,4 +1,4 @@
-Calcinai\Siri\EquipmentReason:
+Calcinai\Siri\Objects\EquipmentReason:
     xml_root_name: EquipmentReason
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

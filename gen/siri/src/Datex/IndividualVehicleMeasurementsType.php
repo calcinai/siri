@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing IndividualVehicleMeasurementsType
@@ -12,29 +12,29 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleSpeedType $vehicleSpeed
+     * @property \Calcinai\Siri\Objects\Datex\VehicleSpeedType $vehicleSpeed
      */
     private $vehicleSpeed = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleDetectionTimeType $vehicleDetectionTime
+     * @property \Calcinai\Siri\Objects\Datex\VehicleDetectionTimeType $vehicleDetectionTime
      */
     private $vehicleDetectionTime = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleHeadwayType $vehicleHeadway
+     * @property \Calcinai\Siri\Objects\Datex\VehicleHeadwayType $vehicleHeadway
      */
     private $vehicleHeadway = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $individualVehicleMeasurementsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $individualVehicleMeasurementsExtension
      */
     private $individualVehicleMeasurementsExtension = null;
 
     /**
      * Gets as vehicleSpeed
      *
-     * @return \Calcinai\Siri\Datex\VehicleSpeedType
+     * @return \Calcinai\Siri\Objects\Datex\VehicleSpeedType
      */
     public function getVehicleSpeed()
     {
@@ -44,10 +44,10 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
     /**
      * Sets a new vehicleSpeed
      *
-     * @param \Calcinai\Siri\Datex\VehicleSpeedType $vehicleSpeed
+     * @param \Calcinai\Siri\Objects\Datex\VehicleSpeedType $vehicleSpeed
      * @return self
      */
-    public function setVehicleSpeed(\Calcinai\Siri\Datex\VehicleSpeedType $vehicleSpeed)
+    public function setVehicleSpeed(\Calcinai\Siri\Objects\Datex\VehicleSpeedType $vehicleSpeed)
     {
         $this->vehicleSpeed = $vehicleSpeed;
         return $this;
@@ -56,7 +56,7 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
     /**
      * Gets as vehicleDetectionTime
      *
-     * @return \Calcinai\Siri\Datex\VehicleDetectionTimeType
+     * @return \Calcinai\Siri\Objects\Datex\VehicleDetectionTimeType
      */
     public function getVehicleDetectionTime()
     {
@@ -66,10 +66,10 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
     /**
      * Sets a new vehicleDetectionTime
      *
-     * @param \Calcinai\Siri\Datex\VehicleDetectionTimeType $vehicleDetectionTime
+     * @param \Calcinai\Siri\Objects\Datex\VehicleDetectionTimeType $vehicleDetectionTime
      * @return self
      */
-    public function setVehicleDetectionTime(\Calcinai\Siri\Datex\VehicleDetectionTimeType $vehicleDetectionTime)
+    public function setVehicleDetectionTime(\Calcinai\Siri\Objects\Datex\VehicleDetectionTimeType $vehicleDetectionTime)
     {
         $this->vehicleDetectionTime = $vehicleDetectionTime;
         return $this;
@@ -78,7 +78,7 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
     /**
      * Gets as vehicleHeadway
      *
-     * @return \Calcinai\Siri\Datex\VehicleHeadwayType
+     * @return \Calcinai\Siri\Objects\Datex\VehicleHeadwayType
      */
     public function getVehicleHeadway()
     {
@@ -88,10 +88,10 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
     /**
      * Sets a new vehicleHeadway
      *
-     * @param \Calcinai\Siri\Datex\VehicleHeadwayType $vehicleHeadway
+     * @param \Calcinai\Siri\Objects\Datex\VehicleHeadwayType $vehicleHeadway
      * @return self
      */
-    public function setVehicleHeadway(\Calcinai\Siri\Datex\VehicleHeadwayType $vehicleHeadway)
+    public function setVehicleHeadway(\Calcinai\Siri\Objects\Datex\VehicleHeadwayType $vehicleHeadway)
     {
         $this->vehicleHeadway = $vehicleHeadway;
         return $this;
@@ -100,7 +100,7 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
     /**
      * Gets as individualVehicleMeasurementsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getIndividualVehicleMeasurementsExtension()
     {
@@ -110,10 +110,10 @@ class IndividualVehicleMeasurementsType extends TrafficValueType
     /**
      * Sets a new individualVehicleMeasurementsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $individualVehicleMeasurementsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $individualVehicleMeasurementsExtension
      * @return self
      */
-    public function setIndividualVehicleMeasurementsExtension(\Calcinai\Siri\Datex\ExtensionType $individualVehicleMeasurementsExtension)
+    public function setIndividualVehicleMeasurementsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $individualVehicleMeasurementsExtension)
     {
         $this->individualVehicleMeasurementsExtension = $individualVehicleMeasurementsExtension;
         return $this;

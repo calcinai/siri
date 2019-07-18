@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ACSB;
+namespace Calcinai\Siri\Objects\ACSB;
 
 /**
  * Class representing AccessibilityAssessmentStructureType
@@ -21,14 +21,14 @@ class AccessibilityAssessmentStructureType
     /**
      * The Limitations that apply to component
      *
-     * @property \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType[] $limitations
+     * @property \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType[] $limitations
      */
     private $limitations = null;
 
     /**
      * The Suitability of the component to meet specifc user needs
      *
-     * @property \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitabilities
+     * @property \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitabilities
      */
     private $suitabilities = null;
 
@@ -69,9 +69,9 @@ class AccessibilityAssessmentStructureType
      * The Limitations that apply to component
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation
      */
-    public function addToLimitations(\Calcinai\Siri\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation)
+    public function addToLimitations(\Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType $accessibilityLimitation)
     {
         $this->limitations[] = $accessibilityLimitation;
         return $this;
@@ -108,7 +108,7 @@ class AccessibilityAssessmentStructureType
      *
      * The Limitations that apply to component
      *
-     * @return \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType[]
      */
     public function getLimitations()
     {
@@ -120,7 +120,7 @@ class AccessibilityAssessmentStructureType
      *
      * The Limitations that apply to component
      *
-     * @param \Calcinai\Siri\ACSB\AccessibilityLimitationStructureType[] $limitations
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityLimitationStructureType[] $limitations
      * @return self
      */
     public function setLimitations(array $limitations)
@@ -135,9 +135,9 @@ class AccessibilityAssessmentStructureType
      * The Suitability of the component to meet specifc user needs
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability
      */
-    public function addToSuitabilities(\Calcinai\Siri\ACSB\SuitabilityStructureType $suitability)
+    public function addToSuitabilities(\Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability)
     {
         $this->suitabilities[] = $suitability;
         return $this;
@@ -174,7 +174,7 @@ class AccessibilityAssessmentStructureType
      *
      * The Suitability of the component to meet specifc user needs
      *
-     * @return \Calcinai\Siri\ACSB\SuitabilityStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[]
      */
     public function getSuitabilities()
     {
@@ -186,7 +186,7 @@ class AccessibilityAssessmentStructureType
      *
      * The Suitability of the component to meet specifc user needs
      *
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitabilities
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitabilities
      * @return self
      */
     public function setSuitabilities(array $suitabilities)

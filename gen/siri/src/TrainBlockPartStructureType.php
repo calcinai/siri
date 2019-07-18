@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TrainBlockPartStructureType
@@ -28,7 +28,7 @@ class TrainBlockPartStructureType
     /**
      * Description of position of Train Block Part within Train to guide passengers where to find it. E.g. 'Front four coaches'.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $positionOfTrainBlockPart
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $positionOfTrainBlockPart
      */
     private $positionOfTrainBlockPart = null;
 
@@ -89,7 +89,7 @@ class TrainBlockPartStructureType
      *
      * Description of position of Train Block Part within Train to guide passengers where to find it. E.g. 'Front four coaches'.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getPositionOfTrainBlockPart()
     {
@@ -101,10 +101,10 @@ class TrainBlockPartStructureType
      *
      * Description of position of Train Block Part within Train to guide passengers where to find it. E.g. 'Front four coaches'.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $positionOfTrainBlockPart
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $positionOfTrainBlockPart
      * @return self
      */
-    public function setPositionOfTrainBlockPart(\Calcinai\Siri\NaturalLanguageStringStructureType $positionOfTrainBlockPart)
+    public function setPositionOfTrainBlockPart(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $positionOfTrainBlockPart)
     {
         $this->positionOfTrainBlockPart = $positionOfTrainBlockPart;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AbstractCapabilitiesStructureType
@@ -14,14 +14,14 @@ class AbstractCapabilitiesStructureType
     /**
      * General capabilities common to all SIRI service request types.
      *
-     * @property \Calcinai\Siri\CapabilityGeneralInteractionStructureType $generalInteraction
+     * @property \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType $generalInteraction
      */
     private $generalInteraction = null;
 
     /**
      * Implementation properties common to all request types.
      *
-     * @property \Calcinai\Siri\TransportDescriptionStructureType $transportDescription
+     * @property \Calcinai\Siri\Objects\TransportDescriptionStructureType $transportDescription
      */
     private $transportDescription = null;
 
@@ -30,7 +30,7 @@ class AbstractCapabilitiesStructureType
      *
      * General capabilities common to all SIRI service request types.
      *
-     * @return \Calcinai\Siri\CapabilityGeneralInteractionStructureType
+     * @return \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType
      */
     public function getGeneralInteraction()
     {
@@ -42,10 +42,10 @@ class AbstractCapabilitiesStructureType
      *
      * General capabilities common to all SIRI service request types.
      *
-     * @param \Calcinai\Siri\CapabilityGeneralInteractionStructureType $generalInteraction
+     * @param \Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType $generalInteraction
      * @return self
      */
-    public function setGeneralInteraction(\Calcinai\Siri\CapabilityGeneralInteractionStructureType $generalInteraction)
+    public function setGeneralInteraction(\Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType $generalInteraction)
     {
         $this->generalInteraction = $generalInteraction;
         return $this;
@@ -56,7 +56,7 @@ class AbstractCapabilitiesStructureType
      *
      * Implementation properties common to all request types.
      *
-     * @return \Calcinai\Siri\TransportDescriptionStructureType
+     * @return \Calcinai\Siri\Objects\TransportDescriptionStructureType
      */
     public function getTransportDescription()
     {
@@ -68,10 +68,10 @@ class AbstractCapabilitiesStructureType
      *
      * Implementation properties common to all request types.
      *
-     * @param \Calcinai\Siri\TransportDescriptionStructureType $transportDescription
+     * @param \Calcinai\Siri\Objects\TransportDescriptionStructureType $transportDescription
      * @return self
      */
-    public function setTransportDescription(\Calcinai\Siri\TransportDescriptionStructureType $transportDescription)
+    public function setTransportDescription(\Calcinai\Siri\Objects\TransportDescriptionStructureType $transportDescription)
     {
         $this->transportDescription = $transportDescription;
         return $this;

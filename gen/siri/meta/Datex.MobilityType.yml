@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\MobilityType:
+Calcinai\Siri\Objects\Datex\MobilityType:
     properties:
         mobilityType:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\MobilityType:
             accessor:
                 getter: getMobilityExtension
                 setter: setMobilityExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

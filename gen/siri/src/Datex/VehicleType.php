@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehicleType
@@ -14,14 +14,14 @@ class VehicleType
     /**
      * The colour of the vehicle.
      *
-     * @property \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType[] $vehicleColour
+     * @property \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType[] $vehicleColour
      */
     private $vehicleColour = null;
 
     /**
      * Specification of the country in which the vehicle is registered. The code is the 2-alpha code as given in EN ISO 3166-1.
      *
-     * @property \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $vehicleCountryOfOrigin
+     * @property \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $vehicleCountryOfOrigin
      */
     private $vehicleCountryOfOrigin = null;
 
@@ -61,31 +61,31 @@ class VehicleType
     private $vehicleStatus = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleCharacteristicsType $vehicleCharacteristics
+     * @property \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $vehicleCharacteristics
      */
     private $vehicleCharacteristics = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AxleSpacingType[] $axleSpacingOnVehicle
+     * @property \Calcinai\Siri\Objects\Datex\AxleSpacingType[] $axleSpacingOnVehicle
      */
     private $axleSpacingOnVehicle = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\AxleWeightType[] $axleWeightsOfVehicle
+     * @property \Calcinai\Siri\Objects\Datex\AxleWeightType[] $axleWeightsOfVehicle
      */
     private $axleWeightsOfVehicle = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\HazardousMaterialsType $hazardousGoodsAssociatedWithVehicle
+     * @property \Calcinai\Siri\Objects\Datex\HazardousMaterialsType $hazardousGoodsAssociatedWithVehicle
      */
     private $hazardousGoodsAssociatedWithVehicle = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehicleExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleExtension
      */
     private $vehicleExtension = null;
 
@@ -95,9 +95,9 @@ class VehicleType
      * The colour of the vehicle.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType $value
      */
-    public function addToVehicleColour(\Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType $value)
+    public function addToVehicleColour(\Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType $value)
     {
         $this->vehicleColour[] = $value;
         return $this;
@@ -134,7 +134,7 @@ class VehicleType
      *
      * The colour of the vehicle.
      *
-     * @return \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType[]
      */
     public function getVehicleColour()
     {
@@ -146,7 +146,7 @@ class VehicleType
      *
      * The colour of the vehicle.
      *
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType[] $vehicleColour
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType[] $vehicleColour
      * @return self
      */
     public function setVehicleColour(array $vehicleColour)
@@ -161,9 +161,9 @@ class VehicleType
      * Specification of the country in which the vehicle is registered. The code is the 2-alpha code as given in EN ISO 3166-1.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value
      */
-    public function addToVehicleCountryOfOrigin(\Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value)
+    public function addToVehicleCountryOfOrigin(\Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType $value)
     {
         $this->vehicleCountryOfOrigin[] = $value;
         return $this;
@@ -200,7 +200,7 @@ class VehicleType
      *
      * Specification of the country in which the vehicle is registered. The code is the 2-alpha code as given in EN ISO 3166-1.
      *
-     * @return \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[]
      */
     public function getVehicleCountryOfOrigin()
     {
@@ -212,7 +212,7 @@ class VehicleType
      *
      * Specification of the country in which the vehicle is registered. The code is the 2-alpha code as given in EN ISO 3166-1.
      *
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $vehicleCountryOfOrigin
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType[] $vehicleCountryOfOrigin
      * @return self
      */
     public function setVehicleCountryOfOrigin(array $vehicleCountryOfOrigin)
@@ -354,7 +354,7 @@ class VehicleType
     /**
      * Gets as vehicleCharacteristics
      *
-     * @return \Calcinai\Siri\Datex\VehicleCharacteristicsType
+     * @return \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType
      */
     public function getVehicleCharacteristics()
     {
@@ -364,10 +364,10 @@ class VehicleType
     /**
      * Sets a new vehicleCharacteristics
      *
-     * @param \Calcinai\Siri\Datex\VehicleCharacteristicsType $vehicleCharacteristics
+     * @param \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $vehicleCharacteristics
      * @return self
      */
-    public function setVehicleCharacteristics(\Calcinai\Siri\Datex\VehicleCharacteristicsType $vehicleCharacteristics)
+    public function setVehicleCharacteristics(\Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $vehicleCharacteristics)
     {
         $this->vehicleCharacteristics = $vehicleCharacteristics;
         return $this;
@@ -377,9 +377,9 @@ class VehicleType
      * Adds as axleSpacingOnVehicle
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\AxleSpacingType $axleSpacingOnVehicle
+     * @param \Calcinai\Siri\Objects\Datex\AxleSpacingType $axleSpacingOnVehicle
      */
-    public function addToAxleSpacingOnVehicle(\Calcinai\Siri\Datex\AxleSpacingType $axleSpacingOnVehicle)
+    public function addToAxleSpacingOnVehicle(\Calcinai\Siri\Objects\Datex\AxleSpacingType $axleSpacingOnVehicle)
     {
         $this->axleSpacingOnVehicle[] = $axleSpacingOnVehicle;
         return $this;
@@ -410,7 +410,7 @@ class VehicleType
     /**
      * Gets as axleSpacingOnVehicle
      *
-     * @return \Calcinai\Siri\Datex\AxleSpacingType[]
+     * @return \Calcinai\Siri\Objects\Datex\AxleSpacingType[]
      */
     public function getAxleSpacingOnVehicle()
     {
@@ -420,7 +420,7 @@ class VehicleType
     /**
      * Sets a new axleSpacingOnVehicle
      *
-     * @param \Calcinai\Siri\Datex\AxleSpacingType[] $axleSpacingOnVehicle
+     * @param \Calcinai\Siri\Objects\Datex\AxleSpacingType[] $axleSpacingOnVehicle
      * @return self
      */
     public function setAxleSpacingOnVehicle(array $axleSpacingOnVehicle)
@@ -433,9 +433,9 @@ class VehicleType
      * Adds as axleWeightsOfVehicle
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\AxleWeightType $axleWeightsOfVehicle
+     * @param \Calcinai\Siri\Objects\Datex\AxleWeightType $axleWeightsOfVehicle
      */
-    public function addToAxleWeightsOfVehicle(\Calcinai\Siri\Datex\AxleWeightType $axleWeightsOfVehicle)
+    public function addToAxleWeightsOfVehicle(\Calcinai\Siri\Objects\Datex\AxleWeightType $axleWeightsOfVehicle)
     {
         $this->axleWeightsOfVehicle[] = $axleWeightsOfVehicle;
         return $this;
@@ -466,7 +466,7 @@ class VehicleType
     /**
      * Gets as axleWeightsOfVehicle
      *
-     * @return \Calcinai\Siri\Datex\AxleWeightType[]
+     * @return \Calcinai\Siri\Objects\Datex\AxleWeightType[]
      */
     public function getAxleWeightsOfVehicle()
     {
@@ -476,7 +476,7 @@ class VehicleType
     /**
      * Sets a new axleWeightsOfVehicle
      *
-     * @param \Calcinai\Siri\Datex\AxleWeightType[] $axleWeightsOfVehicle
+     * @param \Calcinai\Siri\Objects\Datex\AxleWeightType[] $axleWeightsOfVehicle
      * @return self
      */
     public function setAxleWeightsOfVehicle(array $axleWeightsOfVehicle)
@@ -488,7 +488,7 @@ class VehicleType
     /**
      * Gets as hazardousGoodsAssociatedWithVehicle
      *
-     * @return \Calcinai\Siri\Datex\HazardousMaterialsType
+     * @return \Calcinai\Siri\Objects\Datex\HazardousMaterialsType
      */
     public function getHazardousGoodsAssociatedWithVehicle()
     {
@@ -498,10 +498,10 @@ class VehicleType
     /**
      * Sets a new hazardousGoodsAssociatedWithVehicle
      *
-     * @param \Calcinai\Siri\Datex\HazardousMaterialsType $hazardousGoodsAssociatedWithVehicle
+     * @param \Calcinai\Siri\Objects\Datex\HazardousMaterialsType $hazardousGoodsAssociatedWithVehicle
      * @return self
      */
-    public function setHazardousGoodsAssociatedWithVehicle(\Calcinai\Siri\Datex\HazardousMaterialsType $hazardousGoodsAssociatedWithVehicle)
+    public function setHazardousGoodsAssociatedWithVehicle(\Calcinai\Siri\Objects\Datex\HazardousMaterialsType $hazardousGoodsAssociatedWithVehicle)
     {
         $this->hazardousGoodsAssociatedWithVehicle = $hazardousGoodsAssociatedWithVehicle;
         return $this;
@@ -510,7 +510,7 @@ class VehicleType
     /**
      * Gets as vehicleExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehicleExtension()
     {
@@ -520,10 +520,10 @@ class VehicleType
     /**
      * Sets a new vehicleExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehicleExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleExtension
      * @return self
      */
-    public function setVehicleExtension(\Calcinai\Siri\Datex\ExtensionType $vehicleExtension)
+    public function setVehicleExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehicleExtension)
     {
         $this->vehicleExtension = $vehicleExtension;
         return $this;

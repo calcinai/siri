@@ -1,4 +1,4 @@
-Calcinai\Siri\CourseOfJourneyStructureType:
+Calcinai\Siri\Objects\CourseOfJourneyStructureType:
     properties:
         __value:
             expose: true

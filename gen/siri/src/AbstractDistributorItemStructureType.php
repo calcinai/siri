@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AbstractDistributorItemStructureType
@@ -49,14 +49,14 @@ class AbstractDistributorItemStructureType extends AbstractItemStructureType
     /**
      * Information about the connecting Distributor (fetcher) Journey.
      *
-     * @property \Calcinai\Siri\InterchangeJourneyStructureType $distributorJourney
+     * @property \Calcinai\Siri\Objects\InterchangeJourneyStructureType $distributorJourney
      */
     private $distributorJourney = null;
 
     /**
      * Identifies the feeder Vehicle journey or journeys for which the Distributor (fetcher) will wait .
      *
-     * @property \Calcinai\Siri\FramedVehicleJourneyRefStructureType[] $feederVehicleJourneyRef
+     * @property \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType[] $feederVehicleJourneyRef
      */
     private $feederVehicleJourneyRef = [
         
@@ -197,7 +197,7 @@ class AbstractDistributorItemStructureType extends AbstractItemStructureType
      *
      * Information about the connecting Distributor (fetcher) Journey.
      *
-     * @return \Calcinai\Siri\InterchangeJourneyStructureType
+     * @return \Calcinai\Siri\Objects\InterchangeJourneyStructureType
      */
     public function getDistributorJourney()
     {
@@ -209,10 +209,10 @@ class AbstractDistributorItemStructureType extends AbstractItemStructureType
      *
      * Information about the connecting Distributor (fetcher) Journey.
      *
-     * @param \Calcinai\Siri\InterchangeJourneyStructureType $distributorJourney
+     * @param \Calcinai\Siri\Objects\InterchangeJourneyStructureType $distributorJourney
      * @return self
      */
-    public function setDistributorJourney(\Calcinai\Siri\InterchangeJourneyStructureType $distributorJourney)
+    public function setDistributorJourney(\Calcinai\Siri\Objects\InterchangeJourneyStructureType $distributorJourney)
     {
         $this->distributorJourney = $distributorJourney;
         return $this;
@@ -224,9 +224,9 @@ class AbstractDistributorItemStructureType extends AbstractItemStructureType
      * Identifies the feeder Vehicle journey or journeys for which the Distributor (fetcher) will wait .
      *
      * @return self
-     * @param \Calcinai\Siri\FramedVehicleJourneyRefStructureType $feederVehicleJourneyRef
+     * @param \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $feederVehicleJourneyRef
      */
-    public function addToFeederVehicleJourneyRef(\Calcinai\Siri\FramedVehicleJourneyRefStructureType $feederVehicleJourneyRef)
+    public function addToFeederVehicleJourneyRef(\Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $feederVehicleJourneyRef)
     {
         $this->feederVehicleJourneyRef[] = $feederVehicleJourneyRef;
         return $this;
@@ -263,7 +263,7 @@ class AbstractDistributorItemStructureType extends AbstractItemStructureType
      *
      * Identifies the feeder Vehicle journey or journeys for which the Distributor (fetcher) will wait .
      *
-     * @return \Calcinai\Siri\FramedVehicleJourneyRefStructureType[]
+     * @return \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType[]
      */
     public function getFeederVehicleJourneyRef()
     {
@@ -275,7 +275,7 @@ class AbstractDistributorItemStructureType extends AbstractItemStructureType
      *
      * Identifies the feeder Vehicle journey or journeys for which the Distributor (fetcher) will wait .
      *
-     * @param \Calcinai\Siri\FramedVehicleJourneyRefStructureType[] $feederVehicleJourneyRef
+     * @param \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType[] $feederVehicleJourneyRef
      * @return self
      */
     public function setFeederVehicleJourneyRef(array $feederVehicleJourneyRef)

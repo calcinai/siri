@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehicleAndTrafficTypeAdviceType
@@ -19,12 +19,12 @@ class VehicleAndTrafficTypeAdviceType extends AdviceType
     private $forTrafficOfType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleCharacteristicsType $forVehiclesWithCharacteristicsOf
+     * @property \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $forVehiclesWithCharacteristicsOf
      */
     private $forVehiclesWithCharacteristicsOf = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehicleAndTrafficTypeAdviceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleAndTrafficTypeAdviceExtension
      */
     private $vehicleAndTrafficTypeAdviceExtension = null;
 
@@ -57,7 +57,7 @@ class VehicleAndTrafficTypeAdviceType extends AdviceType
     /**
      * Gets as forVehiclesWithCharacteristicsOf
      *
-     * @return \Calcinai\Siri\Datex\VehicleCharacteristicsType
+     * @return \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType
      */
     public function getForVehiclesWithCharacteristicsOf()
     {
@@ -67,10 +67,10 @@ class VehicleAndTrafficTypeAdviceType extends AdviceType
     /**
      * Sets a new forVehiclesWithCharacteristicsOf
      *
-     * @param \Calcinai\Siri\Datex\VehicleCharacteristicsType $forVehiclesWithCharacteristicsOf
+     * @param \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $forVehiclesWithCharacteristicsOf
      * @return self
      */
-    public function setForVehiclesWithCharacteristicsOf(\Calcinai\Siri\Datex\VehicleCharacteristicsType $forVehiclesWithCharacteristicsOf)
+    public function setForVehiclesWithCharacteristicsOf(\Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $forVehiclesWithCharacteristicsOf)
     {
         $this->forVehiclesWithCharacteristicsOf = $forVehiclesWithCharacteristicsOf;
         return $this;
@@ -79,7 +79,7 @@ class VehicleAndTrafficTypeAdviceType extends AdviceType
     /**
      * Gets as vehicleAndTrafficTypeAdviceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehicleAndTrafficTypeAdviceExtension()
     {
@@ -89,10 +89,10 @@ class VehicleAndTrafficTypeAdviceType extends AdviceType
     /**
      * Sets a new vehicleAndTrafficTypeAdviceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehicleAndTrafficTypeAdviceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleAndTrafficTypeAdviceExtension
      * @return self
      */
-    public function setVehicleAndTrafficTypeAdviceExtension(\Calcinai\Siri\Datex\ExtensionType $vehicleAndTrafficTypeAdviceExtension)
+    public function setVehicleAndTrafficTypeAdviceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehicleAndTrafficTypeAdviceExtension)
     {
         $this->vehicleAndTrafficTypeAdviceExtension = $vehicleAndTrafficTypeAdviceExtension;
         return $this;

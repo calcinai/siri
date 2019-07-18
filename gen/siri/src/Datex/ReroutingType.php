@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ReroutingType
@@ -21,7 +21,7 @@ class ReroutingType extends TrafficControlType
     /**
      * A description of the rerouting itinerary.
      *
-     * @property \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $reroutingItineraryDescription
+     * @property \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $reroutingItineraryDescription
      */
     private $reroutingItineraryDescription = null;
 
@@ -33,7 +33,7 @@ class ReroutingType extends TrafficControlType
     private $reroutingType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $reroutingExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $reroutingExtension
      */
     private $reroutingExtension = null;
 
@@ -69,9 +69,9 @@ class ReroutingType extends TrafficControlType
      * A description of the rerouting itinerary.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value
      */
-    public function addToReroutingItineraryDescription(\Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value)
+    public function addToReroutingItineraryDescription(\Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType $value)
     {
         $this->reroutingItineraryDescription[] = $value;
         return $this;
@@ -108,7 +108,7 @@ class ReroutingType extends TrafficControlType
      *
      * A description of the rerouting itinerary.
      *
-     * @return \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[]
      */
     public function getReroutingItineraryDescription()
     {
@@ -120,7 +120,7 @@ class ReroutingType extends TrafficControlType
      *
      * A description of the rerouting itinerary.
      *
-     * @param \Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $reroutingItineraryDescription
+     * @param \Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType[] $reroutingItineraryDescription
      * @return self
      */
     public function setReroutingItineraryDescription(array $reroutingItineraryDescription)
@@ -158,7 +158,7 @@ class ReroutingType extends TrafficControlType
     /**
      * Gets as reroutingExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getReroutingExtension()
     {
@@ -168,10 +168,10 @@ class ReroutingType extends TrafficControlType
     /**
      * Sets a new reroutingExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $reroutingExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $reroutingExtension
      * @return self
      */
-    public function setReroutingExtension(\Calcinai\Siri\Datex\ExtensionType $reroutingExtension)
+    public function setReroutingExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $reroutingExtension)
     {
         $this->reroutingExtension = $reroutingExtension;
         return $this;

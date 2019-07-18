@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType:
+Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType:
     properties:
         value:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType:
                 inline: true
                 entry_name: value
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType>
+            type: array<Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType>

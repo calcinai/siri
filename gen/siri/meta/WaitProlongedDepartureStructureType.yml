@@ -1,4 +1,4 @@
-Calcinai\Siri\WaitProlongedDepartureStructureType:
+Calcinai\Siri\Objects\WaitProlongedDepartureStructureType:
     properties:
         expectedDepartureTime:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\WaitProlongedDepartureStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

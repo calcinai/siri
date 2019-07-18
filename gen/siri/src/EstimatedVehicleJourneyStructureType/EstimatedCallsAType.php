@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\EstimatedVehicleJourneyStructureType;
+namespace Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType;
 
 /**
  * Class representing EstimatedCallsAType
@@ -9,7 +9,7 @@ class EstimatedCallsAType
 {
 
     /**
-     * @property \Calcinai\Siri\EstimatedCall[] $estimatedCall
+     * @property \Calcinai\Siri\Objects\EstimatedCall[] $estimatedCall
      */
     private $estimatedCall = [
         
@@ -19,9 +19,9 @@ class EstimatedCallsAType
      * Adds as estimatedCall
      *
      * @return self
-     * @param \Calcinai\Siri\EstimatedCall $estimatedCall
+     * @param \Calcinai\Siri\Objects\EstimatedCall $estimatedCall
      */
-    public function addToEstimatedCall(\Calcinai\Siri\EstimatedCall $estimatedCall)
+    public function addToEstimatedCall(\Calcinai\Siri\Objects\EstimatedCall $estimatedCall)
     {
         $this->estimatedCall[] = $estimatedCall;
         return $this;
@@ -52,7 +52,7 @@ class EstimatedCallsAType
     /**
      * Gets as estimatedCall
      *
-     * @return \Calcinai\Siri\EstimatedCall[]
+     * @return \Calcinai\Siri\Objects\EstimatedCall[]
      */
     public function getEstimatedCall()
     {
@@ -62,7 +62,7 @@ class EstimatedCallsAType
     /**
      * Sets a new estimatedCall
      *
-     * @param \Calcinai\Siri\EstimatedCall[] $estimatedCall
+     * @param \Calcinai\Siri\Objects\EstimatedCall[] $estimatedCall
      * @return self
      */
     public function setEstimatedCall(array $estimatedCall)

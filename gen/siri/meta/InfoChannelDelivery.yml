@@ -1,3 +1,3 @@
-Calcinai\Siri\InfoChannelDelivery:
+Calcinai\Siri\Objects\InfoChannelDelivery:
     xml_root_name: InfoChannelDelivery
     xml_root_namespace: 'http://www.siri.org.uk/siri'

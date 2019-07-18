@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionServicePermissionStructureType:
+Calcinai\Siri\Objects\ConnectionServicePermissionStructureType:
     properties:
         operatorPermissions:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ConnectionServicePermissionStructureType:
             accessor:
                 getter: getOperatorPermissions
                 setter: setOperatorPermissions
-            type: Calcinai\Siri\OperatorPermissions
+            type: Calcinai\Siri\Objects\OperatorPermissions
         linePermissions:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\ConnectionServicePermissionStructureType:
             accessor:
                 getter: getLinePermissions
                 setter: setLinePermissions
-            type: Calcinai\Siri\LinePermissions
+            type: Calcinai\Siri\Objects\LinePermissions
         connectionLinkPermissions:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\ConnectionServicePermissionStructureType:
             accessor:
                 getter: getConnectionLinkPermissions
                 setter: setConnectionLinkPermissions
-            type: Calcinai\Siri\ConnectionLinkPermissions
+            type: Calcinai\Siri\Objects\ConnectionLinkPermissions
         extensions:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\ConnectionServicePermissionStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

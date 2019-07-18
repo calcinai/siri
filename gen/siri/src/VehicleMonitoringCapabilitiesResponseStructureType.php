@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleMonitoringCapabilitiesResponseStructureType
@@ -19,17 +19,17 @@ class VehicleMonitoringCapabilitiesResponseStructureType extends AbstractService
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\VehicleMonitoringServiceCapabilities $vehicleMonitoringServiceCapabilities
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilities $vehicleMonitoringServiceCapabilities
      */
     private $vehicleMonitoringServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\VehicleMonitoringPermissions $vehicleMonitoringPermissions
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringPermissions $vehicleMonitoringPermissions
      */
     private $vehicleMonitoringPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class VehicleMonitoringCapabilitiesResponseStructureType extends AbstractService
     /**
      * Gets as vehicleMonitoringServiceCapabilities
      *
-     * @return \Calcinai\Siri\VehicleMonitoringServiceCapabilities
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilities
      */
     public function getVehicleMonitoringServiceCapabilities()
     {
@@ -72,10 +72,10 @@ class VehicleMonitoringCapabilitiesResponseStructureType extends AbstractService
     /**
      * Sets a new vehicleMonitoringServiceCapabilities
      *
-     * @param \Calcinai\Siri\VehicleMonitoringServiceCapabilities $vehicleMonitoringServiceCapabilities
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilities $vehicleMonitoringServiceCapabilities
      * @return self
      */
-    public function setVehicleMonitoringServiceCapabilities(\Calcinai\Siri\VehicleMonitoringServiceCapabilities $vehicleMonitoringServiceCapabilities)
+    public function setVehicleMonitoringServiceCapabilities(\Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilities $vehicleMonitoringServiceCapabilities)
     {
         $this->vehicleMonitoringServiceCapabilities = $vehicleMonitoringServiceCapabilities;
         return $this;
@@ -84,7 +84,7 @@ class VehicleMonitoringCapabilitiesResponseStructureType extends AbstractService
     /**
      * Gets as vehicleMonitoringPermissions
      *
-     * @return \Calcinai\Siri\VehicleMonitoringPermissions
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringPermissions
      */
     public function getVehicleMonitoringPermissions()
     {
@@ -94,10 +94,10 @@ class VehicleMonitoringCapabilitiesResponseStructureType extends AbstractService
     /**
      * Sets a new vehicleMonitoringPermissions
      *
-     * @param \Calcinai\Siri\VehicleMonitoringPermissions $vehicleMonitoringPermissions
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringPermissions $vehicleMonitoringPermissions
      * @return self
      */
-    public function setVehicleMonitoringPermissions(\Calcinai\Siri\VehicleMonitoringPermissions $vehicleMonitoringPermissions)
+    public function setVehicleMonitoringPermissions(\Calcinai\Siri\Objects\VehicleMonitoringPermissions $vehicleMonitoringPermissions)
     {
         $this->vehicleMonitoringPermissions = $vehicleMonitoringPermissions;
         return $this;
@@ -106,7 +106,7 @@ class VehicleMonitoringCapabilitiesResponseStructureType extends AbstractService
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class VehicleMonitoringCapabilitiesResponseStructureType extends AbstractService
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

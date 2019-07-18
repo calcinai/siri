@@ -1,4 +1,4 @@
-Calcinai\Siri\InfoChannelDiscoveryRequestStructureType:
+Calcinai\Siri\Objects\InfoChannelDiscoveryRequestStructureType:
     properties:
         version:
             expose: true

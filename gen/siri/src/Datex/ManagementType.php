@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ManagementType
@@ -12,24 +12,24 @@ class ManagementType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\LifeCycleManagementType $lifeCycleManagement
+     * @property \Calcinai\Siri\Objects\Datex\LifeCycleManagementType $lifeCycleManagement
      */
     private $lifeCycleManagement = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\FilterExitManagementType $filterExitManagement
+     * @property \Calcinai\Siri\Objects\Datex\FilterExitManagementType $filterExitManagement
      */
     private $filterExitManagement = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $managementExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $managementExtension
      */
     private $managementExtension = null;
 
     /**
      * Gets as lifeCycleManagement
      *
-     * @return \Calcinai\Siri\Datex\LifeCycleManagementType
+     * @return \Calcinai\Siri\Objects\Datex\LifeCycleManagementType
      */
     public function getLifeCycleManagement()
     {
@@ -39,10 +39,10 @@ class ManagementType
     /**
      * Sets a new lifeCycleManagement
      *
-     * @param \Calcinai\Siri\Datex\LifeCycleManagementType $lifeCycleManagement
+     * @param \Calcinai\Siri\Objects\Datex\LifeCycleManagementType $lifeCycleManagement
      * @return self
      */
-    public function setLifeCycleManagement(\Calcinai\Siri\Datex\LifeCycleManagementType $lifeCycleManagement)
+    public function setLifeCycleManagement(\Calcinai\Siri\Objects\Datex\LifeCycleManagementType $lifeCycleManagement)
     {
         $this->lifeCycleManagement = $lifeCycleManagement;
         return $this;
@@ -51,7 +51,7 @@ class ManagementType
     /**
      * Gets as filterExitManagement
      *
-     * @return \Calcinai\Siri\Datex\FilterExitManagementType
+     * @return \Calcinai\Siri\Objects\Datex\FilterExitManagementType
      */
     public function getFilterExitManagement()
     {
@@ -61,10 +61,10 @@ class ManagementType
     /**
      * Sets a new filterExitManagement
      *
-     * @param \Calcinai\Siri\Datex\FilterExitManagementType $filterExitManagement
+     * @param \Calcinai\Siri\Objects\Datex\FilterExitManagementType $filterExitManagement
      * @return self
      */
-    public function setFilterExitManagement(\Calcinai\Siri\Datex\FilterExitManagementType $filterExitManagement)
+    public function setFilterExitManagement(\Calcinai\Siri\Objects\Datex\FilterExitManagementType $filterExitManagement)
     {
         $this->filterExitManagement = $filterExitManagement;
         return $this;
@@ -73,7 +73,7 @@ class ManagementType
     /**
      * Gets as managementExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getManagementExtension()
     {
@@ -83,10 +83,10 @@ class ManagementType
     /**
      * Sets a new managementExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $managementExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $managementExtension
      * @return self
      */
-    public function setManagementExtension(\Calcinai\Siri\Datex\ExtensionType $managementExtension)
+    public function setManagementExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $managementExtension)
     {
         $this->managementExtension = $managementExtension;
         return $this;

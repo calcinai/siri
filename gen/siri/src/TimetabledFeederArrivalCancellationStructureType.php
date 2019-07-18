@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TimetabledFeederArrivalCancellationStructureType
@@ -41,7 +41,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     private $order = null;
 
     /**
-     * @property \Calcinai\Siri\StopPointName $stopPointName
+     * @property \Calcinai\Siri\Objects\StopPointName $stopPointName
      */
     private $stopPointName = null;
 
@@ -62,7 +62,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Reference to a Vehicle journey.
      *
-     * @property \Calcinai\Siri\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
+     * @property \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
      */
     private $vehicleJourneyRef = null;
 
@@ -88,14 +88,14 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     private $routeRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
     /**
      * Description of the direction.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      */
     private $directionName = null;
 
@@ -109,12 +109,12 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Reason for deletion.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $reason
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason
      */
     private $reason = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -239,7 +239,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Gets as stopPointName
      *
-     * @return \Calcinai\Siri\StopPointName
+     * @return \Calcinai\Siri\Objects\StopPointName
      */
     public function getStopPointName()
     {
@@ -249,10 +249,10 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Sets a new stopPointName
      *
-     * @param \Calcinai\Siri\StopPointName $stopPointName
+     * @param \Calcinai\Siri\Objects\StopPointName $stopPointName
      * @return self
      */
-    public function setStopPointName(\Calcinai\Siri\StopPointName $stopPointName)
+    public function setStopPointName(\Calcinai\Siri\Objects\StopPointName $stopPointName)
     {
         $this->stopPointName = $stopPointName;
         return $this;
@@ -315,7 +315,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
      *
      * Reference to a Vehicle journey.
      *
-     * @return \Calcinai\Siri\FramedVehicleJourneyRefStructureType
+     * @return \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType
      */
     public function getVehicleJourneyRef()
     {
@@ -327,10 +327,10 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
      *
      * Reference to a Vehicle journey.
      *
-     * @param \Calcinai\Siri\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
+     * @param \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
      * @return self
      */
-    public function setVehicleJourneyRef(\Calcinai\Siri\FramedVehicleJourneyRefStructureType $vehicleJourneyRef)
+    public function setVehicleJourneyRef(\Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $vehicleJourneyRef)
     {
         $this->vehicleJourneyRef = $vehicleJourneyRef;
         return $this;
@@ -417,7 +417,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -427,10 +427,10 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -441,7 +441,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
      *
      * Description of the direction.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDirectionName()
     {
@@ -453,10 +453,10 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
      *
      * Description of the direction.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      * @return self
      */
-    public function setDirectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $directionName)
+    public function setDirectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName)
     {
         $this->directionName = $directionName;
         return $this;
@@ -493,7 +493,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
      *
      * Reason for deletion.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getReason()
     {
@@ -505,10 +505,10 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
      *
      * Reason for deletion.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $reason
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason
      * @return self
      */
-    public function setReason(\Calcinai\Siri\NaturalLanguageStringStructureType $reason)
+    public function setReason(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason)
     {
         $this->reason = $reason;
         return $this;
@@ -517,7 +517,7 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -527,10 +527,10 @@ class TimetabledFeederArrivalCancellationStructureType extends AbstractReferenci
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

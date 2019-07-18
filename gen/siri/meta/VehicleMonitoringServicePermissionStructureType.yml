@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringServicePermissionStructureType:
+Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType:
     properties:
         operatorPermissions:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\VehicleMonitoringServicePermissionStructureType:
             accessor:
                 getter: getOperatorPermissions
                 setter: setOperatorPermissions
-            type: Calcinai\Siri\OperatorPermissions
+            type: Calcinai\Siri\Objects\OperatorPermissions
         linePermissions:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\VehicleMonitoringServicePermissionStructureType:
             accessor:
                 getter: getLinePermissions
                 setter: setLinePermissions
-            type: Calcinai\Siri\LinePermissions
+            type: Calcinai\Siri\Objects\LinePermissions
         vehicleMonitoringPermissions:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\VehicleMonitoringServicePermissionStructureType:
             accessor:
                 getter: getVehicleMonitoringPermissions
                 setter: setVehicleMonitoringPermissions
-            type: Calcinai\Siri\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType
+            type: Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType
         extensions:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\VehicleMonitoringServicePermissionStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

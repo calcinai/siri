@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionLinkRefStructureType:
+Calcinai\Siri\Objects\ConnectionLinkRefStructureType:
     properties:
         __value:
             expose: true

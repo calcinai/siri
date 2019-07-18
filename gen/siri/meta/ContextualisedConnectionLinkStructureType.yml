@@ -1,4 +1,4 @@
-Calcinai\Siri\ContextualisedConnectionLinkStructureType:
+Calcinai\Siri\Objects\ContextualisedConnectionLinkStructureType:
     properties:
         connectionLinkCode:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\ContextualisedConnectionLinkStructureType:
             accessor:
                 getter: getStopPointRef
                 setter: setStopPointRef
-            type: Calcinai\Siri\StopPointRef
+            type: Calcinai\Siri\Objects\StopPointRef
         stopPointName:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\ContextualisedConnectionLinkStructureType:
             accessor:
                 getter: getStopPointName
                 setter: setStopPointName
-            type: Calcinai\Siri\StopPointName
+            type: Calcinai\Siri\Objects\StopPointName
         defaultDuration:
             expose: true
             access_type: public_method

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ProductionTimetableRequestStructureType
@@ -21,7 +21,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
     /**
      * Start and end of timetable validity (time window) of journeys for which schedules are to be returned. Refers to the departure time at the first stop of each vehicle journey. If blank the configured data horizon will be used.
      *
-     * @property \Calcinai\Siri\ClosedTimeRangeStructureType $validityPeriod
+     * @property \Calcinai\Siri\Objects\ClosedTimeRangeStructureType $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -42,7 +42,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
     /**
      * Filter the results to include only vehicles along the given line(s).
      *
-     * @property \Calcinai\Siri\LineDirectionStructureType[] $lines
+     * @property \Calcinai\Siri\Objects\LineDirectionStructureType[] $lines
      */
     private $lines = null;
 
@@ -61,7 +61,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
     private $incrementalUpdates = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -96,7 +96,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
      *
      * Start and end of timetable validity (time window) of journeys for which schedules are to be returned. Refers to the departure time at the first stop of each vehicle journey. If blank the configured data horizon will be used.
      *
-     * @return \Calcinai\Siri\ClosedTimeRangeStructureType
+     * @return \Calcinai\Siri\Objects\ClosedTimeRangeStructureType
      */
     public function getValidityPeriod()
     {
@@ -108,10 +108,10 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
      *
      * Start and end of timetable validity (time window) of journeys for which schedules are to be returned. Refers to the departure time at the first stop of each vehicle journey. If blank the configured data horizon will be used.
      *
-     * @param \Calcinai\Siri\ClosedTimeRangeStructureType $validityPeriod
+     * @param \Calcinai\Siri\Objects\ClosedTimeRangeStructureType $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(\Calcinai\Siri\ClosedTimeRangeStructureType $validityPeriod)
+    public function setValidityPeriod(\Calcinai\Siri\Objects\ClosedTimeRangeStructureType $validityPeriod)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
@@ -175,9 +175,9 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
      * Filter the results to include only vehicles along the given line(s).
      *
      * @return self
-     * @param \Calcinai\Siri\LineDirectionStructureType $lineDirection
+     * @param \Calcinai\Siri\Objects\LineDirectionStructureType $lineDirection
      */
-    public function addToLines(\Calcinai\Siri\LineDirectionStructureType $lineDirection)
+    public function addToLines(\Calcinai\Siri\Objects\LineDirectionStructureType $lineDirection)
     {
         $this->lines[] = $lineDirection;
         return $this;
@@ -214,7 +214,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
      *
      * Filter the results to include only vehicles along the given line(s).
      *
-     * @return \Calcinai\Siri\LineDirectionStructureType[]
+     * @return \Calcinai\Siri\Objects\LineDirectionStructureType[]
      */
     public function getLines()
     {
@@ -226,7 +226,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
      *
      * Filter the results to include only vehicles along the given line(s).
      *
-     * @param \Calcinai\Siri\LineDirectionStructureType[] $lines
+     * @param \Calcinai\Siri\Objects\LineDirectionStructureType[] $lines
      * @return self
      */
     public function setLines(array $lines)
@@ -290,7 +290,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -300,10 +300,10 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\EstimatedVehicleJourneyStructureType\EstimatedCallsAType:
+Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType\EstimatedCallsAType:
     properties:
         estimatedCall:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\EstimatedVehicleJourneyStructureType\EstimatedCallsAType:
                 inline: true
                 entry_name: EstimatedCall
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\EstimatedCall>
+            type: array<Calcinai\Siri\Objects\EstimatedCall>

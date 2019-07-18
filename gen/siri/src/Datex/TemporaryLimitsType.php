@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TemporaryLimitsType
@@ -19,7 +19,7 @@ class TemporaryLimitsType extends TrafficControlType
     private $temporarySpeedLimit = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $temporaryLimitsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $temporaryLimitsExtension
      */
     private $temporaryLimitsExtension = null;
 
@@ -52,7 +52,7 @@ class TemporaryLimitsType extends TrafficControlType
     /**
      * Gets as temporaryLimitsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTemporaryLimitsExtension()
     {
@@ -62,10 +62,10 @@ class TemporaryLimitsType extends TrafficControlType
     /**
      * Sets a new temporaryLimitsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $temporaryLimitsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $temporaryLimitsExtension
      * @return self
      */
-    public function setTemporaryLimitsExtension(\Calcinai\Siri\Datex\ExtensionType $temporaryLimitsExtension)
+    public function setTemporaryLimitsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $temporaryLimitsExtension)
     {
         $this->temporaryLimitsExtension = $temporaryLimitsExtension;
         return $this;

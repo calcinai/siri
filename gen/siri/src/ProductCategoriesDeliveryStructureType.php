@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ProductCategoriesDeliveryStructureType
@@ -21,14 +21,14 @@ class ProductCategoriesDeliveryStructureType extends AbstractDiscoveryDeliverySt
     /**
      * Product Category.
      *
-     * @property \Calcinai\Siri\ProductCategoryStructureType[] $productCategory
+     * @property \Calcinai\Siri\Objects\ProductCategoryStructureType[] $productCategory
      */
     private $productCategory = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -64,9 +64,9 @@ class ProductCategoriesDeliveryStructureType extends AbstractDiscoveryDeliverySt
      * Product Category.
      *
      * @return self
-     * @param \Calcinai\Siri\ProductCategoryStructureType $productCategory
+     * @param \Calcinai\Siri\Objects\ProductCategoryStructureType $productCategory
      */
-    public function addToProductCategory(\Calcinai\Siri\ProductCategoryStructureType $productCategory)
+    public function addToProductCategory(\Calcinai\Siri\Objects\ProductCategoryStructureType $productCategory)
     {
         $this->productCategory[] = $productCategory;
         return $this;
@@ -103,7 +103,7 @@ class ProductCategoriesDeliveryStructureType extends AbstractDiscoveryDeliverySt
      *
      * Product Category.
      *
-     * @return \Calcinai\Siri\ProductCategoryStructureType[]
+     * @return \Calcinai\Siri\Objects\ProductCategoryStructureType[]
      */
     public function getProductCategory()
     {
@@ -115,7 +115,7 @@ class ProductCategoriesDeliveryStructureType extends AbstractDiscoveryDeliverySt
      *
      * Product Category.
      *
-     * @param \Calcinai\Siri\ProductCategoryStructureType[] $productCategory
+     * @param \Calcinai\Siri\Objects\ProductCategoryStructureType[] $productCategory
      * @return self
      */
     public function setProductCategory(array $productCategory)
@@ -127,7 +127,7 @@ class ProductCategoriesDeliveryStructureType extends AbstractDiscoveryDeliverySt
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -137,10 +137,10 @@ class ProductCategoriesDeliveryStructureType extends AbstractDiscoveryDeliverySt
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

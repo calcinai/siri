@@ -1,4 +1,4 @@
-Calcinai\Siri\ContextStructureType:
+Calcinai\Siri\Objects\ContextStructureType:
     properties:
         countryRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ContextStructureType:
             accessor:
                 getter: getCountryRef
                 setter: setCountryRef
-            type: Calcinai\Siri\IFOpt\CountryRefStructureType
+            type: Calcinai\Siri\Objects\IFOpt\CountryRefStructureType
         participantRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\ContextStructureType:
             accessor:
                 getter: getParticipantRef
                 setter: setParticipantRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         topographicPlaceRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\ContextStructureType:
             accessor:
                 getter: getTopographicPlaceName
                 setter: setTopographicPlaceName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         defaultLanguage:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\ContextStructureType:
             accessor:
                 getter: getNetworkContext
                 setter: setNetworkContext
-            type: Calcinai\Siri\NetworkContextStructureType
+            type: Calcinai\Siri\Objects\NetworkContextStructureType
         actions:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\ContextStructureType:
             accessor:
                 getter: getActions
                 setter: setActions
-            type: Calcinai\Siri\ActionsStructureType
+            type: Calcinai\Siri\Objects\ActionsStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -79,4 +79,4 @@ Calcinai\Siri\ContextStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

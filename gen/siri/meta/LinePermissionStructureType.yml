@@ -1,4 +1,4 @@
-Calcinai\Siri\LinePermissionStructureType:
+Calcinai\Siri\Objects\LinePermissionStructureType:
     properties:
         lineRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\LinePermissionStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\LineRefStructureType
+            type: Calcinai\Siri\Objects\LineRefStructureType
         directionRef:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ Calcinai\Siri\LinePermissionStructureType:
                 inline: true
                 entry_name: DirectionRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\DirectionRefStructureType>
+            type: array<Calcinai\Siri\Objects\DirectionRefStructureType>

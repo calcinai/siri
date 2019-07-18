@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\AlertCDirectionType;
+namespace Calcinai\Siri\Objects\Datex\AlertCDirectionType;
 
 /**
  * Class representing AlertCDirectionNamedAType
@@ -9,7 +9,7 @@ class AlertCDirectionNamedAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class AlertCDirectionNamedAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class AlertCDirectionNamedAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class AlertCDirectionNamedAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

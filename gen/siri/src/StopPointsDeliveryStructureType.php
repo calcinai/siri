@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopPointsDeliveryStructureType
@@ -21,14 +21,14 @@ class StopPointsDeliveryStructureType extends AbstractDiscoveryDeliveryStructure
     /**
      * Stop Definition
      *
-     * @property \Calcinai\Siri\AnnotatedStopPointStructureType[] $annotatedStopPointRef
+     * @property \Calcinai\Siri\Objects\AnnotatedStopPointStructureType[] $annotatedStopPointRef
      */
     private $annotatedStopPointRef = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -64,9 +64,9 @@ class StopPointsDeliveryStructureType extends AbstractDiscoveryDeliveryStructure
      * Stop Definition
      *
      * @return self
-     * @param \Calcinai\Siri\AnnotatedStopPointStructureType $annotatedStopPointRef
+     * @param \Calcinai\Siri\Objects\AnnotatedStopPointStructureType $annotatedStopPointRef
      */
-    public function addToAnnotatedStopPointRef(\Calcinai\Siri\AnnotatedStopPointStructureType $annotatedStopPointRef)
+    public function addToAnnotatedStopPointRef(\Calcinai\Siri\Objects\AnnotatedStopPointStructureType $annotatedStopPointRef)
     {
         $this->annotatedStopPointRef[] = $annotatedStopPointRef;
         return $this;
@@ -103,7 +103,7 @@ class StopPointsDeliveryStructureType extends AbstractDiscoveryDeliveryStructure
      *
      * Stop Definition
      *
-     * @return \Calcinai\Siri\AnnotatedStopPointStructureType[]
+     * @return \Calcinai\Siri\Objects\AnnotatedStopPointStructureType[]
      */
     public function getAnnotatedStopPointRef()
     {
@@ -115,7 +115,7 @@ class StopPointsDeliveryStructureType extends AbstractDiscoveryDeliveryStructure
      *
      * Stop Definition
      *
-     * @param \Calcinai\Siri\AnnotatedStopPointStructureType[] $annotatedStopPointRef
+     * @param \Calcinai\Siri\Objects\AnnotatedStopPointStructureType[] $annotatedStopPointRef
      * @return self
      */
     public function setAnnotatedStopPointRef(array $annotatedStopPointRef)
@@ -127,7 +127,7 @@ class StopPointsDeliveryStructureType extends AbstractDiscoveryDeliveryStructure
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -137,10 +137,10 @@ class StopPointsDeliveryStructureType extends AbstractDiscoveryDeliveryStructure
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

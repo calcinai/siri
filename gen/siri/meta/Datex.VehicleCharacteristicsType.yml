@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\VehicleCharacteristicsType:
+Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType:
     properties:
         fuelType:
             expose: true
@@ -67,7 +67,7 @@ Calcinai\Siri\Datex\VehicleCharacteristicsType:
                 inline: true
                 entry_name: grossWeightCharacteristic
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\GrossWeightCharacteristicType>
+            type: array<Calcinai\Siri\Objects\Datex\GrossWeightCharacteristicType>
         heightCharacteristic:
             expose: true
             access_type: public_method
@@ -81,7 +81,7 @@ Calcinai\Siri\Datex\VehicleCharacteristicsType:
                 inline: true
                 entry_name: heightCharacteristic
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\HeightCharacteristicType>
+            type: array<Calcinai\Siri\Objects\Datex\HeightCharacteristicType>
         lengthCharacteristic:
             expose: true
             access_type: public_method
@@ -95,7 +95,7 @@ Calcinai\Siri\Datex\VehicleCharacteristicsType:
                 inline: true
                 entry_name: lengthCharacteristic
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\LengthCharacteristicType>
+            type: array<Calcinai\Siri\Objects\Datex\LengthCharacteristicType>
         widthCharacteristic:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ Calcinai\Siri\Datex\VehicleCharacteristicsType:
                 inline: true
                 entry_name: widthCharacteristic
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\WidthCharacteristicType>
+            type: array<Calcinai\Siri\Objects\Datex\WidthCharacteristicType>
         heaviestAxleWeightCharacteristic:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ Calcinai\Siri\Datex\VehicleCharacteristicsType:
                 inline: true
                 entry_name: heaviestAxleWeightCharacteristic
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType>
+            type: array<Calcinai\Siri\Objects\Datex\HeaviestAxleWeightCharacteristicType>
         numberOfAxlesCharacteristic:
             expose: true
             access_type: public_method
@@ -137,7 +137,7 @@ Calcinai\Siri\Datex\VehicleCharacteristicsType:
                 inline: true
                 entry_name: numberOfAxlesCharacteristic
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType>
+            type: array<Calcinai\Siri\Objects\Datex\NumberOfAxlesCharacteristicType>
         vehicleCharacteristicsExtension:
             expose: true
             access_type: public_method
@@ -147,4 +147,4 @@ Calcinai\Siri\Datex\VehicleCharacteristicsType:
             accessor:
                 getter: getVehicleCharacteristicsExtension
                 setter: setVehicleCharacteristicsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\PtSituationElementStructureType;
+namespace Calcinai\Siri\Objects\PtSituationElementStructureType;
 
 /**
  * Class representing ImagesAType
@@ -11,7 +11,7 @@ class ImagesAType
     /**
      * Image description.
      *
-     * @property \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType[] $image
+     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType[] $image
      */
     private $image = [
         
@@ -23,9 +23,9 @@ class ImagesAType
      * Image description.
      *
      * @return self
-     * @param \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType $image
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType $image
      */
-    public function addToImage(\Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType $image)
+    public function addToImage(\Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType $image)
     {
         $this->image[] = $image;
         return $this;
@@ -62,7 +62,7 @@ class ImagesAType
      *
      * Image description.
      *
-     * @return \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType[]
+     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType[]
      */
     public function getImage()
     {
@@ -74,7 +74,7 @@ class ImagesAType
      *
      * Image description.
      *
-     * @param \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType[] $image
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType[] $image
      * @return self
      */
     public function setImage(array $image)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PayloadEnumerationsType
@@ -12,19 +12,19 @@ class PayloadEnumerationsType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\LocationEnumerationsType $locationEnumerations
+     * @property \Calcinai\Siri\Objects\Datex\LocationEnumerationsType $locationEnumerations
      */
     private $locationEnumerations = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $payloadEnumerationsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $payloadEnumerationsExtension
      */
     private $payloadEnumerationsExtension = null;
 
     /**
      * Gets as locationEnumerations
      *
-     * @return \Calcinai\Siri\Datex\LocationEnumerationsType
+     * @return \Calcinai\Siri\Objects\Datex\LocationEnumerationsType
      */
     public function getLocationEnumerations()
     {
@@ -34,10 +34,10 @@ class PayloadEnumerationsType
     /**
      * Sets a new locationEnumerations
      *
-     * @param \Calcinai\Siri\Datex\LocationEnumerationsType $locationEnumerations
+     * @param \Calcinai\Siri\Objects\Datex\LocationEnumerationsType $locationEnumerations
      * @return self
      */
-    public function setLocationEnumerations(\Calcinai\Siri\Datex\LocationEnumerationsType $locationEnumerations)
+    public function setLocationEnumerations(\Calcinai\Siri\Objects\Datex\LocationEnumerationsType $locationEnumerations)
     {
         $this->locationEnumerations = $locationEnumerations;
         return $this;
@@ -46,7 +46,7 @@ class PayloadEnumerationsType
     /**
      * Gets as payloadEnumerationsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPayloadEnumerationsExtension()
     {
@@ -56,10 +56,10 @@ class PayloadEnumerationsType
     /**
      * Sets a new payloadEnumerationsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $payloadEnumerationsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $payloadEnumerationsExtension
      * @return self
      */
-    public function setPayloadEnumerationsExtension(\Calcinai\Siri\Datex\ExtensionType $payloadEnumerationsExtension)
+    public function setPayloadEnumerationsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $payloadEnumerationsExtension)
     {
         $this->payloadEnumerationsExtension = $payloadEnumerationsExtension;
         return $this;

@@ -1,3 +1,3 @@
-Calcinai\Siri\SituationExchangeServiceCapabilities:
+Calcinai\Siri\Objects\SituationExchangeServiceCapabilities:
     xml_root_name: SituationExchangeServiceCapabilities
     xml_root_namespace: 'http://www.siri.org.uk/siri'

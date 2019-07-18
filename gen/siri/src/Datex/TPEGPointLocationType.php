@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGPointLocationType
@@ -19,7 +19,7 @@ class TPEGPointLocationType
     private $tpegDirection = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegpointLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegpointLocationExtension
      */
     private $tpegpointLocationExtension = null;
 
@@ -52,7 +52,7 @@ class TPEGPointLocationType
     /**
      * Gets as tpegpointLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegpointLocationExtension()
     {
@@ -62,10 +62,10 @@ class TPEGPointLocationType
     /**
      * Sets a new tpegpointLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegpointLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegpointLocationExtension
      * @return self
      */
-    public function setTpegpointLocationExtension(\Calcinai\Siri\Datex\ExtensionType $tpegpointLocationExtension)
+    public function setTpegpointLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegpointLocationExtension)
     {
         $this->tpegpointLocationExtension = $tpegpointLocationExtension;
         return $this;

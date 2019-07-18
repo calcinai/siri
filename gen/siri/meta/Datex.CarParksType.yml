@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\CarParksType:
+Calcinai\Siri\Objects\Datex\CarParksType:
     properties:
         carParkConfiguration:
             expose: true
@@ -89,7 +89,7 @@ Calcinai\Siri\Datex\CarParksType:
             accessor:
                 getter: getQueueingTime
                 setter: setQueueingTime
-            type: Calcinai\Siri\Datex\TimeType
+            type: Calcinai\Siri\Objects\Datex\TimeType
         totalCapacity:
             expose: true
             access_type: public_method
@@ -109,4 +109,4 @@ Calcinai\Siri\Datex\CarParksType:
             accessor:
                 getter: getCarParksExtension
                 setter: setCarParksExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

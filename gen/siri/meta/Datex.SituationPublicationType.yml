@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\SituationPublicationType:
+Calcinai\Siri\Objects\Datex\SituationPublicationType:
     properties:
         situation:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\Datex\SituationPublicationType:
                 inline: true
                 entry_name: situation
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\SituationType>
+            type: array<Calcinai\Siri\Objects\Datex\SituationType>
         situationPublicationExtension:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ Calcinai\Siri\Datex\SituationPublicationType:
             accessor:
                 getter: getSituationPublicationExtension
                 setter: setSituationPublicationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

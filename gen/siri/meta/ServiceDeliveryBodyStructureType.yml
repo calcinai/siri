@@ -1,4 +1,4 @@
-Calcinai\Siri\ServiceDeliveryBodyStructureType:
+Calcinai\Siri\Objects\ServiceDeliveryBodyStructureType:
     properties:
         srsName:
             expose: true
@@ -28,7 +28,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getErrorCondition
                 setter: setErrorCondition
-            type: Calcinai\Siri\ServiceDeliveryStructureType\ErrorConditionAType
+            type: Calcinai\Siri\Objects\ServiceDeliveryStructureType\ErrorConditionAType
         moreData:
             expose: true
             access_type: public_method
@@ -48,7 +48,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getProductionTimetableDelivery
                 setter: setProductionTimetableDelivery
-            type: Calcinai\Siri\ProductionTimetableDelivery
+            type: Calcinai\Siri\Objects\ProductionTimetableDelivery
         estimatedTimetableDelivery:
             expose: true
             access_type: public_method
@@ -58,7 +58,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getEstimatedTimetableDelivery
                 setter: setEstimatedTimetableDelivery
-            type: Calcinai\Siri\EstimatedTimetableDelivery
+            type: Calcinai\Siri\Objects\EstimatedTimetableDelivery
         stopTimetableDelivery:
             expose: true
             access_type: public_method
@@ -68,7 +68,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getStopTimetableDelivery
                 setter: setStopTimetableDelivery
-            type: Calcinai\Siri\StopTimetableDelivery
+            type: Calcinai\Siri\Objects\StopTimetableDelivery
         stopMonitoringDelivery:
             expose: true
             access_type: public_method
@@ -78,7 +78,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getStopMonitoringDelivery
                 setter: setStopMonitoringDelivery
-            type: Calcinai\Siri\StopMonitoringDelivery
+            type: Calcinai\Siri\Objects\StopMonitoringDelivery
         vehicleMonitoringDelivery:
             expose: true
             access_type: public_method
@@ -88,7 +88,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getVehicleMonitoringDelivery
                 setter: setVehicleMonitoringDelivery
-            type: Calcinai\Siri\VehicleMonitoringDelivery
+            type: Calcinai\Siri\Objects\VehicleMonitoringDelivery
         connectionTimetableDelivery:
             expose: true
             access_type: public_method
@@ -98,7 +98,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getConnectionTimetableDelivery
                 setter: setConnectionTimetableDelivery
-            type: Calcinai\Siri\ConnectionTimetableDelivery
+            type: Calcinai\Siri\Objects\ConnectionTimetableDelivery
         connectionMonitoringFeederDelivery:
             expose: true
             access_type: public_method
@@ -108,7 +108,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getConnectionMonitoringFeederDelivery
                 setter: setConnectionMonitoringFeederDelivery
-            type: Calcinai\Siri\ConnectionMonitoringFeederDelivery
+            type: Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery
         connectionMonitoringDistributorDelivery:
             expose: true
             access_type: public_method
@@ -118,7 +118,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getConnectionMonitoringDistributorDelivery
                 setter: setConnectionMonitoringDistributorDelivery
-            type: Calcinai\Siri\ConnectionMonitoringDistributorDelivery
+            type: Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery
         generalMessageDelivery:
             expose: true
             access_type: public_method
@@ -128,7 +128,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getGeneralMessageDelivery
                 setter: setGeneralMessageDelivery
-            type: Calcinai\Siri\GeneralMessageDelivery
+            type: Calcinai\Siri\Objects\GeneralMessageDelivery
         facilityMonitoringDelivery:
             expose: true
             access_type: public_method
@@ -138,7 +138,7 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getFacilityMonitoringDelivery
                 setter: setFacilityMonitoringDelivery
-            type: Calcinai\Siri\FacilityMonitoringDelivery
+            type: Calcinai\Siri\Objects\FacilityMonitoringDelivery
         situationExchangeDelivery:
             expose: true
             access_type: public_method
@@ -148,4 +148,4 @@ Calcinai\Siri\ServiceDeliveryBodyStructureType:
             accessor:
                 getter: getSituationExchangeDelivery
                 setter: setSituationExchangeDelivery
-            type: Calcinai\Siri\SituationExchangeDelivery
+            type: Calcinai\Siri\Objects\SituationExchangeDelivery

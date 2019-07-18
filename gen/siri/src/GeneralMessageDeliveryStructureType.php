@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing GeneralMessageDeliveryStructureType
@@ -19,17 +19,17 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\GeneralMessage $generalMessage
+     * @property \Calcinai\Siri\Objects\GeneralMessage $generalMessage
      */
     private $generalMessage = null;
 
     /**
-     * @property \Calcinai\Siri\GeneralMessageCancellation $generalMessageCancellation
+     * @property \Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation
      */
     private $generalMessageCancellation = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Gets as generalMessage
      *
-     * @return \Calcinai\Siri\GeneralMessage
+     * @return \Calcinai\Siri\Objects\GeneralMessage
      */
     public function getGeneralMessage()
     {
@@ -72,10 +72,10 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Sets a new generalMessage
      *
-     * @param \Calcinai\Siri\GeneralMessage $generalMessage
+     * @param \Calcinai\Siri\Objects\GeneralMessage $generalMessage
      * @return self
      */
-    public function setGeneralMessage(\Calcinai\Siri\GeneralMessage $generalMessage)
+    public function setGeneralMessage(\Calcinai\Siri\Objects\GeneralMessage $generalMessage)
     {
         $this->generalMessage = $generalMessage;
         return $this;
@@ -84,7 +84,7 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Gets as generalMessageCancellation
      *
-     * @return \Calcinai\Siri\GeneralMessageCancellation
+     * @return \Calcinai\Siri\Objects\GeneralMessageCancellation
      */
     public function getGeneralMessageCancellation()
     {
@@ -94,10 +94,10 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Sets a new generalMessageCancellation
      *
-     * @param \Calcinai\Siri\GeneralMessageCancellation $generalMessageCancellation
+     * @param \Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation
      * @return self
      */
-    public function setGeneralMessageCancellation(\Calcinai\Siri\GeneralMessageCancellation $generalMessageCancellation)
+    public function setGeneralMessageCancellation(\Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation)
     {
         $this->generalMessageCancellation = $generalMessageCancellation;
         return $this;
@@ -106,7 +106,7 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

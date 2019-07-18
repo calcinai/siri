@@ -1,4 +1,4 @@
-Calcinai\Siri\ACSB\AccessibilityStructureType:
+Calcinai\Siri\Objects\ACSB\AccessibilityStructureType:
     properties:
         __value:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\MonitoringValidityConditionStructureType:
+Calcinai\Siri\Objects\MonitoringValidityConditionStructureType:
     properties:
         period:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\MonitoringValidityConditionStructureType:
                 inline: true
                 entry_name: Period
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\HalfOpenTimestampRangeStructureType>
+            type: array<Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType>
         timeband:
             expose: true
             access_type: public_method
@@ -27,7 +27,7 @@ Calcinai\Siri\MonitoringValidityConditionStructureType:
                 inline: true
                 entry_name: Timeband
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\HalfOpenTimeRangeStructureType>
+            type: array<Calcinai\Siri\Objects\HalfOpenTimeRangeStructureType>
         dayType:
             expose: true
             access_type: public_method

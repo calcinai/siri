@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ACSB;
+namespace Calcinai\Siri\Objects\ACSB;
 
 /**
  * Class representing PassengerAccessibilityNeedsStructureType
@@ -14,7 +14,7 @@ class PassengerAccessibilityNeedsStructureType
     /**
      * Specific pyschosensory need that may constrain choice of services and facilities.
      *
-     * @property \Calcinai\Siri\ACSB\UserNeedStructureType[] $userNeed
+     * @property \Calcinai\Siri\Objects\ACSB\UserNeedStructureType[] $userNeed
      */
     private $userNeed = [
         
@@ -33,9 +33,9 @@ class PassengerAccessibilityNeedsStructureType
      * Specific pyschosensory need that may constrain choice of services and facilities.
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\UserNeedStructureType $userNeed
+     * @param \Calcinai\Siri\Objects\ACSB\UserNeedStructureType $userNeed
      */
-    public function addToUserNeed(\Calcinai\Siri\ACSB\UserNeedStructureType $userNeed)
+    public function addToUserNeed(\Calcinai\Siri\Objects\ACSB\UserNeedStructureType $userNeed)
     {
         $this->userNeed[] = $userNeed;
         return $this;
@@ -72,7 +72,7 @@ class PassengerAccessibilityNeedsStructureType
      *
      * Specific pyschosensory need that may constrain choice of services and facilities.
      *
-     * @return \Calcinai\Siri\ACSB\UserNeedStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\UserNeedStructureType[]
      */
     public function getUserNeed()
     {
@@ -84,7 +84,7 @@ class PassengerAccessibilityNeedsStructureType
      *
      * Specific pyschosensory need that may constrain choice of services and facilities.
      *
-     * @param \Calcinai\Siri\ACSB\UserNeedStructureType[] $userNeed
+     * @param \Calcinai\Siri\Objects\ACSB\UserNeedStructureType[] $userNeed
      * @return self
      */
     public function setUserNeed(array $userNeed)

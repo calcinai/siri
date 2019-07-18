@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\StopMonitoringRequestStructureType;
+namespace Calcinai\Siri\Objects\StopMonitoringRequestStructureType;
 
 /**
  * Class representing MaximumNumberOfCallsAType

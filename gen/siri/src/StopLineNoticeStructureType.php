@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopLineNoticeStructureType
@@ -35,21 +35,21 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Special text associated with line.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType[] $lineNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $lineNote
      */
     private $lineNote = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\SituationRef[] $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef[] $situationRef
      */
     private $situationRef = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -137,9 +137,9 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
      * Special text associated with line.
      *
      * @return self
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $lineNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $lineNote
      */
-    public function addToLineNote(\Calcinai\Siri\NaturalLanguageStringStructureType $lineNote)
+    public function addToLineNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $lineNote)
     {
         $this->lineNote[] = $lineNote;
         return $this;
@@ -176,7 +176,7 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
      *
      * Special text associated with line.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType[]
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[]
      */
     public function getLineNote()
     {
@@ -188,7 +188,7 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
      *
      * Special text associated with line.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType[] $lineNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $lineNote
      * @return self
      */
     public function setLineNote(array $lineNote)
@@ -201,9 +201,9 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
      * Adds as situationRef
      *
      * @return self
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      */
-    public function addToSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function addToSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef[] = $situationRef;
         return $this;
@@ -234,7 +234,7 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef[]
+     * @return \Calcinai\Siri\Objects\SituationRef[]
      */
     public function getSituationRef()
     {
@@ -244,7 +244,7 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef[] $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef[] $situationRef
      * @return self
      */
     public function setSituationRef(array $situationRef)
@@ -256,7 +256,7 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -266,10 +266,10 @@ class StopLineNoticeStructureType extends AbstractIdentifiedItemStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

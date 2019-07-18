@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGEnumerationsType:
+Calcinai\Siri\Objects\Datex\TPEGEnumerationsType:
     properties:
         tpegloc03ILCPointDescriptorSubtypeEnum:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\TPEGEnumerationsType:
             accessor:
                 getter: getTpegenumerationsExtension
                 setter: setTpegenumerationsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType
         tpegloc02DirectionTypeEnum:
             expose: true
             access_type: public_method

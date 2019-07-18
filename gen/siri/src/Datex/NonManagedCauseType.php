@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing NonManagedCauseType
@@ -14,7 +14,7 @@ class NonManagedCauseType extends CauseType
     /**
      * Description of a cause which is not managed by the operator (e.g. an off network cause).
      *
-     * @property \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $causeDescription
+     * @property \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $causeDescription
      */
     private $causeDescription = null;
 
@@ -26,7 +26,7 @@ class NonManagedCauseType extends CauseType
     private $causeType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $nonManagedCauseExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $nonManagedCauseExtension
      */
     private $nonManagedCauseExtension = null;
 
@@ -36,9 +36,9 @@ class NonManagedCauseType extends CauseType
      * Description of a cause which is not managed by the operator (e.g. an off network cause).
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value
      */
-    public function addToCauseDescription(\Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value)
+    public function addToCauseDescription(\Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType $value)
     {
         $this->causeDescription[] = $value;
         return $this;
@@ -75,7 +75,7 @@ class NonManagedCauseType extends CauseType
      *
      * Description of a cause which is not managed by the operator (e.g. an off network cause).
      *
-     * @return \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[]
      */
     public function getCauseDescription()
     {
@@ -87,7 +87,7 @@ class NonManagedCauseType extends CauseType
      *
      * Description of a cause which is not managed by the operator (e.g. an off network cause).
      *
-     * @param \Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $causeDescription
+     * @param \Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType[] $causeDescription
      * @return self
      */
     public function setCauseDescription(array $causeDescription)
@@ -125,7 +125,7 @@ class NonManagedCauseType extends CauseType
     /**
      * Gets as nonManagedCauseExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getNonManagedCauseExtension()
     {
@@ -135,10 +135,10 @@ class NonManagedCauseType extends CauseType
     /**
      * Sets a new nonManagedCauseExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $nonManagedCauseExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $nonManagedCauseExtension
      * @return self
      */
-    public function setNonManagedCauseExtension(\Calcinai\Siri\Datex\ExtensionType $nonManagedCauseExtension)
+    public function setNonManagedCauseExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $nonManagedCauseExtension)
     {
         $this->nonManagedCauseExtension = $nonManagedCauseExtension;
         return $this;

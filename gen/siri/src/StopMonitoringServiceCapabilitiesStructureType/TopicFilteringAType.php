@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

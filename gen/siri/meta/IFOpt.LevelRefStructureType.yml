@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\LevelRefStructureType:
+Calcinai\Siri\Objects\IFOpt\LevelRefStructureType:
     properties:
         __value:
             expose: true

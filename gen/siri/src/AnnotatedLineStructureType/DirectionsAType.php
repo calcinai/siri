@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AnnotatedLineStructureType;
+namespace Calcinai\Siri\Objects\AnnotatedLineStructureType;
 
 /**
  * Class representing DirectionsAType
@@ -9,7 +9,7 @@ class DirectionsAType
 {
 
     /**
-     * @property \Calcinai\Siri\Direction[] $direction
+     * @property \Calcinai\Siri\Objects\Direction[] $direction
      */
     private $direction = [
         
@@ -19,9 +19,9 @@ class DirectionsAType
      * Adds as direction
      *
      * @return self
-     * @param \Calcinai\Siri\Direction $direction
+     * @param \Calcinai\Siri\Objects\Direction $direction
      */
-    public function addToDirection(\Calcinai\Siri\Direction $direction)
+    public function addToDirection(\Calcinai\Siri\Objects\Direction $direction)
     {
         $this->direction[] = $direction;
         return $this;
@@ -52,7 +52,7 @@ class DirectionsAType
     /**
      * Gets as direction
      *
-     * @return \Calcinai\Siri\Direction[]
+     * @return \Calcinai\Siri\Objects\Direction[]
      */
     public function getDirection()
     {
@@ -62,7 +62,7 @@ class DirectionsAType
     /**
      * Sets a new direction
      *
-     * @param \Calcinai\Siri\Direction[] $direction
+     * @param \Calcinai\Siri\Objects\Direction[] $direction
      * @return self
      */
     public function setDirection(array $direction)

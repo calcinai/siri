@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AlertCMethod4LinearType:
+Calcinai\Siri\Objects\Datex\AlertCMethod4LinearType:
     properties:
         alertCDirection:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\AlertCMethod4LinearType:
             accessor:
                 getter: getAlertCDirection
                 setter: setAlertCDirection
-            type: Calcinai\Siri\Datex\AlertCDirectionType
+            type: Calcinai\Siri\Objects\Datex\AlertCDirectionType
         alertCMethod4PrimaryPointLocation:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\AlertCMethod4LinearType:
             accessor:
                 getter: getAlertCMethod4PrimaryPointLocation
                 setter: setAlertCMethod4PrimaryPointLocation
-            type: Calcinai\Siri\Datex\AlertCMethod4PrimaryPointLocationType
+            type: Calcinai\Siri\Objects\Datex\AlertCMethod4PrimaryPointLocationType
         alertCMethod4SecondaryPointLocation:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\AlertCMethod4LinearType:
             accessor:
                 getter: getAlertCMethod4SecondaryPointLocation
                 setter: setAlertCMethod4SecondaryPointLocation
-            type: Calcinai\Siri\Datex\AlertCMethod4SecondaryPointLocationType
+            type: Calcinai\Siri\Objects\Datex\AlertCMethod4SecondaryPointLocationType
         alertCMethod4LinearExtension:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\AlertCMethod4LinearType:
             accessor:
                 getter: getAlertCMethod4LinearExtension
                 setter: setAlertCMethod4LinearExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

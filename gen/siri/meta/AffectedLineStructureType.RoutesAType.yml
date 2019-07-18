@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedLineStructureType\RoutesAType:
+Calcinai\Siri\Objects\AffectedLineStructureType\RoutesAType:
     properties:
         affectedRoute:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectedLineStructureType\RoutesAType:
                 inline: true
                 entry_name: AffectedRoute
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedRouteStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedRouteStructureType>

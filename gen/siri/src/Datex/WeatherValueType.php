@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing WeatherValueType
@@ -12,14 +12,14 @@ class WeatherValueType extends BasicDataValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $weatherValueExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $weatherValueExtension
      */
     private $weatherValueExtension = null;
 
     /**
      * Gets as weatherValueExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getWeatherValueExtension()
     {
@@ -29,10 +29,10 @@ class WeatherValueType extends BasicDataValueType
     /**
      * Sets a new weatherValueExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $weatherValueExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $weatherValueExtension
      * @return self
      */
-    public function setWeatherValueExtension(\Calcinai\Siri\Datex\ExtensionType $weatherValueExtension)
+    public function setWeatherValueExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $weatherValueExtension)
     {
         $this->weatherValueExtension = $weatherValueExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType:
+Calcinai\Siri\Objects\Datex\HeaviestAxleWeightCharacteristicType:
     properties:
         comparisonOperator:
             expose: true
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType:
             accessor:
                 getter: getHeaviestAxleWeightCharacteristicExtension
                 setter: setHeaviestAxleWeightCharacteristicExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\NamespaceTypeRefStructureType:
+Calcinai\Siri\Objects\IFOpt\NamespaceTypeRefStructureType:
     properties:
         __value:
             expose: true

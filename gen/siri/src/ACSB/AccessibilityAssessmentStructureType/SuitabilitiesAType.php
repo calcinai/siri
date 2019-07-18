@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType;
+namespace Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType;
 
 /**
  * Class representing SuitabilitiesAType
@@ -11,7 +11,7 @@ class SuitabilitiesAType
     /**
      * The Suitability of com[onent to meet a specifc user need.
      *
-     * @property \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitability
+     * @property \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitability
      */
     private $suitability = [
         
@@ -23,9 +23,9 @@ class SuitabilitiesAType
      * The Suitability of com[onent to meet a specifc user need.
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability
      */
-    public function addToSuitability(\Calcinai\Siri\ACSB\SuitabilityStructureType $suitability)
+    public function addToSuitability(\Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability)
     {
         $this->suitability[] = $suitability;
         return $this;
@@ -62,7 +62,7 @@ class SuitabilitiesAType
      *
      * The Suitability of com[onent to meet a specifc user need.
      *
-     * @return \Calcinai\Siri\ACSB\SuitabilityStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[]
      */
     public function getSuitability()
     {
@@ -74,7 +74,7 @@ class SuitabilitiesAType
      *
      * The Suitability of com[onent to meet a specifc user need.
      *
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitability
      * @return self
      */
     public function setSuitability(array $suitability)

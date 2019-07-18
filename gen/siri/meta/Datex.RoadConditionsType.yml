@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\RoadConditionsType:
+Calcinai\Siri\Objects\Datex\RoadConditionsType:
     properties:
         roadConditionsExtension:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\Datex\RoadConditionsType:
             accessor:
                 getter: getRoadConditionsExtension
                 setter: setRoadConditionsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

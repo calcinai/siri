@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TimetabledStopVisitStructureType
@@ -21,12 +21,12 @@ class TimetabledStopVisitStructureType extends AbstractIdentifiedItemStructureTy
     /**
      * Timetabled vehicle journey
      *
-     * @property \Calcinai\Siri\TargetedVehicleJourneyStructureType $targetedVehicleJourney
+     * @property \Calcinai\Siri\Objects\TargetedVehicleJourneyStructureType $targetedVehicleJourney
      */
     private $targetedVehicleJourney = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -61,7 +61,7 @@ class TimetabledStopVisitStructureType extends AbstractIdentifiedItemStructureTy
      *
      * Timetabled vehicle journey
      *
-     * @return \Calcinai\Siri\TargetedVehicleJourneyStructureType
+     * @return \Calcinai\Siri\Objects\TargetedVehicleJourneyStructureType
      */
     public function getTargetedVehicleJourney()
     {
@@ -73,10 +73,10 @@ class TimetabledStopVisitStructureType extends AbstractIdentifiedItemStructureTy
      *
      * Timetabled vehicle journey
      *
-     * @param \Calcinai\Siri\TargetedVehicleJourneyStructureType $targetedVehicleJourney
+     * @param \Calcinai\Siri\Objects\TargetedVehicleJourneyStructureType $targetedVehicleJourney
      * @return self
      */
-    public function setTargetedVehicleJourney(\Calcinai\Siri\TargetedVehicleJourneyStructureType $targetedVehicleJourney)
+    public function setTargetedVehicleJourney(\Calcinai\Siri\Objects\TargetedVehicleJourneyStructureType $targetedVehicleJourney)
     {
         $this->targetedVehicleJourney = $targetedVehicleJourney;
         return $this;
@@ -85,7 +85,7 @@ class TimetabledStopVisitStructureType extends AbstractIdentifiedItemStructureTy
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -95,10 +95,10 @@ class TimetabledStopVisitStructureType extends AbstractIdentifiedItemStructureTy
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

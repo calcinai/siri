@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing StoZType
@@ -142,7 +142,7 @@ class StoZType
     private $valueCompareOperatorEnum = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $stoZExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $stoZExtension
      */
     private $stoZExtension = null;
 
@@ -741,7 +741,7 @@ class StoZType
     /**
      * Gets as stoZExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getStoZExtension()
     {
@@ -751,10 +751,10 @@ class StoZType
     /**
      * Sets a new stoZExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $stoZExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $stoZExtension
      * @return self
      */
-    public function setStoZExtension(\Calcinai\Siri\Datex\ExtensionType $stoZExtension)
+    public function setStoZExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $stoZExtension)
     {
         $this->stoZExtension = $stoZExtension;
         return $this;

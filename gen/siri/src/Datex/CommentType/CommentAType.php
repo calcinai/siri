@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\CommentType;
+namespace Calcinai\Siri\Objects\Datex\CommentType;
 
 /**
  * Class representing CommentAType
@@ -9,7 +9,7 @@ class CommentAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class CommentAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class CommentAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class CommentAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

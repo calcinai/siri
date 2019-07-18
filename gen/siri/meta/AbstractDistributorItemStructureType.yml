@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractDistributorItemStructureType:
+Calcinai\Siri\Objects\AbstractDistributorItemStructureType:
     properties:
         interchangeRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AbstractDistributorItemStructureType:
             accessor:
                 getter: getInterchangeRef
                 setter: setInterchangeRef
-            type: Calcinai\Siri\InterchangeRefStructureType
+            type: Calcinai\Siri\Objects\InterchangeRefStructureType
         connectionLinkRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AbstractDistributorItemStructureType:
             accessor:
                 getter: getConnectionLinkRef
                 setter: setConnectionLinkRef
-            type: Calcinai\Siri\ConnectionLinkRefStructureType
+            type: Calcinai\Siri\Objects\ConnectionLinkRefStructureType
         stopPointRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\AbstractDistributorItemStructureType:
             accessor:
                 getter: getStopPointRef
                 setter: setStopPointRef
-            type: Calcinai\Siri\StopPointRefStructureType
+            type: Calcinai\Siri\Objects\StopPointRefStructureType
         distributorVisitNumber:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\AbstractDistributorItemStructureType:
             accessor:
                 getter: getDistributorJourney
                 setter: setDistributorJourney
-            type: Calcinai\Siri\InterchangeJourneyStructureType
+            type: Calcinai\Siri\Objects\InterchangeJourneyStructureType
         feederVehicleJourneyRef:
             expose: true
             access_type: public_method
@@ -73,4 +73,4 @@ Calcinai\Siri\AbstractDistributorItemStructureType:
                 inline: true
                 entry_name: FeederVehicleJourneyRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\FramedVehicleJourneyRefStructureType>
+            type: array<Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType>

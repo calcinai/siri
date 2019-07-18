@@ -1,4 +1,4 @@
-Calcinai\Siri\LuggageFacility:
+Calcinai\Siri\Objects\LuggageFacility:
     xml_root_name: LuggageFacility
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

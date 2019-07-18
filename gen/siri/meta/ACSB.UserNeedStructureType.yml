@@ -1,4 +1,4 @@
-Calcinai\Siri\ACSB\UserNeedStructureType:
+Calcinai\Siri\Objects\ACSB\UserNeedStructureType:
     properties:
         mobilityNeed:
             expose: true

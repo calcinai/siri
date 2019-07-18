@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ReferencePointType
@@ -21,14 +21,14 @@ class ReferencePointType
     /**
      * Identification of the road administration area which contains the reference point.
      *
-     * @property \Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType[] $administrativeArea
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType[] $administrativeArea
      */
     private $administrativeArea = null;
 
     /**
      * Name of the road on which the reference point is located.
      *
-     * @property \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType[] $roadName
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType[] $roadName
      */
     private $roadName = null;
 
@@ -77,7 +77,7 @@ class ReferencePointType
     /**
      * Description of the road reference point.
      *
-     * @property \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $referencePointDescription
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $referencePointDescription
      */
     private $referencePointDescription = null;
 
@@ -89,7 +89,7 @@ class ReferencePointType
     private $referencePointDistance = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $referencePointExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $referencePointExtension
      */
     private $referencePointExtension = null;
 
@@ -125,9 +125,9 @@ class ReferencePointType
      * Identification of the road administration area which contains the reference point.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType $value
      */
-    public function addToAdministrativeArea(\Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType $value)
+    public function addToAdministrativeArea(\Calcinai\Siri\Objects\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType $value)
     {
         $this->administrativeArea[] = $value;
         return $this;
@@ -164,7 +164,7 @@ class ReferencePointType
      *
      * Identification of the road administration area which contains the reference point.
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType[]
      */
     public function getAdministrativeArea()
     {
@@ -176,7 +176,7 @@ class ReferencePointType
      *
      * Identification of the road administration area which contains the reference point.
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType[] $administrativeArea
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType[] $administrativeArea
      * @return self
      */
     public function setAdministrativeArea(array $administrativeArea)
@@ -191,9 +191,9 @@ class ReferencePointType
      * Name of the road on which the reference point is located.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType $value
      */
-    public function addToRoadName(\Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType $value)
+    public function addToRoadName(\Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType $value)
     {
         $this->roadName[] = $value;
         return $this;
@@ -230,7 +230,7 @@ class ReferencePointType
      *
      * Name of the road on which the reference point is located.
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType[]
      */
     public function getRoadName()
     {
@@ -242,7 +242,7 @@ class ReferencePointType
      *
      * Name of the road on which the reference point is located.
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType[] $roadName
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType[] $roadName
      * @return self
      */
     public function setRoadName(array $roadName)
@@ -413,9 +413,9 @@ class ReferencePointType
      * Description of the road reference point.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value
      */
-    public function addToReferencePointDescription(\Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value)
+    public function addToReferencePointDescription(\Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType $value)
     {
         $this->referencePointDescription[] = $value;
         return $this;
@@ -452,7 +452,7 @@ class ReferencePointType
      *
      * Description of the road reference point.
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[]
      */
     public function getReferencePointDescription()
     {
@@ -464,7 +464,7 @@ class ReferencePointType
      *
      * Description of the road reference point.
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $referencePointDescription
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType[] $referencePointDescription
      * @return self
      */
     public function setReferencePointDescription(array $referencePointDescription)
@@ -502,7 +502,7 @@ class ReferencePointType
     /**
      * Gets as referencePointExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getReferencePointExtension()
     {
@@ -512,10 +512,10 @@ class ReferencePointType
     /**
      * Sets a new referencePointExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $referencePointExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $referencePointExtension
      * @return self
      */
-    public function setReferencePointExtension(\Calcinai\Siri\Datex\ExtensionType $referencePointExtension)
+    public function setReferencePointExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $referencePointExtension)
     {
         $this->referencePointExtension = $referencePointExtension;
         return $this;

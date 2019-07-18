@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ImpactType:
+Calcinai\Siri\Objects\Datex\ImpactType:
     properties:
         impactOnTraffic:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\ImpactType:
             accessor:
                 getter: getImpactDetails
                 setter: setImpactDetails
-            type: Calcinai\Siri\Datex\ImpactDetailsType
+            type: Calcinai\Siri\Objects\Datex\ImpactDetailsType
         delays:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\ImpactType:
             accessor:
                 getter: getDelays
                 setter: setDelays
-            type: Calcinai\Siri\Datex\DelaysType
+            type: Calcinai\Siri\Objects\Datex\DelaysType
         impactExtension:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\ImpactType:
             accessor:
                 getter: getImpactExtension
                 setter: setImpactExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

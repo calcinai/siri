@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductCategoriesDiscoveryRequestStructureType:
+Calcinai\Siri\Objects\ProductCategoriesDiscoveryRequestStructureType:
     properties:
         version:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\ConnectionTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         filterByLineRef:
             expose: true

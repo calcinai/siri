@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationElementStructureType
@@ -14,14 +14,14 @@ class SituationElementStructureType extends AbstractSituationElementStructureTyp
     /**
      * Associations with other Situations.
      *
-     * @property \Calcinai\Siri\RelatedSituationStructureType[] $references
+     * @property \Calcinai\Siri\Objects\RelatedSituationStructureType[] $references
      */
     private $references = null;
 
     /**
      * Information about source of information, that is, where the agent using the capture client obtained an item of information, or in the case of an automated feed, an identifier of the specific feed. Can be used to obtain updates, verify details or otherwise assess relevance.
      *
-     * @property \Calcinai\Siri\SituationSourceStructureType $source
+     * @property \Calcinai\Siri\Objects\SituationSourceStructureType $source
      */
     private $source = null;
 
@@ -38,9 +38,9 @@ class SituationElementStructureType extends AbstractSituationElementStructureTyp
      * Associations with other Situations.
      *
      * @return self
-     * @param \Calcinai\Siri\RelatedSituationStructureType $relatedToRef
+     * @param \Calcinai\Siri\Objects\RelatedSituationStructureType $relatedToRef
      */
-    public function addToReferences(\Calcinai\Siri\RelatedSituationStructureType $relatedToRef)
+    public function addToReferences(\Calcinai\Siri\Objects\RelatedSituationStructureType $relatedToRef)
     {
         $this->references[] = $relatedToRef;
         return $this;
@@ -77,7 +77,7 @@ class SituationElementStructureType extends AbstractSituationElementStructureTyp
      *
      * Associations with other Situations.
      *
-     * @return \Calcinai\Siri\RelatedSituationStructureType[]
+     * @return \Calcinai\Siri\Objects\RelatedSituationStructureType[]
      */
     public function getReferences()
     {
@@ -89,7 +89,7 @@ class SituationElementStructureType extends AbstractSituationElementStructureTyp
      *
      * Associations with other Situations.
      *
-     * @param \Calcinai\Siri\RelatedSituationStructureType[] $references
+     * @param \Calcinai\Siri\Objects\RelatedSituationStructureType[] $references
      * @return self
      */
     public function setReferences(array $references)
@@ -103,7 +103,7 @@ class SituationElementStructureType extends AbstractSituationElementStructureTyp
      *
      * Information about source of information, that is, where the agent using the capture client obtained an item of information, or in the case of an automated feed, an identifier of the specific feed. Can be used to obtain updates, verify details or otherwise assess relevance.
      *
-     * @return \Calcinai\Siri\SituationSourceStructureType
+     * @return \Calcinai\Siri\Objects\SituationSourceStructureType
      */
     public function getSource()
     {
@@ -115,10 +115,10 @@ class SituationElementStructureType extends AbstractSituationElementStructureTyp
      *
      * Information about source of information, that is, where the agent using the capture client obtained an item of information, or in the case of an automated feed, an identifier of the specific feed. Can be used to obtain updates, verify details or otherwise assess relevance.
      *
-     * @param \Calcinai\Siri\SituationSourceStructureType $source
+     * @param \Calcinai\Siri\Objects\SituationSourceStructureType $source
      * @return self
      */
-    public function setSource(\Calcinai\Siri\SituationSourceStructureType $source)
+    public function setSource(\Calcinai\Siri\Objects\SituationSourceStructureType $source)
     {
         $this->source = $source;
         return $this;

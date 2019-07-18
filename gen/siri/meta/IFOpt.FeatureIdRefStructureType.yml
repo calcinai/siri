@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\FeatureIdRefStructureType:
+Calcinai\Siri\Objects\IFOpt\FeatureIdRefStructureType:
     properties:
         __value:
             expose: true

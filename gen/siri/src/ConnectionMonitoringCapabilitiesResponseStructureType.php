@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringCapabilitiesResponseStructureType
@@ -19,17 +19,17 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionMonitoringServiceCapabilities $connectionMonitoringServiceCapabilities
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilities $connectionMonitoringServiceCapabilities
      */
     private $connectionMonitoringServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionServicePermissionStructureType[] $connectionMonitoringPermissions
+     * @property \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $connectionMonitoringPermissions
      */
     private $connectionMonitoringPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
     /**
      * Gets as connectionMonitoringServiceCapabilities
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringServiceCapabilities
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilities
      */
     public function getConnectionMonitoringServiceCapabilities()
     {
@@ -72,10 +72,10 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
     /**
      * Sets a new connectionMonitoringServiceCapabilities
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringServiceCapabilities $connectionMonitoringServiceCapabilities
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilities $connectionMonitoringServiceCapabilities
      * @return self
      */
-    public function setConnectionMonitoringServiceCapabilities(\Calcinai\Siri\ConnectionMonitoringServiceCapabilities $connectionMonitoringServiceCapabilities)
+    public function setConnectionMonitoringServiceCapabilities(\Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilities $connectionMonitoringServiceCapabilities)
     {
         $this->connectionMonitoringServiceCapabilities = $connectionMonitoringServiceCapabilities;
         return $this;
@@ -85,9 +85,9 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
      * Adds as connectionMonitoringPermission
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType $connectionMonitoringPermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $connectionMonitoringPermission
      */
-    public function addToConnectionMonitoringPermissions(\Calcinai\Siri\ConnectionServicePermissionStructureType $connectionMonitoringPermission)
+    public function addToConnectionMonitoringPermissions(\Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $connectionMonitoringPermission)
     {
         $this->connectionMonitoringPermissions[] = $connectionMonitoringPermission;
         return $this;
@@ -118,7 +118,7 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
     /**
      * Gets as connectionMonitoringPermissions
      *
-     * @return \Calcinai\Siri\ConnectionServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[]
      */
     public function getConnectionMonitoringPermissions()
     {
@@ -128,7 +128,7 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
     /**
      * Sets a new connectionMonitoringPermissions
      *
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType[] $connectionMonitoringPermissions
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $connectionMonitoringPermissions
      * @return self
      */
     public function setConnectionMonitoringPermissions(array $connectionMonitoringPermissions)
@@ -140,7 +140,7 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -150,10 +150,10 @@ class ConnectionMonitoringCapabilitiesResponseStructureType extends AbstractServ
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

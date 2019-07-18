@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\WinterDrivingType:
+Calcinai\Siri\Objects\Datex\WinterDrivingType:
     properties:
         winterDrivingAdvice:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\WinterDrivingType:
             accessor:
                 getter: getWinterDrivingExtension
                 setter: setWinterDrivingExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VisibilityType
@@ -19,7 +19,7 @@ class VisibilityType
     private $visibilityValue = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $visibilityExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $visibilityExtension
      */
     private $visibilityExtension = null;
 
@@ -52,7 +52,7 @@ class VisibilityType
     /**
      * Gets as visibilityExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVisibilityExtension()
     {
@@ -62,10 +62,10 @@ class VisibilityType
     /**
      * Sets a new visibilityExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $visibilityExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $visibilityExtension
      * @return self
      */
-    public function setVisibilityExtension(\Calcinai\Siri\Datex\ExtensionType $visibilityExtension)
+    public function setVisibilityExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $visibilityExtension)
     {
         $this->visibilityExtension = $visibilityExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\NonWeatherRelatedRoadConditionsType:
+Calcinai\Siri\Objects\Datex\NonWeatherRelatedRoadConditionsType:
     properties:
         nonWeatherRelatedRoadConditionType:
             expose: true
@@ -23,4 +23,4 @@ Calcinai\Siri\Datex\NonWeatherRelatedRoadConditionsType:
             accessor:
                 getter: getNonWeatherRelatedRoadConditionsExtension
                 setter: setNonWeatherRelatedRoadConditionsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

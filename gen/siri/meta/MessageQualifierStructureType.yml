@@ -1,4 +1,4 @@
-Calcinai\Siri\MessageQualifierStructureType:
+Calcinai\Siri\Objects\MessageQualifierStructureType:
     properties:
         __value:
             expose: true

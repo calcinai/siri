@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ManagementDescriptiveDataType:
+Calcinai\Siri\Objects\Datex\ManagementDescriptiveDataType:
     properties:
         messageChain:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\ManagementDescriptiveDataType:
             accessor:
                 getter: getManagementDescriptiveDataExtension
                 setter: setManagementDescriptiveDataExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

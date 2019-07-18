@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing NetworkStructureType
@@ -21,7 +21,7 @@ class NetworkStructureType
     /**
      * Name of network. Can be derived from NetworkRef.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $networkName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $networkName
      */
     private $networkName = null;
 
@@ -101,7 +101,7 @@ class NetworkStructureType
      *
      * Name of network. Can be derived from NetworkRef.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getNetworkName()
     {
@@ -113,10 +113,10 @@ class NetworkStructureType
      *
      * Name of network. Can be derived from NetworkRef.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $networkName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $networkName
      * @return self
      */
-    public function setNetworkName(\Calcinai\Siri\NaturalLanguageStringStructureType $networkName)
+    public function setNetworkName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $networkName)
     {
         $this->networkName = $networkName;
         return $this;

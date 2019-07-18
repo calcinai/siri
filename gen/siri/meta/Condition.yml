@@ -1,4 +1,4 @@
-Calcinai\Siri\Condition:
+Calcinai\Siri\Objects\Condition:
     xml_root_name: Condition
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

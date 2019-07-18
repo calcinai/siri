@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ConditionsType:
+Calcinai\Siri\Objects\Datex\ConditionsType:
     properties:
         drivingConditionType:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\ConditionsType:
             accessor:
                 getter: getConditionsExtension
                 setter: setConditionsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SiriServiceDeliveryStructureType
@@ -12,74 +12,74 @@ class SiriServiceDeliveryStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\ProductionTimetableDelivery $productionTimetableDelivery
+     * @property \Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery
      */
     private $productionTimetableDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedTimetableDelivery $estimatedTimetableDelivery
+     * @property \Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery
      */
     private $estimatedTimetableDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\StopTimetableDelivery $stopTimetableDelivery
+     * @property \Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery
      */
     private $stopTimetableDelivery = null;
 
     /**
      * Delviery for Stop Event service.
      *
-     * @property \Calcinai\Siri\StopMonitoringDelivery $stopMonitoringDelivery
+     * @property \Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery
      */
     private $stopMonitoringDelivery = null;
 
     /**
      * Delviery for Vehicle Activity Service
      *
-     * @property \Calcinai\Siri\VehicleMonitoringDelivery $vehicleMonitoringDelivery
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery
      */
     private $vehicleMonitoringDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionTimetableDelivery $connectionTimetableDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery
      */
     private $connectionTimetableDelivery = null;
 
     /**
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @property \Calcinai\Siri\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
      */
     private $connectionMonitoringFeederDelivery = null;
 
     /**
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @property \Calcinai\Siri\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
      */
     private $connectionMonitoringDistributorDelivery = null;
 
     /**
      * Delivery for general Message service.
      *
-     * @property \Calcinai\Siri\GeneralMessageDelivery $generalMessageDelivery
+     * @property \Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery
      */
     private $generalMessageDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityMonitoringDelivery $facilityMonitoringDelivery
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery
      */
     private $facilityMonitoringDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\SituationExchangeDelivery $situationExchangeDelivery
+     * @property \Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery
      */
     private $situationExchangeDelivery = null;
 
     /**
      * Gets as productionTimetableDelivery
      *
-     * @return \Calcinai\Siri\ProductionTimetableDelivery
+     * @return \Calcinai\Siri\Objects\ProductionTimetableDelivery
      */
     public function getProductionTimetableDelivery()
     {
@@ -89,10 +89,10 @@ class SiriServiceDeliveryStructureType
     /**
      * Sets a new productionTimetableDelivery
      *
-     * @param \Calcinai\Siri\ProductionTimetableDelivery $productionTimetableDelivery
+     * @param \Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery
      * @return self
      */
-    public function setProductionTimetableDelivery(\Calcinai\Siri\ProductionTimetableDelivery $productionTimetableDelivery)
+    public function setProductionTimetableDelivery(\Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery)
     {
         $this->productionTimetableDelivery = $productionTimetableDelivery;
         return $this;
@@ -101,7 +101,7 @@ class SiriServiceDeliveryStructureType
     /**
      * Gets as estimatedTimetableDelivery
      *
-     * @return \Calcinai\Siri\EstimatedTimetableDelivery
+     * @return \Calcinai\Siri\Objects\EstimatedTimetableDelivery
      */
     public function getEstimatedTimetableDelivery()
     {
@@ -111,10 +111,10 @@ class SiriServiceDeliveryStructureType
     /**
      * Sets a new estimatedTimetableDelivery
      *
-     * @param \Calcinai\Siri\EstimatedTimetableDelivery $estimatedTimetableDelivery
+     * @param \Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery
      * @return self
      */
-    public function setEstimatedTimetableDelivery(\Calcinai\Siri\EstimatedTimetableDelivery $estimatedTimetableDelivery)
+    public function setEstimatedTimetableDelivery(\Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery)
     {
         $this->estimatedTimetableDelivery = $estimatedTimetableDelivery;
         return $this;
@@ -123,7 +123,7 @@ class SiriServiceDeliveryStructureType
     /**
      * Gets as stopTimetableDelivery
      *
-     * @return \Calcinai\Siri\StopTimetableDelivery
+     * @return \Calcinai\Siri\Objects\StopTimetableDelivery
      */
     public function getStopTimetableDelivery()
     {
@@ -133,10 +133,10 @@ class SiriServiceDeliveryStructureType
     /**
      * Sets a new stopTimetableDelivery
      *
-     * @param \Calcinai\Siri\StopTimetableDelivery $stopTimetableDelivery
+     * @param \Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery
      * @return self
      */
-    public function setStopTimetableDelivery(\Calcinai\Siri\StopTimetableDelivery $stopTimetableDelivery)
+    public function setStopTimetableDelivery(\Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery)
     {
         $this->stopTimetableDelivery = $stopTimetableDelivery;
         return $this;
@@ -147,7 +147,7 @@ class SiriServiceDeliveryStructureType
      *
      * Delviery for Stop Event service.
      *
-     * @return \Calcinai\Siri\StopMonitoringDelivery
+     * @return \Calcinai\Siri\Objects\StopMonitoringDelivery
      */
     public function getStopMonitoringDelivery()
     {
@@ -159,10 +159,10 @@ class SiriServiceDeliveryStructureType
      *
      * Delviery for Stop Event service.
      *
-     * @param \Calcinai\Siri\StopMonitoringDelivery $stopMonitoringDelivery
+     * @param \Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery
      * @return self
      */
-    public function setStopMonitoringDelivery(\Calcinai\Siri\StopMonitoringDelivery $stopMonitoringDelivery)
+    public function setStopMonitoringDelivery(\Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery)
     {
         $this->stopMonitoringDelivery = $stopMonitoringDelivery;
         return $this;
@@ -173,7 +173,7 @@ class SiriServiceDeliveryStructureType
      *
      * Delviery for Vehicle Activity Service
      *
-     * @return \Calcinai\Siri\VehicleMonitoringDelivery
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringDelivery
      */
     public function getVehicleMonitoringDelivery()
     {
@@ -185,10 +185,10 @@ class SiriServiceDeliveryStructureType
      *
      * Delviery for Vehicle Activity Service
      *
-     * @param \Calcinai\Siri\VehicleMonitoringDelivery $vehicleMonitoringDelivery
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery
      * @return self
      */
-    public function setVehicleMonitoringDelivery(\Calcinai\Siri\VehicleMonitoringDelivery $vehicleMonitoringDelivery)
+    public function setVehicleMonitoringDelivery(\Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery)
     {
         $this->vehicleMonitoringDelivery = $vehicleMonitoringDelivery;
         return $this;
@@ -197,7 +197,7 @@ class SiriServiceDeliveryStructureType
     /**
      * Gets as connectionTimetableDelivery
      *
-     * @return \Calcinai\Siri\ConnectionTimetableDelivery
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableDelivery
      */
     public function getConnectionTimetableDelivery()
     {
@@ -207,10 +207,10 @@ class SiriServiceDeliveryStructureType
     /**
      * Sets a new connectionTimetableDelivery
      *
-     * @param \Calcinai\Siri\ConnectionTimetableDelivery $connectionTimetableDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery
      * @return self
      */
-    public function setConnectionTimetableDelivery(\Calcinai\Siri\ConnectionTimetableDelivery $connectionTimetableDelivery)
+    public function setConnectionTimetableDelivery(\Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery)
     {
         $this->connectionTimetableDelivery = $connectionTimetableDelivery;
         return $this;
@@ -221,7 +221,7 @@ class SiriServiceDeliveryStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringFeederDelivery
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery
      */
     public function getConnectionMonitoringFeederDelivery()
     {
@@ -233,10 +233,10 @@ class SiriServiceDeliveryStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
      * @return self
      */
-    public function setConnectionMonitoringFeederDelivery(\Calcinai\Siri\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery)
+    public function setConnectionMonitoringFeederDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery)
     {
         $this->connectionMonitoringFeederDelivery = $connectionMonitoringFeederDelivery;
         return $this;
@@ -247,7 +247,7 @@ class SiriServiceDeliveryStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringDistributorDelivery
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery
      */
     public function getConnectionMonitoringDistributorDelivery()
     {
@@ -259,10 +259,10 @@ class SiriServiceDeliveryStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
      * @return self
      */
-    public function setConnectionMonitoringDistributorDelivery(\Calcinai\Siri\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery)
+    public function setConnectionMonitoringDistributorDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery)
     {
         $this->connectionMonitoringDistributorDelivery = $connectionMonitoringDistributorDelivery;
         return $this;
@@ -273,7 +273,7 @@ class SiriServiceDeliveryStructureType
      *
      * Delivery for general Message service.
      *
-     * @return \Calcinai\Siri\GeneralMessageDelivery
+     * @return \Calcinai\Siri\Objects\GeneralMessageDelivery
      */
     public function getGeneralMessageDelivery()
     {
@@ -285,10 +285,10 @@ class SiriServiceDeliveryStructureType
      *
      * Delivery for general Message service.
      *
-     * @param \Calcinai\Siri\GeneralMessageDelivery $generalMessageDelivery
+     * @param \Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery
      * @return self
      */
-    public function setGeneralMessageDelivery(\Calcinai\Siri\GeneralMessageDelivery $generalMessageDelivery)
+    public function setGeneralMessageDelivery(\Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery)
     {
         $this->generalMessageDelivery = $generalMessageDelivery;
         return $this;
@@ -297,7 +297,7 @@ class SiriServiceDeliveryStructureType
     /**
      * Gets as facilityMonitoringDelivery
      *
-     * @return \Calcinai\Siri\FacilityMonitoringDelivery
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringDelivery
      */
     public function getFacilityMonitoringDelivery()
     {
@@ -307,10 +307,10 @@ class SiriServiceDeliveryStructureType
     /**
      * Sets a new facilityMonitoringDelivery
      *
-     * @param \Calcinai\Siri\FacilityMonitoringDelivery $facilityMonitoringDelivery
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery
      * @return self
      */
-    public function setFacilityMonitoringDelivery(\Calcinai\Siri\FacilityMonitoringDelivery $facilityMonitoringDelivery)
+    public function setFacilityMonitoringDelivery(\Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery)
     {
         $this->facilityMonitoringDelivery = $facilityMonitoringDelivery;
         return $this;
@@ -319,7 +319,7 @@ class SiriServiceDeliveryStructureType
     /**
      * Gets as situationExchangeDelivery
      *
-     * @return \Calcinai\Siri\SituationExchangeDelivery
+     * @return \Calcinai\Siri\Objects\SituationExchangeDelivery
      */
     public function getSituationExchangeDelivery()
     {
@@ -329,10 +329,10 @@ class SiriServiceDeliveryStructureType
     /**
      * Sets a new situationExchangeDelivery
      *
-     * @param \Calcinai\Siri\SituationExchangeDelivery $situationExchangeDelivery
+     * @param \Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery
      * @return self
      */
-    public function setSituationExchangeDelivery(\Calcinai\Siri\SituationExchangeDelivery $situationExchangeDelivery)
+    public function setSituationExchangeDelivery(\Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery)
     {
         $this->situationExchangeDelivery = $situationExchangeDelivery;
         return $this;

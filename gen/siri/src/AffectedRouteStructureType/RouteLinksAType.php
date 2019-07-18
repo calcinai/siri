@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedRouteStructureType;
+namespace Calcinai\Siri\Objects\AffectedRouteStructureType;
 
 /**
  * Class representing RouteLinksAType

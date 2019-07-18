@@ -1,3 +1,3 @@
-Calcinai\Siri\AbstractDiscoveryRequest:
+Calcinai\Siri\Objects\AbstractDiscoveryRequest:
     xml_root_name: AbstractDiscoveryRequest
     xml_root_namespace: 'http://www.siri.org.uk/siri'

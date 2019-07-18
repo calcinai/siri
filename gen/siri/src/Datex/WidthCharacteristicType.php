@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing WidthCharacteristicType
@@ -26,7 +26,7 @@ class WidthCharacteristicType
     private $vehicleWidth = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $widthCharacteristicExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $widthCharacteristicExtension
      */
     private $widthCharacteristicExtension = null;
 
@@ -85,7 +85,7 @@ class WidthCharacteristicType
     /**
      * Gets as widthCharacteristicExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getWidthCharacteristicExtension()
     {
@@ -95,10 +95,10 @@ class WidthCharacteristicType
     /**
      * Sets a new widthCharacteristicExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $widthCharacteristicExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $widthCharacteristicExtension
      * @return self
      */
-    public function setWidthCharacteristicExtension(\Calcinai\Siri\Datex\ExtensionType $widthCharacteristicExtension)
+    public function setWidthCharacteristicExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $widthCharacteristicExtension)
     {
         $this->widthCharacteristicExtension = $widthCharacteristicExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedVehicleJourneyStructureType
@@ -32,14 +32,14 @@ class AffectedVehicleJourneyStructureType
     /**
      * Name of journey
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $journeyName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $journeyName
      */
     private $journeyName = null;
 
     /**
      * Operator of affected line.
      *
-     * @property \Calcinai\Siri\AffectedOperatorStructureType $operator
+     * @property \Calcinai\Siri\Objects\AffectedOperatorStructureType $operator
      */
     private $operator = null;
 
@@ -51,7 +51,7 @@ class AffectedVehicleJourneyStructureType
     private $lineRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
@@ -65,7 +65,7 @@ class AffectedVehicleJourneyStructureType
     /**
      * Origins from which the line runs. [equivalent to pti15 1 start_point route_description_type]
      *
-     * @property \Calcinai\Siri\AffectedStopPointStructureType[] $origins
+     * @property \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $origins
      */
     private $origins = [
         
@@ -74,7 +74,7 @@ class AffectedVehicleJourneyStructureType
     /**
      * Destinations to which the line runs. [equivalent to pti15 2 destination route_description_type]
      *
-     * @property \Calcinai\Siri\AffectedStopPointStructureType[] $destinations
+     * @property \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $destinations
      */
     private $destinations = [
         
@@ -83,7 +83,7 @@ class AffectedVehicleJourneyStructureType
     /**
      * Route
      *
-     * @property \Calcinai\Siri\AffectedRouteStructureType[] $route
+     * @property \Calcinai\Siri\Objects\AffectedRouteStructureType[] $route
      */
     private $route = [
         
@@ -104,19 +104,19 @@ class AffectedVehicleJourneyStructureType
     private $destinationAimedArrivalTime = null;
 
     /**
-     * @property \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @property \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      */
     private $accessibilityAssessment = null;
 
     /**
      * Service pattern of vehicle journey route. [equivalent to pti15 3 stop, 15_5 not-stoppoing, 15-6 temporraryu stop route_description_type]
      *
-     * @property \Calcinai\Siri\AffectedCallStructureType[] $calls
+     * @property \Calcinai\Siri\Objects\AffectedCallStructureType[] $calls
      */
     private $calls = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -257,7 +257,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Name of journey
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getJourneyName()
     {
@@ -269,10 +269,10 @@ class AffectedVehicleJourneyStructureType
      *
      * Name of journey
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $journeyName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $journeyName
      * @return self
      */
-    public function setJourneyName(\Calcinai\Siri\NaturalLanguageStringStructureType $journeyName)
+    public function setJourneyName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $journeyName)
     {
         $this->journeyName = $journeyName;
         return $this;
@@ -283,7 +283,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Operator of affected line.
      *
-     * @return \Calcinai\Siri\AffectedOperatorStructureType
+     * @return \Calcinai\Siri\Objects\AffectedOperatorStructureType
      */
     public function getOperator()
     {
@@ -295,10 +295,10 @@ class AffectedVehicleJourneyStructureType
      *
      * Operator of affected line.
      *
-     * @param \Calcinai\Siri\AffectedOperatorStructureType $operator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType $operator
      * @return self
      */
-    public function setOperator(\Calcinai\Siri\AffectedOperatorStructureType $operator)
+    public function setOperator(\Calcinai\Siri\Objects\AffectedOperatorStructureType $operator)
     {
         $this->operator = $operator;
         return $this;
@@ -333,7 +333,7 @@ class AffectedVehicleJourneyStructureType
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -343,10 +343,10 @@ class AffectedVehicleJourneyStructureType
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -384,9 +384,9 @@ class AffectedVehicleJourneyStructureType
      * Origins from which the line runs. [equivalent to pti15 1 start_point route_description_type]
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPointStructureType $origins
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType $origins
      */
-    public function addToOrigins(\Calcinai\Siri\AffectedStopPointStructureType $origins)
+    public function addToOrigins(\Calcinai\Siri\Objects\AffectedStopPointStructureType $origins)
     {
         $this->origins[] = $origins;
         return $this;
@@ -423,7 +423,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Origins from which the line runs. [equivalent to pti15 1 start_point route_description_type]
      *
-     * @return \Calcinai\Siri\AffectedStopPointStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPointStructureType[]
      */
     public function getOrigins()
     {
@@ -435,7 +435,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Origins from which the line runs. [equivalent to pti15 1 start_point route_description_type]
      *
-     * @param \Calcinai\Siri\AffectedStopPointStructureType[] $origins
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $origins
      * @return self
      */
     public function setOrigins(array $origins)
@@ -450,9 +450,9 @@ class AffectedVehicleJourneyStructureType
      * Destinations to which the line runs. [equivalent to pti15 2 destination route_description_type]
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPointStructureType $destinations
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType $destinations
      */
-    public function addToDestinations(\Calcinai\Siri\AffectedStopPointStructureType $destinations)
+    public function addToDestinations(\Calcinai\Siri\Objects\AffectedStopPointStructureType $destinations)
     {
         $this->destinations[] = $destinations;
         return $this;
@@ -489,7 +489,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Destinations to which the line runs. [equivalent to pti15 2 destination route_description_type]
      *
-     * @return \Calcinai\Siri\AffectedStopPointStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPointStructureType[]
      */
     public function getDestinations()
     {
@@ -501,7 +501,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Destinations to which the line runs. [equivalent to pti15 2 destination route_description_type]
      *
-     * @param \Calcinai\Siri\AffectedStopPointStructureType[] $destinations
+     * @param \Calcinai\Siri\Objects\AffectedStopPointStructureType[] $destinations
      * @return self
      */
     public function setDestinations(array $destinations)
@@ -516,9 +516,9 @@ class AffectedVehicleJourneyStructureType
      * Route
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedRouteStructureType $route
+     * @param \Calcinai\Siri\Objects\AffectedRouteStructureType $route
      */
-    public function addToRoute(\Calcinai\Siri\AffectedRouteStructureType $route)
+    public function addToRoute(\Calcinai\Siri\Objects\AffectedRouteStructureType $route)
     {
         $this->route[] = $route;
         return $this;
@@ -555,7 +555,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Route
      *
-     * @return \Calcinai\Siri\AffectedRouteStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedRouteStructureType[]
      */
     public function getRoute()
     {
@@ -567,7 +567,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Route
      *
-     * @param \Calcinai\Siri\AffectedRouteStructureType[] $route
+     * @param \Calcinai\Siri\Objects\AffectedRouteStructureType[] $route
      * @return self
      */
     public function setRoute(array $route)
@@ -631,7 +631,7 @@ class AffectedVehicleJourneyStructureType
     /**
      * Gets as accessibilityAssessment
      *
-     * @return \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType
      */
     public function getAccessibilityAssessment()
     {
@@ -641,10 +641,10 @@ class AffectedVehicleJourneyStructureType
     /**
      * Sets a new accessibilityAssessment
      *
-     * @param \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      * @return self
      */
-    public function setAccessibilityAssessment(\Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
+    public function setAccessibilityAssessment(\Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
     {
         $this->accessibilityAssessment = $accessibilityAssessment;
         return $this;
@@ -656,9 +656,9 @@ class AffectedVehicleJourneyStructureType
      * Service pattern of vehicle journey route. [equivalent to pti15 3 stop, 15_5 not-stoppoing, 15-6 temporraryu stop route_description_type]
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedCallStructureType $call
+     * @param \Calcinai\Siri\Objects\AffectedCallStructureType $call
      */
-    public function addToCalls(\Calcinai\Siri\AffectedCallStructureType $call)
+    public function addToCalls(\Calcinai\Siri\Objects\AffectedCallStructureType $call)
     {
         $this->calls[] = $call;
         return $this;
@@ -695,7 +695,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Service pattern of vehicle journey route. [equivalent to pti15 3 stop, 15_5 not-stoppoing, 15-6 temporraryu stop route_description_type]
      *
-     * @return \Calcinai\Siri\AffectedCallStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedCallStructureType[]
      */
     public function getCalls()
     {
@@ -707,7 +707,7 @@ class AffectedVehicleJourneyStructureType
      *
      * Service pattern of vehicle journey route. [equivalent to pti15 3 stop, 15_5 not-stoppoing, 15-6 temporraryu stop route_description_type]
      *
-     * @param \Calcinai\Siri\AffectedCallStructureType[] $calls
+     * @param \Calcinai\Siri\Objects\AffectedCallStructureType[] $calls
      * @return self
      */
     public function setCalls(array $calls)
@@ -719,7 +719,7 @@ class AffectedVehicleJourneyStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -729,10 +729,10 @@ class AffectedVehicleJourneyStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,3 +1,3 @@
-Calcinai\Siri\ACSB\EscalatorFreeAccess:
+Calcinai\Siri\Objects\ACSB\EscalatorFreeAccess:
     xml_root_name: EscalatorFreeAccess
     xml_root_namespace: 'http://www.ifopt.org.uk/acsb'

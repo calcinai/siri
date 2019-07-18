@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopMonitoringCapabilitiesResponseStructureType
@@ -19,17 +19,17 @@ class StopMonitoringCapabilitiesResponseStructureType extends AbstractServiceCap
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\StopMonitoringServiceCapabilities $stopMonitoringServiceCapabilities
+     * @property \Calcinai\Siri\Objects\StopMonitoringServiceCapabilities $stopMonitoringServiceCapabilities
      */
     private $stopMonitoringServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\StopMonitoringPermissions $stopMonitoringPermissions
+     * @property \Calcinai\Siri\Objects\StopMonitoringPermissions $stopMonitoringPermissions
      */
     private $stopMonitoringPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class StopMonitoringCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Gets as stopMonitoringServiceCapabilities
      *
-     * @return \Calcinai\Siri\StopMonitoringServiceCapabilities
+     * @return \Calcinai\Siri\Objects\StopMonitoringServiceCapabilities
      */
     public function getStopMonitoringServiceCapabilities()
     {
@@ -72,10 +72,10 @@ class StopMonitoringCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Sets a new stopMonitoringServiceCapabilities
      *
-     * @param \Calcinai\Siri\StopMonitoringServiceCapabilities $stopMonitoringServiceCapabilities
+     * @param \Calcinai\Siri\Objects\StopMonitoringServiceCapabilities $stopMonitoringServiceCapabilities
      * @return self
      */
-    public function setStopMonitoringServiceCapabilities(\Calcinai\Siri\StopMonitoringServiceCapabilities $stopMonitoringServiceCapabilities)
+    public function setStopMonitoringServiceCapabilities(\Calcinai\Siri\Objects\StopMonitoringServiceCapabilities $stopMonitoringServiceCapabilities)
     {
         $this->stopMonitoringServiceCapabilities = $stopMonitoringServiceCapabilities;
         return $this;
@@ -84,7 +84,7 @@ class StopMonitoringCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Gets as stopMonitoringPermissions
      *
-     * @return \Calcinai\Siri\StopMonitoringPermissions
+     * @return \Calcinai\Siri\Objects\StopMonitoringPermissions
      */
     public function getStopMonitoringPermissions()
     {
@@ -94,10 +94,10 @@ class StopMonitoringCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Sets a new stopMonitoringPermissions
      *
-     * @param \Calcinai\Siri\StopMonitoringPermissions $stopMonitoringPermissions
+     * @param \Calcinai\Siri\Objects\StopMonitoringPermissions $stopMonitoringPermissions
      * @return self
      */
-    public function setStopMonitoringPermissions(\Calcinai\Siri\StopMonitoringPermissions $stopMonitoringPermissions)
+    public function setStopMonitoringPermissions(\Calcinai\Siri\Objects\StopMonitoringPermissions $stopMonitoringPermissions)
     {
         $this->stopMonitoringPermissions = $stopMonitoringPermissions;
         return $this;
@@ -106,7 +106,7 @@ class StopMonitoringCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class StopMonitoringCapabilitiesResponseStructureType extends AbstractServiceCap
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PointByCoordinatesType
@@ -19,12 +19,12 @@ class PointByCoordinatesType
     private $bearing = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates
+     * @property \Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates
      */
     private $pointCoordinates = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $pointByCoordinatesExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $pointByCoordinatesExtension
      */
     private $pointByCoordinatesExtension = null;
 
@@ -57,7 +57,7 @@ class PointByCoordinatesType
     /**
      * Gets as pointCoordinates
      *
-     * @return \Calcinai\Siri\Datex\PointCoordinatesType
+     * @return \Calcinai\Siri\Objects\Datex\PointCoordinatesType
      */
     public function getPointCoordinates()
     {
@@ -67,10 +67,10 @@ class PointByCoordinatesType
     /**
      * Sets a new pointCoordinates
      *
-     * @param \Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates
+     * @param \Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates
      * @return self
      */
-    public function setPointCoordinates(\Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates)
+    public function setPointCoordinates(\Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates)
     {
         $this->pointCoordinates = $pointCoordinates;
         return $this;
@@ -79,7 +79,7 @@ class PointByCoordinatesType
     /**
      * Gets as pointByCoordinatesExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPointByCoordinatesExtension()
     {
@@ -89,10 +89,10 @@ class PointByCoordinatesType
     /**
      * Sets a new pointByCoordinatesExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $pointByCoordinatesExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $pointByCoordinatesExtension
      * @return self
      */
-    public function setPointByCoordinatesExtension(\Calcinai\Siri\Datex\ExtensionType $pointByCoordinatesExtension)
+    public function setPointByCoordinatesExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $pointByCoordinatesExtension)
     {
         $this->pointByCoordinatesExtension = $pointByCoordinatesExtension;
         return $this;

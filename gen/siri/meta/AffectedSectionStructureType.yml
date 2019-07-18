@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedSectionStructureType:
+Calcinai\Siri\Objects\AffectedSectionStructureType:
     properties:
         sectionRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AffectedSectionStructureType:
             accessor:
                 getter: getSectionRef
                 setter: setSectionRef
-            type: Calcinai\Siri\SectionRefStructureType
+            type: Calcinai\Siri\Objects\SectionRefStructureType
         linkProjection:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AffectedSectionStructureType:
             accessor:
                 getter: getLinkProjection
                 setter: setLinkProjection
-            type: Calcinai\Siri\IFOpt\LinkProjectionStructureType
+            type: Calcinai\Siri\Objects\IFOpt\LinkProjectionStructureType
         offset:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\AffectedSectionStructureType:
             accessor:
                 getter: getOffset
                 setter: setOffset
-            type: Calcinai\Siri\OffsetStructureType
+            type: Calcinai\Siri\Objects\OffsetStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\AffectedSectionStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

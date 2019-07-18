@@ -1,4 +1,4 @@
-Calcinai\Siri\SubscriptionQualifierStructureType:
+Calcinai\Siri\Objects\SubscriptionQualifierStructureType:
     properties:
         __value:
             expose: true

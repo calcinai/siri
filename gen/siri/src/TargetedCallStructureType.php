@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TargetedCallStructureType
@@ -67,7 +67,7 @@ class TargetedCallStructureType
     private $aimedArrivalTime = null;
 
     /**
-     * @property \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @property \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      */
     private $arrivalPlatformName = null;
 
@@ -82,7 +82,7 @@ class TargetedCallStructureType
     private $aimedDepartureTime = null;
 
     /**
-     * @property \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @property \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      */
     private $departurePlatformName = null;
 
@@ -317,7 +317,7 @@ class TargetedCallStructureType
     /**
      * Gets as arrivalPlatformName
      *
-     * @return \Calcinai\Siri\ArrivalPlatformName
+     * @return \Calcinai\Siri\Objects\ArrivalPlatformName
      */
     public function getArrivalPlatformName()
     {
@@ -327,10 +327,10 @@ class TargetedCallStructureType
     /**
      * Sets a new arrivalPlatformName
      *
-     * @param \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @param \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      * @return self
      */
-    public function setArrivalPlatformName(\Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName)
+    public function setArrivalPlatformName(\Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName)
     {
         $this->arrivalPlatformName = $arrivalPlatformName;
         return $this;
@@ -383,7 +383,7 @@ class TargetedCallStructureType
     /**
      * Gets as departurePlatformName
      *
-     * @return \Calcinai\Siri\DeparturePlatformName
+     * @return \Calcinai\Siri\Objects\DeparturePlatformName
      */
     public function getDeparturePlatformName()
     {
@@ -393,10 +393,10 @@ class TargetedCallStructureType
     /**
      * Sets a new departurePlatformName
      *
-     * @param \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @param \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      * @return self
      */
-    public function setDeparturePlatformName(\Calcinai\Siri\DeparturePlatformName $departurePlatformName)
+    public function setDeparturePlatformName(\Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName)
     {
         $this->departurePlatformName = $departurePlatformName;
         return $this;

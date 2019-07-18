@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType;
 
-use Calcinai\Siri\CapabilityAccessControlStructureType;
+use Calcinai\Siri\Objects\CapabilityAccessControlStructureType;
 
 /**
  * Class representing AccessControlAType

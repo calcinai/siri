@@ -1,4 +1,4 @@
-Calcinai\Siri\NotifyUserActionStructureType:
+Calcinai\Siri\Objects\NotifyUserActionStructureType:
     properties:
         workgroupRef:
             expose: true

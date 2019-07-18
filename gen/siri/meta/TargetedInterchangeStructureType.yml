@@ -1,4 +1,4 @@
-Calcinai\Siri\TargetedInterchangeStructureType:
+Calcinai\Siri\Objects\TargetedInterchangeStructureType:
     properties:
         interchangeCode:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\TargetedInterchangeStructureType:
             accessor:
                 getter: getDistributorVehicleJourneyRef
                 setter: setDistributorVehicleJourneyRef
-            type: Calcinai\Siri\DatedVehicleJourneyRefStructureType
+            type: Calcinai\Siri\Objects\DatedVehicleJourneyRefStructureType
         distributorConnectionLinkRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\TargetedInterchangeStructureType:
             accessor:
                 getter: getDistributorConnectionLinkRef
                 setter: setDistributorConnectionLinkRef
-            type: Calcinai\Siri\ConnectionLinkRefStructureType
+            type: Calcinai\Siri\Objects\ConnectionLinkRefStructureType
         distributorConnectionLink:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\TargetedInterchangeStructureType:
             accessor:
                 getter: getDistributorConnectionLink
                 setter: setDistributorConnectionLink
-            type: Calcinai\Siri\ContextualisedConnectionLinkStructureType
+            type: Calcinai\Siri\Objects\ContextualisedConnectionLinkStructureType
         distributorVisitNumber:
             expose: true
             access_type: public_method

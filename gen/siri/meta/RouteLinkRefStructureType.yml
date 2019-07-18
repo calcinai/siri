@@ -1,4 +1,4 @@
-Calcinai\Siri\RouteLinkRefStructureType:
+Calcinai\Siri\Objects\RouteLinkRefStructureType:
     properties:
         __value:
             expose: true

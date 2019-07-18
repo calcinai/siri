@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\PtConsequenceStructureType;
+namespace Calcinai\Siri\Objects\PtConsequenceStructureType;
 
 /**
  * Class representing SuitabilitiesAType
@@ -11,7 +11,7 @@ class SuitabilitiesAType
     /**
      * Effect on a passenger need.
      *
-     * @property \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitability
+     * @property \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitability
      */
     private $suitability = [
         
@@ -23,9 +23,9 @@ class SuitabilitiesAType
      * Effect on a passenger need.
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability
      */
-    public function addToSuitability(\Calcinai\Siri\ACSB\SuitabilityStructureType $suitability)
+    public function addToSuitability(\Calcinai\Siri\Objects\ACSB\SuitabilityStructureType $suitability)
     {
         $this->suitability[] = $suitability;
         return $this;
@@ -62,7 +62,7 @@ class SuitabilitiesAType
      *
      * Effect on a passenger need.
      *
-     * @return \Calcinai\Siri\ACSB\SuitabilityStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[]
      */
     public function getSuitability()
     {
@@ -74,7 +74,7 @@ class SuitabilitiesAType
      *
      * Effect on a passenger need.
      *
-     * @param \Calcinai\Siri\ACSB\SuitabilityStructureType[] $suitability
+     * @param \Calcinai\Siri\Objects\ACSB\SuitabilityStructureType[] $suitability
      * @return self
      */
     public function setSuitability(array $suitability)

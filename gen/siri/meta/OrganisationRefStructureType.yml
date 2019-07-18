@@ -1,4 +1,4 @@
-Calcinai\Siri\OrganisationRefStructureType:
+Calcinai\Siri\Objects\OrganisationRefStructureType:
     properties:
         __value:
             expose: true

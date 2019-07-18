@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\PlaceEquipmentStructureType:
+Calcinai\Siri\Objects\IFOpt\PlaceEquipmentStructureType:
     properties:
         extensions:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\IFOpt\PlaceEquipmentStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\IFOpt\Extensions
+            type: Calcinai\Siri\Objects\IFOpt\Extensions

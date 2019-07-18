@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\PtSituationElementStructureType;
+namespace Calcinai\Siri\Objects\PtSituationElementStructureType;
 
-use Calcinai\Siri\HalfOpenTimestampRangeStructureType;
+use Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType;
 
 /**
  * Class representing ValidityPeriodAType

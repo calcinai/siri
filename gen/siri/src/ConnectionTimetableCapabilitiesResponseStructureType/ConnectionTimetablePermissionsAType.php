@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType;
+namespace Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponseStructureType;
 
-use Calcinai\Siri\PermissionsStructureType;
+use Calcinai\Siri\Objects\PermissionsStructureType;
 
 /**
  * Class representing ConnectionTimetablePermissionsAType
@@ -13,7 +13,7 @@ class ConnectionTimetablePermissionsAType extends PermissionsStructureType
     /**
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @property \Calcinai\Siri\ConnectionServicePermissionStructureType[] $connectionTimetablePermission
+     * @property \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $connectionTimetablePermission
      */
     private $connectionTimetablePermission = [
         
@@ -25,9 +25,9 @@ class ConnectionTimetablePermissionsAType extends PermissionsStructureType
      * Permission for a single participant or all participants to use an aspect of the service.
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType $connectionTimetablePermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $connectionTimetablePermission
      */
-    public function addToConnectionTimetablePermission(\Calcinai\Siri\ConnectionServicePermissionStructureType $connectionTimetablePermission)
+    public function addToConnectionTimetablePermission(\Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $connectionTimetablePermission)
     {
         $this->connectionTimetablePermission[] = $connectionTimetablePermission;
         return $this;
@@ -64,7 +64,7 @@ class ConnectionTimetablePermissionsAType extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @return \Calcinai\Siri\ConnectionServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[]
      */
     public function getConnectionTimetablePermission()
     {
@@ -76,7 +76,7 @@ class ConnectionTimetablePermissionsAType extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType[] $connectionTimetablePermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $connectionTimetablePermission
      * @return self
      */
     public function setConnectionTimetablePermission(array $connectionTimetablePermission)

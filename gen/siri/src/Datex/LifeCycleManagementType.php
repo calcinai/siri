@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing LifeCycleManagementType
@@ -26,7 +26,7 @@ class LifeCycleManagementType
     private $end = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $lifeCycleManagementExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $lifeCycleManagementExtension
      */
     private $lifeCycleManagementExtension = null;
 
@@ -85,7 +85,7 @@ class LifeCycleManagementType
     /**
      * Gets as lifeCycleManagementExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getLifeCycleManagementExtension()
     {
@@ -95,10 +95,10 @@ class LifeCycleManagementType
     /**
      * Sets a new lifeCycleManagementExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $lifeCycleManagementExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $lifeCycleManagementExtension
      * @return self
      */
-    public function setLifeCycleManagementExtension(\Calcinai\Siri\Datex\ExtensionType $lifeCycleManagementExtension)
+    public function setLifeCycleManagementExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $lifeCycleManagementExtension)
     {
         $this->lifeCycleManagementExtension = $lifeCycleManagementExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AnnotatedLineStructureType
@@ -21,7 +21,7 @@ class AnnotatedLineStructureType
     /**
      * Name of line.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $lineName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $lineName
      */
     private $lineName = null;
 
@@ -35,14 +35,14 @@ class AnnotatedLineStructureType
     /**
      * Destinations to which the line runs.
      *
-     * @property \Calcinai\Siri\Destination[] $destinations
+     * @property \Calcinai\Siri\Objects\Destination[] $destinations
      */
     private $destinations = null;
 
     /**
      * Directions for the line.
      *
-     * @property \Calcinai\Siri\Direction[] $directions
+     * @property \Calcinai\Siri\Objects\Direction[] $directions
      */
     private $directions = null;
 
@@ -77,7 +77,7 @@ class AnnotatedLineStructureType
      *
      * Name of line.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getLineName()
     {
@@ -89,10 +89,10 @@ class AnnotatedLineStructureType
      *
      * Name of line.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $lineName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $lineName
      * @return self
      */
-    public function setLineName(\Calcinai\Siri\NaturalLanguageStringStructureType $lineName)
+    public function setLineName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $lineName)
     {
         $this->lineName = $lineName;
         return $this;
@@ -130,9 +130,9 @@ class AnnotatedLineStructureType
      * Destinations to which the line runs.
      *
      * @return self
-     * @param \Calcinai\Siri\Destination $destination
+     * @param \Calcinai\Siri\Objects\Destination $destination
      */
-    public function addToDestinations(\Calcinai\Siri\Destination $destination)
+    public function addToDestinations(\Calcinai\Siri\Objects\Destination $destination)
     {
         $this->destinations[] = $destination;
         return $this;
@@ -169,7 +169,7 @@ class AnnotatedLineStructureType
      *
      * Destinations to which the line runs.
      *
-     * @return \Calcinai\Siri\Destination[]
+     * @return \Calcinai\Siri\Objects\Destination[]
      */
     public function getDestinations()
     {
@@ -181,7 +181,7 @@ class AnnotatedLineStructureType
      *
      * Destinations to which the line runs.
      *
-     * @param \Calcinai\Siri\Destination[] $destinations
+     * @param \Calcinai\Siri\Objects\Destination[] $destinations
      * @return self
      */
     public function setDestinations(array $destinations)
@@ -196,9 +196,9 @@ class AnnotatedLineStructureType
      * Directions for the line.
      *
      * @return self
-     * @param \Calcinai\Siri\Direction $direction
+     * @param \Calcinai\Siri\Objects\Direction $direction
      */
-    public function addToDirections(\Calcinai\Siri\Direction $direction)
+    public function addToDirections(\Calcinai\Siri\Objects\Direction $direction)
     {
         $this->directions[] = $direction;
         return $this;
@@ -235,7 +235,7 @@ class AnnotatedLineStructureType
      *
      * Directions for the line.
      *
-     * @return \Calcinai\Siri\Direction[]
+     * @return \Calcinai\Siri\Objects\Direction[]
      */
     public function getDirections()
     {
@@ -247,7 +247,7 @@ class AnnotatedLineStructureType
      *
      * Directions for the line.
      *
-     * @param \Calcinai\Siri\Direction[] $directions
+     * @param \Calcinai\Siri\Objects\Direction[] $directions
      * @return self
      */
     public function setDirections(array $directions)

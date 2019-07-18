@@ -1,4 +1,4 @@
-Calcinai\Siri\BusSubmode:
+Calcinai\Siri\Objects\BusSubmode:
     xml_root_name: BusSubmode
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficViewPublicationType
@@ -12,26 +12,26 @@ class TrafficViewPublicationType extends PayloadPublicationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @property \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      */
     private $headerInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TrafficViewType[] $trafficView
+     * @property \Calcinai\Siri\Objects\Datex\TrafficViewType[] $trafficView
      */
     private $trafficView = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficViewPublicationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficViewPublicationExtension
      */
     private $trafficViewPublicationExtension = null;
 
     /**
      * Gets as headerInformation
      *
-     * @return \Calcinai\Siri\Datex\HeaderInformationType
+     * @return \Calcinai\Siri\Objects\Datex\HeaderInformationType
      */
     public function getHeaderInformation()
     {
@@ -41,10 +41,10 @@ class TrafficViewPublicationType extends PayloadPublicationType
     /**
      * Sets a new headerInformation
      *
-     * @param \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @param \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      * @return self
      */
-    public function setHeaderInformation(\Calcinai\Siri\Datex\HeaderInformationType $headerInformation)
+    public function setHeaderInformation(\Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation)
     {
         $this->headerInformation = $headerInformation;
         return $this;
@@ -54,9 +54,9 @@ class TrafficViewPublicationType extends PayloadPublicationType
      * Adds as trafficView
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TrafficViewType $trafficView
+     * @param \Calcinai\Siri\Objects\Datex\TrafficViewType $trafficView
      */
-    public function addToTrafficView(\Calcinai\Siri\Datex\TrafficViewType $trafficView)
+    public function addToTrafficView(\Calcinai\Siri\Objects\Datex\TrafficViewType $trafficView)
     {
         $this->trafficView[] = $trafficView;
         return $this;
@@ -87,7 +87,7 @@ class TrafficViewPublicationType extends PayloadPublicationType
     /**
      * Gets as trafficView
      *
-     * @return \Calcinai\Siri\Datex\TrafficViewType[]
+     * @return \Calcinai\Siri\Objects\Datex\TrafficViewType[]
      */
     public function getTrafficView()
     {
@@ -97,7 +97,7 @@ class TrafficViewPublicationType extends PayloadPublicationType
     /**
      * Sets a new trafficView
      *
-     * @param \Calcinai\Siri\Datex\TrafficViewType[] $trafficView
+     * @param \Calcinai\Siri\Objects\Datex\TrafficViewType[] $trafficView
      * @return self
      */
     public function setTrafficView(array $trafficView)
@@ -109,7 +109,7 @@ class TrafficViewPublicationType extends PayloadPublicationType
     /**
      * Gets as trafficViewPublicationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficViewPublicationExtension()
     {
@@ -119,10 +119,10 @@ class TrafficViewPublicationType extends PayloadPublicationType
     /**
      * Sets a new trafficViewPublicationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficViewPublicationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficViewPublicationExtension
      * @return self
      */
-    public function setTrafficViewPublicationExtension(\Calcinai\Siri\Datex\ExtensionType $trafficViewPublicationExtension)
+    public function setTrafficViewPublicationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficViewPublicationExtension)
     {
         $this->trafficViewPublicationExtension = $trafficViewPublicationExtension;
         return $this;

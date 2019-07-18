@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\GeneralMessageServicePermissionStructureType;
+namespace Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType;
 
 /**
  * Class representing InfoChannelPermissionsAType
@@ -16,7 +16,7 @@ class InfoChannelPermissionsAType
     /**
      * Participants permission for this Monitoring Point
      *
-     * @property \Calcinai\Siri\InfoChannelPermissionStructureType[] $infoChannelPermission
+     * @property \Calcinai\Siri\Objects\InfoChannelPermissionStructureType[] $infoChannelPermission
      */
     private $infoChannelPermission = [
         
@@ -50,9 +50,9 @@ class InfoChannelPermissionsAType
      * Participants permission for this Monitoring Point
      *
      * @return self
-     * @param \Calcinai\Siri\InfoChannelPermissionStructureType $infoChannelPermission
+     * @param \Calcinai\Siri\Objects\InfoChannelPermissionStructureType $infoChannelPermission
      */
-    public function addToInfoChannelPermission(\Calcinai\Siri\InfoChannelPermissionStructureType $infoChannelPermission)
+    public function addToInfoChannelPermission(\Calcinai\Siri\Objects\InfoChannelPermissionStructureType $infoChannelPermission)
     {
         $this->infoChannelPermission[] = $infoChannelPermission;
         return $this;
@@ -89,7 +89,7 @@ class InfoChannelPermissionsAType
      *
      * Participants permission for this Monitoring Point
      *
-     * @return \Calcinai\Siri\InfoChannelPermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\InfoChannelPermissionStructureType[]
      */
     public function getInfoChannelPermission()
     {
@@ -101,7 +101,7 @@ class InfoChannelPermissionsAType
      *
      * Participants permission for this Monitoring Point
      *
-     * @param \Calcinai\Siri\InfoChannelPermissionStructureType[] $infoChannelPermission
+     * @param \Calcinai\Siri\Objects\InfoChannelPermissionStructureType[] $infoChannelPermission
      * @return self
      */
     public function setInfoChannelPermission(array $infoChannelPermission)

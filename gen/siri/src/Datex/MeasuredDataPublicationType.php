@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MeasuredDataPublicationType
@@ -19,19 +19,19 @@ class MeasuredDataPublicationType extends PayloadPublicationType
     private $measurementSiteTableReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @property \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      */
     private $headerInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SiteMeasurementsType[] $siteMeasurements
+     * @property \Calcinai\Siri\Objects\Datex\SiteMeasurementsType[] $siteMeasurements
      */
     private $siteMeasurements = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $measuredDataPublicationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $measuredDataPublicationExtension
      */
     private $measuredDataPublicationExtension = null;
 
@@ -64,7 +64,7 @@ class MeasuredDataPublicationType extends PayloadPublicationType
     /**
      * Gets as headerInformation
      *
-     * @return \Calcinai\Siri\Datex\HeaderInformationType
+     * @return \Calcinai\Siri\Objects\Datex\HeaderInformationType
      */
     public function getHeaderInformation()
     {
@@ -74,10 +74,10 @@ class MeasuredDataPublicationType extends PayloadPublicationType
     /**
      * Sets a new headerInformation
      *
-     * @param \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @param \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      * @return self
      */
-    public function setHeaderInformation(\Calcinai\Siri\Datex\HeaderInformationType $headerInformation)
+    public function setHeaderInformation(\Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation)
     {
         $this->headerInformation = $headerInformation;
         return $this;
@@ -87,9 +87,9 @@ class MeasuredDataPublicationType extends PayloadPublicationType
      * Adds as siteMeasurements
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SiteMeasurementsType $siteMeasurements
+     * @param \Calcinai\Siri\Objects\Datex\SiteMeasurementsType $siteMeasurements
      */
-    public function addToSiteMeasurements(\Calcinai\Siri\Datex\SiteMeasurementsType $siteMeasurements)
+    public function addToSiteMeasurements(\Calcinai\Siri\Objects\Datex\SiteMeasurementsType $siteMeasurements)
     {
         $this->siteMeasurements[] = $siteMeasurements;
         return $this;
@@ -120,7 +120,7 @@ class MeasuredDataPublicationType extends PayloadPublicationType
     /**
      * Gets as siteMeasurements
      *
-     * @return \Calcinai\Siri\Datex\SiteMeasurementsType[]
+     * @return \Calcinai\Siri\Objects\Datex\SiteMeasurementsType[]
      */
     public function getSiteMeasurements()
     {
@@ -130,7 +130,7 @@ class MeasuredDataPublicationType extends PayloadPublicationType
     /**
      * Sets a new siteMeasurements
      *
-     * @param \Calcinai\Siri\Datex\SiteMeasurementsType[] $siteMeasurements
+     * @param \Calcinai\Siri\Objects\Datex\SiteMeasurementsType[] $siteMeasurements
      * @return self
      */
     public function setSiteMeasurements(array $siteMeasurements)
@@ -142,7 +142,7 @@ class MeasuredDataPublicationType extends PayloadPublicationType
     /**
      * Gets as measuredDataPublicationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMeasuredDataPublicationExtension()
     {
@@ -152,10 +152,10 @@ class MeasuredDataPublicationType extends PayloadPublicationType
     /**
      * Sets a new measuredDataPublicationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $measuredDataPublicationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $measuredDataPublicationExtension
      * @return self
      */
-    public function setMeasuredDataPublicationExtension(\Calcinai\Siri\Datex\ExtensionType $measuredDataPublicationExtension)
+    public function setMeasuredDataPublicationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $measuredDataPublicationExtension)
     {
         $this->measuredDataPublicationExtension = $measuredDataPublicationExtension;
         return $this;

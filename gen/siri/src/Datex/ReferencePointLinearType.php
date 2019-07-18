@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ReferencePointLinearType
@@ -12,24 +12,24 @@ class ReferencePointLinearType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferencePointPrimaryLocationType $referencePointPrimaryLocation
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointPrimaryLocationType $referencePointPrimaryLocation
      */
     private $referencePointPrimaryLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferencePointSecondaryLocationType $referencePointSecondaryLocation
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointSecondaryLocationType $referencePointSecondaryLocation
      */
     private $referencePointSecondaryLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $referencePointLinearExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $referencePointLinearExtension
      */
     private $referencePointLinearExtension = null;
 
     /**
      * Gets as referencePointPrimaryLocation
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointPrimaryLocationType
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointPrimaryLocationType
      */
     public function getReferencePointPrimaryLocation()
     {
@@ -39,10 +39,10 @@ class ReferencePointLinearType
     /**
      * Sets a new referencePointPrimaryLocation
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointPrimaryLocationType $referencePointPrimaryLocation
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointPrimaryLocationType $referencePointPrimaryLocation
      * @return self
      */
-    public function setReferencePointPrimaryLocation(\Calcinai\Siri\Datex\ReferencePointPrimaryLocationType $referencePointPrimaryLocation)
+    public function setReferencePointPrimaryLocation(\Calcinai\Siri\Objects\Datex\ReferencePointPrimaryLocationType $referencePointPrimaryLocation)
     {
         $this->referencePointPrimaryLocation = $referencePointPrimaryLocation;
         return $this;
@@ -51,7 +51,7 @@ class ReferencePointLinearType
     /**
      * Gets as referencePointSecondaryLocation
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointSecondaryLocationType
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointSecondaryLocationType
      */
     public function getReferencePointSecondaryLocation()
     {
@@ -61,10 +61,10 @@ class ReferencePointLinearType
     /**
      * Sets a new referencePointSecondaryLocation
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointSecondaryLocationType $referencePointSecondaryLocation
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointSecondaryLocationType $referencePointSecondaryLocation
      * @return self
      */
-    public function setReferencePointSecondaryLocation(\Calcinai\Siri\Datex\ReferencePointSecondaryLocationType $referencePointSecondaryLocation)
+    public function setReferencePointSecondaryLocation(\Calcinai\Siri\Objects\Datex\ReferencePointSecondaryLocationType $referencePointSecondaryLocation)
     {
         $this->referencePointSecondaryLocation = $referencePointSecondaryLocation;
         return $this;
@@ -73,7 +73,7 @@ class ReferencePointLinearType
     /**
      * Gets as referencePointLinearExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getReferencePointLinearExtension()
     {
@@ -83,10 +83,10 @@ class ReferencePointLinearType
     /**
      * Sets a new referencePointLinearExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $referencePointLinearExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $referencePointLinearExtension
      * @return self
      */
-    public function setReferencePointLinearExtension(\Calcinai\Siri\Datex\ExtensionType $referencePointLinearExtension)
+    public function setReferencePointLinearExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $referencePointLinearExtension)
     {
         $this->referencePointLinearExtension = $referencePointLinearExtension;
         return $this;

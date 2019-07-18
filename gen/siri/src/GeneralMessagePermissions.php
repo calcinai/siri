@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing GeneralMessagePermissions
@@ -13,7 +13,7 @@ class GeneralMessagePermissions extends PermissionsStructureType
     /**
      * Permission or a single particpant or all participants
      *
-     * @property \Calcinai\Siri\GeneralMessageServicePermissionStructureType[] $generalMessagePermission
+     * @property \Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType[] $generalMessagePermission
      */
     private $generalMessagePermission = [
         
@@ -25,9 +25,9 @@ class GeneralMessagePermissions extends PermissionsStructureType
      * Permission or a single particpant or all participants
      *
      * @return self
-     * @param \Calcinai\Siri\GeneralMessageServicePermissionStructureType $generalMessagePermission
+     * @param \Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType $generalMessagePermission
      */
-    public function addToGeneralMessagePermission(\Calcinai\Siri\GeneralMessageServicePermissionStructureType $generalMessagePermission)
+    public function addToGeneralMessagePermission(\Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType $generalMessagePermission)
     {
         $this->generalMessagePermission[] = $generalMessagePermission;
         return $this;
@@ -64,7 +64,7 @@ class GeneralMessagePermissions extends PermissionsStructureType
      *
      * Permission or a single particpant or all participants
      *
-     * @return \Calcinai\Siri\GeneralMessageServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType[]
      */
     public function getGeneralMessagePermission()
     {
@@ -76,7 +76,7 @@ class GeneralMessagePermissions extends PermissionsStructureType
      *
      * Permission or a single particpant or all participants
      *
-     * @param \Calcinai\Siri\GeneralMessageServicePermissionStructureType[] $generalMessagePermission
+     * @param \Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType[] $generalMessagePermission
      * @return self
      */
     public function setGeneralMessagePermission(array $generalMessagePermission)

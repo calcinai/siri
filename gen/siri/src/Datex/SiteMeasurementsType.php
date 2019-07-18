@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SiteMeasurementsType
@@ -26,14 +26,14 @@ class SiteMeasurementsType
     private $measurementTimeDefault = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SiteMeasurementsType\MeasuredValueAType[] $measuredValue
+     * @property \Calcinai\Siri\Objects\Datex\SiteMeasurementsType\MeasuredValueAType[] $measuredValue
      */
     private $measuredValue = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $siteMeasurementsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $siteMeasurementsExtension
      */
     private $siteMeasurementsExtension = null;
 
@@ -93,9 +93,9 @@ class SiteMeasurementsType
      * Adds as measuredValue
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SiteMeasurementsType\MeasuredValueAType $measuredValue
+     * @param \Calcinai\Siri\Objects\Datex\SiteMeasurementsType\MeasuredValueAType $measuredValue
      */
-    public function addToMeasuredValue(\Calcinai\Siri\Datex\SiteMeasurementsType\MeasuredValueAType $measuredValue)
+    public function addToMeasuredValue(\Calcinai\Siri\Objects\Datex\SiteMeasurementsType\MeasuredValueAType $measuredValue)
     {
         $this->measuredValue[] = $measuredValue;
         return $this;
@@ -126,7 +126,7 @@ class SiteMeasurementsType
     /**
      * Gets as measuredValue
      *
-     * @return \Calcinai\Siri\Datex\SiteMeasurementsType\MeasuredValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\SiteMeasurementsType\MeasuredValueAType[]
      */
     public function getMeasuredValue()
     {
@@ -136,7 +136,7 @@ class SiteMeasurementsType
     /**
      * Sets a new measuredValue
      *
-     * @param \Calcinai\Siri\Datex\SiteMeasurementsType\MeasuredValueAType[] $measuredValue
+     * @param \Calcinai\Siri\Objects\Datex\SiteMeasurementsType\MeasuredValueAType[] $measuredValue
      * @return self
      */
     public function setMeasuredValue(array $measuredValue)
@@ -148,7 +148,7 @@ class SiteMeasurementsType
     /**
      * Gets as siteMeasurementsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSiteMeasurementsExtension()
     {
@@ -158,10 +158,10 @@ class SiteMeasurementsType
     /**
      * Sets a new siteMeasurementsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $siteMeasurementsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $siteMeasurementsExtension
      * @return self
      */
-    public function setSiteMeasurementsExtension(\Calcinai\Siri\Datex\ExtensionType $siteMeasurementsExtension)
+    public function setSiteMeasurementsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $siteMeasurementsExtension)
     {
         $this->siteMeasurementsExtension = $siteMeasurementsExtension;
         return $this;

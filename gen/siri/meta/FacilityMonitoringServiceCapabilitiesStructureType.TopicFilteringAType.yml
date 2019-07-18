@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         defaultPreviewInterval:
             expose: true

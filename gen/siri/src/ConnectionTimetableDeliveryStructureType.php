@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionTimetableDeliveryStructureType
@@ -19,17 +19,17 @@ class ConnectionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\TimetabledFeederArrival $timetabledFeederArrival
+     * @property \Calcinai\Siri\Objects\TimetabledFeederArrival $timetabledFeederArrival
      */
     private $timetabledFeederArrival = null;
 
     /**
-     * @property \Calcinai\Siri\TimetabledFeederArrivalCancellation $timetabledFeederArrivalCancellation
+     * @property \Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation $timetabledFeederArrivalCancellation
      */
     private $timetabledFeederArrivalCancellation = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class ConnectionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Gets as timetabledFeederArrival
      *
-     * @return \Calcinai\Siri\TimetabledFeederArrival
+     * @return \Calcinai\Siri\Objects\TimetabledFeederArrival
      */
     public function getTimetabledFeederArrival()
     {
@@ -72,10 +72,10 @@ class ConnectionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Sets a new timetabledFeederArrival
      *
-     * @param \Calcinai\Siri\TimetabledFeederArrival $timetabledFeederArrival
+     * @param \Calcinai\Siri\Objects\TimetabledFeederArrival $timetabledFeederArrival
      * @return self
      */
-    public function setTimetabledFeederArrival(\Calcinai\Siri\TimetabledFeederArrival $timetabledFeederArrival)
+    public function setTimetabledFeederArrival(\Calcinai\Siri\Objects\TimetabledFeederArrival $timetabledFeederArrival)
     {
         $this->timetabledFeederArrival = $timetabledFeederArrival;
         return $this;
@@ -84,7 +84,7 @@ class ConnectionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Gets as timetabledFeederArrivalCancellation
      *
-     * @return \Calcinai\Siri\TimetabledFeederArrivalCancellation
+     * @return \Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation
      */
     public function getTimetabledFeederArrivalCancellation()
     {
@@ -94,10 +94,10 @@ class ConnectionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Sets a new timetabledFeederArrivalCancellation
      *
-     * @param \Calcinai\Siri\TimetabledFeederArrivalCancellation $timetabledFeederArrivalCancellation
+     * @param \Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation $timetabledFeederArrivalCancellation
      * @return self
      */
-    public function setTimetabledFeederArrivalCancellation(\Calcinai\Siri\TimetabledFeederArrivalCancellation $timetabledFeederArrivalCancellation)
+    public function setTimetabledFeederArrivalCancellation(\Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation $timetabledFeederArrivalCancellation)
     {
         $this->timetabledFeederArrivalCancellation = $timetabledFeederArrivalCancellation;
         return $this;
@@ -106,7 +106,7 @@ class ConnectionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class ConnectionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

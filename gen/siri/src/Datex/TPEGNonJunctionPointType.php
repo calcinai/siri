@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGNonJunctionPointType
@@ -12,26 +12,26 @@ class TPEGNonJunctionPointType extends TPEGPointType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates
+     * @property \Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates
      */
     private $pointCoordinates = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType[] $name
+     * @property \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType[] $name
      */
     private $name = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegnonJunctionPointExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegnonJunctionPointExtension
      */
     private $tpegnonJunctionPointExtension = null;
 
     /**
      * Gets as pointCoordinates
      *
-     * @return \Calcinai\Siri\Datex\PointCoordinatesType
+     * @return \Calcinai\Siri\Objects\Datex\PointCoordinatesType
      */
     public function getPointCoordinates()
     {
@@ -41,10 +41,10 @@ class TPEGNonJunctionPointType extends TPEGPointType
     /**
      * Sets a new pointCoordinates
      *
-     * @param \Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates
+     * @param \Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates
      * @return self
      */
-    public function setPointCoordinates(\Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates)
+    public function setPointCoordinates(\Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates)
     {
         $this->pointCoordinates = $pointCoordinates;
         return $this;
@@ -54,9 +54,9 @@ class TPEGNonJunctionPointType extends TPEGPointType
      * Adds as name
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType $name
+     * @param \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType $name
      */
-    public function addToName(\Calcinai\Siri\Datex\TPEGOtherPointDescriptorType $name)
+    public function addToName(\Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType $name)
     {
         $this->name[] = $name;
         return $this;
@@ -87,7 +87,7 @@ class TPEGNonJunctionPointType extends TPEGPointType
     /**
      * Gets as name
      *
-     * @return \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType[]
+     * @return \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType[]
      */
     public function getName()
     {
@@ -97,7 +97,7 @@ class TPEGNonJunctionPointType extends TPEGPointType
     /**
      * Sets a new name
      *
-     * @param \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType[] $name
+     * @param \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType[] $name
      * @return self
      */
     public function setName(array $name)
@@ -109,7 +109,7 @@ class TPEGNonJunctionPointType extends TPEGPointType
     /**
      * Gets as tpegnonJunctionPointExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegnonJunctionPointExtension()
     {
@@ -119,10 +119,10 @@ class TPEGNonJunctionPointType extends TPEGPointType
     /**
      * Sets a new tpegnonJunctionPointExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegnonJunctionPointExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegnonJunctionPointExtension
      * @return self
      */
-    public function setTpegnonJunctionPointExtension(\Calcinai\Siri\Datex\ExtensionType $tpegnonJunctionPointExtension)
+    public function setTpegnonJunctionPointExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegnonJunctionPointExtension)
     {
         $this->tpegnonJunctionPointExtension = $tpegnonJunctionPointExtension;
         return $this;

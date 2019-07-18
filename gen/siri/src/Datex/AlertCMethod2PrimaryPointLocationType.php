@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCMethod2PrimaryPointLocationType
@@ -12,19 +12,19 @@ class AlertCMethod2PrimaryPointLocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCLocationType $alertCLocation
+     * @property \Calcinai\Siri\Objects\Datex\AlertCLocationType $alertCLocation
      */
     private $alertCLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCMethod2PrimaryPointLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod2PrimaryPointLocationExtension
      */
     private $alertCMethod2PrimaryPointLocationExtension = null;
 
     /**
      * Gets as alertCLocation
      *
-     * @return \Calcinai\Siri\Datex\AlertCLocationType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCLocationType
      */
     public function getAlertCLocation()
     {
@@ -34,10 +34,10 @@ class AlertCMethod2PrimaryPointLocationType
     /**
      * Sets a new alertCLocation
      *
-     * @param \Calcinai\Siri\Datex\AlertCLocationType $alertCLocation
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType $alertCLocation
      * @return self
      */
-    public function setAlertCLocation(\Calcinai\Siri\Datex\AlertCLocationType $alertCLocation)
+    public function setAlertCLocation(\Calcinai\Siri\Objects\Datex\AlertCLocationType $alertCLocation)
     {
         $this->alertCLocation = $alertCLocation;
         return $this;
@@ -46,7 +46,7 @@ class AlertCMethod2PrimaryPointLocationType
     /**
      * Gets as alertCMethod2PrimaryPointLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCMethod2PrimaryPointLocationExtension()
     {
@@ -56,10 +56,10 @@ class AlertCMethod2PrimaryPointLocationType
     /**
      * Sets a new alertCMethod2PrimaryPointLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCMethod2PrimaryPointLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod2PrimaryPointLocationExtension
      * @return self
      */
-    public function setAlertCMethod2PrimaryPointLocationExtension(\Calcinai\Siri\Datex\ExtensionType $alertCMethod2PrimaryPointLocationExtension)
+    public function setAlertCMethod2PrimaryPointLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod2PrimaryPointLocationExtension)
     {
         $this->alertCMethod2PrimaryPointLocationExtension = $alertCMethod2PrimaryPointLocationExtension;
         return $this;

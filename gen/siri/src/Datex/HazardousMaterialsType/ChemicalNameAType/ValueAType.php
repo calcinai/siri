@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType;
+namespace Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType;
 
 /**
  * Class representing ValueAType

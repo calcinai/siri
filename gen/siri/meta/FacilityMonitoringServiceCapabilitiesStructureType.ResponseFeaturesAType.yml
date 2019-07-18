@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType:
+Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType:
     properties:
         hasRemedy:
             expose: true

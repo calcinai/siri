@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing Siri
@@ -16,154 +16,154 @@ class Siri
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\ServiceRequest $serviceRequest
+     * @property \Calcinai\Siri\Objects\ServiceRequest $serviceRequest
      */
     private $serviceRequest = null;
 
     /**
-     * @property \Calcinai\Siri\SubscriptionRequest $subscriptionRequest
+     * @property \Calcinai\Siri\Objects\SubscriptionRequest $subscriptionRequest
      */
     private $subscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\TerminateSubscriptionRequest $terminateSubscriptionRequest
+     * @property \Calcinai\Siri\Objects\TerminateSubscriptionRequest $terminateSubscriptionRequest
      */
     private $terminateSubscriptionRequest = null;
 
     /**
-     * @property \Calcinai\Siri\DataReadyNotification $dataReadyNotification
+     * @property \Calcinai\Siri\Objects\DataReadyNotification $dataReadyNotification
      */
     private $dataReadyNotification = null;
 
     /**
-     * @property \Calcinai\Siri\DataSupplyRequest $dataSupplyRequest
+     * @property \Calcinai\Siri\Objects\DataSupplyRequest $dataSupplyRequest
      */
     private $dataSupplyRequest = null;
 
     /**
-     * @property \Calcinai\Siri\CheckStatusRequest $checkStatusRequest
+     * @property \Calcinai\Siri\Objects\CheckStatusRequest $checkStatusRequest
      */
     private $checkStatusRequest = null;
 
     /**
-     * @property \Calcinai\Siri\HeartbeatNotification $heartbeatNotification
+     * @property \Calcinai\Siri\Objects\HeartbeatNotification $heartbeatNotification
      */
     private $heartbeatNotification = null;
 
     /**
-     * @property \Calcinai\Siri\CapabilitiesRequest $capabilitiesRequest
+     * @property \Calcinai\Siri\Objects\CapabilitiesRequest $capabilitiesRequest
      */
     private $capabilitiesRequest = null;
 
     /**
-     * @property \Calcinai\Siri\StopPointsRequest $stopPointsRequest
+     * @property \Calcinai\Siri\Objects\StopPointsRequest $stopPointsRequest
      */
     private $stopPointsRequest = null;
 
     /**
-     * @property \Calcinai\Siri\LinesRequest $linesRequest
+     * @property \Calcinai\Siri\Objects\LinesRequest $linesRequest
      */
     private $linesRequest = null;
 
     /**
-     * @property \Calcinai\Siri\ServiceFeaturesRequest $serviceFeaturesRequest
+     * @property \Calcinai\Siri\Objects\ServiceFeaturesRequest $serviceFeaturesRequest
      */
     private $serviceFeaturesRequest = null;
 
     /**
-     * @property \Calcinai\Siri\ProductCategoriesRequest $productCategoriesRequest
+     * @property \Calcinai\Siri\Objects\ProductCategoriesRequest $productCategoriesRequest
      */
     private $productCategoriesRequest = null;
 
     /**
-     * @property \Calcinai\Siri\VehicleFeaturesRequest $vehicleFeaturesRequest
+     * @property \Calcinai\Siri\Objects\VehicleFeaturesRequest $vehicleFeaturesRequest
      */
     private $vehicleFeaturesRequest = null;
 
     /**
-     * @property \Calcinai\Siri\InfoChannelRequest $infoChannelRequest
+     * @property \Calcinai\Siri\Objects\InfoChannelRequest $infoChannelRequest
      */
     private $infoChannelRequest = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityRequest $facilityRequest
+     * @property \Calcinai\Siri\Objects\FacilityRequest $facilityRequest
      */
     private $facilityRequest = null;
 
     /**
-     * @property \Calcinai\Siri\SubscriptionResponse $subscriptionResponse
+     * @property \Calcinai\Siri\Objects\SubscriptionResponse $subscriptionResponse
      */
     private $subscriptionResponse = null;
 
     /**
-     * @property \Calcinai\Siri\TerminateSubscriptionResponse $terminateSubscriptionResponse
+     * @property \Calcinai\Siri\Objects\TerminateSubscriptionResponse $terminateSubscriptionResponse
      */
     private $terminateSubscriptionResponse = null;
 
     /**
-     * @property \Calcinai\Siri\DataReadyAcknowledgement $dataReadyAcknowledgement
+     * @property \Calcinai\Siri\Objects\DataReadyAcknowledgement $dataReadyAcknowledgement
      */
     private $dataReadyAcknowledgement = null;
 
     /**
-     * @property \Calcinai\Siri\ServiceDelivery $serviceDelivery
+     * @property \Calcinai\Siri\Objects\ServiceDelivery $serviceDelivery
      */
     private $serviceDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\DataReceivedAcknowledgement $dataReceivedAcknowledgement
+     * @property \Calcinai\Siri\Objects\DataReceivedAcknowledgement $dataReceivedAcknowledgement
      */
     private $dataReceivedAcknowledgement = null;
 
     /**
-     * @property \Calcinai\Siri\CheckStatusResponse $checkStatusResponse
+     * @property \Calcinai\Siri\Objects\CheckStatusResponse $checkStatusResponse
      */
     private $checkStatusResponse = null;
 
     /**
      * Responses with the capabilities of an implementation. Answers a CapabilityRequest
      *
-     * @property \Calcinai\Siri\CapabilitiesResponse $capabilitiesResponse
+     * @property \Calcinai\Siri\Objects\CapabilitiesResponse $capabilitiesResponse
      */
     private $capabilitiesResponse = null;
 
     /**
-     * @property \Calcinai\Siri\StopPointsDelivery $stopPointsDelivery
+     * @property \Calcinai\Siri\Objects\StopPointsDelivery $stopPointsDelivery
      */
     private $stopPointsDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\LinesDelivery $linesDelivery
+     * @property \Calcinai\Siri\Objects\LinesDelivery $linesDelivery
      */
     private $linesDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\ProductCategoriesDelivery $productCategoriesDelivery
+     * @property \Calcinai\Siri\Objects\ProductCategoriesDelivery $productCategoriesDelivery
      */
     private $productCategoriesDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\ServiceFeaturesDelivery $serviceFeaturesDelivery
+     * @property \Calcinai\Siri\Objects\ServiceFeaturesDelivery $serviceFeaturesDelivery
      */
     private $serviceFeaturesDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\VehicleFeaturesDelivery $vehicleFeaturesDelivery
+     * @property \Calcinai\Siri\Objects\VehicleFeaturesDelivery $vehicleFeaturesDelivery
      */
     private $vehicleFeaturesDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\InfoChannelDelivery $infoChannelDelivery
+     * @property \Calcinai\Siri\Objects\InfoChannelDelivery $infoChannelDelivery
      */
     private $infoChannelDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityDelivery $facilityDelivery
+     * @property \Calcinai\Siri\Objects\FacilityDelivery $facilityDelivery
      */
     private $facilityDelivery = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -192,7 +192,7 @@ class Siri
     /**
      * Gets as serviceRequest
      *
-     * @return \Calcinai\Siri\ServiceRequest
+     * @return \Calcinai\Siri\Objects\ServiceRequest
      */
     public function getServiceRequest()
     {
@@ -202,10 +202,10 @@ class Siri
     /**
      * Sets a new serviceRequest
      *
-     * @param \Calcinai\Siri\ServiceRequest $serviceRequest
+     * @param \Calcinai\Siri\Objects\ServiceRequest $serviceRequest
      * @return self
      */
-    public function setServiceRequest(\Calcinai\Siri\ServiceRequest $serviceRequest)
+    public function setServiceRequest(\Calcinai\Siri\Objects\ServiceRequest $serviceRequest)
     {
         $this->serviceRequest = $serviceRequest;
         return $this;
@@ -214,7 +214,7 @@ class Siri
     /**
      * Gets as subscriptionRequest
      *
-     * @return \Calcinai\Siri\SubscriptionRequest
+     * @return \Calcinai\Siri\Objects\SubscriptionRequest
      */
     public function getSubscriptionRequest()
     {
@@ -224,10 +224,10 @@ class Siri
     /**
      * Sets a new subscriptionRequest
      *
-     * @param \Calcinai\Siri\SubscriptionRequest $subscriptionRequest
+     * @param \Calcinai\Siri\Objects\SubscriptionRequest $subscriptionRequest
      * @return self
      */
-    public function setSubscriptionRequest(\Calcinai\Siri\SubscriptionRequest $subscriptionRequest)
+    public function setSubscriptionRequest(\Calcinai\Siri\Objects\SubscriptionRequest $subscriptionRequest)
     {
         $this->subscriptionRequest = $subscriptionRequest;
         return $this;
@@ -236,7 +236,7 @@ class Siri
     /**
      * Gets as terminateSubscriptionRequest
      *
-     * @return \Calcinai\Siri\TerminateSubscriptionRequest
+     * @return \Calcinai\Siri\Objects\TerminateSubscriptionRequest
      */
     public function getTerminateSubscriptionRequest()
     {
@@ -246,10 +246,10 @@ class Siri
     /**
      * Sets a new terminateSubscriptionRequest
      *
-     * @param \Calcinai\Siri\TerminateSubscriptionRequest $terminateSubscriptionRequest
+     * @param \Calcinai\Siri\Objects\TerminateSubscriptionRequest $terminateSubscriptionRequest
      * @return self
      */
-    public function setTerminateSubscriptionRequest(\Calcinai\Siri\TerminateSubscriptionRequest $terminateSubscriptionRequest)
+    public function setTerminateSubscriptionRequest(\Calcinai\Siri\Objects\TerminateSubscriptionRequest $terminateSubscriptionRequest)
     {
         $this->terminateSubscriptionRequest = $terminateSubscriptionRequest;
         return $this;
@@ -258,7 +258,7 @@ class Siri
     /**
      * Gets as dataReadyNotification
      *
-     * @return \Calcinai\Siri\DataReadyNotification
+     * @return \Calcinai\Siri\Objects\DataReadyNotification
      */
     public function getDataReadyNotification()
     {
@@ -268,10 +268,10 @@ class Siri
     /**
      * Sets a new dataReadyNotification
      *
-     * @param \Calcinai\Siri\DataReadyNotification $dataReadyNotification
+     * @param \Calcinai\Siri\Objects\DataReadyNotification $dataReadyNotification
      * @return self
      */
-    public function setDataReadyNotification(\Calcinai\Siri\DataReadyNotification $dataReadyNotification)
+    public function setDataReadyNotification(\Calcinai\Siri\Objects\DataReadyNotification $dataReadyNotification)
     {
         $this->dataReadyNotification = $dataReadyNotification;
         return $this;
@@ -280,7 +280,7 @@ class Siri
     /**
      * Gets as dataSupplyRequest
      *
-     * @return \Calcinai\Siri\DataSupplyRequest
+     * @return \Calcinai\Siri\Objects\DataSupplyRequest
      */
     public function getDataSupplyRequest()
     {
@@ -290,10 +290,10 @@ class Siri
     /**
      * Sets a new dataSupplyRequest
      *
-     * @param \Calcinai\Siri\DataSupplyRequest $dataSupplyRequest
+     * @param \Calcinai\Siri\Objects\DataSupplyRequest $dataSupplyRequest
      * @return self
      */
-    public function setDataSupplyRequest(\Calcinai\Siri\DataSupplyRequest $dataSupplyRequest)
+    public function setDataSupplyRequest(\Calcinai\Siri\Objects\DataSupplyRequest $dataSupplyRequest)
     {
         $this->dataSupplyRequest = $dataSupplyRequest;
         return $this;
@@ -302,7 +302,7 @@ class Siri
     /**
      * Gets as checkStatusRequest
      *
-     * @return \Calcinai\Siri\CheckStatusRequest
+     * @return \Calcinai\Siri\Objects\CheckStatusRequest
      */
     public function getCheckStatusRequest()
     {
@@ -312,10 +312,10 @@ class Siri
     /**
      * Sets a new checkStatusRequest
      *
-     * @param \Calcinai\Siri\CheckStatusRequest $checkStatusRequest
+     * @param \Calcinai\Siri\Objects\CheckStatusRequest $checkStatusRequest
      * @return self
      */
-    public function setCheckStatusRequest(\Calcinai\Siri\CheckStatusRequest $checkStatusRequest)
+    public function setCheckStatusRequest(\Calcinai\Siri\Objects\CheckStatusRequest $checkStatusRequest)
     {
         $this->checkStatusRequest = $checkStatusRequest;
         return $this;
@@ -324,7 +324,7 @@ class Siri
     /**
      * Gets as heartbeatNotification
      *
-     * @return \Calcinai\Siri\HeartbeatNotification
+     * @return \Calcinai\Siri\Objects\HeartbeatNotification
      */
     public function getHeartbeatNotification()
     {
@@ -334,10 +334,10 @@ class Siri
     /**
      * Sets a new heartbeatNotification
      *
-     * @param \Calcinai\Siri\HeartbeatNotification $heartbeatNotification
+     * @param \Calcinai\Siri\Objects\HeartbeatNotification $heartbeatNotification
      * @return self
      */
-    public function setHeartbeatNotification(\Calcinai\Siri\HeartbeatNotification $heartbeatNotification)
+    public function setHeartbeatNotification(\Calcinai\Siri\Objects\HeartbeatNotification $heartbeatNotification)
     {
         $this->heartbeatNotification = $heartbeatNotification;
         return $this;
@@ -346,7 +346,7 @@ class Siri
     /**
      * Gets as capabilitiesRequest
      *
-     * @return \Calcinai\Siri\CapabilitiesRequest
+     * @return \Calcinai\Siri\Objects\CapabilitiesRequest
      */
     public function getCapabilitiesRequest()
     {
@@ -356,10 +356,10 @@ class Siri
     /**
      * Sets a new capabilitiesRequest
      *
-     * @param \Calcinai\Siri\CapabilitiesRequest $capabilitiesRequest
+     * @param \Calcinai\Siri\Objects\CapabilitiesRequest $capabilitiesRequest
      * @return self
      */
-    public function setCapabilitiesRequest(\Calcinai\Siri\CapabilitiesRequest $capabilitiesRequest)
+    public function setCapabilitiesRequest(\Calcinai\Siri\Objects\CapabilitiesRequest $capabilitiesRequest)
     {
         $this->capabilitiesRequest = $capabilitiesRequest;
         return $this;
@@ -368,7 +368,7 @@ class Siri
     /**
      * Gets as stopPointsRequest
      *
-     * @return \Calcinai\Siri\StopPointsRequest
+     * @return \Calcinai\Siri\Objects\StopPointsRequest
      */
     public function getStopPointsRequest()
     {
@@ -378,10 +378,10 @@ class Siri
     /**
      * Sets a new stopPointsRequest
      *
-     * @param \Calcinai\Siri\StopPointsRequest $stopPointsRequest
+     * @param \Calcinai\Siri\Objects\StopPointsRequest $stopPointsRequest
      * @return self
      */
-    public function setStopPointsRequest(\Calcinai\Siri\StopPointsRequest $stopPointsRequest)
+    public function setStopPointsRequest(\Calcinai\Siri\Objects\StopPointsRequest $stopPointsRequest)
     {
         $this->stopPointsRequest = $stopPointsRequest;
         return $this;
@@ -390,7 +390,7 @@ class Siri
     /**
      * Gets as linesRequest
      *
-     * @return \Calcinai\Siri\LinesRequest
+     * @return \Calcinai\Siri\Objects\LinesRequest
      */
     public function getLinesRequest()
     {
@@ -400,10 +400,10 @@ class Siri
     /**
      * Sets a new linesRequest
      *
-     * @param \Calcinai\Siri\LinesRequest $linesRequest
+     * @param \Calcinai\Siri\Objects\LinesRequest $linesRequest
      * @return self
      */
-    public function setLinesRequest(\Calcinai\Siri\LinesRequest $linesRequest)
+    public function setLinesRequest(\Calcinai\Siri\Objects\LinesRequest $linesRequest)
     {
         $this->linesRequest = $linesRequest;
         return $this;
@@ -412,7 +412,7 @@ class Siri
     /**
      * Gets as serviceFeaturesRequest
      *
-     * @return \Calcinai\Siri\ServiceFeaturesRequest
+     * @return \Calcinai\Siri\Objects\ServiceFeaturesRequest
      */
     public function getServiceFeaturesRequest()
     {
@@ -422,10 +422,10 @@ class Siri
     /**
      * Sets a new serviceFeaturesRequest
      *
-     * @param \Calcinai\Siri\ServiceFeaturesRequest $serviceFeaturesRequest
+     * @param \Calcinai\Siri\Objects\ServiceFeaturesRequest $serviceFeaturesRequest
      * @return self
      */
-    public function setServiceFeaturesRequest(\Calcinai\Siri\ServiceFeaturesRequest $serviceFeaturesRequest)
+    public function setServiceFeaturesRequest(\Calcinai\Siri\Objects\ServiceFeaturesRequest $serviceFeaturesRequest)
     {
         $this->serviceFeaturesRequest = $serviceFeaturesRequest;
         return $this;
@@ -434,7 +434,7 @@ class Siri
     /**
      * Gets as productCategoriesRequest
      *
-     * @return \Calcinai\Siri\ProductCategoriesRequest
+     * @return \Calcinai\Siri\Objects\ProductCategoriesRequest
      */
     public function getProductCategoriesRequest()
     {
@@ -444,10 +444,10 @@ class Siri
     /**
      * Sets a new productCategoriesRequest
      *
-     * @param \Calcinai\Siri\ProductCategoriesRequest $productCategoriesRequest
+     * @param \Calcinai\Siri\Objects\ProductCategoriesRequest $productCategoriesRequest
      * @return self
      */
-    public function setProductCategoriesRequest(\Calcinai\Siri\ProductCategoriesRequest $productCategoriesRequest)
+    public function setProductCategoriesRequest(\Calcinai\Siri\Objects\ProductCategoriesRequest $productCategoriesRequest)
     {
         $this->productCategoriesRequest = $productCategoriesRequest;
         return $this;
@@ -456,7 +456,7 @@ class Siri
     /**
      * Gets as vehicleFeaturesRequest
      *
-     * @return \Calcinai\Siri\VehicleFeaturesRequest
+     * @return \Calcinai\Siri\Objects\VehicleFeaturesRequest
      */
     public function getVehicleFeaturesRequest()
     {
@@ -466,10 +466,10 @@ class Siri
     /**
      * Sets a new vehicleFeaturesRequest
      *
-     * @param \Calcinai\Siri\VehicleFeaturesRequest $vehicleFeaturesRequest
+     * @param \Calcinai\Siri\Objects\VehicleFeaturesRequest $vehicleFeaturesRequest
      * @return self
      */
-    public function setVehicleFeaturesRequest(\Calcinai\Siri\VehicleFeaturesRequest $vehicleFeaturesRequest)
+    public function setVehicleFeaturesRequest(\Calcinai\Siri\Objects\VehicleFeaturesRequest $vehicleFeaturesRequest)
     {
         $this->vehicleFeaturesRequest = $vehicleFeaturesRequest;
         return $this;
@@ -478,7 +478,7 @@ class Siri
     /**
      * Gets as infoChannelRequest
      *
-     * @return \Calcinai\Siri\InfoChannelRequest
+     * @return \Calcinai\Siri\Objects\InfoChannelRequest
      */
     public function getInfoChannelRequest()
     {
@@ -488,10 +488,10 @@ class Siri
     /**
      * Sets a new infoChannelRequest
      *
-     * @param \Calcinai\Siri\InfoChannelRequest $infoChannelRequest
+     * @param \Calcinai\Siri\Objects\InfoChannelRequest $infoChannelRequest
      * @return self
      */
-    public function setInfoChannelRequest(\Calcinai\Siri\InfoChannelRequest $infoChannelRequest)
+    public function setInfoChannelRequest(\Calcinai\Siri\Objects\InfoChannelRequest $infoChannelRequest)
     {
         $this->infoChannelRequest = $infoChannelRequest;
         return $this;
@@ -500,7 +500,7 @@ class Siri
     /**
      * Gets as facilityRequest
      *
-     * @return \Calcinai\Siri\FacilityRequest
+     * @return \Calcinai\Siri\Objects\FacilityRequest
      */
     public function getFacilityRequest()
     {
@@ -510,10 +510,10 @@ class Siri
     /**
      * Sets a new facilityRequest
      *
-     * @param \Calcinai\Siri\FacilityRequest $facilityRequest
+     * @param \Calcinai\Siri\Objects\FacilityRequest $facilityRequest
      * @return self
      */
-    public function setFacilityRequest(\Calcinai\Siri\FacilityRequest $facilityRequest)
+    public function setFacilityRequest(\Calcinai\Siri\Objects\FacilityRequest $facilityRequest)
     {
         $this->facilityRequest = $facilityRequest;
         return $this;
@@ -522,7 +522,7 @@ class Siri
     /**
      * Gets as subscriptionResponse
      *
-     * @return \Calcinai\Siri\SubscriptionResponse
+     * @return \Calcinai\Siri\Objects\SubscriptionResponse
      */
     public function getSubscriptionResponse()
     {
@@ -532,10 +532,10 @@ class Siri
     /**
      * Sets a new subscriptionResponse
      *
-     * @param \Calcinai\Siri\SubscriptionResponse $subscriptionResponse
+     * @param \Calcinai\Siri\Objects\SubscriptionResponse $subscriptionResponse
      * @return self
      */
-    public function setSubscriptionResponse(\Calcinai\Siri\SubscriptionResponse $subscriptionResponse)
+    public function setSubscriptionResponse(\Calcinai\Siri\Objects\SubscriptionResponse $subscriptionResponse)
     {
         $this->subscriptionResponse = $subscriptionResponse;
         return $this;
@@ -544,7 +544,7 @@ class Siri
     /**
      * Gets as terminateSubscriptionResponse
      *
-     * @return \Calcinai\Siri\TerminateSubscriptionResponse
+     * @return \Calcinai\Siri\Objects\TerminateSubscriptionResponse
      */
     public function getTerminateSubscriptionResponse()
     {
@@ -554,10 +554,10 @@ class Siri
     /**
      * Sets a new terminateSubscriptionResponse
      *
-     * @param \Calcinai\Siri\TerminateSubscriptionResponse $terminateSubscriptionResponse
+     * @param \Calcinai\Siri\Objects\TerminateSubscriptionResponse $terminateSubscriptionResponse
      * @return self
      */
-    public function setTerminateSubscriptionResponse(\Calcinai\Siri\TerminateSubscriptionResponse $terminateSubscriptionResponse)
+    public function setTerminateSubscriptionResponse(\Calcinai\Siri\Objects\TerminateSubscriptionResponse $terminateSubscriptionResponse)
     {
         $this->terminateSubscriptionResponse = $terminateSubscriptionResponse;
         return $this;
@@ -566,7 +566,7 @@ class Siri
     /**
      * Gets as dataReadyAcknowledgement
      *
-     * @return \Calcinai\Siri\DataReadyAcknowledgement
+     * @return \Calcinai\Siri\Objects\DataReadyAcknowledgement
      */
     public function getDataReadyAcknowledgement()
     {
@@ -576,10 +576,10 @@ class Siri
     /**
      * Sets a new dataReadyAcknowledgement
      *
-     * @param \Calcinai\Siri\DataReadyAcknowledgement $dataReadyAcknowledgement
+     * @param \Calcinai\Siri\Objects\DataReadyAcknowledgement $dataReadyAcknowledgement
      * @return self
      */
-    public function setDataReadyAcknowledgement(\Calcinai\Siri\DataReadyAcknowledgement $dataReadyAcknowledgement)
+    public function setDataReadyAcknowledgement(\Calcinai\Siri\Objects\DataReadyAcknowledgement $dataReadyAcknowledgement)
     {
         $this->dataReadyAcknowledgement = $dataReadyAcknowledgement;
         return $this;
@@ -588,7 +588,7 @@ class Siri
     /**
      * Gets as serviceDelivery
      *
-     * @return \Calcinai\Siri\ServiceDelivery
+     * @return \Calcinai\Siri\Objects\ServiceDelivery
      */
     public function getServiceDelivery()
     {
@@ -598,10 +598,10 @@ class Siri
     /**
      * Sets a new serviceDelivery
      *
-     * @param \Calcinai\Siri\ServiceDelivery $serviceDelivery
+     * @param \Calcinai\Siri\Objects\ServiceDelivery $serviceDelivery
      * @return self
      */
-    public function setServiceDelivery(\Calcinai\Siri\ServiceDelivery $serviceDelivery)
+    public function setServiceDelivery(\Calcinai\Siri\Objects\ServiceDelivery $serviceDelivery)
     {
         $this->serviceDelivery = $serviceDelivery;
         return $this;
@@ -610,7 +610,7 @@ class Siri
     /**
      * Gets as dataReceivedAcknowledgement
      *
-     * @return \Calcinai\Siri\DataReceivedAcknowledgement
+     * @return \Calcinai\Siri\Objects\DataReceivedAcknowledgement
      */
     public function getDataReceivedAcknowledgement()
     {
@@ -620,10 +620,10 @@ class Siri
     /**
      * Sets a new dataReceivedAcknowledgement
      *
-     * @param \Calcinai\Siri\DataReceivedAcknowledgement $dataReceivedAcknowledgement
+     * @param \Calcinai\Siri\Objects\DataReceivedAcknowledgement $dataReceivedAcknowledgement
      * @return self
      */
-    public function setDataReceivedAcknowledgement(\Calcinai\Siri\DataReceivedAcknowledgement $dataReceivedAcknowledgement)
+    public function setDataReceivedAcknowledgement(\Calcinai\Siri\Objects\DataReceivedAcknowledgement $dataReceivedAcknowledgement)
     {
         $this->dataReceivedAcknowledgement = $dataReceivedAcknowledgement;
         return $this;
@@ -632,7 +632,7 @@ class Siri
     /**
      * Gets as checkStatusResponse
      *
-     * @return \Calcinai\Siri\CheckStatusResponse
+     * @return \Calcinai\Siri\Objects\CheckStatusResponse
      */
     public function getCheckStatusResponse()
     {
@@ -642,10 +642,10 @@ class Siri
     /**
      * Sets a new checkStatusResponse
      *
-     * @param \Calcinai\Siri\CheckStatusResponse $checkStatusResponse
+     * @param \Calcinai\Siri\Objects\CheckStatusResponse $checkStatusResponse
      * @return self
      */
-    public function setCheckStatusResponse(\Calcinai\Siri\CheckStatusResponse $checkStatusResponse)
+    public function setCheckStatusResponse(\Calcinai\Siri\Objects\CheckStatusResponse $checkStatusResponse)
     {
         $this->checkStatusResponse = $checkStatusResponse;
         return $this;
@@ -656,7 +656,7 @@ class Siri
      *
      * Responses with the capabilities of an implementation. Answers a CapabilityRequest
      *
-     * @return \Calcinai\Siri\CapabilitiesResponse
+     * @return \Calcinai\Siri\Objects\CapabilitiesResponse
      */
     public function getCapabilitiesResponse()
     {
@@ -668,10 +668,10 @@ class Siri
      *
      * Responses with the capabilities of an implementation. Answers a CapabilityRequest
      *
-     * @param \Calcinai\Siri\CapabilitiesResponse $capabilitiesResponse
+     * @param \Calcinai\Siri\Objects\CapabilitiesResponse $capabilitiesResponse
      * @return self
      */
-    public function setCapabilitiesResponse(\Calcinai\Siri\CapabilitiesResponse $capabilitiesResponse)
+    public function setCapabilitiesResponse(\Calcinai\Siri\Objects\CapabilitiesResponse $capabilitiesResponse)
     {
         $this->capabilitiesResponse = $capabilitiesResponse;
         return $this;
@@ -680,7 +680,7 @@ class Siri
     /**
      * Gets as stopPointsDelivery
      *
-     * @return \Calcinai\Siri\StopPointsDelivery
+     * @return \Calcinai\Siri\Objects\StopPointsDelivery
      */
     public function getStopPointsDelivery()
     {
@@ -690,10 +690,10 @@ class Siri
     /**
      * Sets a new stopPointsDelivery
      *
-     * @param \Calcinai\Siri\StopPointsDelivery $stopPointsDelivery
+     * @param \Calcinai\Siri\Objects\StopPointsDelivery $stopPointsDelivery
      * @return self
      */
-    public function setStopPointsDelivery(\Calcinai\Siri\StopPointsDelivery $stopPointsDelivery)
+    public function setStopPointsDelivery(\Calcinai\Siri\Objects\StopPointsDelivery $stopPointsDelivery)
     {
         $this->stopPointsDelivery = $stopPointsDelivery;
         return $this;
@@ -702,7 +702,7 @@ class Siri
     /**
      * Gets as linesDelivery
      *
-     * @return \Calcinai\Siri\LinesDelivery
+     * @return \Calcinai\Siri\Objects\LinesDelivery
      */
     public function getLinesDelivery()
     {
@@ -712,10 +712,10 @@ class Siri
     /**
      * Sets a new linesDelivery
      *
-     * @param \Calcinai\Siri\LinesDelivery $linesDelivery
+     * @param \Calcinai\Siri\Objects\LinesDelivery $linesDelivery
      * @return self
      */
-    public function setLinesDelivery(\Calcinai\Siri\LinesDelivery $linesDelivery)
+    public function setLinesDelivery(\Calcinai\Siri\Objects\LinesDelivery $linesDelivery)
     {
         $this->linesDelivery = $linesDelivery;
         return $this;
@@ -724,7 +724,7 @@ class Siri
     /**
      * Gets as productCategoriesDelivery
      *
-     * @return \Calcinai\Siri\ProductCategoriesDelivery
+     * @return \Calcinai\Siri\Objects\ProductCategoriesDelivery
      */
     public function getProductCategoriesDelivery()
     {
@@ -734,10 +734,10 @@ class Siri
     /**
      * Sets a new productCategoriesDelivery
      *
-     * @param \Calcinai\Siri\ProductCategoriesDelivery $productCategoriesDelivery
+     * @param \Calcinai\Siri\Objects\ProductCategoriesDelivery $productCategoriesDelivery
      * @return self
      */
-    public function setProductCategoriesDelivery(\Calcinai\Siri\ProductCategoriesDelivery $productCategoriesDelivery)
+    public function setProductCategoriesDelivery(\Calcinai\Siri\Objects\ProductCategoriesDelivery $productCategoriesDelivery)
     {
         $this->productCategoriesDelivery = $productCategoriesDelivery;
         return $this;
@@ -746,7 +746,7 @@ class Siri
     /**
      * Gets as serviceFeaturesDelivery
      *
-     * @return \Calcinai\Siri\ServiceFeaturesDelivery
+     * @return \Calcinai\Siri\Objects\ServiceFeaturesDelivery
      */
     public function getServiceFeaturesDelivery()
     {
@@ -756,10 +756,10 @@ class Siri
     /**
      * Sets a new serviceFeaturesDelivery
      *
-     * @param \Calcinai\Siri\ServiceFeaturesDelivery $serviceFeaturesDelivery
+     * @param \Calcinai\Siri\Objects\ServiceFeaturesDelivery $serviceFeaturesDelivery
      * @return self
      */
-    public function setServiceFeaturesDelivery(\Calcinai\Siri\ServiceFeaturesDelivery $serviceFeaturesDelivery)
+    public function setServiceFeaturesDelivery(\Calcinai\Siri\Objects\ServiceFeaturesDelivery $serviceFeaturesDelivery)
     {
         $this->serviceFeaturesDelivery = $serviceFeaturesDelivery;
         return $this;
@@ -768,7 +768,7 @@ class Siri
     /**
      * Gets as vehicleFeaturesDelivery
      *
-     * @return \Calcinai\Siri\VehicleFeaturesDelivery
+     * @return \Calcinai\Siri\Objects\VehicleFeaturesDelivery
      */
     public function getVehicleFeaturesDelivery()
     {
@@ -778,10 +778,10 @@ class Siri
     /**
      * Sets a new vehicleFeaturesDelivery
      *
-     * @param \Calcinai\Siri\VehicleFeaturesDelivery $vehicleFeaturesDelivery
+     * @param \Calcinai\Siri\Objects\VehicleFeaturesDelivery $vehicleFeaturesDelivery
      * @return self
      */
-    public function setVehicleFeaturesDelivery(\Calcinai\Siri\VehicleFeaturesDelivery $vehicleFeaturesDelivery)
+    public function setVehicleFeaturesDelivery(\Calcinai\Siri\Objects\VehicleFeaturesDelivery $vehicleFeaturesDelivery)
     {
         $this->vehicleFeaturesDelivery = $vehicleFeaturesDelivery;
         return $this;
@@ -790,7 +790,7 @@ class Siri
     /**
      * Gets as infoChannelDelivery
      *
-     * @return \Calcinai\Siri\InfoChannelDelivery
+     * @return \Calcinai\Siri\Objects\InfoChannelDelivery
      */
     public function getInfoChannelDelivery()
     {
@@ -800,10 +800,10 @@ class Siri
     /**
      * Sets a new infoChannelDelivery
      *
-     * @param \Calcinai\Siri\InfoChannelDelivery $infoChannelDelivery
+     * @param \Calcinai\Siri\Objects\InfoChannelDelivery $infoChannelDelivery
      * @return self
      */
-    public function setInfoChannelDelivery(\Calcinai\Siri\InfoChannelDelivery $infoChannelDelivery)
+    public function setInfoChannelDelivery(\Calcinai\Siri\Objects\InfoChannelDelivery $infoChannelDelivery)
     {
         $this->infoChannelDelivery = $infoChannelDelivery;
         return $this;
@@ -812,7 +812,7 @@ class Siri
     /**
      * Gets as facilityDelivery
      *
-     * @return \Calcinai\Siri\FacilityDelivery
+     * @return \Calcinai\Siri\Objects\FacilityDelivery
      */
     public function getFacilityDelivery()
     {
@@ -822,10 +822,10 @@ class Siri
     /**
      * Sets a new facilityDelivery
      *
-     * @param \Calcinai\Siri\FacilityDelivery $facilityDelivery
+     * @param \Calcinai\Siri\Objects\FacilityDelivery $facilityDelivery
      * @return self
      */
-    public function setFacilityDelivery(\Calcinai\Siri\FacilityDelivery $facilityDelivery)
+    public function setFacilityDelivery(\Calcinai\Siri\Objects\FacilityDelivery $facilityDelivery)
     {
         $this->facilityDelivery = $facilityDelivery;
         return $this;
@@ -834,7 +834,7 @@ class Siri
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -844,10 +844,10 @@ class Siri
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

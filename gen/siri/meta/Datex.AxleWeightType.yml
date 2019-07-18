@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AxleWeightType:
+Calcinai\Siri\Objects\Datex\AxleWeightType:
     properties:
         axleSequenceIdentifier:
             expose: true
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\AxleWeightType:
             accessor:
                 getter: getAxleWeightExtension
                 setter: setAxleWeightExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

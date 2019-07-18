@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleMonitoringRequestStructureType
@@ -68,7 +68,7 @@ class VehicleMonitoringRequestStructureType extends AbstractFunctionalServiceReq
     private $vehicleMonitoringDetailLevel = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -283,7 +283,7 @@ class VehicleMonitoringRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -293,10 +293,10 @@ class VehicleMonitoringRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

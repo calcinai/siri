@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\VariableMessageSignSettingType:
+Calcinai\Siri\Objects\Datex\VariableMessageSignSettingType:
     properties:
         numberOfCharacters:
             expose: true
@@ -77,4 +77,4 @@ Calcinai\Siri\Datex\VariableMessageSignSettingType:
             accessor:
                 getter: getVariableMessageSignSettingExtension
                 setter: setVariableMessageSignSettingExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

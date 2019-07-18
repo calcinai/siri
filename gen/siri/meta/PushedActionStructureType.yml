@@ -1,4 +1,4 @@
-Calcinai\Siri\PushedActionStructureType:
+Calcinai\Siri\Objects\PushedActionStructureType:
     properties:
         beforeNotices:
             expose: true

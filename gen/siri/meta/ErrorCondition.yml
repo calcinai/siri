@@ -1,4 +1,4 @@
-Calcinai\Siri\ErrorCondition:
+Calcinai\Siri\Objects\ErrorCondition:
     xml_root_name: ErrorCondition
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -11,7 +11,7 @@ Calcinai\Siri\ErrorCondition:
             accessor:
                 getter: getCapabilityNotSupportedError
                 setter: setCapabilityNotSupportedError
-            type: Calcinai\Siri\CapabilityNotSupportedError
+            type: Calcinai\Siri\Objects\CapabilityNotSupportedError
         accessNotAllowedError:
             expose: true
             access_type: public_method
@@ -21,7 +21,7 @@ Calcinai\Siri\ErrorCondition:
             accessor:
                 getter: getAccessNotAllowedError
                 setter: setAccessNotAllowedError
-            type: Calcinai\Siri\AccessNotAllowedError
+            type: Calcinai\Siri\Objects\AccessNotAllowedError
         noInfoForTopicError:
             expose: true
             access_type: public_method
@@ -31,7 +31,7 @@ Calcinai\Siri\ErrorCondition:
             accessor:
                 getter: getNoInfoForTopicError
                 setter: setNoInfoForTopicError
-            type: Calcinai\Siri\NoInfoForTopicError
+            type: Calcinai\Siri\Objects\NoInfoForTopicError
         allowedResourceUsageExceededError:
             expose: true
             access_type: public_method
@@ -41,7 +41,7 @@ Calcinai\Siri\ErrorCondition:
             accessor:
                 getter: getAllowedResourceUsageExceededError
                 setter: setAllowedResourceUsageExceededError
-            type: Calcinai\Siri\AllowedResourceUsageExceededError
+            type: Calcinai\Siri\Objects\AllowedResourceUsageExceededError
         unknownSubscriptionError:
             expose: true
             access_type: public_method
@@ -51,7 +51,7 @@ Calcinai\Siri\ErrorCondition:
             accessor:
                 getter: getUnknownSubscriptionError
                 setter: setUnknownSubscriptionError
-            type: Calcinai\Siri\UnknownSubscriptionError
+            type: Calcinai\Siri\Objects\UnknownSubscriptionError
         otherError:
             expose: true
             access_type: public_method
@@ -61,7 +61,7 @@ Calcinai\Siri\ErrorCondition:
             accessor:
                 getter: getOtherError
                 setter: setOtherError
-            type: Calcinai\Siri\OtherError
+            type: Calcinai\Siri\Objects\OtherError
         description:
             expose: true
             access_type: public_method
@@ -71,4 +71,4 @@ Calcinai\Siri\ErrorCondition:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType

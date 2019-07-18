@@ -1,4 +1,4 @@
-Calcinai\Siri\ResponseEndpointStructureType:
+Calcinai\Siri\Objects\ResponseEndpointStructureType:
     properties:
         address:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\ResponseEndpointStructureType:
             accessor:
                 getter: getResponderRef
                 setter: setResponderRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         requestMessageRef:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\ResponseEndpointStructureType:
             accessor:
                 getter: getRequestMessageRef
                 setter: setRequestMessageRef
-            type: Calcinai\Siri\MessageQualifierStructureType
+            type: Calcinai\Siri\Objects\MessageQualifierStructureType

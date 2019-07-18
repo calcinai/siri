@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TransitInformationType:
+Calcinai\Siri\Objects\Datex\TransitInformationType:
     properties:
         journeyDestination:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\TransitInformationType:
             accessor:
                 getter: getJourneyDestination
                 setter: setJourneyDestination
-            type: array<Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType>
+            type: array<Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType>
             xml_list:
                 inline: false
                 entry_name: value
@@ -24,7 +24,7 @@ Calcinai\Siri\Datex\TransitInformationType:
             accessor:
                 getter: getJourneyOrigin
                 setter: setJourneyOrigin
-            type: array<Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType>
+            type: array<Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType\ValueAType>
             xml_list:
                 inline: false
                 entry_name: value
@@ -69,7 +69,7 @@ Calcinai\Siri\Datex\TransitInformationType:
             accessor:
                 getter: getScheduledDepartureTime
                 setter: setScheduledDepartureTime
-            type: Calcinai\Siri\Datex\DateTimeType
+            type: Calcinai\Siri\Objects\Datex\DateTimeType
         transitInformationExtension:
             expose: true
             access_type: public_method
@@ -79,4 +79,4 @@ Calcinai\Siri\Datex\TransitInformationType:
             accessor:
                 getter: getTransitInformationExtension
                 setter: setTransitInformationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

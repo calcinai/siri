@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityLocationStructureType:
+Calcinai\Siri\Objects\FacilityLocationStructureType:
     properties:
         lineRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\LineRef
+            type: Calcinai\Siri\Objects\LineRef
         stopPointRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getStopPointRef
                 setter: setStopPointRef
-            type: Calcinai\Siri\StopPointRef
+            type: Calcinai\Siri\Objects\StopPointRef
         vehicleRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getVehicleRef
                 setter: setVehicleRef
-            type: Calcinai\Siri\VehicleRef
+            type: Calcinai\Siri\Objects\VehicleRef
         datedVehicleJourneyRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getDatedVehicleJourneyRef
                 setter: setDatedVehicleJourneyRef
-            type: Calcinai\Siri\DatedVehicleJourneyRef
+            type: Calcinai\Siri\Objects\DatedVehicleJourneyRef
         connectionLinkRef:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getConnectionLinkRef
                 setter: setConnectionLinkRef
-            type: Calcinai\Siri\ConnectionLinkRef
+            type: Calcinai\Siri\Objects\ConnectionLinkRef
         interchangeRef:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getInterchangeRef
                 setter: setInterchangeRef
-            type: Calcinai\Siri\InterchangeRef
+            type: Calcinai\Siri\Objects\InterchangeRef
         stopPlaceRef:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getStopPlaceRef
                 setter: setStopPlaceRef
-            type: Calcinai\Siri\IFOpt\StopPlaceRefStructureType
+            type: Calcinai\Siri\Objects\IFOpt\StopPlaceRefStructureType
         stopPlaceComponentId:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getStopPlaceComponentId
                 setter: setStopPlaceComponentId
-            type: Calcinai\Siri\IFOpt\StopPlaceComponentRefStructureType
+            type: Calcinai\Siri\Objects\IFOpt\StopPlaceComponentRefStructureType
         operatorRef:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getOperatorRef
                 setter: setOperatorRef
-            type: Calcinai\Siri\OperatorRefStructureType
+            type: Calcinai\Siri\Objects\OperatorRefStructureType
         productCategoryRef:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getProductCategoryRef
                 setter: setProductCategoryRef
-            type: Calcinai\Siri\ProductCategoryRefStructureType
+            type: Calcinai\Siri\Objects\ProductCategoryRefStructureType
         serviceFeatureRef:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getServiceFeatureRef
                 setter: setServiceFeatureRef
-            type: Calcinai\Siri\ServiceFeatureRef
+            type: Calcinai\Siri\Objects\ServiceFeatureRef
         vehicleFeatureRef:
             expose: true
             access_type: public_method
@@ -119,4 +119,4 @@ Calcinai\Siri\FacilityLocationStructureType:
             accessor:
                 getter: getVehicleFeatureRef
                 setter: setVehicleFeatureRef
-            type: Calcinai\Siri\VehicleFeatureRefStructureType
+            type: Calcinai\Siri\Objects\VehicleFeatureRefStructureType

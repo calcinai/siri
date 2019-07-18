@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ServiceFeatureStructureType
@@ -21,7 +21,7 @@ class ServiceFeatureStructureType
     /**
      * Name of classification.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $name
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $name
      */
     private $name = null;
 
@@ -63,7 +63,7 @@ class ServiceFeatureStructureType
      *
      * Name of classification.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getName()
     {
@@ -75,10 +75,10 @@ class ServiceFeatureStructureType
      *
      * Name of classification.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $name
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $name
      * @return self
      */
-    public function setName(\Calcinai\Siri\NaturalLanguageStringStructureType $name)
+    public function setName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $name)
     {
         $this->name = $name;
         return $this;

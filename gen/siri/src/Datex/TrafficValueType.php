@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficValueType
@@ -12,19 +12,19 @@ class TrafficValueType extends BasicDataValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleCharacteristicsType $vehicleCharacteristics
+     * @property \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $vehicleCharacteristics
      */
     private $vehicleCharacteristics = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficValueExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficValueExtension
      */
     private $trafficValueExtension = null;
 
     /**
      * Gets as vehicleCharacteristics
      *
-     * @return \Calcinai\Siri\Datex\VehicleCharacteristicsType
+     * @return \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType
      */
     public function getVehicleCharacteristics()
     {
@@ -34,10 +34,10 @@ class TrafficValueType extends BasicDataValueType
     /**
      * Sets a new vehicleCharacteristics
      *
-     * @param \Calcinai\Siri\Datex\VehicleCharacteristicsType $vehicleCharacteristics
+     * @param \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $vehicleCharacteristics
      * @return self
      */
-    public function setVehicleCharacteristics(\Calcinai\Siri\Datex\VehicleCharacteristicsType $vehicleCharacteristics)
+    public function setVehicleCharacteristics(\Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $vehicleCharacteristics)
     {
         $this->vehicleCharacteristics = $vehicleCharacteristics;
         return $this;
@@ -46,7 +46,7 @@ class TrafficValueType extends BasicDataValueType
     /**
      * Gets as trafficValueExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficValueExtension()
     {
@@ -56,10 +56,10 @@ class TrafficValueType extends BasicDataValueType
     /**
      * Sets a new trafficValueExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficValueExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficValueExtension
      * @return self
      */
-    public function setTrafficValueExtension(\Calcinai\Siri\Datex\ExtensionType $trafficValueExtension)
+    public function setTrafficValueExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficValueExtension)
     {
         $this->trafficValueExtension = $trafficValueExtension;
         return $this;

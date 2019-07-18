@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PeopleInvolvedType:
+Calcinai\Siri\Objects\Datex\PeopleInvolvedType:
     properties:
         numberOfPeople:
             expose: true
@@ -49,4 +49,4 @@ Calcinai\Siri\Datex\PeopleInvolvedType:
             accessor:
                 getter: getPeopleInvolvedExtension
                 setter: setPeopleInvolvedExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

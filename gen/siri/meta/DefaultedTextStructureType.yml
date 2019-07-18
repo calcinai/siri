@@ -1,4 +1,4 @@
-Calcinai\Siri\DefaultedTextStructureType:
+Calcinai\Siri\Objects\DefaultedTextStructureType:
     properties:
         overridden:
             expose: true

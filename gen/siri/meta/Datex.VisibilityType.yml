@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\VisibilityType:
+Calcinai\Siri\Objects\Datex\VisibilityType:
     properties:
         visibilityValue:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\VisibilityType:
             accessor:
                 getter: getVisibilityExtension
                 setter: setVisibilityExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

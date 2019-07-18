@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ACSB;
+namespace Calcinai\Siri\Objects\ACSB;
 
 /**
  * Class representing LiftFreeAccess

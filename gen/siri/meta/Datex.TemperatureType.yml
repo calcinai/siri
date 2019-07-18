@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TemperatureType:
+Calcinai\Siri\Objects\Datex\TemperatureType:
     properties:
         airTemperature:
             expose: true
@@ -49,4 +49,4 @@ Calcinai\Siri\Datex\TemperatureType:
             accessor:
                 getter: getTemperatureExtension
                 setter: setTemperatureExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

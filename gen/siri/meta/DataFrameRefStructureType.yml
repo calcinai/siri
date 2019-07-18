@@ -1,4 +1,4 @@
-Calcinai\Siri\DataFrameRefStructureType:
+Calcinai\Siri\Objects\DataFrameRefStructureType:
     properties:
         __value:
             expose: true

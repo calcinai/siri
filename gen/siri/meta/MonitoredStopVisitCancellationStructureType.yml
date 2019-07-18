@@ -1,4 +1,4 @@
-Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
+Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType:
     properties:
         monitoringRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getMonitoringRef
                 setter: setMonitoringRef
-            type: Calcinai\Siri\MonitoringRefStructureType
+            type: Calcinai\Siri\Objects\MonitoringRefStructureType
         visitNumber:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getVisitNumber
                 setter: setVisitNumber
-            type: Calcinai\Siri\VisitNumber
+            type: Calcinai\Siri\Objects\VisitNumber
         lineRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\LineRefStructureType
+            type: Calcinai\Siri\Objects\LineRefStructureType
         directionRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getDirectionRef
                 setter: setDirectionRef
-            type: Calcinai\Siri\DirectionRefStructureType
+            type: Calcinai\Siri\Objects\DirectionRefStructureType
         vehicleJourneyRef:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getVehicleJourneyRef
                 setter: setVehicleJourneyRef
-            type: Calcinai\Siri\FramedVehicleJourneyRefStructureType
+            type: Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType
         clearDownRef:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getClearDownRef
                 setter: setClearDownRef
-            type: Calcinai\Siri\ClearDownRefStructureType
+            type: Calcinai\Siri\Objects\ClearDownRefStructureType
         journeyPatternRef:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getJourneyPatternRef
                 setter: setJourneyPatternRef
-            type: Calcinai\Siri\JourneyPatternRefStructureType
+            type: Calcinai\Siri\Objects\JourneyPatternRefStructureType
         vehicleMode:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getRouteRef
                 setter: setRouteRef
-            type: Calcinai\Siri\RouteRefStructureType
+            type: Calcinai\Siri\Objects\RouteRefStructureType
         publishedLineName:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getPublishedLineName
                 setter: setPublishedLineName
-            type: Calcinai\Siri\PublishedLineName
+            type: Calcinai\Siri\Objects\PublishedLineName
         directionName:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getDirectionName
                 setter: setDirectionName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         externalLineRef:
             expose: true
             access_type: public_method
@@ -119,7 +119,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getExternalLineRef
                 setter: setExternalLineRef
-            type: Calcinai\Siri\LineRefStructureType
+            type: Calcinai\Siri\Objects\LineRefStructureType
         reason:
             expose: true
             access_type: public_method
@@ -129,7 +129,7 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getReason
                 setter: setReason
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -139,4 +139,4 @@ Calcinai\Siri\MonitoredStopVisitCancellationStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedStopPlaceComponentStructureType:
+Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType:
     properties:
         componentRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AffectedStopPlaceComponentStructureType:
             accessor:
                 getter: getComponentRef
                 setter: setComponentRef
-            type: Calcinai\Siri\IFOpt\StopPlaceComponentRefStructureType
+            type: Calcinai\Siri\Objects\IFOpt\StopPlaceComponentRefStructureType
         componentName:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AffectedStopPlaceComponentStructureType:
             accessor:
                 getter: getComponentName
                 setter: setComponentName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         componentType:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\AffectedStopPlaceComponentStructureType:
             accessor:
                 getter: getPointProjection
                 setter: setPointProjection
-            type: Calcinai\Siri\IFOpt\PointProjection
+            type: Calcinai\Siri\Objects\IFOpt\PointProjection
         linkProjection:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\AffectedStopPlaceComponentStructureType:
             accessor:
                 getter: getLinkProjection
                 setter: setLinkProjection
-            type: Calcinai\Siri\IFOpt\LinkProjection
+            type: Calcinai\Siri\Objects\IFOpt\LinkProjection
         zoneProjection:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\AffectedStopPlaceComponentStructureType:
             accessor:
                 getter: getZoneProjection
                 setter: setZoneProjection
-            type: Calcinai\Siri\IFOpt\ZoneProjection
+            type: Calcinai\Siri\Objects\IFOpt\ZoneProjection
         offset:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\AffectedStopPlaceComponentStructureType:
             accessor:
                 getter: getOffset
                 setter: setOffset
-            type: Calcinai\Siri\OffsetStructureType
+            type: Calcinai\Siri\Objects\OffsetStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -79,4 +79,4 @@ Calcinai\Siri\AffectedStopPlaceComponentStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

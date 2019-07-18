@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedVehicleJourneyStructureType;
+namespace Calcinai\Siri\Objects\AffectedVehicleJourneyStructureType;
 
 /**
  * Class representing CallsAType
@@ -9,7 +9,7 @@ class CallsAType
 {
 
     /**
-     * @property \Calcinai\Siri\AffectedCallStructureType[] $call
+     * @property \Calcinai\Siri\Objects\AffectedCallStructureType[] $call
      */
     private $call = [
         
@@ -19,9 +19,9 @@ class CallsAType
      * Adds as call
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedCallStructureType $call
+     * @param \Calcinai\Siri\Objects\AffectedCallStructureType $call
      */
-    public function addToCall(\Calcinai\Siri\AffectedCallStructureType $call)
+    public function addToCall(\Calcinai\Siri\Objects\AffectedCallStructureType $call)
     {
         $this->call[] = $call;
         return $this;
@@ -52,7 +52,7 @@ class CallsAType
     /**
      * Gets as call
      *
-     * @return \Calcinai\Siri\AffectedCallStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedCallStructureType[]
      */
     public function getCall()
     {
@@ -62,7 +62,7 @@ class CallsAType
     /**
      * Sets a new call
      *
-     * @param \Calcinai\Siri\AffectedCallStructureType[] $call
+     * @param \Calcinai\Siri\Objects\AffectedCallStructureType[] $call
      * @return self
      */
     public function setCall(array $call)

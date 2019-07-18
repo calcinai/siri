@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGPointDescriptorType:
+Calcinai\Siri\Objects\Datex\TPEGPointDescriptorType:
     properties:
         tpegpointDescriptorExtension:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\Datex\TPEGPointDescriptorType:
             accessor:
                 getter: getTpegpointDescriptorExtension
                 setter: setTpegpointDescriptorExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing CCTVImagesType
@@ -21,7 +21,7 @@ class CCTVImagesType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $cctvimagesExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $cctvimagesExtension
      */
     private $cctvimagesExtension = null;
 
@@ -94,7 +94,7 @@ class CCTVImagesType
     /**
      * Gets as cctvimagesExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getCctvimagesExtension()
     {
@@ -104,10 +104,10 @@ class CCTVImagesType
     /**
      * Sets a new cctvimagesExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $cctvimagesExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $cctvimagesExtension
      * @return self
      */
-    public function setCctvimagesExtension(\Calcinai\Siri\Datex\ExtensionType $cctvimagesExtension)
+    public function setCctvimagesExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $cctvimagesExtension)
     {
         $this->cctvimagesExtension = $cctvimagesExtension;
         return $this;

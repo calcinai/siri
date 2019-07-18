@@ -1,4 +1,4 @@
-Calcinai\Siri\ParameterisedActionStructureType:
+Calcinai\Siri\Objects\ParameterisedActionStructureType:
     properties:
         description:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ParameterisedActionStructureType:
             accessor:
                 getter: getDescription
                 setter: setDescription
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         actionData:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ Calcinai\Siri\ParameterisedActionStructureType:
                 inline: true
                 entry_name: ActionData
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ActionDataStructureType>
+            type: array<Calcinai\Siri\Objects\ActionDataStructureType>

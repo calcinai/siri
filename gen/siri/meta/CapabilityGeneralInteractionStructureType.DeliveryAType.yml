@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType:
+Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\DeliveryAType:
     properties:
         directDelivery:
             expose: true

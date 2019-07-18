@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\PushedActionStructureType;
+namespace Calcinai\Siri\Objects\PushedActionStructureType;
 
 /**
  * Class representing BeforeNoticesAType

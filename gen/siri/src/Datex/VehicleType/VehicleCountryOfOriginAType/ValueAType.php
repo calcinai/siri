@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType;
+namespace Calcinai\Siri\Objects\Datex\VehicleType\VehicleCountryOfOriginAType;
 
 /**
  * Class representing ValueAType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

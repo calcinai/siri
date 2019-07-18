@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AtoDType:
+Calcinai\Siri\Objects\Datex\AtoDType:
     properties:
         dayGroupEnum:
             expose: true
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\AtoDType:
             accessor:
                 getter: getAtoDExtension
                 setter: setAtoDExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType
         carParkConfigurationEnum:
             expose: true
             access_type: public_method

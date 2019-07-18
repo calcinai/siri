@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGSimplePointType:
+Calcinai\Siri\Objects\Datex\TPEGSimplePointType:
     properties:
         tpegLocationType:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\TPEGSimplePointType:
             accessor:
                 getter: getPoint
                 setter: setPoint
-            type: Calcinai\Siri\Datex\TPEGPointType
+            type: Calcinai\Siri\Objects\Datex\TPEGPointType
         tpegsimplePointExtension:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\TPEGSimplePointType:
             accessor:
                 getter: getTpegsimplePointExtension
                 setter: setTpegsimplePointExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

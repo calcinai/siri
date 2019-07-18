@@ -1,4 +1,4 @@
-Calcinai\Siri\HeartbeatNotificationStructureType:
+Calcinai\Siri\Objects\HeartbeatNotificationStructureType:
     properties:
         status:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\HeartbeatNotificationStructureType:
             accessor:
                 getter: getErrorCondition
                 setter: setErrorCondition
-            type: Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType
+            type: Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType
         validUntil:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Calcinai\Siri\HeartbeatNotificationStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

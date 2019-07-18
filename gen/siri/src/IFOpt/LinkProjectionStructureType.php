@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing LinkProjectionStructureType
@@ -14,7 +14,7 @@ class LinkProjectionStructureType extends AbstractProjectionType
     /**
      * Ordered sequence of points. There must always be a start and end point
      *
-     * @property \Calcinai\Siri\IFOpt\PointProjection[] $line
+     * @property \Calcinai\Siri\Objects\IFOpt\PointProjection[] $line
      */
     private $line = null;
 
@@ -24,9 +24,9 @@ class LinkProjectionStructureType extends AbstractProjectionType
      * Ordered sequence of points. There must always be a start and end point
      *
      * @return self
-     * @param \Calcinai\Siri\IFOpt\PointProjection $pointProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection
      */
-    public function addToLine(\Calcinai\Siri\IFOpt\PointProjection $pointProjection)
+    public function addToLine(\Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection)
     {
         $this->line[] = $pointProjection;
         return $this;
@@ -63,7 +63,7 @@ class LinkProjectionStructureType extends AbstractProjectionType
      *
      * Ordered sequence of points. There must always be a start and end point
      *
-     * @return \Calcinai\Siri\IFOpt\PointProjection[]
+     * @return \Calcinai\Siri\Objects\IFOpt\PointProjection[]
      */
     public function getLine()
     {
@@ -75,7 +75,7 @@ class LinkProjectionStructureType extends AbstractProjectionType
      *
      * Ordered sequence of points. There must always be a start and end point
      *
-     * @param \Calcinai\Siri\IFOpt\PointProjection[] $line
+     * @param \Calcinai\Siri\Objects\IFOpt\PointProjection[] $line
      * @return self
      */
     public function setLine(array $line)

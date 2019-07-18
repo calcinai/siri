@@ -1,4 +1,4 @@
-Calcinai\Siri\NotifyBySmsActionStructureType:
+Calcinai\Siri\Objects\NotifyBySmsActionStructureType:
     properties:
         phone:
             expose: true

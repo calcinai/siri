@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionTimetableCapabilitiesResponseStructureType
@@ -19,19 +19,19 @@ class ConnectionTimetableCapabilitiesResponseStructureType extends AbstractServi
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\ConnectionTimetableServiceCapabilities $connectionTimetableServiceCapabilities
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableServiceCapabilities $connectionTimetableServiceCapabilities
      */
     private $connectionTimetableServiceCapabilities = null;
 
     /**
      * Participant's permissions to use the service, Only returned if requested
      *
-     * @property \Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType $connectionTimetablePermissions
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType $connectionTimetablePermissions
      */
     private $connectionTimetablePermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -64,7 +64,7 @@ class ConnectionTimetableCapabilitiesResponseStructureType extends AbstractServi
     /**
      * Gets as connectionTimetableServiceCapabilities
      *
-     * @return \Calcinai\Siri\ConnectionTimetableServiceCapabilities
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableServiceCapabilities
      */
     public function getConnectionTimetableServiceCapabilities()
     {
@@ -74,10 +74,10 @@ class ConnectionTimetableCapabilitiesResponseStructureType extends AbstractServi
     /**
      * Sets a new connectionTimetableServiceCapabilities
      *
-     * @param \Calcinai\Siri\ConnectionTimetableServiceCapabilities $connectionTimetableServiceCapabilities
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableServiceCapabilities $connectionTimetableServiceCapabilities
      * @return self
      */
-    public function setConnectionTimetableServiceCapabilities(\Calcinai\Siri\ConnectionTimetableServiceCapabilities $connectionTimetableServiceCapabilities)
+    public function setConnectionTimetableServiceCapabilities(\Calcinai\Siri\Objects\ConnectionTimetableServiceCapabilities $connectionTimetableServiceCapabilities)
     {
         $this->connectionTimetableServiceCapabilities = $connectionTimetableServiceCapabilities;
         return $this;
@@ -88,7 +88,7 @@ class ConnectionTimetableCapabilitiesResponseStructureType extends AbstractServi
      *
      * Participant's permissions to use the service, Only returned if requested
      *
-     * @return \Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType
      */
     public function getConnectionTimetablePermissions()
     {
@@ -100,10 +100,10 @@ class ConnectionTimetableCapabilitiesResponseStructureType extends AbstractServi
      *
      * Participant's permissions to use the service, Only returned if requested
      *
-     * @param \Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType $connectionTimetablePermissions
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType $connectionTimetablePermissions
      * @return self
      */
-    public function setConnectionTimetablePermissions(\Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType $connectionTimetablePermissions)
+    public function setConnectionTimetablePermissions(\Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType $connectionTimetablePermissions)
     {
         $this->connectionTimetablePermissions = $connectionTimetablePermissions;
         return $this;
@@ -112,7 +112,7 @@ class ConnectionTimetableCapabilitiesResponseStructureType extends AbstractServi
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -122,10 +122,10 @@ class ConnectionTimetableCapabilitiesResponseStructureType extends AbstractServi
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

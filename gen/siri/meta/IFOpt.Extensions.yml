@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\Extensions:
+Calcinai\Siri\Objects\IFOpt\Extensions:
     xml_root_name: Extensions
     xml_root_namespace: 'http://www.ifopt.org.uk/ifopt'
     properties:

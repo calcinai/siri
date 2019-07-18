@@ -1,4 +1,4 @@
-Calcinai\Siri\AnnotatedStopPointStructureType\LinesAType:
+Calcinai\Siri\Objects\AnnotatedStopPointStructureType\LinesAType:
     properties:
         lineRef:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AnnotatedStopPointStructureType\LinesAType:
                 inline: true
                 entry_name: LineRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\LineRefStructureType>
+            type: array<Calcinai\Siri\Objects\LineRefStructureType>

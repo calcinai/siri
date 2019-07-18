@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\InstructionsType:
+Calcinai\Siri\Objects\Datex\InstructionsType:
     properties:
         instruction:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\InstructionsType:
             accessor:
                 getter: getInstructionsExtension
                 setter: setInstructionsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

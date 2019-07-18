@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing EnvironmentalObstructionType
@@ -26,7 +26,7 @@ class EnvironmentalObstructionType extends ObstructionType
     private $environmentalObstructionType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $environmentalObstructionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $environmentalObstructionExtension
      */
     private $environmentalObstructionExtension = null;
 
@@ -85,7 +85,7 @@ class EnvironmentalObstructionType extends ObstructionType
     /**
      * Gets as environmentalObstructionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getEnvironmentalObstructionExtension()
     {
@@ -95,10 +95,10 @@ class EnvironmentalObstructionType extends ObstructionType
     /**
      * Sets a new environmentalObstructionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $environmentalObstructionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $environmentalObstructionExtension
      * @return self
      */
-    public function setEnvironmentalObstructionExtension(\Calcinai\Siri\Datex\ExtensionType $environmentalObstructionExtension)
+    public function setEnvironmentalObstructionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $environmentalObstructionExtension)
     {
         $this->environmentalObstructionExtension = $environmentalObstructionExtension;
         return $this;

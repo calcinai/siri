@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing ValidityConditionStructureType
@@ -35,7 +35,7 @@ class ValidityConditionStructureType
     /**
      * Any timebands which further qualify the validity condition.
      *
-     * @property \Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType[] $timebands
+     * @property \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType\TimebandsAType[] $timebands
      */
     private $timebands = [
         
@@ -125,9 +125,9 @@ class ValidityConditionStructureType
      * Any timebands which further qualify the validity condition.
      *
      * @return self
-     * @param \Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType $timebands
+     * @param \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType\TimebandsAType $timebands
      */
-    public function addToTimebands(\Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType $timebands)
+    public function addToTimebands(\Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType\TimebandsAType $timebands)
     {
         $this->timebands[] = $timebands;
         return $this;
@@ -164,7 +164,7 @@ class ValidityConditionStructureType
      *
      * Any timebands which further qualify the validity condition.
      *
-     * @return \Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType[]
+     * @return \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType\TimebandsAType[]
      */
     public function getTimebands()
     {
@@ -176,7 +176,7 @@ class ValidityConditionStructureType
      *
      * Any timebands which further qualify the validity condition.
      *
-     * @param \Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType[] $timebands
+     * @param \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType\TimebandsAType[] $timebands
      * @return self
      */
     public function setTimebands(array $timebands)

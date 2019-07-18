@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationExchangeRequestStructureType\SituationRoadFilterAType:
+Calcinai\Siri\Objects\SituationExchangeRequestStructureType\SituationRoadFilterAType:
     properties:
         roadFilter:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\SituationExchangeRequestStructureType\SituationRoadFilterAType:
                 inline: true
                 entry_name: RoadFilter
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\RoadFilterStructureType>
+            type: array<Calcinai\Siri\Objects\RoadFilterStructureType>

@@ -1,4 +1,4 @@
-Calcinai\Siri\DistributorDepartureCancellationStructureType:
+Calcinai\Siri\Objects\DistributorDepartureCancellationStructureType:
     properties:
         reason:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\DistributorDepartureCancellationStructureType:
             accessor:
                 getter: getReason
                 setter: setReason
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\DistributorDepartureCancellationStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

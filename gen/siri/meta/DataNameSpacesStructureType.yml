@@ -1,4 +1,4 @@
-Calcinai\Siri\DataNameSpacesStructureType:
+Calcinai\Siri\Objects\DataNameSpacesStructureType:
     properties:
         stopPointNameSpace:
             expose: true

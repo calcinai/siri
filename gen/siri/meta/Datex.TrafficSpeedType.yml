@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TrafficSpeedType:
+Calcinai\Siri\Objects\Datex\TrafficSpeedType:
     properties:
         averageVehicleSpeed:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\TrafficSpeedType:
             accessor:
                 getter: getSpeedPercentile
                 setter: setSpeedPercentile
-            type: Calcinai\Siri\Datex\SpeedPercentileType
+            type: Calcinai\Siri\Objects\Datex\SpeedPercentileType
         trafficSpeedExtension:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\TrafficSpeedType:
             accessor:
                 getter: getTrafficSpeedExtension
                 setter: setTrafficSpeedExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

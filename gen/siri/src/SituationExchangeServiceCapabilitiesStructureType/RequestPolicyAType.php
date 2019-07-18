@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType;
 
-use Calcinai\Siri\CapabilityRequestPolicyStructureType;
+use Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType;
 
 /**
  * Class representing RequestPolicyAType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing GeneralMessageServiceCapabilitiesStructureType
@@ -14,21 +14,21 @@ class GeneralMessageServiceCapabilitiesStructureType extends AbstractCapabilitie
     /**
      * Filtering Capabilities.
      *
-     * @property \Calcinai\Siri\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @property \Calcinai\Siri\Objects\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      */
     private $topicFiltering = null;
 
     /**
      * Request Policiy capabilities.
      *
-     * @property \Calcinai\Siri\CapabilityRequestPolicyStructureType $requestPolicy
+     * @property \Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType $requestPolicy
      */
     private $requestPolicy = null;
 
     /**
      * Optional Access control capabilities.
      *
-     * @property \Calcinai\Siri\GeneralMessageCapabilityAccessControlStructureType $accessControl
+     * @property \Calcinai\Siri\Objects\GeneralMessageCapabilityAccessControlStructureType $accessControl
      */
     private $accessControl = null;
 
@@ -37,7 +37,7 @@ class GeneralMessageServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Filtering Capabilities.
      *
-     * @return \Calcinai\Siri\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType
+     * @return \Calcinai\Siri\Objects\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType
      */
     public function getTopicFiltering()
     {
@@ -49,10 +49,10 @@ class GeneralMessageServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Filtering Capabilities.
      *
-     * @param \Calcinai\Siri\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @param \Calcinai\Siri\Objects\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      * @return self
      */
-    public function setTopicFiltering(\Calcinai\Siri\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
+    public function setTopicFiltering(\Calcinai\Siri\Objects\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
     {
         $this->topicFiltering = $topicFiltering;
         return $this;
@@ -63,7 +63,7 @@ class GeneralMessageServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Request Policiy capabilities.
      *
-     * @return \Calcinai\Siri\CapabilityRequestPolicyStructureType
+     * @return \Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType
      */
     public function getRequestPolicy()
     {
@@ -75,10 +75,10 @@ class GeneralMessageServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Request Policiy capabilities.
      *
-     * @param \Calcinai\Siri\CapabilityRequestPolicyStructureType $requestPolicy
+     * @param \Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType $requestPolicy
      * @return self
      */
-    public function setRequestPolicy(\Calcinai\Siri\CapabilityRequestPolicyStructureType $requestPolicy)
+    public function setRequestPolicy(\Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType $requestPolicy)
     {
         $this->requestPolicy = $requestPolicy;
         return $this;
@@ -89,7 +89,7 @@ class GeneralMessageServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Optional Access control capabilities.
      *
-     * @return \Calcinai\Siri\GeneralMessageCapabilityAccessControlStructureType
+     * @return \Calcinai\Siri\Objects\GeneralMessageCapabilityAccessControlStructureType
      */
     public function getAccessControl()
     {
@@ -101,10 +101,10 @@ class GeneralMessageServiceCapabilitiesStructureType extends AbstractCapabilitie
      *
      * Optional Access control capabilities.
      *
-     * @param \Calcinai\Siri\GeneralMessageCapabilityAccessControlStructureType $accessControl
+     * @param \Calcinai\Siri\Objects\GeneralMessageCapabilityAccessControlStructureType $accessControl
      * @return self
      */
-    public function setAccessControl(\Calcinai\Siri\GeneralMessageCapabilityAccessControlStructureType $accessControl)
+    public function setAccessControl(\Calcinai\Siri\Objects\GeneralMessageCapabilityAccessControlStructureType $accessControl)
     {
         $this->accessControl = $accessControl;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SourceInformationType
@@ -28,7 +28,7 @@ class SourceInformationType
     /**
      * The name of the organisation which has produced the information relating to this version of the information.
      *
-     * @property \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType[] $sourceName
+     * @property \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType[] $sourceName
      */
     private $sourceName = null;
 
@@ -47,7 +47,7 @@ class SourceInformationType
     private $reliable = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $sourceInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $sourceInformationExtension
      */
     private $sourceInformationExtension = null;
 
@@ -109,9 +109,9 @@ class SourceInformationType
      * The name of the organisation which has produced the information relating to this version of the information.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType $value
      */
-    public function addToSourceName(\Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType $value)
+    public function addToSourceName(\Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType $value)
     {
         $this->sourceName[] = $value;
         return $this;
@@ -148,7 +148,7 @@ class SourceInformationType
      *
      * The name of the organisation which has produced the information relating to this version of the information.
      *
-     * @return \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType[]
      */
     public function getSourceName()
     {
@@ -160,7 +160,7 @@ class SourceInformationType
      *
      * The name of the organisation which has produced the information relating to this version of the information.
      *
-     * @param \Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType[] $sourceName
+     * @param \Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType\ValueAType[] $sourceName
      * @return self
      */
     public function setSourceName(array $sourceName)
@@ -224,7 +224,7 @@ class SourceInformationType
     /**
      * Gets as sourceInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSourceInformationExtension()
     {
@@ -234,10 +234,10 @@ class SourceInformationType
     /**
      * Sets a new sourceInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $sourceInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $sourceInformationExtension
      * @return self
      */
-    public function setSourceInformationExtension(\Calcinai\Siri\Datex\ExtensionType $sourceInformationExtension)
+    public function setSourceInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $sourceInformationExtension)
     {
         $this->sourceInformationExtension = $sourceInformationExtension;
         return $this;

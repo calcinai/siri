@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilityAccessControlStructureType:
+Calcinai\Siri\Objects\CapabilityAccessControlStructureType:
     properties:
         requestChecking:
             expose: true

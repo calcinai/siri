@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing DatedVehicleJourneyStructureType
@@ -61,14 +61,14 @@ class DatedVehicleJourneyStructureType
     private $routeRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
     /**
      * Description of the direction.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      */
     private $directionName = null;
 
@@ -110,26 +110,26 @@ class DatedVehicleJourneyStructureType
     /**
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName
      */
     private $vehicleJourneyName = null;
 
     /**
-     * @property \Calcinai\Siri\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
      */
     private $journeyNote = null;
 
     /**
      * Description of the destination stop (vehicle signage) to show on vehicle, Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $destinationDisplay
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationDisplay
      */
     private $destinationDisplay = null;
 
     /**
      * Additional Text associated with line.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $lineNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $lineNote
      */
     private $lineNote = null;
 
@@ -164,17 +164,17 @@ class DatedVehicleJourneyStructureType
     /**
      * Complete sequence of stops along the route path, in calling order.
      *
-     * @property \Calcinai\Siri\DatedCall[] $datedCalls
+     * @property \Calcinai\Siri\Objects\DatedCall[] $datedCalls
      */
     private $datedCalls = null;
 
     /**
-     * @property \Calcinai\Siri\DatedCall $datedCall
+     * @property \Calcinai\Siri\Objects\DatedCall $datedCall
      */
     private $datedCall = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -363,7 +363,7 @@ class DatedVehicleJourneyStructureType
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -373,10 +373,10 @@ class DatedVehicleJourneyStructureType
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -387,7 +387,7 @@ class DatedVehicleJourneyStructureType
      *
      * Description of the direction.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDirectionName()
     {
@@ -399,10 +399,10 @@ class DatedVehicleJourneyStructureType
      *
      * Description of the direction.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      * @return self
      */
-    public function setDirectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $directionName)
+    public function setDirectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName)
     {
         $this->directionName = $directionName;
         return $this;
@@ -543,7 +543,7 @@ class DatedVehicleJourneyStructureType
      *
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getVehicleJourneyName()
     {
@@ -555,10 +555,10 @@ class DatedVehicleJourneyStructureType
      *
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName
      * @return self
      */
-    public function setVehicleJourneyName(\Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName)
+    public function setVehicleJourneyName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName)
     {
         $this->vehicleJourneyName = $vehicleJourneyName;
         return $this;
@@ -567,7 +567,7 @@ class DatedVehicleJourneyStructureType
     /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote
      */
     public function getJourneyNote()
     {
@@ -577,10 +577,10 @@ class DatedVehicleJourneyStructureType
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\JourneyNote $journeyNote)
+    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;
@@ -591,7 +591,7 @@ class DatedVehicleJourneyStructureType
      *
      * Description of the destination stop (vehicle signage) to show on vehicle, Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDestinationDisplay()
     {
@@ -603,10 +603,10 @@ class DatedVehicleJourneyStructureType
      *
      * Description of the destination stop (vehicle signage) to show on vehicle, Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $destinationDisplay
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationDisplay
      * @return self
      */
-    public function setDestinationDisplay(\Calcinai\Siri\NaturalLanguageStringStructureType $destinationDisplay)
+    public function setDestinationDisplay(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationDisplay)
     {
         $this->destinationDisplay = $destinationDisplay;
         return $this;
@@ -617,7 +617,7 @@ class DatedVehicleJourneyStructureType
      *
      * Additional Text associated with line.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getLineNote()
     {
@@ -629,10 +629,10 @@ class DatedVehicleJourneyStructureType
      *
      * Additional Text associated with line.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $lineNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $lineNote
      * @return self
      */
-    public function setLineNote(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $lineNote)
+    public function setLineNote(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $lineNote)
     {
         $this->lineNote = $lineNote;
         return $this;
@@ -748,9 +748,9 @@ class DatedVehicleJourneyStructureType
      * Complete sequence of stops along the route path, in calling order.
      *
      * @return self
-     * @param \Calcinai\Siri\DatedCall $datedCall
+     * @param \Calcinai\Siri\Objects\DatedCall $datedCall
      */
-    public function addToDatedCalls(\Calcinai\Siri\DatedCall $datedCall)
+    public function addToDatedCalls(\Calcinai\Siri\Objects\DatedCall $datedCall)
     {
         $this->datedCalls[] = $datedCall;
         return $this;
@@ -787,7 +787,7 @@ class DatedVehicleJourneyStructureType
      *
      * Complete sequence of stops along the route path, in calling order.
      *
-     * @return \Calcinai\Siri\DatedCall[]
+     * @return \Calcinai\Siri\Objects\DatedCall[]
      */
     public function getDatedCalls()
     {
@@ -799,7 +799,7 @@ class DatedVehicleJourneyStructureType
      *
      * Complete sequence of stops along the route path, in calling order.
      *
-     * @param \Calcinai\Siri\DatedCall[] $datedCalls
+     * @param \Calcinai\Siri\Objects\DatedCall[] $datedCalls
      * @return self
      */
     public function setDatedCalls(array $datedCalls)
@@ -811,7 +811,7 @@ class DatedVehicleJourneyStructureType
     /**
      * Gets as datedCall
      *
-     * @return \Calcinai\Siri\DatedCall
+     * @return \Calcinai\Siri\Objects\DatedCall
      */
     public function getDatedCall()
     {
@@ -821,10 +821,10 @@ class DatedVehicleJourneyStructureType
     /**
      * Sets a new datedCall
      *
-     * @param \Calcinai\Siri\DatedCall $datedCall
+     * @param \Calcinai\Siri\Objects\DatedCall $datedCall
      * @return self
      */
-    public function setDatedCall(\Calcinai\Siri\DatedCall $datedCall)
+    public function setDatedCall(\Calcinai\Siri\Objects\DatedCall $datedCall)
     {
         $this->datedCall = $datedCall;
         return $this;
@@ -833,7 +833,7 @@ class DatedVehicleJourneyStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -843,10 +843,10 @@ class DatedVehicleJourneyStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\AdviceRefStructureType:
+Calcinai\Siri\Objects\AdviceRefStructureType:
     properties:
         __value:
             expose: true

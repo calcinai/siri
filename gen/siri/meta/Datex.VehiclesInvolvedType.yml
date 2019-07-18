@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\VehiclesInvolvedType:
+Calcinai\Siri\Objects\Datex\VehiclesInvolvedType:
     properties:
         numberOfVehicles:
             expose: true
@@ -49,4 +49,4 @@ Calcinai\Siri\Datex\VehiclesInvolvedType:
             accessor:
                 getter: getVehiclesInvolvedExtension
                 setter: setVehiclesInvolvedExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

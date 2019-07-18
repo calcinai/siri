@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PointDestinationType:
+Calcinai\Siri\Objects\Datex\PointDestinationType:
     properties:
         point:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\PointDestinationType:
             accessor:
                 getter: getPoint
                 setter: setPoint
-            type: Calcinai\Siri\Datex\PointType
+            type: Calcinai\Siri\Objects\Datex\PointType
         pointDestinationExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\PointDestinationType:
             accessor:
                 getter: getPointDestinationExtension
                 setter: setPointDestinationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

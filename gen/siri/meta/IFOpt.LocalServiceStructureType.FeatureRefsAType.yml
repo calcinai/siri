@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\LocalServiceStructureType\FeatureRefsAType:
+Calcinai\Siri\Objects\IFOpt\LocalServiceStructureType\FeatureRefsAType:
     properties:
         featureRef:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\IFOpt\LocalServiceStructureType\FeatureRefsAType:
                 inline: true
                 entry_name: FeatureRef
                 namespace: 'http://www.ifopt.org.uk/ifopt'
-            type: array<Calcinai\Siri\ServiceFeatureRefStructureType>
+            type: array<Calcinai\Siri\Objects\ServiceFeatureRefStructureType>

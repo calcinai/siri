@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing HeaviestAxleWeightCharacteristicType
@@ -26,7 +26,7 @@ class HeaviestAxleWeightCharacteristicType
     private $heaviestAxleWeight = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $heaviestAxleWeightCharacteristicExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $heaviestAxleWeightCharacteristicExtension
      */
     private $heaviestAxleWeightCharacteristicExtension = null;
 
@@ -85,7 +85,7 @@ class HeaviestAxleWeightCharacteristicType
     /**
      * Gets as heaviestAxleWeightCharacteristicExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getHeaviestAxleWeightCharacteristicExtension()
     {
@@ -95,10 +95,10 @@ class HeaviestAxleWeightCharacteristicType
     /**
      * Sets a new heaviestAxleWeightCharacteristicExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $heaviestAxleWeightCharacteristicExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $heaviestAxleWeightCharacteristicExtension
      * @return self
      */
-    public function setHeaviestAxleWeightCharacteristicExtension(\Calcinai\Siri\Datex\ExtensionType $heaviestAxleWeightCharacteristicExtension)
+    public function setHeaviestAxleWeightCharacteristicExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $heaviestAxleWeightCharacteristicExtension)
     {
         $this->heaviestAxleWeightCharacteristicExtension = $heaviestAxleWeightCharacteristicExtension;
         return $this;

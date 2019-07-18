@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGDescriptorType
@@ -14,12 +14,12 @@ class TPEGDescriptorType
     /**
      * A text string which describes or elaborates the location.
      *
-     * @property \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $descriptor
+     * @property \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $descriptor
      */
     private $descriptor = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegdescriptorExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegdescriptorExtension
      */
     private $tpegdescriptorExtension = null;
 
@@ -29,9 +29,9 @@ class TPEGDescriptorType
      * A text string which describes or elaborates the location.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value
      */
-    public function addToDescriptor(\Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value)
+    public function addToDescriptor(\Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value)
     {
         $this->descriptor[] = $value;
         return $this;
@@ -68,7 +68,7 @@ class TPEGDescriptorType
      *
      * A text string which describes or elaborates the location.
      *
-     * @return \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[]
      */
     public function getDescriptor()
     {
@@ -80,7 +80,7 @@ class TPEGDescriptorType
      *
      * A text string which describes or elaborates the location.
      *
-     * @param \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $descriptor
+     * @param \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $descriptor
      * @return self
      */
     public function setDescriptor(array $descriptor)
@@ -92,7 +92,7 @@ class TPEGDescriptorType
     /**
      * Gets as tpegdescriptorExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegdescriptorExtension()
     {
@@ -102,10 +102,10 @@ class TPEGDescriptorType
     /**
      * Sets a new tpegdescriptorExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegdescriptorExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegdescriptorExtension
      * @return self
      */
-    public function setTpegdescriptorExtension(\Calcinai\Siri\Datex\ExtensionType $tpegdescriptorExtension)
+    public function setTpegdescriptorExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegdescriptorExtension)
     {
         $this->tpegdescriptorExtension = $tpegdescriptorExtension;
         return $this;

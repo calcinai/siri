@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityMonitoringCapabilitiesResponseStructureType
@@ -19,17 +19,17 @@ class FacilityMonitoringCapabilitiesResponseStructureType extends AbstractServic
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityMonitoringServiceCapabilities $facilityMonitoringServiceCapabilities
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilities $facilityMonitoringServiceCapabilities
      */
     private $facilityMonitoringServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityMonitoringPermissions $facilityMonitoringPermissions
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringPermissions $facilityMonitoringPermissions
      */
     private $facilityMonitoringPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class FacilityMonitoringCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Gets as facilityMonitoringServiceCapabilities
      *
-     * @return \Calcinai\Siri\FacilityMonitoringServiceCapabilities
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilities
      */
     public function getFacilityMonitoringServiceCapabilities()
     {
@@ -72,10 +72,10 @@ class FacilityMonitoringCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Sets a new facilityMonitoringServiceCapabilities
      *
-     * @param \Calcinai\Siri\FacilityMonitoringServiceCapabilities $facilityMonitoringServiceCapabilities
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilities $facilityMonitoringServiceCapabilities
      * @return self
      */
-    public function setFacilityMonitoringServiceCapabilities(\Calcinai\Siri\FacilityMonitoringServiceCapabilities $facilityMonitoringServiceCapabilities)
+    public function setFacilityMonitoringServiceCapabilities(\Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilities $facilityMonitoringServiceCapabilities)
     {
         $this->facilityMonitoringServiceCapabilities = $facilityMonitoringServiceCapabilities;
         return $this;
@@ -84,7 +84,7 @@ class FacilityMonitoringCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Gets as facilityMonitoringPermissions
      *
-     * @return \Calcinai\Siri\FacilityMonitoringPermissions
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringPermissions
      */
     public function getFacilityMonitoringPermissions()
     {
@@ -94,10 +94,10 @@ class FacilityMonitoringCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Sets a new facilityMonitoringPermissions
      *
-     * @param \Calcinai\Siri\FacilityMonitoringPermissions $facilityMonitoringPermissions
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringPermissions $facilityMonitoringPermissions
      * @return self
      */
-    public function setFacilityMonitoringPermissions(\Calcinai\Siri\FacilityMonitoringPermissions $facilityMonitoringPermissions)
+    public function setFacilityMonitoringPermissions(\Calcinai\Siri\Objects\FacilityMonitoringPermissions $facilityMonitoringPermissions)
     {
         $this->facilityMonitoringPermissions = $facilityMonitoringPermissions;
         return $this;
@@ -106,7 +106,7 @@ class FacilityMonitoringCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class FacilityMonitoringCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionTimetableRequestStructureType
@@ -21,7 +21,7 @@ class ConnectionTimetableRequestStructureType extends AbstractFunctionalServiceR
     /**
      * Earliest and latest time. If absent, default to the data horizon of the service
      *
-     * @property \Calcinai\Siri\ClosedTimestampRangeStructureType $arrivalWindow
+     * @property \Calcinai\Siri\Objects\ClosedTimestampRangeStructureType $arrivalWindow
      */
     private $arrivalWindow = null;
 
@@ -84,7 +84,7 @@ class ConnectionTimetableRequestStructureType extends AbstractFunctionalServiceR
      *
      * Earliest and latest time. If absent, default to the data horizon of the service
      *
-     * @return \Calcinai\Siri\ClosedTimestampRangeStructureType
+     * @return \Calcinai\Siri\Objects\ClosedTimestampRangeStructureType
      */
     public function getArrivalWindow()
     {
@@ -96,10 +96,10 @@ class ConnectionTimetableRequestStructureType extends AbstractFunctionalServiceR
      *
      * Earliest and latest time. If absent, default to the data horizon of the service
      *
-     * @param \Calcinai\Siri\ClosedTimestampRangeStructureType $arrivalWindow
+     * @param \Calcinai\Siri\Objects\ClosedTimestampRangeStructureType $arrivalWindow
      * @return self
      */
-    public function setArrivalWindow(\Calcinai\Siri\ClosedTimestampRangeStructureType $arrivalWindow)
+    public function setArrivalWindow(\Calcinai\Siri\Objects\ClosedTimestampRangeStructureType $arrivalWindow)
     {
         $this->arrivalWindow = $arrivalWindow;
         return $this;

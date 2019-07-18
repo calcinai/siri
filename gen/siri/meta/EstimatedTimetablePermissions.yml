@@ -1,4 +1,4 @@
-Calcinai\Siri\EstimatedTimetablePermissions:
+Calcinai\Siri\Objects\EstimatedTimetablePermissions:
     xml_root_name: EstimatedTimetablePermissions
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -15,4 +15,4 @@ Calcinai\Siri\EstimatedTimetablePermissions:
                 inline: true
                 entry_name: EstimatedTimetablePermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\ConnectionServicePermissionStructureType>

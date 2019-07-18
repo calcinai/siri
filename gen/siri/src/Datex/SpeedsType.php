@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SpeedsType
@@ -19,7 +19,7 @@ class SpeedsType extends AdviceType
     private $speedAdvice = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $speedsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $speedsExtension
      */
     private $speedsExtension = null;
 
@@ -52,7 +52,7 @@ class SpeedsType extends AdviceType
     /**
      * Gets as speedsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSpeedsExtension()
     {
@@ -62,10 +62,10 @@ class SpeedsType extends AdviceType
     /**
      * Sets a new speedsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $speedsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $speedsExtension
      * @return self
      */
-    public function setSpeedsExtension(\Calcinai\Siri\Datex\ExtensionType $speedsExtension)
+    public function setSpeedsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $speedsExtension)
     {
         $this->speedsExtension = $speedsExtension;
         return $this;

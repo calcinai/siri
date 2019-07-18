@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficSpeedType
@@ -19,12 +19,12 @@ class TrafficSpeedType extends TrafficValueType
     private $averageVehicleSpeed = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SpeedPercentileType $speedPercentile
+     * @property \Calcinai\Siri\Objects\Datex\SpeedPercentileType $speedPercentile
      */
     private $speedPercentile = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficSpeedExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficSpeedExtension
      */
     private $trafficSpeedExtension = null;
 
@@ -57,7 +57,7 @@ class TrafficSpeedType extends TrafficValueType
     /**
      * Gets as speedPercentile
      *
-     * @return \Calcinai\Siri\Datex\SpeedPercentileType
+     * @return \Calcinai\Siri\Objects\Datex\SpeedPercentileType
      */
     public function getSpeedPercentile()
     {
@@ -67,10 +67,10 @@ class TrafficSpeedType extends TrafficValueType
     /**
      * Sets a new speedPercentile
      *
-     * @param \Calcinai\Siri\Datex\SpeedPercentileType $speedPercentile
+     * @param \Calcinai\Siri\Objects\Datex\SpeedPercentileType $speedPercentile
      * @return self
      */
-    public function setSpeedPercentile(\Calcinai\Siri\Datex\SpeedPercentileType $speedPercentile)
+    public function setSpeedPercentile(\Calcinai\Siri\Objects\Datex\SpeedPercentileType $speedPercentile)
     {
         $this->speedPercentile = $speedPercentile;
         return $this;
@@ -79,7 +79,7 @@ class TrafficSpeedType extends TrafficValueType
     /**
      * Gets as trafficSpeedExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficSpeedExtension()
     {
@@ -89,10 +89,10 @@ class TrafficSpeedType extends TrafficValueType
     /**
      * Sets a new trafficSpeedExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficSpeedExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficSpeedExtension
      * @return self
      */
-    public function setTrafficSpeedExtension(\Calcinai\Siri\Datex\ExtensionType $trafficSpeedExtension)
+    public function setTrafficSpeedExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficSpeedExtension)
     {
         $this->trafficSpeedExtension = $trafficSpeedExtension;
         return $this;

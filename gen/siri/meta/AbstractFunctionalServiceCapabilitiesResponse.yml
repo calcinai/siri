@@ -1,3 +1,3 @@
-Calcinai\Siri\AbstractFunctionalServiceCapabilitiesResponse:
+Calcinai\Siri\Objects\AbstractFunctionalServiceCapabilitiesResponse:
     xml_root_name: AbstractFunctionalServiceCapabilitiesResponse
     xml_root_namespace: 'http://www.siri.org.uk/siri'

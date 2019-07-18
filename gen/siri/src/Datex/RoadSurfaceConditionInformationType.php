@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing RoadSurfaceConditionInformationType
@@ -12,19 +12,19 @@ class RoadSurfaceConditionInformationType extends WeatherValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
+     * @property \Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
      */
     private $roadSurfaceConditionMeasurements = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $roadSurfaceConditionInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $roadSurfaceConditionInformationExtension
      */
     private $roadSurfaceConditionInformationExtension = null;
 
     /**
      * Gets as roadSurfaceConditionMeasurements
      *
-     * @return \Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType
+     * @return \Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType
      */
     public function getRoadSurfaceConditionMeasurements()
     {
@@ -34,10 +34,10 @@ class RoadSurfaceConditionInformationType extends WeatherValueType
     /**
      * Sets a new roadSurfaceConditionMeasurements
      *
-     * @param \Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
+     * @param \Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
      * @return self
      */
-    public function setRoadSurfaceConditionMeasurements(\Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements)
+    public function setRoadSurfaceConditionMeasurements(\Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements)
     {
         $this->roadSurfaceConditionMeasurements = $roadSurfaceConditionMeasurements;
         return $this;
@@ -46,7 +46,7 @@ class RoadSurfaceConditionInformationType extends WeatherValueType
     /**
      * Gets as roadSurfaceConditionInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getRoadSurfaceConditionInformationExtension()
     {
@@ -56,10 +56,10 @@ class RoadSurfaceConditionInformationType extends WeatherValueType
     /**
      * Sets a new roadSurfaceConditionInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $roadSurfaceConditionInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $roadSurfaceConditionInformationExtension
      * @return self
      */
-    public function setRoadSurfaceConditionInformationExtension(\Calcinai\Siri\Datex\ExtensionType $roadSurfaceConditionInformationExtension)
+    public function setRoadSurfaceConditionInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $roadSurfaceConditionInformationExtension)
     {
         $this->roadSurfaceConditionInformationExtension = $roadSurfaceConditionInformationExtension;
         return $this;

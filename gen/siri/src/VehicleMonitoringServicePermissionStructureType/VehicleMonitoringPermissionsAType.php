@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\VehicleMonitoringServicePermissionStructureType;
+namespace Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType;
 
 /**
  * Class representing VehicleMonitoringPermissionsAType
@@ -16,7 +16,7 @@ class VehicleMonitoringPermissionsAType
     /**
      * Participants permission for this Monitoring Point
      *
-     * @property \Calcinai\Siri\VehicleMonitorPermissionStructureType[] $vehicleMonitorPermission
+     * @property \Calcinai\Siri\Objects\VehicleMonitorPermissionStructureType[] $vehicleMonitorPermission
      */
     private $vehicleMonitorPermission = [
         
@@ -50,9 +50,9 @@ class VehicleMonitoringPermissionsAType
      * Participants permission for this Monitoring Point
      *
      * @return self
-     * @param \Calcinai\Siri\VehicleMonitorPermissionStructureType $vehicleMonitorPermission
+     * @param \Calcinai\Siri\Objects\VehicleMonitorPermissionStructureType $vehicleMonitorPermission
      */
-    public function addToVehicleMonitorPermission(\Calcinai\Siri\VehicleMonitorPermissionStructureType $vehicleMonitorPermission)
+    public function addToVehicleMonitorPermission(\Calcinai\Siri\Objects\VehicleMonitorPermissionStructureType $vehicleMonitorPermission)
     {
         $this->vehicleMonitorPermission[] = $vehicleMonitorPermission;
         return $this;
@@ -89,7 +89,7 @@ class VehicleMonitoringPermissionsAType
      *
      * Participants permission for this Monitoring Point
      *
-     * @return \Calcinai\Siri\VehicleMonitorPermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\VehicleMonitorPermissionStructureType[]
      */
     public function getVehicleMonitorPermission()
     {
@@ -101,7 +101,7 @@ class VehicleMonitoringPermissionsAType
      *
      * Participants permission for this Monitoring Point
      *
-     * @param \Calcinai\Siri\VehicleMonitorPermissionStructureType[] $vehicleMonitorPermission
+     * @param \Calcinai\Siri\Objects\VehicleMonitorPermissionStructureType[] $vehicleMonitorPermission
      * @return self
      */
     public function setVehicleMonitorPermission(array $vehicleMonitorPermission)

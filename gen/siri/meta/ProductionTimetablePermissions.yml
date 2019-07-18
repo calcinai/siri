@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductionTimetablePermissions:
+Calcinai\Siri\Objects\ProductionTimetablePermissions:
     xml_root_name: ProductionTimetablePermissions
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -15,4 +15,4 @@ Calcinai\Siri\ProductionTimetablePermissions:
                 inline: true
                 entry_name: ProductionTimetablePermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\ConnectionServicePermissionStructureType>

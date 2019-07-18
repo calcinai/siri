@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ConditionsType
@@ -19,7 +19,7 @@ class ConditionsType extends TrafficElementType
     private $drivingConditionType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $conditionsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $conditionsExtension
      */
     private $conditionsExtension = null;
 
@@ -52,7 +52,7 @@ class ConditionsType extends TrafficElementType
     /**
      * Gets as conditionsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getConditionsExtension()
     {
@@ -62,10 +62,10 @@ class ConditionsType extends TrafficElementType
     /**
      * Sets a new conditionsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $conditionsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $conditionsExtension
      * @return self
      */
-    public function setConditionsExtension(\Calcinai\Siri\Datex\ExtensionType $conditionsExtension)
+    public function setConditionsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $conditionsExtension)
     {
         $this->conditionsExtension = $conditionsExtension;
         return $this;

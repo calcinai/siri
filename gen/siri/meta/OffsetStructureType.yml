@@ -1,4 +1,4 @@
-Calcinai\Siri\OffsetStructureType:
+Calcinai\Siri\Objects\OffsetStructureType:
     properties:
         distanceFromStart:
             expose: true

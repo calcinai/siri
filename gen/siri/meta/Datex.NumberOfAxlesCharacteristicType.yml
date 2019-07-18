@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType:
+Calcinai\Siri\Objects\Datex\NumberOfAxlesCharacteristicType:
     properties:
         comparisonOperator:
             expose: true
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType:
             accessor:
                 getter: getNumberOfAxlesCharacteristicExtension
                 setter: setNumberOfAxlesCharacteristicExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

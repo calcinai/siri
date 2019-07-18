@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityRefStructureType:
+Calcinai\Siri\Objects\FacilityRefStructureType:
     properties:
         __value:
             expose: true

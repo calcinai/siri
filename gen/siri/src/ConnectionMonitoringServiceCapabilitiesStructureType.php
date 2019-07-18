@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringServiceCapabilitiesStructureType
@@ -14,33 +14,33 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
     /**
      * Filtering Capabilities
      *
-     * @property \Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      */
     private $topicFiltering = null;
 
     /**
      * Request Policiy capabilities.
      *
-     * @property \Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
      */
     private $requestPolicy = null;
 
     /**
      * Subscription Policy capabilities.
      *
-     * @property \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
+     * @property \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
      */
     private $subscriptionPolicy = null;
 
     /**
      * Optional Access control capabilities
      *
-     * @property \Calcinai\Siri\ConnectionCapabilityAccessControlStructureType $accessControl
+     * @property \Calcinai\Siri\Objects\ConnectionCapabilityAccessControlStructureType $accessControl
      */
     private $accessControl = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -49,7 +49,7 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Filtering Capabilities
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
      */
     public function getTopicFiltering()
     {
@@ -61,10 +61,10 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Filtering Capabilities
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      * @return self
      */
-    public function setTopicFiltering(\Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
+    public function setTopicFiltering(\Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
     {
         $this->topicFiltering = $topicFiltering;
         return $this;
@@ -75,7 +75,7 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Request Policiy capabilities.
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
      */
     public function getRequestPolicy()
     {
@@ -87,10 +87,10 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Request Policiy capabilities.
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
      * @return self
      */
-    public function setRequestPolicy(\Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy)
+    public function setRequestPolicy(\Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy)
     {
         $this->requestPolicy = $requestPolicy;
         return $this;
@@ -101,7 +101,7 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Subscription Policy capabilities.
      *
-     * @return \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType
+     * @return \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType
      */
     public function getSubscriptionPolicy()
     {
@@ -113,10 +113,10 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Subscription Policy capabilities.
      *
-     * @param \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
+     * @param \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
      * @return self
      */
-    public function setSubscriptionPolicy(\Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy)
+    public function setSubscriptionPolicy(\Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy)
     {
         $this->subscriptionPolicy = $subscriptionPolicy;
         return $this;
@@ -127,7 +127,7 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Optional Access control capabilities
      *
-     * @return \Calcinai\Siri\ConnectionCapabilityAccessControlStructureType
+     * @return \Calcinai\Siri\Objects\ConnectionCapabilityAccessControlStructureType
      */
     public function getAccessControl()
     {
@@ -139,10 +139,10 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
      *
      * Optional Access control capabilities
      *
-     * @param \Calcinai\Siri\ConnectionCapabilityAccessControlStructureType $accessControl
+     * @param \Calcinai\Siri\Objects\ConnectionCapabilityAccessControlStructureType $accessControl
      * @return self
      */
-    public function setAccessControl(\Calcinai\Siri\ConnectionCapabilityAccessControlStructureType $accessControl)
+    public function setAccessControl(\Calcinai\Siri\Objects\ConnectionCapabilityAccessControlStructureType $accessControl)
     {
         $this->accessControl = $accessControl;
         return $this;
@@ -151,7 +151,7 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -161,10 +161,10 @@ class ConnectionMonitoringServiceCapabilitiesStructureType extends AbstractCapab
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

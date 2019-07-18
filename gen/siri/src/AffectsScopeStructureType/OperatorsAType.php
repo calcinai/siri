@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectsScopeStructureType;
+namespace Calcinai\Siri\Objects\AffectsScopeStructureType;
 
 /**
  * Class representing OperatorsAType
@@ -18,7 +18,7 @@ class OperatorsAType
     /**
      * Operators of services affected by situation.
      *
-     * @property \Calcinai\Siri\AffectedOperatorStructureType[] $affectedOperator
+     * @property \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $affectedOperator
      */
     private $affectedOperator = [
         
@@ -56,9 +56,9 @@ class OperatorsAType
      * Operators of services affected by situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedOperatorStructureType $affectedOperator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType $affectedOperator
      */
-    public function addToAffectedOperator(\Calcinai\Siri\AffectedOperatorStructureType $affectedOperator)
+    public function addToAffectedOperator(\Calcinai\Siri\Objects\AffectedOperatorStructureType $affectedOperator)
     {
         $this->affectedOperator[] = $affectedOperator;
         return $this;
@@ -95,7 +95,7 @@ class OperatorsAType
      *
      * Operators of services affected by situation.
      *
-     * @return \Calcinai\Siri\AffectedOperatorStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedOperatorStructureType[]
      */
     public function getAffectedOperator()
     {
@@ -107,7 +107,7 @@ class OperatorsAType
      *
      * Operators of services affected by situation.
      *
-     * @param \Calcinai\Siri\AffectedOperatorStructureType[] $affectedOperator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $affectedOperator
      * @return self
      */
     public function setAffectedOperator(array $affectedOperator)

@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType:
+Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType\TimebandsAType:
     properties:
         timeband:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType:
             accessor:
                 getter: getTimeband
                 setter: setTimeband
-            type: Calcinai\Siri\IFOpt\TimebandStructureType
+            type: Calcinai\Siri\Objects\IFOpt\TimebandStructureType

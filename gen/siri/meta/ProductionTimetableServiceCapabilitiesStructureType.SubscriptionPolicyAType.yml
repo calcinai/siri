@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductionTimetableServiceCapabilitiesStructureType\SubscriptionPolicyAType:
+Calcinai\Siri\Objects\ProductionTimetableServiceCapabilitiesStructureType\SubscriptionPolicyAType:
     properties:
         hasIncrementalUpdates:
             expose: true

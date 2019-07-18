@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing NetworkManagementType
@@ -19,24 +19,24 @@ class NetworkManagementType extends OperatorActionType
     private $networkManagementType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleCharacteristicsType[] $forVehicleWithCharacteristicsOf
+     * @property \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType[] $forVehicleWithCharacteristicsOf
      */
     private $forVehicleWithCharacteristicsOf = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\RestrictionType $restriction
+     * @property \Calcinai\Siri\Objects\Datex\RestrictionType $restriction
      */
     private $restriction = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TrafficControlType $trafficControl
+     * @property \Calcinai\Siri\Objects\Datex\TrafficControlType $trafficControl
      */
     private $trafficControl = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $networkManagementExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $networkManagementExtension
      */
     private $networkManagementExtension = null;
 
@@ -70,9 +70,9 @@ class NetworkManagementType extends OperatorActionType
      * Adds as forVehicleWithCharacteristicsOf
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehicleCharacteristicsType $forVehicleWithCharacteristicsOf
+     * @param \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $forVehicleWithCharacteristicsOf
      */
-    public function addToForVehicleWithCharacteristicsOf(\Calcinai\Siri\Datex\VehicleCharacteristicsType $forVehicleWithCharacteristicsOf)
+    public function addToForVehicleWithCharacteristicsOf(\Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $forVehicleWithCharacteristicsOf)
     {
         $this->forVehicleWithCharacteristicsOf[] = $forVehicleWithCharacteristicsOf;
         return $this;
@@ -103,7 +103,7 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Gets as forVehicleWithCharacteristicsOf
      *
-     * @return \Calcinai\Siri\Datex\VehicleCharacteristicsType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType[]
      */
     public function getForVehicleWithCharacteristicsOf()
     {
@@ -113,7 +113,7 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Sets a new forVehicleWithCharacteristicsOf
      *
-     * @param \Calcinai\Siri\Datex\VehicleCharacteristicsType[] $forVehicleWithCharacteristicsOf
+     * @param \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType[] $forVehicleWithCharacteristicsOf
      * @return self
      */
     public function setForVehicleWithCharacteristicsOf(array $forVehicleWithCharacteristicsOf)
@@ -125,7 +125,7 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Gets as restriction
      *
-     * @return \Calcinai\Siri\Datex\RestrictionType
+     * @return \Calcinai\Siri\Objects\Datex\RestrictionType
      */
     public function getRestriction()
     {
@@ -135,10 +135,10 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Sets a new restriction
      *
-     * @param \Calcinai\Siri\Datex\RestrictionType $restriction
+     * @param \Calcinai\Siri\Objects\Datex\RestrictionType $restriction
      * @return self
      */
-    public function setRestriction(\Calcinai\Siri\Datex\RestrictionType $restriction)
+    public function setRestriction(\Calcinai\Siri\Objects\Datex\RestrictionType $restriction)
     {
         $this->restriction = $restriction;
         return $this;
@@ -147,7 +147,7 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Gets as trafficControl
      *
-     * @return \Calcinai\Siri\Datex\TrafficControlType
+     * @return \Calcinai\Siri\Objects\Datex\TrafficControlType
      */
     public function getTrafficControl()
     {
@@ -157,10 +157,10 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Sets a new trafficControl
      *
-     * @param \Calcinai\Siri\Datex\TrafficControlType $trafficControl
+     * @param \Calcinai\Siri\Objects\Datex\TrafficControlType $trafficControl
      * @return self
      */
-    public function setTrafficControl(\Calcinai\Siri\Datex\TrafficControlType $trafficControl)
+    public function setTrafficControl(\Calcinai\Siri\Objects\Datex\TrafficControlType $trafficControl)
     {
         $this->trafficControl = $trafficControl;
         return $this;
@@ -169,7 +169,7 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Gets as networkManagementExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getNetworkManagementExtension()
     {
@@ -179,10 +179,10 @@ class NetworkManagementType extends OperatorActionType
     /**
      * Sets a new networkManagementExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $networkManagementExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $networkManagementExtension
      * @return self
      */
-    public function setNetworkManagementExtension(\Calcinai\Siri\Datex\ExtensionType $networkManagementExtension)
+    public function setNetworkManagementExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $networkManagementExtension)
     {
         $this->networkManagementExtension = $networkManagementExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedModesStructureType;
+namespace Calcinai\Siri\Objects\AffectedModesStructureType;
 
 /**
  * Class representing ModeAType

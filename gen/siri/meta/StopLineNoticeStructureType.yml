@@ -1,4 +1,4 @@
-Calcinai\Siri\StopLineNoticeStructureType:
+Calcinai\Siri\Objects\StopLineNoticeStructureType:
     properties:
         monitoringRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\StopLineNoticeStructureType:
             accessor:
                 getter: getMonitoringRef
                 setter: setMonitoringRef
-            type: Calcinai\Siri\MonitoringRefStructureType
+            type: Calcinai\Siri\Objects\MonitoringRefStructureType
         lineRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\StopLineNoticeStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\LineRefStructureType
+            type: Calcinai\Siri\Objects\LineRefStructureType
         directionRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\StopLineNoticeStructureType:
             accessor:
                 getter: getDirectionRef
                 setter: setDirectionRef
-            type: Calcinai\Siri\DirectionRefStructureType
+            type: Calcinai\Siri\Objects\DirectionRefStructureType
         lineNote:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Calcinai\Siri\StopLineNoticeStructureType:
                 inline: true
                 entry_name: LineNote
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\NaturalLanguageStringStructureType>
+            type: array<Calcinai\Siri\Objects\NaturalLanguageStringStructureType>
         situationRef:
             expose: true
             access_type: public_method
@@ -57,7 +57,7 @@ Calcinai\Siri\StopLineNoticeStructureType:
                 inline: true
                 entry_name: SituationRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\SituationRef>
+            type: array<Calcinai\Siri\Objects\SituationRef>
         extensions:
             expose: true
             access_type: public_method
@@ -67,4 +67,4 @@ Calcinai\Siri\StopLineNoticeStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

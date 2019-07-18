@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\PredefinedLocationSetType;
+namespace Calcinai\Siri\Objects\Datex\PredefinedLocationSetType;
 
 /**
  * Class representing PredefinedLocationSetNameAType
@@ -9,7 +9,7 @@ class PredefinedLocationSetNameAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class PredefinedLocationSetNameAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class PredefinedLocationSetNameAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class PredefinedLocationSetNameAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

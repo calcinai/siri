@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGNamedOnlyAreaType
@@ -12,14 +12,14 @@ class TPEGNamedOnlyAreaType extends TPEGAreaLocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGAreaDescriptorType[] $name
+     * @property \Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType[] $name
      */
     private $name = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegnamedOnlyAreaExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegnamedOnlyAreaExtension
      */
     private $tpegnamedOnlyAreaExtension = null;
 
@@ -27,9 +27,9 @@ class TPEGNamedOnlyAreaType extends TPEGAreaLocationType
      * Adds as name
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TPEGAreaDescriptorType $name
+     * @param \Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType $name
      */
-    public function addToName(\Calcinai\Siri\Datex\TPEGAreaDescriptorType $name)
+    public function addToName(\Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType $name)
     {
         $this->name[] = $name;
         return $this;
@@ -60,7 +60,7 @@ class TPEGNamedOnlyAreaType extends TPEGAreaLocationType
     /**
      * Gets as name
      *
-     * @return \Calcinai\Siri\Datex\TPEGAreaDescriptorType[]
+     * @return \Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType[]
      */
     public function getName()
     {
@@ -70,7 +70,7 @@ class TPEGNamedOnlyAreaType extends TPEGAreaLocationType
     /**
      * Sets a new name
      *
-     * @param \Calcinai\Siri\Datex\TPEGAreaDescriptorType[] $name
+     * @param \Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType[] $name
      * @return self
      */
     public function setName(array $name)
@@ -82,7 +82,7 @@ class TPEGNamedOnlyAreaType extends TPEGAreaLocationType
     /**
      * Gets as tpegnamedOnlyAreaExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegnamedOnlyAreaExtension()
     {
@@ -92,10 +92,10 @@ class TPEGNamedOnlyAreaType extends TPEGAreaLocationType
     /**
      * Sets a new tpegnamedOnlyAreaExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegnamedOnlyAreaExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegnamedOnlyAreaExtension
      * @return self
      */
-    public function setTpegnamedOnlyAreaExtension(\Calcinai\Siri\Datex\ExtensionType $tpegnamedOnlyAreaExtension)
+    public function setTpegnamedOnlyAreaExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegnamedOnlyAreaExtension)
     {
         $this->tpegnamedOnlyAreaExtension = $tpegnamedOnlyAreaExtension;
         return $this;

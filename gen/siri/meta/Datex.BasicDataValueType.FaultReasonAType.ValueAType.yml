@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType\ValueAType:
+Calcinai\Siri\Objects\Datex\BasicDataValueType\FaultReasonAType\ValueAType:
     properties:
         __value:
             expose: true

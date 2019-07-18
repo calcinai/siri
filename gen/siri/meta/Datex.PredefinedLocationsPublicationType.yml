@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PredefinedLocationsPublicationType:
+Calcinai\Siri\Objects\Datex\PredefinedLocationsPublicationType:
     properties:
         headerInformation:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\PredefinedLocationsPublicationType:
             accessor:
                 getter: getHeaderInformation
                 setter: setHeaderInformation
-            type: Calcinai\Siri\Datex\HeaderInformationType
+            type: Calcinai\Siri\Objects\Datex\HeaderInformationType
         predefinedLocationSet:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ Calcinai\Siri\Datex\PredefinedLocationsPublicationType:
                 inline: true
                 entry_name: predefinedLocationSet
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\PredefinedLocationSetType>
+            type: array<Calcinai\Siri\Objects\Datex\PredefinedLocationSetType>
         predefinedLocationsPublicationExtension:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ Calcinai\Siri\Datex\PredefinedLocationsPublicationType:
             accessor:
                 getter: getPredefinedLocationsPublicationExtension
                 setter: setPredefinedLocationsPublicationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

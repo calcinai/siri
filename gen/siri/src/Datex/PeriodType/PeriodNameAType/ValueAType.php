@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\PeriodType\PeriodNameAType;
+namespace Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType;
 
 /**
  * Class representing ValueAType

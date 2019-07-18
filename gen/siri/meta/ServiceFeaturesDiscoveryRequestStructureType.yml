@@ -1,4 +1,4 @@
-Calcinai\Siri\ServiceFeaturesDiscoveryRequestStructureType:
+Calcinai\Siri\Objects\ServiceFeaturesDiscoveryRequestStructureType:
     properties:
         version:
             expose: true

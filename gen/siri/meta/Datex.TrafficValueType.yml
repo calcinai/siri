@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TrafficValueType:
+Calcinai\Siri\Objects\Datex\TrafficValueType:
     properties:
         vehicleCharacteristics:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\TrafficValueType:
             accessor:
                 getter: getVehicleCharacteristics
                 setter: setVehicleCharacteristics
-            type: Calcinai\Siri\Datex\VehicleCharacteristicsType
+            type: Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType
         trafficValueExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\TrafficValueType:
             accessor:
                 getter: getTrafficValueExtension
                 setter: setTrafficValueExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

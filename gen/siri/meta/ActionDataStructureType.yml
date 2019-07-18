@@ -1,4 +1,4 @@
-Calcinai\Siri\ActionDataStructureType:
+Calcinai\Siri\Objects\ActionDataStructureType:
     properties:
         name:
             expose: true
@@ -43,4 +43,4 @@ Calcinai\Siri\ActionDataStructureType:
             accessor:
                 getter: getPrompt
                 setter: setPrompt
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType

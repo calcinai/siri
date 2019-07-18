@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedInterchangeStructureType
@@ -28,7 +28,7 @@ class AffectedInterchangeStructureType
     /**
      * Name of other Connecting stop point of a connection, . Derivable from InterchangeStopRef
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $interchangeStopPointName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $interchangeStopPointName
      */
     private $interchangeStopPointName = null;
 
@@ -47,14 +47,14 @@ class AffectedInterchangeStructureType
     /**
      * Identifier of Conenction Link.
      *
-     * @property \Calcinai\Siri\AffectedConnectionLinkStructureType[] $connectionLink
+     * @property \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[] $connectionLink
      */
     private $connectionLink = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -115,7 +115,7 @@ class AffectedInterchangeStructureType
      *
      * Name of other Connecting stop point of a connection, . Derivable from InterchangeStopRef
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getInterchangeStopPointName()
     {
@@ -127,10 +127,10 @@ class AffectedInterchangeStructureType
      *
      * Name of other Connecting stop point of a connection, . Derivable from InterchangeStopRef
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $interchangeStopPointName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $interchangeStopPointName
      * @return self
      */
-    public function setInterchangeStopPointName(\Calcinai\Siri\NaturalLanguageStringStructureType $interchangeStopPointName)
+    public function setInterchangeStopPointName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $interchangeStopPointName)
     {
         $this->interchangeStopPointName = $interchangeStopPointName;
         return $this;
@@ -190,9 +190,9 @@ class AffectedInterchangeStructureType
      * Identifier of Conenction Link.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedConnectionLinkStructureType $connectionLink
+     * @param \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType $connectionLink
      */
-    public function addToConnectionLink(\Calcinai\Siri\AffectedConnectionLinkStructureType $connectionLink)
+    public function addToConnectionLink(\Calcinai\Siri\Objects\AffectedConnectionLinkStructureType $connectionLink)
     {
         $this->connectionLink[] = $connectionLink;
         return $this;
@@ -229,7 +229,7 @@ class AffectedInterchangeStructureType
      *
      * Identifier of Conenction Link.
      *
-     * @return \Calcinai\Siri\AffectedConnectionLinkStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[]
      */
     public function getConnectionLink()
     {
@@ -241,7 +241,7 @@ class AffectedInterchangeStructureType
      *
      * Identifier of Conenction Link.
      *
-     * @param \Calcinai\Siri\AffectedConnectionLinkStructureType[] $connectionLink
+     * @param \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[] $connectionLink
      * @return self
      */
     public function setConnectionLink(array $connectionLink)
@@ -253,7 +253,7 @@ class AffectedInterchangeStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -263,10 +263,10 @@ class AffectedInterchangeStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

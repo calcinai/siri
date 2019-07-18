@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilityGeneralInteractionStructureType:
+Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType:
     properties:
         interaction:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\CapabilityGeneralInteractionStructureType:
             accessor:
                 getter: getInteraction
                 setter: setInteraction
-            type: Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType
+            type: Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\InteractionAType
         delivery:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\CapabilityGeneralInteractionStructureType:
             accessor:
                 getter: getDelivery
                 setter: setDelivery
-            type: Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType
+            type: Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\DeliveryAType
         multipartDespatch:
             expose: true
             access_type: public_method

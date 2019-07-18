@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\RestrictionType:
+Calcinai\Siri\Objects\Datex\RestrictionType:
     properties:
         equipmentRequirement:
             expose: true
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\RestrictionType:
             accessor:
                 getter: getRestrictionExtension
                 setter: setRestrictionExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedLineStructureType;
+namespace Calcinai\Siri\Objects\AffectedLineStructureType;
 
 /**
  * Class representing RoutesAType
@@ -11,7 +11,7 @@ class RoutesAType
     /**
      * Route
      *
-     * @property \Calcinai\Siri\AffectedRouteStructureType[] $affectedRoute
+     * @property \Calcinai\Siri\Objects\AffectedRouteStructureType[] $affectedRoute
      */
     private $affectedRoute = [
         
@@ -23,9 +23,9 @@ class RoutesAType
      * Route
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedRouteStructureType $affectedRoute
+     * @param \Calcinai\Siri\Objects\AffectedRouteStructureType $affectedRoute
      */
-    public function addToAffectedRoute(\Calcinai\Siri\AffectedRouteStructureType $affectedRoute)
+    public function addToAffectedRoute(\Calcinai\Siri\Objects\AffectedRouteStructureType $affectedRoute)
     {
         $this->affectedRoute[] = $affectedRoute;
         return $this;
@@ -62,7 +62,7 @@ class RoutesAType
      *
      * Route
      *
-     * @return \Calcinai\Siri\AffectedRouteStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedRouteStructureType[]
      */
     public function getAffectedRoute()
     {
@@ -74,7 +74,7 @@ class RoutesAType
      *
      * Route
      *
-     * @param \Calcinai\Siri\AffectedRouteStructureType[] $affectedRoute
+     * @param \Calcinai\Siri\Objects\AffectedRouteStructureType[] $affectedRoute
      * @return self
      */
     public function setAffectedRoute(array $affectedRoute)

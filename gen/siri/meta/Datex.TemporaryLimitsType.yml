@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TemporaryLimitsType:
+Calcinai\Siri\Objects\Datex\TemporaryLimitsType:
     properties:
         temporarySpeedLimit:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\TemporaryLimitsType:
             accessor:
                 getter: getTemporaryLimitsExtension
                 setter: setTemporaryLimitsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

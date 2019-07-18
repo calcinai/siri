@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TravelTimeValueType
@@ -63,7 +63,7 @@ class TravelTimeValueType extends BasicDataValueType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $travelTimeValueExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $travelTimeValueExtension
      */
     private $travelTimeValueExtension = null;
 
@@ -292,7 +292,7 @@ class TravelTimeValueType extends BasicDataValueType
     /**
      * Gets as travelTimeValueExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTravelTimeValueExtension()
     {
@@ -302,10 +302,10 @@ class TravelTimeValueType extends BasicDataValueType
     /**
      * Sets a new travelTimeValueExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $travelTimeValueExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $travelTimeValueExtension
      * @return self
      */
-    public function setTravelTimeValueExtension(\Calcinai\Siri\Datex\ExtensionType $travelTimeValueExtension)
+    public function setTravelTimeValueExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $travelTimeValueExtension)
     {
         $this->travelTimeValueExtension = $travelTimeValueExtension;
         return $this;

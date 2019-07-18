@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedConnectionLinkStructureType
@@ -23,7 +23,7 @@ class AffectedConnectionLinkStructureType
     /**
      * Name of connection.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $connectionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $connectionName
      */
     private $connectionName = null;
 
@@ -47,7 +47,7 @@ class AffectedConnectionLinkStructureType
     /**
      * Name of other Connecting stop point of a connection. Derivable from StopRef
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $connectingStopPointName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $connectingStopPointName
      */
     private $connectingStopPointName = null;
 
@@ -68,14 +68,14 @@ class AffectedConnectionLinkStructureType
     /**
      * detailed path nodes affected by
      *
-     * @property \Calcinai\Siri\AffectedPathLinkStructureType[] $affectedPathLink
+     * @property \Calcinai\Siri\Objects\AffectedPathLinkStructureType[] $affectedPathLink
      */
     private $affectedPathLink = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -150,7 +150,7 @@ class AffectedConnectionLinkStructureType
      *
      * Name of connection.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getConnectionName()
     {
@@ -162,10 +162,10 @@ class AffectedConnectionLinkStructureType
      *
      * Name of connection.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $connectionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $connectionName
      * @return self
      */
-    public function setConnectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $connectionName)
+    public function setConnectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $connectionName)
     {
         $this->connectionName = $connectionName;
         return $this;
@@ -246,7 +246,7 @@ class AffectedConnectionLinkStructureType
      *
      * Name of other Connecting stop point of a connection. Derivable from StopRef
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getConnectingStopPointName()
     {
@@ -258,10 +258,10 @@ class AffectedConnectionLinkStructureType
      *
      * Name of other Connecting stop point of a connection. Derivable from StopRef
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $connectingStopPointName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $connectingStopPointName
      * @return self
      */
-    public function setConnectingStopPointName(\Calcinai\Siri\NaturalLanguageStringStructureType $connectingStopPointName)
+    public function setConnectingStopPointName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $connectingStopPointName)
     {
         $this->connectingStopPointName = $connectingStopPointName;
         return $this;
@@ -325,9 +325,9 @@ class AffectedConnectionLinkStructureType
      * detailed path nodes affected by
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedPathLinkStructureType $affectedPathLink
+     * @param \Calcinai\Siri\Objects\AffectedPathLinkStructureType $affectedPathLink
      */
-    public function addToAffectedPathLink(\Calcinai\Siri\AffectedPathLinkStructureType $affectedPathLink)
+    public function addToAffectedPathLink(\Calcinai\Siri\Objects\AffectedPathLinkStructureType $affectedPathLink)
     {
         $this->affectedPathLink[] = $affectedPathLink;
         return $this;
@@ -364,7 +364,7 @@ class AffectedConnectionLinkStructureType
      *
      * detailed path nodes affected by
      *
-     * @return \Calcinai\Siri\AffectedPathLinkStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedPathLinkStructureType[]
      */
     public function getAffectedPathLink()
     {
@@ -376,7 +376,7 @@ class AffectedConnectionLinkStructureType
      *
      * detailed path nodes affected by
      *
-     * @param \Calcinai\Siri\AffectedPathLinkStructureType[] $affectedPathLink
+     * @param \Calcinai\Siri\Objects\AffectedPathLinkStructureType[] $affectedPathLink
      * @return self
      */
     public function setAffectedPathLink(array $affectedPathLink)
@@ -388,7 +388,7 @@ class AffectedConnectionLinkStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -398,10 +398,10 @@ class AffectedConnectionLinkStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

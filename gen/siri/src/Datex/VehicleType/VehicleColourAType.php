@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\VehicleType;
+namespace Calcinai\Siri\Objects\Datex\VehicleType;
 
 /**
  * Class representing VehicleColourAType
@@ -9,7 +9,7 @@ class VehicleColourAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class VehicleColourAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class VehicleColourAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class VehicleColourAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

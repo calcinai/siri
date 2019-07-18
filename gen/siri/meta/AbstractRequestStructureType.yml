@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractRequestStructureType:
+Calcinai\Siri\Objects\AbstractRequestStructureType:
     properties:
         requestTimestamp:
             expose: true

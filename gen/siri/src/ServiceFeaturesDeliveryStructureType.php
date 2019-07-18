@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ServiceFeaturesDeliveryStructureType
@@ -19,7 +19,7 @@ class ServiceFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\ServiceFeature[] $serviceFeature
+     * @property \Calcinai\Siri\Objects\ServiceFeature[] $serviceFeature
      */
     private $serviceFeature = [
         
@@ -55,9 +55,9 @@ class ServiceFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
      * Adds as serviceFeature
      *
      * @return self
-     * @param \Calcinai\Siri\ServiceFeature $serviceFeature
+     * @param \Calcinai\Siri\Objects\ServiceFeature $serviceFeature
      */
-    public function addToServiceFeature(\Calcinai\Siri\ServiceFeature $serviceFeature)
+    public function addToServiceFeature(\Calcinai\Siri\Objects\ServiceFeature $serviceFeature)
     {
         $this->serviceFeature[] = $serviceFeature;
         return $this;
@@ -88,7 +88,7 @@ class ServiceFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     /**
      * Gets as serviceFeature
      *
-     * @return \Calcinai\Siri\ServiceFeature[]
+     * @return \Calcinai\Siri\Objects\ServiceFeature[]
      */
     public function getServiceFeature()
     {
@@ -98,7 +98,7 @@ class ServiceFeaturesDeliveryStructureType extends AbstractDiscoveryDeliveryStru
     /**
      * Sets a new serviceFeature
      *
-     * @param \Calcinai\Siri\ServiceFeature[] $serviceFeature
+     * @param \Calcinai\Siri\Objects\ServiceFeature[] $serviceFeature
      * @return self
      */
     public function setServiceFeature(array $serviceFeature)

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\IndividualVehicleMeasurementsType:
+Calcinai\Siri\Objects\Datex\IndividualVehicleMeasurementsType:
     properties:
         vehicleSpeed:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\IndividualVehicleMeasurementsType:
             accessor:
                 getter: getVehicleSpeed
                 setter: setVehicleSpeed
-            type: Calcinai\Siri\Datex\VehicleSpeedType
+            type: Calcinai\Siri\Objects\Datex\VehicleSpeedType
         vehicleDetectionTime:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\IndividualVehicleMeasurementsType:
             accessor:
                 getter: getVehicleDetectionTime
                 setter: setVehicleDetectionTime
-            type: Calcinai\Siri\Datex\VehicleDetectionTimeType
+            type: Calcinai\Siri\Objects\Datex\VehicleDetectionTimeType
         vehicleHeadway:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\IndividualVehicleMeasurementsType:
             accessor:
                 getter: getVehicleHeadway
                 setter: setVehicleHeadway
-            type: Calcinai\Siri\Datex\VehicleHeadwayType
+            type: Calcinai\Siri\Objects\Datex\VehicleHeadwayType
         individualVehicleMeasurementsExtension:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\IndividualVehicleMeasurementsType:
             accessor:
                 getter: getIndividualVehicleMeasurementsExtension
                 setter: setIndividualVehicleMeasurementsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

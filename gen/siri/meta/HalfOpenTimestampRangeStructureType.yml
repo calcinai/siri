@@ -1,4 +1,4 @@
-Calcinai\Siri\HalfOpenTimestampRangeStructureType:
+Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType:
     properties:
         startTime:
             expose: true

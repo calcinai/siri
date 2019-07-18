@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringDeliveryStructureType:
+Calcinai\Siri\Objects\FacilityMonitoringDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\FacilityMonitoringDeliveryStructureType:
             accessor:
                 getter: getFacilityCondition
                 setter: setFacilityCondition
-            type: Calcinai\Siri\FacilityConditionStructureType
+            type: Calcinai\Siri\Objects\FacilityConditionStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -28,4 +28,4 @@ Calcinai\Siri\FacilityMonitoringDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing RoadSurfaceConditionMeasurementsType
@@ -54,7 +54,7 @@ class RoadSurfaceConditionMeasurementsType
     private $waterFilmThickness = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $roadSurfaceConditionMeasurementsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $roadSurfaceConditionMeasurementsExtension
      */
     private $roadSurfaceConditionMeasurementsExtension = null;
 
@@ -217,7 +217,7 @@ class RoadSurfaceConditionMeasurementsType
     /**
      * Gets as roadSurfaceConditionMeasurementsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getRoadSurfaceConditionMeasurementsExtension()
     {
@@ -227,10 +227,10 @@ class RoadSurfaceConditionMeasurementsType
     /**
      * Sets a new roadSurfaceConditionMeasurementsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $roadSurfaceConditionMeasurementsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $roadSurfaceConditionMeasurementsExtension
      * @return self
      */
-    public function setRoadSurfaceConditionMeasurementsExtension(\Calcinai\Siri\Datex\ExtensionType $roadSurfaceConditionMeasurementsExtension)
+    public function setRoadSurfaceConditionMeasurementsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $roadSurfaceConditionMeasurementsExtension)
     {
         $this->roadSurfaceConditionMeasurementsExtension = $roadSurfaceConditionMeasurementsExtension;
         return $this;

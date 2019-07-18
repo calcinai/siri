@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\StopMonitoringServicePermissionStructureType;
+namespace Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType;
 
 /**
  * Class representing StopMonitorPermissionsAType
@@ -16,7 +16,7 @@ class StopMonitorPermissionsAType
     /**
      * Participants permission for this Monitoring Point
      *
-     * @property \Calcinai\Siri\StopMonitorPermissionStructureType[] $stopMonitorPermission
+     * @property \Calcinai\Siri\Objects\StopMonitorPermissionStructureType[] $stopMonitorPermission
      */
     private $stopMonitorPermission = [
         
@@ -50,9 +50,9 @@ class StopMonitorPermissionsAType
      * Participants permission for this Monitoring Point
      *
      * @return self
-     * @param \Calcinai\Siri\StopMonitorPermissionStructureType $stopMonitorPermission
+     * @param \Calcinai\Siri\Objects\StopMonitorPermissionStructureType $stopMonitorPermission
      */
-    public function addToStopMonitorPermission(\Calcinai\Siri\StopMonitorPermissionStructureType $stopMonitorPermission)
+    public function addToStopMonitorPermission(\Calcinai\Siri\Objects\StopMonitorPermissionStructureType $stopMonitorPermission)
     {
         $this->stopMonitorPermission[] = $stopMonitorPermission;
         return $this;
@@ -89,7 +89,7 @@ class StopMonitorPermissionsAType
      *
      * Participants permission for this Monitoring Point
      *
-     * @return \Calcinai\Siri\StopMonitorPermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\StopMonitorPermissionStructureType[]
      */
     public function getStopMonitorPermission()
     {
@@ -101,7 +101,7 @@ class StopMonitorPermissionsAType
      *
      * Participants permission for this Monitoring Point
      *
-     * @param \Calcinai\Siri\StopMonitorPermissionStructureType[] $stopMonitorPermission
+     * @param \Calcinai\Siri\Objects\StopMonitorPermissionStructureType[] $stopMonitorPermission
      * @return self
      */
     public function setStopMonitorPermission(array $stopMonitorPermission)

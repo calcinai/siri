@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\DateTimeType:
+Calcinai\Siri\Objects\Datex\DateTimeType:
     properties:
         __value:
             expose: true

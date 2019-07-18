@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing OffsetDistanceType
@@ -19,7 +19,7 @@ class OffsetDistanceType
     private $offsetDistance = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $offsetDistanceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $offsetDistanceExtension
      */
     private $offsetDistanceExtension = null;
 
@@ -52,7 +52,7 @@ class OffsetDistanceType
     /**
      * Gets as offsetDistanceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getOffsetDistanceExtension()
     {
@@ -62,10 +62,10 @@ class OffsetDistanceType
     /**
      * Sets a new offsetDistanceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $offsetDistanceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $offsetDistanceExtension
      * @return self
      */
-    public function setOffsetDistanceExtension(\Calcinai\Siri\Datex\ExtensionType $offsetDistanceExtension)
+    public function setOffsetDistanceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $offsetDistanceExtension)
     {
         $this->offsetDistanceExtension = $offsetDistanceExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringDeliveriesStructureType
@@ -14,7 +14,7 @@ class ConnectionMonitoringDeliveriesStructureType
     /**
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @property \Calcinai\Siri\ConnectionMonitoringFeederDelivery[] $connectionMonitoringFeederDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery[] $connectionMonitoringFeederDelivery
      */
     private $connectionMonitoringFeederDelivery = [
         
@@ -23,7 +23,7 @@ class ConnectionMonitoringDeliveriesStructureType
     /**
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @property \Calcinai\Siri\ConnectionMonitoringDistributorDelivery[] $connectionMonitoringDistributorDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery[] $connectionMonitoringDistributorDelivery
      */
     private $connectionMonitoringDistributorDelivery = [
         
@@ -35,9 +35,9 @@ class ConnectionMonitoringDeliveriesStructureType
      * Delivery for Connection Protection Fetcher Service.
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
      */
-    public function addToConnectionMonitoringFeederDelivery(\Calcinai\Siri\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery)
+    public function addToConnectionMonitoringFeederDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery)
     {
         $this->connectionMonitoringFeederDelivery[] = $connectionMonitoringFeederDelivery;
         return $this;
@@ -74,7 +74,7 @@ class ConnectionMonitoringDeliveriesStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringFeederDelivery[]
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery[]
      */
     public function getConnectionMonitoringFeederDelivery()
     {
@@ -86,7 +86,7 @@ class ConnectionMonitoringDeliveriesStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringFeederDelivery[] $connectionMonitoringFeederDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery[] $connectionMonitoringFeederDelivery
      * @return self
      */
     public function setConnectionMonitoringFeederDelivery(array $connectionMonitoringFeederDelivery)
@@ -101,9 +101,9 @@ class ConnectionMonitoringDeliveriesStructureType
      * Delivery for Connection Protection Fetcher Service.
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
      */
-    public function addToConnectionMonitoringDistributorDelivery(\Calcinai\Siri\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery)
+    public function addToConnectionMonitoringDistributorDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery)
     {
         $this->connectionMonitoringDistributorDelivery[] = $connectionMonitoringDistributorDelivery;
         return $this;
@@ -140,7 +140,7 @@ class ConnectionMonitoringDeliveriesStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringDistributorDelivery[]
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery[]
      */
     public function getConnectionMonitoringDistributorDelivery()
     {
@@ -152,7 +152,7 @@ class ConnectionMonitoringDeliveriesStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringDistributorDelivery[] $connectionMonitoringDistributorDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery[] $connectionMonitoringDistributorDelivery
      * @return self
      */
     public function setConnectionMonitoringDistributorDelivery(array $connectionMonitoringDistributorDelivery)

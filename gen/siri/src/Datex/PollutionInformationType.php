@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PollutionInformationType
@@ -12,14 +12,14 @@ class PollutionInformationType extends WeatherValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\PollutionMeasurementType[] $pollutionMeasurement
+     * @property \Calcinai\Siri\Objects\Datex\PollutionMeasurementType[] $pollutionMeasurement
      */
     private $pollutionMeasurement = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $pollutionInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $pollutionInformationExtension
      */
     private $pollutionInformationExtension = null;
 
@@ -27,9 +27,9 @@ class PollutionInformationType extends WeatherValueType
      * Adds as pollutionMeasurement
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PollutionMeasurementType $pollutionMeasurement
+     * @param \Calcinai\Siri\Objects\Datex\PollutionMeasurementType $pollutionMeasurement
      */
-    public function addToPollutionMeasurement(\Calcinai\Siri\Datex\PollutionMeasurementType $pollutionMeasurement)
+    public function addToPollutionMeasurement(\Calcinai\Siri\Objects\Datex\PollutionMeasurementType $pollutionMeasurement)
     {
         $this->pollutionMeasurement[] = $pollutionMeasurement;
         return $this;
@@ -60,7 +60,7 @@ class PollutionInformationType extends WeatherValueType
     /**
      * Gets as pollutionMeasurement
      *
-     * @return \Calcinai\Siri\Datex\PollutionMeasurementType[]
+     * @return \Calcinai\Siri\Objects\Datex\PollutionMeasurementType[]
      */
     public function getPollutionMeasurement()
     {
@@ -70,7 +70,7 @@ class PollutionInformationType extends WeatherValueType
     /**
      * Sets a new pollutionMeasurement
      *
-     * @param \Calcinai\Siri\Datex\PollutionMeasurementType[] $pollutionMeasurement
+     * @param \Calcinai\Siri\Objects\Datex\PollutionMeasurementType[] $pollutionMeasurement
      * @return self
      */
     public function setPollutionMeasurement(array $pollutionMeasurement)
@@ -82,7 +82,7 @@ class PollutionInformationType extends WeatherValueType
     /**
      * Gets as pollutionInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPollutionInformationExtension()
     {
@@ -92,10 +92,10 @@ class PollutionInformationType extends WeatherValueType
     /**
      * Sets a new pollutionInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $pollutionInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $pollutionInformationExtension
      * @return self
      */
-    public function setPollutionInformationExtension(\Calcinai\Siri\Datex\ExtensionType $pollutionInformationExtension)
+    public function setPollutionInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $pollutionInformationExtension)
     {
         $this->pollutionInformationExtension = $pollutionInformationExtension;
         return $this;

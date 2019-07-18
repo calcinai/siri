@@ -1,4 +1,4 @@
-Calcinai\Siri\ActualArrivalTime:
+Calcinai\Siri\Objects\ActualArrivalTime:
     xml_root_name: ActualArrivalTime
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

@@ -1,4 +1,4 @@
-Calcinai\Siri\PublishToDisplayActionStructureType:
+Calcinai\Siri\Objects\PublishToDisplayActionStructureType:
     properties:
         onPlace:
             expose: true

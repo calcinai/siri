@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGJunctionPointDescriptorType
@@ -19,7 +19,7 @@ class TPEGJunctionPointDescriptorType extends TPEGPointDescriptorType
     private $tpegDescriptorType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegjunctionPointDescriptorExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegjunctionPointDescriptorExtension
      */
     private $tpegjunctionPointDescriptorExtension = null;
 
@@ -52,7 +52,7 @@ class TPEGJunctionPointDescriptorType extends TPEGPointDescriptorType
     /**
      * Gets as tpegjunctionPointDescriptorExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegjunctionPointDescriptorExtension()
     {
@@ -62,10 +62,10 @@ class TPEGJunctionPointDescriptorType extends TPEGPointDescriptorType
     /**
      * Sets a new tpegjunctionPointDescriptorExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegjunctionPointDescriptorExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegjunctionPointDescriptorExtension
      * @return self
      */
-    public function setTpegjunctionPointDescriptorExtension(\Calcinai\Siri\Datex\ExtensionType $tpegjunctionPointDescriptorExtension)
+    public function setTpegjunctionPointDescriptorExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegjunctionPointDescriptorExtension)
     {
         $this->tpegjunctionPointDescriptorExtension = $tpegjunctionPointDescriptorExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType;
+namespace Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType;
 
 /**
  * Class representing ErrorConditionAType
@@ -9,22 +9,22 @@ class ErrorConditionAType
 {
 
     /**
-     * @property \Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError
+     * @property \Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError
      */
     private $capabilityNotSupportedError = null;
 
     /**
-     * @property \Calcinai\Siri\UnknownSubscriberError $unknownSubscriberError
+     * @property \Calcinai\Siri\Objects\UnknownSubscriberError $unknownSubscriberError
      */
     private $unknownSubscriberError = null;
 
     /**
-     * @property \Calcinai\Siri\UnknownSubscriptionError $unknownSubscriptionError
+     * @property \Calcinai\Siri\Objects\UnknownSubscriptionError $unknownSubscriptionError
      */
     private $unknownSubscriptionError = null;
 
     /**
-     * @property \Calcinai\Siri\OtherError $otherError
+     * @property \Calcinai\Siri\Objects\OtherError $otherError
      */
     private $otherError = null;
 
@@ -38,7 +38,7 @@ class ErrorConditionAType
     /**
      * Gets as capabilityNotSupportedError
      *
-     * @return \Calcinai\Siri\CapabilityNotSupportedError
+     * @return \Calcinai\Siri\Objects\CapabilityNotSupportedError
      */
     public function getCapabilityNotSupportedError()
     {
@@ -48,10 +48,10 @@ class ErrorConditionAType
     /**
      * Sets a new capabilityNotSupportedError
      *
-     * @param \Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError
+     * @param \Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError
      * @return self
      */
-    public function setCapabilityNotSupportedError(\Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError)
+    public function setCapabilityNotSupportedError(\Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError)
     {
         $this->capabilityNotSupportedError = $capabilityNotSupportedError;
         return $this;
@@ -60,7 +60,7 @@ class ErrorConditionAType
     /**
      * Gets as unknownSubscriberError
      *
-     * @return \Calcinai\Siri\UnknownSubscriberError
+     * @return \Calcinai\Siri\Objects\UnknownSubscriberError
      */
     public function getUnknownSubscriberError()
     {
@@ -70,10 +70,10 @@ class ErrorConditionAType
     /**
      * Sets a new unknownSubscriberError
      *
-     * @param \Calcinai\Siri\UnknownSubscriberError $unknownSubscriberError
+     * @param \Calcinai\Siri\Objects\UnknownSubscriberError $unknownSubscriberError
      * @return self
      */
-    public function setUnknownSubscriberError(\Calcinai\Siri\UnknownSubscriberError $unknownSubscriberError)
+    public function setUnknownSubscriberError(\Calcinai\Siri\Objects\UnknownSubscriberError $unknownSubscriberError)
     {
         $this->unknownSubscriberError = $unknownSubscriberError;
         return $this;
@@ -82,7 +82,7 @@ class ErrorConditionAType
     /**
      * Gets as unknownSubscriptionError
      *
-     * @return \Calcinai\Siri\UnknownSubscriptionError
+     * @return \Calcinai\Siri\Objects\UnknownSubscriptionError
      */
     public function getUnknownSubscriptionError()
     {
@@ -92,10 +92,10 @@ class ErrorConditionAType
     /**
      * Sets a new unknownSubscriptionError
      *
-     * @param \Calcinai\Siri\UnknownSubscriptionError $unknownSubscriptionError
+     * @param \Calcinai\Siri\Objects\UnknownSubscriptionError $unknownSubscriptionError
      * @return self
      */
-    public function setUnknownSubscriptionError(\Calcinai\Siri\UnknownSubscriptionError $unknownSubscriptionError)
+    public function setUnknownSubscriptionError(\Calcinai\Siri\Objects\UnknownSubscriptionError $unknownSubscriptionError)
     {
         $this->unknownSubscriptionError = $unknownSubscriptionError;
         return $this;
@@ -104,7 +104,7 @@ class ErrorConditionAType
     /**
      * Gets as otherError
      *
-     * @return \Calcinai\Siri\OtherError
+     * @return \Calcinai\Siri\Objects\OtherError
      */
     public function getOtherError()
     {
@@ -114,10 +114,10 @@ class ErrorConditionAType
     /**
      * Sets a new otherError
      *
-     * @param \Calcinai\Siri\OtherError $otherError
+     * @param \Calcinai\Siri\Objects\OtherError $otherError
      * @return self
      */
-    public function setOtherError(\Calcinai\Siri\OtherError $otherError)
+    public function setOtherError(\Calcinai\Siri\Objects\OtherError $otherError)
     {
         $this->otherError = $otherError;
         return $this;

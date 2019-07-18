@@ -1,4 +1,4 @@
-Calcinai\Siri\ServiceFeaturesDeliveryStructureType:
+Calcinai\Siri\Objects\ServiceFeaturesDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -22,4 +22,4 @@ Calcinai\Siri\ServiceFeaturesDeliveryStructureType:
                 inline: true
                 entry_name: ServiceFeature
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ServiceFeature>
+            type: array<Calcinai\Siri\Objects\ServiceFeature>

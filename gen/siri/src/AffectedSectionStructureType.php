@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedSectionStructureType
@@ -21,19 +21,19 @@ class AffectedSectionStructureType
     /**
      * GIs projection of Section. NB Line here means Geometry Polyline, not Transmodel Transport Line
      *
-     * @property \Calcinai\Siri\IFOpt\LinkProjectionStructureType $linkProjection
+     * @property \Calcinai\Siri\Objects\IFOpt\LinkProjectionStructureType $linkProjection
      */
     private $linkProjection = null;
 
     /**
      * Offset from start or end of section to use when projecting.
      *
-     * @property \Calcinai\Siri\OffsetStructureType $offset
+     * @property \Calcinai\Siri\Objects\OffsetStructureType $offset
      */
     private $offset = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -68,7 +68,7 @@ class AffectedSectionStructureType
      *
      * GIs projection of Section. NB Line here means Geometry Polyline, not Transmodel Transport Line
      *
-     * @return \Calcinai\Siri\IFOpt\LinkProjectionStructureType
+     * @return \Calcinai\Siri\Objects\IFOpt\LinkProjectionStructureType
      */
     public function getLinkProjection()
     {
@@ -80,10 +80,10 @@ class AffectedSectionStructureType
      *
      * GIs projection of Section. NB Line here means Geometry Polyline, not Transmodel Transport Line
      *
-     * @param \Calcinai\Siri\IFOpt\LinkProjectionStructureType $linkProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\LinkProjectionStructureType $linkProjection
      * @return self
      */
-    public function setLinkProjection(\Calcinai\Siri\IFOpt\LinkProjectionStructureType $linkProjection)
+    public function setLinkProjection(\Calcinai\Siri\Objects\IFOpt\LinkProjectionStructureType $linkProjection)
     {
         $this->linkProjection = $linkProjection;
         return $this;
@@ -94,7 +94,7 @@ class AffectedSectionStructureType
      *
      * Offset from start or end of section to use when projecting.
      *
-     * @return \Calcinai\Siri\OffsetStructureType
+     * @return \Calcinai\Siri\Objects\OffsetStructureType
      */
     public function getOffset()
     {
@@ -106,10 +106,10 @@ class AffectedSectionStructureType
      *
      * Offset from start or end of section to use when projecting.
      *
-     * @param \Calcinai\Siri\OffsetStructureType $offset
+     * @param \Calcinai\Siri\Objects\OffsetStructureType $offset
      * @return self
      */
-    public function setOffset(\Calcinai\Siri\OffsetStructureType $offset)
+    public function setOffset(\Calcinai\Siri\Objects\OffsetStructureType $offset)
     {
         $this->offset = $offset;
         return $this;
@@ -118,7 +118,7 @@ class AffectedSectionStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -128,10 +128,10 @@ class AffectedSectionStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

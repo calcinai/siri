@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehiclesInvolvedType
@@ -40,7 +40,7 @@ class VehiclesInvolvedType
     private $vehicleUsage = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehiclesInvolvedExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehiclesInvolvedExtension
      */
     private $vehiclesInvolvedExtension = null;
 
@@ -151,7 +151,7 @@ class VehiclesInvolvedType
     /**
      * Gets as vehiclesInvolvedExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehiclesInvolvedExtension()
     {
@@ -161,10 +161,10 @@ class VehiclesInvolvedType
     /**
      * Sets a new vehiclesInvolvedExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehiclesInvolvedExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehiclesInvolvedExtension
      * @return self
      */
-    public function setVehiclesInvolvedExtension(\Calcinai\Siri\Datex\ExtensionType $vehiclesInvolvedExtension)
+    public function setVehiclesInvolvedExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehiclesInvolvedExtension)
     {
         $this->vehiclesInvolvedExtension = $vehiclesInvolvedExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ValidityType
@@ -19,12 +19,12 @@ class ValidityType
     private $validityStatus = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\OverallPeriodType $validityTimeSpecification
+     * @property \Calcinai\Siri\Objects\Datex\OverallPeriodType $validityTimeSpecification
      */
     private $validityTimeSpecification = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $validityExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $validityExtension
      */
     private $validityExtension = null;
 
@@ -57,7 +57,7 @@ class ValidityType
     /**
      * Gets as validityTimeSpecification
      *
-     * @return \Calcinai\Siri\Datex\OverallPeriodType
+     * @return \Calcinai\Siri\Objects\Datex\OverallPeriodType
      */
     public function getValidityTimeSpecification()
     {
@@ -67,10 +67,10 @@ class ValidityType
     /**
      * Sets a new validityTimeSpecification
      *
-     * @param \Calcinai\Siri\Datex\OverallPeriodType $validityTimeSpecification
+     * @param \Calcinai\Siri\Objects\Datex\OverallPeriodType $validityTimeSpecification
      * @return self
      */
-    public function setValidityTimeSpecification(\Calcinai\Siri\Datex\OverallPeriodType $validityTimeSpecification)
+    public function setValidityTimeSpecification(\Calcinai\Siri\Objects\Datex\OverallPeriodType $validityTimeSpecification)
     {
         $this->validityTimeSpecification = $validityTimeSpecification;
         return $this;
@@ -79,7 +79,7 @@ class ValidityType
     /**
      * Gets as validityExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getValidityExtension()
     {
@@ -89,10 +89,10 @@ class ValidityType
     /**
      * Sets a new validityExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $validityExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $validityExtension
      * @return self
      */
-    public function setValidityExtension(\Calcinai\Siri\Datex\ExtensionType $validityExtension)
+    public function setValidityExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $validityExtension)
     {
         $this->validityExtension = $validityExtension;
         return $this;

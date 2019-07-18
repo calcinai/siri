@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\TransitInformationType;
+namespace Calcinai\Siri\Objects\Datex\TransitInformationType;
 
 /**
  * Class representing JourneyDestinationAType
@@ -9,7 +9,7 @@ class JourneyDestinationAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class JourneyDestinationAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class JourneyDestinationAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class JourneyDestinationAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyDestinationAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

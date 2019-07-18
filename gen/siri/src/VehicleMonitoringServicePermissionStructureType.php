@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleMonitoringServicePermissionStructureType
@@ -12,31 +12,31 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
 {
 
     /**
-     * @property \Calcinai\Siri\OperatorPermissions $operatorPermissions
+     * @property \Calcinai\Siri\Objects\OperatorPermissions $operatorPermissions
      */
     private $operatorPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\LinePermissions $linePermissions
+     * @property \Calcinai\Siri\Objects\LinePermissions $linePermissions
      */
     private $linePermissions = null;
 
     /**
      * The monitoring points that the participant may access.
      *
-     * @property \Calcinai\Siri\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType $vehicleMonitoringPermissions
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType $vehicleMonitoringPermissions
      */
     private $vehicleMonitoringPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
     /**
      * Gets as operatorPermissions
      *
-     * @return \Calcinai\Siri\OperatorPermissions
+     * @return \Calcinai\Siri\Objects\OperatorPermissions
      */
     public function getOperatorPermissions()
     {
@@ -46,10 +46,10 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
     /**
      * Sets a new operatorPermissions
      *
-     * @param \Calcinai\Siri\OperatorPermissions $operatorPermissions
+     * @param \Calcinai\Siri\Objects\OperatorPermissions $operatorPermissions
      * @return self
      */
-    public function setOperatorPermissions(\Calcinai\Siri\OperatorPermissions $operatorPermissions)
+    public function setOperatorPermissions(\Calcinai\Siri\Objects\OperatorPermissions $operatorPermissions)
     {
         $this->operatorPermissions = $operatorPermissions;
         return $this;
@@ -58,7 +58,7 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
     /**
      * Gets as linePermissions
      *
-     * @return \Calcinai\Siri\LinePermissions
+     * @return \Calcinai\Siri\Objects\LinePermissions
      */
     public function getLinePermissions()
     {
@@ -68,10 +68,10 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
     /**
      * Sets a new linePermissions
      *
-     * @param \Calcinai\Siri\LinePermissions $linePermissions
+     * @param \Calcinai\Siri\Objects\LinePermissions $linePermissions
      * @return self
      */
-    public function setLinePermissions(\Calcinai\Siri\LinePermissions $linePermissions)
+    public function setLinePermissions(\Calcinai\Siri\Objects\LinePermissions $linePermissions)
     {
         $this->linePermissions = $linePermissions;
         return $this;
@@ -82,7 +82,7 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
      *
      * The monitoring points that the participant may access.
      *
-     * @return \Calcinai\Siri\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType
      */
     public function getVehicleMonitoringPermissions()
     {
@@ -94,10 +94,10 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
      *
      * The monitoring points that the participant may access.
      *
-     * @param \Calcinai\Siri\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType $vehicleMonitoringPermissions
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType $vehicleMonitoringPermissions
      * @return self
      */
-    public function setVehicleMonitoringPermissions(\Calcinai\Siri\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType $vehicleMonitoringPermissions)
+    public function setVehicleMonitoringPermissions(\Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType $vehicleMonitoringPermissions)
     {
         $this->vehicleMonitoringPermissions = $vehicleMonitoringPermissions;
         return $this;
@@ -106,7 +106,7 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class VehicleMonitoringServicePermissionStructureType extends AbstractPermission
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

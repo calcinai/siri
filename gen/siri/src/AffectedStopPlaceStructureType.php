@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedStopPlaceStructureType
@@ -21,7 +21,7 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
     /**
      * Name of stop place
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $placeName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName
      */
     private $placeName = null;
 
@@ -35,7 +35,7 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
     /**
      * Quays affected by Situation.
      *
-     * @property \Calcinai\Siri\AffectedStopPlaceComponentStructureType[] $affectedComponents
+     * @property \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType[] $affectedComponents
      */
     private $affectedComponents = null;
 
@@ -47,7 +47,7 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
     private $affectedNavigationPaths = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -82,7 +82,7 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
      *
      * Name of stop place
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getPlaceName()
     {
@@ -94,10 +94,10 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
      *
      * Name of stop place
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $placeName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName
      * @return self
      */
-    public function setPlaceName(\Calcinai\Siri\NaturalLanguageStringStructureType $placeName)
+    public function setPlaceName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $placeName)
     {
         $this->placeName = $placeName;
         return $this;
@@ -135,9 +135,9 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
      * Quays affected by Situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPlaceComponentStructureType $affectedComponent
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType $affectedComponent
      */
-    public function addToAffectedComponents(\Calcinai\Siri\AffectedStopPlaceComponentStructureType $affectedComponent)
+    public function addToAffectedComponents(\Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType $affectedComponent)
     {
         $this->affectedComponents[] = $affectedComponent;
         return $this;
@@ -174,7 +174,7 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
      *
      * Quays affected by Situation.
      *
-     * @return \Calcinai\Siri\AffectedStopPlaceComponentStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType[]
      */
     public function getAffectedComponents()
     {
@@ -186,7 +186,7 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
      *
      * Quays affected by Situation.
      *
-     * @param \Calcinai\Siri\AffectedStopPlaceComponentStructureType[] $affectedComponents
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceComponentStructureType[] $affectedComponents
      * @return self
      */
     public function setAffectedComponents(array $affectedComponents)
@@ -264,7 +264,7 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -274,10 +274,10 @@ class AffectedStopPlaceStructureType extends AffectedStopPlaceElementStructureTy
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\TPEGDescriptorType;
+namespace Calcinai\Siri\Objects\Datex\TPEGDescriptorType;
 
 /**
  * Class representing DescriptorAType
@@ -9,7 +9,7 @@ class DescriptorAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class DescriptorAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class DescriptorAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class DescriptorAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\TPEGDescriptorType\DescriptorAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

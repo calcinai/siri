@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGJunctionType
@@ -12,38 +12,38 @@ class TPEGJunctionType extends TPEGPointType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates
+     * @property \Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates
      */
     private $pointCoordinates = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGJunctionPointDescriptorType $name
+     * @property \Calcinai\Siri\Objects\Datex\TPEGJunctionPointDescriptorType $name
      */
     private $name = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGILCPointDescriptorType[] $ilc
+     * @property \Calcinai\Siri\Objects\Datex\TPEGILCPointDescriptorType[] $ilc
      */
     private $ilc = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType[] $otherName
+     * @property \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType[] $otherName
      */
     private $otherName = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegjunctionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegjunctionExtension
      */
     private $tpegjunctionExtension = null;
 
     /**
      * Gets as pointCoordinates
      *
-     * @return \Calcinai\Siri\Datex\PointCoordinatesType
+     * @return \Calcinai\Siri\Objects\Datex\PointCoordinatesType
      */
     public function getPointCoordinates()
     {
@@ -53,10 +53,10 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Sets a new pointCoordinates
      *
-     * @param \Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates
+     * @param \Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates
      * @return self
      */
-    public function setPointCoordinates(\Calcinai\Siri\Datex\PointCoordinatesType $pointCoordinates)
+    public function setPointCoordinates(\Calcinai\Siri\Objects\Datex\PointCoordinatesType $pointCoordinates)
     {
         $this->pointCoordinates = $pointCoordinates;
         return $this;
@@ -65,7 +65,7 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Gets as name
      *
-     * @return \Calcinai\Siri\Datex\TPEGJunctionPointDescriptorType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGJunctionPointDescriptorType
      */
     public function getName()
     {
@@ -75,10 +75,10 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Sets a new name
      *
-     * @param \Calcinai\Siri\Datex\TPEGJunctionPointDescriptorType $name
+     * @param \Calcinai\Siri\Objects\Datex\TPEGJunctionPointDescriptorType $name
      * @return self
      */
-    public function setName(\Calcinai\Siri\Datex\TPEGJunctionPointDescriptorType $name)
+    public function setName(\Calcinai\Siri\Objects\Datex\TPEGJunctionPointDescriptorType $name)
     {
         $this->name = $name;
         return $this;
@@ -88,9 +88,9 @@ class TPEGJunctionType extends TPEGPointType
      * Adds as ilc
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TPEGILCPointDescriptorType $ilc
+     * @param \Calcinai\Siri\Objects\Datex\TPEGILCPointDescriptorType $ilc
      */
-    public function addToIlc(\Calcinai\Siri\Datex\TPEGILCPointDescriptorType $ilc)
+    public function addToIlc(\Calcinai\Siri\Objects\Datex\TPEGILCPointDescriptorType $ilc)
     {
         $this->ilc[] = $ilc;
         return $this;
@@ -121,7 +121,7 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Gets as ilc
      *
-     * @return \Calcinai\Siri\Datex\TPEGILCPointDescriptorType[]
+     * @return \Calcinai\Siri\Objects\Datex\TPEGILCPointDescriptorType[]
      */
     public function getIlc()
     {
@@ -131,7 +131,7 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Sets a new ilc
      *
-     * @param \Calcinai\Siri\Datex\TPEGILCPointDescriptorType[] $ilc
+     * @param \Calcinai\Siri\Objects\Datex\TPEGILCPointDescriptorType[] $ilc
      * @return self
      */
     public function setIlc(array $ilc)
@@ -144,9 +144,9 @@ class TPEGJunctionType extends TPEGPointType
      * Adds as otherName
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType $otherName
+     * @param \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType $otherName
      */
-    public function addToOtherName(\Calcinai\Siri\Datex\TPEGOtherPointDescriptorType $otherName)
+    public function addToOtherName(\Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType $otherName)
     {
         $this->otherName[] = $otherName;
         return $this;
@@ -177,7 +177,7 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Gets as otherName
      *
-     * @return \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType[]
+     * @return \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType[]
      */
     public function getOtherName()
     {
@@ -187,7 +187,7 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Sets a new otherName
      *
-     * @param \Calcinai\Siri\Datex\TPEGOtherPointDescriptorType[] $otherName
+     * @param \Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType[] $otherName
      * @return self
      */
     public function setOtherName(array $otherName)
@@ -199,7 +199,7 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Gets as tpegjunctionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegjunctionExtension()
     {
@@ -209,10 +209,10 @@ class TPEGJunctionType extends TPEGPointType
     /**
      * Sets a new tpegjunctionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegjunctionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegjunctionExtension
      * @return self
      */
-    public function setTpegjunctionExtension(\Calcinai\Siri\Datex\ExtensionType $tpegjunctionExtension)
+    public function setTpegjunctionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegjunctionExtension)
     {
         $this->tpegjunctionExtension = $tpegjunctionExtension;
         return $this;

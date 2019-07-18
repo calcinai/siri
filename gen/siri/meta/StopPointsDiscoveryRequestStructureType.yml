@@ -1,4 +1,4 @@
-Calcinai\Siri\StopPointsDiscoveryRequestStructureType:
+Calcinai\Siri\Objects\StopPointsDiscoveryRequestStructureType:
     properties:
         version:
             expose: true

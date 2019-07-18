@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleActivityCancellationStructureType
@@ -19,7 +19,7 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
     /**
      * Reference to Journey that vehiucle is making.
      *
-     * @property \Calcinai\Siri\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
+     * @property \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
      */
     private $vehicleJourneyRef = null;
 
@@ -59,14 +59,14 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
     private $routeRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
     /**
      * Description of the direction.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      */
     private $directionName = null;
 
@@ -80,12 +80,12 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
     /**
      * Reason for Cancellation.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $reason
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason
      */
     private $reason = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -116,7 +116,7 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
      *
      * Reference to Journey that vehiucle is making.
      *
-     * @return \Calcinai\Siri\FramedVehicleJourneyRefStructureType
+     * @return \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType
      */
     public function getVehicleJourneyRef()
     {
@@ -128,10 +128,10 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
      *
      * Reference to Journey that vehiucle is making.
      *
-     * @param \Calcinai\Siri\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
+     * @param \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $vehicleJourneyRef
      * @return self
      */
-    public function setVehicleJourneyRef(\Calcinai\Siri\FramedVehicleJourneyRefStructureType $vehicleJourneyRef)
+    public function setVehicleJourneyRef(\Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $vehicleJourneyRef)
     {
         $this->vehicleJourneyRef = $vehicleJourneyRef;
         return $this;
@@ -270,7 +270,7 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -280,10 +280,10 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -294,7 +294,7 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
      *
      * Description of the direction.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDirectionName()
     {
@@ -306,10 +306,10 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
      *
      * Description of the direction.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      * @return self
      */
-    public function setDirectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $directionName)
+    public function setDirectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName)
     {
         $this->directionName = $directionName;
         return $this;
@@ -346,7 +346,7 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
      *
      * Reason for Cancellation.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getReason()
     {
@@ -358,10 +358,10 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
      *
      * Reason for Cancellation.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $reason
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason
      * @return self
      */
-    public function setReason(\Calcinai\Siri\NaturalLanguageStringStructureType $reason)
+    public function setReason(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason)
     {
         $this->reason = $reason;
         return $this;
@@ -370,7 +370,7 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -380,10 +380,10 @@ class VehicleActivityCancellationStructureType extends AbstractReferencingItemSt
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

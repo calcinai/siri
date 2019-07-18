@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType;
 
-use Calcinai\Siri\CapabilityRequestPolicyStructureType;
+use Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType;
 
 /**
  * Class representing RequestPolicyAType

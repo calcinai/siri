@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing NonWeatherRelatedRoadConditionsType
@@ -21,7 +21,7 @@ class NonWeatherRelatedRoadConditionsType extends RoadConditionsType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $nonWeatherRelatedRoadConditionsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $nonWeatherRelatedRoadConditionsExtension
      */
     private $nonWeatherRelatedRoadConditionsExtension = null;
 
@@ -94,7 +94,7 @@ class NonWeatherRelatedRoadConditionsType extends RoadConditionsType
     /**
      * Gets as nonWeatherRelatedRoadConditionsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getNonWeatherRelatedRoadConditionsExtension()
     {
@@ -104,10 +104,10 @@ class NonWeatherRelatedRoadConditionsType extends RoadConditionsType
     /**
      * Sets a new nonWeatherRelatedRoadConditionsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $nonWeatherRelatedRoadConditionsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $nonWeatherRelatedRoadConditionsExtension
      * @return self
      */
-    public function setNonWeatherRelatedRoadConditionsExtension(\Calcinai\Siri\Datex\ExtensionType $nonWeatherRelatedRoadConditionsExtension)
+    public function setNonWeatherRelatedRoadConditionsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $nonWeatherRelatedRoadConditionsExtension)
     {
         $this->nonWeatherRelatedRoadConditionsExtension = $nonWeatherRelatedRoadConditionsExtension;
         return $this;

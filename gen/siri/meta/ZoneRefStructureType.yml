@@ -1,4 +1,4 @@
-Calcinai\Siri\ZoneRefStructureType:
+Calcinai\Siri\Objects\ZoneRefStructureType:
     properties:
         __value:
             expose: true

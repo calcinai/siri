@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationExchangeServiceCapabilitiesStructureType
@@ -14,40 +14,40 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
     /**
      * Filtering Capabilities.
      *
-     * @property \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @property \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      */
     private $topicFiltering = null;
 
     /**
      * Request Policiy capabilities.
      *
-     * @property \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
+     * @property \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
      */
     private $requestPolicy = null;
 
     /**
      * Subscription Policy capabilities.
      *
-     * @property \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
+     * @property \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
      */
     private $subscriptionPolicy = null;
 
     /**
      * Optional Access control capabilities.
      *
-     * @property \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType $accessControl
+     * @property \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType $accessControl
      */
     private $accessControl = null;
 
     /**
      * Optional Response capabilities
      *
-     * @property \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
+     * @property \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
      */
     private $responseFeatures = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -56,7 +56,7 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Filtering Capabilities.
      *
-     * @return \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType
+     * @return \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType
      */
     public function getTopicFiltering()
     {
@@ -68,10 +68,10 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Filtering Capabilities.
      *
-     * @param \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
+     * @param \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering
      * @return self
      */
-    public function setTopicFiltering(\Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
+    public function setTopicFiltering(\Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType $topicFiltering)
     {
         $this->topicFiltering = $topicFiltering;
         return $this;
@@ -82,7 +82,7 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Request Policiy capabilities.
      *
-     * @return \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType
+     * @return \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType
      */
     public function getRequestPolicy()
     {
@@ -94,10 +94,10 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Request Policiy capabilities.
      *
-     * @param \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
+     * @param \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy
      * @return self
      */
-    public function setRequestPolicy(\Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy)
+    public function setRequestPolicy(\Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType $requestPolicy)
     {
         $this->requestPolicy = $requestPolicy;
         return $this;
@@ -108,7 +108,7 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Subscription Policy capabilities.
      *
-     * @return \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType
+     * @return \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType
      */
     public function getSubscriptionPolicy()
     {
@@ -120,10 +120,10 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Subscription Policy capabilities.
      *
-     * @param \Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
+     * @param \Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy
      * @return self
      */
-    public function setSubscriptionPolicy(\Calcinai\Siri\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy)
+    public function setSubscriptionPolicy(\Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType $subscriptionPolicy)
     {
         $this->subscriptionPolicy = $subscriptionPolicy;
         return $this;
@@ -134,7 +134,7 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Optional Access control capabilities.
      *
-     * @return \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType
+     * @return \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType
      */
     public function getAccessControl()
     {
@@ -146,10 +146,10 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Optional Access control capabilities.
      *
-     * @param \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType $accessControl
+     * @param \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType $accessControl
      * @return self
      */
-    public function setAccessControl(\Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType $accessControl)
+    public function setAccessControl(\Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType $accessControl)
     {
         $this->accessControl = $accessControl;
         return $this;
@@ -160,7 +160,7 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Optional Response capabilities
      *
-     * @return \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType
+     * @return \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType
      */
     public function getResponseFeatures()
     {
@@ -172,10 +172,10 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
      *
      * Optional Response capabilities
      *
-     * @param \Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
+     * @param \Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures
      * @return self
      */
-    public function setResponseFeatures(\Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures)
+    public function setResponseFeatures(\Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\ResponseFeaturesAType $responseFeatures)
     {
         $this->responseFeatures = $responseFeatures;
         return $this;
@@ -184,7 +184,7 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -194,10 +194,10 @@ class SituationExchangeServiceCapabilitiesStructureType extends AbstractCapabili
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

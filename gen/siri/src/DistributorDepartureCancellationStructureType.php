@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing DistributorDepartureCancellationStructureType
@@ -14,12 +14,12 @@ class DistributorDepartureCancellationStructureType extends AbstractDistributorI
     /**
      * Reason for failure of connection.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $reason
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason
      */
     private $reason = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -28,7 +28,7 @@ class DistributorDepartureCancellationStructureType extends AbstractDistributorI
      *
      * Reason for failure of connection.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getReason()
     {
@@ -40,10 +40,10 @@ class DistributorDepartureCancellationStructureType extends AbstractDistributorI
      *
      * Reason for failure of connection.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $reason
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason
      * @return self
      */
-    public function setReason(\Calcinai\Siri\NaturalLanguageStringStructureType $reason)
+    public function setReason(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reason)
     {
         $this->reason = $reason;
         return $this;
@@ -52,7 +52,7 @@ class DistributorDepartureCancellationStructureType extends AbstractDistributorI
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -62,10 +62,10 @@ class DistributorDepartureCancellationStructureType extends AbstractDistributorI
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

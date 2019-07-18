@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PredefinedLocationsPublicationType
@@ -12,26 +12,26 @@ class PredefinedLocationsPublicationType extends PayloadPublicationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @property \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      */
     private $headerInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\PredefinedLocationSetType[] $predefinedLocationSet
+     * @property \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType[] $predefinedLocationSet
      */
     private $predefinedLocationSet = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $predefinedLocationsPublicationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $predefinedLocationsPublicationExtension
      */
     private $predefinedLocationsPublicationExtension = null;
 
     /**
      * Gets as headerInformation
      *
-     * @return \Calcinai\Siri\Datex\HeaderInformationType
+     * @return \Calcinai\Siri\Objects\Datex\HeaderInformationType
      */
     public function getHeaderInformation()
     {
@@ -41,10 +41,10 @@ class PredefinedLocationsPublicationType extends PayloadPublicationType
     /**
      * Sets a new headerInformation
      *
-     * @param \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @param \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      * @return self
      */
-    public function setHeaderInformation(\Calcinai\Siri\Datex\HeaderInformationType $headerInformation)
+    public function setHeaderInformation(\Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation)
     {
         $this->headerInformation = $headerInformation;
         return $this;
@@ -54,9 +54,9 @@ class PredefinedLocationsPublicationType extends PayloadPublicationType
      * Adds as predefinedLocationSet
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PredefinedLocationSetType $predefinedLocationSet
+     * @param \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType $predefinedLocationSet
      */
-    public function addToPredefinedLocationSet(\Calcinai\Siri\Datex\PredefinedLocationSetType $predefinedLocationSet)
+    public function addToPredefinedLocationSet(\Calcinai\Siri\Objects\Datex\PredefinedLocationSetType $predefinedLocationSet)
     {
         $this->predefinedLocationSet[] = $predefinedLocationSet;
         return $this;
@@ -87,7 +87,7 @@ class PredefinedLocationsPublicationType extends PayloadPublicationType
     /**
      * Gets as predefinedLocationSet
      *
-     * @return \Calcinai\Siri\Datex\PredefinedLocationSetType[]
+     * @return \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType[]
      */
     public function getPredefinedLocationSet()
     {
@@ -97,7 +97,7 @@ class PredefinedLocationsPublicationType extends PayloadPublicationType
     /**
      * Sets a new predefinedLocationSet
      *
-     * @param \Calcinai\Siri\Datex\PredefinedLocationSetType[] $predefinedLocationSet
+     * @param \Calcinai\Siri\Objects\Datex\PredefinedLocationSetType[] $predefinedLocationSet
      * @return self
      */
     public function setPredefinedLocationSet(array $predefinedLocationSet)
@@ -109,7 +109,7 @@ class PredefinedLocationsPublicationType extends PayloadPublicationType
     /**
      * Gets as predefinedLocationsPublicationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPredefinedLocationsPublicationExtension()
     {
@@ -119,10 +119,10 @@ class PredefinedLocationsPublicationType extends PayloadPublicationType
     /**
      * Sets a new predefinedLocationsPublicationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $predefinedLocationsPublicationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $predefinedLocationsPublicationExtension
      * @return self
      */
-    public function setPredefinedLocationsPublicationExtension(\Calcinai\Siri\Datex\ExtensionType $predefinedLocationsPublicationExtension)
+    public function setPredefinedLocationsPublicationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $predefinedLocationsPublicationExtension)
     {
         $this->predefinedLocationsPublicationExtension = $predefinedLocationsPublicationExtension;
         return $this;

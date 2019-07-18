@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\CheckPointStructureType:
+Calcinai\Siri\Objects\IFOpt\CheckPointStructureType:
     properties:
         checkPointId:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\IFOpt\CheckPointStructureType:
             accessor:
                 getter: getValidityCondition
                 setter: setValidityCondition
-            type: Calcinai\Siri\IFOpt\ValidityConditionStructureType
+            type: Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType
         checkPointProcess:
             expose: true
             access_type: public_method

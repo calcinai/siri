@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGILCPointDescriptorType
@@ -19,7 +19,7 @@ class TPEGILCPointDescriptorType extends TPEGPointDescriptorType
     private $tpegDescriptorType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegilcpointDescriptorExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegilcpointDescriptorExtension
      */
     private $tpegilcpointDescriptorExtension = null;
 
@@ -52,7 +52,7 @@ class TPEGILCPointDescriptorType extends TPEGPointDescriptorType
     /**
      * Gets as tpegilcpointDescriptorExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegilcpointDescriptorExtension()
     {
@@ -62,10 +62,10 @@ class TPEGILCPointDescriptorType extends TPEGPointDescriptorType
     /**
      * Sets a new tpegilcpointDescriptorExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegilcpointDescriptorExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegilcpointDescriptorExtension
      * @return self
      */
-    public function setTpegilcpointDescriptorExtension(\Calcinai\Siri\Datex\ExtensionType $tpegilcpointDescriptorExtension)
+    public function setTpegilcpointDescriptorExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegilcpointDescriptorExtension)
     {
         $this->tpegilcpointDescriptorExtension = $tpegilcpointDescriptorExtension;
         return $this;

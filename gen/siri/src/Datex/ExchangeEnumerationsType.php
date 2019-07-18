@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ExchangeEnumerationsType
@@ -12,7 +12,7 @@ class ExchangeEnumerationsType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $exchangeEnumerationsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $exchangeEnumerationsExtension
      */
     private $exchangeEnumerationsExtension = null;
 
@@ -59,7 +59,7 @@ class ExchangeEnumerationsType
     /**
      * Gets as exchangeEnumerationsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getExchangeEnumerationsExtension()
     {
@@ -69,10 +69,10 @@ class ExchangeEnumerationsType
     /**
      * Sets a new exchangeEnumerationsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $exchangeEnumerationsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $exchangeEnumerationsExtension
      * @return self
      */
-    public function setExchangeEnumerationsExtension(\Calcinai\Siri\Datex\ExtensionType $exchangeEnumerationsExtension)
+    public function setExchangeEnumerationsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $exchangeEnumerationsExtension)
     {
         $this->exchangeEnumerationsExtension = $exchangeEnumerationsExtension;
         return $this;

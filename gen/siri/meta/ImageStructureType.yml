@@ -1,4 +1,4 @@
-Calcinai\Siri\ImageStructureType:
+Calcinai\Siri\Objects\ImageStructureType:
     properties:
         imageRef:
             expose: true

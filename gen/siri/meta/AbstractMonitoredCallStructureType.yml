@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractMonitoredCallStructureType:
+Calcinai\Siri\Objects\AbstractMonitoredCallStructureType:
     properties:
         stopPointRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AbstractMonitoredCallStructureType:
             accessor:
                 getter: getStopPointRef
                 setter: setStopPointRef
-            type: Calcinai\Siri\StopPointRef
+            type: Calcinai\Siri\Objects\StopPointRef
         visitNumber:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AbstractMonitoredCallStructureType:
             accessor:
                 getter: getVisitNumber
                 setter: setVisitNumber
-            type: Calcinai\Siri\VisitNumber
+            type: Calcinai\Siri\Objects\VisitNumber
         order:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\AbstractMonitoredCallStructureType:
             accessor:
                 getter: getStopPointName
                 setter: setStopPointName
-            type: Calcinai\Siri\StopPointName
+            type: Calcinai\Siri\Objects\StopPointName

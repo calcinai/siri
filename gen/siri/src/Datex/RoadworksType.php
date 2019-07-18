@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing RoadworksType
@@ -49,22 +49,22 @@ class RoadworksType extends OperatorActionType
     private $urgentRoadworks = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\MobilityType $mobility
+     * @property \Calcinai\Siri\Objects\Datex\MobilityType $mobility
      */
     private $mobility = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SubjectTypeOfWorksType $subjectTypeOfWorks
+     * @property \Calcinai\Siri\Objects\Datex\SubjectTypeOfWorksType $subjectTypeOfWorks
      */
     private $subjectTypeOfWorks = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType $associatedMaintenanceVehicles
+     * @property \Calcinai\Siri\Objects\Datex\AssociatedMaintenanceVehiclesType $associatedMaintenanceVehicles
      */
     private $associatedMaintenanceVehicles = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $roadworksExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $roadworksExtension
      */
     private $roadworksExtension = null;
 
@@ -241,7 +241,7 @@ class RoadworksType extends OperatorActionType
     /**
      * Gets as mobility
      *
-     * @return \Calcinai\Siri\Datex\MobilityType
+     * @return \Calcinai\Siri\Objects\Datex\MobilityType
      */
     public function getMobility()
     {
@@ -251,10 +251,10 @@ class RoadworksType extends OperatorActionType
     /**
      * Sets a new mobility
      *
-     * @param \Calcinai\Siri\Datex\MobilityType $mobility
+     * @param \Calcinai\Siri\Objects\Datex\MobilityType $mobility
      * @return self
      */
-    public function setMobility(\Calcinai\Siri\Datex\MobilityType $mobility)
+    public function setMobility(\Calcinai\Siri\Objects\Datex\MobilityType $mobility)
     {
         $this->mobility = $mobility;
         return $this;
@@ -263,7 +263,7 @@ class RoadworksType extends OperatorActionType
     /**
      * Gets as subjectTypeOfWorks
      *
-     * @return \Calcinai\Siri\Datex\SubjectTypeOfWorksType
+     * @return \Calcinai\Siri\Objects\Datex\SubjectTypeOfWorksType
      */
     public function getSubjectTypeOfWorks()
     {
@@ -273,10 +273,10 @@ class RoadworksType extends OperatorActionType
     /**
      * Sets a new subjectTypeOfWorks
      *
-     * @param \Calcinai\Siri\Datex\SubjectTypeOfWorksType $subjectTypeOfWorks
+     * @param \Calcinai\Siri\Objects\Datex\SubjectTypeOfWorksType $subjectTypeOfWorks
      * @return self
      */
-    public function setSubjectTypeOfWorks(\Calcinai\Siri\Datex\SubjectTypeOfWorksType $subjectTypeOfWorks)
+    public function setSubjectTypeOfWorks(\Calcinai\Siri\Objects\Datex\SubjectTypeOfWorksType $subjectTypeOfWorks)
     {
         $this->subjectTypeOfWorks = $subjectTypeOfWorks;
         return $this;
@@ -285,7 +285,7 @@ class RoadworksType extends OperatorActionType
     /**
      * Gets as associatedMaintenanceVehicles
      *
-     * @return \Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType
+     * @return \Calcinai\Siri\Objects\Datex\AssociatedMaintenanceVehiclesType
      */
     public function getAssociatedMaintenanceVehicles()
     {
@@ -295,10 +295,10 @@ class RoadworksType extends OperatorActionType
     /**
      * Sets a new associatedMaintenanceVehicles
      *
-     * @param \Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType $associatedMaintenanceVehicles
+     * @param \Calcinai\Siri\Objects\Datex\AssociatedMaintenanceVehiclesType $associatedMaintenanceVehicles
      * @return self
      */
-    public function setAssociatedMaintenanceVehicles(\Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType $associatedMaintenanceVehicles)
+    public function setAssociatedMaintenanceVehicles(\Calcinai\Siri\Objects\Datex\AssociatedMaintenanceVehiclesType $associatedMaintenanceVehicles)
     {
         $this->associatedMaintenanceVehicles = $associatedMaintenanceVehicles;
         return $this;
@@ -307,7 +307,7 @@ class RoadworksType extends OperatorActionType
     /**
      * Gets as roadworksExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getRoadworksExtension()
     {
@@ -317,10 +317,10 @@ class RoadworksType extends OperatorActionType
     /**
      * Sets a new roadworksExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $roadworksExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $roadworksExtension
      * @return self
      */
-    public function setRoadworksExtension(\Calcinai\Siri\Datex\ExtensionType $roadworksExtension)
+    public function setRoadworksExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $roadworksExtension)
     {
         $this->roadworksExtension = $roadworksExtension;
         return $this;

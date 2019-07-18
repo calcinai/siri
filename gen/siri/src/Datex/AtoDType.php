@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AtoDType
@@ -22,7 +22,7 @@ class AtoDType
     private $computationMethodEnum = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $atoDExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $atoDExtension
      */
     private $atoDExtension = null;
 
@@ -183,7 +183,7 @@ class AtoDType
     /**
      * Gets as atoDExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAtoDExtension()
     {
@@ -193,10 +193,10 @@ class AtoDType
     /**
      * Sets a new atoDExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $atoDExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $atoDExtension
      * @return self
      */
-    public function setAtoDExtension(\Calcinai\Siri\Datex\ExtensionType $atoDExtension)
+    public function setAtoDExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $atoDExtension)
     {
         $this->atoDExtension = $atoDExtension;
         return $this;

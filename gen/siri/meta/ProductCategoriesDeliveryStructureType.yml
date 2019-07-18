@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductCategoriesDeliveryStructureType:
+Calcinai\Siri\Objects\ProductCategoriesDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -22,7 +22,7 @@ Calcinai\Siri\ProductCategoriesDeliveryStructureType:
                 inline: true
                 entry_name: ProductCategory
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ProductCategoryStructureType>
+            type: array<Calcinai\Siri\Objects\ProductCategoryStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -32,4 +32,4 @@ Calcinai\Siri\ProductCategoriesDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AnnotatedStopPointStructureType;
+namespace Calcinai\Siri\Objects\AnnotatedStopPointStructureType;
 
 /**
  * Class representing FeaturesAType
@@ -11,7 +11,7 @@ class FeaturesAType
     /**
      * Description of Service features of stop.
      *
-     * @property \Calcinai\Siri\ServiceFeatureStructureType[] $serviceFeature
+     * @property \Calcinai\Siri\Objects\ServiceFeatureStructureType[] $serviceFeature
      */
     private $serviceFeature = [
         
@@ -30,9 +30,9 @@ class FeaturesAType
      * Description of Service features of stop.
      *
      * @return self
-     * @param \Calcinai\Siri\ServiceFeatureStructureType $serviceFeature
+     * @param \Calcinai\Siri\Objects\ServiceFeatureStructureType $serviceFeature
      */
-    public function addToServiceFeature(\Calcinai\Siri\ServiceFeatureStructureType $serviceFeature)
+    public function addToServiceFeature(\Calcinai\Siri\Objects\ServiceFeatureStructureType $serviceFeature)
     {
         $this->serviceFeature[] = $serviceFeature;
         return $this;
@@ -69,7 +69,7 @@ class FeaturesAType
      *
      * Description of Service features of stop.
      *
-     * @return \Calcinai\Siri\ServiceFeatureStructureType[]
+     * @return \Calcinai\Siri\Objects\ServiceFeatureStructureType[]
      */
     public function getServiceFeature()
     {
@@ -81,7 +81,7 @@ class FeaturesAType
      *
      * Description of Service features of stop.
      *
-     * @param \Calcinai\Siri\ServiceFeatureStructureType[] $serviceFeature
+     * @param \Calcinai\Siri\Objects\ServiceFeatureStructureType[] $serviceFeature
      * @return self
      */
     public function setServiceFeature(array $serviceFeature)

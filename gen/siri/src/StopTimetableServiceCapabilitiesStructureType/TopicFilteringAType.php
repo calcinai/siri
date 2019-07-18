@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

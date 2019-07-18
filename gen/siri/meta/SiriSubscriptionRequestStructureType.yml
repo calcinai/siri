@@ -1,4 +1,4 @@
-Calcinai\Siri\SiriSubscriptionRequestStructureType:
+Calcinai\Siri\Objects\SiriSubscriptionRequestStructureType:
     properties:
         productionTimetableSubscriptionRequest:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getProductionTimetableSubscriptionRequest
                 setter: setProductionTimetableSubscriptionRequest
-            type: Calcinai\Siri\ProductionTimetableSubscriptionRequest
+            type: Calcinai\Siri\Objects\ProductionTimetableSubscriptionRequest
         estimatedTimetableSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getEstimatedTimetableSubscriptionRequest
                 setter: setEstimatedTimetableSubscriptionRequest
-            type: Calcinai\Siri\EstimatedTimetableSubscriptionRequest
+            type: Calcinai\Siri\Objects\EstimatedTimetableSubscriptionRequest
         stopTimetableSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getStopTimetableSubscriptionRequest
                 setter: setStopTimetableSubscriptionRequest
-            type: Calcinai\Siri\StopTimetableSubscriptionRequest
+            type: Calcinai\Siri\Objects\StopTimetableSubscriptionRequest
         stopMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getStopMonitoringSubscriptionRequest
                 setter: setStopMonitoringSubscriptionRequest
-            type: Calcinai\Siri\StopMonitoringSubscriptionRequest
+            type: Calcinai\Siri\Objects\StopMonitoringSubscriptionRequest
         vehicleMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getVehicleMonitoringSubscriptionRequest
                 setter: setVehicleMonitoringSubscriptionRequest
-            type: Calcinai\Siri\VehicleMonitoringSubscriptionRequest
+            type: Calcinai\Siri\Objects\VehicleMonitoringSubscriptionRequest
         connectionTimetableSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getConnectionTimetableSubscriptionRequest
                 setter: setConnectionTimetableSubscriptionRequest
-            type: Calcinai\Siri\ConnectionTimetableSubscriptionRequest
+            type: Calcinai\Siri\Objects\ConnectionTimetableSubscriptionRequest
         connectionMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getConnectionMonitoringSubscriptionRequest
                 setter: setConnectionMonitoringSubscriptionRequest
-            type: Calcinai\Siri\ConnectionMonitoringSubscriptionRequest
+            type: Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequest
         generalMessageSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getGeneralMessageSubscriptionRequest
                 setter: setGeneralMessageSubscriptionRequest
-            type: Calcinai\Siri\GeneralMessageSubscriptionRequest
+            type: Calcinai\Siri\Objects\GeneralMessageSubscriptionRequest
         facilityMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getFacilityMonitoringSubscriptionRequest
                 setter: setFacilityMonitoringSubscriptionRequest
-            type: Calcinai\Siri\FacilityMonitoringSubscriptionRequest
+            type: Calcinai\Siri\Objects\FacilityMonitoringSubscriptionRequest
         situationExchangeSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -99,4 +99,4 @@ Calcinai\Siri\SiriSubscriptionRequestStructureType:
             accessor:
                 getter: getSituationExchangeSubscriptionRequest
                 setter: setSituationExchangeSubscriptionRequest
-            type: Calcinai\Siri\SituationExchangeSubscriptionRequest
+            type: Calcinai\Siri\Objects\SituationExchangeSubscriptionRequest

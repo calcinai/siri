@@ -1,4 +1,4 @@
-Calcinai\Siri\LineRefStructureType:
+Calcinai\Siri\Objects\LineRefStructureType:
     properties:
         __value:
             expose: true

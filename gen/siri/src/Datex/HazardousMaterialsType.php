@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing HazardousMaterialsType
@@ -14,7 +14,7 @@ class HazardousMaterialsType
     /**
      * The chemical name of the hazardous substance carried by the vehicle.
      *
-     * @property \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $chemicalName
+     * @property \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $chemicalName
      */
     private $chemicalName = null;
 
@@ -82,7 +82,7 @@ class HazardousMaterialsType
     private $weightOfDangerousGoods = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $hazardousMaterialsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $hazardousMaterialsExtension
      */
     private $hazardousMaterialsExtension = null;
 
@@ -92,9 +92,9 @@ class HazardousMaterialsType
      * The chemical name of the hazardous substance carried by the vehicle.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value
      */
-    public function addToChemicalName(\Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value)
+    public function addToChemicalName(\Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value)
     {
         $this->chemicalName[] = $value;
         return $this;
@@ -131,7 +131,7 @@ class HazardousMaterialsType
      *
      * The chemical name of the hazardous substance carried by the vehicle.
      *
-     * @return \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[]
      */
     public function getChemicalName()
     {
@@ -143,7 +143,7 @@ class HazardousMaterialsType
      *
      * The chemical name of the hazardous substance carried by the vehicle.
      *
-     * @param \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $chemicalName
+     * @param \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $chemicalName
      * @return self
      */
     public function setChemicalName(array $chemicalName)
@@ -389,7 +389,7 @@ class HazardousMaterialsType
     /**
      * Gets as hazardousMaterialsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getHazardousMaterialsExtension()
     {
@@ -399,10 +399,10 @@ class HazardousMaterialsType
     /**
      * Sets a new hazardousMaterialsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $hazardousMaterialsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $hazardousMaterialsExtension
      * @return self
      */
-    public function setHazardousMaterialsExtension(\Calcinai\Siri\Datex\ExtensionType $hazardousMaterialsExtension)
+    public function setHazardousMaterialsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $hazardousMaterialsExtension)
     {
         $this->hazardousMaterialsExtension = $hazardousMaterialsExtension;
         return $this;

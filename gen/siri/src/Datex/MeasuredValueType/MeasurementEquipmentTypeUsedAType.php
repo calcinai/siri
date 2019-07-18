@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\MeasuredValueType;
+namespace Calcinai\Siri\Objects\Datex\MeasuredValueType;
 
 /**
  * Class representing MeasurementEquipmentTypeUsedAType
@@ -9,7 +9,7 @@ class MeasurementEquipmentTypeUsedAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class MeasurementEquipmentTypeUsedAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class MeasurementEquipmentTypeUsedAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class MeasurementEquipmentTypeUsedAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

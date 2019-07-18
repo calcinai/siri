@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MeasurementSiteRecordType
@@ -33,14 +33,14 @@ class MeasurementSiteRecordType
     /**
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
-     * @property \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
+     * @property \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
      */
     private $measurementEquipmentTypeUsed = null;
 
     /**
      * Name of a measurement site.
      *
-     * @property \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $measurementSiteName
+     * @property \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $measurementSiteName
      */
     private $measurementSiteName = null;
 
@@ -66,19 +66,19 @@ class MeasurementSiteRecordType
     private $measurementSide = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType[] $measurementSpecificCharacteristics
+     * @property \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType[] $measurementSpecificCharacteristics
      */
     private $measurementSpecificCharacteristics = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\LocationType $measurementSiteLocation
+     * @property \Calcinai\Siri\Objects\Datex\LocationType $measurementSiteLocation
      */
     private $measurementSiteLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $measurementSiteRecordExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $measurementSiteRecordExtension
      */
     private $measurementSiteRecordExtension = null;
 
@@ -162,9 +162,9 @@ class MeasurementSiteRecordType
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType $value
      */
-    public function addToMeasurementEquipmentTypeUsed(\Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType $value)
+    public function addToMeasurementEquipmentTypeUsed(\Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType $value)
     {
         $this->measurementEquipmentTypeUsed[] = $value;
         return $this;
@@ -201,7 +201,7 @@ class MeasurementSiteRecordType
      *
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
-     * @return \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType[]
      */
     public function getMeasurementEquipmentTypeUsed()
     {
@@ -213,7 +213,7 @@ class MeasurementSiteRecordType
      *
      * The type of equipment used to gather the raw information from which the data values are determined, e.g. 'loop', 'ANPR' (automatic number plate recognition) or 'urban traffic management system' (such as SCOOT).
      *
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType[] $measurementEquipmentTypeUsed
      * @return self
      */
     public function setMeasurementEquipmentTypeUsed(array $measurementEquipmentTypeUsed)
@@ -228,9 +228,9 @@ class MeasurementSiteRecordType
      * Name of a measurement site.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value
      */
-    public function addToMeasurementSiteName(\Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value)
+    public function addToMeasurementSiteName(\Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType $value)
     {
         $this->measurementSiteName[] = $value;
         return $this;
@@ -267,7 +267,7 @@ class MeasurementSiteRecordType
      *
      * Name of a measurement site.
      *
-     * @return \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[]
      */
     public function getMeasurementSiteName()
     {
@@ -279,7 +279,7 @@ class MeasurementSiteRecordType
      *
      * Name of a measurement site.
      *
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $measurementSiteName
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType[] $measurementSiteName
      * @return self
      */
     public function setMeasurementSiteName(array $measurementSiteName)
@@ -370,9 +370,9 @@ class MeasurementSiteRecordType
      * Adds as measurementSpecificCharacteristics
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType $measurementSpecificCharacteristics
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType $measurementSpecificCharacteristics
      */
-    public function addToMeasurementSpecificCharacteristics(\Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType $measurementSpecificCharacteristics)
+    public function addToMeasurementSpecificCharacteristics(\Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType $measurementSpecificCharacteristics)
     {
         $this->measurementSpecificCharacteristics[] = $measurementSpecificCharacteristics;
         return $this;
@@ -403,7 +403,7 @@ class MeasurementSiteRecordType
     /**
      * Gets as measurementSpecificCharacteristics
      *
-     * @return \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType[]
+     * @return \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType[]
      */
     public function getMeasurementSpecificCharacteristics()
     {
@@ -413,7 +413,7 @@ class MeasurementSiteRecordType
     /**
      * Sets a new measurementSpecificCharacteristics
      *
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType[] $measurementSpecificCharacteristics
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType[] $measurementSpecificCharacteristics
      * @return self
      */
     public function setMeasurementSpecificCharacteristics(array $measurementSpecificCharacteristics)
@@ -425,7 +425,7 @@ class MeasurementSiteRecordType
     /**
      * Gets as measurementSiteLocation
      *
-     * @return \Calcinai\Siri\Datex\LocationType
+     * @return \Calcinai\Siri\Objects\Datex\LocationType
      */
     public function getMeasurementSiteLocation()
     {
@@ -435,10 +435,10 @@ class MeasurementSiteRecordType
     /**
      * Sets a new measurementSiteLocation
      *
-     * @param \Calcinai\Siri\Datex\LocationType $measurementSiteLocation
+     * @param \Calcinai\Siri\Objects\Datex\LocationType $measurementSiteLocation
      * @return self
      */
-    public function setMeasurementSiteLocation(\Calcinai\Siri\Datex\LocationType $measurementSiteLocation)
+    public function setMeasurementSiteLocation(\Calcinai\Siri\Objects\Datex\LocationType $measurementSiteLocation)
     {
         $this->measurementSiteLocation = $measurementSiteLocation;
         return $this;
@@ -447,7 +447,7 @@ class MeasurementSiteRecordType
     /**
      * Gets as measurementSiteRecordExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMeasurementSiteRecordExtension()
     {
@@ -457,10 +457,10 @@ class MeasurementSiteRecordType
     /**
      * Sets a new measurementSiteRecordExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $measurementSiteRecordExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $measurementSiteRecordExtension
      * @return self
      */
-    public function setMeasurementSiteRecordExtension(\Calcinai\Siri\Datex\ExtensionType $measurementSiteRecordExtension)
+    public function setMeasurementSiteRecordExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $measurementSiteRecordExtension)
     {
         $this->measurementSiteRecordExtension = $measurementSiteRecordExtension;
         return $this;

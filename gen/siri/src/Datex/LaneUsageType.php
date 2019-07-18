@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing LaneUsageType
@@ -19,7 +19,7 @@ class LaneUsageType extends AdviceType
     private $laneUsageAdvice = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $laneUsageExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $laneUsageExtension
      */
     private $laneUsageExtension = null;
 
@@ -52,7 +52,7 @@ class LaneUsageType extends AdviceType
     /**
      * Gets as laneUsageExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getLaneUsageExtension()
     {
@@ -62,10 +62,10 @@ class LaneUsageType extends AdviceType
     /**
      * Sets a new laneUsageExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $laneUsageExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $laneUsageExtension
      * @return self
      */
-    public function setLaneUsageExtension(\Calcinai\Siri\Datex\ExtensionType $laneUsageExtension)
+    public function setLaneUsageExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $laneUsageExtension)
     {
         $this->laneUsageExtension = $laneUsageExtension;
         return $this;

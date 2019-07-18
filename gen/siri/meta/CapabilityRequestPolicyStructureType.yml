@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilityRequestPolicyStructureType:
+Calcinai\Siri\Objects\CapabilityRequestPolicyStructureType:
     properties:
         nationalLanguage:
             expose: true

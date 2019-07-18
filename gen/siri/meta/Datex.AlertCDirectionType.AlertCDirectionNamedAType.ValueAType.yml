@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType:
+Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType:
     properties:
         __value:
             expose: true

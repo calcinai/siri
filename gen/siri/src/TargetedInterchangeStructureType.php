@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TargetedInterchangeStructureType
@@ -35,7 +35,7 @@ class TargetedInterchangeStructureType
     /**
      * Link to Interchange stop from which the distributor journey departs. If omitted: the distributor journey stop is the same as the feeder journey stop, i.e. that of theh dated call.
      *
-     * @property \Calcinai\Siri\ContextualisedConnectionLinkStructureType $distributorConnectionLink
+     * @property \Calcinai\Siri\Objects\ContextualisedConnectionLinkStructureType $distributorConnectionLink
      */
     private $distributorConnectionLink = null;
 
@@ -164,7 +164,7 @@ class TargetedInterchangeStructureType
      *
      * Link to Interchange stop from which the distributor journey departs. If omitted: the distributor journey stop is the same as the feeder journey stop, i.e. that of theh dated call.
      *
-     * @return \Calcinai\Siri\ContextualisedConnectionLinkStructureType
+     * @return \Calcinai\Siri\Objects\ContextualisedConnectionLinkStructureType
      */
     public function getDistributorConnectionLink()
     {
@@ -176,10 +176,10 @@ class TargetedInterchangeStructureType
      *
      * Link to Interchange stop from which the distributor journey departs. If omitted: the distributor journey stop is the same as the feeder journey stop, i.e. that of theh dated call.
      *
-     * @param \Calcinai\Siri\ContextualisedConnectionLinkStructureType $distributorConnectionLink
+     * @param \Calcinai\Siri\Objects\ContextualisedConnectionLinkStructureType $distributorConnectionLink
      * @return self
      */
-    public function setDistributorConnectionLink(\Calcinai\Siri\ContextualisedConnectionLinkStructureType $distributorConnectionLink)
+    public function setDistributorConnectionLink(\Calcinai\Siri\Objects\ContextualisedConnectionLinkStructureType $distributorConnectionLink)
     {
         $this->distributorConnectionLink = $distributorConnectionLink;
         return $this;

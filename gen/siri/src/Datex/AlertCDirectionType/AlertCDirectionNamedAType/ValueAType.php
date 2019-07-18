@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType;
+namespace Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType;
 
 /**
  * Class representing ValueAType

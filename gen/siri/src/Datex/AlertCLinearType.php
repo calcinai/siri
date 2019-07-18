@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCLinearType
@@ -33,7 +33,7 @@ class AlertCLinearType
     private $alertCLocationTableVersion = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCLinearExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCLinearExtension
      */
     private $alertCLinearExtension = null;
 
@@ -118,7 +118,7 @@ class AlertCLinearType
     /**
      * Gets as alertCLinearExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCLinearExtension()
     {
@@ -128,10 +128,10 @@ class AlertCLinearType
     /**
      * Sets a new alertCLinearExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCLinearExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCLinearExtension
      * @return self
      */
-    public function setAlertCLinearExtension(\Calcinai\Siri\Datex\ExtensionType $alertCLinearExtension)
+    public function setAlertCLinearExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCLinearExtension)
     {
         $this->alertCLinearExtension = $alertCLinearExtension;
         return $this;

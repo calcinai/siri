@@ -1,4 +1,4 @@
-Calcinai\Siri\PtConsequenceStructureType\SuitabilitiesAType:
+Calcinai\Siri\Objects\PtConsequenceStructureType\SuitabilitiesAType:
     properties:
         suitability:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\PtConsequenceStructureType\SuitabilitiesAType:
                 inline: true
                 entry_name: Suitability
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ACSB\SuitabilityStructureType>
+            type: array<Calcinai\Siri\Objects\ACSB\SuitabilityStructureType>

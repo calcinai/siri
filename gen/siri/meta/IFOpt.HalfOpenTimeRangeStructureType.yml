@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\HalfOpenTimeRangeStructureType:
+Calcinai\Siri\Objects\IFOpt\HalfOpenTimeRangeStructureType:
     properties:
         startTime:
             expose: true

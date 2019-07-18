@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AxleSpacingType
@@ -26,7 +26,7 @@ class AxleSpacingType
     private $axleSpacingSequenceIdentifier = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $axleSpacingExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $axleSpacingExtension
      */
     private $axleSpacingExtension = null;
 
@@ -85,7 +85,7 @@ class AxleSpacingType
     /**
      * Gets as axleSpacingExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAxleSpacingExtension()
     {
@@ -95,10 +95,10 @@ class AxleSpacingType
     /**
      * Sets a new axleSpacingExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $axleSpacingExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $axleSpacingExtension
      * @return self
      */
-    public function setAxleSpacingExtension(\Calcinai\Siri\Datex\ExtensionType $axleSpacingExtension)
+    public function setAxleSpacingExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $axleSpacingExtension)
     {
         $this->axleSpacingExtension = $axleSpacingExtension;
         return $this;

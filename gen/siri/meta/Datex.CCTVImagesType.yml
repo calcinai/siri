@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\CCTVImagesType:
+Calcinai\Siri\Objects\Datex\CCTVImagesType:
     properties:
         cctvUri:
             expose: true
@@ -23,4 +23,4 @@ Calcinai\Siri\Datex\CCTVImagesType:
             accessor:
                 getter: getCctvimagesExtension
                 setter: setCctvimagesExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

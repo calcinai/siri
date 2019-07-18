@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationRefStructureType
@@ -19,7 +19,7 @@ class SituationRefStructureType
     /**
      * Reference to a Situation. Elements of Situation identfier are expressed as atomic elements
      *
-     * @property \Calcinai\Siri\SituationFullRef $situationFullRef
+     * @property \Calcinai\Siri\Objects\SituationFullRef $situationFullRef
      */
     private $situationFullRef = null;
 
@@ -50,7 +50,7 @@ class SituationRefStructureType
      *
      * Reference to a Situation. Elements of Situation identfier are expressed as atomic elements
      *
-     * @return \Calcinai\Siri\SituationFullRef
+     * @return \Calcinai\Siri\Objects\SituationFullRef
      */
     public function getSituationFullRef()
     {
@@ -62,10 +62,10 @@ class SituationRefStructureType
      *
      * Reference to a Situation. Elements of Situation identfier are expressed as atomic elements
      *
-     * @param \Calcinai\Siri\SituationFullRef $situationFullRef
+     * @param \Calcinai\Siri\Objects\SituationFullRef $situationFullRef
      * @return self
      */
-    public function setSituationFullRef(\Calcinai\Siri\SituationFullRef $situationFullRef)
+    public function setSituationFullRef(\Calcinai\Siri\Objects\SituationFullRef $situationFullRef)
     {
         $this->situationFullRef = $situationFullRef;
         return $this;

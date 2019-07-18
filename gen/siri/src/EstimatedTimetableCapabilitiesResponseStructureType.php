@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedTimetableCapabilitiesResponseStructureType
@@ -17,17 +17,17 @@ class EstimatedTimetableCapabilitiesResponseStructureType extends AbstractServic
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedTimetableServiceCapabilities $estimatedTimetableServiceCapabilities
+     * @property \Calcinai\Siri\Objects\EstimatedTimetableServiceCapabilities $estimatedTimetableServiceCapabilities
      */
     private $estimatedTimetableServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedTimetablePermissions $estimatedTimetablePermissions
+     * @property \Calcinai\Siri\Objects\EstimatedTimetablePermissions $estimatedTimetablePermissions
      */
     private $estimatedTimetablePermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -56,7 +56,7 @@ class EstimatedTimetableCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Gets as estimatedTimetableServiceCapabilities
      *
-     * @return \Calcinai\Siri\EstimatedTimetableServiceCapabilities
+     * @return \Calcinai\Siri\Objects\EstimatedTimetableServiceCapabilities
      */
     public function getEstimatedTimetableServiceCapabilities()
     {
@@ -66,10 +66,10 @@ class EstimatedTimetableCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Sets a new estimatedTimetableServiceCapabilities
      *
-     * @param \Calcinai\Siri\EstimatedTimetableServiceCapabilities $estimatedTimetableServiceCapabilities
+     * @param \Calcinai\Siri\Objects\EstimatedTimetableServiceCapabilities $estimatedTimetableServiceCapabilities
      * @return self
      */
-    public function setEstimatedTimetableServiceCapabilities(\Calcinai\Siri\EstimatedTimetableServiceCapabilities $estimatedTimetableServiceCapabilities)
+    public function setEstimatedTimetableServiceCapabilities(\Calcinai\Siri\Objects\EstimatedTimetableServiceCapabilities $estimatedTimetableServiceCapabilities)
     {
         $this->estimatedTimetableServiceCapabilities = $estimatedTimetableServiceCapabilities;
         return $this;
@@ -78,7 +78,7 @@ class EstimatedTimetableCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Gets as estimatedTimetablePermissions
      *
-     * @return \Calcinai\Siri\EstimatedTimetablePermissions
+     * @return \Calcinai\Siri\Objects\EstimatedTimetablePermissions
      */
     public function getEstimatedTimetablePermissions()
     {
@@ -88,10 +88,10 @@ class EstimatedTimetableCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Sets a new estimatedTimetablePermissions
      *
-     * @param \Calcinai\Siri\EstimatedTimetablePermissions $estimatedTimetablePermissions
+     * @param \Calcinai\Siri\Objects\EstimatedTimetablePermissions $estimatedTimetablePermissions
      * @return self
      */
-    public function setEstimatedTimetablePermissions(\Calcinai\Siri\EstimatedTimetablePermissions $estimatedTimetablePermissions)
+    public function setEstimatedTimetablePermissions(\Calcinai\Siri\Objects\EstimatedTimetablePermissions $estimatedTimetablePermissions)
     {
         $this->estimatedTimetablePermissions = $estimatedTimetablePermissions;
         return $this;
@@ -100,7 +100,7 @@ class EstimatedTimetableCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -110,10 +110,10 @@ class EstimatedTimetableCapabilitiesResponseStructureType extends AbstractServic
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

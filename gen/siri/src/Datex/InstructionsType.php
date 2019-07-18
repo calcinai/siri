@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing InstructionsType
@@ -19,7 +19,7 @@ class InstructionsType extends AdviceType
     private $instruction = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $instructionsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $instructionsExtension
      */
     private $instructionsExtension = null;
 
@@ -52,7 +52,7 @@ class InstructionsType extends AdviceType
     /**
      * Gets as instructionsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getInstructionsExtension()
     {
@@ -62,10 +62,10 @@ class InstructionsType extends AdviceType
     /**
      * Sets a new instructionsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $instructionsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $instructionsExtension
      * @return self
      */
-    public function setInstructionsExtension(\Calcinai\Siri\Datex\ExtensionType $instructionsExtension)
+    public function setInstructionsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $instructionsExtension)
     {
         $this->instructionsExtension = $instructionsExtension;
         return $this;

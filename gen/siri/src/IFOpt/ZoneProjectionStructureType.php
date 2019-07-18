@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing ZoneProjectionStructureType
@@ -14,7 +14,7 @@ class ZoneProjectionStructureType extends AbstractProjectionType
     /**
      * Boundary line of Zone as an ordered set of points
      *
-     * @property \Calcinai\Siri\IFOpt\PointProjection[] $boundary
+     * @property \Calcinai\Siri\Objects\IFOpt\PointProjection[] $boundary
      */
     private $boundary = null;
 
@@ -24,9 +24,9 @@ class ZoneProjectionStructureType extends AbstractProjectionType
      * Boundary line of Zone as an ordered set of points
      *
      * @return self
-     * @param \Calcinai\Siri\IFOpt\PointProjection $pointProjection
+     * @param \Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection
      */
-    public function addToBoundary(\Calcinai\Siri\IFOpt\PointProjection $pointProjection)
+    public function addToBoundary(\Calcinai\Siri\Objects\IFOpt\PointProjection $pointProjection)
     {
         $this->boundary[] = $pointProjection;
         return $this;
@@ -63,7 +63,7 @@ class ZoneProjectionStructureType extends AbstractProjectionType
      *
      * Boundary line of Zone as an ordered set of points
      *
-     * @return \Calcinai\Siri\IFOpt\PointProjection[]
+     * @return \Calcinai\Siri\Objects\IFOpt\PointProjection[]
      */
     public function getBoundary()
     {
@@ -75,7 +75,7 @@ class ZoneProjectionStructureType extends AbstractProjectionType
      *
      * Boundary line of Zone as an ordered set of points
      *
-     * @param \Calcinai\Siri\IFOpt\PointProjection[] $boundary
+     * @param \Calcinai\Siri\Objects\IFOpt\PointProjection[] $boundary
      * @return self
      */
     public function setBoundary(array $boundary)

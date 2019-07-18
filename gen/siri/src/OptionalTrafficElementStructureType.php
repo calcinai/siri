@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing OptionalTrafficElementStructureType
@@ -68,69 +68,69 @@ class OptionalTrafficElementStructureType
     private $probabilityOfOccurrence = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SourceInformationType $sourceInformation
+     * @property \Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation
      */
     private $sourceInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ValidityType $validity
+     * @property \Calcinai\Siri\Objects\Datex\ValidityType $validity
      */
     private $validity = null;
 
     /**
      * Impact of Road Situation as specified by Datex2.
      *
-     * @property \Calcinai\Siri\Datex\ImpactType $impact
+     * @property \Calcinai\Siri\Objects\Datex\ImpactType $impact
      */
     private $impact = null;
 
     /**
      * Impact of Road Situation as specified by Datex2 model.
      *
-     * @property \Calcinai\Siri\Datex\CauseType $cause
+     * @property \Calcinai\Siri\Objects\Datex\CauseType $cause
      */
     private $cause = null;
 
     /**
      * Advice of Road Situation as specified by Datex2 model.
      *
-     * @property \Calcinai\Siri\Datex\AdviceType $advice
+     * @property \Calcinai\Siri\Objects\Datex\AdviceType $advice
      */
     private $advice = null;
 
     /**
      * Datex 2 comments for public use
      *
-     * @property \Calcinai\Siri\Datex\CommentType $generalPublicComment
+     * @property \Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment
      */
     private $generalPublicComment = null;
 
     /**
      * Ccomments not for public use
      *
-     * @property \Calcinai\Siri\Datex\CommentType $nonGeneralPublicComment
+     * @property \Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment
      */
     private $nonGeneralPublicComment = null;
 
     /**
      * Datex 2 model of where event ois taking place on teh road
      *
-     * @property \Calcinai\Siri\Datex\GroupOfLocationsType $groupOfLocations
+     * @property \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $groupOfLocations
      */
     private $groupOfLocations = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ManagementType $management
+     * @property \Calcinai\Siri\Objects\Datex\ManagementType $management
      */
     private $management = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $situationRecordExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $situationRecordExtension
      */
     private $situationRecordExtension = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficElementExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficElementExtension
      */
     private $trafficElementExtension = null;
 
@@ -345,7 +345,7 @@ class OptionalTrafficElementStructureType
     /**
      * Gets as sourceInformation
      *
-     * @return \Calcinai\Siri\Datex\SourceInformationType
+     * @return \Calcinai\Siri\Objects\Datex\SourceInformationType
      */
     public function getSourceInformation()
     {
@@ -355,10 +355,10 @@ class OptionalTrafficElementStructureType
     /**
      * Sets a new sourceInformation
      *
-     * @param \Calcinai\Siri\Datex\SourceInformationType $sourceInformation
+     * @param \Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation
      * @return self
      */
-    public function setSourceInformation(\Calcinai\Siri\Datex\SourceInformationType $sourceInformation)
+    public function setSourceInformation(\Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation)
     {
         $this->sourceInformation = $sourceInformation;
         return $this;
@@ -367,7 +367,7 @@ class OptionalTrafficElementStructureType
     /**
      * Gets as validity
      *
-     * @return \Calcinai\Siri\Datex\ValidityType
+     * @return \Calcinai\Siri\Objects\Datex\ValidityType
      */
     public function getValidity()
     {
@@ -377,10 +377,10 @@ class OptionalTrafficElementStructureType
     /**
      * Sets a new validity
      *
-     * @param \Calcinai\Siri\Datex\ValidityType $validity
+     * @param \Calcinai\Siri\Objects\Datex\ValidityType $validity
      * @return self
      */
-    public function setValidity(\Calcinai\Siri\Datex\ValidityType $validity)
+    public function setValidity(\Calcinai\Siri\Objects\Datex\ValidityType $validity)
     {
         $this->validity = $validity;
         return $this;
@@ -391,7 +391,7 @@ class OptionalTrafficElementStructureType
      *
      * Impact of Road Situation as specified by Datex2.
      *
-     * @return \Calcinai\Siri\Datex\ImpactType
+     * @return \Calcinai\Siri\Objects\Datex\ImpactType
      */
     public function getImpact()
     {
@@ -403,10 +403,10 @@ class OptionalTrafficElementStructureType
      *
      * Impact of Road Situation as specified by Datex2.
      *
-     * @param \Calcinai\Siri\Datex\ImpactType $impact
+     * @param \Calcinai\Siri\Objects\Datex\ImpactType $impact
      * @return self
      */
-    public function setImpact(\Calcinai\Siri\Datex\ImpactType $impact)
+    public function setImpact(\Calcinai\Siri\Objects\Datex\ImpactType $impact)
     {
         $this->impact = $impact;
         return $this;
@@ -417,7 +417,7 @@ class OptionalTrafficElementStructureType
      *
      * Impact of Road Situation as specified by Datex2 model.
      *
-     * @return \Calcinai\Siri\Datex\CauseType
+     * @return \Calcinai\Siri\Objects\Datex\CauseType
      */
     public function getCause()
     {
@@ -429,10 +429,10 @@ class OptionalTrafficElementStructureType
      *
      * Impact of Road Situation as specified by Datex2 model.
      *
-     * @param \Calcinai\Siri\Datex\CauseType $cause
+     * @param \Calcinai\Siri\Objects\Datex\CauseType $cause
      * @return self
      */
-    public function setCause(\Calcinai\Siri\Datex\CauseType $cause)
+    public function setCause(\Calcinai\Siri\Objects\Datex\CauseType $cause)
     {
         $this->cause = $cause;
         return $this;
@@ -443,7 +443,7 @@ class OptionalTrafficElementStructureType
      *
      * Advice of Road Situation as specified by Datex2 model.
      *
-     * @return \Calcinai\Siri\Datex\AdviceType
+     * @return \Calcinai\Siri\Objects\Datex\AdviceType
      */
     public function getAdvice()
     {
@@ -455,10 +455,10 @@ class OptionalTrafficElementStructureType
      *
      * Advice of Road Situation as specified by Datex2 model.
      *
-     * @param \Calcinai\Siri\Datex\AdviceType $advice
+     * @param \Calcinai\Siri\Objects\Datex\AdviceType $advice
      * @return self
      */
-    public function setAdvice(\Calcinai\Siri\Datex\AdviceType $advice)
+    public function setAdvice(\Calcinai\Siri\Objects\Datex\AdviceType $advice)
     {
         $this->advice = $advice;
         return $this;
@@ -469,7 +469,7 @@ class OptionalTrafficElementStructureType
      *
      * Datex 2 comments for public use
      *
-     * @return \Calcinai\Siri\Datex\CommentType
+     * @return \Calcinai\Siri\Objects\Datex\CommentType
      */
     public function getGeneralPublicComment()
     {
@@ -481,10 +481,10 @@ class OptionalTrafficElementStructureType
      *
      * Datex 2 comments for public use
      *
-     * @param \Calcinai\Siri\Datex\CommentType $generalPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment
      * @return self
      */
-    public function setGeneralPublicComment(\Calcinai\Siri\Datex\CommentType $generalPublicComment)
+    public function setGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment)
     {
         $this->generalPublicComment = $generalPublicComment;
         return $this;
@@ -495,7 +495,7 @@ class OptionalTrafficElementStructureType
      *
      * Ccomments not for public use
      *
-     * @return \Calcinai\Siri\Datex\CommentType
+     * @return \Calcinai\Siri\Objects\Datex\CommentType
      */
     public function getNonGeneralPublicComment()
     {
@@ -507,10 +507,10 @@ class OptionalTrafficElementStructureType
      *
      * Ccomments not for public use
      *
-     * @param \Calcinai\Siri\Datex\CommentType $nonGeneralPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment
      * @return self
      */
-    public function setNonGeneralPublicComment(\Calcinai\Siri\Datex\CommentType $nonGeneralPublicComment)
+    public function setNonGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment)
     {
         $this->nonGeneralPublicComment = $nonGeneralPublicComment;
         return $this;
@@ -521,7 +521,7 @@ class OptionalTrafficElementStructureType
      *
      * Datex 2 model of where event ois taking place on teh road
      *
-     * @return \Calcinai\Siri\Datex\GroupOfLocationsType
+     * @return \Calcinai\Siri\Objects\Datex\GroupOfLocationsType
      */
     public function getGroupOfLocations()
     {
@@ -533,10 +533,10 @@ class OptionalTrafficElementStructureType
      *
      * Datex 2 model of where event ois taking place on teh road
      *
-     * @param \Calcinai\Siri\Datex\GroupOfLocationsType $groupOfLocations
+     * @param \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $groupOfLocations
      * @return self
      */
-    public function setGroupOfLocations(\Calcinai\Siri\Datex\GroupOfLocationsType $groupOfLocations)
+    public function setGroupOfLocations(\Calcinai\Siri\Objects\Datex\GroupOfLocationsType $groupOfLocations)
     {
         $this->groupOfLocations = $groupOfLocations;
         return $this;
@@ -545,7 +545,7 @@ class OptionalTrafficElementStructureType
     /**
      * Gets as management
      *
-     * @return \Calcinai\Siri\Datex\ManagementType
+     * @return \Calcinai\Siri\Objects\Datex\ManagementType
      */
     public function getManagement()
     {
@@ -555,10 +555,10 @@ class OptionalTrafficElementStructureType
     /**
      * Sets a new management
      *
-     * @param \Calcinai\Siri\Datex\ManagementType $management
+     * @param \Calcinai\Siri\Objects\Datex\ManagementType $management
      * @return self
      */
-    public function setManagement(\Calcinai\Siri\Datex\ManagementType $management)
+    public function setManagement(\Calcinai\Siri\Objects\Datex\ManagementType $management)
     {
         $this->management = $management;
         return $this;
@@ -567,7 +567,7 @@ class OptionalTrafficElementStructureType
     /**
      * Gets as situationRecordExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSituationRecordExtension()
     {
@@ -577,10 +577,10 @@ class OptionalTrafficElementStructureType
     /**
      * Sets a new situationRecordExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $situationRecordExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $situationRecordExtension
      * @return self
      */
-    public function setSituationRecordExtension(\Calcinai\Siri\Datex\ExtensionType $situationRecordExtension)
+    public function setSituationRecordExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $situationRecordExtension)
     {
         $this->situationRecordExtension = $situationRecordExtension;
         return $this;
@@ -589,7 +589,7 @@ class OptionalTrafficElementStructureType
     /**
      * Gets as trafficElementExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficElementExtension()
     {
@@ -599,10 +599,10 @@ class OptionalTrafficElementStructureType
     /**
      * Sets a new trafficElementExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficElementExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficElementExtension
      * @return self
      */
-    public function setTrafficElementExtension(\Calcinai\Siri\Datex\ExtensionType $trafficElementExtension)
+    public function setTrafficElementExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficElementExtension)
     {
         $this->trafficElementExtension = $trafficElementExtension;
         return $this;

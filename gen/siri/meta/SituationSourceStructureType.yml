@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationSourceStructureType:
+Calcinai\Siri\Objects\SituationSourceStructureType:
     properties:
         country:
             expose: true
@@ -99,7 +99,7 @@ Calcinai\Siri\SituationSourceStructureType:
             accessor:
                 getter: getName
                 setter: setName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         sourceRole:
             expose: true
             access_type: public_method

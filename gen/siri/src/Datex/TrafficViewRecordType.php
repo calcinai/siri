@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficViewRecordType
@@ -24,27 +24,27 @@ class TrafficViewRecordType
     private $recordSequenceNumber = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TrafficElementType $trafficElement
+     * @property \Calcinai\Siri\Objects\Datex\TrafficElementType $trafficElement
      */
     private $trafficElement = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\OperatorActionType $operatorAction
+     * @property \Calcinai\Siri\Objects\Datex\OperatorActionType $operatorAction
      */
     private $operatorAction = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ElaboratedDataType $elaboratedData
+     * @property \Calcinai\Siri\Objects\Datex\ElaboratedDataType $elaboratedData
      */
     private $elaboratedData = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\CCTVImagesType $cctvimages
+     * @property \Calcinai\Siri\Objects\Datex\CCTVImagesType $cctvimages
      */
     private $cctvimages = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficViewRecordExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficViewRecordExtension
      */
     private $trafficViewRecordExtension = null;
 
@@ -99,7 +99,7 @@ class TrafficViewRecordType
     /**
      * Gets as trafficElement
      *
-     * @return \Calcinai\Siri\Datex\TrafficElementType
+     * @return \Calcinai\Siri\Objects\Datex\TrafficElementType
      */
     public function getTrafficElement()
     {
@@ -109,10 +109,10 @@ class TrafficViewRecordType
     /**
      * Sets a new trafficElement
      *
-     * @param \Calcinai\Siri\Datex\TrafficElementType $trafficElement
+     * @param \Calcinai\Siri\Objects\Datex\TrafficElementType $trafficElement
      * @return self
      */
-    public function setTrafficElement(\Calcinai\Siri\Datex\TrafficElementType $trafficElement)
+    public function setTrafficElement(\Calcinai\Siri\Objects\Datex\TrafficElementType $trafficElement)
     {
         $this->trafficElement = $trafficElement;
         return $this;
@@ -121,7 +121,7 @@ class TrafficViewRecordType
     /**
      * Gets as operatorAction
      *
-     * @return \Calcinai\Siri\Datex\OperatorActionType
+     * @return \Calcinai\Siri\Objects\Datex\OperatorActionType
      */
     public function getOperatorAction()
     {
@@ -131,10 +131,10 @@ class TrafficViewRecordType
     /**
      * Sets a new operatorAction
      *
-     * @param \Calcinai\Siri\Datex\OperatorActionType $operatorAction
+     * @param \Calcinai\Siri\Objects\Datex\OperatorActionType $operatorAction
      * @return self
      */
-    public function setOperatorAction(\Calcinai\Siri\Datex\OperatorActionType $operatorAction)
+    public function setOperatorAction(\Calcinai\Siri\Objects\Datex\OperatorActionType $operatorAction)
     {
         $this->operatorAction = $operatorAction;
         return $this;
@@ -143,7 +143,7 @@ class TrafficViewRecordType
     /**
      * Gets as elaboratedData
      *
-     * @return \Calcinai\Siri\Datex\ElaboratedDataType
+     * @return \Calcinai\Siri\Objects\Datex\ElaboratedDataType
      */
     public function getElaboratedData()
     {
@@ -153,10 +153,10 @@ class TrafficViewRecordType
     /**
      * Sets a new elaboratedData
      *
-     * @param \Calcinai\Siri\Datex\ElaboratedDataType $elaboratedData
+     * @param \Calcinai\Siri\Objects\Datex\ElaboratedDataType $elaboratedData
      * @return self
      */
-    public function setElaboratedData(\Calcinai\Siri\Datex\ElaboratedDataType $elaboratedData)
+    public function setElaboratedData(\Calcinai\Siri\Objects\Datex\ElaboratedDataType $elaboratedData)
     {
         $this->elaboratedData = $elaboratedData;
         return $this;
@@ -165,7 +165,7 @@ class TrafficViewRecordType
     /**
      * Gets as cctvimages
      *
-     * @return \Calcinai\Siri\Datex\CCTVImagesType
+     * @return \Calcinai\Siri\Objects\Datex\CCTVImagesType
      */
     public function getCctvimages()
     {
@@ -175,10 +175,10 @@ class TrafficViewRecordType
     /**
      * Sets a new cctvimages
      *
-     * @param \Calcinai\Siri\Datex\CCTVImagesType $cctvimages
+     * @param \Calcinai\Siri\Objects\Datex\CCTVImagesType $cctvimages
      * @return self
      */
-    public function setCctvimages(\Calcinai\Siri\Datex\CCTVImagesType $cctvimages)
+    public function setCctvimages(\Calcinai\Siri\Objects\Datex\CCTVImagesType $cctvimages)
     {
         $this->cctvimages = $cctvimages;
         return $this;
@@ -187,7 +187,7 @@ class TrafficViewRecordType
     /**
      * Gets as trafficViewRecordExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficViewRecordExtension()
     {
@@ -197,10 +197,10 @@ class TrafficViewRecordType
     /**
      * Sets a new trafficViewRecordExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficViewRecordExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficViewRecordExtension
      * @return self
      */
-    public function setTrafficViewRecordExtension(\Calcinai\Siri\Datex\ExtensionType $trafficViewRecordExtension)
+    public function setTrafficViewRecordExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficViewRecordExtension)
     {
         $this->trafficViewRecordExtension = $trafficViewRecordExtension;
         return $this;

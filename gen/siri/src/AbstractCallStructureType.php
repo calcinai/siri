@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AbstractCallStructureType
@@ -27,7 +27,7 @@ class AbstractCallStructureType
     private $order = null;
 
     /**
-     * @property \Calcinai\Siri\StopPointName $stopPointName
+     * @property \Calcinai\Siri\Objects\StopPointName $stopPointName
      */
     private $stopPointName = null;
 
@@ -100,7 +100,7 @@ class AbstractCallStructureType
     /**
      * Gets as stopPointName
      *
-     * @return \Calcinai\Siri\StopPointName
+     * @return \Calcinai\Siri\Objects\StopPointName
      */
     public function getStopPointName()
     {
@@ -110,10 +110,10 @@ class AbstractCallStructureType
     /**
      * Sets a new stopPointName
      *
-     * @param \Calcinai\Siri\StopPointName $stopPointName
+     * @param \Calcinai\Siri\Objects\StopPointName $stopPointName
      * @return self
      */
-    public function setStopPointName(\Calcinai\Siri\StopPointName $stopPointName)
+    public function setStopPointName(\Calcinai\Siri\Objects\StopPointName $stopPointName)
     {
         $this->stopPointName = $stopPointName;
         return $this;

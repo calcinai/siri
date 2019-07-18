@@ -1,4 +1,4 @@
-Calcinai\Siri\SectionRefStructureType:
+Calcinai\Siri\Objects\SectionRefStructureType:
     properties:
         __value:
             expose: true

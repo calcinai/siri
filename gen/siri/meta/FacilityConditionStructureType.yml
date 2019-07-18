@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityConditionStructureType:
+Calcinai\Siri\Objects\FacilityConditionStructureType:
     properties:
         facility:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getFacility
                 setter: setFacility
-            type: Calcinai\Siri\FacilityStructureType
+            type: Calcinai\Siri\Objects\FacilityStructureType
         facilityRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getFacilityRef
                 setter: setFacilityRef
-            type: Calcinai\Siri\FacilityRef
+            type: Calcinai\Siri\Objects\FacilityRef
         facilityStatus:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getFacilityStatus
                 setter: setFacilityStatus
-            type: Calcinai\Siri\FacilityStatusStructureType
+            type: Calcinai\Siri\Objects\FacilityStatusStructureType
         situationRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getSituationRef
                 setter: setSituationRef
-            type: Calcinai\Siri\SituationRef
+            type: Calcinai\Siri\Objects\SituationRef
         remedy:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getRemedy
                 setter: setRemedy
-            type: Calcinai\Siri\RemedyStructureType
+            type: Calcinai\Siri\Objects\RemedyStructureType
         monitoringInfo:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getMonitoringInfo
                 setter: setMonitoringInfo
-            type: Calcinai\Siri\MonitoringInformationStructureType
+            type: Calcinai\Siri\Objects\MonitoringInformationStructureType
         validityPeriod:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: Calcinai\Siri\HalfOpenTimestampRangeStructureType
+            type: Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType
         extensions:
             expose: true
             access_type: public_method
@@ -79,4 +79,4 @@ Calcinai\Siri\FacilityConditionStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\AlertCLocationType;
+namespace Calcinai\Siri\Objects\Datex\AlertCLocationType;
 
 /**
  * Class representing AlertCLocationNameAType
@@ -9,7 +9,7 @@ class AlertCLocationNameAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class AlertCLocationNameAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class AlertCLocationNameAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class AlertCLocationNameAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

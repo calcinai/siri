@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ErrorCondition
@@ -11,46 +11,46 @@ class ErrorCondition
 {
 
     /**
-     * @property \Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError
+     * @property \Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError
      */
     private $capabilityNotSupportedError = null;
 
     /**
-     * @property \Calcinai\Siri\AccessNotAllowedError $accessNotAllowedError
+     * @property \Calcinai\Siri\Objects\AccessNotAllowedError $accessNotAllowedError
      */
     private $accessNotAllowedError = null;
 
     /**
-     * @property \Calcinai\Siri\NoInfoForTopicError $noInfoForTopicError
+     * @property \Calcinai\Siri\Objects\NoInfoForTopicError $noInfoForTopicError
      */
     private $noInfoForTopicError = null;
 
     /**
-     * @property \Calcinai\Siri\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
+     * @property \Calcinai\Siri\Objects\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
      */
     private $allowedResourceUsageExceededError = null;
 
     /**
-     * @property \Calcinai\Siri\UnknownSubscriptionError $unknownSubscriptionError
+     * @property \Calcinai\Siri\Objects\UnknownSubscriptionError $unknownSubscriptionError
      */
     private $unknownSubscriptionError = null;
 
     /**
-     * @property \Calcinai\Siri\OtherError $otherError
+     * @property \Calcinai\Siri\Objects\OtherError $otherError
      */
     private $otherError = null;
 
     /**
      * Text description of error.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      */
     private $description = null;
 
     /**
      * Gets as capabilityNotSupportedError
      *
-     * @return \Calcinai\Siri\CapabilityNotSupportedError
+     * @return \Calcinai\Siri\Objects\CapabilityNotSupportedError
      */
     public function getCapabilityNotSupportedError()
     {
@@ -60,10 +60,10 @@ class ErrorCondition
     /**
      * Sets a new capabilityNotSupportedError
      *
-     * @param \Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError
+     * @param \Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError
      * @return self
      */
-    public function setCapabilityNotSupportedError(\Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError)
+    public function setCapabilityNotSupportedError(\Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError)
     {
         $this->capabilityNotSupportedError = $capabilityNotSupportedError;
         return $this;
@@ -72,7 +72,7 @@ class ErrorCondition
     /**
      * Gets as accessNotAllowedError
      *
-     * @return \Calcinai\Siri\AccessNotAllowedError
+     * @return \Calcinai\Siri\Objects\AccessNotAllowedError
      */
     public function getAccessNotAllowedError()
     {
@@ -82,10 +82,10 @@ class ErrorCondition
     /**
      * Sets a new accessNotAllowedError
      *
-     * @param \Calcinai\Siri\AccessNotAllowedError $accessNotAllowedError
+     * @param \Calcinai\Siri\Objects\AccessNotAllowedError $accessNotAllowedError
      * @return self
      */
-    public function setAccessNotAllowedError(\Calcinai\Siri\AccessNotAllowedError $accessNotAllowedError)
+    public function setAccessNotAllowedError(\Calcinai\Siri\Objects\AccessNotAllowedError $accessNotAllowedError)
     {
         $this->accessNotAllowedError = $accessNotAllowedError;
         return $this;
@@ -94,7 +94,7 @@ class ErrorCondition
     /**
      * Gets as noInfoForTopicError
      *
-     * @return \Calcinai\Siri\NoInfoForTopicError
+     * @return \Calcinai\Siri\Objects\NoInfoForTopicError
      */
     public function getNoInfoForTopicError()
     {
@@ -104,10 +104,10 @@ class ErrorCondition
     /**
      * Sets a new noInfoForTopicError
      *
-     * @param \Calcinai\Siri\NoInfoForTopicError $noInfoForTopicError
+     * @param \Calcinai\Siri\Objects\NoInfoForTopicError $noInfoForTopicError
      * @return self
      */
-    public function setNoInfoForTopicError(\Calcinai\Siri\NoInfoForTopicError $noInfoForTopicError)
+    public function setNoInfoForTopicError(\Calcinai\Siri\Objects\NoInfoForTopicError $noInfoForTopicError)
     {
         $this->noInfoForTopicError = $noInfoForTopicError;
         return $this;
@@ -116,7 +116,7 @@ class ErrorCondition
     /**
      * Gets as allowedResourceUsageExceededError
      *
-     * @return \Calcinai\Siri\AllowedResourceUsageExceededError
+     * @return \Calcinai\Siri\Objects\AllowedResourceUsageExceededError
      */
     public function getAllowedResourceUsageExceededError()
     {
@@ -126,10 +126,10 @@ class ErrorCondition
     /**
      * Sets a new allowedResourceUsageExceededError
      *
-     * @param \Calcinai\Siri\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
+     * @param \Calcinai\Siri\Objects\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
      * @return self
      */
-    public function setAllowedResourceUsageExceededError(\Calcinai\Siri\AllowedResourceUsageExceededError $allowedResourceUsageExceededError)
+    public function setAllowedResourceUsageExceededError(\Calcinai\Siri\Objects\AllowedResourceUsageExceededError $allowedResourceUsageExceededError)
     {
         $this->allowedResourceUsageExceededError = $allowedResourceUsageExceededError;
         return $this;
@@ -138,7 +138,7 @@ class ErrorCondition
     /**
      * Gets as unknownSubscriptionError
      *
-     * @return \Calcinai\Siri\UnknownSubscriptionError
+     * @return \Calcinai\Siri\Objects\UnknownSubscriptionError
      */
     public function getUnknownSubscriptionError()
     {
@@ -148,10 +148,10 @@ class ErrorCondition
     /**
      * Sets a new unknownSubscriptionError
      *
-     * @param \Calcinai\Siri\UnknownSubscriptionError $unknownSubscriptionError
+     * @param \Calcinai\Siri\Objects\UnknownSubscriptionError $unknownSubscriptionError
      * @return self
      */
-    public function setUnknownSubscriptionError(\Calcinai\Siri\UnknownSubscriptionError $unknownSubscriptionError)
+    public function setUnknownSubscriptionError(\Calcinai\Siri\Objects\UnknownSubscriptionError $unknownSubscriptionError)
     {
         $this->unknownSubscriptionError = $unknownSubscriptionError;
         return $this;
@@ -160,7 +160,7 @@ class ErrorCondition
     /**
      * Gets as otherError
      *
-     * @return \Calcinai\Siri\OtherError
+     * @return \Calcinai\Siri\Objects\OtherError
      */
     public function getOtherError()
     {
@@ -170,10 +170,10 @@ class ErrorCondition
     /**
      * Sets a new otherError
      *
-     * @param \Calcinai\Siri\OtherError $otherError
+     * @param \Calcinai\Siri\Objects\OtherError $otherError
      * @return self
      */
-    public function setOtherError(\Calcinai\Siri\OtherError $otherError)
+    public function setOtherError(\Calcinai\Siri\Objects\OtherError $otherError)
     {
         $this->otherError = $otherError;
         return $this;
@@ -184,7 +184,7 @@ class ErrorCondition
      *
      * Text description of error.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDescription()
     {
@@ -196,10 +196,10 @@ class ErrorCondition
      *
      * Text description of error.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      * @return self
      */
-    public function setDescription(\Calcinai\Siri\NaturalLanguageStringStructureType $description)
+    public function setDescription(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description)
     {
         $this->description = $description;
         return $this;

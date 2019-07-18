@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedRouteStructureType
@@ -21,7 +21,7 @@ class AffectedRouteStructureType
     /**
      * Directions affected.
      *
-     * @property \Calcinai\Siri\DirectionStructureType[] $direction
+     * @property \Calcinai\Siri\Objects\DirectionStructureType[] $direction
      */
     private $direction = [
         
@@ -30,7 +30,7 @@ class AffectedRouteStructureType
     /**
      * Line sections affected
      *
-     * @property \Calcinai\Siri\AffectedSectionStructureType[] $sections
+     * @property \Calcinai\Siri\Objects\AffectedSectionStructureType[] $sections
      */
     private $sections = null;
 
@@ -42,7 +42,7 @@ class AffectedRouteStructureType
     private $routeLinks = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -78,9 +78,9 @@ class AffectedRouteStructureType
      * Directions affected.
      *
      * @return self
-     * @param \Calcinai\Siri\DirectionStructureType $direction
+     * @param \Calcinai\Siri\Objects\DirectionStructureType $direction
      */
-    public function addToDirection(\Calcinai\Siri\DirectionStructureType $direction)
+    public function addToDirection(\Calcinai\Siri\Objects\DirectionStructureType $direction)
     {
         $this->direction[] = $direction;
         return $this;
@@ -117,7 +117,7 @@ class AffectedRouteStructureType
      *
      * Directions affected.
      *
-     * @return \Calcinai\Siri\DirectionStructureType[]
+     * @return \Calcinai\Siri\Objects\DirectionStructureType[]
      */
     public function getDirection()
     {
@@ -129,7 +129,7 @@ class AffectedRouteStructureType
      *
      * Directions affected.
      *
-     * @param \Calcinai\Siri\DirectionStructureType[] $direction
+     * @param \Calcinai\Siri\Objects\DirectionStructureType[] $direction
      * @return self
      */
     public function setDirection(array $direction)
@@ -144,9 +144,9 @@ class AffectedRouteStructureType
      * Line sections affected
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedSectionStructureType $affectedSection
+     * @param \Calcinai\Siri\Objects\AffectedSectionStructureType $affectedSection
      */
-    public function addToSections(\Calcinai\Siri\AffectedSectionStructureType $affectedSection)
+    public function addToSections(\Calcinai\Siri\Objects\AffectedSectionStructureType $affectedSection)
     {
         $this->sections[] = $affectedSection;
         return $this;
@@ -183,7 +183,7 @@ class AffectedRouteStructureType
      *
      * Line sections affected
      *
-     * @return \Calcinai\Siri\AffectedSectionStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedSectionStructureType[]
      */
     public function getSections()
     {
@@ -195,7 +195,7 @@ class AffectedRouteStructureType
      *
      * Line sections affected
      *
-     * @param \Calcinai\Siri\AffectedSectionStructureType[] $sections
+     * @param \Calcinai\Siri\Objects\AffectedSectionStructureType[] $sections
      * @return self
      */
     public function setSections(array $sections)
@@ -273,7 +273,7 @@ class AffectedRouteStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -283,10 +283,10 @@ class AffectedRouteStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

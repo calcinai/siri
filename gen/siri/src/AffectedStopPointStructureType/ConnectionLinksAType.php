@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedStopPointStructureType;
+namespace Calcinai\Siri\Objects\AffectedStopPointStructureType;
 
 /**
  * Class representing ConnectionLinksAType
@@ -11,7 +11,7 @@ class ConnectionLinksAType
     /**
      * Connection links from stop that are affected.
      *
-     * @property \Calcinai\Siri\AffectedConnectionLinkStructureType[] $affectedConnectionLink
+     * @property \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[] $affectedConnectionLink
      */
     private $affectedConnectionLink = [
         
@@ -23,9 +23,9 @@ class ConnectionLinksAType
      * Connection links from stop that are affected.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedConnectionLinkStructureType $affectedConnectionLink
+     * @param \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType $affectedConnectionLink
      */
-    public function addToAffectedConnectionLink(\Calcinai\Siri\AffectedConnectionLinkStructureType $affectedConnectionLink)
+    public function addToAffectedConnectionLink(\Calcinai\Siri\Objects\AffectedConnectionLinkStructureType $affectedConnectionLink)
     {
         $this->affectedConnectionLink[] = $affectedConnectionLink;
         return $this;
@@ -62,7 +62,7 @@ class ConnectionLinksAType
      *
      * Connection links from stop that are affected.
      *
-     * @return \Calcinai\Siri\AffectedConnectionLinkStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[]
      */
     public function getAffectedConnectionLink()
     {
@@ -74,7 +74,7 @@ class ConnectionLinksAType
      *
      * Connection links from stop that are affected.
      *
-     * @param \Calcinai\Siri\AffectedConnectionLinkStructureType[] $affectedConnectionLink
+     * @param \Calcinai\Siri\Objects\AffectedConnectionLinkStructureType[] $affectedConnectionLink
      * @return self
      */
     public function setAffectedConnectionLink(array $affectedConnectionLink)

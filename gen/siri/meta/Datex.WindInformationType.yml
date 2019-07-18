@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\WindInformationType:
+Calcinai\Siri\Objects\Datex\WindInformationType:
     properties:
         wind:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\WindInformationType:
             accessor:
                 getter: getWind
                 setter: setWind
-            type: Calcinai\Siri\Datex\WindType
+            type: Calcinai\Siri\Objects\Datex\WindType
         windInformationExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\WindInformationType:
             accessor:
                 getter: getWindInformationExtension
                 setter: setWindInformationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopMonitoringSubscriptionStructureType
@@ -12,7 +12,7 @@ class StopMonitoringSubscriptionStructureType extends AbstractSubscriptionStruct
 {
 
     /**
-     * @property \Calcinai\Siri\StopMonitoringRequest $stopMonitoringRequest
+     * @property \Calcinai\Siri\Objects\StopMonitoringRequest $stopMonitoringRequest
      */
     private $stopMonitoringRequest = null;
 
@@ -32,14 +32,14 @@ class StopMonitoringSubscriptionStructureType extends AbstractSubscriptionStruct
     private $changeBeforeUpdates = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
     /**
      * Gets as stopMonitoringRequest
      *
-     * @return \Calcinai\Siri\StopMonitoringRequest
+     * @return \Calcinai\Siri\Objects\StopMonitoringRequest
      */
     public function getStopMonitoringRequest()
     {
@@ -49,10 +49,10 @@ class StopMonitoringSubscriptionStructureType extends AbstractSubscriptionStruct
     /**
      * Sets a new stopMonitoringRequest
      *
-     * @param \Calcinai\Siri\StopMonitoringRequest $stopMonitoringRequest
+     * @param \Calcinai\Siri\Objects\StopMonitoringRequest $stopMonitoringRequest
      * @return self
      */
-    public function setStopMonitoringRequest(\Calcinai\Siri\StopMonitoringRequest $stopMonitoringRequest)
+    public function setStopMonitoringRequest(\Calcinai\Siri\Objects\StopMonitoringRequest $stopMonitoringRequest)
     {
         $this->stopMonitoringRequest = $stopMonitoringRequest;
         return $this;
@@ -115,7 +115,7 @@ class StopMonitoringSubscriptionStructureType extends AbstractSubscriptionStruct
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -125,10 +125,10 @@ class StopMonitoringSubscriptionStructureType extends AbstractSubscriptionStruct
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

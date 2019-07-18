@@ -1,4 +1,4 @@
-Calcinai\Siri\AssistanceFacility:
+Calcinai\Siri\Objects\AssistanceFacility:
     xml_root_name: AssistanceFacility
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

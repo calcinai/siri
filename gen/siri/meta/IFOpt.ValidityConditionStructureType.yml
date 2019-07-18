@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\ValidityConditionStructureType:
+Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType:
     properties:
         fromDateTime:
             expose: true
@@ -43,4 +43,4 @@ Calcinai\Siri\IFOpt\ValidityConditionStructureType:
                 inline: true
                 entry_name: Timebands
                 namespace: 'http://www.ifopt.org.uk/ifopt'
-            type: array<Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType>
+            type: array<Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType\TimebandsAType>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MeasurementSiteTableType
@@ -31,14 +31,14 @@ class MeasurementSiteTableType
     private $measurementSiteTableVersion = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\MeasurementSiteRecordType[] $measurementSiteRecord
+     * @property \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType[] $measurementSiteRecord
      */
     private $measurementSiteRecord = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $measurementSiteTableExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $measurementSiteTableExtension
      */
     private $measurementSiteTableExtension = null;
 
@@ -120,9 +120,9 @@ class MeasurementSiteTableType
      * Adds as measurementSiteRecord
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType $measurementSiteRecord
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType $measurementSiteRecord
      */
-    public function addToMeasurementSiteRecord(\Calcinai\Siri\Datex\MeasurementSiteRecordType $measurementSiteRecord)
+    public function addToMeasurementSiteRecord(\Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType $measurementSiteRecord)
     {
         $this->measurementSiteRecord[] = $measurementSiteRecord;
         return $this;
@@ -153,7 +153,7 @@ class MeasurementSiteTableType
     /**
      * Gets as measurementSiteRecord
      *
-     * @return \Calcinai\Siri\Datex\MeasurementSiteRecordType[]
+     * @return \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType[]
      */
     public function getMeasurementSiteRecord()
     {
@@ -163,7 +163,7 @@ class MeasurementSiteTableType
     /**
      * Sets a new measurementSiteRecord
      *
-     * @param \Calcinai\Siri\Datex\MeasurementSiteRecordType[] $measurementSiteRecord
+     * @param \Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType[] $measurementSiteRecord
      * @return self
      */
     public function setMeasurementSiteRecord(array $measurementSiteRecord)
@@ -175,7 +175,7 @@ class MeasurementSiteTableType
     /**
      * Gets as measurementSiteTableExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMeasurementSiteTableExtension()
     {
@@ -185,10 +185,10 @@ class MeasurementSiteTableType
     /**
      * Sets a new measurementSiteTableExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $measurementSiteTableExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $measurementSiteTableExtension
      * @return self
      */
-    public function setMeasurementSiteTableExtension(\Calcinai\Siri\Datex\ExtensionType $measurementSiteTableExtension)
+    public function setMeasurementSiteTableExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $measurementSiteTableExtension)
     {
         $this->measurementSiteTableExtension = $measurementSiteTableExtension;
         return $this;

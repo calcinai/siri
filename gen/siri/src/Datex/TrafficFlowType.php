@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficFlowType
@@ -40,7 +40,7 @@ class TrafficFlowType extends TrafficValueType
     private $vehicleFlow = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficFlowExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficFlowExtension
      */
     private $trafficFlowExtension = null;
 
@@ -151,7 +151,7 @@ class TrafficFlowType extends TrafficValueType
     /**
      * Gets as trafficFlowExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficFlowExtension()
     {
@@ -161,10 +161,10 @@ class TrafficFlowType extends TrafficValueType
     /**
      * Sets a new trafficFlowExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficFlowExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficFlowExtension
      * @return self
      */
-    public function setTrafficFlowExtension(\Calcinai\Siri\Datex\ExtensionType $trafficFlowExtension)
+    public function setTrafficFlowExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficFlowExtension)
     {
         $this->trafficFlowExtension = $trafficFlowExtension;
         return $this;

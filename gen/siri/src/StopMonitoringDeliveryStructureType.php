@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopMonitoringDeliveryStructureType
@@ -28,40 +28,40 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * A visit to a stop by a vehicle as an arrival and /or departure.
      *
-     * @property \Calcinai\Siri\MonitoredStopVisitStructureType $monitoredStopVisit
+     * @property \Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit
      */
     private $monitoredStopVisit = null;
 
     /**
      * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
      *
-     * @property \Calcinai\Siri\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation
+     * @property \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation
      */
     private $monitoredStopVisitCancellation = null;
 
     /**
      * Line notice for stop
      *
-     * @property \Calcinai\Siri\StopLineNoticeStructureType $stopLineNotice
+     * @property \Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice
      */
     private $stopLineNotice = null;
 
     /**
      * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
      *
-     * @property \Calcinai\Siri\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation
+     * @property \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation
      */
     private $stopLineNoticeCancellation = null;
 
     /**
      * Text associated with whole delivery.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $note
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $note
      */
     private $note = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -122,7 +122,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * A visit to a stop by a vehicle as an arrival and /or departure.
      *
-     * @return \Calcinai\Siri\MonitoredStopVisitStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredStopVisitStructureType
      */
     public function getMonitoredStopVisit()
     {
@@ -134,10 +134,10 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * A visit to a stop by a vehicle as an arrival and /or departure.
      *
-     * @param \Calcinai\Siri\MonitoredStopVisitStructureType $monitoredStopVisit
+     * @param \Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit
      * @return self
      */
-    public function setMonitoredStopVisit(\Calcinai\Siri\MonitoredStopVisitStructureType $monitoredStopVisit)
+    public function setMonitoredStopVisit(\Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit)
     {
         $this->monitoredStopVisit = $monitoredStopVisit;
         return $this;
@@ -148,7 +148,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
      *
-     * @return \Calcinai\Siri\MonitoredStopVisitCancellationStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType
      */
     public function getMonitoredStopVisitCancellation()
     {
@@ -160,10 +160,10 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
      *
-     * @param \Calcinai\Siri\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation
+     * @param \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation
      * @return self
      */
-    public function setMonitoredStopVisitCancellation(\Calcinai\Siri\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation)
+    public function setMonitoredStopVisitCancellation(\Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation)
     {
         $this->monitoredStopVisitCancellation = $monitoredStopVisitCancellation;
         return $this;
@@ -174,7 +174,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Line notice for stop
      *
-     * @return \Calcinai\Siri\StopLineNoticeStructureType
+     * @return \Calcinai\Siri\Objects\StopLineNoticeStructureType
      */
     public function getStopLineNotice()
     {
@@ -186,10 +186,10 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Line notice for stop
      *
-     * @param \Calcinai\Siri\StopLineNoticeStructureType $stopLineNotice
+     * @param \Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice
      * @return self
      */
-    public function setStopLineNotice(\Calcinai\Siri\StopLineNoticeStructureType $stopLineNotice)
+    public function setStopLineNotice(\Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice)
     {
         $this->stopLineNotice = $stopLineNotice;
         return $this;
@@ -200,7 +200,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
      *
-     * @return \Calcinai\Siri\StopLineNoticeCancellationStructureType
+     * @return \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType
      */
     public function getStopLineNoticeCancellation()
     {
@@ -212,10 +212,10 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
      *
-     * @param \Calcinai\Siri\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation
+     * @param \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation
      * @return self
      */
-    public function setStopLineNoticeCancellation(\Calcinai\Siri\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation)
+    public function setStopLineNoticeCancellation(\Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation)
     {
         $this->stopLineNoticeCancellation = $stopLineNoticeCancellation;
         return $this;
@@ -226,7 +226,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Text associated with whole delivery.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getNote()
     {
@@ -238,10 +238,10 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Text associated with whole delivery.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $note
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $note
      * @return self
      */
-    public function setNote(\Calcinai\Siri\NaturalLanguageStringStructureType $note)
+    public function setNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $note)
     {
         $this->note = $note;
         return $this;
@@ -250,7 +250,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -260,10 +260,10 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

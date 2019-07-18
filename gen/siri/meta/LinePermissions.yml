@@ -1,4 +1,4 @@
-Calcinai\Siri\LinePermissions:
+Calcinai\Siri\Objects\LinePermissions:
     xml_root_name: LinePermissions
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -25,4 +25,4 @@ Calcinai\Siri\LinePermissions:
                 inline: true
                 entry_name: LinePermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\LinePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\LinePermissionStructureType>

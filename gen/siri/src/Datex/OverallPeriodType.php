@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing OverallPeriodType
@@ -26,21 +26,21 @@ class OverallPeriodType
     private $overallEndTime = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\PeriodType[] $validPeriod
+     * @property \Calcinai\Siri\Objects\Datex\PeriodType[] $validPeriod
      */
     private $validPeriod = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\PeriodType[] $exceptionPeriod
+     * @property \Calcinai\Siri\Objects\Datex\PeriodType[] $exceptionPeriod
      */
     private $exceptionPeriod = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $overallPeriodExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $overallPeriodExtension
      */
     private $overallPeriodExtension = null;
 
@@ -100,9 +100,9 @@ class OverallPeriodType
      * Adds as validPeriod
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PeriodType $validPeriod
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType $validPeriod
      */
-    public function addToValidPeriod(\Calcinai\Siri\Datex\PeriodType $validPeriod)
+    public function addToValidPeriod(\Calcinai\Siri\Objects\Datex\PeriodType $validPeriod)
     {
         $this->validPeriod[] = $validPeriod;
         return $this;
@@ -133,7 +133,7 @@ class OverallPeriodType
     /**
      * Gets as validPeriod
      *
-     * @return \Calcinai\Siri\Datex\PeriodType[]
+     * @return \Calcinai\Siri\Objects\Datex\PeriodType[]
      */
     public function getValidPeriod()
     {
@@ -143,7 +143,7 @@ class OverallPeriodType
     /**
      * Sets a new validPeriod
      *
-     * @param \Calcinai\Siri\Datex\PeriodType[] $validPeriod
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType[] $validPeriod
      * @return self
      */
     public function setValidPeriod(array $validPeriod)
@@ -156,9 +156,9 @@ class OverallPeriodType
      * Adds as exceptionPeriod
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PeriodType $exceptionPeriod
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType $exceptionPeriod
      */
-    public function addToExceptionPeriod(\Calcinai\Siri\Datex\PeriodType $exceptionPeriod)
+    public function addToExceptionPeriod(\Calcinai\Siri\Objects\Datex\PeriodType $exceptionPeriod)
     {
         $this->exceptionPeriod[] = $exceptionPeriod;
         return $this;
@@ -189,7 +189,7 @@ class OverallPeriodType
     /**
      * Gets as exceptionPeriod
      *
-     * @return \Calcinai\Siri\Datex\PeriodType[]
+     * @return \Calcinai\Siri\Objects\Datex\PeriodType[]
      */
     public function getExceptionPeriod()
     {
@@ -199,7 +199,7 @@ class OverallPeriodType
     /**
      * Sets a new exceptionPeriod
      *
-     * @param \Calcinai\Siri\Datex\PeriodType[] $exceptionPeriod
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType[] $exceptionPeriod
      * @return self
      */
     public function setExceptionPeriod(array $exceptionPeriod)
@@ -211,7 +211,7 @@ class OverallPeriodType
     /**
      * Gets as overallPeriodExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getOverallPeriodExtension()
     {
@@ -221,10 +221,10 @@ class OverallPeriodType
     /**
      * Sets a new overallPeriodExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $overallPeriodExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $overallPeriodExtension
      * @return self
      */
-    public function setOverallPeriodExtension(\Calcinai\Siri\Datex\ExtensionType $overallPeriodExtension)
+    public function setOverallPeriodExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $overallPeriodExtension)
     {
         $this->overallPeriodExtension = $overallPeriodExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType:
+Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType:
     properties:
         topicFiltering:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType:
             accessor:
                 getter: getTopicFiltering
                 setter: setTopicFiltering
-            type: Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType
+            type: Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType
         requestPolicy:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType:
             accessor:
                 getter: getRequestPolicy
                 setter: setRequestPolicy
-            type: Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType
+            type: Calcinai\Siri\Objects\StopMonitoringCapabilityRequestPolicyStructureType
         accessControl:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType:
             accessor:
                 getter: getAccessControl
                 setter: setAccessControl
-            type: Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\AccessControlAType
+            type: Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\AccessControlAType
         extensions:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

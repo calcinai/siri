@@ -1,4 +1,4 @@
-Calcinai\Siri\FilterByConnectionLinkRef:
+Calcinai\Siri\Objects\FilterByConnectionLinkRef:
     xml_root_name: FilterByConnectionLinkRef
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

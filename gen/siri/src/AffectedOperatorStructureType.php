@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedOperatorStructureType
@@ -21,14 +21,14 @@ class AffectedOperatorStructureType
     /**
      * Public Name of Operator. Can be derived from OperatorRef.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $operatorName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $operatorName
      */
     private $operatorName = null;
 
     /**
      * Short Name for Operator. Can be derived from OperatorRef
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $operatorShortName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $operatorShortName
      */
     private $operatorShortName = null;
 
@@ -42,7 +42,7 @@ class AffectedOperatorStructureType
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -77,7 +77,7 @@ class AffectedOperatorStructureType
      *
      * Public Name of Operator. Can be derived from OperatorRef.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getOperatorName()
     {
@@ -89,10 +89,10 @@ class AffectedOperatorStructureType
      *
      * Public Name of Operator. Can be derived from OperatorRef.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $operatorName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $operatorName
      * @return self
      */
-    public function setOperatorName(\Calcinai\Siri\NaturalLanguageStringStructureType $operatorName)
+    public function setOperatorName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $operatorName)
     {
         $this->operatorName = $operatorName;
         return $this;
@@ -103,7 +103,7 @@ class AffectedOperatorStructureType
      *
      * Short Name for Operator. Can be derived from OperatorRef
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getOperatorShortName()
     {
@@ -115,10 +115,10 @@ class AffectedOperatorStructureType
      *
      * Short Name for Operator. Can be derived from OperatorRef
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $operatorShortName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $operatorShortName
      * @return self
      */
-    public function setOperatorShortName(\Calcinai\Siri\NaturalLanguageStringStructureType $operatorShortName)
+    public function setOperatorShortName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $operatorShortName)
     {
         $this->operatorShortName = $operatorShortName;
         return $this;
@@ -193,7 +193,7 @@ class AffectedOperatorStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -203,10 +203,10 @@ class AffectedOperatorStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ConstructionWorksType
@@ -19,7 +19,7 @@ class ConstructionWorksType extends RoadworksType
     private $constructionWorkType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $constructionWorksExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $constructionWorksExtension
      */
     private $constructionWorksExtension = null;
 
@@ -52,7 +52,7 @@ class ConstructionWorksType extends RoadworksType
     /**
      * Gets as constructionWorksExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getConstructionWorksExtension()
     {
@@ -62,10 +62,10 @@ class ConstructionWorksType extends RoadworksType
     /**
      * Sets a new constructionWorksExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $constructionWorksExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $constructionWorksExtension
      * @return self
      */
-    public function setConstructionWorksExtension(\Calcinai\Siri\Datex\ExtensionType $constructionWorksExtension)
+    public function setConstructionWorksExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $constructionWorksExtension)
     {
         $this->constructionWorksExtension = $constructionWorksExtension;
         return $this;

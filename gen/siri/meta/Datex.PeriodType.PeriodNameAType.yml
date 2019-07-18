@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PeriodType\PeriodNameAType:
+Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType:
     properties:
         value:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\Datex\PeriodType\PeriodNameAType:
                 inline: true
                 entry_name: value
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType>
+            type: array<Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType>

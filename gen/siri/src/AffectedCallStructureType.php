@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedCallStructureType
@@ -33,7 +33,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     /**
      * Exact location that vehicle will take up / or has taken at stop point.
      *
-     * @property \Calcinai\Siri\LocationStructureType $vehicleLocationAtStop
+     * @property \Calcinai\Siri\Objects\LocationStructureType $vehicleLocationAtStop
      */
     private $vehicleLocationAtStop = null;
 
@@ -58,7 +58,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     private $arrivalStatus = null;
 
     /**
-     * @property \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @property \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      */
     private $arrivalPlatformName = null;
 
@@ -88,7 +88,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     private $departureStatus = null;
 
     /**
-     * @property \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @property \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      */
     private $departurePlatformName = null;
 
@@ -108,7 +108,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     private $expectedHeadwayInterval = null;
 
     /**
-     * @property \Calcinai\Siri\AffectedInterchangeStructureType[] $affectedInterchange
+     * @property \Calcinai\Siri\Objects\AffectedInterchangeStructureType[] $affectedInterchange
      */
     private $affectedInterchange = [
         
@@ -193,7 +193,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
      *
      * Exact location that vehicle will take up / or has taken at stop point.
      *
-     * @return \Calcinai\Siri\LocationStructureType
+     * @return \Calcinai\Siri\Objects\LocationStructureType
      */
     public function getVehicleLocationAtStop()
     {
@@ -205,10 +205,10 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
      *
      * Exact location that vehicle will take up / or has taken at stop point.
      *
-     * @param \Calcinai\Siri\LocationStructureType $vehicleLocationAtStop
+     * @param \Calcinai\Siri\Objects\LocationStructureType $vehicleLocationAtStop
      * @return self
      */
-    public function setVehicleLocationAtStop(\Calcinai\Siri\LocationStructureType $vehicleLocationAtStop)
+    public function setVehicleLocationAtStop(\Calcinai\Siri\Objects\LocationStructureType $vehicleLocationAtStop)
     {
         $this->vehicleLocationAtStop = $vehicleLocationAtStop;
         return $this;
@@ -305,7 +305,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     /**
      * Gets as arrivalPlatformName
      *
-     * @return \Calcinai\Siri\ArrivalPlatformName
+     * @return \Calcinai\Siri\Objects\ArrivalPlatformName
      */
     public function getArrivalPlatformName()
     {
@@ -315,10 +315,10 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     /**
      * Sets a new arrivalPlatformName
      *
-     * @param \Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName
+     * @param \Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName
      * @return self
      */
-    public function setArrivalPlatformName(\Calcinai\Siri\ArrivalPlatformName $arrivalPlatformName)
+    public function setArrivalPlatformName(\Calcinai\Siri\Objects\ArrivalPlatformName $arrivalPlatformName)
     {
         $this->arrivalPlatformName = $arrivalPlatformName;
         return $this;
@@ -437,7 +437,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     /**
      * Gets as departurePlatformName
      *
-     * @return \Calcinai\Siri\DeparturePlatformName
+     * @return \Calcinai\Siri\Objects\DeparturePlatformName
      */
     public function getDeparturePlatformName()
     {
@@ -447,10 +447,10 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     /**
      * Sets a new departurePlatformName
      *
-     * @param \Calcinai\Siri\DeparturePlatformName $departurePlatformName
+     * @param \Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName
      * @return self
      */
-    public function setDeparturePlatformName(\Calcinai\Siri\DeparturePlatformName $departurePlatformName)
+    public function setDeparturePlatformName(\Calcinai\Siri\Objects\DeparturePlatformName $departurePlatformName)
     {
         $this->departurePlatformName = $departurePlatformName;
         return $this;
@@ -526,9 +526,9 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
      * Adds as affectedInterchange
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedInterchangeStructureType $affectedInterchange
+     * @param \Calcinai\Siri\Objects\AffectedInterchangeStructureType $affectedInterchange
      */
-    public function addToAffectedInterchange(\Calcinai\Siri\AffectedInterchangeStructureType $affectedInterchange)
+    public function addToAffectedInterchange(\Calcinai\Siri\Objects\AffectedInterchangeStructureType $affectedInterchange)
     {
         $this->affectedInterchange[] = $affectedInterchange;
         return $this;
@@ -559,7 +559,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     /**
      * Gets as affectedInterchange
      *
-     * @return \Calcinai\Siri\AffectedInterchangeStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedInterchangeStructureType[]
      */
     public function getAffectedInterchange()
     {
@@ -569,7 +569,7 @@ class AffectedCallStructureType extends AffectedStopPointStructureType
     /**
      * Sets a new affectedInterchange
      *
-     * @param \Calcinai\Siri\AffectedInterchangeStructureType[] $affectedInterchange
+     * @param \Calcinai\Siri\Objects\AffectedInterchangeStructureType[] $affectedInterchange
      * @return self
      */
     public function setAffectedInterchange(array $affectedInterchange)

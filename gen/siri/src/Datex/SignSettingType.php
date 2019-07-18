@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SignSettingType
@@ -39,14 +39,14 @@ class SignSettingType extends OperatorActionType
     /**
      * The reason why the sign has been set.
      *
-     * @property \Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType[] $reasonForSetting
+     * @property \Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType\ValueAType[] $reasonForSetting
      */
     private $reasonForSetting = null;
 
     /**
      * The organisation or authority which set the sign.
      *
-     * @property \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType[] $setBy
+     * @property \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType[] $setBy
      */
     private $setBy = null;
 
@@ -65,7 +65,7 @@ class SignSettingType extends OperatorActionType
     private $timeLastSet = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $signSettingExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $signSettingExtension
      */
     private $signSettingExtension = null;
 
@@ -233,9 +233,9 @@ class SignSettingType extends OperatorActionType
      * The reason why the sign has been set.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType\ValueAType $value
      */
-    public function addToReasonForSetting(\Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType $value)
+    public function addToReasonForSetting(\Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType\ValueAType $value)
     {
         $this->reasonForSetting[] = $value;
         return $this;
@@ -272,7 +272,7 @@ class SignSettingType extends OperatorActionType
      *
      * The reason why the sign has been set.
      *
-     * @return \Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType\ValueAType[]
      */
     public function getReasonForSetting()
     {
@@ -284,7 +284,7 @@ class SignSettingType extends OperatorActionType
      *
      * The reason why the sign has been set.
      *
-     * @param \Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType[] $reasonForSetting
+     * @param \Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType\ValueAType[] $reasonForSetting
      * @return self
      */
     public function setReasonForSetting(array $reasonForSetting)
@@ -299,9 +299,9 @@ class SignSettingType extends OperatorActionType
      * The organisation or authority which set the sign.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType $value
      */
-    public function addToSetBy(\Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType $value)
+    public function addToSetBy(\Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType $value)
     {
         $this->setBy[] = $value;
         return $this;
@@ -338,7 +338,7 @@ class SignSettingType extends OperatorActionType
      *
      * The organisation or authority which set the sign.
      *
-     * @return \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType[]
      */
     public function getSetBy()
     {
@@ -350,7 +350,7 @@ class SignSettingType extends OperatorActionType
      *
      * The organisation or authority which set the sign.
      *
-     * @param \Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType[] $setBy
+     * @param \Calcinai\Siri\Objects\Datex\SignSettingType\SetByAType\ValueAType[] $setBy
      * @return self
      */
     public function setSetBy(array $setBy)
@@ -414,7 +414,7 @@ class SignSettingType extends OperatorActionType
     /**
      * Gets as signSettingExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSignSettingExtension()
     {
@@ -424,10 +424,10 @@ class SignSettingType extends OperatorActionType
     /**
      * Sets a new signSettingExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $signSettingExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $signSettingExtension
      * @return self
      */
-    public function setSignSettingExtension(\Calcinai\Siri\Datex\ExtensionType $signSettingExtension)
+    public function setSignSettingExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $signSettingExtension)
     {
         $this->signSettingExtension = $signSettingExtension;
         return $this;

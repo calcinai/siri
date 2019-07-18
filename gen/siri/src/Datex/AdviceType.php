@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AdviceType
@@ -12,14 +12,14 @@ class AdviceType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $adviceExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $adviceExtension
      */
     private $adviceExtension = null;
 
     /**
      * Gets as adviceExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAdviceExtension()
     {
@@ -29,10 +29,10 @@ class AdviceType
     /**
      * Sets a new adviceExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $adviceExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $adviceExtension
      * @return self
      */
-    public function setAdviceExtension(\Calcinai\Siri\Datex\ExtensionType $adviceExtension)
+    public function setAdviceExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $adviceExtension)
     {
         $this->adviceExtension = $adviceExtension;
         return $this;

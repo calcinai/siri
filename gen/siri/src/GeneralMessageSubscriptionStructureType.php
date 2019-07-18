@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing GeneralMessageSubscriptionStructureType
@@ -12,14 +12,14 @@ class GeneralMessageSubscriptionStructureType extends AbstractSubscriptionStruct
 {
 
     /**
-     * @property \Calcinai\Siri\GeneralMessageRequest $generalMessageRequest
+     * @property \Calcinai\Siri\Objects\GeneralMessageRequest $generalMessageRequest
      */
     private $generalMessageRequest = null;
 
     /**
      * Gets as generalMessageRequest
      *
-     * @return \Calcinai\Siri\GeneralMessageRequest
+     * @return \Calcinai\Siri\Objects\GeneralMessageRequest
      */
     public function getGeneralMessageRequest()
     {
@@ -29,10 +29,10 @@ class GeneralMessageSubscriptionStructureType extends AbstractSubscriptionStruct
     /**
      * Sets a new generalMessageRequest
      *
-     * @param \Calcinai\Siri\GeneralMessageRequest $generalMessageRequest
+     * @param \Calcinai\Siri\Objects\GeneralMessageRequest $generalMessageRequest
      * @return self
      */
-    public function setGeneralMessageRequest(\Calcinai\Siri\GeneralMessageRequest $generalMessageRequest)
+    public function setGeneralMessageRequest(\Calcinai\Siri\Objects\GeneralMessageRequest $generalMessageRequest)
     {
         $this->generalMessageRequest = $generalMessageRequest;
         return $this;

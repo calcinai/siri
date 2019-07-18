@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing WindType
@@ -47,7 +47,7 @@ class WindType
     private $windSpeed = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $windExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $windExtension
      */
     private $windExtension = null;
 
@@ -184,7 +184,7 @@ class WindType
     /**
      * Gets as windExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getWindExtension()
     {
@@ -194,10 +194,10 @@ class WindType
     /**
      * Sets a new windExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $windExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $windExtension
      * @return self
      */
-    public function setWindExtension(\Calcinai\Siri\Datex\ExtensionType $windExtension)
+    public function setWindExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $windExtension)
     {
         $this->windExtension = $windExtension;
         return $this;

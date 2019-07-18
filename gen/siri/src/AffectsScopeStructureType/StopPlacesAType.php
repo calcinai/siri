@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectsScopeStructureType;
+namespace Calcinai\Siri\Objects\AffectsScopeStructureType;
 
 /**
  * Class representing StopPlacesAType
@@ -11,7 +11,7 @@ class StopPlacesAType
     /**
      * Stop affected by situation.
      *
-     * @property \Calcinai\Siri\AffectedStopPlaceStructureType[] $affectedStopPlace
+     * @property \Calcinai\Siri\Objects\AffectedStopPlaceStructureType[] $affectedStopPlace
      */
     private $affectedStopPlace = [
         
@@ -23,9 +23,9 @@ class StopPlacesAType
      * Stop affected by situation.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedStopPlaceStructureType $affectedStopPlace
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceStructureType $affectedStopPlace
      */
-    public function addToAffectedStopPlace(\Calcinai\Siri\AffectedStopPlaceStructureType $affectedStopPlace)
+    public function addToAffectedStopPlace(\Calcinai\Siri\Objects\AffectedStopPlaceStructureType $affectedStopPlace)
     {
         $this->affectedStopPlace[] = $affectedStopPlace;
         return $this;
@@ -62,7 +62,7 @@ class StopPlacesAType
      *
      * Stop affected by situation.
      *
-     * @return \Calcinai\Siri\AffectedStopPlaceStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedStopPlaceStructureType[]
      */
     public function getAffectedStopPlace()
     {
@@ -74,7 +74,7 @@ class StopPlacesAType
      *
      * Stop affected by situation.
      *
-     * @param \Calcinai\Siri\AffectedStopPlaceStructureType[] $affectedStopPlace
+     * @param \Calcinai\Siri\Objects\AffectedStopPlaceStructureType[] $affectedStopPlace
      * @return self
      */
     public function setAffectedStopPlace(array $affectedStopPlace)

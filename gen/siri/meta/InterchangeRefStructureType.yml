@@ -1,4 +1,4 @@
-Calcinai\Siri\InterchangeRefStructureType:
+Calcinai\Siri\Objects\InterchangeRefStructureType:
     properties:
         __value:
             expose: true

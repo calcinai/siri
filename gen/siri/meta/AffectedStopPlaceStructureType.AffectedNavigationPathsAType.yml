@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedStopPlaceStructureType\AffectedNavigationPathsAType:
+Calcinai\Siri\Objects\AffectedStopPlaceStructureType\AffectedNavigationPathsAType:
     properties:
         navigationPathRef:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectedStopPlaceStructureType\AffectedNavigationPathsAType:
                 inline: true
                 entry_name: NavigationPathRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\IFOpt\NavigationPathRefStructureType>
+            type: array<Calcinai\Siri\Objects\IFOpt\NavigationPathRefStructureType>

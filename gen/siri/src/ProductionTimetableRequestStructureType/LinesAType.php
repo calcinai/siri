@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ProductionTimetableRequestStructureType;
+namespace Calcinai\Siri\Objects\ProductionTimetableRequestStructureType;
 
 /**
  * Class representing LinesAType
@@ -11,7 +11,7 @@ class LinesAType
     /**
      * Iinclude only vehicles along the given line.
      *
-     * @property \Calcinai\Siri\LineDirectionStructureType[] $lineDirection
+     * @property \Calcinai\Siri\Objects\LineDirectionStructureType[] $lineDirection
      */
     private $lineDirection = [
         
@@ -23,9 +23,9 @@ class LinesAType
      * Iinclude only vehicles along the given line.
      *
      * @return self
-     * @param \Calcinai\Siri\LineDirectionStructureType $lineDirection
+     * @param \Calcinai\Siri\Objects\LineDirectionStructureType $lineDirection
      */
-    public function addToLineDirection(\Calcinai\Siri\LineDirectionStructureType $lineDirection)
+    public function addToLineDirection(\Calcinai\Siri\Objects\LineDirectionStructureType $lineDirection)
     {
         $this->lineDirection[] = $lineDirection;
         return $this;
@@ -62,7 +62,7 @@ class LinesAType
      *
      * Iinclude only vehicles along the given line.
      *
-     * @return \Calcinai\Siri\LineDirectionStructureType[]
+     * @return \Calcinai\Siri\Objects\LineDirectionStructureType[]
      */
     public function getLineDirection()
     {
@@ -74,7 +74,7 @@ class LinesAType
      *
      * Iinclude only vehicles along the given line.
      *
-     * @param \Calcinai\Siri\LineDirectionStructureType[] $lineDirection
+     * @param \Calcinai\Siri\Objects\LineDirectionStructureType[] $lineDirection
      * @return self
      */
     public function setLineDirection(array $lineDirection)

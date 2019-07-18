@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType:
+Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType:
     properties:
         __value:
             expose: true

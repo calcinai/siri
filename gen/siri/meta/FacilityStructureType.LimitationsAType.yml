@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityStructureType\LimitationsAType:
+Calcinai\Siri\Objects\FacilityStructureType\LimitationsAType:
     properties:
         wheelchairAccess:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\FacilityStructureType\LimitationsAType:
             accessor:
                 getter: getWheelchairAccess
                 setter: setWheelchairAccess
-            type: Calcinai\Siri\ACSB\WheelchairAccess
+            type: Calcinai\Siri\Objects\ACSB\WheelchairAccess
         stepFreeAccess:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\FacilityStructureType\LimitationsAType:
             accessor:
                 getter: getStepFreeAccess
                 setter: setStepFreeAccess
-            type: Calcinai\Siri\ACSB\StepFreeAccess
+            type: Calcinai\Siri\Objects\ACSB\StepFreeAccess
         escalatorFreeAccess:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\FacilityStructureType\LimitationsAType:
             accessor:
                 getter: getEscalatorFreeAccess
                 setter: setEscalatorFreeAccess
-            type: Calcinai\Siri\ACSB\EscalatorFreeAccess
+            type: Calcinai\Siri\Objects\ACSB\EscalatorFreeAccess
         liftFreeAccess:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\FacilityStructureType\LimitationsAType:
             accessor:
                 getter: getLiftFreeAccess
                 setter: setLiftFreeAccess
-            type: Calcinai\Siri\ACSB\LiftFreeAccess
+            type: Calcinai\Siri\Objects\ACSB\LiftFreeAccess
         audibleSignalsAvailable:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\FacilityStructureType\LimitationsAType:
             accessor:
                 getter: getAudibleSignalsAvailable
                 setter: setAudibleSignalsAvailable
-            type: Calcinai\Siri\ACSB\AudibleSignalsAvailable
+            type: Calcinai\Siri\Objects\ACSB\AudibleSignalsAvailable
         visualSignsAvailable:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Calcinai\Siri\FacilityStructureType\LimitationsAType:
             accessor:
                 getter: getVisualSignsAvailable
                 setter: setVisualSignsAvailable
-            type: Calcinai\Siri\ACSB\VisualSignsAvailable
+            type: Calcinai\Siri\Objects\ACSB\VisualSignsAvailable

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AnimalPresenceObstructionType
@@ -26,7 +26,7 @@ class AnimalPresenceObstructionType extends ObstructionType
     private $animalPresenceType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $animalPresenceObstructionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $animalPresenceObstructionExtension
      */
     private $animalPresenceObstructionExtension = null;
 
@@ -85,7 +85,7 @@ class AnimalPresenceObstructionType extends ObstructionType
     /**
      * Gets as animalPresenceObstructionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAnimalPresenceObstructionExtension()
     {
@@ -95,10 +95,10 @@ class AnimalPresenceObstructionType extends ObstructionType
     /**
      * Sets a new animalPresenceObstructionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $animalPresenceObstructionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $animalPresenceObstructionExtension
      * @return self
      */
-    public function setAnimalPresenceObstructionExtension(\Calcinai\Siri\Datex\ExtensionType $animalPresenceObstructionExtension)
+    public function setAnimalPresenceObstructionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $animalPresenceObstructionExtension)
     {
         $this->animalPresenceObstructionExtension = $animalPresenceObstructionExtension;
         return $this;

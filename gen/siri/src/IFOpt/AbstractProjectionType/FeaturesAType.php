@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt\AbstractProjectionType;
+namespace Calcinai\Siri\Objects\IFOpt\AbstractProjectionType;
 
 /**
  * Class representing FeaturesAType
@@ -11,7 +11,7 @@ class FeaturesAType
     /**
      * Identifier of Featurein a GIS data system
      *
-     * @property \Calcinai\Siri\IFOpt\FeatureRefStructureType[] $gisFeatureRef
+     * @property \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType[] $gisFeatureRef
      */
     private $gisFeatureRef = [
         
@@ -23,9 +23,9 @@ class FeaturesAType
      * Identifier of Featurein a GIS data system
      *
      * @return self
-     * @param \Calcinai\Siri\IFOpt\FeatureRefStructureType $gisFeatureRef
+     * @param \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType $gisFeatureRef
      */
-    public function addToGisFeatureRef(\Calcinai\Siri\IFOpt\FeatureRefStructureType $gisFeatureRef)
+    public function addToGisFeatureRef(\Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType $gisFeatureRef)
     {
         $this->gisFeatureRef[] = $gisFeatureRef;
         return $this;
@@ -62,7 +62,7 @@ class FeaturesAType
      *
      * Identifier of Featurein a GIS data system
      *
-     * @return \Calcinai\Siri\IFOpt\FeatureRefStructureType[]
+     * @return \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType[]
      */
     public function getGisFeatureRef()
     {
@@ -74,7 +74,7 @@ class FeaturesAType
      *
      * Identifier of Featurein a GIS data system
      *
-     * @param \Calcinai\Siri\IFOpt\FeatureRefStructureType[] $gisFeatureRef
+     * @param \Calcinai\Siri\Objects\IFOpt\FeatureRefStructureType[] $gisFeatureRef
      * @return self
      */
     public function setGisFeatureRef(array $gisFeatureRef)

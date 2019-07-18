@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing CommentType
@@ -14,7 +14,7 @@ class CommentType
     /**
      * A free text comment that can be used by the operator to convey uncoded observations/information.
      *
-     * @property \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType[] $comment
+     * @property \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType[] $comment
      */
     private $comment = null;
 
@@ -26,7 +26,7 @@ class CommentType
     private $commentDateTime = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $commentExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $commentExtension
      */
     private $commentExtension = null;
 
@@ -36,9 +36,9 @@ class CommentType
      * A free text comment that can be used by the operator to convey uncoded observations/information.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType $value
      */
-    public function addToComment(\Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType $value)
+    public function addToComment(\Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType $value)
     {
         $this->comment[] = $value;
         return $this;
@@ -75,7 +75,7 @@ class CommentType
      *
      * A free text comment that can be used by the operator to convey uncoded observations/information.
      *
-     * @return \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType[]
      */
     public function getComment()
     {
@@ -87,7 +87,7 @@ class CommentType
      *
      * A free text comment that can be used by the operator to convey uncoded observations/information.
      *
-     * @param \Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType[] $comment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType[] $comment
      * @return self
      */
     public function setComment(array $comment)
@@ -125,7 +125,7 @@ class CommentType
     /**
      * Gets as commentExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getCommentExtension()
     {
@@ -135,10 +135,10 @@ class CommentType
     /**
      * Sets a new commentExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $commentExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $commentExtension
      * @return self
      */
-    public function setCommentExtension(\Calcinai\Siri\Datex\ExtensionType $commentExtension)
+    public function setCommentExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $commentExtension)
     {
         $this->commentExtension = $commentExtension;
         return $this;

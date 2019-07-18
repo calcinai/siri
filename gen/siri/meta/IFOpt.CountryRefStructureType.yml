@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\CountryRefStructureType:
+Calcinai\Siri\Objects\IFOpt\CountryRefStructureType:
     properties:
         __value:
             expose: true

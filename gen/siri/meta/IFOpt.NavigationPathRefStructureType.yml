@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\NavigationPathRefStructureType:
+Calcinai\Siri\Objects\IFOpt\NavigationPathRefStructureType:
     properties:
         __value:
             expose: true

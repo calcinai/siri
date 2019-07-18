@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing CheckStatusResponseBodyStructureType
@@ -19,7 +19,7 @@ class CheckStatusResponseBodyStructureType
     /**
      * Description of any error or warning condition that applies to the status check.
      *
-     * @property \Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
+     * @property \Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
      */
     private $errorCondition = null;
 
@@ -71,7 +71,7 @@ class CheckStatusResponseBodyStructureType
      *
      * Description of any error or warning condition that applies to the status check.
      *
-     * @return \Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType
+     * @return \Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType
      */
     public function getErrorCondition()
     {
@@ -83,10 +83,10 @@ class CheckStatusResponseBodyStructureType
      *
      * Description of any error or warning condition that applies to the status check.
      *
-     * @param \Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
+     * @param \Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition
      * @return self
      */
-    public function setErrorCondition(\Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition)
+    public function setErrorCondition(\Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType $errorCondition)
     {
         $this->errorCondition = $errorCondition;
         return $this;

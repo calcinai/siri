@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ReferenceSettingsType
@@ -26,7 +26,7 @@ class ReferenceSettingsType
     private $trafficStatusDefault = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $referenceSettingsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $referenceSettingsExtension
      */
     private $referenceSettingsExtension = null;
 
@@ -85,7 +85,7 @@ class ReferenceSettingsType
     /**
      * Gets as referenceSettingsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getReferenceSettingsExtension()
     {
@@ -95,10 +95,10 @@ class ReferenceSettingsType
     /**
      * Sets a new referenceSettingsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $referenceSettingsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $referenceSettingsExtension
      * @return self
      */
-    public function setReferenceSettingsExtension(\Calcinai\Siri\Datex\ExtensionType $referenceSettingsExtension)
+    public function setReferenceSettingsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $referenceSettingsExtension)
     {
         $this->referenceSettingsExtension = $referenceSettingsExtension;
         return $this;

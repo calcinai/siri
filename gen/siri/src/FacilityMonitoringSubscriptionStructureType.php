@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityMonitoringSubscriptionStructureType
@@ -12,7 +12,7 @@ class FacilityMonitoringSubscriptionStructureType extends AbstractSubscriptionSt
 {
 
     /**
-     * @property \Calcinai\Siri\FacilityMonitoringRequest $facilityMonitoringRequest
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringRequest $facilityMonitoringRequest
      */
     private $facilityMonitoringRequest = null;
 
@@ -27,7 +27,7 @@ class FacilityMonitoringSubscriptionStructureType extends AbstractSubscriptionSt
     /**
      * Gets as facilityMonitoringRequest
      *
-     * @return \Calcinai\Siri\FacilityMonitoringRequest
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringRequest
      */
     public function getFacilityMonitoringRequest()
     {
@@ -37,10 +37,10 @@ class FacilityMonitoringSubscriptionStructureType extends AbstractSubscriptionSt
     /**
      * Sets a new facilityMonitoringRequest
      *
-     * @param \Calcinai\Siri\FacilityMonitoringRequest $facilityMonitoringRequest
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringRequest $facilityMonitoringRequest
      * @return self
      */
-    public function setFacilityMonitoringRequest(\Calcinai\Siri\FacilityMonitoringRequest $facilityMonitoringRequest)
+    public function setFacilityMonitoringRequest(\Calcinai\Siri\Objects\FacilityMonitoringRequest $facilityMonitoringRequest)
     {
         $this->facilityMonitoringRequest = $facilityMonitoringRequest;
         return $this;

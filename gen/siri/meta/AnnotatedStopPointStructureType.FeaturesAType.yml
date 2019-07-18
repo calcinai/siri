@@ -1,4 +1,4 @@
-Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType:
+Calcinai\Siri\Objects\AnnotatedStopPointStructureType\FeaturesAType:
     properties:
         serviceFeature:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType:
                 inline: true
                 entry_name: ServiceFeature
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ServiceFeatureStructureType>
+            type: array<Calcinai\Siri\Objects\ServiceFeatureStructureType>
         serviceFeatureRef:
             expose: true
             access_type: public_method
@@ -27,4 +27,4 @@ Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType:
                 inline: true
                 entry_name: ServiceFeatureRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ServiceFeatureRef>
+            type: array<Calcinai\Siri\Objects\ServiceFeatureRef>

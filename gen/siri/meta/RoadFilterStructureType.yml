@@ -1,4 +1,4 @@
-Calcinai\Siri\RoadFilterStructureType:
+Calcinai\Siri\Objects\RoadFilterStructureType:
     properties:
         roadNumber:
             expose: true

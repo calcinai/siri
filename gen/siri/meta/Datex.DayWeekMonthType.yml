@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\DayWeekMonthType:
+Calcinai\Siri\Objects\Datex\DayWeekMonthType:
     properties:
         applicableDay:
             expose: true
@@ -51,4 +51,4 @@ Calcinai\Siri\Datex\DayWeekMonthType:
             accessor:
                 getter: getDayWeekMonthExtension
                 setter: setDayWeekMonthExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

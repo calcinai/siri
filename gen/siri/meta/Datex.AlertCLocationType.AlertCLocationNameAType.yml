@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType:
+Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType:
     properties:
         value:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType:
                 inline: true
                 entry_name: value
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType>
+            type: array<Calcinai\Siri\Objects\Datex\AlertCLocationType\AlertCLocationNameAType\ValueAType>

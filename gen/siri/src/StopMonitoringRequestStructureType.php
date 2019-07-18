@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopMonitoringRequestStructureType
@@ -112,12 +112,12 @@ class StopMonitoringRequestStructureType extends AbstractFunctionalServiceReques
     /**
      * If calls are to be returned, maximum number of calls to include in response. If absent, exclude all calls.
      *
-     * @property \Calcinai\Siri\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
+     * @property \Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
      */
     private $maximumNumberOfCalls = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -490,7 +490,7 @@ class StopMonitoringRequestStructureType extends AbstractFunctionalServiceReques
      *
      * If calls are to be returned, maximum number of calls to include in response. If absent, exclude all calls.
      *
-     * @return \Calcinai\Siri\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType
+     * @return \Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType
      */
     public function getMaximumNumberOfCalls()
     {
@@ -502,10 +502,10 @@ class StopMonitoringRequestStructureType extends AbstractFunctionalServiceReques
      *
      * If calls are to be returned, maximum number of calls to include in response. If absent, exclude all calls.
      *
-     * @param \Calcinai\Siri\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
+     * @param \Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls
      * @return self
      */
-    public function setMaximumNumberOfCalls(\Calcinai\Siri\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls)
+    public function setMaximumNumberOfCalls(\Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType $maximumNumberOfCalls)
     {
         $this->maximumNumberOfCalls = $maximumNumberOfCalls;
         return $this;
@@ -514,7 +514,7 @@ class StopMonitoringRequestStructureType extends AbstractFunctionalServiceReques
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -524,10 +524,10 @@ class StopMonitoringRequestStructureType extends AbstractFunctionalServiceReques
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

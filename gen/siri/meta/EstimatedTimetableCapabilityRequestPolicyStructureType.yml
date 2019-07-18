@@ -1,4 +1,4 @@
-Calcinai\Siri\EstimatedTimetableCapabilityRequestPolicyStructureType:
+Calcinai\Siri\Objects\EstimatedTimetableCapabilityRequestPolicyStructureType:
     properties:
         foreignJourneysOnly:
             expose: true

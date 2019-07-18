@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ImpactDetailsType:
+Calcinai\Siri\Objects\Datex\ImpactDetailsType:
     properties:
         capacityRemaining:
             expose: true
@@ -59,4 +59,4 @@ Calcinai\Siri\Datex\ImpactDetailsType:
             accessor:
                 getter: getImpactDetailsExtension
                 setter: setImpactDetailsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType:
+Calcinai\Siri\Objects\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType:
     properties:
         __value:
             expose: true

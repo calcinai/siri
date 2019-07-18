@@ -1,4 +1,4 @@
-Calcinai\Siri\TrainPartRefStructureType:
+Calcinai\Siri\Objects\TrainPartRefStructureType:
     properties:
         __value:
             expose: true

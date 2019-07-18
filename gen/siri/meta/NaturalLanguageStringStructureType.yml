@@ -1,4 +1,4 @@
-Calcinai\Siri\NaturalLanguageStringStructureType:
+Calcinai\Siri\Objects\NaturalLanguageStringStructureType:
     properties:
         __value:
             expose: true

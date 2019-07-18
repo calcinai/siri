@@ -1,4 +1,4 @@
-Calcinai\Siri\ErrorCodeStructureType:
+Calcinai\Siri\Objects\ErrorCodeStructureType:
     properties:
         errorText:
             expose: true

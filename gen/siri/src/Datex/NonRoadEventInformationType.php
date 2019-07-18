@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing NonRoadEventInformationType
@@ -12,14 +12,14 @@ class NonRoadEventInformationType extends SituationRecordType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $nonRoadEventInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $nonRoadEventInformationExtension
      */
     private $nonRoadEventInformationExtension = null;
 
     /**
      * Gets as nonRoadEventInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getNonRoadEventInformationExtension()
     {
@@ -29,10 +29,10 @@ class NonRoadEventInformationType extends SituationRecordType
     /**
      * Sets a new nonRoadEventInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $nonRoadEventInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $nonRoadEventInformationExtension
      * @return self
      */
-    public function setNonRoadEventInformationExtension(\Calcinai\Siri\Datex\ExtensionType $nonRoadEventInformationExtension)
+    public function setNonRoadEventInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $nonRoadEventInformationExtension)
     {
         $this->nonRoadEventInformationExtension = $nonRoadEventInformationExtension;
         return $this;

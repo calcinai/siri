@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityMonitoringPermissions
@@ -11,7 +11,7 @@ class FacilityMonitoringPermissions extends PermissionsStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\FacilityMonitoringServicePermissionStructureType[] $facilityMonitoringPermission
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringServicePermissionStructureType[] $facilityMonitoringPermission
      */
     private $facilityMonitoringPermission = [
         
@@ -21,9 +21,9 @@ class FacilityMonitoringPermissions extends PermissionsStructureType
      * Adds as facilityMonitoringPermission
      *
      * @return self
-     * @param \Calcinai\Siri\FacilityMonitoringServicePermissionStructureType $facilityMonitoringPermission
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringServicePermissionStructureType $facilityMonitoringPermission
      */
-    public function addToFacilityMonitoringPermission(\Calcinai\Siri\FacilityMonitoringServicePermissionStructureType $facilityMonitoringPermission)
+    public function addToFacilityMonitoringPermission(\Calcinai\Siri\Objects\FacilityMonitoringServicePermissionStructureType $facilityMonitoringPermission)
     {
         $this->facilityMonitoringPermission[] = $facilityMonitoringPermission;
         return $this;
@@ -54,7 +54,7 @@ class FacilityMonitoringPermissions extends PermissionsStructureType
     /**
      * Gets as facilityMonitoringPermission
      *
-     * @return \Calcinai\Siri\FacilityMonitoringServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringServicePermissionStructureType[]
      */
     public function getFacilityMonitoringPermission()
     {
@@ -64,7 +64,7 @@ class FacilityMonitoringPermissions extends PermissionsStructureType
     /**
      * Sets a new facilityMonitoringPermission
      *
-     * @param \Calcinai\Siri\FacilityMonitoringServicePermissionStructureType[] $facilityMonitoringPermission
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringServicePermissionStructureType[] $facilityMonitoringPermission
      * @return self
      */
     public function setFacilityMonitoringPermission(array $facilityMonitoringPermission)

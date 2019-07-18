@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedTimetableSubscriptionStructureType
@@ -12,7 +12,7 @@ class EstimatedTimetableSubscriptionStructureType extends AbstractSubscriptionSt
 {
 
     /**
-     * @property \Calcinai\Siri\EstimatedTimetableRequest $estimatedTimetableRequest
+     * @property \Calcinai\Siri\Objects\EstimatedTimetableRequest $estimatedTimetableRequest
      */
     private $estimatedTimetableRequest = null;
 
@@ -34,7 +34,7 @@ class EstimatedTimetableSubscriptionStructureType extends AbstractSubscriptionSt
     /**
      * Gets as estimatedTimetableRequest
      *
-     * @return \Calcinai\Siri\EstimatedTimetableRequest
+     * @return \Calcinai\Siri\Objects\EstimatedTimetableRequest
      */
     public function getEstimatedTimetableRequest()
     {
@@ -44,10 +44,10 @@ class EstimatedTimetableSubscriptionStructureType extends AbstractSubscriptionSt
     /**
      * Sets a new estimatedTimetableRequest
      *
-     * @param \Calcinai\Siri\EstimatedTimetableRequest $estimatedTimetableRequest
+     * @param \Calcinai\Siri\Objects\EstimatedTimetableRequest $estimatedTimetableRequest
      * @return self
      */
-    public function setEstimatedTimetableRequest(\Calcinai\Siri\EstimatedTimetableRequest $estimatedTimetableRequest)
+    public function setEstimatedTimetableRequest(\Calcinai\Siri\Objects\EstimatedTimetableRequest $estimatedTimetableRequest)
     {
         $this->estimatedTimetableRequest = $estimatedTimetableRequest;
         return $this;

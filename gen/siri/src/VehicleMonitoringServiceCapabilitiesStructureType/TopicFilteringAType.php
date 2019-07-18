@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

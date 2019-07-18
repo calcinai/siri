@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringCapabilitiesResponseStructureType:
+Calcinai\Siri\Objects\VehicleMonitoringCapabilitiesResponseStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\VehicleMonitoringCapabilitiesResponseStructureType:
             accessor:
                 getter: getVehicleMonitoringServiceCapabilities
                 setter: setVehicleMonitoringServiceCapabilities
-            type: Calcinai\Siri\VehicleMonitoringServiceCapabilities
+            type: Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilities
         vehicleMonitoringPermissions:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Calcinai\Siri\VehicleMonitoringCapabilitiesResponseStructureType:
             accessor:
                 getter: getVehicleMonitoringPermissions
                 setter: setVehicleMonitoringPermissions
-            type: Calcinai\Siri\VehicleMonitoringPermissions
+            type: Calcinai\Siri\Objects\VehicleMonitoringPermissions
         extensions:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ Calcinai\Siri\VehicleMonitoringCapabilitiesResponseStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

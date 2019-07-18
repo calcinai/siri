@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ParameterisedActionStructureType
@@ -14,14 +14,14 @@ class ParameterisedActionStructureType extends SimpleActionStructureType
     /**
      * Description of action.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      */
     private $description = null;
 
     /**
      * Data associated with action.
      *
-     * @property \Calcinai\Siri\ActionDataStructureType[] $actionData
+     * @property \Calcinai\Siri\Objects\ActionDataStructureType[] $actionData
      */
     private $actionData = [
         
@@ -32,7 +32,7 @@ class ParameterisedActionStructureType extends SimpleActionStructureType
      *
      * Description of action.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDescription()
     {
@@ -44,10 +44,10 @@ class ParameterisedActionStructureType extends SimpleActionStructureType
      *
      * Description of action.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $description
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description
      * @return self
      */
-    public function setDescription(\Calcinai\Siri\NaturalLanguageStringStructureType $description)
+    public function setDescription(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $description)
     {
         $this->description = $description;
         return $this;
@@ -59,9 +59,9 @@ class ParameterisedActionStructureType extends SimpleActionStructureType
      * Data associated with action.
      *
      * @return self
-     * @param \Calcinai\Siri\ActionDataStructureType $actionData
+     * @param \Calcinai\Siri\Objects\ActionDataStructureType $actionData
      */
-    public function addToActionData(\Calcinai\Siri\ActionDataStructureType $actionData)
+    public function addToActionData(\Calcinai\Siri\Objects\ActionDataStructureType $actionData)
     {
         $this->actionData[] = $actionData;
         return $this;
@@ -98,7 +98,7 @@ class ParameterisedActionStructureType extends SimpleActionStructureType
      *
      * Data associated with action.
      *
-     * @return \Calcinai\Siri\ActionDataStructureType[]
+     * @return \Calcinai\Siri\Objects\ActionDataStructureType[]
      */
     public function getActionData()
     {
@@ -110,7 +110,7 @@ class ParameterisedActionStructureType extends SimpleActionStructureType
      *
      * Data associated with action.
      *
-     * @param \Calcinai\Siri\ActionDataStructureType[] $actionData
+     * @param \Calcinai\Siri\Objects\ActionDataStructureType[] $actionData
      * @return self
      */
     public function setActionData(array $actionData)

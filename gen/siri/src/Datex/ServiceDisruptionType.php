@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ServiceDisruptionType
@@ -21,7 +21,7 @@ class ServiceDisruptionType extends NonRoadEventInformationType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $serviceDisruptionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $serviceDisruptionExtension
      */
     private $serviceDisruptionExtension = null;
 
@@ -94,7 +94,7 @@ class ServiceDisruptionType extends NonRoadEventInformationType
     /**
      * Gets as serviceDisruptionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getServiceDisruptionExtension()
     {
@@ -104,10 +104,10 @@ class ServiceDisruptionType extends NonRoadEventInformationType
     /**
      * Sets a new serviceDisruptionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $serviceDisruptionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $serviceDisruptionExtension
      * @return self
      */
-    public function setServiceDisruptionExtension(\Calcinai\Siri\Datex\ExtensionType $serviceDisruptionExtension)
+    public function setServiceDisruptionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $serviceDisruptionExtension)
     {
         $this->serviceDisruptionExtension = $serviceDisruptionExtension;
         return $this;

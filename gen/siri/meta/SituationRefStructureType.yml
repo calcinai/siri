@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationRefStructureType:
+Calcinai\Siri\Objects\SituationRefStructureType:
     properties:
         situationSimpleRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\SituationRefStructureType:
             accessor:
                 getter: getSituationSimpleRef
                 setter: setSituationSimpleRef
-            type: Calcinai\Siri\SituationSimpleRef
+            type: Calcinai\Siri\Objects\SituationSimpleRef
         situationFullRef:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\SituationRefStructureType:
             accessor:
                 getter: getSituationFullRef
                 setter: setSituationFullRef
-            type: Calcinai\Siri\SituationFullRef
+            type: Calcinai\Siri\Objects\SituationFullRef

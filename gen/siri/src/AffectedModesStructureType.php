@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedModesStructureType
@@ -21,7 +21,7 @@ class AffectedModesStructureType
     /**
      * Mode affected by change
      *
-     * @property \Calcinai\Siri\AffectedModesStructureType\ModeAType[] $mode
+     * @property \Calcinai\Siri\Objects\AffectedModesStructureType\ModeAType[] $mode
      */
     private $mode = [
         
@@ -59,9 +59,9 @@ class AffectedModesStructureType
      * Mode affected by change
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedModesStructureType\ModeAType $mode
+     * @param \Calcinai\Siri\Objects\AffectedModesStructureType\ModeAType $mode
      */
-    public function addToMode(\Calcinai\Siri\AffectedModesStructureType\ModeAType $mode)
+    public function addToMode(\Calcinai\Siri\Objects\AffectedModesStructureType\ModeAType $mode)
     {
         $this->mode[] = $mode;
         return $this;
@@ -98,7 +98,7 @@ class AffectedModesStructureType
      *
      * Mode affected by change
      *
-     * @return \Calcinai\Siri\AffectedModesStructureType\ModeAType[]
+     * @return \Calcinai\Siri\Objects\AffectedModesStructureType\ModeAType[]
      */
     public function getMode()
     {
@@ -110,7 +110,7 @@ class AffectedModesStructureType
      *
      * Mode affected by change
      *
-     * @param \Calcinai\Siri\AffectedModesStructureType\ModeAType[] $mode
+     * @param \Calcinai\Siri\Objects\AffectedModesStructureType\ModeAType[] $mode
      * @return self
      */
     public function setMode(array $mode)

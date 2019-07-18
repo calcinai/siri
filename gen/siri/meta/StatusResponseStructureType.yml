@@ -1,4 +1,4 @@
-Calcinai\Siri\StatusResponseStructureType:
+Calcinai\Siri\Objects\StatusResponseStructureType:
     properties:
         requestMessageRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\StatusResponseStructureType:
             accessor:
                 getter: getRequestMessageRef
                 setter: setRequestMessageRef
-            type: Calcinai\Siri\MessageQualifierStructureType
+            type: Calcinai\Siri\Objects\MessageQualifierStructureType
         subscriberRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\StatusResponseStructureType:
             accessor:
                 getter: getSubscriberRef
                 setter: setSubscriberRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         subscriptionFilterRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\StatusResponseStructureType:
             accessor:
                 getter: getSubscriptionFilterRef
                 setter: setSubscriptionFilterRef
-            type: Calcinai\Siri\SubscriptionFilterRefStructureType
+            type: Calcinai\Siri\Objects\SubscriptionFilterRefStructureType
         subscriptionRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\StatusResponseStructureType:
             accessor:
                 getter: getSubscriptionRef
                 setter: setSubscriptionRef
-            type: Calcinai\Siri\SubscriptionQualifierStructureType
+            type: Calcinai\Siri\Objects\SubscriptionQualifierStructureType
         status:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\StatusResponseStructureType:
             accessor:
                 getter: getErrorCondition
                 setter: setErrorCondition
-            type: Calcinai\Siri\ServiceDeliveryErrorConditionStructureType
+            type: Calcinai\Siri\Objects\ServiceDeliveryErrorConditionStructureType
         validUntil:
             expose: true
             access_type: public_method

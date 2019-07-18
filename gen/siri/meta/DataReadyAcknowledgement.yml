@@ -1,3 +1,3 @@
-Calcinai\Siri\DataReadyAcknowledgement:
+Calcinai\Siri\Objects\DataReadyAcknowledgement:
     xml_root_name: DataReadyAcknowledgement
     xml_root_namespace: 'http://www.siri.org.uk/siri'

@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\Datex\MeasurementSiteRecordType;
+namespace Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType;
 
-use Calcinai\Siri\Datex\MeasurementSpecificCharacteristicsType;
+use Calcinai\Siri\Objects\Datex\MeasurementSpecificCharacteristicsType;
 
 /**
  * Class representing MeasurementSpecificCharacteristicsAType

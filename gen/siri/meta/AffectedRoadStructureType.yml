@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedRoadStructureType:
+Calcinai\Siri\Objects\AffectedRoadStructureType:
     properties:
         road:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AffectedRoadStructureType:
             accessor:
                 getter: getRoad
                 setter: setRoad
-            type: Calcinai\Siri\Datex\ReferencePointLinearType
+            type: Calcinai\Siri\Objects\Datex\ReferencePointLinearType
         linkProjection:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AffectedRoadStructureType:
             accessor:
                 getter: getLinkProjection
                 setter: setLinkProjection
-            type: Calcinai\Siri\IFOpt\LinkProjectionStructureType
+            type: Calcinai\Siri\Objects\IFOpt\LinkProjectionStructureType
         offset:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\AffectedRoadStructureType:
             accessor:
                 getter: getOffset
                 setter: setOffset
-            type: Calcinai\Siri\OffsetStructureType
+            type: Calcinai\Siri\Objects\OffsetStructureType

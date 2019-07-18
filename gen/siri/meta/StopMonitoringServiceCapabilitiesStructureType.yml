@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType:
+Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType:
     properties:
         topicFiltering:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getTopicFiltering
                 setter: setTopicFiltering
-            type: Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
+            type: Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
         requestPolicy:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getRequestPolicy
                 setter: setRequestPolicy
-            type: Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
+            type: Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
         subscriptionPolicy:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getSubscriptionPolicy
                 setter: setSubscriptionPolicy
-            type: Calcinai\Siri\CapabilitySubscriptionPolicyStructureType
+            type: Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType
         accessControl:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getAccessControl
                 setter: setAccessControl
-            type: Calcinai\Siri\MonitoringCapabilityAccessControlStructureType
+            type: Calcinai\Siri\Objects\MonitoringCapabilityAccessControlStructureType
         responseFeatures:
             expose: true
             access_type: public_method
@@ -49,4 +49,4 @@ Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getResponseFeatures
                 setter: setResponseFeatures
-            type: Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType
+            type: Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType

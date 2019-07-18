@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MatrixSignSettingType
@@ -35,7 +35,7 @@ class MatrixSignSettingType extends SignSettingType
     private $matrixIdentifier = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $matrixSignSettingExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $matrixSignSettingExtension
      */
     private $matrixSignSettingExtension = null;
 
@@ -160,7 +160,7 @@ class MatrixSignSettingType extends SignSettingType
     /**
      * Gets as matrixSignSettingExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMatrixSignSettingExtension()
     {
@@ -170,10 +170,10 @@ class MatrixSignSettingType extends SignSettingType
     /**
      * Sets a new matrixSignSettingExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $matrixSignSettingExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $matrixSignSettingExtension
      * @return self
      */
-    public function setMatrixSignSettingExtension(\Calcinai\Siri\Datex\ExtensionType $matrixSignSettingExtension)
+    public function setMatrixSignSettingExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $matrixSignSettingExtension)
     {
         $this->matrixSignSettingExtension = $matrixSignSettingExtension;
         return $this;

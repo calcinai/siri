@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing NetworkContextStructureType
@@ -14,7 +14,7 @@ class NetworkContextStructureType
     /**
      * Default operator for situations.
      *
-     * @property \Calcinai\Siri\AffectedOperatorStructureType[] $operator
+     * @property \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $operator
      */
     private $operator = [
         
@@ -23,7 +23,7 @@ class NetworkContextStructureType
     /**
      * Default Network of affected lines. These avlues apply to all situations unless overridden on individual instances
      *
-     * @property \Calcinai\Siri\NetworkStructureType $network
+     * @property \Calcinai\Siri\Objects\NetworkStructureType $network
      */
     private $network = null;
 
@@ -33,9 +33,9 @@ class NetworkContextStructureType
      * Default operator for situations.
      *
      * @return self
-     * @param \Calcinai\Siri\AffectedOperatorStructureType $operator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType $operator
      */
-    public function addToOperator(\Calcinai\Siri\AffectedOperatorStructureType $operator)
+    public function addToOperator(\Calcinai\Siri\Objects\AffectedOperatorStructureType $operator)
     {
         $this->operator[] = $operator;
         return $this;
@@ -72,7 +72,7 @@ class NetworkContextStructureType
      *
      * Default operator for situations.
      *
-     * @return \Calcinai\Siri\AffectedOperatorStructureType[]
+     * @return \Calcinai\Siri\Objects\AffectedOperatorStructureType[]
      */
     public function getOperator()
     {
@@ -84,7 +84,7 @@ class NetworkContextStructureType
      *
      * Default operator for situations.
      *
-     * @param \Calcinai\Siri\AffectedOperatorStructureType[] $operator
+     * @param \Calcinai\Siri\Objects\AffectedOperatorStructureType[] $operator
      * @return self
      */
     public function setOperator(array $operator)
@@ -98,7 +98,7 @@ class NetworkContextStructureType
      *
      * Default Network of affected lines. These avlues apply to all situations unless overridden on individual instances
      *
-     * @return \Calcinai\Siri\NetworkStructureType
+     * @return \Calcinai\Siri\Objects\NetworkStructureType
      */
     public function getNetwork()
     {
@@ -110,10 +110,10 @@ class NetworkContextStructureType
      *
      * Default Network of affected lines. These avlues apply to all situations unless overridden on individual instances
      *
-     * @param \Calcinai\Siri\NetworkStructureType $network
+     * @param \Calcinai\Siri\Objects\NetworkStructureType $network
      * @return self
      */
-    public function setNetwork(\Calcinai\Siri\NetworkStructureType $network)
+    public function setNetwork(\Calcinai\Siri\Objects\NetworkStructureType $network)
     {
         $this->network = $network;
         return $this;

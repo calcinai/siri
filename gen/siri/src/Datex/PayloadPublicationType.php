@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PayloadPublicationType
@@ -31,12 +31,12 @@ class PayloadPublicationType
     private $publicationTime = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\InternationalIdentifierType $publicationCreator
+     * @property \Calcinai\Siri\Objects\Datex\InternationalIdentifierType $publicationCreator
      */
     private $publicationCreator = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $payloadPublicationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $payloadPublicationExtension
      */
     private $payloadPublicationExtension = null;
 
@@ -117,7 +117,7 @@ class PayloadPublicationType
     /**
      * Gets as publicationCreator
      *
-     * @return \Calcinai\Siri\Datex\InternationalIdentifierType
+     * @return \Calcinai\Siri\Objects\Datex\InternationalIdentifierType
      */
     public function getPublicationCreator()
     {
@@ -127,10 +127,10 @@ class PayloadPublicationType
     /**
      * Sets a new publicationCreator
      *
-     * @param \Calcinai\Siri\Datex\InternationalIdentifierType $publicationCreator
+     * @param \Calcinai\Siri\Objects\Datex\InternationalIdentifierType $publicationCreator
      * @return self
      */
-    public function setPublicationCreator(\Calcinai\Siri\Datex\InternationalIdentifierType $publicationCreator)
+    public function setPublicationCreator(\Calcinai\Siri\Objects\Datex\InternationalIdentifierType $publicationCreator)
     {
         $this->publicationCreator = $publicationCreator;
         return $this;
@@ -139,7 +139,7 @@ class PayloadPublicationType
     /**
      * Gets as payloadPublicationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPayloadPublicationExtension()
     {
@@ -149,10 +149,10 @@ class PayloadPublicationType
     /**
      * Sets a new payloadPublicationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $payloadPublicationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $payloadPublicationExtension
      * @return self
      */
-    public function setPayloadPublicationExtension(\Calcinai\Siri\Datex\ExtensionType $payloadPublicationExtension)
+    public function setPayloadPublicationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $payloadPublicationExtension)
     {
         $this->payloadPublicationExtension = $payloadPublicationExtension;
         return $this;

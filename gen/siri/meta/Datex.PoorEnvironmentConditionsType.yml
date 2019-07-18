@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PoorEnvironmentConditionsType:
+Calcinai\Siri\Objects\Datex\PoorEnvironmentConditionsType:
     properties:
         poorEnvironmentType:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\PoorEnvironmentConditionsType:
             accessor:
                 getter: getPrecipitationDetail
                 setter: setPrecipitationDetail
-            type: Calcinai\Siri\Datex\PrecipitationDetailType
+            type: Calcinai\Siri\Objects\Datex\PrecipitationDetailType
         visibility:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\PoorEnvironmentConditionsType:
             accessor:
                 getter: getVisibility
                 setter: setVisibility
-            type: Calcinai\Siri\Datex\VisibilityType
+            type: Calcinai\Siri\Objects\Datex\VisibilityType
         pollutionMeasurement:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Calcinai\Siri\Datex\PoorEnvironmentConditionsType:
                 inline: true
                 entry_name: pollutionMeasurement
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\PollutionMeasurementType>
+            type: array<Calcinai\Siri\Objects\Datex\PollutionMeasurementType>
         temperature:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ Calcinai\Siri\Datex\PoorEnvironmentConditionsType:
             accessor:
                 getter: getTemperature
                 setter: setTemperature
-            type: Calcinai\Siri\Datex\TemperatureType
+            type: Calcinai\Siri\Objects\Datex\TemperatureType
         wind:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ Calcinai\Siri\Datex\PoorEnvironmentConditionsType:
             accessor:
                 getter: getWind
                 setter: setWind
-            type: Calcinai\Siri\Datex\WindType
+            type: Calcinai\Siri\Objects\Datex\WindType
         poorEnvironmentConditionsExtension:
             expose: true
             access_type: public_method
@@ -73,4 +73,4 @@ Calcinai\Siri\Datex\PoorEnvironmentConditionsType:
             accessor:
                 getter: getPoorEnvironmentConditionsExtension
                 setter: setPoorEnvironmentConditionsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

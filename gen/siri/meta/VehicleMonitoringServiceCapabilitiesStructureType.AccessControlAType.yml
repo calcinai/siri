@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\AccessControlAType:
+Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType\AccessControlAType:
     properties:
         checkOperatorRef:
             expose: true

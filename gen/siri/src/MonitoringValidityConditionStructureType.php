@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing MonitoringValidityConditionStructureType
@@ -14,7 +14,7 @@ class MonitoringValidityConditionStructureType
     /**
      * Date and Time range within which condition is available
      *
-     * @property \Calcinai\Siri\HalfOpenTimestampRangeStructureType[] $period
+     * @property \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType[] $period
      */
     private $period = [
         
@@ -23,7 +23,7 @@ class MonitoringValidityConditionStructureType
     /**
      * Monitoring period within a single day (monitoring may not be available at night, or may ony occur at certain time of day for manual monitoring, etc.). Several periods can be defined
      *
-     * @property \Calcinai\Siri\HalfOpenTimeRangeStructureType[] $timeband
+     * @property \Calcinai\Siri\Objects\HalfOpenTimeRangeStructureType[] $timeband
      */
     private $timeband = [
         
@@ -53,9 +53,9 @@ class MonitoringValidityConditionStructureType
      * Date and Time range within which condition is available
      *
      * @return self
-     * @param \Calcinai\Siri\HalfOpenTimestampRangeStructureType $period
+     * @param \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $period
      */
-    public function addToPeriod(\Calcinai\Siri\HalfOpenTimestampRangeStructureType $period)
+    public function addToPeriod(\Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $period)
     {
         $this->period[] = $period;
         return $this;
@@ -92,7 +92,7 @@ class MonitoringValidityConditionStructureType
      *
      * Date and Time range within which condition is available
      *
-     * @return \Calcinai\Siri\HalfOpenTimestampRangeStructureType[]
+     * @return \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType[]
      */
     public function getPeriod()
     {
@@ -104,7 +104,7 @@ class MonitoringValidityConditionStructureType
      *
      * Date and Time range within which condition is available
      *
-     * @param \Calcinai\Siri\HalfOpenTimestampRangeStructureType[] $period
+     * @param \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType[] $period
      * @return self
      */
     public function setPeriod(array $period)
@@ -119,9 +119,9 @@ class MonitoringValidityConditionStructureType
      * Monitoring period within a single day (monitoring may not be available at night, or may ony occur at certain time of day for manual monitoring, etc.). Several periods can be defined
      *
      * @return self
-     * @param \Calcinai\Siri\HalfOpenTimeRangeStructureType $timeband
+     * @param \Calcinai\Siri\Objects\HalfOpenTimeRangeStructureType $timeband
      */
-    public function addToTimeband(\Calcinai\Siri\HalfOpenTimeRangeStructureType $timeband)
+    public function addToTimeband(\Calcinai\Siri\Objects\HalfOpenTimeRangeStructureType $timeband)
     {
         $this->timeband[] = $timeband;
         return $this;
@@ -158,7 +158,7 @@ class MonitoringValidityConditionStructureType
      *
      * Monitoring period within a single day (monitoring may not be available at night, or may ony occur at certain time of day for manual monitoring, etc.). Several periods can be defined
      *
-     * @return \Calcinai\Siri\HalfOpenTimeRangeStructureType[]
+     * @return \Calcinai\Siri\Objects\HalfOpenTimeRangeStructureType[]
      */
     public function getTimeband()
     {
@@ -170,7 +170,7 @@ class MonitoringValidityConditionStructureType
      *
      * Monitoring period within a single day (monitoring may not be available at night, or may ony occur at certain time of day for manual monitoring, etc.). Several periods can be defined
      *
-     * @param \Calcinai\Siri\HalfOpenTimeRangeStructureType[] $timeband
+     * @param \Calcinai\Siri\Objects\HalfOpenTimeRangeStructureType[] $timeband
      * @return self
      */
     public function setTimeband(array $timeband)

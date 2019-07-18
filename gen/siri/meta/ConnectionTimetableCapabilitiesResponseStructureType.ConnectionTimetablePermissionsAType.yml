@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType:
+Calcinai\Siri\Objects\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType:
     properties:
         connectionTimetablePermission:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTim
                 inline: true
                 entry_name: ConnectionTimetablePermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\ConnectionServicePermissionStructureType>

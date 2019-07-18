@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationExchangeRequestStructureType
@@ -204,21 +204,21 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Bounding box of an arbitrary area . Only incidents geocoded as falliing within area will be included.
      *
-     * @property \Calcinai\Siri\LocationStructureType $location
+     * @property \Calcinai\Siri\Objects\LocationStructureType $location
      */
     private $location = null;
 
     /**
      * Parameters to filter Situation Exchange requests, based on the situation Road. Logically ANDed with other values.
      *
-     * @property \Calcinai\Siri\RoadFilterStructureType[] $situationRoadFilter
+     * @property \Calcinai\Siri\Objects\RoadFilterStructureType[] $situationRoadFilter
      */
     private $situationRoadFilter = null;
 
     /**
      * Parameters to filter Situation Exchange requests, based on specific needs .
      *
-     * @property \Calcinai\Siri\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter
+     * @property \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter
      */
     private $accessibilityNeedFilter = null;
 
@@ -237,7 +237,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     private $maximumNumberOfSituationElements = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -1010,7 +1010,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      *
      * Bounding box of an arbitrary area . Only incidents geocoded as falliing within area will be included.
      *
-     * @return \Calcinai\Siri\LocationStructureType
+     * @return \Calcinai\Siri\Objects\LocationStructureType
      */
     public function getLocation()
     {
@@ -1022,10 +1022,10 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      *
      * Bounding box of an arbitrary area . Only incidents geocoded as falliing within area will be included.
      *
-     * @param \Calcinai\Siri\LocationStructureType $location
+     * @param \Calcinai\Siri\Objects\LocationStructureType $location
      * @return self
      */
-    public function setLocation(\Calcinai\Siri\LocationStructureType $location)
+    public function setLocation(\Calcinai\Siri\Objects\LocationStructureType $location)
     {
         $this->location = $location;
         return $this;
@@ -1037,9 +1037,9 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      * Parameters to filter Situation Exchange requests, based on the situation Road. Logically ANDed with other values.
      *
      * @return self
-     * @param \Calcinai\Siri\RoadFilterStructureType $roadFilter
+     * @param \Calcinai\Siri\Objects\RoadFilterStructureType $roadFilter
      */
-    public function addToSituationRoadFilter(\Calcinai\Siri\RoadFilterStructureType $roadFilter)
+    public function addToSituationRoadFilter(\Calcinai\Siri\Objects\RoadFilterStructureType $roadFilter)
     {
         $this->situationRoadFilter[] = $roadFilter;
         return $this;
@@ -1076,7 +1076,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      *
      * Parameters to filter Situation Exchange requests, based on the situation Road. Logically ANDed with other values.
      *
-     * @return \Calcinai\Siri\RoadFilterStructureType[]
+     * @return \Calcinai\Siri\Objects\RoadFilterStructureType[]
      */
     public function getSituationRoadFilter()
     {
@@ -1088,7 +1088,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      *
      * Parameters to filter Situation Exchange requests, based on the situation Road. Logically ANDed with other values.
      *
-     * @param \Calcinai\Siri\RoadFilterStructureType[] $situationRoadFilter
+     * @param \Calcinai\Siri\Objects\RoadFilterStructureType[] $situationRoadFilter
      * @return self
      */
     public function setSituationRoadFilter(array $situationRoadFilter)
@@ -1102,7 +1102,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      *
      * Parameters to filter Situation Exchange requests, based on specific needs .
      *
-     * @return \Calcinai\Siri\ACSB\PassengerAccessibilityNeedsStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType
      */
     public function getAccessibilityNeedFilter()
     {
@@ -1114,10 +1114,10 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      *
      * Parameters to filter Situation Exchange requests, based on specific needs .
      *
-     * @param \Calcinai\Siri\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter
+     * @param \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter
      * @return self
      */
-    public function setAccessibilityNeedFilter(\Calcinai\Siri\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter)
+    public function setAccessibilityNeedFilter(\Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter)
     {
         $this->accessibilityNeedFilter = $accessibilityNeedFilter;
         return $this;
@@ -1178,7 +1178,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -1188,10 +1188,10 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

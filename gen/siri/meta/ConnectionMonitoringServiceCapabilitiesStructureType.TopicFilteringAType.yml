@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         filterByJourney:
             expose: true

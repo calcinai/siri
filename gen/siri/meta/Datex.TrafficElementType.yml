@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TrafficElementType:
+Calcinai\Siri\Objects\Datex\TrafficElementType:
     properties:
         trafficElementExtension:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\Datex\TrafficElementType:
             accessor:
                 getter: getTrafficElementExtension
                 setter: setTrafficElementExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType:
+Calcinai\Siri\Objects\Datex\NonManagedCauseType\CauseDescriptionAType\ValueAType:
     properties:
         __value:
             expose: true

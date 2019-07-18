@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType:
+Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\RequestPolicyAType:
     properties:
         hasMaximumFacilityStatus:
             expose: true

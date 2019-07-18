@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType:
+Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType:
     properties:
         topicFiltering:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getTopicFiltering
                 setter: setTopicFiltering
-            type: Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
+            type: Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
         requestPolicy:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getRequestPolicy
                 setter: setRequestPolicy
-            type: Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
+            type: Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
         subscriptionPolicy:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getSubscriptionPolicy
                 setter: setSubscriptionPolicy
-            type: Calcinai\Siri\CapabilitySubscriptionPolicyStructureType
+            type: Calcinai\Siri\Objects\CapabilitySubscriptionPolicyStructureType
         accessControl:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getAccessControl
                 setter: setAccessControl
-            type: Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\AccessControlAType
+            type: Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType\AccessControlAType
         responseFeatures:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getResponseFeatures
                 setter: setResponseFeatures
-            type: Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType
+            type: Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType
         extensions:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

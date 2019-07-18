@@ -1,3 +1,3 @@
-Calcinai\Siri\NoInfoForTopicError:
+Calcinai\Siri\Objects\NoInfoForTopicError:
     xml_root_name: NoInfoForTopicError
     xml_root_namespace: 'http://www.siri.org.uk/siri'

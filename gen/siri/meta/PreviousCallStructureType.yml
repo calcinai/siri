@@ -1,4 +1,4 @@
-Calcinai\Siri\PreviousCallStructureType:
+Calcinai\Siri\Objects\PreviousCallStructureType:
     properties:
         vehicleAtStop:
             expose: true
@@ -79,4 +79,4 @@ Calcinai\Siri\PreviousCallStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

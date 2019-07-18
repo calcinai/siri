@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityMonitoringRequestStructureType
@@ -89,7 +89,7 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
     /**
      * Filter only for facilkity changes that affect the following accessibility needs.
      *
-     * @property \Calcinai\Siri\ACSB\UserNeedStructureType[] $accessibilityNeedsFilter
+     * @property \Calcinai\Siri\Objects\ACSB\UserNeedStructureType[] $accessibilityNeedsFilter
      */
     private $accessibilityNeedsFilter = null;
 
@@ -108,7 +108,7 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
     private $maximumNumberOfFacilityConditions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -424,9 +424,9 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
      * Filter only for facilkity changes that affect the following accessibility needs.
      *
      * @return self
-     * @param \Calcinai\Siri\ACSB\UserNeedStructureType $userNeed
+     * @param \Calcinai\Siri\Objects\ACSB\UserNeedStructureType $userNeed
      */
-    public function addToAccessibilityNeedsFilter(\Calcinai\Siri\ACSB\UserNeedStructureType $userNeed)
+    public function addToAccessibilityNeedsFilter(\Calcinai\Siri\Objects\ACSB\UserNeedStructureType $userNeed)
     {
         $this->accessibilityNeedsFilter[] = $userNeed;
         return $this;
@@ -463,7 +463,7 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
      *
      * Filter only for facilkity changes that affect the following accessibility needs.
      *
-     * @return \Calcinai\Siri\ACSB\UserNeedStructureType[]
+     * @return \Calcinai\Siri\Objects\ACSB\UserNeedStructureType[]
      */
     public function getAccessibilityNeedsFilter()
     {
@@ -475,7 +475,7 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
      *
      * Filter only for facilkity changes that affect the following accessibility needs.
      *
-     * @param \Calcinai\Siri\ACSB\UserNeedStructureType[] $accessibilityNeedsFilter
+     * @param \Calcinai\Siri\Objects\ACSB\UserNeedStructureType[] $accessibilityNeedsFilter
      * @return self
      */
     public function setAccessibilityNeedsFilter(array $accessibilityNeedsFilter)
@@ -539,7 +539,7 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -549,10 +549,10 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

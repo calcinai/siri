@@ -1,4 +1,4 @@
-Calcinai\Siri\InfoLinkStructureType:
+Calcinai\Siri\Objects\InfoLinkStructureType:
     properties:
         uri:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\InfoLinkStructureType:
             accessor:
                 getter: getLabel
                 setter: setLabel
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         image:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\InfoLinkStructureType:
             accessor:
                 getter: getImage
                 setter: setImage
-            type: Calcinai\Siri\ImageStructureType
+            type: Calcinai\Siri\Objects\ImageStructureType
         linkContent:
             expose: true
             access_type: public_method

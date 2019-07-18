@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType:
+Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType:
     properties:
         __value:
             expose: true

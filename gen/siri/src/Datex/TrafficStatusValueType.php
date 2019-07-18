@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficStatusValueType
@@ -26,7 +26,7 @@ class TrafficStatusValueType extends BasicDataValueType
     private $trafficTrendType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficStatusValueExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficStatusValueExtension
      */
     private $trafficStatusValueExtension = null;
 
@@ -85,7 +85,7 @@ class TrafficStatusValueType extends BasicDataValueType
     /**
      * Gets as trafficStatusValueExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficStatusValueExtension()
     {
@@ -95,10 +95,10 @@ class TrafficStatusValueType extends BasicDataValueType
     /**
      * Sets a new trafficStatusValueExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficStatusValueExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficStatusValueExtension
      * @return self
      */
-    public function setTrafficStatusValueExtension(\Calcinai\Siri\Datex\ExtensionType $trafficStatusValueExtension)
+    public function setTrafficStatusValueExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficStatusValueExtension)
     {
         $this->trafficStatusValueExtension = $trafficStatusValueExtension;
         return $this;

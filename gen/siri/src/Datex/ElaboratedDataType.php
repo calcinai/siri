@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ElaboratedDataType
@@ -24,22 +24,22 @@ class ElaboratedDataType
     private $forecast = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SourceInformationType $sourceInformation
+     * @property \Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation
      */
     private $sourceInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ValidityType $validity
+     * @property \Calcinai\Siri\Objects\Datex\ValidityType $validity
      */
     private $validity = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\BasicDataValueType $basicDataValue
+     * @property \Calcinai\Siri\Objects\Datex\BasicDataValueType $basicDataValue
      */
     private $basicDataValue = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $elaboratedDataExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $elaboratedDataExtension
      */
     private $elaboratedDataExtension = null;
 
@@ -94,7 +94,7 @@ class ElaboratedDataType
     /**
      * Gets as sourceInformation
      *
-     * @return \Calcinai\Siri\Datex\SourceInformationType
+     * @return \Calcinai\Siri\Objects\Datex\SourceInformationType
      */
     public function getSourceInformation()
     {
@@ -104,10 +104,10 @@ class ElaboratedDataType
     /**
      * Sets a new sourceInformation
      *
-     * @param \Calcinai\Siri\Datex\SourceInformationType $sourceInformation
+     * @param \Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation
      * @return self
      */
-    public function setSourceInformation(\Calcinai\Siri\Datex\SourceInformationType $sourceInformation)
+    public function setSourceInformation(\Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation)
     {
         $this->sourceInformation = $sourceInformation;
         return $this;
@@ -116,7 +116,7 @@ class ElaboratedDataType
     /**
      * Gets as validity
      *
-     * @return \Calcinai\Siri\Datex\ValidityType
+     * @return \Calcinai\Siri\Objects\Datex\ValidityType
      */
     public function getValidity()
     {
@@ -126,10 +126,10 @@ class ElaboratedDataType
     /**
      * Sets a new validity
      *
-     * @param \Calcinai\Siri\Datex\ValidityType $validity
+     * @param \Calcinai\Siri\Objects\Datex\ValidityType $validity
      * @return self
      */
-    public function setValidity(\Calcinai\Siri\Datex\ValidityType $validity)
+    public function setValidity(\Calcinai\Siri\Objects\Datex\ValidityType $validity)
     {
         $this->validity = $validity;
         return $this;
@@ -138,7 +138,7 @@ class ElaboratedDataType
     /**
      * Gets as basicDataValue
      *
-     * @return \Calcinai\Siri\Datex\BasicDataValueType
+     * @return \Calcinai\Siri\Objects\Datex\BasicDataValueType
      */
     public function getBasicDataValue()
     {
@@ -148,10 +148,10 @@ class ElaboratedDataType
     /**
      * Sets a new basicDataValue
      *
-     * @param \Calcinai\Siri\Datex\BasicDataValueType $basicDataValue
+     * @param \Calcinai\Siri\Objects\Datex\BasicDataValueType $basicDataValue
      * @return self
      */
-    public function setBasicDataValue(\Calcinai\Siri\Datex\BasicDataValueType $basicDataValue)
+    public function setBasicDataValue(\Calcinai\Siri\Objects\Datex\BasicDataValueType $basicDataValue)
     {
         $this->basicDataValue = $basicDataValue;
         return $this;
@@ -160,7 +160,7 @@ class ElaboratedDataType
     /**
      * Gets as elaboratedDataExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getElaboratedDataExtension()
     {
@@ -170,10 +170,10 @@ class ElaboratedDataType
     /**
      * Sets a new elaboratedDataExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $elaboratedDataExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $elaboratedDataExtension
      * @return self
      */
-    public function setElaboratedDataExtension(\Calcinai\Siri\Datex\ExtensionType $elaboratedDataExtension)
+    public function setElaboratedDataExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $elaboratedDataExtension)
     {
         $this->elaboratedDataExtension = $elaboratedDataExtension;
         return $this;

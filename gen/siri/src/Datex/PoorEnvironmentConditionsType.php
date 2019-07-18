@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PoorEnvironmentConditionsType
@@ -19,34 +19,34 @@ class PoorEnvironmentConditionsType extends ConditionsType
     private $poorEnvironmentType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\PrecipitationDetailType $precipitationDetail
+     * @property \Calcinai\Siri\Objects\Datex\PrecipitationDetailType $precipitationDetail
      */
     private $precipitationDetail = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VisibilityType $visibility
+     * @property \Calcinai\Siri\Objects\Datex\VisibilityType $visibility
      */
     private $visibility = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\PollutionMeasurementType[] $pollutionMeasurement
+     * @property \Calcinai\Siri\Objects\Datex\PollutionMeasurementType[] $pollutionMeasurement
      */
     private $pollutionMeasurement = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\TemperatureType $temperature
+     * @property \Calcinai\Siri\Objects\Datex\TemperatureType $temperature
      */
     private $temperature = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\WindType $wind
+     * @property \Calcinai\Siri\Objects\Datex\WindType $wind
      */
     private $wind = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $poorEnvironmentConditionsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $poorEnvironmentConditionsExtension
      */
     private $poorEnvironmentConditionsExtension = null;
 
@@ -79,7 +79,7 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Gets as precipitationDetail
      *
-     * @return \Calcinai\Siri\Datex\PrecipitationDetailType
+     * @return \Calcinai\Siri\Objects\Datex\PrecipitationDetailType
      */
     public function getPrecipitationDetail()
     {
@@ -89,10 +89,10 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Sets a new precipitationDetail
      *
-     * @param \Calcinai\Siri\Datex\PrecipitationDetailType $precipitationDetail
+     * @param \Calcinai\Siri\Objects\Datex\PrecipitationDetailType $precipitationDetail
      * @return self
      */
-    public function setPrecipitationDetail(\Calcinai\Siri\Datex\PrecipitationDetailType $precipitationDetail)
+    public function setPrecipitationDetail(\Calcinai\Siri\Objects\Datex\PrecipitationDetailType $precipitationDetail)
     {
         $this->precipitationDetail = $precipitationDetail;
         return $this;
@@ -101,7 +101,7 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Gets as visibility
      *
-     * @return \Calcinai\Siri\Datex\VisibilityType
+     * @return \Calcinai\Siri\Objects\Datex\VisibilityType
      */
     public function getVisibility()
     {
@@ -111,10 +111,10 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Sets a new visibility
      *
-     * @param \Calcinai\Siri\Datex\VisibilityType $visibility
+     * @param \Calcinai\Siri\Objects\Datex\VisibilityType $visibility
      * @return self
      */
-    public function setVisibility(\Calcinai\Siri\Datex\VisibilityType $visibility)
+    public function setVisibility(\Calcinai\Siri\Objects\Datex\VisibilityType $visibility)
     {
         $this->visibility = $visibility;
         return $this;
@@ -124,9 +124,9 @@ class PoorEnvironmentConditionsType extends ConditionsType
      * Adds as pollutionMeasurement
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PollutionMeasurementType $pollutionMeasurement
+     * @param \Calcinai\Siri\Objects\Datex\PollutionMeasurementType $pollutionMeasurement
      */
-    public function addToPollutionMeasurement(\Calcinai\Siri\Datex\PollutionMeasurementType $pollutionMeasurement)
+    public function addToPollutionMeasurement(\Calcinai\Siri\Objects\Datex\PollutionMeasurementType $pollutionMeasurement)
     {
         $this->pollutionMeasurement[] = $pollutionMeasurement;
         return $this;
@@ -157,7 +157,7 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Gets as pollutionMeasurement
      *
-     * @return \Calcinai\Siri\Datex\PollutionMeasurementType[]
+     * @return \Calcinai\Siri\Objects\Datex\PollutionMeasurementType[]
      */
     public function getPollutionMeasurement()
     {
@@ -167,7 +167,7 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Sets a new pollutionMeasurement
      *
-     * @param \Calcinai\Siri\Datex\PollutionMeasurementType[] $pollutionMeasurement
+     * @param \Calcinai\Siri\Objects\Datex\PollutionMeasurementType[] $pollutionMeasurement
      * @return self
      */
     public function setPollutionMeasurement(array $pollutionMeasurement)
@@ -179,7 +179,7 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Gets as temperature
      *
-     * @return \Calcinai\Siri\Datex\TemperatureType
+     * @return \Calcinai\Siri\Objects\Datex\TemperatureType
      */
     public function getTemperature()
     {
@@ -189,10 +189,10 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Sets a new temperature
      *
-     * @param \Calcinai\Siri\Datex\TemperatureType $temperature
+     * @param \Calcinai\Siri\Objects\Datex\TemperatureType $temperature
      * @return self
      */
-    public function setTemperature(\Calcinai\Siri\Datex\TemperatureType $temperature)
+    public function setTemperature(\Calcinai\Siri\Objects\Datex\TemperatureType $temperature)
     {
         $this->temperature = $temperature;
         return $this;
@@ -201,7 +201,7 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Gets as wind
      *
-     * @return \Calcinai\Siri\Datex\WindType
+     * @return \Calcinai\Siri\Objects\Datex\WindType
      */
     public function getWind()
     {
@@ -211,10 +211,10 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Sets a new wind
      *
-     * @param \Calcinai\Siri\Datex\WindType $wind
+     * @param \Calcinai\Siri\Objects\Datex\WindType $wind
      * @return self
      */
-    public function setWind(\Calcinai\Siri\Datex\WindType $wind)
+    public function setWind(\Calcinai\Siri\Objects\Datex\WindType $wind)
     {
         $this->wind = $wind;
         return $this;
@@ -223,7 +223,7 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Gets as poorEnvironmentConditionsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPoorEnvironmentConditionsExtension()
     {
@@ -233,10 +233,10 @@ class PoorEnvironmentConditionsType extends ConditionsType
     /**
      * Sets a new poorEnvironmentConditionsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $poorEnvironmentConditionsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $poorEnvironmentConditionsExtension
      * @return self
      */
-    public function setPoorEnvironmentConditionsExtension(\Calcinai\Siri\Datex\ExtensionType $poorEnvironmentConditionsExtension)
+    public function setPoorEnvironmentConditionsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $poorEnvironmentConditionsExtension)
     {
         $this->poorEnvironmentConditionsExtension = $poorEnvironmentConditionsExtension;
         return $this;

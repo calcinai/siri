@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
+Calcinai\Siri\Objects\VehicleMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
     properties:
         hasDetailLevel:
             expose: true

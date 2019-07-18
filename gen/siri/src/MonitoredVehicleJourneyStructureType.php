@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing MonitoredVehicleJourneyStructureType
@@ -28,7 +28,7 @@ class MonitoredVehicleJourneyStructureType
     /**
      * A reference to the dated vehicle journey that the vehicle is making, unique with the data horizon of the service.
      *
-     * @property \Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
+     * @property \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
      */
     private $framedVehicleJourneyRef = null;
 
@@ -54,14 +54,14 @@ class MonitoredVehicleJourneyStructureType
     private $routeRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
     /**
      * Description of the direction.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      */
     private $directionName = null;
 
@@ -108,21 +108,21 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Name of the origin of the journey.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originName
      */
     private $originName = null;
 
     /**
      * Short name of the origin of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as Origin Name.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originShortName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originShortName
      */
     private $originShortName = null;
 
     /**
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @property \Calcinai\Siri\PlaceNameStructureType $via
+     * @property \Calcinai\Siri\Objects\PlaceNameStructureType $via
      */
     private $via = null;
 
@@ -134,26 +134,26 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Description of the destination stop (vehicle signage), Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $destinationName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName
      */
     private $destinationName = null;
 
     /**
      * Short name of the destination of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as DestinationName.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $destinationShortName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $destinationShortName
      */
     private $destinationShortName = null;
 
     /**
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName
      */
     private $vehicleJourneyName = null;
 
     /**
-     * @property \Calcinai\Siri\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
      */
     private $journeyNote = null;
 
@@ -181,17 +181,17 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @property \Calcinai\Siri\FacilityConditionElement $facilityConditionElement
+     * @property \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
      */
     private $facilityConditionElement = null;
 
     /**
-     * @property \Calcinai\Siri\FacilityChangeElement $facilityChangeElement
+     * @property \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
      */
     private $facilityChangeElement = null;
 
     /**
-     * @property \Calcinai\Siri\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
      */
     private $situationRef = null;
 
@@ -247,7 +247,7 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Current geospatial location of vehicle. Measured to front of vehicle.
      *
-     * @property \Calcinai\Siri\LocationStructureType $vehicleLocation
+     * @property \Calcinai\Siri\Objects\LocationStructureType $vehicleLocation
      */
     private $vehicleLocation = null;
 
@@ -282,14 +282,14 @@ class MonitoredVehicleJourneyStructureType
     /**
      * A non-displayable status describing the running of this vehicle.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $progressStatus
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $progressStatus
      */
     private $progressStatus = null;
 
     /**
      * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
      *
-     * @property \Calcinai\Siri\TrainBlockPartStructureType $trainBlockPart
+     * @property \Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart
      */
     private $trainBlockPart = null;
 
@@ -317,21 +317,21 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Information on stops called at previously, origin and all intermediate stops up to but not including the current stop, in order or visits. Should only be included if the detail level was requested.
      *
-     * @property \Calcinai\Siri\PreviousCallStructureType[] $previousCalls
+     * @property \Calcinai\Siri\Objects\PreviousCallStructureType[] $previousCalls
      */
     private $previousCalls = null;
 
     /**
      * Monitored call at the current stop.
      *
-     * @property \Calcinai\Siri\MonitoredCallStructureType $monitoredCall
+     * @property \Calcinai\Siri\Objects\MonitoredCallStructureType $monitoredCall
      */
     private $monitoredCall = null;
 
     /**
      * Information on calls at the intermediate stops beyond the current stop, up to and including the destination, in order of visits. Should only be included if the detail level was requested.
      *
-     * @property \Calcinai\Siri\OnwardCallStructureType[] $onwardCalls
+     * @property \Calcinai\Siri\Objects\OnwardCallStructureType[] $onwardCalls
      */
     private $onwardCalls = null;
 
@@ -399,7 +399,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * A reference to the dated vehicle journey that the vehicle is making, unique with the data horizon of the service.
      *
-     * @return \Calcinai\Siri\FramedVehicleJourneyRefStructureType
+     * @return \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType
      */
     public function getFramedVehicleJourneyRef()
     {
@@ -411,10 +411,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * A reference to the dated vehicle journey that the vehicle is making, unique with the data horizon of the service.
      *
-     * @param \Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
+     * @param \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
      * @return self
      */
-    public function setFramedVehicleJourneyRef(\Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef)
+    public function setFramedVehicleJourneyRef(\Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef)
     {
         $this->framedVehicleJourneyRef = $framedVehicleJourneyRef;
         return $this;
@@ -501,7 +501,7 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -511,10 +511,10 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -525,7 +525,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Description of the direction.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDirectionName()
     {
@@ -537,10 +537,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Description of the direction.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      * @return self
      */
-    public function setDirectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $directionName)
+    public function setDirectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName)
     {
         $this->directionName = $directionName;
         return $this;
@@ -703,7 +703,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Name of the origin of the journey.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getOriginName()
     {
@@ -715,10 +715,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Name of the origin of the journey.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originName
      * @return self
      */
-    public function setOriginName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originName)
+    public function setOriginName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originName)
     {
         $this->originName = $originName;
         return $this;
@@ -729,7 +729,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Short name of the origin of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as Origin Name.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getOriginShortName()
     {
@@ -741,10 +741,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Short name of the origin of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as Origin Name.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originShortName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originShortName
      * @return self
      */
-    public function setOriginShortName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originShortName)
+    public function setOriginShortName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originShortName)
     {
         $this->originShortName = $originShortName;
         return $this;
@@ -755,7 +755,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @return \Calcinai\Siri\PlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\PlaceNameStructureType
      */
     public function getVia()
     {
@@ -767,10 +767,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @param \Calcinai\Siri\PlaceNameStructureType $via
+     * @param \Calcinai\Siri\Objects\PlaceNameStructureType $via
      * @return self
      */
-    public function setVia(\Calcinai\Siri\PlaceNameStructureType $via)
+    public function setVia(\Calcinai\Siri\Objects\PlaceNameStructureType $via)
     {
         $this->via = $via;
         return $this;
@@ -803,7 +803,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Description of the destination stop (vehicle signage), Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDestinationName()
     {
@@ -815,10 +815,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Description of the destination stop (vehicle signage), Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $destinationName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName
      * @return self
      */
-    public function setDestinationName(\Calcinai\Siri\NaturalLanguageStringStructureType $destinationName)
+    public function setDestinationName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName)
     {
         $this->destinationName = $destinationName;
         return $this;
@@ -829,7 +829,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Short name of the destination of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as DestinationName.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getDestinationShortName()
     {
@@ -841,10 +841,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Short name of the destination of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as DestinationName.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $destinationShortName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $destinationShortName
      * @return self
      */
-    public function setDestinationShortName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $destinationShortName)
+    public function setDestinationShortName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $destinationShortName)
     {
         $this->destinationShortName = $destinationShortName;
         return $this;
@@ -855,7 +855,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getVehicleJourneyName()
     {
@@ -867,10 +867,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName
      * @return self
      */
-    public function setVehicleJourneyName(\Calcinai\Siri\NaturalLanguageStringStructureType $vehicleJourneyName)
+    public function setVehicleJourneyName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleJourneyName)
     {
         $this->vehicleJourneyName = $vehicleJourneyName;
         return $this;
@@ -879,7 +879,7 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote
      */
     public function getJourneyNote()
     {
@@ -889,10 +889,10 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\JourneyNote $journeyNote)
+    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;
@@ -981,7 +981,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @return \Calcinai\Siri\FacilityConditionElement
+     * @return \Calcinai\Siri\Objects\FacilityConditionElement
      */
     public function getFacilityConditionElement()
     {
@@ -993,10 +993,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @param \Calcinai\Siri\FacilityConditionElement $facilityConditionElement
+     * @param \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
      * @return self
      */
-    public function setFacilityConditionElement(\Calcinai\Siri\FacilityConditionElement $facilityConditionElement)
+    public function setFacilityConditionElement(\Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement)
     {
         $this->facilityConditionElement = $facilityConditionElement;
         return $this;
@@ -1005,7 +1005,7 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Gets as facilityChangeElement
      *
-     * @return \Calcinai\Siri\FacilityChangeElement
+     * @return \Calcinai\Siri\Objects\FacilityChangeElement
      */
     public function getFacilityChangeElement()
     {
@@ -1015,10 +1015,10 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Sets a new facilityChangeElement
      *
-     * @param \Calcinai\Siri\FacilityChangeElement $facilityChangeElement
+     * @param \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
      * @return self
      */
-    public function setFacilityChangeElement(\Calcinai\Siri\FacilityChangeElement $facilityChangeElement)
+    public function setFacilityChangeElement(\Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement)
     {
         $this->facilityChangeElement = $facilityChangeElement;
         return $this;
@@ -1027,7 +1027,7 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef
      */
     public function getSituationRef()
     {
@@ -1037,10 +1037,10 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;
@@ -1233,7 +1233,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Current geospatial location of vehicle. Measured to front of vehicle.
      *
-     * @return \Calcinai\Siri\LocationStructureType
+     * @return \Calcinai\Siri\Objects\LocationStructureType
      */
     public function getVehicleLocation()
     {
@@ -1245,10 +1245,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Current geospatial location of vehicle. Measured to front of vehicle.
      *
-     * @param \Calcinai\Siri\LocationStructureType $vehicleLocation
+     * @param \Calcinai\Siri\Objects\LocationStructureType $vehicleLocation
      * @return self
      */
-    public function setVehicleLocation(\Calcinai\Siri\LocationStructureType $vehicleLocation)
+    public function setVehicleLocation(\Calcinai\Siri\Objects\LocationStructureType $vehicleLocation)
     {
         $this->vehicleLocation = $vehicleLocation;
         return $this;
@@ -1363,7 +1363,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * A non-displayable status describing the running of this vehicle.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getProgressStatus()
     {
@@ -1375,10 +1375,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * A non-displayable status describing the running of this vehicle.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $progressStatus
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $progressStatus
      * @return self
      */
-    public function setProgressStatus(\Calcinai\Siri\NaturalLanguageStringStructureType $progressStatus)
+    public function setProgressStatus(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $progressStatus)
     {
         $this->progressStatus = $progressStatus;
         return $this;
@@ -1389,7 +1389,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
      *
-     * @return \Calcinai\Siri\TrainBlockPartStructureType
+     * @return \Calcinai\Siri\Objects\TrainBlockPartStructureType
      */
     public function getTrainBlockPart()
     {
@@ -1401,10 +1401,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
      *
-     * @param \Calcinai\Siri\TrainBlockPartStructureType $trainBlockPart
+     * @param \Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart
      * @return self
      */
-    public function setTrainBlockPart(\Calcinai\Siri\TrainBlockPartStructureType $trainBlockPart)
+    public function setTrainBlockPart(\Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart)
     {
         $this->trainBlockPart = $trainBlockPart;
         return $this;
@@ -1494,9 +1494,9 @@ class MonitoredVehicleJourneyStructureType
      * Information on stops called at previously, origin and all intermediate stops up to but not including the current stop, in order or visits. Should only be included if the detail level was requested.
      *
      * @return self
-     * @param \Calcinai\Siri\PreviousCallStructureType $previousCall
+     * @param \Calcinai\Siri\Objects\PreviousCallStructureType $previousCall
      */
-    public function addToPreviousCalls(\Calcinai\Siri\PreviousCallStructureType $previousCall)
+    public function addToPreviousCalls(\Calcinai\Siri\Objects\PreviousCallStructureType $previousCall)
     {
         $this->previousCalls[] = $previousCall;
         return $this;
@@ -1533,7 +1533,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Information on stops called at previously, origin and all intermediate stops up to but not including the current stop, in order or visits. Should only be included if the detail level was requested.
      *
-     * @return \Calcinai\Siri\PreviousCallStructureType[]
+     * @return \Calcinai\Siri\Objects\PreviousCallStructureType[]
      */
     public function getPreviousCalls()
     {
@@ -1545,7 +1545,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Information on stops called at previously, origin and all intermediate stops up to but not including the current stop, in order or visits. Should only be included if the detail level was requested.
      *
-     * @param \Calcinai\Siri\PreviousCallStructureType[] $previousCalls
+     * @param \Calcinai\Siri\Objects\PreviousCallStructureType[] $previousCalls
      * @return self
      */
     public function setPreviousCalls(array $previousCalls)
@@ -1559,7 +1559,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Monitored call at the current stop.
      *
-     * @return \Calcinai\Siri\MonitoredCallStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredCallStructureType
      */
     public function getMonitoredCall()
     {
@@ -1571,10 +1571,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Monitored call at the current stop.
      *
-     * @param \Calcinai\Siri\MonitoredCallStructureType $monitoredCall
+     * @param \Calcinai\Siri\Objects\MonitoredCallStructureType $monitoredCall
      * @return self
      */
-    public function setMonitoredCall(\Calcinai\Siri\MonitoredCallStructureType $monitoredCall)
+    public function setMonitoredCall(\Calcinai\Siri\Objects\MonitoredCallStructureType $monitoredCall)
     {
         $this->monitoredCall = $monitoredCall;
         return $this;
@@ -1586,9 +1586,9 @@ class MonitoredVehicleJourneyStructureType
      * Information on calls at the intermediate stops beyond the current stop, up to and including the destination, in order of visits. Should only be included if the detail level was requested.
      *
      * @return self
-     * @param \Calcinai\Siri\OnwardCallStructureType $onwardCall
+     * @param \Calcinai\Siri\Objects\OnwardCallStructureType $onwardCall
      */
-    public function addToOnwardCalls(\Calcinai\Siri\OnwardCallStructureType $onwardCall)
+    public function addToOnwardCalls(\Calcinai\Siri\Objects\OnwardCallStructureType $onwardCall)
     {
         $this->onwardCalls[] = $onwardCall;
         return $this;
@@ -1625,7 +1625,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Information on calls at the intermediate stops beyond the current stop, up to and including the destination, in order of visits. Should only be included if the detail level was requested.
      *
-     * @return \Calcinai\Siri\OnwardCallStructureType[]
+     * @return \Calcinai\Siri\Objects\OnwardCallStructureType[]
      */
     public function getOnwardCalls()
     {
@@ -1637,7 +1637,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Information on calls at the intermediate stops beyond the current stop, up to and including the destination, in order of visits. Should only be included if the detail level was requested.
      *
-     * @param \Calcinai\Siri\OnwardCallStructureType[] $onwardCalls
+     * @param \Calcinai\Siri\Objects\OnwardCallStructureType[] $onwardCalls
      * @return self
      */
     public function setOnwardCalls(array $onwardCalls)

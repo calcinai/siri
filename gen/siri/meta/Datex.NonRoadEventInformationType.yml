@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\NonRoadEventInformationType:
+Calcinai\Siri\Objects\Datex\NonRoadEventInformationType:
     properties:
         nonRoadEventInformationExtension:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\Datex\NonRoadEventInformationType:
             accessor:
                 getter: getNonRoadEventInformationExtension
                 setter: setNonRoadEventInformationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing HeightCharacteristicType
@@ -26,7 +26,7 @@ class HeightCharacteristicType
     private $vehicleHeight = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $heightCharacteristicExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $heightCharacteristicExtension
      */
     private $heightCharacteristicExtension = null;
 
@@ -85,7 +85,7 @@ class HeightCharacteristicType
     /**
      * Gets as heightCharacteristicExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getHeightCharacteristicExtension()
     {
@@ -95,10 +95,10 @@ class HeightCharacteristicType
     /**
      * Sets a new heightCharacteristicExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $heightCharacteristicExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $heightCharacteristicExtension
      * @return self
      */
-    public function setHeightCharacteristicExtension(\Calcinai\Siri\Datex\ExtensionType $heightCharacteristicExtension)
+    public function setHeightCharacteristicExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $heightCharacteristicExtension)
     {
         $this->heightCharacteristicExtension = $heightCharacteristicExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionMonitoringDeliveriesStructureType:
+Calcinai\Siri\Objects\ConnectionMonitoringDeliveriesStructureType:
     properties:
         connectionMonitoringFeederDelivery:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\ConnectionMonitoringDeliveriesStructureType:
                 inline: true
                 entry_name: ConnectionMonitoringFeederDelivery
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionMonitoringFeederDelivery>
+            type: array<Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery>
         connectionMonitoringDistributorDelivery:
             expose: true
             access_type: public_method
@@ -27,4 +27,4 @@ Calcinai\Siri\ConnectionMonitoringDeliveriesStructureType:
                 inline: true
                 entry_name: ConnectionMonitoringDistributorDelivery
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionMonitoringDistributorDelivery>
+            type: array<Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery>

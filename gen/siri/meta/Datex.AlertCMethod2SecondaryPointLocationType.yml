@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AlertCMethod2SecondaryPointLocationType:
+Calcinai\Siri\Objects\Datex\AlertCMethod2SecondaryPointLocationType:
     properties:
         alertCLocation:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\AlertCMethod2SecondaryPointLocationType:
             accessor:
                 getter: getAlertCLocation
                 setter: setAlertCLocation
-            type: Calcinai\Siri\Datex\AlertCLocationType
+            type: Calcinai\Siri\Objects\Datex\AlertCLocationType
         alertCMethod2SecondaryPointLocationExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\AlertCMethod2SecondaryPointLocationType:
             accessor:
                 getter: getAlertCMethod2SecondaryPointLocationExtension
                 setter: setAlertCMethod2SecondaryPointLocationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

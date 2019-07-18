@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionLinkPermissionStructureType:
+Calcinai\Siri\Objects\ConnectionLinkPermissionStructureType:
     properties:
         connectionLinkRef:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\ConnectionLinkPermissionStructureType:
             accessor:
                 getter: getConnectionLinkRef
                 setter: setConnectionLinkRef
-            type: Calcinai\Siri\ConnectionLinkRefStructureType
+            type: Calcinai\Siri\Objects\ConnectionLinkRefStructureType

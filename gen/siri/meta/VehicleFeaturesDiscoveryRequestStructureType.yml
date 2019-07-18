@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleFeaturesDiscoveryRequestStructureType:
+Calcinai\Siri\Objects\VehicleFeaturesDiscoveryRequestStructureType:
     properties:
         version:
             expose: true

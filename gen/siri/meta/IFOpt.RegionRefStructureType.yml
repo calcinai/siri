@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\RegionRefStructureType:
+Calcinai\Siri\Objects\IFOpt\RegionRefStructureType:
     properties:
         __value:
             expose: true

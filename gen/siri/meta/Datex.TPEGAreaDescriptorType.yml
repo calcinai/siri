@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGAreaDescriptorType:
+Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType:
     properties:
         tpegDescriptorType:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\TPEGAreaDescriptorType:
             accessor:
                 getter: getTpegareaDescriptorExtension
                 setter: setTpegareaDescriptorExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

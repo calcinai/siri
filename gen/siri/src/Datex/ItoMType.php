@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ItoMType
@@ -12,7 +12,7 @@ class ItoMType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $itoMExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $itoMExtension
      */
     private $itoMExtension = null;
 
@@ -84,7 +84,7 @@ class ItoMType
     /**
      * Gets as itoMExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getItoMExtension()
     {
@@ -94,10 +94,10 @@ class ItoMType
     /**
      * Sets a new itoMExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $itoMExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $itoMExtension
      * @return self
      */
-    public function setItoMExtension(\Calcinai\Siri\Datex\ExtensionType $itoMExtension)
+    public function setItoMExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $itoMExtension)
     {
         $this->itoMExtension = $itoMExtension;
         return $this;

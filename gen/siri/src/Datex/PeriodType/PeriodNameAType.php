@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\PeriodType;
+namespace Calcinai\Siri\Objects\Datex\PeriodType;
 
 /**
  * Class representing PeriodNameAType
@@ -9,7 +9,7 @@ class PeriodNameAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class PeriodNameAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class PeriodNameAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class PeriodNameAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

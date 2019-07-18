@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType:
+Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType:
     properties:
         value:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType:
                 inline: true
                 entry_name: value
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType>
+            type: array<Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType\ValueAType>

@@ -1,4 +1,4 @@
-Calcinai\Siri\FramedVehicleJourneyRefStructureType:
+Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType:
     properties:
         dataFrameRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\FramedVehicleJourneyRefStructureType:
             accessor:
                 getter: getDataFrameRef
                 setter: setDataFrameRef
-            type: Calcinai\Siri\DataFrameRefStructureType
+            type: Calcinai\Siri\Objects\DataFrameRefStructureType
         datedVehicleJourneyRef:
             expose: true
             access_type: public_method

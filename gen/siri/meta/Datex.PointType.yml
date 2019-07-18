@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PointType:
+Calcinai\Siri\Objects\Datex\PointType:
     properties:
         tpegpointLocation:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\PointType:
             accessor:
                 getter: getTpegpointLocation
                 setter: setTpegpointLocation
-            type: Calcinai\Siri\Datex\TPEGPointLocationType
+            type: Calcinai\Siri\Objects\Datex\TPEGPointLocationType
         alertCPoint:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\PointType:
             accessor:
                 getter: getAlertCPoint
                 setter: setAlertCPoint
-            type: Calcinai\Siri\Datex\AlertCPointType
+            type: Calcinai\Siri\Objects\Datex\AlertCPointType
         referencePoint:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\PointType:
             accessor:
                 getter: getReferencePoint
                 setter: setReferencePoint
-            type: Calcinai\Siri\Datex\ReferencePointType
+            type: Calcinai\Siri\Objects\Datex\ReferencePointType
         pointByCoordinates:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\Datex\PointType:
             accessor:
                 getter: getPointByCoordinates
                 setter: setPointByCoordinates
-            type: Calcinai\Siri\Datex\PointByCoordinatesType
+            type: Calcinai\Siri\Objects\Datex\PointByCoordinatesType
         pointExtension:
             expose: true
             access_type: public_method
@@ -49,4 +49,4 @@ Calcinai\Siri\Datex\PointType:
             accessor:
                 getter: getPointExtension
                 setter: setPointExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

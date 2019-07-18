@@ -1,4 +1,4 @@
-Calcinai\Siri\ServiceRequestContextStructureType:
+Calcinai\Siri\Objects\ServiceRequestContextStructureType:
     properties:
         checkStatusAddress:
             expose: true
@@ -89,7 +89,7 @@ Calcinai\Siri\ServiceRequestContextStructureType:
             accessor:
                 getter: getDataNameSpaces
                 setter: setDataNameSpaces
-            type: Calcinai\Siri\DataNameSpacesStructureType
+            type: Calcinai\Siri\Objects\DataNameSpacesStructureType
         language:
             expose: true
             access_type: public_method

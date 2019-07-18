@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleRefStructureType:
+Calcinai\Siri\Objects\VehicleRefStructureType:
     properties:
         __value:
             expose: true

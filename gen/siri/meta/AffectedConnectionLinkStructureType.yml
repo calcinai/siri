@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedConnectionLinkStructureType:
+Calcinai\Siri\Objects\AffectedConnectionLinkStructureType:
     properties:
         connectionLinkRef:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
                 inline: true
                 entry_name: ConnectionLinkRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionLinkRefStructureType>
+            type: array<Calcinai\Siri\Objects\ConnectionLinkRefStructureType>
         connectionName:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
             accessor:
                 getter: getConnectionName
                 setter: setConnectionName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         allLines:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\LineRef
+            type: Calcinai\Siri\Objects\LineRef
         connectingStopPointRef:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
             accessor:
                 getter: getConnectingStopPointRef
                 setter: setConnectingStopPointRef
-            type: Calcinai\Siri\StopPointRefStructureType
+            type: Calcinai\Siri\Objects\StopPointRefStructureType
         connectingStopPointName:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
             accessor:
                 getter: getConnectingStopPointName
                 setter: setConnectingStopPointName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         connectingZoneRef:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
             accessor:
                 getter: getConnectingZoneRef
                 setter: setConnectingZoneRef
-            type: Calcinai\Siri\ZoneRefStructureType
+            type: Calcinai\Siri\Objects\ZoneRefStructureType
         connectionDirection:
             expose: true
             access_type: public_method
@@ -97,7 +97,7 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
                 inline: true
                 entry_name: AffectedPathLink
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedPathLinkStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedPathLinkStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -107,4 +107,4 @@ Calcinai\Siri\AffectedConnectionLinkStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

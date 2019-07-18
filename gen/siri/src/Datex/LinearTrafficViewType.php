@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing LinearTrafficViewType
@@ -24,14 +24,14 @@ class LinearTrafficViewType
     private $linearPredefinedLocationReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TrafficViewRecordType[] $trafficViewRecord
+     * @property \Calcinai\Siri\Objects\Datex\TrafficViewRecordType[] $trafficViewRecord
      */
     private $trafficViewRecord = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $linearTrafficViewExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $linearTrafficViewExtension
      */
     private $linearTrafficViewExtension = null;
 
@@ -87,9 +87,9 @@ class LinearTrafficViewType
      * Adds as trafficViewRecord
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TrafficViewRecordType $trafficViewRecord
+     * @param \Calcinai\Siri\Objects\Datex\TrafficViewRecordType $trafficViewRecord
      */
-    public function addToTrafficViewRecord(\Calcinai\Siri\Datex\TrafficViewRecordType $trafficViewRecord)
+    public function addToTrafficViewRecord(\Calcinai\Siri\Objects\Datex\TrafficViewRecordType $trafficViewRecord)
     {
         $this->trafficViewRecord[] = $trafficViewRecord;
         return $this;
@@ -120,7 +120,7 @@ class LinearTrafficViewType
     /**
      * Gets as trafficViewRecord
      *
-     * @return \Calcinai\Siri\Datex\TrafficViewRecordType[]
+     * @return \Calcinai\Siri\Objects\Datex\TrafficViewRecordType[]
      */
     public function getTrafficViewRecord()
     {
@@ -130,7 +130,7 @@ class LinearTrafficViewType
     /**
      * Sets a new trafficViewRecord
      *
-     * @param \Calcinai\Siri\Datex\TrafficViewRecordType[] $trafficViewRecord
+     * @param \Calcinai\Siri\Objects\Datex\TrafficViewRecordType[] $trafficViewRecord
      * @return self
      */
     public function setTrafficViewRecord(array $trafficViewRecord)
@@ -142,7 +142,7 @@ class LinearTrafficViewType
     /**
      * Gets as linearTrafficViewExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getLinearTrafficViewExtension()
     {
@@ -152,10 +152,10 @@ class LinearTrafficViewType
     /**
      * Sets a new linearTrafficViewExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $linearTrafficViewExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $linearTrafficViewExtension
      * @return self
      */
-    public function setLinearTrafficViewExtension(\Calcinai\Siri\Datex\ExtensionType $linearTrafficViewExtension)
+    public function setLinearTrafficViewExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $linearTrafficViewExtension)
     {
         $this->linearTrafficViewExtension = $linearTrafficViewExtension;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PeriodType
@@ -28,26 +28,26 @@ class PeriodType
     /**
      * The name of the period
      *
-     * @property \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType[] $periodName
+     * @property \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType[] $periodName
      */
     private $periodName = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TimePeriodOfDayType[] $recurringTimePeriodOfDay
+     * @property \Calcinai\Siri\Objects\Datex\TimePeriodOfDayType[] $recurringTimePeriodOfDay
      */
     private $recurringTimePeriodOfDay = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\DayWeekMonthType[] $recurringDayWeekMonthPeriod
+     * @property \Calcinai\Siri\Objects\Datex\DayWeekMonthType[] $recurringDayWeekMonthPeriod
      */
     private $recurringDayWeekMonthPeriod = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $periodExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $periodExtension
      */
     private $periodExtension = null;
 
@@ -109,9 +109,9 @@ class PeriodType
      * The name of the period
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType $value
      */
-    public function addToPeriodName(\Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType $value)
+    public function addToPeriodName(\Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType $value)
     {
         $this->periodName[] = $value;
         return $this;
@@ -148,7 +148,7 @@ class PeriodType
      *
      * The name of the period
      *
-     * @return \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType[]
      */
     public function getPeriodName()
     {
@@ -160,7 +160,7 @@ class PeriodType
      *
      * The name of the period
      *
-     * @param \Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType[] $periodName
+     * @param \Calcinai\Siri\Objects\Datex\PeriodType\PeriodNameAType\ValueAType[] $periodName
      * @return self
      */
     public function setPeriodName(array $periodName)
@@ -173,9 +173,9 @@ class PeriodType
      * Adds as recurringTimePeriodOfDay
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TimePeriodOfDayType $recurringTimePeriodOfDay
+     * @param \Calcinai\Siri\Objects\Datex\TimePeriodOfDayType $recurringTimePeriodOfDay
      */
-    public function addToRecurringTimePeriodOfDay(\Calcinai\Siri\Datex\TimePeriodOfDayType $recurringTimePeriodOfDay)
+    public function addToRecurringTimePeriodOfDay(\Calcinai\Siri\Objects\Datex\TimePeriodOfDayType $recurringTimePeriodOfDay)
     {
         $this->recurringTimePeriodOfDay[] = $recurringTimePeriodOfDay;
         return $this;
@@ -206,7 +206,7 @@ class PeriodType
     /**
      * Gets as recurringTimePeriodOfDay
      *
-     * @return \Calcinai\Siri\Datex\TimePeriodOfDayType[]
+     * @return \Calcinai\Siri\Objects\Datex\TimePeriodOfDayType[]
      */
     public function getRecurringTimePeriodOfDay()
     {
@@ -216,7 +216,7 @@ class PeriodType
     /**
      * Sets a new recurringTimePeriodOfDay
      *
-     * @param \Calcinai\Siri\Datex\TimePeriodOfDayType[] $recurringTimePeriodOfDay
+     * @param \Calcinai\Siri\Objects\Datex\TimePeriodOfDayType[] $recurringTimePeriodOfDay
      * @return self
      */
     public function setRecurringTimePeriodOfDay(array $recurringTimePeriodOfDay)
@@ -229,9 +229,9 @@ class PeriodType
      * Adds as recurringDayWeekMonthPeriod
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\DayWeekMonthType $recurringDayWeekMonthPeriod
+     * @param \Calcinai\Siri\Objects\Datex\DayWeekMonthType $recurringDayWeekMonthPeriod
      */
-    public function addToRecurringDayWeekMonthPeriod(\Calcinai\Siri\Datex\DayWeekMonthType $recurringDayWeekMonthPeriod)
+    public function addToRecurringDayWeekMonthPeriod(\Calcinai\Siri\Objects\Datex\DayWeekMonthType $recurringDayWeekMonthPeriod)
     {
         $this->recurringDayWeekMonthPeriod[] = $recurringDayWeekMonthPeriod;
         return $this;
@@ -262,7 +262,7 @@ class PeriodType
     /**
      * Gets as recurringDayWeekMonthPeriod
      *
-     * @return \Calcinai\Siri\Datex\DayWeekMonthType[]
+     * @return \Calcinai\Siri\Objects\Datex\DayWeekMonthType[]
      */
     public function getRecurringDayWeekMonthPeriod()
     {
@@ -272,7 +272,7 @@ class PeriodType
     /**
      * Sets a new recurringDayWeekMonthPeriod
      *
-     * @param \Calcinai\Siri\Datex\DayWeekMonthType[] $recurringDayWeekMonthPeriod
+     * @param \Calcinai\Siri\Objects\Datex\DayWeekMonthType[] $recurringDayWeekMonthPeriod
      * @return self
      */
     public function setRecurringDayWeekMonthPeriod(array $recurringDayWeekMonthPeriod)
@@ -284,7 +284,7 @@ class PeriodType
     /**
      * Gets as periodExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPeriodExtension()
     {
@@ -294,10 +294,10 @@ class PeriodType
     /**
      * Sets a new periodExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $periodExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $periodExtension
      * @return self
      */
-    public function setPeriodExtension(\Calcinai\Siri\Datex\ExtensionType $periodExtension)
+    public function setPeriodExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $periodExtension)
     {
         $this->periodExtension = $periodExtension;
         return $this;

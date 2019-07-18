@@ -1,4 +1,4 @@
-Calcinai\Siri\ExpectedDepartureTime:
+Calcinai\Siri\Objects\ExpectedDepartureTime:
     xml_root_name: ExpectedDepartureTime
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

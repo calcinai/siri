@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ItoMType:
+Calcinai\Siri\Objects\Datex\ItoMType:
     properties:
         itoMExtension:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\ItoMType:
             accessor:
                 getter: getItoMExtension
                 setter: setItoMExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType
         instructionsEnum:
             expose: true
             access_type: public_method

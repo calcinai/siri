@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedStopPointStructureType\ConnectionLinksAType:
+Calcinai\Siri\Objects\AffectedStopPointStructureType\ConnectionLinksAType:
     properties:
         affectedConnectionLink:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectedStopPointStructureType\ConnectionLinksAType:
                 inline: true
                 entry_name: AffectedConnectionLink
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedConnectionLinkStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedConnectionLinkStructureType>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ElaboratedDataPublicationType
@@ -33,24 +33,24 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     private $timeDefault = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @property \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      */
     private $headerInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferenceSettingsType $referenceSettings
+     * @property \Calcinai\Siri\Objects\Datex\ReferenceSettingsType $referenceSettings
      */
     private $referenceSettings = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ElaboratedDataType[] $elaboratedData
+     * @property \Calcinai\Siri\Objects\Datex\ElaboratedDataType[] $elaboratedData
      */
     private $elaboratedData = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $elaboratedDataPublicationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $elaboratedDataPublicationExtension
      */
     private $elaboratedDataPublicationExtension = null;
 
@@ -135,7 +135,7 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Gets as headerInformation
      *
-     * @return \Calcinai\Siri\Datex\HeaderInformationType
+     * @return \Calcinai\Siri\Objects\Datex\HeaderInformationType
      */
     public function getHeaderInformation()
     {
@@ -145,10 +145,10 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Sets a new headerInformation
      *
-     * @param \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @param \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      * @return self
      */
-    public function setHeaderInformation(\Calcinai\Siri\Datex\HeaderInformationType $headerInformation)
+    public function setHeaderInformation(\Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation)
     {
         $this->headerInformation = $headerInformation;
         return $this;
@@ -157,7 +157,7 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Gets as referenceSettings
      *
-     * @return \Calcinai\Siri\Datex\ReferenceSettingsType
+     * @return \Calcinai\Siri\Objects\Datex\ReferenceSettingsType
      */
     public function getReferenceSettings()
     {
@@ -167,10 +167,10 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Sets a new referenceSettings
      *
-     * @param \Calcinai\Siri\Datex\ReferenceSettingsType $referenceSettings
+     * @param \Calcinai\Siri\Objects\Datex\ReferenceSettingsType $referenceSettings
      * @return self
      */
-    public function setReferenceSettings(\Calcinai\Siri\Datex\ReferenceSettingsType $referenceSettings)
+    public function setReferenceSettings(\Calcinai\Siri\Objects\Datex\ReferenceSettingsType $referenceSettings)
     {
         $this->referenceSettings = $referenceSettings;
         return $this;
@@ -180,9 +180,9 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
      * Adds as elaboratedData
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ElaboratedDataType $elaboratedData
+     * @param \Calcinai\Siri\Objects\Datex\ElaboratedDataType $elaboratedData
      */
-    public function addToElaboratedData(\Calcinai\Siri\Datex\ElaboratedDataType $elaboratedData)
+    public function addToElaboratedData(\Calcinai\Siri\Objects\Datex\ElaboratedDataType $elaboratedData)
     {
         $this->elaboratedData[] = $elaboratedData;
         return $this;
@@ -213,7 +213,7 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Gets as elaboratedData
      *
-     * @return \Calcinai\Siri\Datex\ElaboratedDataType[]
+     * @return \Calcinai\Siri\Objects\Datex\ElaboratedDataType[]
      */
     public function getElaboratedData()
     {
@@ -223,7 +223,7 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Sets a new elaboratedData
      *
-     * @param \Calcinai\Siri\Datex\ElaboratedDataType[] $elaboratedData
+     * @param \Calcinai\Siri\Objects\Datex\ElaboratedDataType[] $elaboratedData
      * @return self
      */
     public function setElaboratedData(array $elaboratedData)
@@ -235,7 +235,7 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Gets as elaboratedDataPublicationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getElaboratedDataPublicationExtension()
     {
@@ -245,10 +245,10 @@ class ElaboratedDataPublicationType extends PayloadPublicationType
     /**
      * Sets a new elaboratedDataPublicationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $elaboratedDataPublicationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $elaboratedDataPublicationExtension
      * @return self
      */
-    public function setElaboratedDataPublicationExtension(\Calcinai\Siri\Datex\ExtensionType $elaboratedDataPublicationExtension)
+    public function setElaboratedDataPublicationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $elaboratedDataPublicationExtension)
     {
         $this->elaboratedDataPublicationExtension = $elaboratedDataPublicationExtension;
         return $this;

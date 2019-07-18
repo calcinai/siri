@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TimetabledFeederArrivalStructureType
@@ -14,7 +14,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Information about the feeder journey.
      *
-     * @property \Calcinai\Siri\InterchangeJourneyStructureType $feederJourney
+     * @property \Calcinai\Siri\Objects\InterchangeJourneyStructureType $feederJourney
      */
     private $feederJourney = null;
 
@@ -35,7 +35,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * A reference to the dated vehicle journey that the vehicle is making.
      *
-     * @property \Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
+     * @property \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
      */
     private $framedVehicleJourneyRef = null;
 
@@ -61,14 +61,14 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     private $routeRef = null;
 
     /**
-     * @property \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @property \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      */
     private $publishedLineName = null;
 
     /**
      * Description of the direction.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      */
     private $directionName = null;
 
@@ -110,33 +110,33 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Name of the origin of the journey.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originName
      */
     private $originName = null;
 
     /**
      * Short name of the origin of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as Origin Name.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originShortName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originShortName
      */
     private $originShortName = null;
 
     /**
      * Description of the destination stop (vehicle signage), Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $destinationName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName
      */
     private $destinationName = null;
 
     /**
      * Short name of the destination of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as DestinationName.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $destinationShortName
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $destinationShortName
      */
     private $destinationShortName = null;
 
     /**
-     * @property \Calcinai\Siri\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
      */
     private $journeyNote = null;
 
@@ -204,7 +204,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     private $aimedArrivalTime = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -213,7 +213,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Information about the feeder journey.
      *
-     * @return \Calcinai\Siri\InterchangeJourneyStructureType
+     * @return \Calcinai\Siri\Objects\InterchangeJourneyStructureType
      */
     public function getFeederJourney()
     {
@@ -225,10 +225,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Information about the feeder journey.
      *
-     * @param \Calcinai\Siri\InterchangeJourneyStructureType $feederJourney
+     * @param \Calcinai\Siri\Objects\InterchangeJourneyStructureType $feederJourney
      * @return self
      */
-    public function setFeederJourney(\Calcinai\Siri\InterchangeJourneyStructureType $feederJourney)
+    public function setFeederJourney(\Calcinai\Siri\Objects\InterchangeJourneyStructureType $feederJourney)
     {
         $this->feederJourney = $feederJourney;
         return $this;
@@ -291,7 +291,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * A reference to the dated vehicle journey that the vehicle is making.
      *
-     * @return \Calcinai\Siri\FramedVehicleJourneyRefStructureType
+     * @return \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType
      */
     public function getFramedVehicleJourneyRef()
     {
@@ -303,10 +303,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * A reference to the dated vehicle journey that the vehicle is making.
      *
-     * @param \Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
+     * @param \Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef
      * @return self
      */
-    public function setFramedVehicleJourneyRef(\Calcinai\Siri\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef)
+    public function setFramedVehicleJourneyRef(\Calcinai\Siri\Objects\FramedVehicleJourneyRefStructureType $framedVehicleJourneyRef)
     {
         $this->framedVehicleJourneyRef = $framedVehicleJourneyRef;
         return $this;
@@ -393,7 +393,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Gets as publishedLineName
      *
-     * @return \Calcinai\Siri\PublishedLineName
+     * @return \Calcinai\Siri\Objects\PublishedLineName
      */
     public function getPublishedLineName()
     {
@@ -403,10 +403,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Sets a new publishedLineName
      *
-     * @param \Calcinai\Siri\PublishedLineName $publishedLineName
+     * @param \Calcinai\Siri\Objects\PublishedLineName $publishedLineName
      * @return self
      */
-    public function setPublishedLineName(\Calcinai\Siri\PublishedLineName $publishedLineName)
+    public function setPublishedLineName(\Calcinai\Siri\Objects\PublishedLineName $publishedLineName)
     {
         $this->publishedLineName = $publishedLineName;
         return $this;
@@ -417,7 +417,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Description of the direction.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDirectionName()
     {
@@ -429,10 +429,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Description of the direction.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $directionName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName
      * @return self
      */
-    public function setDirectionName(\Calcinai\Siri\NaturalLanguageStringStructureType $directionName)
+    public function setDirectionName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $directionName)
     {
         $this->directionName = $directionName;
         return $this;
@@ -573,7 +573,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Name of the origin of the journey.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getOriginName()
     {
@@ -585,10 +585,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Name of the origin of the journey.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originName
      * @return self
      */
-    public function setOriginName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originName)
+    public function setOriginName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originName)
     {
         $this->originName = $originName;
         return $this;
@@ -599,7 +599,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Short name of the origin of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as Origin Name.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getOriginShortName()
     {
@@ -611,10 +611,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Short name of the origin of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as Origin Name.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originShortName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originShortName
      * @return self
      */
-    public function setOriginShortName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $originShortName)
+    public function setOriginShortName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $originShortName)
     {
         $this->originShortName = $originShortName;
         return $this;
@@ -625,7 +625,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Description of the destination stop (vehicle signage), Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDestinationName()
     {
@@ -637,10 +637,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Description of the destination stop (vehicle signage), Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $destinationName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName
      * @return self
      */
-    public function setDestinationName(\Calcinai\Siri\NaturalLanguageStringStructureType $destinationName)
+    public function setDestinationName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName)
     {
         $this->destinationName = $destinationName;
         return $this;
@@ -651,7 +651,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Short name of the destination of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as DestinationName.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getDestinationShortName()
     {
@@ -663,10 +663,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Short name of the destination of the journey; used to help identify the vehicle journey on arrival boards. If absent, same as DestinationName.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $destinationShortName
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $destinationShortName
      * @return self
      */
-    public function setDestinationShortName(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $destinationShortName)
+    public function setDestinationShortName(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $destinationShortName)
     {
         $this->destinationShortName = $destinationShortName;
         return $this;
@@ -675,7 +675,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote
      */
     public function getJourneyNote()
     {
@@ -685,10 +685,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\JourneyNote $journeyNote)
+    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;
@@ -931,7 +931,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -941,10 +941,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

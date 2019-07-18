@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing MeasurementSpecificCharacteristicsType
@@ -47,12 +47,12 @@ class MeasurementSpecificCharacteristicsType
     private $specificMeasurementValueType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleCharacteristicsType $specificVehicleCharacteristics
+     * @property \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $specificVehicleCharacteristics
      */
     private $specificVehicleCharacteristics = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $measurementSpecificCharacteristicsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $measurementSpecificCharacteristicsExtension
      */
     private $measurementSpecificCharacteristicsExtension = null;
 
@@ -189,7 +189,7 @@ class MeasurementSpecificCharacteristicsType
     /**
      * Gets as specificVehicleCharacteristics
      *
-     * @return \Calcinai\Siri\Datex\VehicleCharacteristicsType
+     * @return \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType
      */
     public function getSpecificVehicleCharacteristics()
     {
@@ -199,10 +199,10 @@ class MeasurementSpecificCharacteristicsType
     /**
      * Sets a new specificVehicleCharacteristics
      *
-     * @param \Calcinai\Siri\Datex\VehicleCharacteristicsType $specificVehicleCharacteristics
+     * @param \Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $specificVehicleCharacteristics
      * @return self
      */
-    public function setSpecificVehicleCharacteristics(\Calcinai\Siri\Datex\VehicleCharacteristicsType $specificVehicleCharacteristics)
+    public function setSpecificVehicleCharacteristics(\Calcinai\Siri\Objects\Datex\VehicleCharacteristicsType $specificVehicleCharacteristics)
     {
         $this->specificVehicleCharacteristics = $specificVehicleCharacteristics;
         return $this;
@@ -211,7 +211,7 @@ class MeasurementSpecificCharacteristicsType
     /**
      * Gets as measurementSpecificCharacteristicsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getMeasurementSpecificCharacteristicsExtension()
     {
@@ -221,10 +221,10 @@ class MeasurementSpecificCharacteristicsType
     /**
      * Sets a new measurementSpecificCharacteristicsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $measurementSpecificCharacteristicsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $measurementSpecificCharacteristicsExtension
      * @return self
      */
-    public function setMeasurementSpecificCharacteristicsExtension(\Calcinai\Siri\Datex\ExtensionType $measurementSpecificCharacteristicsExtension)
+    public function setMeasurementSpecificCharacteristicsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $measurementSpecificCharacteristicsExtension)
     {
         $this->measurementSpecificCharacteristicsExtension = $measurementSpecificCharacteristicsExtension;
         return $this;

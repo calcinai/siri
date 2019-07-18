@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedOperatorStructureType:
+Calcinai\Siri\Objects\AffectedOperatorStructureType:
     properties:
         operatorRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AffectedOperatorStructureType:
             accessor:
                 getter: getOperatorRef
                 setter: setOperatorRef
-            type: Calcinai\Siri\OperatorRefStructureType
+            type: Calcinai\Siri\Objects\OperatorRefStructureType
         operatorName:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\AffectedOperatorStructureType:
             accessor:
                 getter: getOperatorName
                 setter: setOperatorName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         operatorShortName:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\AffectedOperatorStructureType:
             accessor:
                 getter: getOperatorShortName
                 setter: setOperatorShortName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         operationalUnitRef:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Calcinai\Siri\AffectedOperatorStructureType:
                 inline: true
                 entry_name: OperationalUnitRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\OperationalUnitRefStructureType>
+            type: array<Calcinai\Siri\Objects\OperationalUnitRefStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -53,4 +53,4 @@ Calcinai\Siri\AffectedOperatorStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

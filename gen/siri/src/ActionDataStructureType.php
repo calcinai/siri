@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ActionDataStructureType
@@ -37,7 +37,7 @@ class ActionDataStructureType
     /**
      * Display prompt for presenting action to user.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $prompt
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $prompt
      */
     private $prompt = null;
 
@@ -164,7 +164,7 @@ class ActionDataStructureType
      *
      * Display prompt for presenting action to user.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getPrompt()
     {
@@ -176,10 +176,10 @@ class ActionDataStructureType
      *
      * Display prompt for presenting action to user.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $prompt
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $prompt
      * @return self
      */
-    public function setPrompt(\Calcinai\Siri\NaturalLanguageStringStructureType $prompt)
+    public function setPrompt(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $prompt)
     {
         $this->prompt = $prompt;
         return $this;

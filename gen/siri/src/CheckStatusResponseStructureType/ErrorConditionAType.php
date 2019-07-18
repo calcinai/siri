@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\CheckStatusResponseStructureType;
+namespace Calcinai\Siri\Objects\CheckStatusResponseStructureType;
 
 /**
  * Class representing ErrorConditionAType
@@ -9,12 +9,12 @@ class ErrorConditionAType
 {
 
     /**
-     * @property \Calcinai\Siri\ServiceNotAvailableError $serviceNotAvailableError
+     * @property \Calcinai\Siri\Objects\ServiceNotAvailableError $serviceNotAvailableError
      */
     private $serviceNotAvailableError = null;
 
     /**
-     * @property \Calcinai\Siri\OtherError $otherError
+     * @property \Calcinai\Siri\Objects\OtherError $otherError
      */
     private $otherError = null;
 
@@ -28,7 +28,7 @@ class ErrorConditionAType
     /**
      * Gets as serviceNotAvailableError
      *
-     * @return \Calcinai\Siri\ServiceNotAvailableError
+     * @return \Calcinai\Siri\Objects\ServiceNotAvailableError
      */
     public function getServiceNotAvailableError()
     {
@@ -38,10 +38,10 @@ class ErrorConditionAType
     /**
      * Sets a new serviceNotAvailableError
      *
-     * @param \Calcinai\Siri\ServiceNotAvailableError $serviceNotAvailableError
+     * @param \Calcinai\Siri\Objects\ServiceNotAvailableError $serviceNotAvailableError
      * @return self
      */
-    public function setServiceNotAvailableError(\Calcinai\Siri\ServiceNotAvailableError $serviceNotAvailableError)
+    public function setServiceNotAvailableError(\Calcinai\Siri\Objects\ServiceNotAvailableError $serviceNotAvailableError)
     {
         $this->serviceNotAvailableError = $serviceNotAvailableError;
         return $this;
@@ -50,7 +50,7 @@ class ErrorConditionAType
     /**
      * Gets as otherError
      *
-     * @return \Calcinai\Siri\OtherError
+     * @return \Calcinai\Siri\Objects\OtherError
      */
     public function getOtherError()
     {
@@ -60,10 +60,10 @@ class ErrorConditionAType
     /**
      * Sets a new otherError
      *
-     * @param \Calcinai\Siri\OtherError $otherError
+     * @param \Calcinai\Siri\Objects\OtherError $otherError
      * @return self
      */
-    public function setOtherError(\Calcinai\Siri\OtherError $otherError)
+    public function setOtherError(\Calcinai\Siri\Objects\OtherError $otherError)
     {
         $this->otherError = $otherError;
         return $this;

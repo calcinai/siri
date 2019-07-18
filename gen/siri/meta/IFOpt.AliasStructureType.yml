@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\AliasStructureType:
+Calcinai\Siri\Objects\IFOpt\AliasStructureType:
     properties:
         privateCode:
             expose: true

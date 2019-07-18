@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopTimetableDeliveriesStructureType
@@ -12,14 +12,14 @@ class StopTimetableDeliveriesStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\StopTimetableDelivery $stopTimetableDelivery
+     * @property \Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery
      */
     private $stopTimetableDelivery = null;
 
     /**
      * Gets as stopTimetableDelivery
      *
-     * @return \Calcinai\Siri\StopTimetableDelivery
+     * @return \Calcinai\Siri\Objects\StopTimetableDelivery
      */
     public function getStopTimetableDelivery()
     {
@@ -29,10 +29,10 @@ class StopTimetableDeliveriesStructureType
     /**
      * Sets a new stopTimetableDelivery
      *
-     * @param \Calcinai\Siri\StopTimetableDelivery $stopTimetableDelivery
+     * @param \Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery
      * @return self
      */
-    public function setStopTimetableDelivery(\Calcinai\Siri\StopTimetableDelivery $stopTimetableDelivery)
+    public function setStopTimetableDelivery(\Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery)
     {
         $this->stopTimetableDelivery = $stopTimetableDelivery;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\BoardingStructureType:
+Calcinai\Siri\Objects\BoardingStructureType:
     properties:
         arrivalBoardingActivity:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionMonitoringPermissions\ConnectionMonitoringPermissionsAType:
+Calcinai\Siri\Objects\ConnectionMonitoringPermissions\ConnectionMonitoringPermissionsAType:
     properties:
         connectionMonitoringPermission:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\ConnectionMonitoringPermissions\ConnectionMonitoringPermissionsATy
                 inline: true
                 entry_name: ConnectionMonitoringPermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\ConnectionServicePermissionStructureType>

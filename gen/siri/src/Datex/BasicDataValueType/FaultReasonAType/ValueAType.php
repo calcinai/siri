@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType;
+namespace Calcinai\Siri\Objects\Datex\BasicDataValueType\FaultReasonAType;
 
 /**
  * Class representing ValueAType

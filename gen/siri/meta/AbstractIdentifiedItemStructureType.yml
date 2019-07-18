@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractIdentifiedItemStructureType:
+Calcinai\Siri\Objects\AbstractIdentifiedItemStructureType:
     properties:
         itemIdentifier:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing EquipmentDamageObstructionType
@@ -19,7 +19,7 @@ class EquipmentDamageObstructionType extends ObstructionType
     private $equipmentDamageType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $equipmentDamageObstructionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $equipmentDamageObstructionExtension
      */
     private $equipmentDamageObstructionExtension = null;
 
@@ -52,7 +52,7 @@ class EquipmentDamageObstructionType extends ObstructionType
     /**
      * Gets as equipmentDamageObstructionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getEquipmentDamageObstructionExtension()
     {
@@ -62,10 +62,10 @@ class EquipmentDamageObstructionType extends ObstructionType
     /**
      * Sets a new equipmentDamageObstructionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $equipmentDamageObstructionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $equipmentDamageObstructionExtension
      * @return self
      */
-    public function setEquipmentDamageObstructionExtension(\Calcinai\Siri\Datex\ExtensionType $equipmentDamageObstructionExtension)
+    public function setEquipmentDamageObstructionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $equipmentDamageObstructionExtension)
     {
         $this->equipmentDamageObstructionExtension = $equipmentDamageObstructionExtension;
         return $this;

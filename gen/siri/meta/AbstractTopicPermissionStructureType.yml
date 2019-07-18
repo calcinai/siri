@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractTopicPermissionStructureType:
+Calcinai\Siri\Objects\AbstractTopicPermissionStructureType:
     properties:
         allow:
             expose: true

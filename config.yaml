@@ -1,18 +1,18 @@
 xsd2php:
   namespaces:
-    'http://www.siri.org.uk/siri': 'Calcinai\Siri'
-    'http://www.ifopt.org.uk/ifopt': 'Calcinai\Siri\IFOpt'
-    'http://www.ifopt.org.uk/acsb': 'Calcinai\Siri\ACSB'
-    'http://datex2.eu/schema/1_0/1_0': 'Calcinai\Siri\Datex'
+    'http://www.siri.org.uk/siri': 'Calcinai\Siri\Objects'
+    'http://www.ifopt.org.uk/ifopt': 'Calcinai\Siri\Objects\IFOpt'
+    'http://www.ifopt.org.uk/acsb': 'Calcinai\Siri\Objects\ACSB'
+    'http://datex2.eu/schema/1_0/1_0': 'Calcinai\Siri\Objects\Datex'
   destinations_php:
-    'Calcinai\Siri': gen/siri/src
-    'Calcinai\Siri\IFOpt': gen/ifopt/src
-    'Calcinai\Siri\ACSB': gen/acsb/src
-    'Calcinai\Siri\Datex': gen/datex/src
+    'Calcinai\Siri\Objects': gen/siri/src
+    'Calcinai\Siri\Objects\IFOpt': gen/ifopt/src
+    'Calcinai\Siri\Objects\ACSB': gen/acsb/src
+    'Calcinai\Siri\Objects\Datex': gen/datex/src
   destinations_jms:
-    'Calcinai\Siri': gen/siri/meta
-    'Calcinai\Siri\IFOpt': gen/ifopt/meta
-    'Calcinai\Siri\ACSB': gen/acsb/meta
-    'Calcinai\Siri\Datex': gen/datex/meta
+    'Calcinai\Siri\Objects': gen/siri/meta
+    'Calcinai\Siri\Objects\IFOpt': gen/ifopt/meta
+    'Calcinai\Siri\Objects\ACSB': gen/acsb/meta
+    'Calcinai\Siri\Objects\Datex': gen/datex/meta
   aliases:
     'http://www.siri.org.uk/siri':

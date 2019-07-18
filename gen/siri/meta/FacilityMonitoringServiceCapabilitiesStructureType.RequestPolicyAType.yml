@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
+Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
     properties:
         hasMaximumFacilityStatus:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCMethod4LinearType
@@ -12,29 +12,29 @@ class AlertCMethod4LinearType extends AlertCLinearType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCDirectionType $alertCDirection
+     * @property \Calcinai\Siri\Objects\Datex\AlertCDirectionType $alertCDirection
      */
     private $alertCDirection = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCMethod4PrimaryPointLocationType $alertCMethod4PrimaryPointLocation
+     * @property \Calcinai\Siri\Objects\Datex\AlertCMethod4PrimaryPointLocationType $alertCMethod4PrimaryPointLocation
      */
     private $alertCMethod4PrimaryPointLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCMethod4SecondaryPointLocationType $alertCMethod4SecondaryPointLocation
+     * @property \Calcinai\Siri\Objects\Datex\AlertCMethod4SecondaryPointLocationType $alertCMethod4SecondaryPointLocation
      */
     private $alertCMethod4SecondaryPointLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCMethod4LinearExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod4LinearExtension
      */
     private $alertCMethod4LinearExtension = null;
 
     /**
      * Gets as alertCDirection
      *
-     * @return \Calcinai\Siri\Datex\AlertCDirectionType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCDirectionType
      */
     public function getAlertCDirection()
     {
@@ -44,10 +44,10 @@ class AlertCMethod4LinearType extends AlertCLinearType
     /**
      * Sets a new alertCDirection
      *
-     * @param \Calcinai\Siri\Datex\AlertCDirectionType $alertCDirection
+     * @param \Calcinai\Siri\Objects\Datex\AlertCDirectionType $alertCDirection
      * @return self
      */
-    public function setAlertCDirection(\Calcinai\Siri\Datex\AlertCDirectionType $alertCDirection)
+    public function setAlertCDirection(\Calcinai\Siri\Objects\Datex\AlertCDirectionType $alertCDirection)
     {
         $this->alertCDirection = $alertCDirection;
         return $this;
@@ -56,7 +56,7 @@ class AlertCMethod4LinearType extends AlertCLinearType
     /**
      * Gets as alertCMethod4PrimaryPointLocation
      *
-     * @return \Calcinai\Siri\Datex\AlertCMethod4PrimaryPointLocationType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCMethod4PrimaryPointLocationType
      */
     public function getAlertCMethod4PrimaryPointLocation()
     {
@@ -66,10 +66,10 @@ class AlertCMethod4LinearType extends AlertCLinearType
     /**
      * Sets a new alertCMethod4PrimaryPointLocation
      *
-     * @param \Calcinai\Siri\Datex\AlertCMethod4PrimaryPointLocationType $alertCMethod4PrimaryPointLocation
+     * @param \Calcinai\Siri\Objects\Datex\AlertCMethod4PrimaryPointLocationType $alertCMethod4PrimaryPointLocation
      * @return self
      */
-    public function setAlertCMethod4PrimaryPointLocation(\Calcinai\Siri\Datex\AlertCMethod4PrimaryPointLocationType $alertCMethod4PrimaryPointLocation)
+    public function setAlertCMethod4PrimaryPointLocation(\Calcinai\Siri\Objects\Datex\AlertCMethod4PrimaryPointLocationType $alertCMethod4PrimaryPointLocation)
     {
         $this->alertCMethod4PrimaryPointLocation = $alertCMethod4PrimaryPointLocation;
         return $this;
@@ -78,7 +78,7 @@ class AlertCMethod4LinearType extends AlertCLinearType
     /**
      * Gets as alertCMethod4SecondaryPointLocation
      *
-     * @return \Calcinai\Siri\Datex\AlertCMethod4SecondaryPointLocationType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCMethod4SecondaryPointLocationType
      */
     public function getAlertCMethod4SecondaryPointLocation()
     {
@@ -88,10 +88,10 @@ class AlertCMethod4LinearType extends AlertCLinearType
     /**
      * Sets a new alertCMethod4SecondaryPointLocation
      *
-     * @param \Calcinai\Siri\Datex\AlertCMethod4SecondaryPointLocationType $alertCMethod4SecondaryPointLocation
+     * @param \Calcinai\Siri\Objects\Datex\AlertCMethod4SecondaryPointLocationType $alertCMethod4SecondaryPointLocation
      * @return self
      */
-    public function setAlertCMethod4SecondaryPointLocation(\Calcinai\Siri\Datex\AlertCMethod4SecondaryPointLocationType $alertCMethod4SecondaryPointLocation)
+    public function setAlertCMethod4SecondaryPointLocation(\Calcinai\Siri\Objects\Datex\AlertCMethod4SecondaryPointLocationType $alertCMethod4SecondaryPointLocation)
     {
         $this->alertCMethod4SecondaryPointLocation = $alertCMethod4SecondaryPointLocation;
         return $this;
@@ -100,7 +100,7 @@ class AlertCMethod4LinearType extends AlertCLinearType
     /**
      * Gets as alertCMethod4LinearExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCMethod4LinearExtension()
     {
@@ -110,10 +110,10 @@ class AlertCMethod4LinearType extends AlertCLinearType
     /**
      * Sets a new alertCMethod4LinearExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCMethod4LinearExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod4LinearExtension
      * @return self
      */
-    public function setAlertCMethod4LinearExtension(\Calcinai\Siri\Datex\ExtensionType $alertCMethod4LinearExtension)
+    public function setAlertCMethod4LinearExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCMethod4LinearExtension)
     {
         $this->alertCMethod4LinearExtension = $alertCMethod4LinearExtension;
         return $this;

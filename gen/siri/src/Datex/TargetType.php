@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TargetType
@@ -26,7 +26,7 @@ class TargetType
     private $protocol = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $targetExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $targetExtension
      */
     private $targetExtension = null;
 
@@ -85,7 +85,7 @@ class TargetType
     /**
      * Gets as targetExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTargetExtension()
     {
@@ -95,10 +95,10 @@ class TargetType
     /**
      * Sets a new targetExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $targetExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $targetExtension
      * @return self
      */
-    public function setTargetExtension(\Calcinai\Siri\Datex\ExtensionType $targetExtension)
+    public function setTargetExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $targetExtension)
     {
         $this->targetExtension = $targetExtension;
         return $this;

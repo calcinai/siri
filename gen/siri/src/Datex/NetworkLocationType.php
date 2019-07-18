@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing NetworkLocationType
@@ -12,24 +12,24 @@ class NetworkLocationType extends LocationType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\SupplementaryPositionalDescriptionType $supplementaryPositionalDescription
+     * @property \Calcinai\Siri\Objects\Datex\SupplementaryPositionalDescriptionType $supplementaryPositionalDescription
      */
     private $supplementaryPositionalDescription = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\DestinationType $destination
+     * @property \Calcinai\Siri\Objects\Datex\DestinationType $destination
      */
     private $destination = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $networkLocationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $networkLocationExtension
      */
     private $networkLocationExtension = null;
 
     /**
      * Gets as supplementaryPositionalDescription
      *
-     * @return \Calcinai\Siri\Datex\SupplementaryPositionalDescriptionType
+     * @return \Calcinai\Siri\Objects\Datex\SupplementaryPositionalDescriptionType
      */
     public function getSupplementaryPositionalDescription()
     {
@@ -39,10 +39,10 @@ class NetworkLocationType extends LocationType
     /**
      * Sets a new supplementaryPositionalDescription
      *
-     * @param \Calcinai\Siri\Datex\SupplementaryPositionalDescriptionType $supplementaryPositionalDescription
+     * @param \Calcinai\Siri\Objects\Datex\SupplementaryPositionalDescriptionType $supplementaryPositionalDescription
      * @return self
      */
-    public function setSupplementaryPositionalDescription(\Calcinai\Siri\Datex\SupplementaryPositionalDescriptionType $supplementaryPositionalDescription)
+    public function setSupplementaryPositionalDescription(\Calcinai\Siri\Objects\Datex\SupplementaryPositionalDescriptionType $supplementaryPositionalDescription)
     {
         $this->supplementaryPositionalDescription = $supplementaryPositionalDescription;
         return $this;
@@ -51,7 +51,7 @@ class NetworkLocationType extends LocationType
     /**
      * Gets as destination
      *
-     * @return \Calcinai\Siri\Datex\DestinationType
+     * @return \Calcinai\Siri\Objects\Datex\DestinationType
      */
     public function getDestination()
     {
@@ -61,10 +61,10 @@ class NetworkLocationType extends LocationType
     /**
      * Sets a new destination
      *
-     * @param \Calcinai\Siri\Datex\DestinationType $destination
+     * @param \Calcinai\Siri\Objects\Datex\DestinationType $destination
      * @return self
      */
-    public function setDestination(\Calcinai\Siri\Datex\DestinationType $destination)
+    public function setDestination(\Calcinai\Siri\Objects\Datex\DestinationType $destination)
     {
         $this->destination = $destination;
         return $this;
@@ -73,7 +73,7 @@ class NetworkLocationType extends LocationType
     /**
      * Gets as networkLocationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getNetworkLocationExtension()
     {
@@ -83,10 +83,10 @@ class NetworkLocationType extends LocationType
     /**
      * Sets a new networkLocationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $networkLocationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $networkLocationExtension
      * @return self
      */
-    public function setNetworkLocationExtension(\Calcinai\Siri\Datex\ExtensionType $networkLocationExtension)
+    public function setNetworkLocationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $networkLocationExtension)
     {
         $this->networkLocationExtension = $networkLocationExtension;
         return $this;

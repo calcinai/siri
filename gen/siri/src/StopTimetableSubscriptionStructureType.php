@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopTimetableSubscriptionStructureType
@@ -12,7 +12,7 @@ class StopTimetableSubscriptionStructureType extends AbstractSubscriptionStructu
 {
 
     /**
-     * @property \Calcinai\Siri\StopTimetableRequest $stopTimetableRequest
+     * @property \Calcinai\Siri\Objects\StopTimetableRequest $stopTimetableRequest
      */
     private $stopTimetableRequest = null;
 
@@ -32,14 +32,14 @@ class StopTimetableSubscriptionStructureType extends AbstractSubscriptionStructu
     private $changeBeforeUpdates = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
     /**
      * Gets as stopTimetableRequest
      *
-     * @return \Calcinai\Siri\StopTimetableRequest
+     * @return \Calcinai\Siri\Objects\StopTimetableRequest
      */
     public function getStopTimetableRequest()
     {
@@ -49,10 +49,10 @@ class StopTimetableSubscriptionStructureType extends AbstractSubscriptionStructu
     /**
      * Sets a new stopTimetableRequest
      *
-     * @param \Calcinai\Siri\StopTimetableRequest $stopTimetableRequest
+     * @param \Calcinai\Siri\Objects\StopTimetableRequest $stopTimetableRequest
      * @return self
      */
-    public function setStopTimetableRequest(\Calcinai\Siri\StopTimetableRequest $stopTimetableRequest)
+    public function setStopTimetableRequest(\Calcinai\Siri\Objects\StopTimetableRequest $stopTimetableRequest)
     {
         $this->stopTimetableRequest = $stopTimetableRequest;
         return $this;
@@ -115,7 +115,7 @@ class StopTimetableSubscriptionStructureType extends AbstractSubscriptionStructu
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -125,10 +125,10 @@ class StopTimetableSubscriptionStructureType extends AbstractSubscriptionStructu
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

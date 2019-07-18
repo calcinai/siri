@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AxleWeightType
@@ -33,7 +33,7 @@ class AxleWeightType
     private $maximumPermittedAxleWeight = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $axleWeightExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $axleWeightExtension
      */
     private $axleWeightExtension = null;
 
@@ -118,7 +118,7 @@ class AxleWeightType
     /**
      * Gets as axleWeightExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAxleWeightExtension()
     {
@@ -128,10 +128,10 @@ class AxleWeightType
     /**
      * Sets a new axleWeightExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $axleWeightExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $axleWeightExtension
      * @return self
      */
-    public function setAxleWeightExtension(\Calcinai\Siri\Datex\ExtensionType $axleWeightExtension)
+    public function setAxleWeightExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $axleWeightExtension)
     {
         $this->axleWeightExtension = $axleWeightExtension;
         return $this;

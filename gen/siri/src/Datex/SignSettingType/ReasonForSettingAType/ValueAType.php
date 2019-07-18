@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType;
+namespace Calcinai\Siri\Objects\Datex\SignSettingType\ReasonForSettingAType;
 
 /**
  * Class representing ValueAType

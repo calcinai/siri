@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PollutionMeasurementType
@@ -26,7 +26,7 @@ class PollutionMeasurementType
     private $pollutantType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $pollutionMeasurementExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $pollutionMeasurementExtension
      */
     private $pollutionMeasurementExtension = null;
 
@@ -85,7 +85,7 @@ class PollutionMeasurementType
     /**
      * Gets as pollutionMeasurementExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPollutionMeasurementExtension()
     {
@@ -95,10 +95,10 @@ class PollutionMeasurementType
     /**
      * Sets a new pollutionMeasurementExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $pollutionMeasurementExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $pollutionMeasurementExtension
      * @return self
      */
-    public function setPollutionMeasurementExtension(\Calcinai\Siri\Datex\ExtensionType $pollutionMeasurementExtension)
+    public function setPollutionMeasurementExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $pollutionMeasurementExtension)
     {
         $this->pollutionMeasurementExtension = $pollutionMeasurementExtension;
         return $this;

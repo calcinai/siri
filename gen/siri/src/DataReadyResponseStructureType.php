@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing DataReadyResponseStructureType
@@ -19,7 +19,7 @@ class DataReadyResponseStructureType extends ConsumerResponseEndpointStructureTy
     /**
      * Description of any error or warning condition as to why Consumer cannot fetch data.
      *
-     * @property \Calcinai\Siri\DataReadyResponseStructureType\ErrorConditionAType $errorCondition
+     * @property \Calcinai\Siri\Objects\DataReadyResponseStructureType\ErrorConditionAType $errorCondition
      */
     private $errorCondition = null;
 
@@ -50,7 +50,7 @@ class DataReadyResponseStructureType extends ConsumerResponseEndpointStructureTy
      *
      * Description of any error or warning condition as to why Consumer cannot fetch data.
      *
-     * @return \Calcinai\Siri\DataReadyResponseStructureType\ErrorConditionAType
+     * @return \Calcinai\Siri\Objects\DataReadyResponseStructureType\ErrorConditionAType
      */
     public function getErrorCondition()
     {
@@ -62,10 +62,10 @@ class DataReadyResponseStructureType extends ConsumerResponseEndpointStructureTy
      *
      * Description of any error or warning condition as to why Consumer cannot fetch data.
      *
-     * @param \Calcinai\Siri\DataReadyResponseStructureType\ErrorConditionAType $errorCondition
+     * @param \Calcinai\Siri\Objects\DataReadyResponseStructureType\ErrorConditionAType $errorCondition
      * @return self
      */
-    public function setErrorCondition(\Calcinai\Siri\DataReadyResponseStructureType\ErrorConditionAType $errorCondition)
+    public function setErrorCondition(\Calcinai\Siri\Objects\DataReadyResponseStructureType\ErrorConditionAType $errorCondition)
     {
         $this->errorCondition = $errorCondition;
         return $this;

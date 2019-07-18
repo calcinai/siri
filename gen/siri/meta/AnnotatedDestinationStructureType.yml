@@ -1,4 +1,4 @@
-Calcinai\Siri\AnnotatedDestinationStructureType:
+Calcinai\Siri\Objects\AnnotatedDestinationStructureType:
     properties:
         destinationRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AnnotatedDestinationStructureType:
             accessor:
                 getter: getDestinationRef
                 setter: setDestinationRef
-            type: Calcinai\Siri\DestinationRefStructureType
+            type: Calcinai\Siri\Objects\DestinationRefStructureType
         placeName:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\AnnotatedDestinationStructureType:
             accessor:
                 getter: getPlaceName
                 setter: setPlaceName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType

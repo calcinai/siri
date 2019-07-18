@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationExchangeServicePermissionStructureType
@@ -12,24 +12,24 @@ class SituationExchangeServicePermissionStructureType extends AbstractPermission
 {
 
     /**
-     * @property \Calcinai\Siri\OperatorPermissions $operatorPermissions
+     * @property \Calcinai\Siri\Objects\OperatorPermissions $operatorPermissions
      */
     private $operatorPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\LinePermissions $linePermissions
+     * @property \Calcinai\Siri\Objects\LinePermissions $linePermissions
      */
     private $linePermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
     /**
      * Gets as operatorPermissions
      *
-     * @return \Calcinai\Siri\OperatorPermissions
+     * @return \Calcinai\Siri\Objects\OperatorPermissions
      */
     public function getOperatorPermissions()
     {
@@ -39,10 +39,10 @@ class SituationExchangeServicePermissionStructureType extends AbstractPermission
     /**
      * Sets a new operatorPermissions
      *
-     * @param \Calcinai\Siri\OperatorPermissions $operatorPermissions
+     * @param \Calcinai\Siri\Objects\OperatorPermissions $operatorPermissions
      * @return self
      */
-    public function setOperatorPermissions(\Calcinai\Siri\OperatorPermissions $operatorPermissions)
+    public function setOperatorPermissions(\Calcinai\Siri\Objects\OperatorPermissions $operatorPermissions)
     {
         $this->operatorPermissions = $operatorPermissions;
         return $this;
@@ -51,7 +51,7 @@ class SituationExchangeServicePermissionStructureType extends AbstractPermission
     /**
      * Gets as linePermissions
      *
-     * @return \Calcinai\Siri\LinePermissions
+     * @return \Calcinai\Siri\Objects\LinePermissions
      */
     public function getLinePermissions()
     {
@@ -61,10 +61,10 @@ class SituationExchangeServicePermissionStructureType extends AbstractPermission
     /**
      * Sets a new linePermissions
      *
-     * @param \Calcinai\Siri\LinePermissions $linePermissions
+     * @param \Calcinai\Siri\Objects\LinePermissions $linePermissions
      * @return self
      */
-    public function setLinePermissions(\Calcinai\Siri\LinePermissions $linePermissions)
+    public function setLinePermissions(\Calcinai\Siri\Objects\LinePermissions $linePermissions)
     {
         $this->linePermissions = $linePermissions;
         return $this;
@@ -73,7 +73,7 @@ class SituationExchangeServicePermissionStructureType extends AbstractPermission
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -83,10 +83,10 @@ class SituationExchangeServicePermissionStructureType extends AbstractPermission
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

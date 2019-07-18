@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PoorRoadInfrastructureType
@@ -19,14 +19,14 @@ class PoorRoadInfrastructureType extends TrafficElementType
     private $poorRoadInfrastructureType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\MalfunctioningTrafficControlsType[] $malfunctioningTrafficControls
+     * @property \Calcinai\Siri\Objects\Datex\MalfunctioningTrafficControlsType[] $malfunctioningTrafficControls
      */
     private $malfunctioningTrafficControls = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $poorRoadInfrastructureExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $poorRoadInfrastructureExtension
      */
     private $poorRoadInfrastructureExtension = null;
 
@@ -60,9 +60,9 @@ class PoorRoadInfrastructureType extends TrafficElementType
      * Adds as malfunctioningTrafficControls
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\MalfunctioningTrafficControlsType $malfunctioningTrafficControls
+     * @param \Calcinai\Siri\Objects\Datex\MalfunctioningTrafficControlsType $malfunctioningTrafficControls
      */
-    public function addToMalfunctioningTrafficControls(\Calcinai\Siri\Datex\MalfunctioningTrafficControlsType $malfunctioningTrafficControls)
+    public function addToMalfunctioningTrafficControls(\Calcinai\Siri\Objects\Datex\MalfunctioningTrafficControlsType $malfunctioningTrafficControls)
     {
         $this->malfunctioningTrafficControls[] = $malfunctioningTrafficControls;
         return $this;
@@ -93,7 +93,7 @@ class PoorRoadInfrastructureType extends TrafficElementType
     /**
      * Gets as malfunctioningTrafficControls
      *
-     * @return \Calcinai\Siri\Datex\MalfunctioningTrafficControlsType[]
+     * @return \Calcinai\Siri\Objects\Datex\MalfunctioningTrafficControlsType[]
      */
     public function getMalfunctioningTrafficControls()
     {
@@ -103,7 +103,7 @@ class PoorRoadInfrastructureType extends TrafficElementType
     /**
      * Sets a new malfunctioningTrafficControls
      *
-     * @param \Calcinai\Siri\Datex\MalfunctioningTrafficControlsType[] $malfunctioningTrafficControls
+     * @param \Calcinai\Siri\Objects\Datex\MalfunctioningTrafficControlsType[] $malfunctioningTrafficControls
      * @return self
      */
     public function setMalfunctioningTrafficControls(array $malfunctioningTrafficControls)
@@ -115,7 +115,7 @@ class PoorRoadInfrastructureType extends TrafficElementType
     /**
      * Gets as poorRoadInfrastructureExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPoorRoadInfrastructureExtension()
     {
@@ -125,10 +125,10 @@ class PoorRoadInfrastructureType extends TrafficElementType
     /**
      * Sets a new poorRoadInfrastructureExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $poorRoadInfrastructureExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $poorRoadInfrastructureExtension
      * @return self
      */
-    public function setPoorRoadInfrastructureExtension(\Calcinai\Siri\Datex\ExtensionType $poorRoadInfrastructureExtension)
+    public function setPoorRoadInfrastructureExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $poorRoadInfrastructureExtension)
     {
         $this->poorRoadInfrastructureExtension = $poorRoadInfrastructureExtension;
         return $this;

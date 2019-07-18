@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityDeliveryStructureType
@@ -21,14 +21,14 @@ class FacilityDeliveryStructureType extends AbstractDiscoveryDeliveryStructureTy
     /**
      * Stop Definition
      *
-     * @property \Calcinai\Siri\AnnotatedFacilityStructureType[] $annotatedFacility
+     * @property \Calcinai\Siri\Objects\AnnotatedFacilityStructureType[] $annotatedFacility
      */
     private $annotatedFacility = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -64,9 +64,9 @@ class FacilityDeliveryStructureType extends AbstractDiscoveryDeliveryStructureTy
      * Stop Definition
      *
      * @return self
-     * @param \Calcinai\Siri\AnnotatedFacilityStructureType $annotatedFacility
+     * @param \Calcinai\Siri\Objects\AnnotatedFacilityStructureType $annotatedFacility
      */
-    public function addToAnnotatedFacility(\Calcinai\Siri\AnnotatedFacilityStructureType $annotatedFacility)
+    public function addToAnnotatedFacility(\Calcinai\Siri\Objects\AnnotatedFacilityStructureType $annotatedFacility)
     {
         $this->annotatedFacility[] = $annotatedFacility;
         return $this;
@@ -103,7 +103,7 @@ class FacilityDeliveryStructureType extends AbstractDiscoveryDeliveryStructureTy
      *
      * Stop Definition
      *
-     * @return \Calcinai\Siri\AnnotatedFacilityStructureType[]
+     * @return \Calcinai\Siri\Objects\AnnotatedFacilityStructureType[]
      */
     public function getAnnotatedFacility()
     {
@@ -115,7 +115,7 @@ class FacilityDeliveryStructureType extends AbstractDiscoveryDeliveryStructureTy
      *
      * Stop Definition
      *
-     * @param \Calcinai\Siri\AnnotatedFacilityStructureType[] $annotatedFacility
+     * @param \Calcinai\Siri\Objects\AnnotatedFacilityStructureType[] $annotatedFacility
      * @return self
      */
     public function setAnnotatedFacility(array $annotatedFacility)
@@ -127,7 +127,7 @@ class FacilityDeliveryStructureType extends AbstractDiscoveryDeliveryStructureTy
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -137,10 +137,10 @@ class FacilityDeliveryStructureType extends AbstractDiscoveryDeliveryStructureTy
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

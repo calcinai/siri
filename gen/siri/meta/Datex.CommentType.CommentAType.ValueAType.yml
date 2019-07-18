@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\CommentType\CommentAType\ValueAType:
+Calcinai\Siri\Objects\Datex\CommentType\CommentAType\ValueAType:
     properties:
         __value:
             expose: true

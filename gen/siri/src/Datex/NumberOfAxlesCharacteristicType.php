@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing NumberOfAxlesCharacteristicType
@@ -26,7 +26,7 @@ class NumberOfAxlesCharacteristicType
     private $numberOfAxles = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $numberOfAxlesCharacteristicExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $numberOfAxlesCharacteristicExtension
      */
     private $numberOfAxlesCharacteristicExtension = null;
 
@@ -85,7 +85,7 @@ class NumberOfAxlesCharacteristicType
     /**
      * Gets as numberOfAxlesCharacteristicExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getNumberOfAxlesCharacteristicExtension()
     {
@@ -95,10 +95,10 @@ class NumberOfAxlesCharacteristicType
     /**
      * Sets a new numberOfAxlesCharacteristicExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $numberOfAxlesCharacteristicExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $numberOfAxlesCharacteristicExtension
      * @return self
      */
-    public function setNumberOfAxlesCharacteristicExtension(\Calcinai\Siri\Datex\ExtensionType $numberOfAxlesCharacteristicExtension)
+    public function setNumberOfAxlesCharacteristicExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $numberOfAxlesCharacteristicExtension)
     {
         $this->numberOfAxlesCharacteristicExtension = $numberOfAxlesCharacteristicExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\VersionedObjectStructureType:
+Calcinai\Siri\Objects\IFOpt\VersionedObjectStructureType:
     properties:
         created:
             expose: true

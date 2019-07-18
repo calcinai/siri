@@ -1,4 +1,4 @@
-Calcinai\Siri\MonitoringCapabilityAccessControlStructureType:
+Calcinai\Siri\Objects\MonitoringCapabilityAccessControlStructureType:
     properties:
         checkOperatorRef:
             expose: true

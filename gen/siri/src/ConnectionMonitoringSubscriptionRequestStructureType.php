@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionMonitoringSubscriptionRequestStructureType
@@ -12,7 +12,7 @@ class ConnectionMonitoringSubscriptionRequestStructureType extends AbstractSubsc
 {
 
     /**
-     * @property \Calcinai\Siri\ConnectionMonitoringRequest $connectionMonitoringRequest
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringRequest $connectionMonitoringRequest
      */
     private $connectionMonitoringRequest = null;
 
@@ -26,7 +26,7 @@ class ConnectionMonitoringSubscriptionRequestStructureType extends AbstractSubsc
     /**
      * Gets as connectionMonitoringRequest
      *
-     * @return \Calcinai\Siri\ConnectionMonitoringRequest
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringRequest
      */
     public function getConnectionMonitoringRequest()
     {
@@ -36,10 +36,10 @@ class ConnectionMonitoringSubscriptionRequestStructureType extends AbstractSubsc
     /**
      * Sets a new connectionMonitoringRequest
      *
-     * @param \Calcinai\Siri\ConnectionMonitoringRequest $connectionMonitoringRequest
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringRequest $connectionMonitoringRequest
      * @return self
      */
-    public function setConnectionMonitoringRequest(\Calcinai\Siri\ConnectionMonitoringRequest $connectionMonitoringRequest)
+    public function setConnectionMonitoringRequest(\Calcinai\Siri\Objects\ConnectionMonitoringRequest $connectionMonitoringRequest)
     {
         $this->connectionMonitoringRequest = $connectionMonitoringRequest;
         return $this;

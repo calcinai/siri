@@ -1,3 +1,3 @@
-Calcinai\Siri\CapabilitiesRequest:
+Calcinai\Siri\Objects\CapabilitiesRequest:
     xml_root_name: CapabilitiesRequest
     xml_root_namespace: 'http://www.siri.org.uk/siri'

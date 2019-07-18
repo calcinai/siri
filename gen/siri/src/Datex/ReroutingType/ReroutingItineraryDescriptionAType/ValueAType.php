@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType;
+namespace Calcinai\Siri\Objects\Datex\ReroutingType\ReroutingItineraryDescriptionAType;
 
 /**
  * Class representing ValueAType

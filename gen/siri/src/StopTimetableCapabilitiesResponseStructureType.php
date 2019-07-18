@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopTimetableCapabilitiesResponseStructureType
@@ -19,17 +19,17 @@ class StopTimetableCapabilitiesResponseStructureType extends AbstractServiceCapa
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\StopTimetableServiceCapabilities $stopTimetableServiceCapabilities
+     * @property \Calcinai\Siri\Objects\StopTimetableServiceCapabilities $stopTimetableServiceCapabilities
      */
     private $stopTimetableServiceCapabilities = null;
 
     /**
-     * @property \Calcinai\Siri\StopTimetablePermissions $stopTimetablePermissions
+     * @property \Calcinai\Siri\Objects\StopTimetablePermissions $stopTimetablePermissions
      */
     private $stopTimetablePermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -62,7 +62,7 @@ class StopTimetableCapabilitiesResponseStructureType extends AbstractServiceCapa
     /**
      * Gets as stopTimetableServiceCapabilities
      *
-     * @return \Calcinai\Siri\StopTimetableServiceCapabilities
+     * @return \Calcinai\Siri\Objects\StopTimetableServiceCapabilities
      */
     public function getStopTimetableServiceCapabilities()
     {
@@ -72,10 +72,10 @@ class StopTimetableCapabilitiesResponseStructureType extends AbstractServiceCapa
     /**
      * Sets a new stopTimetableServiceCapabilities
      *
-     * @param \Calcinai\Siri\StopTimetableServiceCapabilities $stopTimetableServiceCapabilities
+     * @param \Calcinai\Siri\Objects\StopTimetableServiceCapabilities $stopTimetableServiceCapabilities
      * @return self
      */
-    public function setStopTimetableServiceCapabilities(\Calcinai\Siri\StopTimetableServiceCapabilities $stopTimetableServiceCapabilities)
+    public function setStopTimetableServiceCapabilities(\Calcinai\Siri\Objects\StopTimetableServiceCapabilities $stopTimetableServiceCapabilities)
     {
         $this->stopTimetableServiceCapabilities = $stopTimetableServiceCapabilities;
         return $this;
@@ -84,7 +84,7 @@ class StopTimetableCapabilitiesResponseStructureType extends AbstractServiceCapa
     /**
      * Gets as stopTimetablePermissions
      *
-     * @return \Calcinai\Siri\StopTimetablePermissions
+     * @return \Calcinai\Siri\Objects\StopTimetablePermissions
      */
     public function getStopTimetablePermissions()
     {
@@ -94,10 +94,10 @@ class StopTimetableCapabilitiesResponseStructureType extends AbstractServiceCapa
     /**
      * Sets a new stopTimetablePermissions
      *
-     * @param \Calcinai\Siri\StopTimetablePermissions $stopTimetablePermissions
+     * @param \Calcinai\Siri\Objects\StopTimetablePermissions $stopTimetablePermissions
      * @return self
      */
-    public function setStopTimetablePermissions(\Calcinai\Siri\StopTimetablePermissions $stopTimetablePermissions)
+    public function setStopTimetablePermissions(\Calcinai\Siri\Objects\StopTimetablePermissions $stopTimetablePermissions)
     {
         $this->stopTimetablePermissions = $stopTimetablePermissions;
         return $this;
@@ -106,7 +106,7 @@ class StopTimetableCapabilitiesResponseStructureType extends AbstractServiceCapa
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -116,10 +116,10 @@ class StopTimetableCapabilitiesResponseStructureType extends AbstractServiceCapa
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

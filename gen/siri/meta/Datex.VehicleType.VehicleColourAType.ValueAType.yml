@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType:
+Calcinai\Siri\Objects\Datex\VehicleType\VehicleColourAType\ValueAType:
     properties:
         __value:
             expose: true

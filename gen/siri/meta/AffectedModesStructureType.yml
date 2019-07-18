@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedModesStructureType:
+Calcinai\Siri\Objects\AffectedModesStructureType:
     properties:
         allModes:
             expose: true
@@ -23,4 +23,4 @@ Calcinai\Siri\AffectedModesStructureType:
                 inline: true
                 entry_name: Mode
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedModesStructureType\ModeAType>
+            type: array<Calcinai\Siri\Objects\AffectedModesStructureType\ModeAType>

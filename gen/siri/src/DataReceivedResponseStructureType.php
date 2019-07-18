@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing DataReceivedResponseStructureType
@@ -19,7 +19,7 @@ class DataReceivedResponseStructureType extends ConsumerResponseEndpointStructur
     /**
      * Description of any error or warning condition.
      *
-     * @property \Calcinai\Siri\DataReceivedResponseStructureType\ErrorConditionAType $errorCondition
+     * @property \Calcinai\Siri\Objects\DataReceivedResponseStructureType\ErrorConditionAType $errorCondition
      */
     private $errorCondition = null;
 
@@ -50,7 +50,7 @@ class DataReceivedResponseStructureType extends ConsumerResponseEndpointStructur
      *
      * Description of any error or warning condition.
      *
-     * @return \Calcinai\Siri\DataReceivedResponseStructureType\ErrorConditionAType
+     * @return \Calcinai\Siri\Objects\DataReceivedResponseStructureType\ErrorConditionAType
      */
     public function getErrorCondition()
     {
@@ -62,10 +62,10 @@ class DataReceivedResponseStructureType extends ConsumerResponseEndpointStructur
      *
      * Description of any error or warning condition.
      *
-     * @param \Calcinai\Siri\DataReceivedResponseStructureType\ErrorConditionAType $errorCondition
+     * @param \Calcinai\Siri\Objects\DataReceivedResponseStructureType\ErrorConditionAType $errorCondition
      * @return self
      */
-    public function setErrorCondition(\Calcinai\Siri\DataReceivedResponseStructureType\ErrorConditionAType $errorCondition)
+    public function setErrorCondition(\Calcinai\Siri\Objects\DataReceivedResponseStructureType\ErrorConditionAType $errorCondition)
     {
         $this->errorCondition = $errorCondition;
         return $this;

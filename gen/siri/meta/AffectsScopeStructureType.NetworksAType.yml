@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectsScopeStructureType\NetworksAType:
+Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType:
     properties:
         affectedNetwork:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectsScopeStructureType\NetworksAType:
                 inline: true
                 entry_name: AffectedNetwork
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType>
+            type: array<Calcinai\Siri\Objects\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType>

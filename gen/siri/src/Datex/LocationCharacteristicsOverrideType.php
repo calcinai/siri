@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing LocationCharacteristicsOverrideType
@@ -26,7 +26,7 @@ class LocationCharacteristicsOverrideType
     private $reversedFlow = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $locationCharacteristicsOverrideExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $locationCharacteristicsOverrideExtension
      */
     private $locationCharacteristicsOverrideExtension = null;
 
@@ -85,7 +85,7 @@ class LocationCharacteristicsOverrideType
     /**
      * Gets as locationCharacteristicsOverrideExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getLocationCharacteristicsOverrideExtension()
     {
@@ -95,10 +95,10 @@ class LocationCharacteristicsOverrideType
     /**
      * Sets a new locationCharacteristicsOverrideExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $locationCharacteristicsOverrideExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $locationCharacteristicsOverrideExtension
      * @return self
      */
-    public function setLocationCharacteristicsOverrideExtension(\Calcinai\Siri\Datex\ExtensionType $locationCharacteristicsOverrideExtension)
+    public function setLocationCharacteristicsOverrideExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $locationCharacteristicsOverrideExtension)
     {
         $this->locationCharacteristicsOverrideExtension = $locationCharacteristicsOverrideExtension;
         return $this;

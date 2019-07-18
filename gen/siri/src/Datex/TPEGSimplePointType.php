@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGSimplePointType
@@ -19,12 +19,12 @@ class TPEGSimplePointType extends TPEGPointLocationType
     private $tpegLocationType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TPEGPointType $point
+     * @property \Calcinai\Siri\Objects\Datex\TPEGPointType $point
      */
     private $point = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegsimplePointExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegsimplePointExtension
      */
     private $tpegsimplePointExtension = null;
 
@@ -57,7 +57,7 @@ class TPEGSimplePointType extends TPEGPointLocationType
     /**
      * Gets as point
      *
-     * @return \Calcinai\Siri\Datex\TPEGPointType
+     * @return \Calcinai\Siri\Objects\Datex\TPEGPointType
      */
     public function getPoint()
     {
@@ -67,10 +67,10 @@ class TPEGSimplePointType extends TPEGPointLocationType
     /**
      * Sets a new point
      *
-     * @param \Calcinai\Siri\Datex\TPEGPointType $point
+     * @param \Calcinai\Siri\Objects\Datex\TPEGPointType $point
      * @return self
      */
-    public function setPoint(\Calcinai\Siri\Datex\TPEGPointType $point)
+    public function setPoint(\Calcinai\Siri\Objects\Datex\TPEGPointType $point)
     {
         $this->point = $point;
         return $this;
@@ -79,7 +79,7 @@ class TPEGSimplePointType extends TPEGPointLocationType
     /**
      * Gets as tpegsimplePointExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegsimplePointExtension()
     {
@@ -89,10 +89,10 @@ class TPEGSimplePointType extends TPEGPointLocationType
     /**
      * Sets a new tpegsimplePointExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegsimplePointExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegsimplePointExtension
      * @return self
      */
-    public function setTpegsimplePointExtension(\Calcinai\Siri\Datex\ExtensionType $tpegsimplePointExtension)
+    public function setTpegsimplePointExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegsimplePointExtension)
     {
         $this->tpegsimplePointExtension = $tpegsimplePointExtension;
         return $this;

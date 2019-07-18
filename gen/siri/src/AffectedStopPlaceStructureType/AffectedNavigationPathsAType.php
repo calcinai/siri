@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AffectedStopPlaceStructureType;
+namespace Calcinai\Siri\Objects\AffectedStopPlaceStructureType;
 
 /**
  * Class representing AffectedNavigationPathsAType

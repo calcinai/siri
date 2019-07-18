@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionLinkPermissions
@@ -18,7 +18,7 @@ class ConnectionLinkPermissions
     /**
      * Participants permission for this Monitoring Point
      *
-     * @property \Calcinai\Siri\ConnectionLinkPermissionStructureType[] $connectionLinkPermission
+     * @property \Calcinai\Siri\Objects\ConnectionLinkPermissionStructureType[] $connectionLinkPermission
      */
     private $connectionLinkPermission = [
         
@@ -52,9 +52,9 @@ class ConnectionLinkPermissions
      * Participants permission for this Monitoring Point
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionLinkPermissionStructureType $connectionLinkPermission
+     * @param \Calcinai\Siri\Objects\ConnectionLinkPermissionStructureType $connectionLinkPermission
      */
-    public function addToConnectionLinkPermission(\Calcinai\Siri\ConnectionLinkPermissionStructureType $connectionLinkPermission)
+    public function addToConnectionLinkPermission(\Calcinai\Siri\Objects\ConnectionLinkPermissionStructureType $connectionLinkPermission)
     {
         $this->connectionLinkPermission[] = $connectionLinkPermission;
         return $this;
@@ -91,7 +91,7 @@ class ConnectionLinkPermissions
      *
      * Participants permission for this Monitoring Point
      *
-     * @return \Calcinai\Siri\ConnectionLinkPermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\ConnectionLinkPermissionStructureType[]
      */
     public function getConnectionLinkPermission()
     {
@@ -103,7 +103,7 @@ class ConnectionLinkPermissions
      *
      * Participants permission for this Monitoring Point
      *
-     * @param \Calcinai\Siri\ConnectionLinkPermissionStructureType[] $connectionLinkPermission
+     * @param \Calcinai\Siri\Objects\ConnectionLinkPermissionStructureType[] $connectionLinkPermission
      * @return self
      */
     public function setConnectionLinkPermission(array $connectionLinkPermission)

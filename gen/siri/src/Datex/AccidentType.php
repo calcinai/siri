@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AccidentType
@@ -28,28 +28,28 @@ class AccidentType extends TrafficElementType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleType[] $vehicleInvolved
+     * @property \Calcinai\Siri\Objects\Datex\VehicleType[] $vehicleInvolved
      */
     private $vehicleInvolved = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\VehiclesInvolvedType[] $overviewOfVehiclesInvolved
+     * @property \Calcinai\Siri\Objects\Datex\VehiclesInvolvedType[] $overviewOfVehiclesInvolved
      */
     private $overviewOfVehiclesInvolved = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\PeopleInvolvedType[] $overviewOfPeopleInvolved
+     * @property \Calcinai\Siri\Objects\Datex\PeopleInvolvedType[] $overviewOfPeopleInvolved
      */
     private $overviewOfPeopleInvolved = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $accidentExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $accidentExtension
      */
     private $accidentExtension = null;
 
@@ -149,9 +149,9 @@ class AccidentType extends TrafficElementType
      * Adds as vehicleInvolved
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehicleType $vehicleInvolved
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType $vehicleInvolved
      */
-    public function addToVehicleInvolved(\Calcinai\Siri\Datex\VehicleType $vehicleInvolved)
+    public function addToVehicleInvolved(\Calcinai\Siri\Objects\Datex\VehicleType $vehicleInvolved)
     {
         $this->vehicleInvolved[] = $vehicleInvolved;
         return $this;
@@ -182,7 +182,7 @@ class AccidentType extends TrafficElementType
     /**
      * Gets as vehicleInvolved
      *
-     * @return \Calcinai\Siri\Datex\VehicleType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehicleType[]
      */
     public function getVehicleInvolved()
     {
@@ -192,7 +192,7 @@ class AccidentType extends TrafficElementType
     /**
      * Sets a new vehicleInvolved
      *
-     * @param \Calcinai\Siri\Datex\VehicleType[] $vehicleInvolved
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType[] $vehicleInvolved
      * @return self
      */
     public function setVehicleInvolved(array $vehicleInvolved)
@@ -205,9 +205,9 @@ class AccidentType extends TrafficElementType
      * Adds as overviewOfVehiclesInvolved
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehiclesInvolvedType $overviewOfVehiclesInvolved
+     * @param \Calcinai\Siri\Objects\Datex\VehiclesInvolvedType $overviewOfVehiclesInvolved
      */
-    public function addToOverviewOfVehiclesInvolved(\Calcinai\Siri\Datex\VehiclesInvolvedType $overviewOfVehiclesInvolved)
+    public function addToOverviewOfVehiclesInvolved(\Calcinai\Siri\Objects\Datex\VehiclesInvolvedType $overviewOfVehiclesInvolved)
     {
         $this->overviewOfVehiclesInvolved[] = $overviewOfVehiclesInvolved;
         return $this;
@@ -238,7 +238,7 @@ class AccidentType extends TrafficElementType
     /**
      * Gets as overviewOfVehiclesInvolved
      *
-     * @return \Calcinai\Siri\Datex\VehiclesInvolvedType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehiclesInvolvedType[]
      */
     public function getOverviewOfVehiclesInvolved()
     {
@@ -248,7 +248,7 @@ class AccidentType extends TrafficElementType
     /**
      * Sets a new overviewOfVehiclesInvolved
      *
-     * @param \Calcinai\Siri\Datex\VehiclesInvolvedType[] $overviewOfVehiclesInvolved
+     * @param \Calcinai\Siri\Objects\Datex\VehiclesInvolvedType[] $overviewOfVehiclesInvolved
      * @return self
      */
     public function setOverviewOfVehiclesInvolved(array $overviewOfVehiclesInvolved)
@@ -261,9 +261,9 @@ class AccidentType extends TrafficElementType
      * Adds as overviewOfPeopleInvolved
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\PeopleInvolvedType $overviewOfPeopleInvolved
+     * @param \Calcinai\Siri\Objects\Datex\PeopleInvolvedType $overviewOfPeopleInvolved
      */
-    public function addToOverviewOfPeopleInvolved(\Calcinai\Siri\Datex\PeopleInvolvedType $overviewOfPeopleInvolved)
+    public function addToOverviewOfPeopleInvolved(\Calcinai\Siri\Objects\Datex\PeopleInvolvedType $overviewOfPeopleInvolved)
     {
         $this->overviewOfPeopleInvolved[] = $overviewOfPeopleInvolved;
         return $this;
@@ -294,7 +294,7 @@ class AccidentType extends TrafficElementType
     /**
      * Gets as overviewOfPeopleInvolved
      *
-     * @return \Calcinai\Siri\Datex\PeopleInvolvedType[]
+     * @return \Calcinai\Siri\Objects\Datex\PeopleInvolvedType[]
      */
     public function getOverviewOfPeopleInvolved()
     {
@@ -304,7 +304,7 @@ class AccidentType extends TrafficElementType
     /**
      * Sets a new overviewOfPeopleInvolved
      *
-     * @param \Calcinai\Siri\Datex\PeopleInvolvedType[] $overviewOfPeopleInvolved
+     * @param \Calcinai\Siri\Objects\Datex\PeopleInvolvedType[] $overviewOfPeopleInvolved
      * @return self
      */
     public function setOverviewOfPeopleInvolved(array $overviewOfPeopleInvolved)
@@ -316,7 +316,7 @@ class AccidentType extends TrafficElementType
     /**
      * Gets as accidentExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAccidentExtension()
     {
@@ -326,10 +326,10 @@ class AccidentType extends TrafficElementType
     /**
      * Sets a new accidentExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $accidentExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $accidentExtension
      * @return self
      */
-    public function setAccidentExtension(\Calcinai\Siri\Datex\ExtensionType $accidentExtension)
+    public function setAccidentExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $accidentExtension)
     {
         $this->accidentExtension = $accidentExtension;
         return $this;

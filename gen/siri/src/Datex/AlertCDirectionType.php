@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCDirectionType
@@ -21,7 +21,7 @@ class AlertCDirectionType
     /**
      * ALERT C name of a direction e.g. Brussels -> Lille.
      *
-     * @property \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $alertCDirectionNamed
+     * @property \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $alertCDirectionNamed
      */
     private $alertCDirectionNamed = null;
 
@@ -33,7 +33,7 @@ class AlertCDirectionType
     private $alertCDirectionSense = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCDirectionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCDirectionExtension
      */
     private $alertCDirectionExtension = null;
 
@@ -69,9 +69,9 @@ class AlertCDirectionType
      * ALERT C name of a direction e.g. Brussels -> Lille.
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value
      */
-    public function addToAlertCDirectionNamed(\Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value)
+    public function addToAlertCDirectionNamed(\Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType $value)
     {
         $this->alertCDirectionNamed[] = $value;
         return $this;
@@ -108,7 +108,7 @@ class AlertCDirectionType
      *
      * ALERT C name of a direction e.g. Brussels -> Lille.
      *
-     * @return \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[]
      */
     public function getAlertCDirectionNamed()
     {
@@ -120,7 +120,7 @@ class AlertCDirectionType
      *
      * ALERT C name of a direction e.g. Brussels -> Lille.
      *
-     * @param \Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $alertCDirectionNamed
+     * @param \Calcinai\Siri\Objects\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType[] $alertCDirectionNamed
      * @return self
      */
     public function setAlertCDirectionNamed(array $alertCDirectionNamed)
@@ -158,7 +158,7 @@ class AlertCDirectionType
     /**
      * Gets as alertCDirectionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCDirectionExtension()
     {
@@ -168,10 +168,10 @@ class AlertCDirectionType
     /**
      * Sets a new alertCDirectionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCDirectionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCDirectionExtension
      * @return self
      */
-    public function setAlertCDirectionExtension(\Calcinai\Siri\Datex\ExtensionType $alertCDirectionExtension)
+    public function setAlertCDirectionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCDirectionExtension)
     {
         $this->alertCDirectionExtension = $alertCDirectionExtension;
         return $this;

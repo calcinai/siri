@@ -1,4 +1,4 @@
-Calcinai\Siri\TransportDescriptionStructureType:
+Calcinai\Siri\Objects\TransportDescriptionStructureType:
     properties:
         communicationsTransportMethod:
             expose: true

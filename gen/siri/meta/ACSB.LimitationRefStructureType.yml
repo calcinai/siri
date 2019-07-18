@@ -1,4 +1,4 @@
-Calcinai\Siri\ACSB\LimitationRefStructureType:
+Calcinai\Siri\Objects\ACSB\LimitationRefStructureType:
     properties:
         __value:
             expose: true

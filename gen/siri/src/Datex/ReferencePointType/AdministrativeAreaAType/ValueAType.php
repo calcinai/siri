@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType;
+namespace Calcinai\Siri\Objects\Datex\ReferencePointType\AdministrativeAreaAType;
 
 /**
  * Class representing ValueAType

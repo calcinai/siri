@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ConnectionTimetableDeliveriesStructureType
@@ -12,14 +12,14 @@ class ConnectionTimetableDeliveriesStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\ConnectionTimetableDelivery $connectionTimetableDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery
      */
     private $connectionTimetableDelivery = null;
 
     /**
      * Gets as connectionTimetableDelivery
      *
-     * @return \Calcinai\Siri\ConnectionTimetableDelivery
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableDelivery
      */
     public function getConnectionTimetableDelivery()
     {
@@ -29,10 +29,10 @@ class ConnectionTimetableDeliveriesStructureType
     /**
      * Sets a new connectionTimetableDelivery
      *
-     * @param \Calcinai\Siri\ConnectionTimetableDelivery $connectionTimetableDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery
      * @return self
      */
-    public function setConnectionTimetableDelivery(\Calcinai\Siri\ConnectionTimetableDelivery $connectionTimetableDelivery)
+    public function setConnectionTimetableDelivery(\Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery)
     {
         $this->connectionTimetableDelivery = $connectionTimetableDelivery;
         return $this;

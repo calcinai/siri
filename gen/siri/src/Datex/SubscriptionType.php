@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SubscriptionType
@@ -61,24 +61,24 @@ class SubscriptionType
     private $updateMethod = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\TargetType[] $target
+     * @property \Calcinai\Siri\Objects\Datex\TargetType[] $target
      */
     private $target = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\FilterReferenceType $filterReference
+     * @property \Calcinai\Siri\Objects\Datex\FilterReferenceType $filterReference
      */
     private $filterReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\CatalogueReferenceType $catalogueReference
+     * @property \Calcinai\Siri\Objects\Datex\CatalogueReferenceType $catalogueReference
      */
     private $catalogueReference = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $subscriptionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $subscriptionExtension
      */
     private $subscriptionExtension = null;
 
@@ -268,9 +268,9 @@ class SubscriptionType
      * Adds as target
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\TargetType $target
+     * @param \Calcinai\Siri\Objects\Datex\TargetType $target
      */
-    public function addToTarget(\Calcinai\Siri\Datex\TargetType $target)
+    public function addToTarget(\Calcinai\Siri\Objects\Datex\TargetType $target)
     {
         $this->target[] = $target;
         return $this;
@@ -301,7 +301,7 @@ class SubscriptionType
     /**
      * Gets as target
      *
-     * @return \Calcinai\Siri\Datex\TargetType[]
+     * @return \Calcinai\Siri\Objects\Datex\TargetType[]
      */
     public function getTarget()
     {
@@ -311,7 +311,7 @@ class SubscriptionType
     /**
      * Sets a new target
      *
-     * @param \Calcinai\Siri\Datex\TargetType[] $target
+     * @param \Calcinai\Siri\Objects\Datex\TargetType[] $target
      * @return self
      */
     public function setTarget(array $target)
@@ -323,7 +323,7 @@ class SubscriptionType
     /**
      * Gets as filterReference
      *
-     * @return \Calcinai\Siri\Datex\FilterReferenceType
+     * @return \Calcinai\Siri\Objects\Datex\FilterReferenceType
      */
     public function getFilterReference()
     {
@@ -333,10 +333,10 @@ class SubscriptionType
     /**
      * Sets a new filterReference
      *
-     * @param \Calcinai\Siri\Datex\FilterReferenceType $filterReference
+     * @param \Calcinai\Siri\Objects\Datex\FilterReferenceType $filterReference
      * @return self
      */
-    public function setFilterReference(\Calcinai\Siri\Datex\FilterReferenceType $filterReference)
+    public function setFilterReference(\Calcinai\Siri\Objects\Datex\FilterReferenceType $filterReference)
     {
         $this->filterReference = $filterReference;
         return $this;
@@ -345,7 +345,7 @@ class SubscriptionType
     /**
      * Gets as catalogueReference
      *
-     * @return \Calcinai\Siri\Datex\CatalogueReferenceType
+     * @return \Calcinai\Siri\Objects\Datex\CatalogueReferenceType
      */
     public function getCatalogueReference()
     {
@@ -355,10 +355,10 @@ class SubscriptionType
     /**
      * Sets a new catalogueReference
      *
-     * @param \Calcinai\Siri\Datex\CatalogueReferenceType $catalogueReference
+     * @param \Calcinai\Siri\Objects\Datex\CatalogueReferenceType $catalogueReference
      * @return self
      */
-    public function setCatalogueReference(\Calcinai\Siri\Datex\CatalogueReferenceType $catalogueReference)
+    public function setCatalogueReference(\Calcinai\Siri\Objects\Datex\CatalogueReferenceType $catalogueReference)
     {
         $this->catalogueReference = $catalogueReference;
         return $this;
@@ -367,7 +367,7 @@ class SubscriptionType
     /**
      * Gets as subscriptionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSubscriptionExtension()
     {
@@ -377,10 +377,10 @@ class SubscriptionType
     /**
      * Sets a new subscriptionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $subscriptionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $subscriptionExtension
      * @return self
      */
-    public function setSubscriptionExtension(\Calcinai\Siri\Datex\ExtensionType $subscriptionExtension)
+    public function setSubscriptionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $subscriptionExtension)
     {
         $this->subscriptionExtension = $subscriptionExtension;
         return $this;

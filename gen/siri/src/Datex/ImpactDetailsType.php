@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing ImpactDetailsType
@@ -47,7 +47,7 @@ class ImpactDetailsType
     private $trafficRestrictionType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $impactDetailsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $impactDetailsExtension
      */
     private $impactDetailsExtension = null;
 
@@ -184,7 +184,7 @@ class ImpactDetailsType
     /**
      * Gets as impactDetailsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getImpactDetailsExtension()
     {
@@ -194,10 +194,10 @@ class ImpactDetailsType
     /**
      * Sets a new impactDetailsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $impactDetailsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $impactDetailsExtension
      * @return self
      */
-    public function setImpactDetailsExtension(\Calcinai\Siri\Datex\ExtensionType $impactDetailsExtension)
+    public function setImpactDetailsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $impactDetailsExtension)
     {
         $this->impactDetailsExtension = $impactDetailsExtension;
         return $this;

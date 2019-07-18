@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectingTimeFilterStructureType:
+Calcinai\Siri\Objects\ConnectingTimeFilterStructureType:
     properties:
         lineRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ConnectingTimeFilterStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\LineRefStructureType
+            type: Calcinai\Siri\Objects\LineRefStructureType
         directionRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\ConnectingTimeFilterStructureType:
             accessor:
                 getter: getDirectionRef
                 setter: setDirectionRef
-            type: Calcinai\Siri\DirectionRefStructureType
+            type: Calcinai\Siri\Objects\DirectionRefStructureType
         earliestArrivalTime:
             expose: true
             access_type: public_method

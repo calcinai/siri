@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\AccessControlAType:
+Calcinai\Siri\Objects\FacilityMonitoringServiceCapabilitiesStructureType\AccessControlAType:
     properties:
         checkOperatorRef:
             expose: true

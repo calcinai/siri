@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehicleDetectionTimeType
@@ -54,7 +54,7 @@ class VehicleDetectionTimeType
     private $timeHeadway = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehicleDetectionTimeExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleDetectionTimeExtension
      */
     private $vehicleDetectionTimeExtension = null;
 
@@ -217,7 +217,7 @@ class VehicleDetectionTimeType
     /**
      * Gets as vehicleDetectionTimeExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehicleDetectionTimeExtension()
     {
@@ -227,10 +227,10 @@ class VehicleDetectionTimeType
     /**
      * Sets a new vehicleDetectionTimeExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehicleDetectionTimeExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleDetectionTimeExtension
      * @return self
      */
-    public function setVehicleDetectionTimeExtension(\Calcinai\Siri\Datex\ExtensionType $vehicleDetectionTimeExtension)
+    public function setVehicleDetectionTimeExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehicleDetectionTimeExtension)
     {
         $this->vehicleDetectionTimeExtension = $vehicleDetectionTimeExtension;
         return $this;

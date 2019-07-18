@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityStructureType\FeaturesAType:
+Calcinai\Siri\Objects\FacilityStructureType\FeaturesAType:
     properties:
         feature:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\FacilityStructureType\FeaturesAType:
                 inline: true
                 entry_name: Feature
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AllFacilitiesFeatureStructureType>
+            type: array<Calcinai\Siri\Objects\AllFacilitiesFeatureStructureType>

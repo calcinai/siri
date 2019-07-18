@@ -1,4 +1,4 @@
-Calcinai\Siri\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         defaultPreviewInterval:
             expose: true

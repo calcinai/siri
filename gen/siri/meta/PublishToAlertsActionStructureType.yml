@@ -1,4 +1,4 @@
-Calcinai\Siri\PublishToAlertsActionStructureType:
+Calcinai\Siri\Objects\PublishToAlertsActionStructureType:
     properties:
         byEmail:
             expose: true

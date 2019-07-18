@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\AccessLinkRefStructureType:
+Calcinai\Siri\Objects\IFOpt\AccessLinkRefStructureType:
     properties:
         __value:
             expose: true

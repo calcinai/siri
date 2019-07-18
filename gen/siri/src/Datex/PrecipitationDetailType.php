@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PrecipitationDetailType
@@ -33,7 +33,7 @@ class PrecipitationDetailType
     private $precipitationType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $precipitationDetailExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $precipitationDetailExtension
      */
     private $precipitationDetailExtension = null;
 
@@ -118,7 +118,7 @@ class PrecipitationDetailType
     /**
      * Gets as precipitationDetailExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPrecipitationDetailExtension()
     {
@@ -128,10 +128,10 @@ class PrecipitationDetailType
     /**
      * Sets a new precipitationDetailExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $precipitationDetailExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $precipitationDetailExtension
      * @return self
      */
-    public function setPrecipitationDetailExtension(\Calcinai\Siri\Datex\ExtensionType $precipitationDetailExtension)
+    public function setPrecipitationDetailExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $precipitationDetailExtension)
     {
         $this->precipitationDetailExtension = $precipitationDetailExtension;
         return $this;

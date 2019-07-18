@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGGeometricAreaType:
+Calcinai\Siri\Objects\Datex\TPEGGeometricAreaType:
     properties:
         radius:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\TPEGGeometricAreaType:
             accessor:
                 getter: getCentrePoint
                 setter: setCentrePoint
-            type: Calcinai\Siri\Datex\PointCoordinatesType
+            type: Calcinai\Siri\Objects\Datex\PointCoordinatesType
         name:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\TPEGGeometricAreaType:
             accessor:
                 getter: getName
                 setter: setName
-            type: Calcinai\Siri\Datex\TPEGAreaDescriptorType
+            type: Calcinai\Siri\Objects\Datex\TPEGAreaDescriptorType
         tpeggeometricAreaExtension:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\TPEGGeometricAreaType:
             accessor:
                 getter: getTpeggeometricAreaExtension
                 setter: setTpeggeometricAreaExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

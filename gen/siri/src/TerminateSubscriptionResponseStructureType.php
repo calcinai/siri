@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing TerminateSubscriptionResponseStructureType
@@ -14,7 +14,7 @@ class TerminateSubscriptionResponseStructureType extends ResponseEndpointStructu
     /**
      * Status of each subscription termnination response
      *
-     * @property \Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType $terminationResponseStatus
+     * @property \Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType $terminationResponseStatus
      */
     private $terminationResponseStatus = null;
 
@@ -23,7 +23,7 @@ class TerminateSubscriptionResponseStructureType extends ResponseEndpointStructu
      *
      * Status of each subscription termnination response
      *
-     * @return \Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType
+     * @return \Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType
      */
     public function getTerminationResponseStatus()
     {
@@ -35,10 +35,10 @@ class TerminateSubscriptionResponseStructureType extends ResponseEndpointStructu
      *
      * Status of each subscription termnination response
      *
-     * @param \Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType $terminationResponseStatus
+     * @param \Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType $terminationResponseStatus
      * @return self
      */
-    public function setTerminationResponseStatus(\Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType $terminationResponseStatus)
+    public function setTerminationResponseStatus(\Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType $terminationResponseStatus)
     {
         $this->terminationResponseStatus = $terminationResponseStatus;
         return $this;

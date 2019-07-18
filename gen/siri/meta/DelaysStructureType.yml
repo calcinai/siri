@@ -1,4 +1,4 @@
-Calcinai\Siri\DelaysStructureType:
+Calcinai\Siri\Objects\DelaysStructureType:
     properties:
         delayBand:
             expose: true

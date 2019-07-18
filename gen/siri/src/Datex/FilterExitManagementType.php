@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing FilterExitManagementType
@@ -26,7 +26,7 @@ class FilterExitManagementType
     private $filterOutOfRange = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $filterExitManagementExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $filterExitManagementExtension
      */
     private $filterExitManagementExtension = null;
 
@@ -85,7 +85,7 @@ class FilterExitManagementType
     /**
      * Gets as filterExitManagementExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getFilterExitManagementExtension()
     {
@@ -95,10 +95,10 @@ class FilterExitManagementType
     /**
      * Sets a new filterExitManagementExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $filterExitManagementExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $filterExitManagementExtension
      * @return self
      */
-    public function setFilterExitManagementExtension(\Calcinai\Siri\Datex\ExtensionType $filterExitManagementExtension)
+    public function setFilterExitManagementExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $filterExitManagementExtension)
     {
         $this->filterExitManagementExtension = $filterExitManagementExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringSubscriptionStructureType:
+Calcinai\Siri\Objects\FacilityMonitoringSubscriptionStructureType:
     properties:
         facilityMonitoringRequest:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\FacilityMonitoringSubscriptionStructureType:
             accessor:
                 getter: getFacilityMonitoringRequest
                 setter: setFacilityMonitoringRequest
-            type: Calcinai\Siri\FacilityMonitoringRequest
+            type: Calcinai\Siri\Objects\FacilityMonitoringRequest
         incrementalUpdates:
             expose: true
             access_type: public_method

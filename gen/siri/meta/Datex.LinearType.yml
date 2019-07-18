@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\LinearType:
+Calcinai\Siri\Objects\Datex\LinearType:
     properties:
         tpeglinearLocation:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\LinearType:
             accessor:
                 getter: getTpeglinearLocation
                 setter: setTpeglinearLocation
-            type: Calcinai\Siri\Datex\TPEGLinearLocationType
+            type: Calcinai\Siri\Objects\Datex\TPEGLinearLocationType
         alertCLinear:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\LinearType:
             accessor:
                 getter: getAlertCLinear
                 setter: setAlertCLinear
-            type: Calcinai\Siri\Datex\AlertCLinearType
+            type: Calcinai\Siri\Objects\Datex\AlertCLinearType
         referencePointLinear:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\LinearType:
             accessor:
                 getter: getReferencePointLinear
                 setter: setReferencePointLinear
-            type: Calcinai\Siri\Datex\ReferencePointLinearType
+            type: Calcinai\Siri\Objects\Datex\ReferencePointLinearType
         linearExtension:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\LinearType:
             accessor:
                 getter: getLinearExtension
                 setter: setLinearExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

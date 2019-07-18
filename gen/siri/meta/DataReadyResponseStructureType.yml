@@ -1,4 +1,4 @@
-Calcinai\Siri\DataReadyResponseStructureType:
+Calcinai\Siri\Objects\DataReadyResponseStructureType:
     properties:
         status:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\DataReadyResponseStructureType:
             accessor:
                 getter: getErrorCondition
                 setter: setErrorCondition
-            type: Calcinai\Siri\DataReadyResponseStructureType\ErrorConditionAType
+            type: Calcinai\Siri\Objects\DataReadyResponseStructureType\ErrorConditionAType

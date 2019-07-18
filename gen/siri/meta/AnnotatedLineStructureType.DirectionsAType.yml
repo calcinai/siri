@@ -1,4 +1,4 @@
-Calcinai\Siri\AnnotatedLineStructureType\DirectionsAType:
+Calcinai\Siri\Objects\AnnotatedLineStructureType\DirectionsAType:
     properties:
         direction:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AnnotatedLineStructureType\DirectionsAType:
                 inline: true
                 entry_name: Direction
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\Direction>
+            type: array<Calcinai\Siri\Objects\Direction>

@@ -1,4 +1,4 @@
-Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         filterByMonitoringRef:
             expose: true

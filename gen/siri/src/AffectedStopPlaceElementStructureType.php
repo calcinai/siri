@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AffectedStopPlaceElementStructureType
@@ -14,7 +14,7 @@ class AffectedStopPlaceElementStructureType
     /**
      * Disruption of accessibility
      *
-     * @property \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @property \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      */
     private $accessibilityAssessment = null;
 
@@ -23,7 +23,7 @@ class AffectedStopPlaceElementStructureType
      *
      * Disruption of accessibility
      *
-     * @return \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType
      */
     public function getAccessibilityAssessment()
     {
@@ -35,10 +35,10 @@ class AffectedStopPlaceElementStructureType
      *
      * Disruption of accessibility
      *
-     * @param \Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
+     * @param \Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment
      * @return self
      */
-    public function setAccessibilityAssessment(\Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
+    public function setAccessibilityAssessment(\Calcinai\Siri\Objects\ACSB\AccessibilityAssessmentStructureType $accessibilityAssessment)
     {
         $this->accessibilityAssessment = $accessibilityAssessment;
         return $this;

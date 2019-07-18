@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing GrossWeightCharacteristicType
@@ -26,7 +26,7 @@ class GrossWeightCharacteristicType
     private $grossVehicleWeight = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $grossWeightCharacteristicExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $grossWeightCharacteristicExtension
      */
     private $grossWeightCharacteristicExtension = null;
 
@@ -85,7 +85,7 @@ class GrossWeightCharacteristicType
     /**
      * Gets as grossWeightCharacteristicExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getGrossWeightCharacteristicExtension()
     {
@@ -95,10 +95,10 @@ class GrossWeightCharacteristicType
     /**
      * Sets a new grossWeightCharacteristicExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $grossWeightCharacteristicExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $grossWeightCharacteristicExtension
      * @return self
      */
-    public function setGrossWeightCharacteristicExtension(\Calcinai\Siri\Datex\ExtensionType $grossWeightCharacteristicExtension)
+    public function setGrossWeightCharacteristicExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $grossWeightCharacteristicExtension)
     {
         $this->grossWeightCharacteristicExtension = $grossWeightCharacteristicExtension;
         return $this;

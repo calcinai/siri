@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AnnotatedFacilityStructureType
@@ -26,7 +26,7 @@ class AnnotatedFacilityStructureType
     /**
      * Description of the facility (without its status)
      *
-     * @property \Calcinai\Siri\FacilityStructureType $facility
+     * @property \Calcinai\Siri\Objects\FacilityStructureType $facility
      */
     private $facility = null;
 
@@ -83,7 +83,7 @@ class AnnotatedFacilityStructureType
      *
      * Description of the facility (without its status)
      *
-     * @return \Calcinai\Siri\FacilityStructureType
+     * @return \Calcinai\Siri\Objects\FacilityStructureType
      */
     public function getFacility()
     {
@@ -95,10 +95,10 @@ class AnnotatedFacilityStructureType
      *
      * Description of the facility (without its status)
      *
-     * @param \Calcinai\Siri\FacilityStructureType $facility
+     * @param \Calcinai\Siri\Objects\FacilityStructureType $facility
      * @return self
      */
-    public function setFacility(\Calcinai\Siri\FacilityStructureType $facility)
+    public function setFacility(\Calcinai\Siri\Objects\FacilityStructureType $facility)
     {
         $this->facility = $facility;
         return $this;

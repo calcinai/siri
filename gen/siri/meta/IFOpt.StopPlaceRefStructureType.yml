@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\StopPlaceRefStructureType:
+Calcinai\Siri\Objects\IFOpt\StopPlaceRefStructureType:
     properties:
         __value:
             expose: true

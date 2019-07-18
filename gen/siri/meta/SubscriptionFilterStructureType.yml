@@ -1,4 +1,4 @@
-Calcinai\Siri\SubscriptionFilterStructureType:
+Calcinai\Siri\Objects\SubscriptionFilterStructureType:
     properties:
         __value:
             expose: true

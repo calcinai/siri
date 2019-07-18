@@ -1,8 +1,8 @@
 <?php
 
-namespace Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\StopMonitoringServiceCapabilitiesStructureType;
 
-use Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType;
+use Calcinai\Siri\Objects\StopMonitoringCapabilityRequestPolicyStructureType;
 
 /**
  * Class representing RequestPolicyAType

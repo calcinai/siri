@@ -1,4 +1,4 @@
-Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType:
+Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType\InteractionAType:
     properties:
         requestResponse:
             expose: true

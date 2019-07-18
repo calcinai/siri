@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ReferenceSettingsType:
+Calcinai\Siri\Objects\Datex\ReferenceSettingsType:
     properties:
         locationSetReference:
             expose: true
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\ReferenceSettingsType:
             accessor:
                 getter: getReferenceSettingsExtension
                 setter: setReferenceSettingsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

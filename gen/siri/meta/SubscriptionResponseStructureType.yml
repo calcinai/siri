@@ -1,4 +1,4 @@
-Calcinai\Siri\SubscriptionResponseStructureType:
+Calcinai\Siri\Objects\SubscriptionResponseStructureType:
     properties:
         responseStatus:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\SubscriptionResponseStructureType:
             accessor:
                 getter: getResponseStatus
                 setter: setResponseStatus
-            type: Calcinai\Siri\ResponseStatus
+            type: Calcinai\Siri\Objects\ResponseStatus
         subscriptionManagerAddress:
             expose: true
             access_type: public_method
@@ -39,4 +39,4 @@ Calcinai\Siri\SubscriptionResponseStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,4 +1,4 @@
-Calcinai\Siri\OperatorRefStructureType:
+Calcinai\Siri\Objects\OperatorRefStructureType:
     properties:
         __value:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedTimetableRequestStructureType
@@ -42,7 +42,7 @@ class EstimatedTimetableRequestStructureType extends AbstractFunctionalServiceRe
     /**
      * Filter the results to include only vehicles along the given line(s).
      *
-     * @property \Calcinai\Siri\LineDirectionStructureType[] $lines
+     * @property \Calcinai\Siri\Objects\LineDirectionStructureType[] $lines
      */
     private $lines = null;
 
@@ -54,7 +54,7 @@ class EstimatedTimetableRequestStructureType extends AbstractFunctionalServiceRe
     private $language = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -168,9 +168,9 @@ class EstimatedTimetableRequestStructureType extends AbstractFunctionalServiceRe
      * Filter the results to include only vehicles along the given line(s).
      *
      * @return self
-     * @param \Calcinai\Siri\LineDirectionStructureType $lineDirection
+     * @param \Calcinai\Siri\Objects\LineDirectionStructureType $lineDirection
      */
-    public function addToLines(\Calcinai\Siri\LineDirectionStructureType $lineDirection)
+    public function addToLines(\Calcinai\Siri\Objects\LineDirectionStructureType $lineDirection)
     {
         $this->lines[] = $lineDirection;
         return $this;
@@ -207,7 +207,7 @@ class EstimatedTimetableRequestStructureType extends AbstractFunctionalServiceRe
      *
      * Filter the results to include only vehicles along the given line(s).
      *
-     * @return \Calcinai\Siri\LineDirectionStructureType[]
+     * @return \Calcinai\Siri\Objects\LineDirectionStructureType[]
      */
     public function getLines()
     {
@@ -219,7 +219,7 @@ class EstimatedTimetableRequestStructureType extends AbstractFunctionalServiceRe
      *
      * Filter the results to include only vehicles along the given line(s).
      *
-     * @param \Calcinai\Siri\LineDirectionStructureType[] $lines
+     * @param \Calcinai\Siri\Objects\LineDirectionStructureType[] $lines
      * @return self
      */
     public function setLines(array $lines)
@@ -257,7 +257,7 @@ class EstimatedTimetableRequestStructureType extends AbstractFunctionalServiceRe
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -267,10 +267,10 @@ class EstimatedTimetableRequestStructureType extends AbstractFunctionalServiceRe
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

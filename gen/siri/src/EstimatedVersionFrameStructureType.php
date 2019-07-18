@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedVersionFrameStructureType
@@ -17,7 +17,7 @@ class EstimatedVersionFrameStructureType extends AbstractItemStructureType
     private $versionRef = null;
 
     /**
-     * @property \Calcinai\Siri\EstimatedVehicleJourney[] $estimatedVehicleJourney
+     * @property \Calcinai\Siri\Objects\EstimatedVehicleJourney[] $estimatedVehicleJourney
      */
     private $estimatedVehicleJourney = [
         
@@ -49,9 +49,9 @@ class EstimatedVersionFrameStructureType extends AbstractItemStructureType
      * Adds as estimatedVehicleJourney
      *
      * @return self
-     * @param \Calcinai\Siri\EstimatedVehicleJourney $estimatedVehicleJourney
+     * @param \Calcinai\Siri\Objects\EstimatedVehicleJourney $estimatedVehicleJourney
      */
-    public function addToEstimatedVehicleJourney(\Calcinai\Siri\EstimatedVehicleJourney $estimatedVehicleJourney)
+    public function addToEstimatedVehicleJourney(\Calcinai\Siri\Objects\EstimatedVehicleJourney $estimatedVehicleJourney)
     {
         $this->estimatedVehicleJourney[] = $estimatedVehicleJourney;
         return $this;
@@ -82,7 +82,7 @@ class EstimatedVersionFrameStructureType extends AbstractItemStructureType
     /**
      * Gets as estimatedVehicleJourney
      *
-     * @return \Calcinai\Siri\EstimatedVehicleJourney[]
+     * @return \Calcinai\Siri\Objects\EstimatedVehicleJourney[]
      */
     public function getEstimatedVehicleJourney()
     {
@@ -92,7 +92,7 @@ class EstimatedVersionFrameStructureType extends AbstractItemStructureType
     /**
      * Sets a new estimatedVehicleJourney
      *
-     * @param \Calcinai\Siri\EstimatedVehicleJourney[] $estimatedVehicleJourney
+     * @param \Calcinai\Siri\Objects\EstimatedVehicleJourney[] $estimatedVehicleJourney
      * @return self
      */
     public function setEstimatedVehicleJourney(array $estimatedVehicleJourney)

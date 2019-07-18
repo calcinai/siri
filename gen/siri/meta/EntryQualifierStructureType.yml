@@ -1,4 +1,4 @@
-Calcinai\Siri\EntryQualifierStructureType:
+Calcinai\Siri\Objects\EntryQualifierStructureType:
     properties:
         __value:
             expose: true

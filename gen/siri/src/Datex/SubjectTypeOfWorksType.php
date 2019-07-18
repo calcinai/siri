@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SubjectTypeOfWorksType
@@ -26,7 +26,7 @@ class SubjectTypeOfWorksType
     private $numberOfSubjects = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $subjectTypeOfWorksExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $subjectTypeOfWorksExtension
      */
     private $subjectTypeOfWorksExtension = null;
 
@@ -85,7 +85,7 @@ class SubjectTypeOfWorksType
     /**
      * Gets as subjectTypeOfWorksExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSubjectTypeOfWorksExtension()
     {
@@ -95,10 +95,10 @@ class SubjectTypeOfWorksType
     /**
      * Sets a new subjectTypeOfWorksExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $subjectTypeOfWorksExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $subjectTypeOfWorksExtension
      * @return self
      */
-    public function setSubjectTypeOfWorksExtension(\Calcinai\Siri\Datex\ExtensionType $subjectTypeOfWorksExtension)
+    public function setSubjectTypeOfWorksExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $subjectTypeOfWorksExtension)
     {
         $this->subjectTypeOfWorksExtension = $subjectTypeOfWorksExtension;
         return $this;

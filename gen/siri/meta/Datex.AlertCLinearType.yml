@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\AlertCLinearType:
+Calcinai\Siri\Objects\Datex\AlertCLinearType:
     properties:
         alertCLocationCountryCode:
             expose: true
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\AlertCLinearType:
             accessor:
                 getter: getAlertCLinearExtension
                 setter: setAlertCLinearExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

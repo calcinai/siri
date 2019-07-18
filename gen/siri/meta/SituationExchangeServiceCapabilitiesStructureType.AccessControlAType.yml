@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType:
+Calcinai\Siri\Objects\SituationExchangeServiceCapabilitiesStructureType\AccessControlAType:
     properties:
         checkOperatorRef:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing WeatherRelatedRoadConditionsType
@@ -21,12 +21,12 @@ class WeatherRelatedRoadConditionsType extends RoadConditionsType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
+     * @property \Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
      */
     private $roadSurfaceConditionMeasurements = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $weatherRelatedRoadConditionsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $weatherRelatedRoadConditionsExtension
      */
     private $weatherRelatedRoadConditionsExtension = null;
 
@@ -99,7 +99,7 @@ class WeatherRelatedRoadConditionsType extends RoadConditionsType
     /**
      * Gets as roadSurfaceConditionMeasurements
      *
-     * @return \Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType
+     * @return \Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType
      */
     public function getRoadSurfaceConditionMeasurements()
     {
@@ -109,10 +109,10 @@ class WeatherRelatedRoadConditionsType extends RoadConditionsType
     /**
      * Sets a new roadSurfaceConditionMeasurements
      *
-     * @param \Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
+     * @param \Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements
      * @return self
      */
-    public function setRoadSurfaceConditionMeasurements(\Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements)
+    public function setRoadSurfaceConditionMeasurements(\Calcinai\Siri\Objects\Datex\RoadSurfaceConditionMeasurementsType $roadSurfaceConditionMeasurements)
     {
         $this->roadSurfaceConditionMeasurements = $roadSurfaceConditionMeasurements;
         return $this;
@@ -121,7 +121,7 @@ class WeatherRelatedRoadConditionsType extends RoadConditionsType
     /**
      * Gets as weatherRelatedRoadConditionsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getWeatherRelatedRoadConditionsExtension()
     {
@@ -131,10 +131,10 @@ class WeatherRelatedRoadConditionsType extends RoadConditionsType
     /**
      * Sets a new weatherRelatedRoadConditionsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $weatherRelatedRoadConditionsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $weatherRelatedRoadConditionsExtension
      * @return self
      */
-    public function setWeatherRelatedRoadConditionsExtension(\Calcinai\Siri\Datex\ExtensionType $weatherRelatedRoadConditionsExtension)
+    public function setWeatherRelatedRoadConditionsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $weatherRelatedRoadConditionsExtension)
     {
         $this->weatherRelatedRoadConditionsExtension = $weatherRelatedRoadConditionsExtension;
         return $this;

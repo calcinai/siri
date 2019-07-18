@@ -1,4 +1,4 @@
-Calcinai\Siri\MobilityFacility:
+Calcinai\Siri\Objects\MobilityFacility:
     xml_root_name: MobilityFacility
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

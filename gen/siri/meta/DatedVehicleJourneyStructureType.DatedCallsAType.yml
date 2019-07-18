@@ -1,4 +1,4 @@
-Calcinai\Siri\DatedVehicleJourneyStructureType\DatedCallsAType:
+Calcinai\Siri\Objects\DatedVehicleJourneyStructureType\DatedCallsAType:
     properties:
         datedCall:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\DatedVehicleJourneyStructureType\DatedCallsAType:
                 inline: true
                 entry_name: DatedCall
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\DatedCall>
+            type: array<Calcinai\Siri\Objects\DatedCall>

@@ -1,3 +1,3 @@
-Calcinai\Siri\ACSB\GuideDogAccess:
+Calcinai\Siri\Objects\ACSB\GuideDogAccess:
     xml_root_name: GuideDogAccess
     xml_root_namespace: 'http://www.ifopt.org.uk/acsb'

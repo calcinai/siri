@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractCapabilitiesStructureType:
+Calcinai\Siri\Objects\AbstractCapabilitiesStructureType:
     properties:
         generalInteraction:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AbstractCapabilitiesStructureType:
             accessor:
                 getter: getGeneralInteraction
                 setter: setGeneralInteraction
-            type: Calcinai\Siri\CapabilityGeneralInteractionStructureType
+            type: Calcinai\Siri\Objects\CapabilityGeneralInteractionStructureType
         transportDescription:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\AbstractCapabilitiesStructureType:
             accessor:
                 getter: getTransportDescription
                 setter: setTransportDescription
-            type: Calcinai\Siri\TransportDescriptionStructureType
+            type: Calcinai\Siri\Objects\TransportDescriptionStructureType

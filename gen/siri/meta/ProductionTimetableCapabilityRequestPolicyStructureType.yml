@@ -1,4 +1,4 @@
-Calcinai\Siri\ProductionTimetableCapabilityRequestPolicyStructureType:
+Calcinai\Siri\Objects\ProductionTimetableCapabilityRequestPolicyStructureType:
     properties:
         foreignJourneysOnly:
             expose: true

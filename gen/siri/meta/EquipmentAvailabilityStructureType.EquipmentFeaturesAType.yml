@@ -1,4 +1,4 @@
-Calcinai\Siri\EquipmentAvailabilityStructureType\EquipmentFeaturesAType:
+Calcinai\Siri\Objects\EquipmentAvailabilityStructureType\EquipmentFeaturesAType:
     properties:
         featureRef:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\EquipmentAvailabilityStructureType\EquipmentFeaturesAType:
                 inline: true
                 entry_name: FeatureRef
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\FeatureRefStructureType>
+            type: array<Calcinai\Siri\Objects\FeatureRefStructureType>

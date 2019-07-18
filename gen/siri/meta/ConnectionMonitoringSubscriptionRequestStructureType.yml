@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionMonitoringSubscriptionRequestStructureType:
+Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequestStructureType:
     properties:
         connectionMonitoringRequest:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ConnectionMonitoringSubscriptionRequestStructureType:
             accessor:
                 getter: getConnectionMonitoringRequest
                 setter: setConnectionMonitoringRequest
-            type: Calcinai\Siri\ConnectionMonitoringRequest
+            type: Calcinai\Siri\Objects\ConnectionMonitoringRequest
         changeBeforeUpdates:
             expose: true
             access_type: public_method

@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitorPermissionStructureType:
+Calcinai\Siri\Objects\VehicleMonitorPermissionStructureType:
     properties:
         vehicleMonitoringRef:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\VehicleMonitorPermissionStructureType:
             accessor:
                 getter: getVehicleMonitoringRef
                 setter: setVehicleMonitoringRef
-            type: Calcinai\Siri\VehicleMonitoringRefStructureType
+            type: Calcinai\Siri\Objects\VehicleMonitoringRefStructureType

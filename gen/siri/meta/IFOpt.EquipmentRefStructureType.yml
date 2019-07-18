@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\EquipmentRefStructureType:
+Calcinai\Siri\Objects\IFOpt\EquipmentRefStructureType:
     properties:
         __value:
             expose: true

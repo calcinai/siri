@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\ReferencePointType;
+namespace Calcinai\Siri\Objects\Datex\ReferencePointType;
 
 /**
  * Class representing RoadNameAType
@@ -9,7 +9,7 @@ class RoadNameAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class RoadNameAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class RoadNameAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class RoadNameAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\ReferencePointType\RoadNameAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

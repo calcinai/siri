@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VariableMessageSignSettingType
@@ -58,7 +58,7 @@ class VariableMessageSignSettingType extends SignSettingType
     private $vmsType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $variableMessageSignSettingExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $variableMessageSignSettingExtension
      */
     private $variableMessageSignSettingExtension = null;
 
@@ -301,7 +301,7 @@ class VariableMessageSignSettingType extends SignSettingType
     /**
      * Gets as variableMessageSignSettingExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVariableMessageSignSettingExtension()
     {
@@ -311,10 +311,10 @@ class VariableMessageSignSettingType extends SignSettingType
     /**
      * Sets a new variableMessageSignSettingExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $variableMessageSignSettingExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $variableMessageSignSettingExtension
      * @return self
      */
-    public function setVariableMessageSignSettingExtension(\Calcinai\Siri\Datex\ExtensionType $variableMessageSignSettingExtension)
+    public function setVariableMessageSignSettingExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $variableMessageSignSettingExtension)
     {
         $this->variableMessageSignSettingExtension = $variableMessageSignSettingExtension;
         return $this;

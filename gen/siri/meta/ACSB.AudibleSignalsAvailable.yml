@@ -1,3 +1,3 @@
-Calcinai\Siri\ACSB\AudibleSignalsAvailable:
+Calcinai\Siri\Objects\ACSB\AudibleSignalsAvailable:
     xml_root_name: AudibleSignalsAvailable
     xml_root_namespace: 'http://www.ifopt.org.uk/acsb'

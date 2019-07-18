@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SituationRecordType
@@ -73,58 +73,58 @@ class SituationRecordType
     private $probabilityOfOccurrence = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SourceInformationType $sourceInformation
+     * @property \Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation
      */
     private $sourceInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ValidityType $validity
+     * @property \Calcinai\Siri\Objects\Datex\ValidityType $validity
      */
     private $validity = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ImpactType $impact
+     * @property \Calcinai\Siri\Objects\Datex\ImpactType $impact
      */
     private $impact = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\CauseType $cause
+     * @property \Calcinai\Siri\Objects\Datex\CauseType $cause
      */
     private $cause = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AdviceType[] $advice
+     * @property \Calcinai\Siri\Objects\Datex\AdviceType[] $advice
      */
     private $advice = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\CommentType[] $generalPublicComment
+     * @property \Calcinai\Siri\Objects\Datex\CommentType[] $generalPublicComment
      */
     private $generalPublicComment = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\CommentType[] $nonGeneralPublicComment
+     * @property \Calcinai\Siri\Objects\Datex\CommentType[] $nonGeneralPublicComment
      */
     private $nonGeneralPublicComment = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\GroupOfLocationsType $groupOfLocations
+     * @property \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $groupOfLocations
      */
     private $groupOfLocations = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ManagementType $management
+     * @property \Calcinai\Siri\Objects\Datex\ManagementType $management
      */
     private $management = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $situationRecordExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $situationRecordExtension
      */
     private $situationRecordExtension = null;
 
@@ -361,7 +361,7 @@ class SituationRecordType
     /**
      * Gets as sourceInformation
      *
-     * @return \Calcinai\Siri\Datex\SourceInformationType
+     * @return \Calcinai\Siri\Objects\Datex\SourceInformationType
      */
     public function getSourceInformation()
     {
@@ -371,10 +371,10 @@ class SituationRecordType
     /**
      * Sets a new sourceInformation
      *
-     * @param \Calcinai\Siri\Datex\SourceInformationType $sourceInformation
+     * @param \Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation
      * @return self
      */
-    public function setSourceInformation(\Calcinai\Siri\Datex\SourceInformationType $sourceInformation)
+    public function setSourceInformation(\Calcinai\Siri\Objects\Datex\SourceInformationType $sourceInformation)
     {
         $this->sourceInformation = $sourceInformation;
         return $this;
@@ -383,7 +383,7 @@ class SituationRecordType
     /**
      * Gets as validity
      *
-     * @return \Calcinai\Siri\Datex\ValidityType
+     * @return \Calcinai\Siri\Objects\Datex\ValidityType
      */
     public function getValidity()
     {
@@ -393,10 +393,10 @@ class SituationRecordType
     /**
      * Sets a new validity
      *
-     * @param \Calcinai\Siri\Datex\ValidityType $validity
+     * @param \Calcinai\Siri\Objects\Datex\ValidityType $validity
      * @return self
      */
-    public function setValidity(\Calcinai\Siri\Datex\ValidityType $validity)
+    public function setValidity(\Calcinai\Siri\Objects\Datex\ValidityType $validity)
     {
         $this->validity = $validity;
         return $this;
@@ -405,7 +405,7 @@ class SituationRecordType
     /**
      * Gets as impact
      *
-     * @return \Calcinai\Siri\Datex\ImpactType
+     * @return \Calcinai\Siri\Objects\Datex\ImpactType
      */
     public function getImpact()
     {
@@ -415,10 +415,10 @@ class SituationRecordType
     /**
      * Sets a new impact
      *
-     * @param \Calcinai\Siri\Datex\ImpactType $impact
+     * @param \Calcinai\Siri\Objects\Datex\ImpactType $impact
      * @return self
      */
-    public function setImpact(\Calcinai\Siri\Datex\ImpactType $impact)
+    public function setImpact(\Calcinai\Siri\Objects\Datex\ImpactType $impact)
     {
         $this->impact = $impact;
         return $this;
@@ -427,7 +427,7 @@ class SituationRecordType
     /**
      * Gets as cause
      *
-     * @return \Calcinai\Siri\Datex\CauseType
+     * @return \Calcinai\Siri\Objects\Datex\CauseType
      */
     public function getCause()
     {
@@ -437,10 +437,10 @@ class SituationRecordType
     /**
      * Sets a new cause
      *
-     * @param \Calcinai\Siri\Datex\CauseType $cause
+     * @param \Calcinai\Siri\Objects\Datex\CauseType $cause
      * @return self
      */
-    public function setCause(\Calcinai\Siri\Datex\CauseType $cause)
+    public function setCause(\Calcinai\Siri\Objects\Datex\CauseType $cause)
     {
         $this->cause = $cause;
         return $this;
@@ -450,9 +450,9 @@ class SituationRecordType
      * Adds as advice
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\AdviceType $advice
+     * @param \Calcinai\Siri\Objects\Datex\AdviceType $advice
      */
-    public function addToAdvice(\Calcinai\Siri\Datex\AdviceType $advice)
+    public function addToAdvice(\Calcinai\Siri\Objects\Datex\AdviceType $advice)
     {
         $this->advice[] = $advice;
         return $this;
@@ -483,7 +483,7 @@ class SituationRecordType
     /**
      * Gets as advice
      *
-     * @return \Calcinai\Siri\Datex\AdviceType[]
+     * @return \Calcinai\Siri\Objects\Datex\AdviceType[]
      */
     public function getAdvice()
     {
@@ -493,7 +493,7 @@ class SituationRecordType
     /**
      * Sets a new advice
      *
-     * @param \Calcinai\Siri\Datex\AdviceType[] $advice
+     * @param \Calcinai\Siri\Objects\Datex\AdviceType[] $advice
      * @return self
      */
     public function setAdvice(array $advice)
@@ -506,9 +506,9 @@ class SituationRecordType
      * Adds as generalPublicComment
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\CommentType $generalPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment
      */
-    public function addToGeneralPublicComment(\Calcinai\Siri\Datex\CommentType $generalPublicComment)
+    public function addToGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment)
     {
         $this->generalPublicComment[] = $generalPublicComment;
         return $this;
@@ -539,7 +539,7 @@ class SituationRecordType
     /**
      * Gets as generalPublicComment
      *
-     * @return \Calcinai\Siri\Datex\CommentType[]
+     * @return \Calcinai\Siri\Objects\Datex\CommentType[]
      */
     public function getGeneralPublicComment()
     {
@@ -549,7 +549,7 @@ class SituationRecordType
     /**
      * Sets a new generalPublicComment
      *
-     * @param \Calcinai\Siri\Datex\CommentType[] $generalPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType[] $generalPublicComment
      * @return self
      */
     public function setGeneralPublicComment(array $generalPublicComment)
@@ -562,9 +562,9 @@ class SituationRecordType
      * Adds as nonGeneralPublicComment
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\CommentType $nonGeneralPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment
      */
-    public function addToNonGeneralPublicComment(\Calcinai\Siri\Datex\CommentType $nonGeneralPublicComment)
+    public function addToNonGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment)
     {
         $this->nonGeneralPublicComment[] = $nonGeneralPublicComment;
         return $this;
@@ -595,7 +595,7 @@ class SituationRecordType
     /**
      * Gets as nonGeneralPublicComment
      *
-     * @return \Calcinai\Siri\Datex\CommentType[]
+     * @return \Calcinai\Siri\Objects\Datex\CommentType[]
      */
     public function getNonGeneralPublicComment()
     {
@@ -605,7 +605,7 @@ class SituationRecordType
     /**
      * Sets a new nonGeneralPublicComment
      *
-     * @param \Calcinai\Siri\Datex\CommentType[] $nonGeneralPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType[] $nonGeneralPublicComment
      * @return self
      */
     public function setNonGeneralPublicComment(array $nonGeneralPublicComment)
@@ -617,7 +617,7 @@ class SituationRecordType
     /**
      * Gets as groupOfLocations
      *
-     * @return \Calcinai\Siri\Datex\GroupOfLocationsType
+     * @return \Calcinai\Siri\Objects\Datex\GroupOfLocationsType
      */
     public function getGroupOfLocations()
     {
@@ -627,10 +627,10 @@ class SituationRecordType
     /**
      * Sets a new groupOfLocations
      *
-     * @param \Calcinai\Siri\Datex\GroupOfLocationsType $groupOfLocations
+     * @param \Calcinai\Siri\Objects\Datex\GroupOfLocationsType $groupOfLocations
      * @return self
      */
-    public function setGroupOfLocations(\Calcinai\Siri\Datex\GroupOfLocationsType $groupOfLocations)
+    public function setGroupOfLocations(\Calcinai\Siri\Objects\Datex\GroupOfLocationsType $groupOfLocations)
     {
         $this->groupOfLocations = $groupOfLocations;
         return $this;
@@ -639,7 +639,7 @@ class SituationRecordType
     /**
      * Gets as management
      *
-     * @return \Calcinai\Siri\Datex\ManagementType
+     * @return \Calcinai\Siri\Objects\Datex\ManagementType
      */
     public function getManagement()
     {
@@ -649,10 +649,10 @@ class SituationRecordType
     /**
      * Sets a new management
      *
-     * @param \Calcinai\Siri\Datex\ManagementType $management
+     * @param \Calcinai\Siri\Objects\Datex\ManagementType $management
      * @return self
      */
-    public function setManagement(\Calcinai\Siri\Datex\ManagementType $management)
+    public function setManagement(\Calcinai\Siri\Objects\Datex\ManagementType $management)
     {
         $this->management = $management;
         return $this;
@@ -661,7 +661,7 @@ class SituationRecordType
     /**
      * Gets as situationRecordExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSituationRecordExtension()
     {
@@ -671,10 +671,10 @@ class SituationRecordType
     /**
      * Sets a new situationRecordExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $situationRecordExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $situationRecordExtension
      * @return self
      */
-    public function setSituationRecordExtension(\Calcinai\Siri\Datex\ExtensionType $situationRecordExtension)
+    public function setSituationRecordExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $situationRecordExtension)
     {
         $this->situationRecordExtension = $situationRecordExtension;
         return $this;

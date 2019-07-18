@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\ConnectionTimetableServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\ConnectionTimetableServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

@@ -1,4 +1,4 @@
-Calcinai\Siri\NotifyByEmailActionStructureType:
+Calcinai\Siri\Objects\NotifyByEmailActionStructureType:
     properties:
         email:
             expose: true

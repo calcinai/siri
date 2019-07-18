@@ -1,4 +1,4 @@
-Calcinai\Siri\CheckStatusResponseBodyStructureType:
+Calcinai\Siri\Objects\CheckStatusResponseBodyStructureType:
     properties:
         status:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\CheckStatusResponseBodyStructureType:
             accessor:
                 getter: getErrorCondition
                 setter: setErrorCondition
-            type: Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType
+            type: Calcinai\Siri\Objects\CheckStatusResponseStructureType\ErrorConditionAType
         validUntil:
             expose: true
             access_type: public_method

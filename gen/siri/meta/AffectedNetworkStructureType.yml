@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedNetworkStructureType:
+Calcinai\Siri\Objects\AffectedNetworkStructureType:
     properties:
         affectedOperator:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
                 inline: true
                 entry_name: AffectedOperator
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedOperatorStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedOperatorStructureType>
         networkRef:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getNetworkRef
                 setter: setNetworkRef
-            type: Calcinai\Siri\NetworkRefStructureType
+            type: Calcinai\Siri\Objects\NetworkRefStructureType
         networkName:
             expose: true
             access_type: public_method
@@ -33,7 +33,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getNetworkName
                 setter: setNetworkName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         routesAffected:
             expose: true
             access_type: public_method
@@ -43,7 +43,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getRoutesAffected
                 setter: setRoutesAffected
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
         vehicleMode:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getVehicleMode
                 setter: setVehicleMode
-            type: Calcinai\Siri\VehicleMode
+            type: Calcinai\Siri\Objects\VehicleMode
         airSubmode:
             expose: true
             access_type: public_method
@@ -63,7 +63,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getAirSubmode
                 setter: setAirSubmode
-            type: Calcinai\Siri\AirSubmode
+            type: Calcinai\Siri\Objects\AirSubmode
         busSubmode:
             expose: true
             access_type: public_method
@@ -73,7 +73,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getBusSubmode
                 setter: setBusSubmode
-            type: Calcinai\Siri\BusSubmode
+            type: Calcinai\Siri\Objects\BusSubmode
         coachSubmode:
             expose: true
             access_type: public_method
@@ -83,7 +83,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getCoachSubmode
                 setter: setCoachSubmode
-            type: Calcinai\Siri\CoachSubmode
+            type: Calcinai\Siri\Objects\CoachSubmode
         metroSubmode:
             expose: true
             access_type: public_method
@@ -93,7 +93,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getMetroSubmode
                 setter: setMetroSubmode
-            type: Calcinai\Siri\MetroSubmode
+            type: Calcinai\Siri\Objects\MetroSubmode
         railSubmode:
             expose: true
             access_type: public_method
@@ -103,7 +103,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getRailSubmode
                 setter: setRailSubmode
-            type: Calcinai\Siri\RailSubmode
+            type: Calcinai\Siri\Objects\RailSubmode
         tramSubmode:
             expose: true
             access_type: public_method
@@ -113,7 +113,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getTramSubmode
                 setter: setTramSubmode
-            type: Calcinai\Siri\TramSubmode
+            type: Calcinai\Siri\Objects\TramSubmode
         waterSubmode:
             expose: true
             access_type: public_method
@@ -123,7 +123,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getWaterSubmode
                 setter: setWaterSubmode
-            type: Calcinai\Siri\WaterSubmode
+            type: Calcinai\Siri\Objects\WaterSubmode
         accessMode:
             expose: true
             access_type: public_method
@@ -167,7 +167,7 @@ Calcinai\Siri\AffectedNetworkStructureType:
                 inline: true
                 entry_name: AffectedLine
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedLineStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedLineStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -177,4 +177,4 @@ Calcinai\Siri\AffectedNetworkStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

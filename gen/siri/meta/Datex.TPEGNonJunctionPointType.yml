@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGNonJunctionPointType:
+Calcinai\Siri\Objects\Datex\TPEGNonJunctionPointType:
     properties:
         pointCoordinates:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\TPEGNonJunctionPointType:
             accessor:
                 getter: getPointCoordinates
                 setter: setPointCoordinates
-            type: Calcinai\Siri\Datex\PointCoordinatesType
+            type: Calcinai\Siri\Objects\Datex\PointCoordinatesType
         name:
             expose: true
             access_type: public_method
@@ -23,7 +23,7 @@ Calcinai\Siri\Datex\TPEGNonJunctionPointType:
                 inline: true
                 entry_name: name
                 namespace: 'http://datex2.eu/schema/1_0/1_0'
-            type: array<Calcinai\Siri\Datex\TPEGOtherPointDescriptorType>
+            type: array<Calcinai\Siri\Objects\Datex\TPEGOtherPointDescriptorType>
         tpegnonJunctionPointExtension:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ Calcinai\Siri\Datex\TPEGNonJunctionPointType:
             accessor:
                 getter: getTpegnonJunctionPointExtension
                 setter: setTpegnonJunctionPointExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

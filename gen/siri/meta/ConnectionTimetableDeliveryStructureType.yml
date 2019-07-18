@@ -1,4 +1,4 @@
-Calcinai\Siri\ConnectionTimetableDeliveryStructureType:
+Calcinai\Siri\Objects\ConnectionTimetableDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\ConnectionTimetableDeliveryStructureType:
             accessor:
                 getter: getTimetabledFeederArrival
                 setter: setTimetabledFeederArrival
-            type: Calcinai\Siri\TimetabledFeederArrival
+            type: Calcinai\Siri\Objects\TimetabledFeederArrival
         timetabledFeederArrivalCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Calcinai\Siri\ConnectionTimetableDeliveryStructureType:
             accessor:
                 getter: getTimetabledFeederArrivalCancellation
                 setter: setTimetabledFeederArrivalCancellation
-            type: Calcinai\Siri\TimetabledFeederArrivalCancellation
+            type: Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation
         extensions:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ Calcinai\Siri\ConnectionTimetableDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

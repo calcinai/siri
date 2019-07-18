@@ -1,3 +1,3 @@
-Calcinai\Siri\TimetabledFeederArrivalCancellation:
+Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation:
     xml_root_name: TimetabledFeederArrivalCancellation
     xml_root_namespace: 'http://www.siri.org.uk/siri'

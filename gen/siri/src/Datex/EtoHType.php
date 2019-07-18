@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing EtoHType
@@ -22,7 +22,7 @@ class EtoHType
     private $effectOnRoadLayoutEnum = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $etoHExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $etoHExtension
      */
     private $etoHExtension = null;
 
@@ -83,7 +83,7 @@ class EtoHType
     /**
      * Gets as etoHExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getEtoHExtension()
     {
@@ -93,10 +93,10 @@ class EtoHType
     /**
      * Sets a new etoHExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $etoHExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $etoHExtension
      * @return self
      */
-    public function setEtoHExtension(\Calcinai\Siri\Datex\ExtensionType $etoHExtension)
+    public function setEtoHExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $etoHExtension)
     {
         $this->etoHExtension = $etoHExtension;
         return $this;

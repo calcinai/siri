@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\AnnotatedLineStructureType;
+namespace Calcinai\Siri\Objects\AnnotatedLineStructureType;
 
 /**
  * Class representing DestinationsAType
@@ -9,7 +9,7 @@ class DestinationsAType
 {
 
     /**
-     * @property \Calcinai\Siri\Destination[] $destination
+     * @property \Calcinai\Siri\Objects\Destination[] $destination
      */
     private $destination = [
         
@@ -19,9 +19,9 @@ class DestinationsAType
      * Adds as destination
      *
      * @return self
-     * @param \Calcinai\Siri\Destination $destination
+     * @param \Calcinai\Siri\Objects\Destination $destination
      */
-    public function addToDestination(\Calcinai\Siri\Destination $destination)
+    public function addToDestination(\Calcinai\Siri\Objects\Destination $destination)
     {
         $this->destination[] = $destination;
         return $this;
@@ -52,7 +52,7 @@ class DestinationsAType
     /**
      * Gets as destination
      *
-     * @return \Calcinai\Siri\Destination[]
+     * @return \Calcinai\Siri\Objects\Destination[]
      */
     public function getDestination()
     {
@@ -62,7 +62,7 @@ class DestinationsAType
     /**
      * Sets a new destination
      *
-     * @param \Calcinai\Siri\Destination[] $destination
+     * @param \Calcinai\Siri\Objects\Destination[] $destination
      * @return self
      */
     public function setDestination(array $destination)

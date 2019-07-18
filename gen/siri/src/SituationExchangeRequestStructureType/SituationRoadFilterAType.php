@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\SituationExchangeRequestStructureType;
+namespace Calcinai\Siri\Objects\SituationExchangeRequestStructureType;
 
 /**
  * Class representing SituationRoadFilterAType
@@ -9,7 +9,7 @@ class SituationRoadFilterAType
 {
 
     /**
-     * @property \Calcinai\Siri\RoadFilterStructureType[] $roadFilter
+     * @property \Calcinai\Siri\Objects\RoadFilterStructureType[] $roadFilter
      */
     private $roadFilter = [
         
@@ -19,9 +19,9 @@ class SituationRoadFilterAType
      * Adds as roadFilter
      *
      * @return self
-     * @param \Calcinai\Siri\RoadFilterStructureType $roadFilter
+     * @param \Calcinai\Siri\Objects\RoadFilterStructureType $roadFilter
      */
-    public function addToRoadFilter(\Calcinai\Siri\RoadFilterStructureType $roadFilter)
+    public function addToRoadFilter(\Calcinai\Siri\Objects\RoadFilterStructureType $roadFilter)
     {
         $this->roadFilter[] = $roadFilter;
         return $this;
@@ -52,7 +52,7 @@ class SituationRoadFilterAType
     /**
      * Gets as roadFilter
      *
-     * @return \Calcinai\Siri\RoadFilterStructureType[]
+     * @return \Calcinai\Siri\Objects\RoadFilterStructureType[]
      */
     public function getRoadFilter()
     {
@@ -62,7 +62,7 @@ class SituationRoadFilterAType
     /**
      * Sets a new roadFilter
      *
-     * @param \Calcinai\Siri\RoadFilterStructureType[] $roadFilter
+     * @param \Calcinai\Siri\Objects\RoadFilterStructureType[] $roadFilter
      * @return self
      */
     public function setRoadFilter(array $roadFilter)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficControlType
@@ -26,7 +26,7 @@ class TrafficControlType
     private $trafficControlType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficControlExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficControlExtension
      */
     private $trafficControlExtension = null;
 
@@ -85,7 +85,7 @@ class TrafficControlType
     /**
      * Gets as trafficControlExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficControlExtension()
     {
@@ -95,10 +95,10 @@ class TrafficControlType
     /**
      * Sets a new trafficControlExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficControlExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficControlExtension
      * @return self
      */
-    public function setTrafficControlExtension(\Calcinai\Siri\Datex\ExtensionType $trafficControlExtension)
+    public function setTrafficControlExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficControlExtension)
     {
         $this->trafficControlExtension = $trafficControlExtension;
         return $this;

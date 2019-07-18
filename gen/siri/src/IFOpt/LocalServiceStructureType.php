@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\IFOpt;
+namespace Calcinai\Siri\Objects\IFOpt;
 
 /**
  * Class representing LocalServiceStructureType
@@ -14,7 +14,7 @@ class LocalServiceStructureType extends InstalledEquipmentStructureType
     /**
      * Conditison governign availability of srevice.
      *
-     * @property \Calcinai\Siri\IFOpt\ValidityConditionStructureType[] $validityConditions
+     * @property \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType[] $validityConditions
      */
     private $validityConditions = null;
 
@@ -36,9 +36,9 @@ class LocalServiceStructureType extends InstalledEquipmentStructureType
      * Conditison governign availability of srevice.
      *
      * @return self
-     * @param \Calcinai\Siri\IFOpt\ValidityConditionStructureType $validityCondition
+     * @param \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType $validityCondition
      */
-    public function addToValidityConditions(\Calcinai\Siri\IFOpt\ValidityConditionStructureType $validityCondition)
+    public function addToValidityConditions(\Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType $validityCondition)
     {
         $this->validityConditions[] = $validityCondition;
         return $this;
@@ -75,7 +75,7 @@ class LocalServiceStructureType extends InstalledEquipmentStructureType
      *
      * Conditison governign availability of srevice.
      *
-     * @return \Calcinai\Siri\IFOpt\ValidityConditionStructureType[]
+     * @return \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType[]
      */
     public function getValidityConditions()
     {
@@ -87,7 +87,7 @@ class LocalServiceStructureType extends InstalledEquipmentStructureType
      *
      * Conditison governign availability of srevice.
      *
-     * @param \Calcinai\Siri\IFOpt\ValidityConditionStructureType[] $validityConditions
+     * @param \Calcinai\Siri\Objects\IFOpt\ValidityConditionStructureType[] $validityConditions
      * @return self
      */
     public function setValidityConditions(array $validityConditions)

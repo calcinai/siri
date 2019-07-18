@@ -1,4 +1,4 @@
-Calcinai\Siri\TargetedCallStructureType:
+Calcinai\Siri\Objects\TargetedCallStructureType:
     properties:
         stopPointRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getStopPointRef
                 setter: setStopPointRef
-            type: Calcinai\Siri\StopPointRefStructureType
+            type: Calcinai\Siri\Objects\StopPointRefStructureType
         visitNumber:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getVisitNumber
                 setter: setVisitNumber
-            type: Calcinai\Siri\VisitNumber
+            type: Calcinai\Siri\Objects\VisitNumber
         order:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getOperatorRef
                 setter: setOperatorRef
-            type: Calcinai\Siri\OperatorRefStructureType
+            type: Calcinai\Siri\Objects\OperatorRefStructureType
         productCategoryRef:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getProductCategoryRef
                 setter: setProductCategoryRef
-            type: Calcinai\Siri\ProductCategoryRefStructureType
+            type: Calcinai\Siri\Objects\ProductCategoryRefStructureType
         serviceFeatureRef:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getServiceFeatureRef
                 setter: setServiceFeatureRef
-            type: Calcinai\Siri\ServiceFeatureRef
+            type: Calcinai\Siri\Objects\ServiceFeatureRef
         vehicleFeatureRef:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getVehicleFeatureRef
                 setter: setVehicleFeatureRef
-            type: Calcinai\Siri\VehicleFeatureRefStructureType
+            type: Calcinai\Siri\Objects\VehicleFeatureRefStructureType
         aimedArrivalTime:
             expose: true
             access_type: public_method
@@ -99,7 +99,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getArrivalPlatformName
                 setter: setArrivalPlatformName
-            type: Calcinai\Siri\ArrivalPlatformName
+            type: Calcinai\Siri\Objects\ArrivalPlatformName
         arrivalBoardingActivity:
             expose: true
             access_type: public_method
@@ -109,7 +109,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getArrivalBoardingActivity
                 setter: setArrivalBoardingActivity
-            type: Calcinai\Siri\ArrivalBoardingActivity
+            type: Calcinai\Siri\Objects\ArrivalBoardingActivity
         aimedDepartureTime:
             expose: true
             access_type: public_method
@@ -129,7 +129,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getDeparturePlatformName
                 setter: setDeparturePlatformName
-            type: Calcinai\Siri\DeparturePlatformName
+            type: Calcinai\Siri\Objects\DeparturePlatformName
         departureBoardingActivity:
             expose: true
             access_type: public_method
@@ -139,7 +139,7 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getDepartureBoardingActivity
                 setter: setDepartureBoardingActivity
-            type: Calcinai\Siri\DepartureBoardingActivity
+            type: Calcinai\Siri\Objects\DepartureBoardingActivity
         aimedHeadwayInterval:
             expose: true
             access_type: public_method
@@ -149,4 +149,4 @@ Calcinai\Siri\TargetedCallStructureType:
             accessor:
                 getter: getAimedHeadwayInterval
                 setter: setAimedHeadwayInterval
-            type: Calcinai\Siri\AimedHeadwayInterval
+            type: Calcinai\Siri\Objects\AimedHeadwayInterval

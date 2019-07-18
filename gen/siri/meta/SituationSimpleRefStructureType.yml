@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationSimpleRefStructureType:
+Calcinai\Siri\Objects\SituationSimpleRefStructureType:
     properties:
         __value:
             expose: true

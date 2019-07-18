@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\SourceInformationType\SourceNameAType;
+namespace Calcinai\Siri\Objects\Datex\SourceInformationType\SourceNameAType;
 
 /**
  * Class representing ValueAType

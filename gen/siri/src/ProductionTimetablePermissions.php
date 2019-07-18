@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ProductionTimetablePermissions
@@ -13,7 +13,7 @@ class ProductionTimetablePermissions extends PermissionsStructureType
     /**
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @property \Calcinai\Siri\ConnectionServicePermissionStructureType[] $productionTimetablePermission
+     * @property \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $productionTimetablePermission
      */
     private $productionTimetablePermission = [
         
@@ -25,9 +25,9 @@ class ProductionTimetablePermissions extends PermissionsStructureType
      * Permission for a single participant or all participants to use an aspect of the service.
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType $productionTimetablePermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $productionTimetablePermission
      */
-    public function addToProductionTimetablePermission(\Calcinai\Siri\ConnectionServicePermissionStructureType $productionTimetablePermission)
+    public function addToProductionTimetablePermission(\Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $productionTimetablePermission)
     {
         $this->productionTimetablePermission[] = $productionTimetablePermission;
         return $this;
@@ -64,7 +64,7 @@ class ProductionTimetablePermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @return \Calcinai\Siri\ConnectionServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[]
      */
     public function getProductionTimetablePermission()
     {
@@ -76,7 +76,7 @@ class ProductionTimetablePermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType[] $productionTimetablePermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $productionTimetablePermission
      * @return self
      */
     public function setProductionTimetablePermission(array $productionTimetablePermission)

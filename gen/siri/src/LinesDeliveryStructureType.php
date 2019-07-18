@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing LinesDeliveryStructureType
@@ -21,14 +21,14 @@ class LinesDeliveryStructureType extends AbstractDiscoveryDeliveryStructureType
     /**
      * Infromation about lines covered by server.
      *
-     * @property \Calcinai\Siri\AnnotatedLineStructureType[] $annotatedLineRef
+     * @property \Calcinai\Siri\Objects\AnnotatedLineStructureType[] $annotatedLineRef
      */
     private $annotatedLineRef = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -64,9 +64,9 @@ class LinesDeliveryStructureType extends AbstractDiscoveryDeliveryStructureType
      * Infromation about lines covered by server.
      *
      * @return self
-     * @param \Calcinai\Siri\AnnotatedLineStructureType $annotatedLineRef
+     * @param \Calcinai\Siri\Objects\AnnotatedLineStructureType $annotatedLineRef
      */
-    public function addToAnnotatedLineRef(\Calcinai\Siri\AnnotatedLineStructureType $annotatedLineRef)
+    public function addToAnnotatedLineRef(\Calcinai\Siri\Objects\AnnotatedLineStructureType $annotatedLineRef)
     {
         $this->annotatedLineRef[] = $annotatedLineRef;
         return $this;
@@ -103,7 +103,7 @@ class LinesDeliveryStructureType extends AbstractDiscoveryDeliveryStructureType
      *
      * Infromation about lines covered by server.
      *
-     * @return \Calcinai\Siri\AnnotatedLineStructureType[]
+     * @return \Calcinai\Siri\Objects\AnnotatedLineStructureType[]
      */
     public function getAnnotatedLineRef()
     {
@@ -115,7 +115,7 @@ class LinesDeliveryStructureType extends AbstractDiscoveryDeliveryStructureType
      *
      * Infromation about lines covered by server.
      *
-     * @param \Calcinai\Siri\AnnotatedLineStructureType[] $annotatedLineRef
+     * @param \Calcinai\Siri\Objects\AnnotatedLineStructureType[] $annotatedLineRef
      * @return self
      */
     public function setAnnotatedLineRef(array $annotatedLineRef)
@@ -127,7 +127,7 @@ class LinesDeliveryStructureType extends AbstractDiscoveryDeliveryStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -137,10 +137,10 @@ class LinesDeliveryStructureType extends AbstractDiscoveryDeliveryStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

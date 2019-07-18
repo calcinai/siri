@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ContextStructureType
@@ -35,7 +35,7 @@ class ContextStructureType
     /**
      * Name of locality in which situations apply. Derivable from LocalityRef.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $topographicPlaceName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $topographicPlaceName
      */
     private $topographicPlaceName = null;
 
@@ -49,19 +49,19 @@ class ContextStructureType
     /**
      * Default context for common properties of Public Transport Situations
      *
-     * @property \Calcinai\Siri\NetworkContextStructureType $networkContext
+     * @property \Calcinai\Siri\Objects\NetworkContextStructureType $networkContext
      */
     private $networkContext = null;
 
     /**
      * Actions that apply to all situations unless overridden.
      *
-     * @property \Calcinai\Siri\ActionsStructureType $actions
+     * @property \Calcinai\Siri\Objects\ActionsStructureType $actions
      */
     private $actions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -148,7 +148,7 @@ class ContextStructureType
      *
      * Name of locality in which situations apply. Derivable from LocalityRef.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getTopographicPlaceName()
     {
@@ -160,10 +160,10 @@ class ContextStructureType
      *
      * Name of locality in which situations apply. Derivable from LocalityRef.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $topographicPlaceName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $topographicPlaceName
      * @return self
      */
-    public function setTopographicPlaceName(\Calcinai\Siri\NaturalLanguageStringStructureType $topographicPlaceName)
+    public function setTopographicPlaceName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $topographicPlaceName)
     {
         $this->topographicPlaceName = $topographicPlaceName;
         return $this;
@@ -200,7 +200,7 @@ class ContextStructureType
      *
      * Default context for common properties of Public Transport Situations
      *
-     * @return \Calcinai\Siri\NetworkContextStructureType
+     * @return \Calcinai\Siri\Objects\NetworkContextStructureType
      */
     public function getNetworkContext()
     {
@@ -212,10 +212,10 @@ class ContextStructureType
      *
      * Default context for common properties of Public Transport Situations
      *
-     * @param \Calcinai\Siri\NetworkContextStructureType $networkContext
+     * @param \Calcinai\Siri\Objects\NetworkContextStructureType $networkContext
      * @return self
      */
-    public function setNetworkContext(\Calcinai\Siri\NetworkContextStructureType $networkContext)
+    public function setNetworkContext(\Calcinai\Siri\Objects\NetworkContextStructureType $networkContext)
     {
         $this->networkContext = $networkContext;
         return $this;
@@ -226,7 +226,7 @@ class ContextStructureType
      *
      * Actions that apply to all situations unless overridden.
      *
-     * @return \Calcinai\Siri\ActionsStructureType
+     * @return \Calcinai\Siri\Objects\ActionsStructureType
      */
     public function getActions()
     {
@@ -238,10 +238,10 @@ class ContextStructureType
      *
      * Actions that apply to all situations unless overridden.
      *
-     * @param \Calcinai\Siri\ActionsStructureType $actions
+     * @param \Calcinai\Siri\Objects\ActionsStructureType $actions
      * @return self
      */
-    public function setActions(\Calcinai\Siri\ActionsStructureType $actions)
+    public function setActions(\Calcinai\Siri\Objects\ActionsStructureType $actions)
     {
         $this->actions = $actions;
         return $this;
@@ -250,7 +250,7 @@ class ContextStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -260,10 +260,10 @@ class ContextStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

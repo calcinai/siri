@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleMonitoringPermissions:
+Calcinai\Siri\Objects\VehicleMonitoringPermissions:
     xml_root_name: VehicleMonitoringPermissions
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -15,4 +15,4 @@ Calcinai\Siri\VehicleMonitoringPermissions:
                 inline: true
                 entry_name: VehicleMonitoringPermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\VehicleMonitoringServicePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType>

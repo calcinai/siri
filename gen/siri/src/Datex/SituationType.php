@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SituationType
@@ -33,19 +33,19 @@ class SituationType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @property \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      */
     private $headerInformation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\SituationRecordType[] $situationRecord
+     * @property \Calcinai\Siri\Objects\Datex\SituationRecordType[] $situationRecord
      */
     private $situationRecord = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $situationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $situationExtension
      */
     private $situationExtension = null;
 
@@ -166,7 +166,7 @@ class SituationType
     /**
      * Gets as headerInformation
      *
-     * @return \Calcinai\Siri\Datex\HeaderInformationType
+     * @return \Calcinai\Siri\Objects\Datex\HeaderInformationType
      */
     public function getHeaderInformation()
     {
@@ -176,10 +176,10 @@ class SituationType
     /**
      * Sets a new headerInformation
      *
-     * @param \Calcinai\Siri\Datex\HeaderInformationType $headerInformation
+     * @param \Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation
      * @return self
      */
-    public function setHeaderInformation(\Calcinai\Siri\Datex\HeaderInformationType $headerInformation)
+    public function setHeaderInformation(\Calcinai\Siri\Objects\Datex\HeaderInformationType $headerInformation)
     {
         $this->headerInformation = $headerInformation;
         return $this;
@@ -189,9 +189,9 @@ class SituationType
      * Adds as situationRecord
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\SituationRecordType $situationRecord
+     * @param \Calcinai\Siri\Objects\Datex\SituationRecordType $situationRecord
      */
-    public function addToSituationRecord(\Calcinai\Siri\Datex\SituationRecordType $situationRecord)
+    public function addToSituationRecord(\Calcinai\Siri\Objects\Datex\SituationRecordType $situationRecord)
     {
         $this->situationRecord[] = $situationRecord;
         return $this;
@@ -222,7 +222,7 @@ class SituationType
     /**
      * Gets as situationRecord
      *
-     * @return \Calcinai\Siri\Datex\SituationRecordType[]
+     * @return \Calcinai\Siri\Objects\Datex\SituationRecordType[]
      */
     public function getSituationRecord()
     {
@@ -232,7 +232,7 @@ class SituationType
     /**
      * Sets a new situationRecord
      *
-     * @param \Calcinai\Siri\Datex\SituationRecordType[] $situationRecord
+     * @param \Calcinai\Siri\Objects\Datex\SituationRecordType[] $situationRecord
      * @return self
      */
     public function setSituationRecord(array $situationRecord)
@@ -244,7 +244,7 @@ class SituationType
     /**
      * Gets as situationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSituationExtension()
     {
@@ -254,10 +254,10 @@ class SituationType
     /**
      * Sets a new situationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $situationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $situationExtension
      * @return self
      */
-    public function setSituationExtension(\Calcinai\Siri\Datex\ExtensionType $situationExtension)
+    public function setSituationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $situationExtension)
     {
         $this->situationExtension = $situationExtension;
         return $this;

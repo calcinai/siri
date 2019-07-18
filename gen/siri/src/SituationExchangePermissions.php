@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing SituationExchangePermissions
@@ -11,7 +11,7 @@ class SituationExchangePermissions extends PermissionsStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\SituationExchangeServicePermissionStructureType[] $situationExchangePermission
+     * @property \Calcinai\Siri\Objects\SituationExchangeServicePermissionStructureType[] $situationExchangePermission
      */
     private $situationExchangePermission = [
         
@@ -21,9 +21,9 @@ class SituationExchangePermissions extends PermissionsStructureType
      * Adds as situationExchangePermission
      *
      * @return self
-     * @param \Calcinai\Siri\SituationExchangeServicePermissionStructureType $situationExchangePermission
+     * @param \Calcinai\Siri\Objects\SituationExchangeServicePermissionStructureType $situationExchangePermission
      */
-    public function addToSituationExchangePermission(\Calcinai\Siri\SituationExchangeServicePermissionStructureType $situationExchangePermission)
+    public function addToSituationExchangePermission(\Calcinai\Siri\Objects\SituationExchangeServicePermissionStructureType $situationExchangePermission)
     {
         $this->situationExchangePermission[] = $situationExchangePermission;
         return $this;
@@ -54,7 +54,7 @@ class SituationExchangePermissions extends PermissionsStructureType
     /**
      * Gets as situationExchangePermission
      *
-     * @return \Calcinai\Siri\SituationExchangeServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\SituationExchangeServicePermissionStructureType[]
      */
     public function getSituationExchangePermission()
     {
@@ -64,7 +64,7 @@ class SituationExchangePermissions extends PermissionsStructureType
     /**
      * Sets a new situationExchangePermission
      *
-     * @param \Calcinai\Siri\SituationExchangeServicePermissionStructureType[] $situationExchangePermission
+     * @param \Calcinai\Siri\Objects\SituationExchangeServicePermissionStructureType[] $situationExchangePermission
      * @return self
      */
     public function setSituationExchangePermission(array $situationExchangePermission)

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\FacilityStructureType;
+namespace Calcinai\Siri\Objects\FacilityStructureType;
 
 /**
  * Class representing LimitationsAType

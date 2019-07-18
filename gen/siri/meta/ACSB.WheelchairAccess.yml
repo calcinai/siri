@@ -1,3 +1,3 @@
-Calcinai\Siri\ACSB\WheelchairAccess:
+Calcinai\Siri\Objects\ACSB\WheelchairAccess:
     xml_root_name: WheelchairAccess
     xml_root_namespace: 'http://www.ifopt.org.uk/acsb'

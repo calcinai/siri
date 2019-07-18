@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleMonitoringPermissions
@@ -11,7 +11,7 @@ class VehicleMonitoringPermissions extends PermissionsStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\VehicleMonitoringServicePermissionStructureType[] $vehicleMonitoringPermission
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType[] $vehicleMonitoringPermission
      */
     private $vehicleMonitoringPermission = [
         
@@ -21,9 +21,9 @@ class VehicleMonitoringPermissions extends PermissionsStructureType
      * Adds as vehicleMonitoringPermission
      *
      * @return self
-     * @param \Calcinai\Siri\VehicleMonitoringServicePermissionStructureType $vehicleMonitoringPermission
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType $vehicleMonitoringPermission
      */
-    public function addToVehicleMonitoringPermission(\Calcinai\Siri\VehicleMonitoringServicePermissionStructureType $vehicleMonitoringPermission)
+    public function addToVehicleMonitoringPermission(\Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType $vehicleMonitoringPermission)
     {
         $this->vehicleMonitoringPermission[] = $vehicleMonitoringPermission;
         return $this;
@@ -54,7 +54,7 @@ class VehicleMonitoringPermissions extends PermissionsStructureType
     /**
      * Gets as vehicleMonitoringPermission
      *
-     * @return \Calcinai\Siri\VehicleMonitoringServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType[]
      */
     public function getVehicleMonitoringPermission()
     {
@@ -64,7 +64,7 @@ class VehicleMonitoringPermissions extends PermissionsStructureType
     /**
      * Sets a new vehicleMonitoringPermission
      *
-     * @param \Calcinai\Siri\VehicleMonitoringServicePermissionStructureType[] $vehicleMonitoringPermission
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringServicePermissionStructureType[] $vehicleMonitoringPermission
      * @return self
      */
     public function setVehicleMonitoringPermission(array $vehicleMonitoringPermission)

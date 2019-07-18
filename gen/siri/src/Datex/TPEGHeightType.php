@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TPEGHeightType
@@ -26,7 +26,7 @@ class TPEGHeightType
     private $heightType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $tpegheightExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $tpegheightExtension
      */
     private $tpegheightExtension = null;
 
@@ -85,7 +85,7 @@ class TPEGHeightType
     /**
      * Gets as tpegheightExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTpegheightExtension()
     {
@@ -95,10 +95,10 @@ class TPEGHeightType
     /**
      * Sets a new tpegheightExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $tpegheightExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $tpegheightExtension
      * @return self
      */
-    public function setTpegheightExtension(\Calcinai\Siri\Datex\ExtensionType $tpegheightExtension)
+    public function setTpegheightExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $tpegheightExtension)
     {
         $this->tpegheightExtension = $tpegheightExtension;
         return $this;

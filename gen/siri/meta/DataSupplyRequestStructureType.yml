@@ -1,4 +1,4 @@
-Calcinai\Siri\DataSupplyRequestStructureType:
+Calcinai\Siri\Objects\DataSupplyRequestStructureType:
     properties:
         notificationRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\DataSupplyRequestStructureType:
             accessor:
                 getter: getNotificationRef
                 setter: setNotificationRef
-            type: Calcinai\Siri\MessageRefStructureType
+            type: Calcinai\Siri\Objects\MessageRefStructureType
         allData:
             expose: true
             access_type: public_method

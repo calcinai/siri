@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing GeneralObstructionType
@@ -21,7 +21,7 @@ class GeneralObstructionType extends ObstructionType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $generalObstructionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $generalObstructionExtension
      */
     private $generalObstructionExtension = null;
 
@@ -94,7 +94,7 @@ class GeneralObstructionType extends ObstructionType
     /**
      * Gets as generalObstructionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getGeneralObstructionExtension()
     {
@@ -104,10 +104,10 @@ class GeneralObstructionType extends ObstructionType
     /**
      * Sets a new generalObstructionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $generalObstructionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $generalObstructionExtension
      * @return self
      */
-    public function setGeneralObstructionExtension(\Calcinai\Siri\Datex\ExtensionType $generalObstructionExtension)
+    public function setGeneralObstructionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $generalObstructionExtension)
     {
         $this->generalObstructionExtension = $generalObstructionExtension;
         return $this;

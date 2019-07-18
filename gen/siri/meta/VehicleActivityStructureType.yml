@@ -1,4 +1,4 @@
-Calcinai\Siri\VehicleActivityStructureType:
+Calcinai\Siri\Objects\VehicleActivityStructureType:
     properties:
         validUntilTime:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\VehicleActivityStructureType:
             accessor:
                 getter: getVehicleMonitoringRef
                 setter: setVehicleMonitoringRef
-            type: Calcinai\Siri\VehicleMonitoringRefStructureType
+            type: Calcinai\Siri\Objects\VehicleMonitoringRefStructureType
         progressBetweenStops:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\VehicleActivityStructureType:
             accessor:
                 getter: getProgressBetweenStops
                 setter: setProgressBetweenStops
-            type: Calcinai\Siri\ProgressBetweenStopsStructureType
+            type: Calcinai\Siri\Objects\ProgressBetweenStopsStructureType
         monitoredVehicleJourney:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\VehicleActivityStructureType:
             accessor:
                 getter: getMonitoredVehicleJourney
                 setter: setMonitoredVehicleJourney
-            type: Calcinai\Siri\VehicleActivityStructureType\MonitoredVehicleJourneyAType
+            type: Calcinai\Siri\Objects\VehicleActivityStructureType\MonitoredVehicleJourneyAType
         vehicleActivityNote:
             expose: true
             access_type: public_method
@@ -53,7 +53,7 @@ Calcinai\Siri\VehicleActivityStructureType:
                 inline: true
                 entry_name: VehicleActivityNote
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\NaturalLanguageStringStructureType>
+            type: array<Calcinai\Siri\Objects\NaturalLanguageStringStructureType>
         extensions:
             expose: true
             access_type: public_method
@@ -63,4 +63,4 @@ Calcinai\Siri\VehicleActivityStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,4 +1,4 @@
-Calcinai\Siri\ParticipantRefStructureType:
+Calcinai\Siri\Objects\ParticipantRefStructureType:
     properties:
         __value:
             expose: true

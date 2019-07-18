@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing PlacesType
@@ -19,7 +19,7 @@ class PlacesType extends AdviceType
     private $placesAdvice = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $placesExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $placesExtension
      */
     private $placesExtension = null;
 
@@ -52,7 +52,7 @@ class PlacesType extends AdviceType
     /**
      * Gets as placesExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getPlacesExtension()
     {
@@ -62,10 +62,10 @@ class PlacesType extends AdviceType
     /**
      * Sets a new placesExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $placesExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $placesExtension
      * @return self
      */
-    public function setPlacesExtension(\Calcinai\Siri\Datex\ExtensionType $placesExtension)
+    public function setPlacesExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $placesExtension)
     {
         $this->placesExtension = $placesExtension;
         return $this;

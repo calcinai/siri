@@ -1,4 +1,4 @@
-Calcinai\Siri\TramSubmode:
+Calcinai\Siri\Objects\TramSubmode:
     xml_root_name: TramSubmode
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

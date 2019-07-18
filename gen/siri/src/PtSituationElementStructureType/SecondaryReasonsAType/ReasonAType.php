@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType;
+namespace Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType;
 
 /**
  * Class representing ReasonAType
@@ -52,7 +52,7 @@ class ReasonAType
     /**
      * Text explanation of situation reason. Not normally needed.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $reasonName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reasonName
      */
     private $reasonName = null;
 
@@ -227,7 +227,7 @@ class ReasonAType
      *
      * Text explanation of situation reason. Not normally needed.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getReasonName()
     {
@@ -239,10 +239,10 @@ class ReasonAType
      *
      * Text explanation of situation reason. Not normally needed.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $reasonName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reasonName
      * @return self
      */
-    public function setReasonName(\Calcinai\Siri\NaturalLanguageStringStructureType $reasonName)
+    public function setReasonName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reasonName)
     {
         $this->reasonName = $reasonName;
         return $this;

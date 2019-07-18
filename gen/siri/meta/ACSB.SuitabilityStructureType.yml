@@ -1,4 +1,4 @@
-Calcinai\Siri\ACSB\SuitabilityStructureType:
+Calcinai\Siri\Objects\ACSB\SuitabilityStructureType:
     properties:
         suitable:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\ACSB\SuitabilityStructureType:
             accessor:
                 getter: getUserNeed
                 setter: setUserNeed
-            type: Calcinai\Siri\ACSB\UserNeedStructureType
+            type: Calcinai\Siri\Objects\ACSB\UserNeedStructureType

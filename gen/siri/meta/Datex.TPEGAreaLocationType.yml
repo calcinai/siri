@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGAreaLocationType:
+Calcinai\Siri\Objects\Datex\TPEGAreaLocationType:
     properties:
         tpegLocationType:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\Datex\TPEGAreaLocationType:
             accessor:
                 getter: getTpegheight
                 setter: setTpegheight
-            type: Calcinai\Siri\Datex\TPEGHeightType
+            type: Calcinai\Siri\Objects\Datex\TPEGHeightType
         tpegareaLocationExtension:
             expose: true
             access_type: public_method
@@ -29,4 +29,4 @@ Calcinai\Siri\Datex\TPEGAreaLocationType:
             accessor:
                 getter: getTpegareaLocationExtension
                 setter: setTpegareaLocationExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

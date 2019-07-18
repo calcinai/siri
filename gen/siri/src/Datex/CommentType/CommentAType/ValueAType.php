@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\CommentType\CommentAType;
+namespace Calcinai\Siri\Objects\Datex\CommentType\CommentAType;
 
 /**
  * Class representing ValueAType

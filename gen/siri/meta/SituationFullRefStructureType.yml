@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationFullRefStructureType:
+Calcinai\Siri\Objects\SituationFullRefStructureType:
     properties:
         versionCountryRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\SituationFullRefStructureType:
             accessor:
                 getter: getVersionCountryRef
                 setter: setVersionCountryRef
-            type: Calcinai\Siri\IFOpt\CountryRefStructureType
+            type: Calcinai\Siri\Objects\IFOpt\CountryRefStructureType
         participantRef:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\SituationFullRefStructureType:
             accessor:
                 getter: getParticipantRef
                 setter: setParticipantRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         situationNumber:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\SituationFullRefStructureType:
             accessor:
                 getter: getSituationNumber
                 setter: setSituationNumber
-            type: Calcinai\Siri\SituationNumber
+            type: Calcinai\Siri\Objects\SituationNumber
         updateCountryRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\SituationFullRefStructureType:
             accessor:
                 getter: getUpdateCountryRef
                 setter: setUpdateCountryRef
-            type: Calcinai\Siri\IFOpt\CountryRefStructureType
+            type: Calcinai\Siri\Objects\IFOpt\CountryRefStructureType
         updateParticipantRef:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\SituationFullRefStructureType:
             accessor:
                 getter: getUpdateParticipantRef
                 setter: setUpdateParticipantRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         version:
             expose: true
             access_type: public_method
@@ -59,4 +59,4 @@ Calcinai\Siri\SituationFullRefStructureType:
             accessor:
                 getter: getVersion
                 setter: setVersion
-            type: Calcinai\Siri\SituationVersionType
+            type: Calcinai\Siri\Objects\SituationVersionType

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing DayWeekMonthType
@@ -39,7 +39,7 @@ class DayWeekMonthType
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $dayWeekMonthExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $dayWeekMonthExtension
      */
     private $dayWeekMonthExtension = null;
 
@@ -244,7 +244,7 @@ class DayWeekMonthType
     /**
      * Gets as dayWeekMonthExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getDayWeekMonthExtension()
     {
@@ -254,10 +254,10 @@ class DayWeekMonthType
     /**
      * Sets a new dayWeekMonthExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $dayWeekMonthExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $dayWeekMonthExtension
      * @return self
      */
-    public function setDayWeekMonthExtension(\Calcinai\Siri\Datex\ExtensionType $dayWeekMonthExtension)
+    public function setDayWeekMonthExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $dayWeekMonthExtension)
     {
         $this->dayWeekMonthExtension = $dayWeekMonthExtension;
         return $this;

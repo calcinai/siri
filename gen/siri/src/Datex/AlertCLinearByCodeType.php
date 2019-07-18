@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing AlertCLinearByCodeType
@@ -12,24 +12,24 @@ class AlertCLinearByCodeType extends AlertCLinearType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCDirectionType $alertCDirection
+     * @property \Calcinai\Siri\Objects\Datex\AlertCDirectionType $alertCDirection
      */
     private $alertCDirection = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\AlertCLocationType $locationCodeForLinearLocation
+     * @property \Calcinai\Siri\Objects\Datex\AlertCLocationType $locationCodeForLinearLocation
      */
     private $locationCodeForLinearLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $alertCLinearByCodeExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $alertCLinearByCodeExtension
      */
     private $alertCLinearByCodeExtension = null;
 
     /**
      * Gets as alertCDirection
      *
-     * @return \Calcinai\Siri\Datex\AlertCDirectionType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCDirectionType
      */
     public function getAlertCDirection()
     {
@@ -39,10 +39,10 @@ class AlertCLinearByCodeType extends AlertCLinearType
     /**
      * Sets a new alertCDirection
      *
-     * @param \Calcinai\Siri\Datex\AlertCDirectionType $alertCDirection
+     * @param \Calcinai\Siri\Objects\Datex\AlertCDirectionType $alertCDirection
      * @return self
      */
-    public function setAlertCDirection(\Calcinai\Siri\Datex\AlertCDirectionType $alertCDirection)
+    public function setAlertCDirection(\Calcinai\Siri\Objects\Datex\AlertCDirectionType $alertCDirection)
     {
         $this->alertCDirection = $alertCDirection;
         return $this;
@@ -51,7 +51,7 @@ class AlertCLinearByCodeType extends AlertCLinearType
     /**
      * Gets as locationCodeForLinearLocation
      *
-     * @return \Calcinai\Siri\Datex\AlertCLocationType
+     * @return \Calcinai\Siri\Objects\Datex\AlertCLocationType
      */
     public function getLocationCodeForLinearLocation()
     {
@@ -61,10 +61,10 @@ class AlertCLinearByCodeType extends AlertCLinearType
     /**
      * Sets a new locationCodeForLinearLocation
      *
-     * @param \Calcinai\Siri\Datex\AlertCLocationType $locationCodeForLinearLocation
+     * @param \Calcinai\Siri\Objects\Datex\AlertCLocationType $locationCodeForLinearLocation
      * @return self
      */
-    public function setLocationCodeForLinearLocation(\Calcinai\Siri\Datex\AlertCLocationType $locationCodeForLinearLocation)
+    public function setLocationCodeForLinearLocation(\Calcinai\Siri\Objects\Datex\AlertCLocationType $locationCodeForLinearLocation)
     {
         $this->locationCodeForLinearLocation = $locationCodeForLinearLocation;
         return $this;
@@ -73,7 +73,7 @@ class AlertCLinearByCodeType extends AlertCLinearType
     /**
      * Gets as alertCLinearByCodeExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getAlertCLinearByCodeExtension()
     {
@@ -83,10 +83,10 @@ class AlertCLinearByCodeType extends AlertCLinearType
     /**
      * Sets a new alertCLinearByCodeExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $alertCLinearByCodeExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $alertCLinearByCodeExtension
      * @return self
      */
-    public function setAlertCLinearByCodeExtension(\Calcinai\Siri\Datex\ExtensionType $alertCLinearByCodeExtension)
+    public function setAlertCLinearByCodeExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $alertCLinearByCodeExtension)
     {
         $this->alertCLinearByCodeExtension = $alertCLinearByCodeExtension;
         return $this;

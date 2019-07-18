@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehicleObstructionType
@@ -19,14 +19,14 @@ class VehicleObstructionType extends ObstructionType
     private $vehicleObstructionType = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\VehicleType[] $obstructingVehicle
+     * @property \Calcinai\Siri\Objects\Datex\VehicleType[] $obstructingVehicle
      */
     private $obstructingVehicle = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehicleObstructionExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleObstructionExtension
      */
     private $vehicleObstructionExtension = null;
 
@@ -60,9 +60,9 @@ class VehicleObstructionType extends ObstructionType
      * Adds as obstructingVehicle
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\VehicleType $obstructingVehicle
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType $obstructingVehicle
      */
-    public function addToObstructingVehicle(\Calcinai\Siri\Datex\VehicleType $obstructingVehicle)
+    public function addToObstructingVehicle(\Calcinai\Siri\Objects\Datex\VehicleType $obstructingVehicle)
     {
         $this->obstructingVehicle[] = $obstructingVehicle;
         return $this;
@@ -93,7 +93,7 @@ class VehicleObstructionType extends ObstructionType
     /**
      * Gets as obstructingVehicle
      *
-     * @return \Calcinai\Siri\Datex\VehicleType[]
+     * @return \Calcinai\Siri\Objects\Datex\VehicleType[]
      */
     public function getObstructingVehicle()
     {
@@ -103,7 +103,7 @@ class VehicleObstructionType extends ObstructionType
     /**
      * Sets a new obstructingVehicle
      *
-     * @param \Calcinai\Siri\Datex\VehicleType[] $obstructingVehicle
+     * @param \Calcinai\Siri\Objects\Datex\VehicleType[] $obstructingVehicle
      * @return self
      */
     public function setObstructingVehicle(array $obstructingVehicle)
@@ -115,7 +115,7 @@ class VehicleObstructionType extends ObstructionType
     /**
      * Gets as vehicleObstructionExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehicleObstructionExtension()
     {
@@ -125,10 +125,10 @@ class VehicleObstructionType extends ObstructionType
     /**
      * Sets a new vehicleObstructionExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehicleObstructionExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleObstructionExtension
      * @return self
      */
-    public function setVehicleObstructionExtension(\Calcinai\Siri\Datex\ExtensionType $vehicleObstructionExtension)
+    public function setVehicleObstructionExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehicleObstructionExtension)
     {
         $this->vehicleObstructionExtension = $vehicleObstructionExtension;
         return $this;

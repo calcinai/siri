@@ -1,4 +1,4 @@
-Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType:
+Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType:
     properties:
         reason:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType:
                 inline: true
                 entry_name: Reason
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType>
+            type: array<Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType>

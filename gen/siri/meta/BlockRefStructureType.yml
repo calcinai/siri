@@ -1,4 +1,4 @@
-Calcinai\Siri\BlockRefStructureType:
+Calcinai\Siri\Objects\BlockRefStructureType:
     properties:
         __value:
             expose: true

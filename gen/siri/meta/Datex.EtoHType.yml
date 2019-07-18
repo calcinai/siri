@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\EtoHType:
+Calcinai\Siri\Objects\Datex\EtoHType:
     properties:
         environmentalObstructionTypeEnum:
             expose: true
@@ -29,7 +29,7 @@ Calcinai\Siri\Datex\EtoHType:
             accessor:
                 getter: getEtoHExtension
                 setter: setEtoHExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType
         fuelTypeEnum:
             expose: true
             access_type: public_method

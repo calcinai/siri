@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType;
+namespace Calcinai\Siri\Objects\Datex\PredefinedLocationType\PredefinedLocationNameAType;
 
 /**
  * Class representing ValueAType

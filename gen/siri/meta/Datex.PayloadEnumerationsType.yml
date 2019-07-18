@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\PayloadEnumerationsType:
+Calcinai\Siri\Objects\Datex\PayloadEnumerationsType:
     properties:
         locationEnumerations:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\PayloadEnumerationsType:
             accessor:
                 getter: getLocationEnumerations
                 setter: setLocationEnumerations
-            type: Calcinai\Siri\Datex\LocationEnumerationsType
+            type: Calcinai\Siri\Objects\Datex\LocationEnumerationsType
         payloadEnumerationsExtension:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\PayloadEnumerationsType:
             accessor:
                 getter: getPayloadEnumerationsExtension
                 setter: setPayloadEnumerationsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

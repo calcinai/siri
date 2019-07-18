@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing DestinationStructureType
@@ -17,7 +17,7 @@ class DestinationStructureType
     private $destinationRef = null;
 
     /**
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $destinationName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName
      */
     private $destinationName = null;
 
@@ -46,7 +46,7 @@ class DestinationStructureType
     /**
      * Gets as destinationName
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getDestinationName()
     {
@@ -56,10 +56,10 @@ class DestinationStructureType
     /**
      * Sets a new destinationName
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $destinationName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName
      * @return self
      */
-    public function setDestinationName(\Calcinai\Siri\NaturalLanguageStringStructureType $destinationName)
+    public function setDestinationName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $destinationName)
     {
         $this->destinationName = $destinationName;
         return $this;

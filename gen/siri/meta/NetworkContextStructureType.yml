@@ -1,4 +1,4 @@
-Calcinai\Siri\NetworkContextStructureType:
+Calcinai\Siri\Objects\NetworkContextStructureType:
     properties:
         operator:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\NetworkContextStructureType:
                 inline: true
                 entry_name: Operator
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedOperatorStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedOperatorStructureType>
         network:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ Calcinai\Siri\NetworkContextStructureType:
             accessor:
                 getter: getNetwork
                 setter: setNetwork
-            type: Calcinai\Siri\NetworkStructureType
+            type: Calcinai\Siri\Objects\NetworkStructureType

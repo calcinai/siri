@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType;
+namespace Calcinai\Siri\Objects\Datex\TransitInformationType\JourneyOriginAType;
 
 /**
  * Class representing ValueAType

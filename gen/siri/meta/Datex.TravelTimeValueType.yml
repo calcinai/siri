@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TravelTimeValueType:
+Calcinai\Siri\Objects\Datex\TravelTimeValueType:
     properties:
         travelTime:
             expose: true
@@ -83,4 +83,4 @@ Calcinai\Siri\Datex\TravelTimeValueType:
             accessor:
                 getter: getTravelTimeValueExtension
                 setter: setTravelTimeValueExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

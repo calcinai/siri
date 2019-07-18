@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing AbstractServiceDeliveryStructureType
@@ -47,7 +47,7 @@ class AbstractServiceDeliveryStructureType extends ResponseStructureType
     /**
      * Description of any error or warning condition.
      *
-     * @property \Calcinai\Siri\ServiceDeliveryErrorConditionStructureType $errorCondition
+     * @property \Calcinai\Siri\Objects\ServiceDeliveryErrorConditionStructureType $errorCondition
      */
     private $errorCondition = null;
 
@@ -203,7 +203,7 @@ class AbstractServiceDeliveryStructureType extends ResponseStructureType
      *
      * Description of any error or warning condition.
      *
-     * @return \Calcinai\Siri\ServiceDeliveryErrorConditionStructureType
+     * @return \Calcinai\Siri\Objects\ServiceDeliveryErrorConditionStructureType
      */
     public function getErrorCondition()
     {
@@ -215,10 +215,10 @@ class AbstractServiceDeliveryStructureType extends ResponseStructureType
      *
      * Description of any error or warning condition.
      *
-     * @param \Calcinai\Siri\ServiceDeliveryErrorConditionStructureType $errorCondition
+     * @param \Calcinai\Siri\Objects\ServiceDeliveryErrorConditionStructureType $errorCondition
      * @return self
      */
-    public function setErrorCondition(\Calcinai\Siri\ServiceDeliveryErrorConditionStructureType $errorCondition)
+    public function setErrorCondition(\Calcinai\Siri\Objects\ServiceDeliveryErrorConditionStructureType $errorCondition)
     {
         $this->errorCondition = $errorCondition;
         return $this;

@@ -1,3 +1,3 @@
-Calcinai\Siri\CapabilitiesResponse:
+Calcinai\Siri\Objects\CapabilitiesResponse:
     xml_root_name: CapabilitiesResponse
     xml_root_namespace: 'http://www.siri.org.uk/siri'

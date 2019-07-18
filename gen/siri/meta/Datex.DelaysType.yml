@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\DelaysType:
+Calcinai\Siri\Objects\Datex\DelaysType:
     properties:
         delayCoded:
             expose: true
@@ -39,4 +39,4 @@ Calcinai\Siri\Datex\DelaysType:
             accessor:
                 getter: getDelaysExtension
                 setter: setDelaysExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

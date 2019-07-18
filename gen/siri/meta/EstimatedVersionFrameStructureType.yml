@@ -1,4 +1,4 @@
-Calcinai\Siri\EstimatedVersionFrameStructureType:
+Calcinai\Siri\Objects\EstimatedVersionFrameStructureType:
     properties:
         versionRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\EstimatedVersionFrameStructureType:
             accessor:
                 getter: getVersionRef
                 setter: setVersionRef
-            type: Calcinai\Siri\VersionRef
+            type: Calcinai\Siri\Objects\VersionRef
         estimatedVehicleJourney:
             expose: true
             access_type: public_method
@@ -23,4 +23,4 @@ Calcinai\Siri\EstimatedVersionFrameStructureType:
                 inline: true
                 entry_name: EstimatedVehicleJourney
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\EstimatedVehicleJourney>
+            type: array<Calcinai\Siri\Objects\EstimatedVehicleJourney>

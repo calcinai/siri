@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\HazardousMaterialsType;
+namespace Calcinai\Siri\Objects\Datex\HazardousMaterialsType;
 
 /**
  * Class representing ChemicalNameAType
@@ -9,7 +9,7 @@ class ChemicalNameAType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $value
+     * @property \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $value
      */
     private $value = [
         
@@ -19,9 +19,9 @@ class ChemicalNameAType
      * Adds as value
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value
+     * @param \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value
      */
-    public function addToValue(\Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value)
+    public function addToValue(\Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType $value)
     {
         $this->value[] = $value;
         return $this;
@@ -52,7 +52,7 @@ class ChemicalNameAType
     /**
      * Gets as value
      *
-     * @return \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[]
+     * @return \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[]
      */
     public function getValue()
     {
@@ -62,7 +62,7 @@ class ChemicalNameAType
     /**
      * Sets a new value
      *
-     * @param \Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $value
+     * @param \Calcinai\Siri\Objects\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType[] $value
      * @return self
      */
     public function setValue(array $value)

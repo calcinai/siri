@@ -1,4 +1,4 @@
-Calcinai\Siri\EstimatedTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
+Calcinai\Siri\Objects\EstimatedTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
     properties:
         filterByOperatorRef:
             expose: true

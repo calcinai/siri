@@ -1,4 +1,4 @@
-Calcinai\Siri\PublishToTvActionStructureType:
+Calcinai\Siri\Objects\PublishToTvActionStructureType:
     properties:
         ceefax:
             expose: true

@@ -1,4 +1,4 @@
-Calcinai\Siri\AnnotatedDirectionStructureType:
+Calcinai\Siri\Objects\AnnotatedDirectionStructureType:
     properties:
         annotatedDirectionRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\AnnotatedDirectionStructureType:
             accessor:
                 getter: getAnnotatedDirectionRef
                 setter: setAnnotatedDirectionRef
-            type: Calcinai\Siri\DirectionRefStructureType
+            type: Calcinai\Siri\Objects\DirectionRefStructureType
         directionName:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ Calcinai\Siri\AnnotatedDirectionStructureType:
             accessor:
                 getter: getDirectionName
                 setter: setDirectionName
-            type: Calcinai\Siri\NaturalLanguageStringStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType

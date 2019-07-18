@@ -1,4 +1,4 @@
-Calcinai\Siri\PublishToMobileActionStructureType:
+Calcinai\Siri\Objects\PublishToMobileActionStructureType:
     properties:
         incidents:
             expose: true

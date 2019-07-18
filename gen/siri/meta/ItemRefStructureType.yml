@@ -1,4 +1,4 @@
-Calcinai\Siri\ItemRefStructureType:
+Calcinai\Siri\Objects\ItemRefStructureType:
     properties:
         __value:
             expose: true

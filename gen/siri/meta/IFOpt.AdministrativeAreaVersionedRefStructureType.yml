@@ -1,4 +1,4 @@
-Calcinai\Siri\IFOpt\AdministrativeAreaVersionedRefStructureType:
+Calcinai\Siri\Objects\IFOpt\AdministrativeAreaVersionedRefStructureType:
     properties:
         __value:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing InfoChannelDeliveryStructureType
@@ -19,14 +19,14 @@ class InfoChannelDeliveryStructureType extends AbstractDiscoveryDeliveryStructur
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\InfoChannel[] $infoChannel
+     * @property \Calcinai\Siri\Objects\InfoChannel[] $infoChannel
      */
     private $infoChannel = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -60,9 +60,9 @@ class InfoChannelDeliveryStructureType extends AbstractDiscoveryDeliveryStructur
      * Adds as infoChannel
      *
      * @return self
-     * @param \Calcinai\Siri\InfoChannel $infoChannel
+     * @param \Calcinai\Siri\Objects\InfoChannel $infoChannel
      */
-    public function addToInfoChannel(\Calcinai\Siri\InfoChannel $infoChannel)
+    public function addToInfoChannel(\Calcinai\Siri\Objects\InfoChannel $infoChannel)
     {
         $this->infoChannel[] = $infoChannel;
         return $this;
@@ -93,7 +93,7 @@ class InfoChannelDeliveryStructureType extends AbstractDiscoveryDeliveryStructur
     /**
      * Gets as infoChannel
      *
-     * @return \Calcinai\Siri\InfoChannel[]
+     * @return \Calcinai\Siri\Objects\InfoChannel[]
      */
     public function getInfoChannel()
     {
@@ -103,7 +103,7 @@ class InfoChannelDeliveryStructureType extends AbstractDiscoveryDeliveryStructur
     /**
      * Sets a new infoChannel
      *
-     * @param \Calcinai\Siri\InfoChannel[] $infoChannel
+     * @param \Calcinai\Siri\Objects\InfoChannel[] $infoChannel
      * @return self
      */
     public function setInfoChannel(array $infoChannel)
@@ -115,7 +115,7 @@ class InfoChannelDeliveryStructureType extends AbstractDiscoveryDeliveryStructur
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -125,10 +125,10 @@ class InfoChannelDeliveryStructureType extends AbstractDiscoveryDeliveryStructur
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

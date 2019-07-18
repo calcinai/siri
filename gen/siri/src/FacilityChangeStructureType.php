@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing FacilityChangeStructureType
@@ -14,19 +14,19 @@ class FacilityChangeStructureType
     /**
      * Availability change for Equipment item.
      *
-     * @property \Calcinai\Siri\EquipmentAvailabilityStructureType $equipmentAvailability
+     * @property \Calcinai\Siri\Objects\EquipmentAvailabilityStructureType $equipmentAvailability
      */
     private $equipmentAvailability = null;
 
     /**
-     * @property \Calcinai\Siri\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
      */
     private $situationRef = null;
 
     /**
      * Effect of change on impaired access users.
      *
-     * @property \Calcinai\Siri\MobilityDisruptionStructureType $mobilityDisruption
+     * @property \Calcinai\Siri\Objects\MobilityDisruptionStructureType $mobilityDisruption
      */
     private $mobilityDisruption = null;
 
@@ -35,7 +35,7 @@ class FacilityChangeStructureType
      *
      * Availability change for Equipment item.
      *
-     * @return \Calcinai\Siri\EquipmentAvailabilityStructureType
+     * @return \Calcinai\Siri\Objects\EquipmentAvailabilityStructureType
      */
     public function getEquipmentAvailability()
     {
@@ -47,10 +47,10 @@ class FacilityChangeStructureType
      *
      * Availability change for Equipment item.
      *
-     * @param \Calcinai\Siri\EquipmentAvailabilityStructureType $equipmentAvailability
+     * @param \Calcinai\Siri\Objects\EquipmentAvailabilityStructureType $equipmentAvailability
      * @return self
      */
-    public function setEquipmentAvailability(\Calcinai\Siri\EquipmentAvailabilityStructureType $equipmentAvailability)
+    public function setEquipmentAvailability(\Calcinai\Siri\Objects\EquipmentAvailabilityStructureType $equipmentAvailability)
     {
         $this->equipmentAvailability = $equipmentAvailability;
         return $this;
@@ -59,7 +59,7 @@ class FacilityChangeStructureType
     /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef
      */
     public function getSituationRef()
     {
@@ -69,10 +69,10 @@ class FacilityChangeStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\SituationRef $situationRef)
+    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;
@@ -83,7 +83,7 @@ class FacilityChangeStructureType
      *
      * Effect of change on impaired access users.
      *
-     * @return \Calcinai\Siri\MobilityDisruptionStructureType
+     * @return \Calcinai\Siri\Objects\MobilityDisruptionStructureType
      */
     public function getMobilityDisruption()
     {
@@ -95,10 +95,10 @@ class FacilityChangeStructureType
      *
      * Effect of change on impaired access users.
      *
-     * @param \Calcinai\Siri\MobilityDisruptionStructureType $mobilityDisruption
+     * @param \Calcinai\Siri\Objects\MobilityDisruptionStructureType $mobilityDisruption
      * @return self
      */
-    public function setMobilityDisruption(\Calcinai\Siri\MobilityDisruptionStructureType $mobilityDisruption)
+    public function setMobilityDisruption(\Calcinai\Siri\Objects\MobilityDisruptionStructureType $mobilityDisruption)
     {
         $this->mobilityDisruption = $mobilityDisruption;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VisibilityInformationType
@@ -12,19 +12,19 @@ class VisibilityInformationType extends WeatherValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\VisibilityType $visibility
+     * @property \Calcinai\Siri\Objects\Datex\VisibilityType $visibility
      */
     private $visibility = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $visibilityInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $visibilityInformationExtension
      */
     private $visibilityInformationExtension = null;
 
     /**
      * Gets as visibility
      *
-     * @return \Calcinai\Siri\Datex\VisibilityType
+     * @return \Calcinai\Siri\Objects\Datex\VisibilityType
      */
     public function getVisibility()
     {
@@ -34,10 +34,10 @@ class VisibilityInformationType extends WeatherValueType
     /**
      * Sets a new visibility
      *
-     * @param \Calcinai\Siri\Datex\VisibilityType $visibility
+     * @param \Calcinai\Siri\Objects\Datex\VisibilityType $visibility
      * @return self
      */
-    public function setVisibility(\Calcinai\Siri\Datex\VisibilityType $visibility)
+    public function setVisibility(\Calcinai\Siri\Objects\Datex\VisibilityType $visibility)
     {
         $this->visibility = $visibility;
         return $this;
@@ -46,7 +46,7 @@ class VisibilityInformationType extends WeatherValueType
     /**
      * Gets as visibilityInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVisibilityInformationExtension()
     {
@@ -56,10 +56,10 @@ class VisibilityInformationType extends WeatherValueType
     /**
      * Sets a new visibilityInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $visibilityInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $visibilityInformationExtension
      * @return self
      */
-    public function setVisibilityInformationExtension(\Calcinai\Siri\Datex\ExtensionType $visibilityInformationExtension)
+    public function setVisibilityInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $visibilityInformationExtension)
     {
         $this->visibilityInformationExtension = $visibilityInformationExtension;
         return $this;

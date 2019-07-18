@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing ServiceDeliveryErrorConditionStructureType
@@ -12,27 +12,27 @@ class ServiceDeliveryErrorConditionStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError
+     * @property \Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError
      */
     private $capabilityNotSupportedError = null;
 
     /**
-     * @property \Calcinai\Siri\AccessNotAllowedError $accessNotAllowedError
+     * @property \Calcinai\Siri\Objects\AccessNotAllowedError $accessNotAllowedError
      */
     private $accessNotAllowedError = null;
 
     /**
-     * @property \Calcinai\Siri\NoInfoForTopicError $noInfoForTopicError
+     * @property \Calcinai\Siri\Objects\NoInfoForTopicError $noInfoForTopicError
      */
     private $noInfoForTopicError = null;
 
     /**
-     * @property \Calcinai\Siri\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
+     * @property \Calcinai\Siri\Objects\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
      */
     private $allowedResourceUsageExceededError = null;
 
     /**
-     * @property \Calcinai\Siri\OtherError $otherError
+     * @property \Calcinai\Siri\Objects\OtherError $otherError
      */
     private $otherError = null;
 
@@ -46,7 +46,7 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Gets as capabilityNotSupportedError
      *
-     * @return \Calcinai\Siri\CapabilityNotSupportedError
+     * @return \Calcinai\Siri\Objects\CapabilityNotSupportedError
      */
     public function getCapabilityNotSupportedError()
     {
@@ -56,10 +56,10 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Sets a new capabilityNotSupportedError
      *
-     * @param \Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError
+     * @param \Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError
      * @return self
      */
-    public function setCapabilityNotSupportedError(\Calcinai\Siri\CapabilityNotSupportedError $capabilityNotSupportedError)
+    public function setCapabilityNotSupportedError(\Calcinai\Siri\Objects\CapabilityNotSupportedError $capabilityNotSupportedError)
     {
         $this->capabilityNotSupportedError = $capabilityNotSupportedError;
         return $this;
@@ -68,7 +68,7 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Gets as accessNotAllowedError
      *
-     * @return \Calcinai\Siri\AccessNotAllowedError
+     * @return \Calcinai\Siri\Objects\AccessNotAllowedError
      */
     public function getAccessNotAllowedError()
     {
@@ -78,10 +78,10 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Sets a new accessNotAllowedError
      *
-     * @param \Calcinai\Siri\AccessNotAllowedError $accessNotAllowedError
+     * @param \Calcinai\Siri\Objects\AccessNotAllowedError $accessNotAllowedError
      * @return self
      */
-    public function setAccessNotAllowedError(\Calcinai\Siri\AccessNotAllowedError $accessNotAllowedError)
+    public function setAccessNotAllowedError(\Calcinai\Siri\Objects\AccessNotAllowedError $accessNotAllowedError)
     {
         $this->accessNotAllowedError = $accessNotAllowedError;
         return $this;
@@ -90,7 +90,7 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Gets as noInfoForTopicError
      *
-     * @return \Calcinai\Siri\NoInfoForTopicError
+     * @return \Calcinai\Siri\Objects\NoInfoForTopicError
      */
     public function getNoInfoForTopicError()
     {
@@ -100,10 +100,10 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Sets a new noInfoForTopicError
      *
-     * @param \Calcinai\Siri\NoInfoForTopicError $noInfoForTopicError
+     * @param \Calcinai\Siri\Objects\NoInfoForTopicError $noInfoForTopicError
      * @return self
      */
-    public function setNoInfoForTopicError(\Calcinai\Siri\NoInfoForTopicError $noInfoForTopicError)
+    public function setNoInfoForTopicError(\Calcinai\Siri\Objects\NoInfoForTopicError $noInfoForTopicError)
     {
         $this->noInfoForTopicError = $noInfoForTopicError;
         return $this;
@@ -112,7 +112,7 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Gets as allowedResourceUsageExceededError
      *
-     * @return \Calcinai\Siri\AllowedResourceUsageExceededError
+     * @return \Calcinai\Siri\Objects\AllowedResourceUsageExceededError
      */
     public function getAllowedResourceUsageExceededError()
     {
@@ -122,10 +122,10 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Sets a new allowedResourceUsageExceededError
      *
-     * @param \Calcinai\Siri\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
+     * @param \Calcinai\Siri\Objects\AllowedResourceUsageExceededError $allowedResourceUsageExceededError
      * @return self
      */
-    public function setAllowedResourceUsageExceededError(\Calcinai\Siri\AllowedResourceUsageExceededError $allowedResourceUsageExceededError)
+    public function setAllowedResourceUsageExceededError(\Calcinai\Siri\Objects\AllowedResourceUsageExceededError $allowedResourceUsageExceededError)
     {
         $this->allowedResourceUsageExceededError = $allowedResourceUsageExceededError;
         return $this;
@@ -134,7 +134,7 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Gets as otherError
      *
-     * @return \Calcinai\Siri\OtherError
+     * @return \Calcinai\Siri\Objects\OtherError
      */
     public function getOtherError()
     {
@@ -144,10 +144,10 @@ class ServiceDeliveryErrorConditionStructureType
     /**
      * Sets a new otherError
      *
-     * @param \Calcinai\Siri\OtherError $otherError
+     * @param \Calcinai\Siri\Objects\OtherError $otherError
      * @return self
      */
-    public function setOtherError(\Calcinai\Siri\OtherError $otherError)
+    public function setOtherError(\Calcinai\Siri\Objects\OtherError $otherError)
     {
         $this->otherError = $otherError;
         return $this;

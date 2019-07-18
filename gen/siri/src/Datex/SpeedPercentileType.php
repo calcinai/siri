@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing SpeedPercentileType
@@ -26,7 +26,7 @@ class SpeedPercentileType
     private $value = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $speedPercentileExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $speedPercentileExtension
      */
     private $speedPercentileExtension = null;
 
@@ -85,7 +85,7 @@ class SpeedPercentileType
     /**
      * Gets as speedPercentileExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getSpeedPercentileExtension()
     {
@@ -95,10 +95,10 @@ class SpeedPercentileType
     /**
      * Sets a new speedPercentileExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $speedPercentileExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $speedPercentileExtension
      * @return self
      */
-    public function setSpeedPercentileExtension(\Calcinai\Siri\Datex\ExtensionType $speedPercentileExtension)
+    public function setSpeedPercentileExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $speedPercentileExtension)
     {
         $this->speedPercentileExtension = $speedPercentileExtension;
         return $this;

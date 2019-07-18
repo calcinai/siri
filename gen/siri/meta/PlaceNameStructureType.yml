@@ -1,4 +1,4 @@
-Calcinai\Siri\PlaceNameStructureType:
+Calcinai\Siri\Objects\PlaceNameStructureType:
     properties:
         placeRef:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\PlaceNameStructureType:
             accessor:
                 getter: getPlaceRef
                 setter: setPlaceRef
-            type: Calcinai\Siri\JourneyPlaceRefStructureType
+            type: Calcinai\Siri\Objects\JourneyPlaceRefStructureType
         placeName:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\PlaceNameStructureType:
             accessor:
                 getter: getPlaceName
                 setter: setPlaceName
-            type: Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+            type: Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
         placeShortName:
             expose: true
             access_type: public_method
@@ -33,4 +33,4 @@ Calcinai\Siri\PlaceNameStructureType:
                 inline: true
                 entry_name: PlaceShortName
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\NaturalLanguagePlaceNameStructureType>
+            type: array<Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType>

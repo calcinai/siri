@@ -1,4 +1,4 @@
-Calcinai\Siri\LinesDiscoveryRequestStructureType:
+Calcinai\Siri\Objects\LinesDiscoveryRequestStructureType:
     properties:
         version:
             expose: true

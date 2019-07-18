@@ -1,4 +1,4 @@
-Calcinai\Siri\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType:
+Calcinai\Siri\Objects\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType:
     properties:
         previous:
             expose: true

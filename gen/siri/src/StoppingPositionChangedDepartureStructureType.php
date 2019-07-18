@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StoppingPositionChangedDepartureStructureType
@@ -14,19 +14,19 @@ class StoppingPositionChangedDepartureStructureType extends AbstractDistributorI
     /**
      * Description of the revised stopping position of the Distributor (fetcher) in the connection zone.
      *
-     * @property \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $changeNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $changeNote
      */
     private $changeNote = null;
 
     /**
      * New location from whcih Distributor will leave.
      *
-     * @property \Calcinai\Siri\LocationStructureType $newLocation
+     * @property \Calcinai\Siri\Objects\LocationStructureType $newLocation
      */
     private $newLocation = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -35,7 +35,7 @@ class StoppingPositionChangedDepartureStructureType extends AbstractDistributorI
      *
      * Description of the revised stopping position of the Distributor (fetcher) in the connection zone.
      *
-     * @return \Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType
      */
     public function getChangeNote()
     {
@@ -47,10 +47,10 @@ class StoppingPositionChangedDepartureStructureType extends AbstractDistributorI
      *
      * Description of the revised stopping position of the Distributor (fetcher) in the connection zone.
      *
-     * @param \Calcinai\Siri\NaturalLanguagePlaceNameStructureType $changeNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $changeNote
      * @return self
      */
-    public function setChangeNote(\Calcinai\Siri\NaturalLanguagePlaceNameStructureType $changeNote)
+    public function setChangeNote(\Calcinai\Siri\Objects\NaturalLanguagePlaceNameStructureType $changeNote)
     {
         $this->changeNote = $changeNote;
         return $this;
@@ -61,7 +61,7 @@ class StoppingPositionChangedDepartureStructureType extends AbstractDistributorI
      *
      * New location from whcih Distributor will leave.
      *
-     * @return \Calcinai\Siri\LocationStructureType
+     * @return \Calcinai\Siri\Objects\LocationStructureType
      */
     public function getNewLocation()
     {
@@ -73,10 +73,10 @@ class StoppingPositionChangedDepartureStructureType extends AbstractDistributorI
      *
      * New location from whcih Distributor will leave.
      *
-     * @param \Calcinai\Siri\LocationStructureType $newLocation
+     * @param \Calcinai\Siri\Objects\LocationStructureType $newLocation
      * @return self
      */
-    public function setNewLocation(\Calcinai\Siri\LocationStructureType $newLocation)
+    public function setNewLocation(\Calcinai\Siri\Objects\LocationStructureType $newLocation)
     {
         $this->newLocation = $newLocation;
         return $this;
@@ -85,7 +85,7 @@ class StoppingPositionChangedDepartureStructureType extends AbstractDistributorI
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -95,10 +95,10 @@ class StoppingPositionChangedDepartureStructureType extends AbstractDistributorI
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

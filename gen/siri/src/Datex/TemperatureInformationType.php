@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TemperatureInformationType
@@ -12,19 +12,19 @@ class TemperatureInformationType extends WeatherValueType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\TemperatureType $temperature
+     * @property \Calcinai\Siri\Objects\Datex\TemperatureType $temperature
      */
     private $temperature = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $temperatureInformationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $temperatureInformationExtension
      */
     private $temperatureInformationExtension = null;
 
     /**
      * Gets as temperature
      *
-     * @return \Calcinai\Siri\Datex\TemperatureType
+     * @return \Calcinai\Siri\Objects\Datex\TemperatureType
      */
     public function getTemperature()
     {
@@ -34,10 +34,10 @@ class TemperatureInformationType extends WeatherValueType
     /**
      * Sets a new temperature
      *
-     * @param \Calcinai\Siri\Datex\TemperatureType $temperature
+     * @param \Calcinai\Siri\Objects\Datex\TemperatureType $temperature
      * @return self
      */
-    public function setTemperature(\Calcinai\Siri\Datex\TemperatureType $temperature)
+    public function setTemperature(\Calcinai\Siri\Objects\Datex\TemperatureType $temperature)
     {
         $this->temperature = $temperature;
         return $this;
@@ -46,7 +46,7 @@ class TemperatureInformationType extends WeatherValueType
     /**
      * Gets as temperatureInformationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTemperatureInformationExtension()
     {
@@ -56,10 +56,10 @@ class TemperatureInformationType extends WeatherValueType
     /**
      * Sets a new temperatureInformationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $temperatureInformationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $temperatureInformationExtension
      * @return self
      */
-    public function setTemperatureInformationExtension(\Calcinai\Siri\Datex\ExtensionType $temperatureInformationExtension)
+    public function setTemperatureInformationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $temperatureInformationExtension)
     {
         $this->temperatureInformationExtension = $temperatureInformationExtension;
         return $this;

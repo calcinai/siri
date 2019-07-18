@@ -1,4 +1,4 @@
-Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType:
+Calcinai\Siri\Objects\SituationExchangeDeliveryStructureType\SituationsAType:
     properties:
         ptSituationElement:
             expose: true
@@ -13,7 +13,7 @@ Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType:
                 inline: true
                 entry_name: PtSituationElement
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\PtSituationElementStructureType>
+            type: array<Calcinai\Siri\Objects\PtSituationElementStructureType>
         roadSituationElement:
             expose: true
             access_type: public_method
@@ -27,4 +27,4 @@ Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType:
                 inline: true
                 entry_name: RoadSituationElement
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\RoadSituationElement>
+            type: array<Calcinai\Siri\Objects\RoadSituationElement>

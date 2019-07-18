@@ -1,4 +1,4 @@
-Calcinai\Siri\AbstractReferencingItemStructureType:
+Calcinai\Siri\Objects\AbstractReferencingItemStructureType:
     properties:
         itemRef:
             expose: true
@@ -9,4 +9,4 @@ Calcinai\Siri\AbstractReferencingItemStructureType:
             accessor:
                 getter: getItemRef
                 setter: setItemRef
-            type: Calcinai\Siri\ItemRefStructureType
+            type: Calcinai\Siri\Objects\ItemRefStructureType

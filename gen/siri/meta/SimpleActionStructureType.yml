@@ -1,4 +1,4 @@
-Calcinai\Siri\SimpleActionStructureType:
+Calcinai\Siri\Objects\SimpleActionStructureType:
     properties:
         actionStatus:
             expose: true

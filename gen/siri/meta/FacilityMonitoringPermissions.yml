@@ -1,4 +1,4 @@
-Calcinai\Siri\FacilityMonitoringPermissions:
+Calcinai\Siri\Objects\FacilityMonitoringPermissions:
     xml_root_name: FacilityMonitoringPermissions
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:
@@ -15,4 +15,4 @@ Calcinai\Siri\FacilityMonitoringPermissions:
                 inline: true
                 entry_name: FacilityMonitoringPermission
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\FacilityMonitoringServicePermissionStructureType>
+            type: array<Calcinai\Siri\Objects\FacilityMonitoringServicePermissionStructureType>

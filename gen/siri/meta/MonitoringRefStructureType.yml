@@ -1,4 +1,4 @@
-Calcinai\Siri\MonitoringRefStructureType:
+Calcinai\Siri\Objects\MonitoringRefStructureType:
     properties:
         __value:
             expose: true

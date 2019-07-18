@@ -1,4 +1,4 @@
-Calcinai\Siri\EnvironmentReason:
+Calcinai\Siri\Objects\EnvironmentReason:
     xml_root_name: EnvironmentReason
     xml_root_namespace: 'http://www.siri.org.uk/siri'
     properties:

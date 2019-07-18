@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing GroupOfLocationsType
@@ -12,21 +12,21 @@ class GroupOfLocationsType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\LocationType[] $locationContainedInGroup
+     * @property \Calcinai\Siri\Objects\Datex\LocationType[] $locationContainedInGroup
      */
     private $locationContainedInGroup = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\DestinationType[] $routeDestination
+     * @property \Calcinai\Siri\Objects\Datex\DestinationType[] $routeDestination
      */
     private $routeDestination = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $groupOfLocationsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $groupOfLocationsExtension
      */
     private $groupOfLocationsExtension = null;
 
@@ -34,9 +34,9 @@ class GroupOfLocationsType
      * Adds as locationContainedInGroup
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\LocationType $locationContainedInGroup
+     * @param \Calcinai\Siri\Objects\Datex\LocationType $locationContainedInGroup
      */
-    public function addToLocationContainedInGroup(\Calcinai\Siri\Datex\LocationType $locationContainedInGroup)
+    public function addToLocationContainedInGroup(\Calcinai\Siri\Objects\Datex\LocationType $locationContainedInGroup)
     {
         $this->locationContainedInGroup[] = $locationContainedInGroup;
         return $this;
@@ -67,7 +67,7 @@ class GroupOfLocationsType
     /**
      * Gets as locationContainedInGroup
      *
-     * @return \Calcinai\Siri\Datex\LocationType[]
+     * @return \Calcinai\Siri\Objects\Datex\LocationType[]
      */
     public function getLocationContainedInGroup()
     {
@@ -77,7 +77,7 @@ class GroupOfLocationsType
     /**
      * Sets a new locationContainedInGroup
      *
-     * @param \Calcinai\Siri\Datex\LocationType[] $locationContainedInGroup
+     * @param \Calcinai\Siri\Objects\Datex\LocationType[] $locationContainedInGroup
      * @return self
      */
     public function setLocationContainedInGroup(array $locationContainedInGroup)
@@ -90,9 +90,9 @@ class GroupOfLocationsType
      * Adds as routeDestination
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\DestinationType $routeDestination
+     * @param \Calcinai\Siri\Objects\Datex\DestinationType $routeDestination
      */
-    public function addToRouteDestination(\Calcinai\Siri\Datex\DestinationType $routeDestination)
+    public function addToRouteDestination(\Calcinai\Siri\Objects\Datex\DestinationType $routeDestination)
     {
         $this->routeDestination[] = $routeDestination;
         return $this;
@@ -123,7 +123,7 @@ class GroupOfLocationsType
     /**
      * Gets as routeDestination
      *
-     * @return \Calcinai\Siri\Datex\DestinationType[]
+     * @return \Calcinai\Siri\Objects\Datex\DestinationType[]
      */
     public function getRouteDestination()
     {
@@ -133,7 +133,7 @@ class GroupOfLocationsType
     /**
      * Sets a new routeDestination
      *
-     * @param \Calcinai\Siri\Datex\DestinationType[] $routeDestination
+     * @param \Calcinai\Siri\Objects\Datex\DestinationType[] $routeDestination
      * @return self
      */
     public function setRouteDestination(array $routeDestination)
@@ -145,7 +145,7 @@ class GroupOfLocationsType
     /**
      * Gets as groupOfLocationsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getGroupOfLocationsExtension()
     {
@@ -155,10 +155,10 @@ class GroupOfLocationsType
     /**
      * Sets a new groupOfLocationsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $groupOfLocationsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $groupOfLocationsExtension
      * @return self
      */
-    public function setGroupOfLocationsExtension(\Calcinai\Siri\Datex\ExtensionType $groupOfLocationsExtension)
+    public function setGroupOfLocationsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $groupOfLocationsExtension)
     {
         $this->groupOfLocationsExtension = $groupOfLocationsExtension;
         return $this;

@@ -1,4 +1,4 @@
-Calcinai\Siri\ProgressBetweenStopsStructureType:
+Calcinai\Siri\Objects\ProgressBetweenStopsStructureType:
     properties:
         linkDistance:
             expose: true

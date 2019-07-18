@@ -1,4 +1,4 @@
-Calcinai\Siri\GeneralMessageDeliveryStructureType:
+Calcinai\Siri\Objects\GeneralMessageDeliveryStructureType:
     properties:
         version:
             expose: true
@@ -18,7 +18,7 @@ Calcinai\Siri\GeneralMessageDeliveryStructureType:
             accessor:
                 getter: getGeneralMessage
                 setter: setGeneralMessage
-            type: Calcinai\Siri\GeneralMessage
+            type: Calcinai\Siri\Objects\GeneralMessage
         generalMessageCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +28,7 @@ Calcinai\Siri\GeneralMessageDeliveryStructureType:
             accessor:
                 getter: getGeneralMessageCancellation
                 setter: setGeneralMessageCancellation
-            type: Calcinai\Siri\GeneralMessageCancellation
+            type: Calcinai\Siri\Objects\GeneralMessageCancellation
         extensions:
             expose: true
             access_type: public_method
@@ -38,4 +38,4 @@ Calcinai\Siri\GeneralMessageDeliveryStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

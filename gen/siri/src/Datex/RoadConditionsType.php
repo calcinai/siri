@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing RoadConditionsType
@@ -12,14 +12,14 @@ class RoadConditionsType extends ConditionsType
 {
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $roadConditionsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $roadConditionsExtension
      */
     private $roadConditionsExtension = null;
 
     /**
      * Gets as roadConditionsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getRoadConditionsExtension()
     {
@@ -29,10 +29,10 @@ class RoadConditionsType extends ConditionsType
     /**
      * Sets a new roadConditionsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $roadConditionsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $roadConditionsExtension
      * @return self
      */
-    public function setRoadConditionsExtension(\Calcinai\Siri\Datex\ExtensionType $roadConditionsExtension)
+    public function setRoadConditionsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $roadConditionsExtension)
     {
         $this->roadConditionsExtension = $roadConditionsExtension;
         return $this;

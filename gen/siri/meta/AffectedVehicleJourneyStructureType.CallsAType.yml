@@ -1,4 +1,4 @@
-Calcinai\Siri\AffectedVehicleJourneyStructureType\CallsAType:
+Calcinai\Siri\Objects\AffectedVehicleJourneyStructureType\CallsAType:
     properties:
         call:
             expose: true
@@ -13,4 +13,4 @@ Calcinai\Siri\AffectedVehicleJourneyStructureType\CallsAType:
                 inline: true
                 entry_name: Call
                 namespace: 'http://www.siri.org.uk/siri'
-            type: array<Calcinai\Siri\AffectedCallStructureType>
+            type: array<Calcinai\Siri\Objects\AffectedCallStructureType>

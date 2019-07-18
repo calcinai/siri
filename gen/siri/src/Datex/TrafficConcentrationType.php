@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing TrafficConcentrationType
@@ -26,7 +26,7 @@ class TrafficConcentrationType extends TrafficValueType
     private $occupancy = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $trafficConcentrationExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $trafficConcentrationExtension
      */
     private $trafficConcentrationExtension = null;
 
@@ -85,7 +85,7 @@ class TrafficConcentrationType extends TrafficValueType
     /**
      * Gets as trafficConcentrationExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getTrafficConcentrationExtension()
     {
@@ -95,10 +95,10 @@ class TrafficConcentrationType extends TrafficValueType
     /**
      * Sets a new trafficConcentrationExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $trafficConcentrationExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $trafficConcentrationExtension
      * @return self
      */
-    public function setTrafficConcentrationExtension(\Calcinai\Siri\Datex\ExtensionType $trafficConcentrationExtension)
+    public function setTrafficConcentrationExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $trafficConcentrationExtension)
     {
         $this->trafficConcentrationExtension = $trafficConcentrationExtension;
         return $this;

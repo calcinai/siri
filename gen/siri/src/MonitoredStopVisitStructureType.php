@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing MonitoredStopVisitStructureType
@@ -28,14 +28,14 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
     /**
      * Provides real-time information about the vehicle journey along which a vehicle is running.
      *
-     * @property \Calcinai\Siri\MonitoredVehicleJourneyStructureType $monitoredVehicleJourney
+     * @property \Calcinai\Siri\Objects\MonitoredVehicleJourneyStructureType $monitoredVehicleJourney
      */
     private $monitoredVehicleJourney = null;
 
     /**
      * Text associated with Stop Visit.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType[] $stopVisitNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $stopVisitNote
      */
     private $stopVisitNote = [
         
@@ -47,7 +47,7 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
     private $stopFacility = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -108,7 +108,7 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
      *
      * Provides real-time information about the vehicle journey along which a vehicle is running.
      *
-     * @return \Calcinai\Siri\MonitoredVehicleJourneyStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredVehicleJourneyStructureType
      */
     public function getMonitoredVehicleJourney()
     {
@@ -120,10 +120,10 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
      *
      * Provides real-time information about the vehicle journey along which a vehicle is running.
      *
-     * @param \Calcinai\Siri\MonitoredVehicleJourneyStructureType $monitoredVehicleJourney
+     * @param \Calcinai\Siri\Objects\MonitoredVehicleJourneyStructureType $monitoredVehicleJourney
      * @return self
      */
-    public function setMonitoredVehicleJourney(\Calcinai\Siri\MonitoredVehicleJourneyStructureType $monitoredVehicleJourney)
+    public function setMonitoredVehicleJourney(\Calcinai\Siri\Objects\MonitoredVehicleJourneyStructureType $monitoredVehicleJourney)
     {
         $this->monitoredVehicleJourney = $monitoredVehicleJourney;
         return $this;
@@ -135,9 +135,9 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
      * Text associated with Stop Visit.
      *
      * @return self
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $stopVisitNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $stopVisitNote
      */
-    public function addToStopVisitNote(\Calcinai\Siri\NaturalLanguageStringStructureType $stopVisitNote)
+    public function addToStopVisitNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $stopVisitNote)
     {
         $this->stopVisitNote[] = $stopVisitNote;
         return $this;
@@ -174,7 +174,7 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
      *
      * Text associated with Stop Visit.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType[]
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[]
      */
     public function getStopVisitNote()
     {
@@ -186,7 +186,7 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
      *
      * Text associated with Stop Visit.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType[] $stopVisitNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $stopVisitNote
      * @return self
      */
     public function setStopVisitNote(array $stopVisitNote)
@@ -220,7 +220,7 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -230,10 +230,10 @@ class MonitoredStopVisitStructureType extends AbstractIdentifiedItemStructureTyp
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

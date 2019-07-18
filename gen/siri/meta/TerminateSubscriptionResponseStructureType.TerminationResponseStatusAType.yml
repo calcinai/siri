@@ -1,4 +1,4 @@
-Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType:
+Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType:
     properties:
         responseTimestamp:
             expose: true
@@ -19,7 +19,7 @@ Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStat
             accessor:
                 getter: getRequestMessageRef
                 setter: setRequestMessageRef
-            type: Calcinai\Siri\MessageQualifierStructureType
+            type: Calcinai\Siri\Objects\MessageQualifierStructureType
         subscriberRef:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStat
             accessor:
                 getter: getSubscriberRef
                 setter: setSubscriberRef
-            type: Calcinai\Siri\ParticipantRefStructureType
+            type: Calcinai\Siri\Objects\ParticipantRefStructureType
         subscriptionFilterRef:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStat
             accessor:
                 getter: getSubscriptionFilterRef
                 setter: setSubscriptionFilterRef
-            type: Calcinai\Siri\SubscriptionFilterRefStructureType
+            type: Calcinai\Siri\Objects\SubscriptionFilterRefStructureType
         subscriptionRef:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStat
             accessor:
                 getter: getSubscriptionRef
                 setter: setSubscriptionRef
-            type: Calcinai\Siri\SubscriptionQualifierStructureType
+            type: Calcinai\Siri\Objects\SubscriptionQualifierStructureType
         status:
             expose: true
             access_type: public_method
@@ -69,4 +69,4 @@ Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStat
             accessor:
                 getter: getErrorCondition
                 setter: setErrorCondition
-            type: Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType
+            type: Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType

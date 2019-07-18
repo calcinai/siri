@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex;
+namespace Calcinai\Siri\Objects\Datex;
 
 /**
  * Class representing VehicleCharacteristicsType
@@ -49,49 +49,49 @@ class VehicleCharacteristicsType
     private $vehicleUsage = null;
 
     /**
-     * @property \Calcinai\Siri\Datex\GrossWeightCharacteristicType[] $grossWeightCharacteristic
+     * @property \Calcinai\Siri\Objects\Datex\GrossWeightCharacteristicType[] $grossWeightCharacteristic
      */
     private $grossWeightCharacteristic = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\HeightCharacteristicType[] $heightCharacteristic
+     * @property \Calcinai\Siri\Objects\Datex\HeightCharacteristicType[] $heightCharacteristic
      */
     private $heightCharacteristic = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\LengthCharacteristicType[] $lengthCharacteristic
+     * @property \Calcinai\Siri\Objects\Datex\LengthCharacteristicType[] $lengthCharacteristic
      */
     private $lengthCharacteristic = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\WidthCharacteristicType[] $widthCharacteristic
+     * @property \Calcinai\Siri\Objects\Datex\WidthCharacteristicType[] $widthCharacteristic
      */
     private $widthCharacteristic = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType[] $heaviestAxleWeightCharacteristic
+     * @property \Calcinai\Siri\Objects\Datex\HeaviestAxleWeightCharacteristicType[] $heaviestAxleWeightCharacteristic
      */
     private $heaviestAxleWeightCharacteristic = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType[] $numberOfAxlesCharacteristic
+     * @property \Calcinai\Siri\Objects\Datex\NumberOfAxlesCharacteristicType[] $numberOfAxlesCharacteristic
      */
     private $numberOfAxlesCharacteristic = [
         
     ];
 
     /**
-     * @property \Calcinai\Siri\Datex\ExtensionType $vehicleCharacteristicsExtension
+     * @property \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleCharacteristicsExtension
      */
     private $vehicleCharacteristicsExtension = null;
 
@@ -269,9 +269,9 @@ class VehicleCharacteristicsType
      * Adds as grossWeightCharacteristic
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\GrossWeightCharacteristicType $grossWeightCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\GrossWeightCharacteristicType $grossWeightCharacteristic
      */
-    public function addToGrossWeightCharacteristic(\Calcinai\Siri\Datex\GrossWeightCharacteristicType $grossWeightCharacteristic)
+    public function addToGrossWeightCharacteristic(\Calcinai\Siri\Objects\Datex\GrossWeightCharacteristicType $grossWeightCharacteristic)
     {
         $this->grossWeightCharacteristic[] = $grossWeightCharacteristic;
         return $this;
@@ -302,7 +302,7 @@ class VehicleCharacteristicsType
     /**
      * Gets as grossWeightCharacteristic
      *
-     * @return \Calcinai\Siri\Datex\GrossWeightCharacteristicType[]
+     * @return \Calcinai\Siri\Objects\Datex\GrossWeightCharacteristicType[]
      */
     public function getGrossWeightCharacteristic()
     {
@@ -312,7 +312,7 @@ class VehicleCharacteristicsType
     /**
      * Sets a new grossWeightCharacteristic
      *
-     * @param \Calcinai\Siri\Datex\GrossWeightCharacteristicType[] $grossWeightCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\GrossWeightCharacteristicType[] $grossWeightCharacteristic
      * @return self
      */
     public function setGrossWeightCharacteristic(array $grossWeightCharacteristic)
@@ -325,9 +325,9 @@ class VehicleCharacteristicsType
      * Adds as heightCharacteristic
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\HeightCharacteristicType $heightCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\HeightCharacteristicType $heightCharacteristic
      */
-    public function addToHeightCharacteristic(\Calcinai\Siri\Datex\HeightCharacteristicType $heightCharacteristic)
+    public function addToHeightCharacteristic(\Calcinai\Siri\Objects\Datex\HeightCharacteristicType $heightCharacteristic)
     {
         $this->heightCharacteristic[] = $heightCharacteristic;
         return $this;
@@ -358,7 +358,7 @@ class VehicleCharacteristicsType
     /**
      * Gets as heightCharacteristic
      *
-     * @return \Calcinai\Siri\Datex\HeightCharacteristicType[]
+     * @return \Calcinai\Siri\Objects\Datex\HeightCharacteristicType[]
      */
     public function getHeightCharacteristic()
     {
@@ -368,7 +368,7 @@ class VehicleCharacteristicsType
     /**
      * Sets a new heightCharacteristic
      *
-     * @param \Calcinai\Siri\Datex\HeightCharacteristicType[] $heightCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\HeightCharacteristicType[] $heightCharacteristic
      * @return self
      */
     public function setHeightCharacteristic(array $heightCharacteristic)
@@ -381,9 +381,9 @@ class VehicleCharacteristicsType
      * Adds as lengthCharacteristic
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\LengthCharacteristicType $lengthCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\LengthCharacteristicType $lengthCharacteristic
      */
-    public function addToLengthCharacteristic(\Calcinai\Siri\Datex\LengthCharacteristicType $lengthCharacteristic)
+    public function addToLengthCharacteristic(\Calcinai\Siri\Objects\Datex\LengthCharacteristicType $lengthCharacteristic)
     {
         $this->lengthCharacteristic[] = $lengthCharacteristic;
         return $this;
@@ -414,7 +414,7 @@ class VehicleCharacteristicsType
     /**
      * Gets as lengthCharacteristic
      *
-     * @return \Calcinai\Siri\Datex\LengthCharacteristicType[]
+     * @return \Calcinai\Siri\Objects\Datex\LengthCharacteristicType[]
      */
     public function getLengthCharacteristic()
     {
@@ -424,7 +424,7 @@ class VehicleCharacteristicsType
     /**
      * Sets a new lengthCharacteristic
      *
-     * @param \Calcinai\Siri\Datex\LengthCharacteristicType[] $lengthCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\LengthCharacteristicType[] $lengthCharacteristic
      * @return self
      */
     public function setLengthCharacteristic(array $lengthCharacteristic)
@@ -437,9 +437,9 @@ class VehicleCharacteristicsType
      * Adds as widthCharacteristic
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\WidthCharacteristicType $widthCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\WidthCharacteristicType $widthCharacteristic
      */
-    public function addToWidthCharacteristic(\Calcinai\Siri\Datex\WidthCharacteristicType $widthCharacteristic)
+    public function addToWidthCharacteristic(\Calcinai\Siri\Objects\Datex\WidthCharacteristicType $widthCharacteristic)
     {
         $this->widthCharacteristic[] = $widthCharacteristic;
         return $this;
@@ -470,7 +470,7 @@ class VehicleCharacteristicsType
     /**
      * Gets as widthCharacteristic
      *
-     * @return \Calcinai\Siri\Datex\WidthCharacteristicType[]
+     * @return \Calcinai\Siri\Objects\Datex\WidthCharacteristicType[]
      */
     public function getWidthCharacteristic()
     {
@@ -480,7 +480,7 @@ class VehicleCharacteristicsType
     /**
      * Sets a new widthCharacteristic
      *
-     * @param \Calcinai\Siri\Datex\WidthCharacteristicType[] $widthCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\WidthCharacteristicType[] $widthCharacteristic
      * @return self
      */
     public function setWidthCharacteristic(array $widthCharacteristic)
@@ -493,9 +493,9 @@ class VehicleCharacteristicsType
      * Adds as heaviestAxleWeightCharacteristic
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType $heaviestAxleWeightCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\HeaviestAxleWeightCharacteristicType $heaviestAxleWeightCharacteristic
      */
-    public function addToHeaviestAxleWeightCharacteristic(\Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType $heaviestAxleWeightCharacteristic)
+    public function addToHeaviestAxleWeightCharacteristic(\Calcinai\Siri\Objects\Datex\HeaviestAxleWeightCharacteristicType $heaviestAxleWeightCharacteristic)
     {
         $this->heaviestAxleWeightCharacteristic[] = $heaviestAxleWeightCharacteristic;
         return $this;
@@ -526,7 +526,7 @@ class VehicleCharacteristicsType
     /**
      * Gets as heaviestAxleWeightCharacteristic
      *
-     * @return \Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType[]
+     * @return \Calcinai\Siri\Objects\Datex\HeaviestAxleWeightCharacteristicType[]
      */
     public function getHeaviestAxleWeightCharacteristic()
     {
@@ -536,7 +536,7 @@ class VehicleCharacteristicsType
     /**
      * Sets a new heaviestAxleWeightCharacteristic
      *
-     * @param \Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType[] $heaviestAxleWeightCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\HeaviestAxleWeightCharacteristicType[] $heaviestAxleWeightCharacteristic
      * @return self
      */
     public function setHeaviestAxleWeightCharacteristic(array $heaviestAxleWeightCharacteristic)
@@ -549,9 +549,9 @@ class VehicleCharacteristicsType
      * Adds as numberOfAxlesCharacteristic
      *
      * @return self
-     * @param \Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType $numberOfAxlesCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\NumberOfAxlesCharacteristicType $numberOfAxlesCharacteristic
      */
-    public function addToNumberOfAxlesCharacteristic(\Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType $numberOfAxlesCharacteristic)
+    public function addToNumberOfAxlesCharacteristic(\Calcinai\Siri\Objects\Datex\NumberOfAxlesCharacteristicType $numberOfAxlesCharacteristic)
     {
         $this->numberOfAxlesCharacteristic[] = $numberOfAxlesCharacteristic;
         return $this;
@@ -582,7 +582,7 @@ class VehicleCharacteristicsType
     /**
      * Gets as numberOfAxlesCharacteristic
      *
-     * @return \Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType[]
+     * @return \Calcinai\Siri\Objects\Datex\NumberOfAxlesCharacteristicType[]
      */
     public function getNumberOfAxlesCharacteristic()
     {
@@ -592,7 +592,7 @@ class VehicleCharacteristicsType
     /**
      * Sets a new numberOfAxlesCharacteristic
      *
-     * @param \Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType[] $numberOfAxlesCharacteristic
+     * @param \Calcinai\Siri\Objects\Datex\NumberOfAxlesCharacteristicType[] $numberOfAxlesCharacteristic
      * @return self
      */
     public function setNumberOfAxlesCharacteristic(array $numberOfAxlesCharacteristic)
@@ -604,7 +604,7 @@ class VehicleCharacteristicsType
     /**
      * Gets as vehicleCharacteristicsExtension
      *
-     * @return \Calcinai\Siri\Datex\ExtensionType
+     * @return \Calcinai\Siri\Objects\Datex\ExtensionType
      */
     public function getVehicleCharacteristicsExtension()
     {
@@ -614,10 +614,10 @@ class VehicleCharacteristicsType
     /**
      * Sets a new vehicleCharacteristicsExtension
      *
-     * @param \Calcinai\Siri\Datex\ExtensionType $vehicleCharacteristicsExtension
+     * @param \Calcinai\Siri\Objects\Datex\ExtensionType $vehicleCharacteristicsExtension
      * @return self
      */
-    public function setVehicleCharacteristicsExtension(\Calcinai\Siri\Datex\ExtensionType $vehicleCharacteristicsExtension)
+    public function setVehicleCharacteristicsExtension(\Calcinai\Siri\Objects\Datex\ExtensionType $vehicleCharacteristicsExtension)
     {
         $this->vehicleCharacteristicsExtension = $vehicleCharacteristicsExtension;
         return $this;

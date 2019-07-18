@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\EstimatedTimetableServiceCapabilitiesStructureType;
+namespace Calcinai\Siri\Objects\EstimatedTimetableServiceCapabilitiesStructureType;
 
 /**
  * Class representing TopicFilteringAType

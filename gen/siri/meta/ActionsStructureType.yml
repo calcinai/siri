@@ -1,4 +1,4 @@
-Calcinai\Siri\ActionsStructureType:
+Calcinai\Siri\Objects\ActionsStructureType:
     properties:
         publishToWebAction:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getPublishToWebAction
                 setter: setPublishToWebAction
-            type: Calcinai\Siri\PublishToWebAction
+            type: Calcinai\Siri\Objects\PublishToWebAction
         publishToMobileAction:
             expose: true
             access_type: public_method
@@ -19,7 +19,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getPublishToMobileAction
                 setter: setPublishToMobileAction
-            type: Calcinai\Siri\PublishToMobileAction
+            type: Calcinai\Siri\Objects\PublishToMobileAction
         publishToTvAction:
             expose: true
             access_type: public_method
@@ -29,7 +29,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getPublishToTvAction
                 setter: setPublishToTvAction
-            type: Calcinai\Siri\PublishToTvAction
+            type: Calcinai\Siri\Objects\PublishToTvAction
         publishToAlertsAction:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getPublishToAlertsAction
                 setter: setPublishToAlertsAction
-            type: Calcinai\Siri\PublishToAlertsAction
+            type: Calcinai\Siri\Objects\PublishToAlertsAction
         manualAction:
             expose: true
             access_type: public_method
@@ -49,7 +49,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getManualAction
                 setter: setManualAction
-            type: Calcinai\Siri\ManualAction
+            type: Calcinai\Siri\Objects\ManualAction
         notifyByEmailAction:
             expose: true
             access_type: public_method
@@ -59,7 +59,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getNotifyByEmailAction
                 setter: setNotifyByEmailAction
-            type: Calcinai\Siri\NotifyByEmailAction
+            type: Calcinai\Siri\Objects\NotifyByEmailAction
         notifyBySmsAction:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getNotifyBySmsAction
                 setter: setNotifyBySmsAction
-            type: Calcinai\Siri\NotifyBySmsAction
+            type: Calcinai\Siri\Objects\NotifyBySmsAction
         notifyByPagerAction:
             expose: true
             access_type: public_method
@@ -79,7 +79,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getNotifyByPagerAction
                 setter: setNotifyByPagerAction
-            type: Calcinai\Siri\NotifyByPagerAction
+            type: Calcinai\Siri\Objects\NotifyByPagerAction
         notifyUserAction:
             expose: true
             access_type: public_method
@@ -89,7 +89,7 @@ Calcinai\Siri\ActionsStructureType:
             accessor:
                 getter: getNotifyUserAction
                 setter: setNotifyUserAction
-            type: Calcinai\Siri\NotifyUserAction
+            type: Calcinai\Siri\Objects\NotifyUserAction
         extensions:
             expose: true
             access_type: public_method

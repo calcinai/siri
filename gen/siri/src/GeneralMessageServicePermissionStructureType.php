@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing GeneralMessageServicePermissionStructureType
@@ -14,12 +14,12 @@ class GeneralMessageServicePermissionStructureType extends AbstractPermissionStr
     /**
      * The monitoring points that the participant may access.
      *
-     * @property \Calcinai\Siri\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType $infoChannelPermissions
+     * @property \Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType $infoChannelPermissions
      */
     private $infoChannelPermissions = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -28,7 +28,7 @@ class GeneralMessageServicePermissionStructureType extends AbstractPermissionStr
      *
      * The monitoring points that the participant may access.
      *
-     * @return \Calcinai\Siri\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType
+     * @return \Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType
      */
     public function getInfoChannelPermissions()
     {
@@ -40,10 +40,10 @@ class GeneralMessageServicePermissionStructureType extends AbstractPermissionStr
      *
      * The monitoring points that the participant may access.
      *
-     * @param \Calcinai\Siri\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType $infoChannelPermissions
+     * @param \Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType $infoChannelPermissions
      * @return self
      */
-    public function setInfoChannelPermissions(\Calcinai\Siri\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType $infoChannelPermissions)
+    public function setInfoChannelPermissions(\Calcinai\Siri\Objects\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType $infoChannelPermissions)
     {
         $this->infoChannelPermissions = $infoChannelPermissions;
         return $this;
@@ -52,7 +52,7 @@ class GeneralMessageServicePermissionStructureType extends AbstractPermissionStr
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -62,10 +62,10 @@ class GeneralMessageServicePermissionStructureType extends AbstractPermissionStr
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

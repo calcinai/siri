@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing MonitoringInformationStructureType
@@ -28,12 +28,12 @@ class MonitoringInformationStructureType
     /**
      * When the monitorign operates. If absent always.
      *
-     * @property \Calcinai\Siri\MonitoringValidityConditionStructureType $monitoringPeriod
+     * @property \Calcinai\Siri\Objects\MonitoringValidityConditionStructureType $monitoringPeriod
      */
     private $monitoringPeriod = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -94,7 +94,7 @@ class MonitoringInformationStructureType
      *
      * When the monitorign operates. If absent always.
      *
-     * @return \Calcinai\Siri\MonitoringValidityConditionStructureType
+     * @return \Calcinai\Siri\Objects\MonitoringValidityConditionStructureType
      */
     public function getMonitoringPeriod()
     {
@@ -106,10 +106,10 @@ class MonitoringInformationStructureType
      *
      * When the monitorign operates. If absent always.
      *
-     * @param \Calcinai\Siri\MonitoringValidityConditionStructureType $monitoringPeriod
+     * @param \Calcinai\Siri\Objects\MonitoringValidityConditionStructureType $monitoringPeriod
      * @return self
      */
-    public function setMonitoringPeriod(\Calcinai\Siri\MonitoringValidityConditionStructureType $monitoringPeriod)
+    public function setMonitoringPeriod(\Calcinai\Siri\Objects\MonitoringValidityConditionStructureType $monitoringPeriod)
     {
         $this->monitoringPeriod = $monitoringPeriod;
         return $this;
@@ -118,7 +118,7 @@ class MonitoringInformationStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -128,10 +128,10 @@ class MonitoringInformationStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

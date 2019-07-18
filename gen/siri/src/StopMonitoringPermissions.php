@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing StopMonitoringPermissions
@@ -13,7 +13,7 @@ class StopMonitoringPermissions extends PermissionsStructureType
     /**
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @property \Calcinai\Siri\StopMonitoringServicePermissionStructureType[] $stopMonitoringPermission
+     * @property \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType[] $stopMonitoringPermission
      */
     private $stopMonitoringPermission = [
         
@@ -25,9 +25,9 @@ class StopMonitoringPermissions extends PermissionsStructureType
      * Permission for a single participant or all participants to use an aspect of the service.
      *
      * @return self
-     * @param \Calcinai\Siri\StopMonitoringServicePermissionStructureType $stopMonitoringPermission
+     * @param \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType $stopMonitoringPermission
      */
-    public function addToStopMonitoringPermission(\Calcinai\Siri\StopMonitoringServicePermissionStructureType $stopMonitoringPermission)
+    public function addToStopMonitoringPermission(\Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType $stopMonitoringPermission)
     {
         $this->stopMonitoringPermission[] = $stopMonitoringPermission;
         return $this;
@@ -64,7 +64,7 @@ class StopMonitoringPermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @return \Calcinai\Siri\StopMonitoringServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType[]
      */
     public function getStopMonitoringPermission()
     {
@@ -76,7 +76,7 @@ class StopMonitoringPermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @param \Calcinai\Siri\StopMonitoringServicePermissionStructureType[] $stopMonitoringPermission
+     * @param \Calcinai\Siri\Objects\StopMonitoringServicePermissionStructureType[] $stopMonitoringPermission
      * @return self
      */
     public function setStopMonitoringPermission(array $stopMonitoringPermission)

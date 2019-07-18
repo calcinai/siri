@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing EstimatedTimetablePermissions
@@ -13,7 +13,7 @@ class EstimatedTimetablePermissions extends PermissionsStructureType
     /**
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @property \Calcinai\Siri\ConnectionServicePermissionStructureType[] $estimatedTimetablePermission
+     * @property \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $estimatedTimetablePermission
      */
     private $estimatedTimetablePermission = [
         
@@ -25,9 +25,9 @@ class EstimatedTimetablePermissions extends PermissionsStructureType
      * Permission for a single participant or all participants to use an aspect of the service.
      *
      * @return self
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType $estimatedTimetablePermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $estimatedTimetablePermission
      */
-    public function addToEstimatedTimetablePermission(\Calcinai\Siri\ConnectionServicePermissionStructureType $estimatedTimetablePermission)
+    public function addToEstimatedTimetablePermission(\Calcinai\Siri\Objects\ConnectionServicePermissionStructureType $estimatedTimetablePermission)
     {
         $this->estimatedTimetablePermission[] = $estimatedTimetablePermission;
         return $this;
@@ -64,7 +64,7 @@ class EstimatedTimetablePermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @return \Calcinai\Siri\ConnectionServicePermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[]
      */
     public function getEstimatedTimetablePermission()
     {
@@ -76,7 +76,7 @@ class EstimatedTimetablePermissions extends PermissionsStructureType
      *
      * Permission for a single participant or all participants to use an aspect of the service.
      *
-     * @param \Calcinai\Siri\ConnectionServicePermissionStructureType[] $estimatedTimetablePermission
+     * @param \Calcinai\Siri\Objects\ConnectionServicePermissionStructureType[] $estimatedTimetablePermission
      * @return self
      */
     public function setEstimatedTimetablePermission(array $estimatedTimetablePermission)

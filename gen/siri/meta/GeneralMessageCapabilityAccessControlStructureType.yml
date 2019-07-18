@@ -1,4 +1,4 @@
-Calcinai\Siri\GeneralMessageCapabilityAccessControlStructureType:
+Calcinai\Siri\Objects\GeneralMessageCapabilityAccessControlStructureType:
     properties:
         checkInfoChannelRef:
             expose: true

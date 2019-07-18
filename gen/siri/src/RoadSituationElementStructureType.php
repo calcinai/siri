@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing RoadSituationElementStructureType
@@ -56,7 +56,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * Overall inclusive Period of applicability of situation
      *
-     * @property \Calcinai\Siri\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod
+     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod
      */
     private $validityPeriod = null;
 
@@ -70,7 +70,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * Publication Window for situation if different from validity period.
      *
-     * @property \Calcinai\Siri\HalfOpenTimestampRangeStructureType $publicationWindow
+     * @property \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $publicationWindow
      */
     private $publicationWindow = null;
 
@@ -118,7 +118,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * Text explanation of situation reason. Not normally needed.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $reasonName
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reasonName
      */
     private $reasonName = null;
 
@@ -177,7 +177,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * additioanl reasons
      *
-     * @property \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $secondaryReasons
+     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $secondaryReasons
      */
     private $secondaryReasons = null;
 
@@ -191,82 +191,82 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * Summary of situation. If absent should be generated from structure elements / and or by condensing Description.
      *
-     * @property \Calcinai\Siri\DefaultedTextStructureType $summary
+     * @property \Calcinai\Siri\Objects\DefaultedTextStructureType $summary
      */
     private $summary = null;
 
     /**
      * Description of situation. Should not repeat any strap line included in Summary.
      *
-     * @property \Calcinai\Siri\DefaultedTextStructureType $description
+     * @property \Calcinai\Siri\Objects\DefaultedTextStructureType $description
      */
     private $description = null;
 
     /**
      * Additional descriptive details about the situation.
      *
-     * @property \Calcinai\Siri\DefaultedTextStructureType $detail
+     * @property \Calcinai\Siri\Objects\DefaultedTextStructureType $detail
      */
     private $detail = null;
 
     /**
      * Further advice to passengers.
      *
-     * @property \Calcinai\Siri\DefaultedTextStructureType $advice
+     * @property \Calcinai\Siri\Objects\DefaultedTextStructureType $advice
      */
     private $advice = null;
 
     /**
      * Further advice to passengers.
      *
-     * @property \Calcinai\Siri\DefaultedTextStructureType $internal
+     * @property \Calcinai\Siri\Objects\DefaultedTextStructureType $internal
      */
     private $internal = null;
 
     /**
      * Any images associated with situation.
      *
-     * @property \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType[] $images
+     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType[] $images
      */
     private $images = null;
 
     /**
      * Hyperlinks to other resources associated with situation.
      *
-     * @property \Calcinai\Siri\InfoLinkStructureType[] $infoLinks
+     * @property \Calcinai\Siri\Objects\InfoLinkStructureType[] $infoLinks
      */
     private $infoLinks = null;
 
     /**
      * Structured model identifiying parts of transport network affected by situation. Operator and Network values will be defaulted to values in general Context unless explicitly overridden.
      *
-     * @property \Calcinai\Siri\AffectsScopeStructureType $affects
+     * @property \Calcinai\Siri\Objects\AffectsScopeStructureType $affects
      */
     private $affects = null;
 
     /**
      * Structured model describign effect of the situation on PT system.
      *
-     * @property \Calcinai\Siri\PtConsequenceStructureType[] $consequences
+     * @property \Calcinai\Siri\Objects\PtConsequenceStructureType[] $consequences
      */
     private $consequences = null;
 
     /**
      * Structured model describing distribution actions to handle situation. Any actions stated completely replace those from Context. If no actions are stated, any actions from general Context are used.
      *
-     * @property \Calcinai\Siri\ActionsStructureType $publishingActions
+     * @property \Calcinai\Siri\Objects\ActionsStructureType $publishingActions
      */
     private $publishingActions = null;
 
     /**
      * Datex2 Situation Record
      *
-     * @property \Calcinai\Siri\Datex\SituationRecordType $situationRecord
+     * @property \Calcinai\Siri\Objects\Datex\SituationRecordType $situationRecord
      */
     private $situationRecord = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -431,7 +431,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Overall inclusive Period of applicability of situation
      *
-     * @return \Calcinai\Siri\PtSituationElementStructureType\ValidityPeriodAType
+     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType
      */
     public function getValidityPeriod()
     {
@@ -443,10 +443,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Overall inclusive Period of applicability of situation
      *
-     * @param \Calcinai\Siri\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(\Calcinai\Siri\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod)
+    public function setValidityPeriod(\Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;
@@ -523,7 +523,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Publication Window for situation if different from validity period.
      *
-     * @return \Calcinai\Siri\HalfOpenTimestampRangeStructureType
+     * @return \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType
      */
     public function getPublicationWindow()
     {
@@ -535,10 +535,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Publication Window for situation if different from validity period.
      *
-     * @param \Calcinai\Siri\HalfOpenTimestampRangeStructureType $publicationWindow
+     * @param \Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $publicationWindow
      * @return self
      */
-    public function setPublicationWindow(\Calcinai\Siri\HalfOpenTimestampRangeStructureType $publicationWindow)
+    public function setPublicationWindow(\Calcinai\Siri\Objects\HalfOpenTimestampRangeStructureType $publicationWindow)
     {
         $this->publicationWindow = $publicationWindow;
         return $this;
@@ -715,7 +715,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Text explanation of situation reason. Not normally needed.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getReasonName()
     {
@@ -727,10 +727,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Text explanation of situation reason. Not normally needed.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $reasonName
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reasonName
      * @return self
      */
-    public function setReasonName(\Calcinai\Siri\NaturalLanguageStringStructureType $reasonName)
+    public function setReasonName(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $reasonName)
     {
         $this->reasonName = $reasonName;
         return $this;
@@ -942,9 +942,9 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      * additioanl reasons
      *
      * @return self
-     * @param \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason
      */
-    public function addToSecondaryReasons(\Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason)
+    public function addToSecondaryReasons(\Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType $reason)
     {
         $this->secondaryReasons[] = $reason;
         return $this;
@@ -981,7 +981,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * additioanl reasons
      *
-     * @return \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[]
+     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[]
      */
     public function getSecondaryReasons()
     {
@@ -993,7 +993,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * additioanl reasons
      *
-     * @param \Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $secondaryReasons
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType[] $secondaryReasons
      * @return self
      */
     public function setSecondaryReasons(array $secondaryReasons)
@@ -1033,7 +1033,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Summary of situation. If absent should be generated from structure elements / and or by condensing Description.
      *
-     * @return \Calcinai\Siri\DefaultedTextStructureType
+     * @return \Calcinai\Siri\Objects\DefaultedTextStructureType
      */
     public function getSummary()
     {
@@ -1045,10 +1045,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Summary of situation. If absent should be generated from structure elements / and or by condensing Description.
      *
-     * @param \Calcinai\Siri\DefaultedTextStructureType $summary
+     * @param \Calcinai\Siri\Objects\DefaultedTextStructureType $summary
      * @return self
      */
-    public function setSummary(\Calcinai\Siri\DefaultedTextStructureType $summary)
+    public function setSummary(\Calcinai\Siri\Objects\DefaultedTextStructureType $summary)
     {
         $this->summary = $summary;
         return $this;
@@ -1059,7 +1059,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Description of situation. Should not repeat any strap line included in Summary.
      *
-     * @return \Calcinai\Siri\DefaultedTextStructureType
+     * @return \Calcinai\Siri\Objects\DefaultedTextStructureType
      */
     public function getDescription()
     {
@@ -1071,10 +1071,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Description of situation. Should not repeat any strap line included in Summary.
      *
-     * @param \Calcinai\Siri\DefaultedTextStructureType $description
+     * @param \Calcinai\Siri\Objects\DefaultedTextStructureType $description
      * @return self
      */
-    public function setDescription(\Calcinai\Siri\DefaultedTextStructureType $description)
+    public function setDescription(\Calcinai\Siri\Objects\DefaultedTextStructureType $description)
     {
         $this->description = $description;
         return $this;
@@ -1085,7 +1085,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Additional descriptive details about the situation.
      *
-     * @return \Calcinai\Siri\DefaultedTextStructureType
+     * @return \Calcinai\Siri\Objects\DefaultedTextStructureType
      */
     public function getDetail()
     {
@@ -1097,10 +1097,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Additional descriptive details about the situation.
      *
-     * @param \Calcinai\Siri\DefaultedTextStructureType $detail
+     * @param \Calcinai\Siri\Objects\DefaultedTextStructureType $detail
      * @return self
      */
-    public function setDetail(\Calcinai\Siri\DefaultedTextStructureType $detail)
+    public function setDetail(\Calcinai\Siri\Objects\DefaultedTextStructureType $detail)
     {
         $this->detail = $detail;
         return $this;
@@ -1111,7 +1111,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Further advice to passengers.
      *
-     * @return \Calcinai\Siri\DefaultedTextStructureType
+     * @return \Calcinai\Siri\Objects\DefaultedTextStructureType
      */
     public function getAdvice()
     {
@@ -1123,10 +1123,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Further advice to passengers.
      *
-     * @param \Calcinai\Siri\DefaultedTextStructureType $advice
+     * @param \Calcinai\Siri\Objects\DefaultedTextStructureType $advice
      * @return self
      */
-    public function setAdvice(\Calcinai\Siri\DefaultedTextStructureType $advice)
+    public function setAdvice(\Calcinai\Siri\Objects\DefaultedTextStructureType $advice)
     {
         $this->advice = $advice;
         return $this;
@@ -1137,7 +1137,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Further advice to passengers.
      *
-     * @return \Calcinai\Siri\DefaultedTextStructureType
+     * @return \Calcinai\Siri\Objects\DefaultedTextStructureType
      */
     public function getInternal()
     {
@@ -1149,10 +1149,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Further advice to passengers.
      *
-     * @param \Calcinai\Siri\DefaultedTextStructureType $internal
+     * @param \Calcinai\Siri\Objects\DefaultedTextStructureType $internal
      * @return self
      */
-    public function setInternal(\Calcinai\Siri\DefaultedTextStructureType $internal)
+    public function setInternal(\Calcinai\Siri\Objects\DefaultedTextStructureType $internal)
     {
         $this->internal = $internal;
         return $this;
@@ -1164,9 +1164,9 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      * Any images associated with situation.
      *
      * @return self
-     * @param \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType $image
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType $image
      */
-    public function addToImages(\Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType $image)
+    public function addToImages(\Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType $image)
     {
         $this->images[] = $image;
         return $this;
@@ -1203,7 +1203,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Any images associated with situation.
      *
-     * @return \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType[]
+     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType[]
      */
     public function getImages()
     {
@@ -1215,7 +1215,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Any images associated with situation.
      *
-     * @param \Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType[] $images
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ImagesAType\ImageAType[] $images
      * @return self
      */
     public function setImages(array $images)
@@ -1230,9 +1230,9 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      * Hyperlinks to other resources associated with situation.
      *
      * @return self
-     * @param \Calcinai\Siri\InfoLinkStructureType $infoLink
+     * @param \Calcinai\Siri\Objects\InfoLinkStructureType $infoLink
      */
-    public function addToInfoLinks(\Calcinai\Siri\InfoLinkStructureType $infoLink)
+    public function addToInfoLinks(\Calcinai\Siri\Objects\InfoLinkStructureType $infoLink)
     {
         $this->infoLinks[] = $infoLink;
         return $this;
@@ -1269,7 +1269,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Hyperlinks to other resources associated with situation.
      *
-     * @return \Calcinai\Siri\InfoLinkStructureType[]
+     * @return \Calcinai\Siri\Objects\InfoLinkStructureType[]
      */
     public function getInfoLinks()
     {
@@ -1281,7 +1281,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Hyperlinks to other resources associated with situation.
      *
-     * @param \Calcinai\Siri\InfoLinkStructureType[] $infoLinks
+     * @param \Calcinai\Siri\Objects\InfoLinkStructureType[] $infoLinks
      * @return self
      */
     public function setInfoLinks(array $infoLinks)
@@ -1295,7 +1295,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Structured model identifiying parts of transport network affected by situation. Operator and Network values will be defaulted to values in general Context unless explicitly overridden.
      *
-     * @return \Calcinai\Siri\AffectsScopeStructureType
+     * @return \Calcinai\Siri\Objects\AffectsScopeStructureType
      */
     public function getAffects()
     {
@@ -1307,10 +1307,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Structured model identifiying parts of transport network affected by situation. Operator and Network values will be defaulted to values in general Context unless explicitly overridden.
      *
-     * @param \Calcinai\Siri\AffectsScopeStructureType $affects
+     * @param \Calcinai\Siri\Objects\AffectsScopeStructureType $affects
      * @return self
      */
-    public function setAffects(\Calcinai\Siri\AffectsScopeStructureType $affects)
+    public function setAffects(\Calcinai\Siri\Objects\AffectsScopeStructureType $affects)
     {
         $this->affects = $affects;
         return $this;
@@ -1322,9 +1322,9 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      * Structured model describign effect of the situation on PT system.
      *
      * @return self
-     * @param \Calcinai\Siri\PtConsequenceStructureType $consequence
+     * @param \Calcinai\Siri\Objects\PtConsequenceStructureType $consequence
      */
-    public function addToConsequences(\Calcinai\Siri\PtConsequenceStructureType $consequence)
+    public function addToConsequences(\Calcinai\Siri\Objects\PtConsequenceStructureType $consequence)
     {
         $this->consequences[] = $consequence;
         return $this;
@@ -1361,7 +1361,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Structured model describign effect of the situation on PT system.
      *
-     * @return \Calcinai\Siri\PtConsequenceStructureType[]
+     * @return \Calcinai\Siri\Objects\PtConsequenceStructureType[]
      */
     public function getConsequences()
     {
@@ -1373,7 +1373,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Structured model describign effect of the situation on PT system.
      *
-     * @param \Calcinai\Siri\PtConsequenceStructureType[] $consequences
+     * @param \Calcinai\Siri\Objects\PtConsequenceStructureType[] $consequences
      * @return self
      */
     public function setConsequences(array $consequences)
@@ -1387,7 +1387,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Structured model describing distribution actions to handle situation. Any actions stated completely replace those from Context. If no actions are stated, any actions from general Context are used.
      *
-     * @return \Calcinai\Siri\ActionsStructureType
+     * @return \Calcinai\Siri\Objects\ActionsStructureType
      */
     public function getPublishingActions()
     {
@@ -1399,10 +1399,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Structured model describing distribution actions to handle situation. Any actions stated completely replace those from Context. If no actions are stated, any actions from general Context are used.
      *
-     * @param \Calcinai\Siri\ActionsStructureType $publishingActions
+     * @param \Calcinai\Siri\Objects\ActionsStructureType $publishingActions
      * @return self
      */
-    public function setPublishingActions(\Calcinai\Siri\ActionsStructureType $publishingActions)
+    public function setPublishingActions(\Calcinai\Siri\Objects\ActionsStructureType $publishingActions)
     {
         $this->publishingActions = $publishingActions;
         return $this;
@@ -1413,7 +1413,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Datex2 Situation Record
      *
-     * @return \Calcinai\Siri\Datex\SituationRecordType
+     * @return \Calcinai\Siri\Objects\Datex\SituationRecordType
      */
     public function getSituationRecord()
     {
@@ -1425,10 +1425,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Datex2 Situation Record
      *
-     * @param \Calcinai\Siri\Datex\SituationRecordType $situationRecord
+     * @param \Calcinai\Siri\Objects\Datex\SituationRecordType $situationRecord
      * @return self
      */
-    public function setSituationRecord(\Calcinai\Siri\Datex\SituationRecordType $situationRecord)
+    public function setSituationRecord(\Calcinai\Siri\Objects\Datex\SituationRecordType $situationRecord)
     {
         $this->situationRecord = $situationRecord;
         return $this;
@@ -1437,7 +1437,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -1447,10 +1447,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\TerminateSubscriptionResponseStructureType;
+namespace Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType;
 
 /**
  * Class representing TerminationResponseStatusAType
@@ -49,7 +49,7 @@ class TerminationResponseStatusAType
     /**
      * Description of any error or warning condition.
      *
-     * @property \Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType $errorCondition
+     * @property \Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType $errorCondition
      */
     private $errorCondition = null;
 
@@ -206,7 +206,7 @@ class TerminationResponseStatusAType
      *
      * Description of any error or warning condition.
      *
-     * @return \Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType
+     * @return \Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType
      */
     public function getErrorCondition()
     {
@@ -218,10 +218,10 @@ class TerminationResponseStatusAType
      *
      * Description of any error or warning condition.
      *
-     * @param \Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType $errorCondition
+     * @param \Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType $errorCondition
      * @return self
      */
-    public function setErrorCondition(\Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType $errorCondition)
+    public function setErrorCondition(\Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType $errorCondition)
     {
         $this->errorCondition = $errorCondition;
         return $this;

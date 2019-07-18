@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing VehicleMonitoringDeliveryStructureType
@@ -21,26 +21,26 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
     /**
      * Describes the progress of a vehicle along its route.
      *
-     * @property \Calcinai\Siri\VehicleActivityStructureType $vehicleActivity
+     * @property \Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity
      */
     private $vehicleActivity = null;
 
     /**
      * Reference to an previously communicated vehicle activity which should now be removed from the system.
      *
-     * @property \Calcinai\Siri\VehicleActivityCancellationStructureType $vehicleActivityCancellation
+     * @property \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation
      */
     private $vehicleActivityCancellation = null;
 
     /**
      * Annotation to accompany of Vehicle Activities.
      *
-     * @property \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleActivityNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote
      */
     private $vehicleActivityNote = null;
 
     /**
-     * @property \Calcinai\Siri\Extensions $extensions
+     * @property \Calcinai\Siri\Objects\Extensions $extensions
      */
     private $extensions = null;
 
@@ -75,7 +75,7 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Describes the progress of a vehicle along its route.
      *
-     * @return \Calcinai\Siri\VehicleActivityStructureType
+     * @return \Calcinai\Siri\Objects\VehicleActivityStructureType
      */
     public function getVehicleActivity()
     {
@@ -87,10 +87,10 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Describes the progress of a vehicle along its route.
      *
-     * @param \Calcinai\Siri\VehicleActivityStructureType $vehicleActivity
+     * @param \Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity
      * @return self
      */
-    public function setVehicleActivity(\Calcinai\Siri\VehicleActivityStructureType $vehicleActivity)
+    public function setVehicleActivity(\Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity)
     {
         $this->vehicleActivity = $vehicleActivity;
         return $this;
@@ -101,7 +101,7 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Reference to an previously communicated vehicle activity which should now be removed from the system.
      *
-     * @return \Calcinai\Siri\VehicleActivityCancellationStructureType
+     * @return \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType
      */
     public function getVehicleActivityCancellation()
     {
@@ -113,10 +113,10 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Reference to an previously communicated vehicle activity which should now be removed from the system.
      *
-     * @param \Calcinai\Siri\VehicleActivityCancellationStructureType $vehicleActivityCancellation
+     * @param \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation
      * @return self
      */
-    public function setVehicleActivityCancellation(\Calcinai\Siri\VehicleActivityCancellationStructureType $vehicleActivityCancellation)
+    public function setVehicleActivityCancellation(\Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation)
     {
         $this->vehicleActivityCancellation = $vehicleActivityCancellation;
         return $this;
@@ -127,7 +127,7 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Annotation to accompany of Vehicle Activities.
      *
-     * @return \Calcinai\Siri\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
      */
     public function getVehicleActivityNote()
     {
@@ -139,10 +139,10 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Annotation to accompany of Vehicle Activities.
      *
-     * @param \Calcinai\Siri\NaturalLanguageStringStructureType $vehicleActivityNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote
      * @return self
      */
-    public function setVehicleActivityNote(\Calcinai\Siri\NaturalLanguageStringStructureType $vehicleActivityNote)
+    public function setVehicleActivityNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote)
     {
         $this->vehicleActivityNote = $vehicleActivityNote;
         return $this;
@@ -151,7 +151,7 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
     /**
      * Gets as extensions
      *
-     * @return \Calcinai\Siri\Extensions
+     * @return \Calcinai\Siri\Objects\Extensions
      */
     public function getExtensions()
     {
@@ -161,10 +161,10 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
     /**
      * Sets a new extensions
      *
-     * @param \Calcinai\Siri\Extensions $extensions
+     * @param \Calcinai\Siri\Objects\Extensions $extensions
      * @return self
      */
-    public function setExtensions(\Calcinai\Siri\Extensions $extensions)
+    public function setExtensions(\Calcinai\Siri\Objects\Extensions $extensions)
     {
         $this->extensions = $extensions;
         return $this;

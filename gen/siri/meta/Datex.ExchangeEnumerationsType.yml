@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\ExchangeEnumerationsType:
+Calcinai\Siri\Objects\Datex\ExchangeEnumerationsType:
     properties:
         exchangeEnumerationsExtension:
             expose: true
@@ -9,7 +9,7 @@ Calcinai\Siri\Datex\ExchangeEnumerationsType:
             accessor:
                 getter: getExchangeEnumerationsExtension
                 setter: setExchangeEnumerationsExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType
         denyReasonEnum:
             expose: true
             access_type: public_method

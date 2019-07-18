@@ -1,4 +1,4 @@
-Calcinai\Siri\ServiceCapabilitiesRequestStructureType:
+Calcinai\Siri\Objects\ServiceCapabilitiesRequestStructureType:
     properties:
         version:
             expose: true
@@ -28,4 +28,4 @@ Calcinai\Siri\ServiceCapabilitiesRequestStructureType:
             accessor:
                 getter: getExtensions
                 setter: setExtensions
-            type: Calcinai\Siri\Extensions
+            type: Calcinai\Siri\Objects\Extensions

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType;
+namespace Calcinai\Siri\Objects\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType;
 
 /**
  * Class representing ValueAType

@@ -1,4 +1,4 @@
-Calcinai\Siri\Datex\TPEGJunctionPointDescriptorType:
+Calcinai\Siri\Objects\Datex\TPEGJunctionPointDescriptorType:
     properties:
         tpegDescriptorType:
             expose: true
@@ -19,4 +19,4 @@ Calcinai\Siri\Datex\TPEGJunctionPointDescriptorType:
             accessor:
                 getter: getTpegjunctionPointDescriptorExtension
                 setter: setTpegjunctionPointDescriptorExtension
-            type: Calcinai\Siri\Datex\ExtensionType
+            type: Calcinai\Siri\Objects\Datex\ExtensionType

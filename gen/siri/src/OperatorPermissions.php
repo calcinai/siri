@@ -1,6 +1,6 @@
 <?php
 
-namespace Calcinai\Siri;
+namespace Calcinai\Siri\Objects;
 
 /**
  * Class representing OperatorPermissions
@@ -18,7 +18,7 @@ class OperatorPermissions
     /**
      * Participants permission for this Line
      *
-     * @property \Calcinai\Siri\OperatorPermissionStructureType[] $operatorPermission
+     * @property \Calcinai\Siri\Objects\OperatorPermissionStructureType[] $operatorPermission
      */
     private $operatorPermission = [
         
@@ -52,9 +52,9 @@ class OperatorPermissions
      * Participants permission for this Line
      *
      * @return self
-     * @param \Calcinai\Siri\OperatorPermissionStructureType $operatorPermission
+     * @param \Calcinai\Siri\Objects\OperatorPermissionStructureType $operatorPermission
      */
-    public function addToOperatorPermission(\Calcinai\Siri\OperatorPermissionStructureType $operatorPermission)
+    public function addToOperatorPermission(\Calcinai\Siri\Objects\OperatorPermissionStructureType $operatorPermission)
     {
         $this->operatorPermission[] = $operatorPermission;
         return $this;
@@ -91,7 +91,7 @@ class OperatorPermissions
      *
      * Participants permission for this Line
      *
-     * @return \Calcinai\Siri\OperatorPermissionStructureType[]
+     * @return \Calcinai\Siri\Objects\OperatorPermissionStructureType[]
      */
     public function getOperatorPermission()
     {
@@ -103,7 +103,7 @@ class OperatorPermissions
      *
      * Participants permission for this Line
      *
-     * @param \Calcinai\Siri\OperatorPermissionStructureType[] $operatorPermission
+     * @param \Calcinai\Siri\Objects\OperatorPermissionStructureType[] $operatorPermission
      * @return self
      */
     public function setOperatorPermission(array $operatorPermission)
