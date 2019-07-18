@@ -18,13 +18,11 @@ composer require calcinai/siri
 ```php
 use Calcinai\Siri\Objects\ServiceRequest;
 use Calcinai\Siri\Objects\Siri;
-use Calcinai\Siri\Objects\SubscriptionRequest;
 use Calcinai\Siri\Objects\VehicleMonitoringRequest;
 
 $requestTimestamp = new DateTime();
 
 $siri = new Siri();
-$request = new SubscriptionRequest();
 $request = new ServiceRequest();
 $vmRequest = new VehicleMonitoringRequest();
 
@@ -34,12 +32,6 @@ $siri->setVersion(1.3)
 $vmRequest->setVersion(1.3)
     ->setVehicleRef('3706')
     ->setRequestTimestamp($requestTimestamp);
-
-$subscription->setVehicleMonitoringRequest($vmRequest)
-    ->setIncrementalUpdates(true)
-    ->setUpdateInterval(new DateInterval('PT1S'))
-    ->setSubscriptionIdentifier('1')
-    ->setInitialTerminationTime($requestTimestamp);
 
 $request->setVehicleMonitoringRequest($vmRequest)
     ->setRequestTimestamp($requestTimestamp)
