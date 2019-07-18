@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\ReferenceSettingsType:
+    properties:
+        locationSetReference:
+            expose: true
+            access_type: public_method
+            serialized_name: locationSetReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLocationSetReference
+                setter: setLocationSetReference
+            type: string
+        trafficStatusDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficStatusDefault
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficStatusDefault
+                setter: setTrafficStatusDefault
+            type: string
+        referenceSettingsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceSettingsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferenceSettingsExtension
+                setter: setReferenceSettingsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

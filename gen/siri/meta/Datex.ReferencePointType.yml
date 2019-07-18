@@ -1,0 +1,137 @@
+Calcinai\Siri\Datex\ReferencePointType:
+    properties:
+        referencePointIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePointIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePointIdentifier
+                setter: setReferencePointIdentifier
+            type: string
+        administrativeArea:
+            expose: true
+            access_type: public_method
+            serialized_name: administrativeArea
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAdministrativeArea
+                setter: setAdministrativeArea
+            type: array<Calcinai\Siri\Datex\ReferencePointType\AdministrativeAreaAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        roadName:
+            expose: true
+            access_type: public_method
+            serialized_name: roadName
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadName
+                setter: setRoadName
+            type: array<Calcinai\Siri\Datex\ReferencePointType\RoadNameAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        roadNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: roadNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadNumber
+                setter: setRoadNumber
+            type: string
+        directionBound:
+            expose: true
+            access_type: public_method
+            serialized_name: directionBound
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDirectionBound
+                setter: setDirectionBound
+            type: string
+        directionRelative:
+            expose: true
+            access_type: public_method
+            serialized_name: directionRelative
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDirectionRelative
+                setter: setDirectionRelative
+            type: string
+        distanceFromPrevious:
+            expose: true
+            access_type: public_method
+            serialized_name: distanceFromPrevious
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDistanceFromPrevious
+                setter: setDistanceFromPrevious
+            type: float
+        distanceToNext:
+            expose: true
+            access_type: public_method
+            serialized_name: distanceToNext
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDistanceToNext
+                setter: setDistanceToNext
+            type: float
+        elevatedRoadSection:
+            expose: true
+            access_type: public_method
+            serialized_name: elevatedRoadSection
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getElevatedRoadSection
+                setter: setElevatedRoadSection
+            type: bool
+        referencePointDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePointDescription
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePointDescription
+                setter: setReferencePointDescription
+            type: array<Calcinai\Siri\Datex\ReferencePointType\ReferencePointDescriptionAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        referencePointDistance:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePointDistance
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePointDistance
+                setter: setReferencePointDistance
+            type: float
+        referencePointExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePointExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePointExtension
+                setter: setReferencePointExtension
+            type: Calcinai\Siri\Datex\ExtensionType

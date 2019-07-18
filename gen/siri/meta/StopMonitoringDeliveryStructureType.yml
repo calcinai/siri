@@ -1,0 +1,81 @@
+Calcinai\Siri\StopMonitoringDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        monitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringRef
+                setter: setMonitoringRef
+            type: Calcinai\Siri\MonitoringRefStructureType
+        monitoredStopVisit:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoredStopVisit
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoredStopVisit
+                setter: setMonitoredStopVisit
+            type: Calcinai\Siri\MonitoredStopVisitStructureType
+        monitoredStopVisitCancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoredStopVisitCancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoredStopVisitCancellation
+                setter: setMonitoredStopVisitCancellation
+            type: Calcinai\Siri\MonitoredStopVisitCancellationStructureType
+        stopLineNotice:
+            expose: true
+            access_type: public_method
+            serialized_name: StopLineNotice
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopLineNotice
+                setter: setStopLineNotice
+            type: Calcinai\Siri\StopLineNoticeStructureType
+        stopLineNoticeCancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: StopLineNoticeCancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopLineNoticeCancellation
+                setter: setStopLineNoticeCancellation
+            type: Calcinai\Siri\StopLineNoticeCancellationStructureType
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

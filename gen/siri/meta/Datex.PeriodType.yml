@@ -1,0 +1,75 @@
+Calcinai\Siri\Datex\PeriodType:
+    properties:
+        startOfPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: startOfPeriod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getStartOfPeriod
+                setter: setStartOfPeriod
+            type: Calcinai\Siri\Datex\DateTimeType
+        endOfPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: endOfPeriod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEndOfPeriod
+                setter: setEndOfPeriod
+            type: Calcinai\Siri\Datex\DateTimeType
+        periodName:
+            expose: true
+            access_type: public_method
+            serialized_name: periodName
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPeriodName
+                setter: setPeriodName
+            type: array<Calcinai\Siri\Datex\PeriodType\PeriodNameAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        recurringTimePeriodOfDay:
+            expose: true
+            access_type: public_method
+            serialized_name: recurringTimePeriodOfDay
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRecurringTimePeriodOfDay
+                setter: setRecurringTimePeriodOfDay
+            xml_list:
+                inline: true
+                entry_name: recurringTimePeriodOfDay
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\TimePeriodOfDayType>
+        recurringDayWeekMonthPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: recurringDayWeekMonthPeriod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRecurringDayWeekMonthPeriod
+                setter: setRecurringDayWeekMonthPeriod
+            xml_list:
+                inline: true
+                entry_name: recurringDayWeekMonthPeriod
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\DayWeekMonthType>
+        periodExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: periodExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPeriodExtension
+                setter: setPeriodExtension
+            type: Calcinai\Siri\Datex\ExtensionType

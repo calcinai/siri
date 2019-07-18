@@ -1,0 +1,22 @@
+Calcinai\Siri\PublishToAlertsActionStructureType:
+    properties:
+        byEmail:
+            expose: true
+            access_type: public_method
+            serialized_name: ByEmail
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getByEmail
+                setter: setByEmail
+            type: bool
+        byMobile:
+            expose: true
+            access_type: public_method
+            serialized_name: ByMobile
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getByMobile
+                setter: setByMobile
+            type: bool

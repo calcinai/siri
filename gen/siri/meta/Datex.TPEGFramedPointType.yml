@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\TPEGFramedPointType:
+    properties:
+        tpegLocationType:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegLocationType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegLocationType
+                setter: setTpegLocationType
+            type: string
+        framedPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: framedPoint
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFramedPoint
+                setter: setFramedPoint
+            type: Calcinai\Siri\Datex\TPEGNonJunctionPointType
+        to:
+            expose: true
+            access_type: public_method
+            serialized_name: to
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTo
+                setter: setTo
+            type: Calcinai\Siri\Datex\TPEGPointType
+        from:
+            expose: true
+            access_type: public_method
+            serialized_name: from
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFrom
+                setter: setFrom
+            type: Calcinai\Siri\Datex\TPEGPointType
+        tpegframedPointExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegframedPointExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegframedPointExtension
+                setter: setTpegframedPointExtension
+            type: Calcinai\Siri\Datex\ExtensionType

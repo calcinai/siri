@@ -1,0 +1,41 @@
+Calcinai\Siri\VehicleMonitoringCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        vehicleMonitoringServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringServiceCapabilities
+                setter: setVehicleMonitoringServiceCapabilities
+            type: Calcinai\Siri\VehicleMonitoringServiceCapabilities
+        vehicleMonitoringPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringPermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringPermissions
+                setter: setVehicleMonitoringPermissions
+            type: Calcinai\Siri\VehicleMonitoringPermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

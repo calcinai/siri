@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\TPEGOtherPointDescriptorType:
+    properties:
+        tpegDescriptorType:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegDescriptorType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegDescriptorType
+                setter: setTpegDescriptorType
+            type: string
+        tpegotherPointDescriptorExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegotherPointDescriptorExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegotherPointDescriptorExtension
+                setter: setTpegotherPointDescriptorExtension
+            type: Calcinai\Siri\Datex\ExtensionType

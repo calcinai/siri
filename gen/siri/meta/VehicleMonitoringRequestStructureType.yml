@@ -1,0 +1,91 @@
+Calcinai\Siri\VehicleMonitoringRequestStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        vehicleMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringRef
+                setter: setVehicleMonitoringRef
+            type: Calcinai\Siri\VehicleMonitoringRefStructureType
+        vehicleRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleRef
+                setter: setVehicleRef
+            type: Calcinai\Siri\VehicleRefStructureType
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        directionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionRef
+                setter: setDirectionRef
+            type: Calcinai\Siri\DirectionRefStructureType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        maximumVehicles:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumVehicles
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMaximumVehicles
+                setter: setMaximumVehicles
+            type: int
+        vehicleMonitoringDetailLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringDetailLevel
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringDetailLevel
+                setter: setVehicleMonitoringDetailLevel
+            type: string
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

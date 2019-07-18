@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\TemperatureInformationType:
+    properties:
+        temperature:
+            expose: true
+            access_type: public_method
+            serialized_name: temperature
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTemperature
+                setter: setTemperature
+            type: Calcinai\Siri\Datex\TemperatureType
+        temperatureInformationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: temperatureInformationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTemperatureInformationExtension
+                setter: setTemperatureInformationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,102 @@
+Calcinai\Siri\IFOpt\CheckPointStructureType:
+    properties:
+        checkPointId:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckPointId
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getCheckPointId
+                setter: setCheckPointId
+            type: string
+        validityCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityCondition
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getValidityCondition
+                setter: setValidityCondition
+            type: Calcinai\Siri\IFOpt\ValidityConditionStructureType
+        checkPointProcess:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckPointProcess
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getCheckPointProcess
+                setter: setCheckPointProcess
+            type: string
+        checkPointService:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckPointService
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getCheckPointService
+                setter: setCheckPointService
+            type: string
+        accessFeatureType:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessFeatureType
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getAccessFeatureType
+                setter: setAccessFeatureType
+            type: string
+        congestion:
+            expose: true
+            access_type: public_method
+            serialized_name: Congestion
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getCongestion
+                setter: setCongestion
+            type: string
+        facilityRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityRef
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getFacilityRef
+                setter: setFacilityRef
+            type: string
+        minimumLikelyDelay:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumLikelyDelay
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getMinimumLikelyDelay
+                setter: setMinimumLikelyDelay
+            type: DateInterval
+        averageDelay:
+            expose: true
+            access_type: public_method
+            serialized_name: AverageDelay
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getAverageDelay
+                setter: setAverageDelay
+            type: DateInterval
+        maximumLikelyDelay:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumLikelyDelay
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getMaximumLikelyDelay
+                setter: setMaximumLikelyDelay
+            type: DateInterval

@@ -1,0 +1,3 @@
+Calcinai\Siri\IFOpt\StopPlaceRef:
+    xml_root_name: StopPlaceRef
+    xml_root_namespace: 'http://www.ifopt.org.uk/ifopt'

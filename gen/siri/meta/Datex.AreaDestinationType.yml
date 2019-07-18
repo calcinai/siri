@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\AreaDestinationType:
+    properties:
+        area:
+            expose: true
+            access_type: public_method
+            serialized_name: area
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getArea
+                setter: setArea
+            type: Calcinai\Siri\Datex\AreaType
+        areaDestinationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: areaDestinationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAreaDestinationExtension
+                setter: setAreaDestinationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,41 @@
+Calcinai\Siri\SituationExchangeCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        situationExchangeServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationExchangeServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationExchangeServiceCapabilities
+                setter: setSituationExchangeServiceCapabilities
+            type: Calcinai\Siri\SituationExchangeServiceCapabilities
+        situationExchangePermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationExchangePermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationExchangePermissions
+                setter: setSituationExchangePermissions
+            type: Calcinai\Siri\SituationExchangePermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

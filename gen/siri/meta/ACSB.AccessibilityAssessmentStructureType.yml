@@ -1,0 +1,52 @@
+Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType:
+    properties:
+        mobilityImpairedAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: MobilityImpairedAccess
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getMobilityImpairedAccess
+                setter: setMobilityImpairedAccess
+            type: bool
+        limitations:
+            expose: true
+            access_type: public_method
+            serialized_name: Limitations
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getLimitations
+                setter: setLimitations
+            type: array<Calcinai\Siri\ACSB\AccessibilityLimitationStructureType>
+            xml_list:
+                inline: false
+                entry_name: AccessibilityLimitation
+                skip_when_empty: true
+                namespace: 'http://www.ifopt.org.uk/acsb'
+        suitabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: Suitabilities
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getSuitabilities
+                setter: setSuitabilities
+            type: array<Calcinai\Siri\ACSB\SuitabilityStructureType>
+            xml_list:
+                inline: false
+                entry_name: Suitability
+                skip_when_empty: true
+                namespace: 'http://www.ifopt.org.uk/acsb'
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\IFOpt\Extensions

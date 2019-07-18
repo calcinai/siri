@@ -1,0 +1,22 @@
+Calcinai\Siri\DataSupplyRequestBodyStructureType:
+    properties:
+        notificationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNotificationRef
+                setter: setNotificationRef
+            type: Calcinai\Siri\MessageRefStructureType
+        allData:
+            expose: true
+            access_type: public_method
+            serialized_name: AllData
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllData
+                setter: setAllData
+            type: bool

@@ -1,0 +1,26 @@
+Calcinai\Siri\AffectsScopeStructureType\OperatorsAType:
+    properties:
+        allOperators:
+            expose: true
+            access_type: public_method
+            serialized_name: AllOperators
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllOperators
+                setter: setAllOperators
+            type: string
+        affectedOperator:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedOperator
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedOperator
+                setter: setAffectedOperator
+            xml_list:
+                inline: true
+                entry_name: AffectedOperator
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedOperatorStructureType>

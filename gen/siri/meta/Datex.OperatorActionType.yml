@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\OperatorActionType:
+    properties:
+        actionOrigin:
+            expose: true
+            access_type: public_method
+            serialized_name: actionOrigin
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getActionOrigin
+                setter: setActionOrigin
+            type: string
+        operatorActionStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: operatorActionStatus
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOperatorActionStatus
+                setter: setOperatorActionStatus
+            type: string
+        provisional:
+            expose: true
+            access_type: public_method
+            serialized_name: provisional
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getProvisional
+                setter: setProvisional
+            type: bool
+        operatorActionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: operatorActionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOperatorActionExtension
+                setter: setOperatorActionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

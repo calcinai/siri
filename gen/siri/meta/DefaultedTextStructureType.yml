@@ -1,0 +1,11 @@
+Calcinai\Siri\DefaultedTextStructureType:
+    properties:
+        overridden:
+            expose: true
+            access_type: public_method
+            serialized_name: overridden
+            accessor:
+                getter: getOverridden
+                setter: setOverridden
+            xml_attribute: true
+            type: bool

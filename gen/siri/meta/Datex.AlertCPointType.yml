@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\AlertCPointType:
+    properties:
+        alertCLocationCountryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocationCountryCode
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocationCountryCode
+                setter: setAlertCLocationCountryCode
+            type: string
+        alertCLocationTableNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocationTableNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocationTableNumber
+                setter: setAlertCLocationTableNumber
+            type: string
+        alertCLocationTableVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocationTableVersion
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocationTableVersion
+                setter: setAlertCLocationTableVersion
+            type: string
+        alertCPointExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCPointExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCPointExtension
+                setter: setAlertCPointExtension
+            type: Calcinai\Siri\Datex\ExtensionType

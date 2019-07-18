@@ -1,0 +1,22 @@
+Calcinai\Siri\ConnectionTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
+    properties:
+        filterByLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByLineRef
+                setter: setFilterByLineRef
+            type: bool
+        filterByConnectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByConnectionLinkRef
+                setter: setFilterByConnectionLinkRef
+            type: bool

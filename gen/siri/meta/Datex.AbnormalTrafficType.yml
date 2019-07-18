@@ -1,0 +1,62 @@
+Calcinai\Siri\Datex\AbnormalTrafficType:
+    properties:
+        abnormalTrafficType:
+            expose: true
+            access_type: public_method
+            serialized_name: abnormalTrafficType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAbnormalTrafficType
+                setter: setAbnormalTrafficType
+            type: string
+        numberOfVehiclesWaiting:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfVehiclesWaiting
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfVehiclesWaiting
+                setter: setNumberOfVehiclesWaiting
+            type: int
+        queueLength:
+            expose: true
+            access_type: public_method
+            serialized_name: queueLength
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getQueueLength
+                setter: setQueueLength
+            type: int
+        relativeTrafficFlow:
+            expose: true
+            access_type: public_method
+            serialized_name: relativeTrafficFlow
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRelativeTrafficFlow
+                setter: setRelativeTrafficFlow
+            type: string
+        trafficTrendType:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficTrendType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficTrendType
+                setter: setTrafficTrendType
+            type: string
+        abnormalTrafficExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: abnormalTrafficExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAbnormalTrafficExtension
+                setter: setAbnormalTrafficExtension
+            type: Calcinai\Siri\Datex\ExtensionType

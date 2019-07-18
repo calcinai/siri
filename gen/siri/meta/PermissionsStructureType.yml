@@ -1,0 +1,12 @@
+Calcinai\Siri\PermissionsStructureType:
+    properties:
+        permissionVersionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: PermissionVersionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPermissionVersionRef
+                setter: setPermissionVersionRef
+            type: Calcinai\Siri\VersionRefStructureType

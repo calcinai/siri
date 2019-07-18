@@ -1,0 +1,18 @@
+xsd2php:
+  namespaces:
+    'http://www.siri.org.uk/siri': 'Calcinai\Siri'
+    'http://www.ifopt.org.uk/ifopt': 'Calcinai\Siri\IFOpt'
+    'http://www.ifopt.org.uk/acsb': 'Calcinai\Siri\ACSB'
+    'http://datex2.eu/schema/1_0/1_0': 'Calcinai\Siri\Datex'
+  destinations_php:
+    'Calcinai\Siri': gen/siri/src
+    'Calcinai\Siri\IFOpt': gen/ifopt/src
+    'Calcinai\Siri\ACSB': gen/acsb/src
+    'Calcinai\Siri\Datex': gen/datex/src
+  destinations_jms:
+    'Calcinai\Siri': gen/siri/meta
+    'Calcinai\Siri\IFOpt': gen/ifopt/meta
+    'Calcinai\Siri\ACSB': gen/acsb/meta
+    'Calcinai\Siri\Datex': gen/datex/meta
+  aliases:
+    'http://www.siri.org.uk/siri':

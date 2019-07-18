@@ -1,0 +1,22 @@
+Calcinai\Siri\BoardingStructureType:
+    properties:
+        arrivalBoardingActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalBoardingActivity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getArrivalBoardingActivity
+                setter: setArrivalBoardingActivity
+            type: string
+        departureBoardingActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureBoardingActivity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDepartureBoardingActivity
+                setter: setDepartureBoardingActivity
+            type: string

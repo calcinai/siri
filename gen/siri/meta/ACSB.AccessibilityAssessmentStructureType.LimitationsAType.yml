@@ -1,0 +1,16 @@
+Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType\LimitationsAType:
+    properties:
+        accessibilityLimitation:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessibilityLimitation
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getAccessibilityLimitation
+                setter: setAccessibilityLimitation
+            xml_list:
+                inline: true
+                entry_name: AccessibilityLimitation
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            type: array<Calcinai\Siri\ACSB\AccessibilityLimitationStructureType>

@@ -1,0 +1,222 @@
+Calcinai\Siri\Datex\NtoRType:
+    properties:
+        precipitationTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: precipitationTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPrecipitationTypeEnum
+                setter: setPrecipitationTypeEnum
+            type: string
+        poorRoadInfrastructureEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: poorRoadInfrastructureEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPoorRoadInfrastructureEnum
+                setter: setPoorRoadInfrastructureEnum
+            type: string
+        roadMaintenanceTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: roadMaintenanceTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadMaintenanceTypeEnum
+                setter: setRoadMaintenanceTypeEnum
+            type: string
+        ntoRExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: ntoRExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNtoRExtension
+                setter: setNtoRExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        roadsideAssistanceTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: roadsideAssistanceTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadsideAssistanceTypeEnum
+                setter: setRoadsideAssistanceTypeEnum
+            type: string
+        publicEventTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: publicEventTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPublicEventTypeEnum
+                setter: setPublicEventTypeEnum
+            type: string
+        roadworksScaleEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: roadworksScaleEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadworksScaleEnum
+                setter: setRoadworksScaleEnum
+            type: string
+        operatorActionStatusEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: operatorActionStatusEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOperatorActionStatusEnum
+                setter: setOperatorActionStatusEnum
+            type: string
+        overallImpactEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: overallImpactEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOverallImpactEnum
+                setter: setOverallImpactEnum
+            type: string
+        probabilityOfOccurrenceEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: probabilityOfOccurrenceEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getProbabilityOfOccurrenceEnum
+                setter: setProbabilityOfOccurrenceEnum
+            type: string
+        networkManagementTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: networkManagementTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNetworkManagementTypeEnum
+                setter: setNetworkManagementTypeEnum
+            type: string
+        periodByPhaseOfDayEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: periodByPhaseOfDayEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPeriodByPhaseOfDayEnum
+                setter: setPeriodByPhaseOfDayEnum
+            type: string
+        placesAdviceEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: placesAdviceEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPlacesAdviceEnum
+                setter: setPlacesAdviceEnum
+            type: string
+        roadworksDurationEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: roadworksDurationEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadworksDurationEnum
+                setter: setRoadworksDurationEnum
+            type: string
+        relativeTrafficFlowEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: relativeTrafficFlowEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRelativeTrafficFlowEnum
+                setter: setRelativeTrafficFlowEnum
+            type: string
+        obstructionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: obstructionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getObstructionTypeEnum
+                setter: setObstructionTypeEnum
+            type: string
+        reroutingTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: reroutingTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReroutingTypeEnum
+                setter: setReroutingTypeEnum
+            type: string
+        poorEnvironmentTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: poorEnvironmentTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPoorEnvironmentTypeEnum
+                setter: setPoorEnvironmentTypeEnum
+            type: string
+        personCategoryEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: personCategoryEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPersonCategoryEnum
+                setter: setPersonCategoryEnum
+            type: string
+        pollutantTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: pollutantTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPollutantTypeEnum
+                setter: setPollutantTypeEnum
+            type: string
+        operatorActionOriginEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: operatorActionOriginEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOperatorActionOriginEnum
+                setter: setOperatorActionOriginEnum
+            type: string
+        nonWeatherRelatedRoadConditionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: nonWeatherRelatedRoadConditionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNonWeatherRelatedRoadConditionTypeEnum
+                setter: setNonWeatherRelatedRoadConditionTypeEnum
+            type: string

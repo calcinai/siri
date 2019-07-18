@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TrafficSpeedType:
+    properties:
+        averageVehicleSpeed:
+            expose: true
+            access_type: public_method
+            serialized_name: averageVehicleSpeed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAverageVehicleSpeed
+                setter: setAverageVehicleSpeed
+            type: float
+        speedPercentile:
+            expose: true
+            access_type: public_method
+            serialized_name: speedPercentile
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSpeedPercentile
+                setter: setSpeedPercentile
+            type: Calcinai\Siri\Datex\SpeedPercentileType
+        trafficSpeedExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficSpeedExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficSpeedExtension
+                setter: setTrafficSpeedExtension
+            type: Calcinai\Siri\Datex\ExtensionType

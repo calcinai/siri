@@ -1,0 +1,46 @@
+Calcinai\Siri\Datex\MeasuredDataPublicationType:
+    properties:
+        measurementSiteTableReference:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSiteTableReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSiteTableReference
+                setter: setMeasurementSiteTableReference
+            type: string
+        headerInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: headerInformation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeaderInformation
+                setter: setHeaderInformation
+            type: Calcinai\Siri\Datex\HeaderInformationType
+        siteMeasurements:
+            expose: true
+            access_type: public_method
+            serialized_name: siteMeasurements
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSiteMeasurements
+                setter: setSiteMeasurements
+            xml_list:
+                inline: true
+                entry_name: siteMeasurements
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\SiteMeasurementsType>
+        measuredDataPublicationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: measuredDataPublicationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasuredDataPublicationExtension
+                setter: setMeasuredDataPublicationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

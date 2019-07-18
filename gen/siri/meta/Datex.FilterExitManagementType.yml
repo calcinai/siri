@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\FilterExitManagementType:
+    properties:
+        filterEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: filterEnd
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterEnd
+                setter: setFilterEnd
+            type: bool
+        filterOutOfRange:
+            expose: true
+            access_type: public_method
+            serialized_name: filterOutOfRange
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterOutOfRange
+                setter: setFilterOutOfRange
+            type: bool
+        filterExitManagementExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: filterExitManagementExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterExitManagementExtension
+                setter: setFilterExitManagementExtension
+            type: Calcinai\Siri\Datex\ExtensionType

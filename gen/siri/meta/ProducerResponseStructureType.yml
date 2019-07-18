@@ -1,0 +1,42 @@
+Calcinai\Siri\ProducerResponseStructureType:
+    properties:
+        producerRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ProducerRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProducerRef
+                setter: setProducerRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: string
+        responseMessageIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseMessageIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getResponseMessageIdentifier
+                setter: setResponseMessageIdentifier
+            type: Calcinai\Siri\MessageQualifierStructureType
+        requestMessageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestMessageRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestMessageRef
+                setter: setRequestMessageRef
+            type: Calcinai\Siri\MessageRefStructureType

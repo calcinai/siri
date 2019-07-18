@@ -1,0 +1,36 @@
+Calcinai\Siri\CapabilityRequestPolicyStructureType:
+    properties:
+        nationalLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: NationalLanguage
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNationalLanguage
+                setter: setNationalLanguage
+            xml_list:
+                inline: true
+                entry_name: NationalLanguage
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
+        gmlCoordinateFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: GmlCoordinateFormat
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGmlCoordinateFormat
+                setter: setGmlCoordinateFormat
+            type: string
+        wgsDecimalDegrees:
+            expose: true
+            access_type: public_method
+            serialized_name: WgsDecimalDegrees
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getWgsDecimalDegrees
+                setter: setWgsDecimalDegrees
+            type: string

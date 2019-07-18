@@ -1,0 +1,22 @@
+Calcinai\Siri\IFOpt\FeatureRefStructureType:
+    properties:
+        featureIdRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FeatureIdRef
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getFeatureIdRef
+                setter: setFeatureIdRef
+            type: Calcinai\Siri\IFOpt\FeatureIdRefStructureType
+        featureType:
+            expose: true
+            access_type: public_method
+            serialized_name: FeatureType
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getFeatureType
+                setter: setFeatureType
+            type: string

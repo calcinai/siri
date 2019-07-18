@@ -1,0 +1,27 @@
+Calcinai\Siri\IFOpt\DataManagedObjectStructureType:
+    properties:
+        managedByAreaRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ManagedByAreaRef
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getManagedByAreaRef
+                setter: setManagedByAreaRef
+            type: Calcinai\Siri\IFOpt\AdministrativeAreaRefStructureType
+        infoLinks:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoLinks
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getInfoLinks
+                setter: setInfoLinks
+            type: array<Calcinai\Siri\IFOpt\InfoLink>
+            xml_list:
+                inline: false
+                entry_name: InfoLink
+                skip_when_empty: true
+                namespace: 'http://www.ifopt.org.uk/ifopt'

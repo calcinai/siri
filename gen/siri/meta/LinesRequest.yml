@@ -1,0 +1,3 @@
+Calcinai\Siri\LinesRequest:
+    xml_root_name: LinesRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

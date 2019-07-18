@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TrafficHeadwayType:
+    properties:
+        averageDistanceHeadway:
+            expose: true
+            access_type: public_method
+            serialized_name: averageDistanceHeadway
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAverageDistanceHeadway
+                setter: setAverageDistanceHeadway
+            type: float
+        averageTimeHeadway:
+            expose: true
+            access_type: public_method
+            serialized_name: averageTimeHeadway
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAverageTimeHeadway
+                setter: setAverageTimeHeadway
+            type: float
+        trafficHeadwayExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficHeadwayExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficHeadwayExtension
+                setter: setTrafficHeadwayExtension
+            type: Calcinai\Siri\Datex\ExtensionType

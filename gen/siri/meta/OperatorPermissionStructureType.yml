@@ -1,0 +1,12 @@
+Calcinai\Siri\OperatorPermissionStructureType:
+    properties:
+        operatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorRef
+                setter: setOperatorRef
+            type: Calcinai\Siri\OperatorRefStructureType

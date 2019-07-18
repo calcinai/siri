@@ -1,0 +1,27 @@
+Calcinai\Siri\Datex\TPEGDescriptorType:
+    properties:
+        descriptor:
+            expose: true
+            access_type: public_method
+            serialized_name: descriptor
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDescriptor
+                setter: setDescriptor
+            type: array<Calcinai\Siri\Datex\TPEGDescriptorType\DescriptorAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: false
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        tpegdescriptorExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegdescriptorExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegdescriptorExtension
+                setter: setTpegdescriptorExtension
+            type: Calcinai\Siri\Datex\ExtensionType

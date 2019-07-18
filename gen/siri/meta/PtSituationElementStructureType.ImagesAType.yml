@@ -1,0 +1,16 @@
+Calcinai\Siri\PtSituationElementStructureType\ImagesAType:
+    properties:
+        image:
+            expose: true
+            access_type: public_method
+            serialized_name: Image
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImage
+                setter: setImage
+            xml_list:
+                inline: true
+                entry_name: Image
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType>

@@ -1,0 +1,102 @@
+Calcinai\Siri\TargetedInterchangeStructureType:
+    properties:
+        interchangeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InterchangeCode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterchangeCode
+                setter: setInterchangeCode
+            type: string
+        distributorVehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorVehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorVehicleJourneyRef
+                setter: setDistributorVehicleJourneyRef
+            type: Calcinai\Siri\DatedVehicleJourneyRefStructureType
+        distributorConnectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorConnectionLinkRef
+                setter: setDistributorConnectionLinkRef
+            type: Calcinai\Siri\ConnectionLinkRefStructureType
+        distributorConnectionLink:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorConnectionLink
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorConnectionLink
+                setter: setDistributorConnectionLink
+            type: Calcinai\Siri\ContextualisedConnectionLinkStructureType
+        distributorVisitNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorVisitNumber
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorVisitNumber
+                setter: setDistributorVisitNumber
+            type: int
+        distributorOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorOrder
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorOrder
+                setter: setDistributorOrder
+            type: int
+        staySeated:
+            expose: true
+            access_type: public_method
+            serialized_name: StaySeated
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStaySeated
+                setter: setStaySeated
+            type: bool
+        guaranteed:
+            expose: true
+            access_type: public_method
+            serialized_name: Guaranteed
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGuaranteed
+                setter: setGuaranteed
+            type: bool
+        advertised:
+            expose: true
+            access_type: public_method
+            serialized_name: Advertised
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAdvertised
+                setter: setAdvertised
+            type: bool
+        maximumWaitTime:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumWaitTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMaximumWaitTime
+                setter: setMaximumWaitTime
+            type: DateInterval

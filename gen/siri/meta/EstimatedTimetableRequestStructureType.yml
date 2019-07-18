@@ -1,0 +1,76 @@
+Calcinai\Siri\EstimatedTimetableRequestStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        previewInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviewInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPreviewInterval
+                setter: setPreviewInterval
+            type: DateInterval
+        timetableVersionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: TimetableVersionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTimetableVersionRef
+                setter: setTimetableVersionRef
+            type: Calcinai\Siri\VersionRefStructureType
+        operatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorRef
+                setter: setOperatorRef
+            type: Calcinai\Siri\OperatorRefStructureType
+        lines:
+            expose: true
+            access_type: public_method
+            serialized_name: Lines
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLines
+                setter: setLines
+            type: array<Calcinai\Siri\LineDirectionStructureType>
+            xml_list:
+                inline: false
+                entry_name: LineDirection
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

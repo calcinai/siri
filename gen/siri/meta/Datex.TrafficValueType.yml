@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\TrafficValueType:
+    properties:
+        vehicleCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleCharacteristics
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleCharacteristics
+                setter: setVehicleCharacteristics
+            type: Calcinai\Siri\Datex\VehicleCharacteristicsType
+        trafficValueExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficValueExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficValueExtension
+                setter: setTrafficValueExtension
+            type: Calcinai\Siri\Datex\ExtensionType

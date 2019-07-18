@@ -1,0 +1,42 @@
+Calcinai\Siri\FacilityStatusStructureType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        accessibilityAssessment:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessibilityAssessment
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessibilityAssessment
+                setter: setAccessibilityAssessment
+            type: Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

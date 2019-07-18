@@ -1,0 +1,152 @@
+Calcinai\Siri\StopMonitoringFilterStructureType:
+    properties:
+        previewInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviewInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPreviewInterval
+                setter: setPreviewInterval
+            type: DateInterval
+        startTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStartTime
+                setter: setStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        monitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringRef
+                setter: setMonitoringRef
+            type: Calcinai\Siri\MonitoringRefStructureType
+        operatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorRef
+                setter: setOperatorRef
+            type: Calcinai\Siri\OperatorRefStructureType
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        directionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionRef
+                setter: setDirectionRef
+            type: Calcinai\Siri\DirectionRefStructureType
+        destinationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationRef
+                setter: setDestinationRef
+            type: Calcinai\Siri\DestinationRefStructureType
+        stopVisitTypes:
+            expose: true
+            access_type: public_method
+            serialized_name: StopVisitTypes
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopVisitTypes
+                setter: setStopVisitTypes
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        maximumStopVisits:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumStopVisits
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMaximumStopVisits
+                setter: setMaximumStopVisits
+            type: int
+        minimumStopVisitsPerLine:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumStopVisitsPerLine
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMinimumStopVisitsPerLine
+                setter: setMinimumStopVisitsPerLine
+            type: int
+        maximumTextLength:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumTextLength
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMaximumTextLength
+                setter: setMaximumTextLength
+            type: int
+        stopMonitoringDetailLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitoringDetailLevel
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitoringDetailLevel
+                setter: setStopMonitoringDetailLevel
+            type: string
+        maximumNumberOfCalls:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumNumberOfCalls
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMaximumNumberOfCalls
+                setter: setMaximumNumberOfCalls
+            type: Calcinai\Siri\StopMonitoringRequestStructureType\MaximumNumberOfCallsAType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,64 @@
+Calcinai\Siri\Datex\ActivitiesType:
+    properties:
+        authorityOperationType:
+            expose: true
+            access_type: public_method
+            serialized_name: authorityOperationType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAuthorityOperationType
+                setter: setAuthorityOperationType
+            xml_list:
+                inline: true
+                entry_name: authorityOperationType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        disturbanceActivityType:
+            expose: true
+            access_type: public_method
+            serialized_name: disturbanceActivityType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDisturbanceActivityType
+                setter: setDisturbanceActivityType
+            xml_list:
+                inline: true
+                entry_name: disturbanceActivityType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        publicEventType:
+            expose: true
+            access_type: public_method
+            serialized_name: publicEventType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPublicEventType
+                setter: setPublicEventType
+            xml_list:
+                inline: true
+                entry_name: publicEventType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        mobilityOfActivities:
+            expose: true
+            access_type: public_method
+            serialized_name: mobilityOfActivities
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMobilityOfActivities
+                setter: setMobilityOfActivities
+            type: Calcinai\Siri\Datex\MobilityType
+        activitiesExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: activitiesExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getActivitiesExtension
+                setter: setActivitiesExtension
+            type: Calcinai\Siri\Datex\ExtensionType

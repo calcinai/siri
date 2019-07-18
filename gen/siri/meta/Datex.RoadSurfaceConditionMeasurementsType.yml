@@ -1,0 +1,72 @@
+Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType:
+    properties:
+        deIcingApplicationRate:
+            expose: true
+            access_type: public_method
+            serialized_name: deIcingApplicationRate
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDeIcingApplicationRate
+                setter: setDeIcingApplicationRate
+            type: float
+        deIcingConcentration:
+            expose: true
+            access_type: public_method
+            serialized_name: deIcingConcentration
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDeIcingConcentration
+                setter: setDeIcingConcentration
+            type: float
+        depthOfSnow:
+            expose: true
+            access_type: public_method
+            serialized_name: depthOfSnow
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDepthOfSnow
+                setter: setDepthOfSnow
+            type: float
+        protectionTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: protectionTemperature
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getProtectionTemperature
+                setter: setProtectionTemperature
+            type: float
+        roadSurfaceTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: roadSurfaceTemperature
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadSurfaceTemperature
+                setter: setRoadSurfaceTemperature
+            type: float
+        waterFilmThickness:
+            expose: true
+            access_type: public_method
+            serialized_name: waterFilmThickness
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWaterFilmThickness
+                setter: setWaterFilmThickness
+            type: float
+        roadSurfaceConditionMeasurementsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: roadSurfaceConditionMeasurementsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadSurfaceConditionMeasurementsExtension
+                setter: setRoadSurfaceConditionMeasurementsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

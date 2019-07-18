@@ -1,0 +1,292 @@
+Calcinai\Siri\EstimatedCallStructureType:
+    properties:
+        stopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointRef
+                setter: setStopPointRef
+            type: Calcinai\Siri\StopPointRef
+        visitNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: VisitNumber
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVisitNumber
+                setter: setVisitNumber
+            type: Calcinai\Siri\VisitNumber
+        order:
+            expose: true
+            access_type: public_method
+            serialized_name: Order
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOrder
+                setter: setOrder
+            type: int
+        stopPointName:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointName
+                setter: setStopPointName
+            type: Calcinai\Siri\StopPointName
+        extraCall:
+            expose: true
+            access_type: public_method
+            serialized_name: ExtraCall
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtraCall
+                setter: setExtraCall
+            type: bool
+        cancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: Cancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCancellation
+                setter: setCancellation
+            type: bool
+        predictionInaccurate:
+            expose: true
+            access_type: public_method
+            serialized_name: PredictionInaccurate
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPredictionInaccurate
+                setter: setPredictionInaccurate
+            type: bool
+        occupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: Occupancy
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOccupancy
+                setter: setOccupancy
+            type: string
+        timingPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: TimingPoint
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTimingPoint
+                setter: setTimingPoint
+            type: bool
+        boardingStretch:
+            expose: true
+            access_type: public_method
+            serialized_name: BoardingStretch
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getBoardingStretch
+                setter: setBoardingStretch
+            type: bool
+        requestStop:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestStop
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestStop
+                setter: setRequestStop
+            type: bool
+        destinationDisplay:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationDisplay
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationDisplay
+                setter: setDestinationDisplay
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        callNote:
+            expose: true
+            access_type: public_method
+            serialized_name: CallNote
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCallNote
+                setter: setCallNote
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        facilityConditionElement:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityConditionElement
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityConditionElement
+                setter: setFacilityConditionElement
+            type: Calcinai\Siri\FacilityConditionElement
+        facilityChangeElement:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityChangeElement
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityChangeElement
+                setter: setFacilityChangeElement
+            type: Calcinai\Siri\FacilityChangeElement
+        situationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRef
+                setter: setSituationRef
+            type: Calcinai\Siri\SituationRef
+        aimedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedArrivalTime
+                setter: setAimedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        expectedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExpectedArrivalTime
+                setter: setExpectedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        arrivalStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalStatus
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getArrivalStatus
+                setter: setArrivalStatus
+            type: Calcinai\Siri\ArrivalStatus
+        arrivalPlatformName:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalPlatformName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getArrivalPlatformName
+                setter: setArrivalPlatformName
+            type: Calcinai\Siri\ArrivalPlatformName
+        arrivalBoardingActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: ArrivalBoardingActivity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getArrivalBoardingActivity
+                setter: setArrivalBoardingActivity
+            type: Calcinai\Siri\ArrivalBoardingActivity
+        aimedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedDepartureTime
+                setter: setAimedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        expectedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExpectedDepartureTime
+                setter: setExpectedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        departureStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureStatus
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDepartureStatus
+                setter: setDepartureStatus
+            type: Calcinai\Siri\DepartureStatus
+        departurePlatformName:
+            expose: true
+            access_type: public_method
+            serialized_name: DeparturePlatformName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDeparturePlatformName
+                setter: setDeparturePlatformName
+            type: Calcinai\Siri\DeparturePlatformName
+        departureBoardingActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: DepartureBoardingActivity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDepartureBoardingActivity
+                setter: setDepartureBoardingActivity
+            type: Calcinai\Siri\DepartureBoardingActivity
+        aimedHeadwayInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedHeadwayInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedHeadwayInterval
+                setter: setAimedHeadwayInterval
+            type: Calcinai\Siri\AimedHeadwayInterval
+        expectedHeadwayInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedHeadwayInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExpectedHeadwayInterval
+                setter: setExpectedHeadwayInterval
+            type: Calcinai\Siri\ExpectedHeadwayInterval
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

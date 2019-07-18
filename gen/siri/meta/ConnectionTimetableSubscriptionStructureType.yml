@@ -1,0 +1,12 @@
+Calcinai\Siri\ConnectionTimetableSubscriptionStructureType:
+    properties:
+        connectionTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionTimetableRequest
+                setter: setConnectionTimetableRequest
+            type: Calcinai\Siri\ConnectionTimetableRequest

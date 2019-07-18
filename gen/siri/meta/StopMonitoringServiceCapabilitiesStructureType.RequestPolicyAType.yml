@@ -1,0 +1,62 @@
+Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
+    properties:
+        hasDetailLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: HasDetailLevel
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasDetailLevel
+                setter: setHasDetailLevel
+            type: bool
+        defaultDetailLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultDetailLevel
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDefaultDetailLevel
+                setter: setDefaultDetailLevel
+            type: string
+        hasMaximumVisits:
+            expose: true
+            access_type: public_method
+            serialized_name: HasMaximumVisits
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasMaximumVisits
+                setter: setHasMaximumVisits
+            type: bool
+        hasMinimumVisitsPerLine:
+            expose: true
+            access_type: public_method
+            serialized_name: HasMinimumVisitsPerLine
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasMinimumVisitsPerLine
+                setter: setHasMinimumVisitsPerLine
+            type: bool
+        hasNumberOfOnwardsCalls:
+            expose: true
+            access_type: public_method
+            serialized_name: HasNumberOfOnwardsCalls
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasNumberOfOnwardsCalls
+                setter: setHasNumberOfOnwardsCalls
+            type: bool
+        hasNumberOfPreviousCalls:
+            expose: true
+            access_type: public_method
+            serialized_name: HasNumberOfPreviousCalls
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasNumberOfPreviousCalls
+                setter: setHasNumberOfPreviousCalls
+            type: bool

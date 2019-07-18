@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectedRouteStructureType\SectionsAType:
+    properties:
+        affectedSection:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedSection
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedSection
+                setter: setAffectedSection
+            xml_list:
+                inline: true
+                entry_name: AffectedSection
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedSectionStructureType>

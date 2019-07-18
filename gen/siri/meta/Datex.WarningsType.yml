@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\WarningsType:
+    properties:
+        warningAdvice:
+            expose: true
+            access_type: public_method
+            serialized_name: warningAdvice
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWarningAdvice
+                setter: setWarningAdvice
+            type: string
+        warningsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: warningsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWarningsExtension
+                setter: setWarningsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

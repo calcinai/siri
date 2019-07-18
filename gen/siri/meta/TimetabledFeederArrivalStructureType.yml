@@ -1,0 +1,292 @@
+Calcinai\Siri\TimetabledFeederArrivalStructureType:
+    properties:
+        feederJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: FeederJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFeederJourney
+                setter: setFeederJourney
+            type: Calcinai\Siri\InterchangeJourneyStructureType
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        directionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionRef
+                setter: setDirectionRef
+            type: Calcinai\Siri\DirectionRefStructureType
+        framedVehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FramedVehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFramedVehicleJourneyRef
+                setter: setFramedVehicleJourneyRef
+            type: Calcinai\Siri\FramedVehicleJourneyRefStructureType
+        journeyPatternRef:
+            expose: true
+            access_type: public_method
+            serialized_name: JourneyPatternRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getJourneyPatternRef
+                setter: setJourneyPatternRef
+            type: Calcinai\Siri\JourneyPatternRefStructureType
+        vehicleMode:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMode
+                setter: setVehicleMode
+            type: string
+        routeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RouteRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRouteRef
+                setter: setRouteRef
+            type: Calcinai\Siri\RouteRefStructureType
+        publishedLineName:
+            expose: true
+            access_type: public_method
+            serialized_name: PublishedLineName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublishedLineName
+                setter: setPublishedLineName
+            type: Calcinai\Siri\PublishedLineName
+        directionName:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionName
+                setter: setDirectionName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        externalLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExternalLineRef
+                setter: setExternalLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        operatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorRef
+                setter: setOperatorRef
+            type: Calcinai\Siri\OperatorRefStructureType
+        productCategoryRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductCategoryRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductCategoryRef
+                setter: setProductCategoryRef
+            type: Calcinai\Siri\ProductCategoryRefStructureType
+        serviceFeatureRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceFeatureRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceFeatureRef
+                setter: setServiceFeatureRef
+            type: Calcinai\Siri\ServiceFeatureRef
+        vehicleFeatureRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleFeatureRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleFeatureRef
+                setter: setVehicleFeatureRef
+            type: Calcinai\Siri\VehicleFeatureRefStructureType
+        originName:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOriginName
+                setter: setOriginName
+            type: Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+        originShortName:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginShortName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOriginShortName
+                setter: setOriginShortName
+            type: Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+        destinationName:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationName
+                setter: setDestinationName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        destinationShortName:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationShortName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationShortName
+                setter: setDestinationShortName
+            type: Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+        journeyNote:
+            expose: true
+            access_type: public_method
+            serialized_name: JourneyNote
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getJourneyNote
+                setter: setJourneyNote
+            type: Calcinai\Siri\JourneyNote
+        headwayService:
+            expose: true
+            access_type: public_method
+            serialized_name: HeadwayService
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHeadwayService
+                setter: setHeadwayService
+            type: bool
+        originAimedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginAimedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOriginAimedDepartureTime
+                setter: setOriginAimedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        destinationAimedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationAimedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationAimedArrivalTime
+                setter: setDestinationAimedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        blockRef:
+            expose: true
+            access_type: public_method
+            serialized_name: BlockRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getBlockRef
+                setter: setBlockRef
+            type: Calcinai\Siri\BlockRefStructureType
+        courseOfJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CourseOfJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCourseOfJourneyRef
+                setter: setCourseOfJourneyRef
+            type: Calcinai\Siri\CourseOfJourneyStructureType
+        vehicleRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleRef
+                setter: setVehicleRef
+            type: Calcinai\Siri\VehicleRefStructureType
+        monitored:
+            expose: true
+            access_type: public_method
+            serialized_name: Monitored
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitored
+                setter: setMonitored
+            type: bool
+        aimedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedDepartureTime
+                setter: setAimedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        aimedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedArrivalTime
+                setter: setAimedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

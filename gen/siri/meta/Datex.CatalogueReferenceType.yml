@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\CatalogueReferenceType:
+    properties:
+        keyCatalogueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: keyCatalogueReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getKeyCatalogueReference
+                setter: setKeyCatalogueReference
+            type: string
+        catalogueReferenceExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: catalogueReferenceExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCatalogueReferenceExtension
+                setter: setCatalogueReferenceExtension
+            type: Calcinai\Siri\Datex\ExtensionType

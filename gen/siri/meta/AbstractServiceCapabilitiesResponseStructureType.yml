@@ -1,0 +1,32 @@
+Calcinai\Siri\AbstractServiceCapabilitiesResponseStructureType:
+    properties:
+        requestMessageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestMessageRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestMessageRef
+                setter: setRequestMessageRef
+            type: Calcinai\Siri\MessageQualifierStructureType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: bool
+        errorCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorCondition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getErrorCondition
+                setter: setErrorCondition
+            type: Calcinai\Siri\ServiceDeliveryErrorConditionStructureType

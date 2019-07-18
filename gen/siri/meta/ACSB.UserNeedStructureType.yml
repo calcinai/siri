@@ -1,0 +1,72 @@
+Calcinai\Siri\ACSB\UserNeedStructureType:
+    properties:
+        mobilityNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: MobilityNeed
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getMobilityNeed
+                setter: setMobilityNeed
+            type: string
+        psychosensoryNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: PsychosensoryNeed
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getPsychosensoryNeed
+                setter: setPsychosensoryNeed
+            type: string
+        medicalNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: MedicalNeed
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getMedicalNeed
+                setter: setMedicalNeed
+            type: string
+        encumbranceNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: EncumbranceNeed
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getEncumbranceNeed
+                setter: setEncumbranceNeed
+            type: string
+        excluded:
+            expose: true
+            access_type: public_method
+            serialized_name: Excluded
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getExcluded
+                setter: setExcluded
+            type: bool
+        needRanking:
+            expose: true
+            access_type: public_method
+            serialized_name: NeedRanking
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getNeedRanking
+                setter: setNeedRanking
+            type: int
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: \AnyType

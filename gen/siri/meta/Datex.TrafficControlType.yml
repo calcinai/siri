@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TrafficControlType:
+    properties:
+        trafficControlOptions:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficControlOptions
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficControlOptions
+                setter: setTrafficControlOptions
+            type: string
+        trafficControlType:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficControlType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficControlType
+                setter: setTrafficControlType
+            type: string
+        trafficControlExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficControlExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficControlExtension
+                setter: setTrafficControlExtension
+            type: Calcinai\Siri\Datex\ExtensionType

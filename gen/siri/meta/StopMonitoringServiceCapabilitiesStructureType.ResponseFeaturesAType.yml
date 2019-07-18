@@ -1,0 +1,12 @@
+Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType:
+    properties:
+        hasLineNotices:
+            expose: true
+            access_type: public_method
+            serialized_name: HasLineNotices
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasLineNotices
+                setter: setHasLineNotices
+            type: bool

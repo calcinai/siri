@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\IndividualVehicleMeasurementsType:
+    properties:
+        vehicleSpeed:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleSpeed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleSpeed
+                setter: setVehicleSpeed
+            type: Calcinai\Siri\Datex\VehicleSpeedType
+        vehicleDetectionTime:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleDetectionTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleDetectionTime
+                setter: setVehicleDetectionTime
+            type: Calcinai\Siri\Datex\VehicleDetectionTimeType
+        vehicleHeadway:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleHeadway
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleHeadway
+                setter: setVehicleHeadway
+            type: Calcinai\Siri\Datex\VehicleHeadwayType
+        individualVehicleMeasurementsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: individualVehicleMeasurementsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getIndividualVehicleMeasurementsExtension
+                setter: setIndividualVehicleMeasurementsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

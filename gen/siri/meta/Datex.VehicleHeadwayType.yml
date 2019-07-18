@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\VehicleHeadwayType:
+    properties:
+        distanceGap:
+            expose: true
+            access_type: public_method
+            serialized_name: distanceGap
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDistanceGap
+                setter: setDistanceGap
+            type: float
+        distanceHeadway:
+            expose: true
+            access_type: public_method
+            serialized_name: distanceHeadway
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDistanceHeadway
+                setter: setDistanceHeadway
+            type: float
+        vehicleHeadwayExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleHeadwayExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleHeadwayExtension
+                setter: setVehicleHeadwayExtension
+            type: Calcinai\Siri\Datex\ExtensionType

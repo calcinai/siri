@@ -1,0 +1,72 @@
+Calcinai\Siri\AffectedStopPlaceStructureType:
+    properties:
+        stopPlaceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPlaceRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPlaceRef
+                setter: setStopPlaceRef
+            type: Calcinai\Siri\IFOpt\StopPlaceRefStructureType
+        placeName:
+            expose: true
+            access_type: public_method
+            serialized_name: PlaceName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPlaceName
+                setter: setPlaceName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        stopPlaceType:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPlaceType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPlaceType
+                setter: setStopPlaceType
+            type: string
+        affectedComponents:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedComponents
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedComponents
+                setter: setAffectedComponents
+            type: array<Calcinai\Siri\AffectedStopPlaceComponentStructureType>
+            xml_list:
+                inline: false
+                entry_name: AffectedComponent
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        affectedNavigationPaths:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedNavigationPaths
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedNavigationPaths
+                setter: setAffectedNavigationPaths
+            type: array<Calcinai\Siri\IFOpt\NavigationPathRefStructureType>
+            xml_list:
+                inline: false
+                entry_name: NavigationPathRef
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,36 @@
+Calcinai\Siri\SubscriptionResponseBodyStructureType:
+    properties:
+        responseStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseStatus
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getResponseStatus
+                setter: setResponseStatus
+            xml_list:
+                inline: true
+                entry_name: ResponseStatus
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ResponseStatus>
+        subscriptionManagerAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionManagerAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionManagerAddress
+                setter: setSubscriptionManagerAddress
+            type: string
+        serviceStartedTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceStartedTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceStartedTime
+                setter: setServiceStartedTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

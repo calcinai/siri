@@ -1,0 +1,102 @@
+Calcinai\Siri\RelatedSituationStructureType:
+    properties:
+        creationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: CreationTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCreationTime
+                setter: setCreationTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        countryRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCountryRef
+                setter: setCountryRef
+            type: Calcinai\Siri\IFOpt\CountryRefStructureType
+        participantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipantRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getParticipantRef
+                setter: setParticipantRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        situationNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationNumber
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationNumber
+                setter: setSituationNumber
+            type: Calcinai\Siri\SituationNumber
+        updateCountryRef:
+            expose: true
+            access_type: public_method
+            serialized_name: UpdateCountryRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUpdateCountryRef
+                setter: setUpdateCountryRef
+            type: Calcinai\Siri\IFOpt\CountryRefStructureType
+        updateParticipantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: UpdateParticipantRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUpdateParticipantRef
+                setter: setUpdateParticipantRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: Version
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            type: Calcinai\Siri\SituationVersionType
+        externalReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalReference
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExternalReference
+                setter: setExternalReference
+            type: string
+        relatedAs:
+            expose: true
+            access_type: public_method
+            serialized_name: RelatedAs
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRelatedAs
+                setter: setRelatedAs
+            type: string
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

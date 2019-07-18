@@ -1,0 +1,71 @@
+Calcinai\Siri\ConnectionMonitoringRequestStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        previewInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviewInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPreviewInterval
+                setter: setPreviewInterval
+            type: DateInterval
+        connectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLinkRef
+                setter: setConnectionLinkRef
+            type: Calcinai\Siri\ConnectionLinkRefStructureType
+        connectingTimeFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectingTimeFilter
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectingTimeFilter
+                setter: setConnectingTimeFilter
+            type: Calcinai\Siri\ConnectingTimeFilterStructureType
+        connectingJourneyFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectingJourneyFilter
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectingJourneyFilter
+                setter: setConnectingJourneyFilter
+            type: Calcinai\Siri\ConnectingJourneyFilterStructureType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

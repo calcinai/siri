@@ -1,0 +1,52 @@
+Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType:
+    properties:
+        capabilityNotSupportedError:
+            expose: true
+            access_type: public_method
+            serialized_name: CapabilityNotSupportedError
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCapabilityNotSupportedError
+                setter: setCapabilityNotSupportedError
+            type: Calcinai\Siri\CapabilityNotSupportedError
+        unknownSubscriberError:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownSubscriberError
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUnknownSubscriberError
+                setter: setUnknownSubscriberError
+            type: Calcinai\Siri\UnknownSubscriberError
+        unknownSubscriptionError:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownSubscriptionError
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUnknownSubscriptionError
+                setter: setUnknownSubscriptionError
+            type: Calcinai\Siri\UnknownSubscriptionError
+        otherError:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherError
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOtherError
+                setter: setOtherError
+            type: Calcinai\Siri\OtherError
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Calcinai\Siri\ErrorDescriptionStructureType

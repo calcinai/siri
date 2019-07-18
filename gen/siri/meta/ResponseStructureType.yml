@@ -1,0 +1,12 @@
+Calcinai\Siri\ResponseStructureType:
+    properties:
+        responseTimestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseTimestamp
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getResponseTimestamp
+                setter: setResponseTimestamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

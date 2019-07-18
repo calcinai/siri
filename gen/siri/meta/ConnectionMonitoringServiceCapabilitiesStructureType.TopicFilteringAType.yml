@@ -1,0 +1,22 @@
+Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
+    properties:
+        filterByJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByJourney
+                setter: setFilterByJourney
+            type: bool
+        filterByTime:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByTime
+                setter: setFilterByTime
+            type: bool

@@ -1,0 +1,22 @@
+Calcinai\Siri\LineDirectionStructureType:
+    properties:
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        directionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionRef
+                setter: setDirectionRef
+            type: Calcinai\Siri\DirectionRefStructureType

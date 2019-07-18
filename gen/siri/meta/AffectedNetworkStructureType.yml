@@ -1,0 +1,180 @@
+Calcinai\Siri\AffectedNetworkStructureType:
+    properties:
+        affectedOperator:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedOperator
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedOperator
+                setter: setAffectedOperator
+            xml_list:
+                inline: true
+                entry_name: AffectedOperator
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedOperatorStructureType>
+        networkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: NetworkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNetworkRef
+                setter: setNetworkRef
+            type: Calcinai\Siri\NetworkRefStructureType
+        networkName:
+            expose: true
+            access_type: public_method
+            serialized_name: NetworkName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNetworkName
+                setter: setNetworkName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        routesAffected:
+            expose: true
+            access_type: public_method
+            serialized_name: RoutesAffected
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRoutesAffected
+                setter: setRoutesAffected
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        vehicleMode:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMode
+                setter: setVehicleMode
+            type: Calcinai\Siri\VehicleMode
+        airSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: AirSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAirSubmode
+                setter: setAirSubmode
+            type: Calcinai\Siri\AirSubmode
+        busSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: BusSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getBusSubmode
+                setter: setBusSubmode
+            type: Calcinai\Siri\BusSubmode
+        coachSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: CoachSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCoachSubmode
+                setter: setCoachSubmode
+            type: Calcinai\Siri\CoachSubmode
+        metroSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: MetroSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMetroSubmode
+                setter: setMetroSubmode
+            type: Calcinai\Siri\MetroSubmode
+        railSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: RailSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRailSubmode
+                setter: setRailSubmode
+            type: Calcinai\Siri\RailSubmode
+        tramSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: TramSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTramSubmode
+                setter: setTramSubmode
+            type: Calcinai\Siri\TramSubmode
+        waterSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: WaterSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getWaterSubmode
+                setter: setWaterSubmode
+            type: Calcinai\Siri\WaterSubmode
+        accessMode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessMode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessMode
+                setter: setAccessMode
+            type: string
+        allLines:
+            expose: true
+            access_type: public_method
+            serialized_name: AllLines
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllLines
+                setter: setAllLines
+            type: string
+        selectedRoutes:
+            expose: true
+            access_type: public_method
+            serialized_name: SelectedRoutes
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSelectedRoutes
+                setter: setSelectedRoutes
+            type: string
+        affectedLine:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedLine
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedLine
+                setter: setAffectedLine
+            xml_list:
+                inline: true
+                entry_name: AffectedLine
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedLineStructureType>
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,36 @@
+Calcinai\Siri\Datex\PoorRoadInfrastructureType:
+    properties:
+        poorRoadInfrastructureType:
+            expose: true
+            access_type: public_method
+            serialized_name: poorRoadInfrastructureType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPoorRoadInfrastructureType
+                setter: setPoorRoadInfrastructureType
+            type: string
+        malfunctioningTrafficControls:
+            expose: true
+            access_type: public_method
+            serialized_name: malfunctioningTrafficControls
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMalfunctioningTrafficControls
+                setter: setMalfunctioningTrafficControls
+            xml_list:
+                inline: true
+                entry_name: malfunctioningTrafficControls
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\MalfunctioningTrafficControlsType>
+        poorRoadInfrastructureExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: poorRoadInfrastructureExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPoorRoadInfrastructureExtension
+                setter: setPoorRoadInfrastructureExtension
+            type: Calcinai\Siri\Datex\ExtensionType

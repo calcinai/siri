@@ -1,0 +1,72 @@
+Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType:
+    properties:
+        responseTimestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseTimestamp
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getResponseTimestamp
+                setter: setResponseTimestamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        requestMessageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestMessageRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestMessageRef
+                setter: setRequestMessageRef
+            type: Calcinai\Siri\MessageQualifierStructureType
+        subscriberRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriberRef
+                setter: setSubscriberRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        subscriptionFilterRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionFilterRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionFilterRef
+                setter: setSubscriptionFilterRef
+            type: Calcinai\Siri\SubscriptionFilterRefStructureType
+        subscriptionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionRef
+                setter: setSubscriptionRef
+            type: Calcinai\Siri\SubscriptionQualifierStructureType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: bool
+        errorCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorCondition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getErrorCondition
+                setter: setErrorCondition
+            type: Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType\ErrorConditionAType

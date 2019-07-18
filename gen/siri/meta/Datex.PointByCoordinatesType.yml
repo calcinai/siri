@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\PointByCoordinatesType:
+    properties:
+        bearing:
+            expose: true
+            access_type: public_method
+            serialized_name: bearing
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getBearing
+                setter: setBearing
+            type: int
+        pointCoordinates:
+            expose: true
+            access_type: public_method
+            serialized_name: pointCoordinates
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPointCoordinates
+                setter: setPointCoordinates
+            type: Calcinai\Siri\Datex\PointCoordinatesType
+        pointByCoordinatesExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: pointByCoordinatesExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPointByCoordinatesExtension
+                setter: setPointByCoordinatesExtension
+            type: Calcinai\Siri\Datex\ExtensionType

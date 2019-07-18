@@ -1,0 +1,30 @@
+Calcinai\Siri\ConnectionMonitoringDeliveriesStructureType:
+    properties:
+        connectionMonitoringFeederDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringFeederDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringFeederDelivery
+                setter: setConnectionMonitoringFeederDelivery
+            xml_list:
+                inline: true
+                entry_name: ConnectionMonitoringFeederDelivery
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ConnectionMonitoringFeederDelivery>
+        connectionMonitoringDistributorDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringDistributorDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringDistributorDelivery
+                setter: setConnectionMonitoringDistributorDelivery
+            xml_list:
+                inline: true
+                entry_name: ConnectionMonitoringDistributorDelivery
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ConnectionMonitoringDistributorDelivery>

@@ -1,0 +1,62 @@
+Calcinai\Siri\Datex\WindType:
+    properties:
+        maximumWindSpeed:
+            expose: true
+            access_type: public_method
+            serialized_name: maximumWindSpeed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMaximumWindSpeed
+                setter: setMaximumWindSpeed
+            type: float
+        windDirectionBearing:
+            expose: true
+            access_type: public_method
+            serialized_name: windDirectionBearing
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWindDirectionBearing
+                setter: setWindDirectionBearing
+            type: int
+        windDirectionCompass:
+            expose: true
+            access_type: public_method
+            serialized_name: windDirectionCompass
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWindDirectionCompass
+                setter: setWindDirectionCompass
+            type: string
+        windMeasurementHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: windMeasurementHeight
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWindMeasurementHeight
+                setter: setWindMeasurementHeight
+            type: int
+        windSpeed:
+            expose: true
+            access_type: public_method
+            serialized_name: windSpeed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWindSpeed
+                setter: setWindSpeed
+            type: float
+        windExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: windExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWindExtension
+                setter: setWindExtension
+            type: Calcinai\Siri\Datex\ExtensionType

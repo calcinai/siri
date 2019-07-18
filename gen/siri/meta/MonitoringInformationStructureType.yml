@@ -1,0 +1,42 @@
+Calcinai\Siri\MonitoringInformationStructureType:
+    properties:
+        monitoringInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringInterval
+                setter: setMonitoringInterval
+            type: DateInterval
+        monitoringType:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringType
+                setter: setMonitoringType
+            type: string
+        monitoringPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringPeriod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringPeriod
+                setter: setMonitoringPeriod
+            type: Calcinai\Siri\MonitoringValidityConditionStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

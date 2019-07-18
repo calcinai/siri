@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TPEGAreaLocationType:
+    properties:
+        tpegLocationType:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegLocationType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegLocationType
+                setter: setTpegLocationType
+            type: string
+        tpegheight:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegheight
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegheight
+                setter: setTpegheight
+            type: Calcinai\Siri\Datex\TPEGHeightType
+        tpegareaLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegareaLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegareaLocationExtension
+                setter: setTpegareaLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

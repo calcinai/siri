@@ -1,0 +1,312 @@
+Calcinai\Siri\Datex\StoZType:
+    properties:
+        winterEquipmentAdviceEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: winterEquipmentAdviceEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWinterEquipmentAdviceEnum
+                setter: setWinterEquipmentAdviceEnum
+            type: string
+        vehicleEquipmentEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleEquipmentEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleEquipmentEnum
+                setter: setVehicleEquipmentEnum
+            type: string
+        sourceTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceTypeEnum
+                setter: setSourceTypeEnum
+            type: string
+        trafficStatusEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficStatusEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficStatusEnum
+                setter: setTrafficStatusEnum
+            type: string
+        urgencyEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: urgencyEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getUrgencyEnum
+                setter: setUrgencyEnum
+            type: string
+        trafficDestinationTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficDestinationTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficDestinationTypeEnum
+                setter: setTrafficDestinationTypeEnum
+            type: string
+        speedAdviceEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: speedAdviceEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSpeedAdviceEnum
+                setter: setSpeedAdviceEnum
+            type: string
+        transitServiceInformationEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: transitServiceInformationEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTransitServiceInformationEnum
+                setter: setTransitServiceInformationEnum
+            type: string
+        warningAdviceEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: warningAdviceEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWarningAdviceEnum
+                setter: setWarningAdviceEnum
+            type: string
+        trafficControlTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficControlTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficControlTypeEnum
+                setter: setTrafficControlTypeEnum
+            type: string
+        vehicleTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleTypeEnum
+                setter: setVehicleTypeEnum
+            type: string
+        vehicleObstructionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleObstructionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleObstructionTypeEnum
+                setter: setVehicleObstructionTypeEnum
+            type: string
+        vmsfaultEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: vmsfaultEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVmsfaultEnum
+                setter: setVmsfaultEnum
+            type: string
+        weatherRelatedRoadConditionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: weatherRelatedRoadConditionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWeatherRelatedRoadConditionTypeEnum
+                setter: setWeatherRelatedRoadConditionTypeEnum
+            type: string
+        subjectTypeOfWorksEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectTypeOfWorksEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubjectTypeOfWorksEnum
+                setter: setSubjectTypeOfWorksEnum
+            type: string
+        winterEquipmentRequirementEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: winterEquipmentRequirementEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWinterEquipmentRequirementEnum
+                setter: setWinterEquipmentRequirementEnum
+            type: string
+        vehicleStatusEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleStatusEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleStatusEnum
+                setter: setVehicleStatusEnum
+            type: string
+        vehicleUsageEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleUsageEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleUsageEnum
+                setter: setVehicleUsageEnum
+            type: string
+        travelTimeTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: travelTimeTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTravelTimeTypeEnum
+                setter: setTravelTimeTypeEnum
+            type: string
+        serviceDisruptionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: serviceDisruptionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getServiceDisruptionTypeEnum
+                setter: setServiceDisruptionTypeEnum
+            type: string
+        transitServiceTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: transitServiceTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTransitServiceTypeEnum
+                setter: setTransitServiceTypeEnum
+            type: string
+        trafficRestrictionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficRestrictionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficRestrictionTypeEnum
+                setter: setTrafficRestrictionTypeEnum
+            type: string
+        validityStatusEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: validityStatusEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getValidityStatusEnum
+                setter: setValidityStatusEnum
+            type: string
+        trafficControlEquipmentTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficControlEquipmentTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficControlEquipmentTypeEnum
+                setter: setTrafficControlEquipmentTypeEnum
+            type: string
+        trafficControlOptionsEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficControlOptionsEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficControlOptionsEnum
+                setter: setTrafficControlOptionsEnum
+            type: string
+        valueCompareOperatorEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: valueCompareOperatorEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getValueCompareOperatorEnum
+                setter: setValueCompareOperatorEnum
+            type: string
+        stoZExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: stoZExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getStoZExtension
+                setter: setStoZExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        travelTimeTrendTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: travelTimeTrendTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTravelTimeTrendTypeEnum
+                setter: setTravelTimeTrendTypeEnum
+            type: string
+        vmstypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: vmstypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVmstypeEnum
+                setter: setVmstypeEnum
+            type: string
+        trafficTrendTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficTrendTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficTrendTypeEnum
+                setter: setTrafficTrendTypeEnum
+            type: string
+        weekOfMonthEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: weekOfMonthEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWeekOfMonthEnum
+                setter: setWeekOfMonthEnum
+            type: string

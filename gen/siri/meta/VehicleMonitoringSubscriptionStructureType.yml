@@ -1,0 +1,42 @@
+Calcinai\Siri\VehicleMonitoringSubscriptionStructureType:
+    properties:
+        vehicleMonitoringRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringRequest
+                setter: setVehicleMonitoringRequest
+            type: Calcinai\Siri\VehicleMonitoringRequest
+        incrementalUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: IncrementalUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIncrementalUpdates
+                setter: setIncrementalUpdates
+            type: bool
+        changeBeforeUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: ChangeBeforeUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getChangeBeforeUpdates
+                setter: setChangeBeforeUpdates
+            type: DateInterval
+        updateInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: UpdateInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUpdateInterval
+                setter: setUpdateInterval
+            type: DateInterval

@@ -1,0 +1,16 @@
+Calcinai\Siri\ConnectionMonitoringPermissions\ConnectionMonitoringPermissionsAType:
+    properties:
+        connectionMonitoringPermission:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringPermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringPermission
+                setter: setConnectionMonitoringPermission
+            xml_list:
+                inline: true
+                entry_name: ConnectionMonitoringPermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>

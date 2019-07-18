@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectedStopPlaceStructureType\AffectedNavigationPathsAType:
+    properties:
+        navigationPathRef:
+            expose: true
+            access_type: public_method
+            serialized_name: NavigationPathRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNavigationPathRef
+                setter: setNavigationPathRef
+            xml_list:
+                inline: true
+                entry_name: NavigationPathRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\IFOpt\NavigationPathRefStructureType>

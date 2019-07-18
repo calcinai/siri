@@ -1,0 +1,62 @@
+Calcinai\Siri\MonitoredFeederArrivalStructureType:
+    properties:
+        clearDownRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ClearDownRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getClearDownRef
+                setter: setClearDownRef
+            type: Calcinai\Siri\ClearDownRefStructureType
+        feederJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: FeederJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFeederJourney
+                setter: setFeederJourney
+            type: Calcinai\Siri\InterchangeJourneyStructureType
+        vehicleAtStop:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleAtStop
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleAtStop
+                setter: setVehicleAtStop
+            type: bool
+        numberOfTransferPassengers:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfTransferPassengers
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNumberOfTransferPassengers
+                setter: setNumberOfTransferPassengers
+            type: int
+        expectedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExpectedArrivalTime
+                setter: setExpectedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

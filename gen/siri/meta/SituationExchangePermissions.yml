@@ -1,0 +1,18 @@
+Calcinai\Siri\SituationExchangePermissions:
+    xml_root_name: SituationExchangePermissions
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties:
+        situationExchangePermission:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationExchangePermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationExchangePermission
+                setter: setSituationExchangePermission
+            xml_list:
+                inline: true
+                entry_name: SituationExchangePermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\SituationExchangeServicePermissionStructureType>

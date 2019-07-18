@@ -1,0 +1,12 @@
+Calcinai\Siri\StopMonitorPermissionStructureType:
+    properties:
+        monitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringRef
+                setter: setMonitoringRef
+            type: Calcinai\Siri\MonitoringRefStructureType

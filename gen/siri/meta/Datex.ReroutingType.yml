@@ -1,0 +1,47 @@
+Calcinai\Siri\Datex\ReroutingType:
+    properties:
+        alternativeRerouting:
+            expose: true
+            access_type: public_method
+            serialized_name: alternativeRerouting
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlternativeRerouting
+                setter: setAlternativeRerouting
+            type: bool
+        reroutingItineraryDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: reroutingItineraryDescription
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReroutingItineraryDescription
+                setter: setReroutingItineraryDescription
+            type: array<Calcinai\Siri\Datex\ReroutingType\ReroutingItineraryDescriptionAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        reroutingType:
+            expose: true
+            access_type: public_method
+            serialized_name: reroutingType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReroutingType
+                setter: setReroutingType
+            type: string
+        reroutingExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: reroutingExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReroutingExtension
+                setter: setReroutingExtension
+            type: Calcinai\Siri\Datex\ExtensionType

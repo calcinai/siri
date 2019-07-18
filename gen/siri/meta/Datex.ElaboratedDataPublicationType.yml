@@ -1,0 +1,76 @@
+Calcinai\Siri\Datex\ElaboratedDataPublicationType:
+    properties:
+        forecastDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: forecastDefault
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getForecastDefault
+                setter: setForecastDefault
+            type: bool
+        periodDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: periodDefault
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPeriodDefault
+                setter: setPeriodDefault
+            type: float
+        timeDefault:
+            expose: true
+            access_type: public_method
+            serialized_name: timeDefault
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTimeDefault
+                setter: setTimeDefault
+            type: Calcinai\Siri\Datex\DateTimeType
+        headerInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: headerInformation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeaderInformation
+                setter: setHeaderInformation
+            type: Calcinai\Siri\Datex\HeaderInformationType
+        referenceSettings:
+            expose: true
+            access_type: public_method
+            serialized_name: referenceSettings
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferenceSettings
+                setter: setReferenceSettings
+            type: Calcinai\Siri\Datex\ReferenceSettingsType
+        elaboratedData:
+            expose: true
+            access_type: public_method
+            serialized_name: elaboratedData
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getElaboratedData
+                setter: setElaboratedData
+            xml_list:
+                inline: true
+                entry_name: elaboratedData
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\ElaboratedDataType>
+        elaboratedDataPublicationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: elaboratedDataPublicationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getElaboratedDataPublicationExtension
+                setter: setElaboratedDataPublicationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

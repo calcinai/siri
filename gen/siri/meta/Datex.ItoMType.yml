@@ -1,0 +1,142 @@
+Calcinai\Siri\Datex\ItoMType:
+    properties:
+        itoMExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: itoMExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getItoMExtension
+                setter: setItoMExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        instructionsEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: instructionsEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInstructionsEnum
+                setter: setInstructionsEnum
+            type: string
+        injuryStatusTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: injuryStatusTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInjuryStatusTypeEnum
+                setter: setInjuryStatusTypeEnum
+            type: string
+        loadTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: loadTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLoadTypeEnum
+                setter: setLoadTypeEnum
+            type: string
+        mobilityEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: mobilityEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMobilityEnum
+                setter: setMobilityEnum
+            type: string
+        maintenanceVehicleActionsEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: maintenanceVehicleActionsEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMaintenanceVehicleActionsEnum
+                setter: setMaintenanceVehicleActionsEnum
+            type: string
+        matrixFaultEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: matrixFaultEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMatrixFaultEnum
+                setter: setMatrixFaultEnum
+            type: string
+        informationStatusEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: informationStatusEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInformationStatusEnum
+                setter: setInformationStatusEnum
+            type: string
+        involvementRolesEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: involvementRolesEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInvolvementRolesEnum
+                setter: setInvolvementRolesEnum
+            type: string
+        laneUsageEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: laneUsageEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLaneUsageEnum
+                setter: setLaneUsageEnum
+            type: string
+        informationUsageEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: informationUsageEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInformationUsageEnum
+                setter: setInformationUsageEnum
+            type: string
+        measuredOrDerivedDataTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: measuredOrDerivedDataTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasuredOrDerivedDataTypeEnum
+                setter: setMeasuredOrDerivedDataTypeEnum
+            type: string
+        logicalOperatorEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: logicalOperatorEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLogicalOperatorEnum
+                setter: setLogicalOperatorEnum
+            type: string
+        monthOfYearEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: monthOfYearEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMonthOfYearEnum
+                setter: setMonthOfYearEnum
+            type: string

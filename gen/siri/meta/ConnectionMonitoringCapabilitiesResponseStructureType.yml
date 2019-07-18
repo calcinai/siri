@@ -1,0 +1,46 @@
+Calcinai\Siri\ConnectionMonitoringCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        connectionMonitoringServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringServiceCapabilities
+                setter: setConnectionMonitoringServiceCapabilities
+            type: Calcinai\Siri\ConnectionMonitoringServiceCapabilities
+        connectionMonitoringPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringPermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringPermissions
+                setter: setConnectionMonitoringPermissions
+            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>
+            xml_list:
+                inline: false
+                entry_name: ConnectionMonitoringPermission
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

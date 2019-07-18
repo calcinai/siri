@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TrafficConcentrationType:
+    properties:
+        concentration:
+            expose: true
+            access_type: public_method
+            serialized_name: concentration
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getConcentration
+                setter: setConcentration
+            type: int
+        occupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: occupancy
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOccupancy
+                setter: setOccupancy
+            type: float
+        trafficConcentrationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficConcentrationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficConcentrationExtension
+                setter: setTrafficConcentrationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

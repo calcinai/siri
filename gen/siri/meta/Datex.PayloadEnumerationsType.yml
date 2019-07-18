@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\PayloadEnumerationsType:
+    properties:
+        locationEnumerations:
+            expose: true
+            access_type: public_method
+            serialized_name: locationEnumerations
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLocationEnumerations
+                setter: setLocationEnumerations
+            type: Calcinai\Siri\Datex\LocationEnumerationsType
+        payloadEnumerationsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: payloadEnumerationsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPayloadEnumerationsExtension
+                setter: setPayloadEnumerationsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

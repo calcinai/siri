@@ -1,0 +1,102 @@
+Calcinai\Siri\CapabilitiesResponseStructureType:
+    properties:
+        productionTimetableCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductionTimetableCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductionTimetableCapabilitiesResponse
+                setter: setProductionTimetableCapabilitiesResponse
+            type: Calcinai\Siri\ProductionTimetableCapabilitiesResponse
+        estimatedTimetableCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedTimetableCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedTimetableCapabilitiesResponse
+                setter: setEstimatedTimetableCapabilitiesResponse
+            type: Calcinai\Siri\EstimatedTimetableCapabilitiesResponse
+        stopTimetableCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: StopTimetableCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopTimetableCapabilitiesResponse
+                setter: setStopTimetableCapabilitiesResponse
+            type: Calcinai\Siri\StopTimetableCapabilitiesResponse
+        stopMonitoringCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitoringCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitoringCapabilitiesResponse
+                setter: setStopMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\StopMonitoringCapabilitiesResponse
+        vehicleMonitoringCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringCapabilitiesResponse
+                setter: setVehicleMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\VehicleMonitoringCapabilitiesResponse
+        connectionTimetableCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionTimetableCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionTimetableCapabilitiesResponse
+                setter: setConnectionTimetableCapabilitiesResponse
+            type: Calcinai\Siri\ConnectionTimetableCapabilitiesResponse
+        connectionMonitoringCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringCapabilitiesResponse
+                setter: setConnectionMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\ConnectionMonitoringCapabilitiesResponse
+        generalMessageCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessageCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessageCapabilitiesResponse
+                setter: setGeneralMessageCapabilitiesResponse
+            type: Calcinai\Siri\GeneralMessageCapabilitiesResponse
+        facilityMonitoringCapabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityMonitoringCapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityMonitoringCapabilitiesResponse
+                setter: setFacilityMonitoringCapabilitiesResponse
+            type: Calcinai\Siri\FacilityMonitoringCapabilitiesResponse
+        situationExchangeServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationExchangeServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationExchangeServiceCapabilities
+                setter: setSituationExchangeServiceCapabilities
+            type: Calcinai\Siri\SituationExchangeServiceCapabilities

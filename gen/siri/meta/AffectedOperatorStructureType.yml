@@ -1,0 +1,56 @@
+Calcinai\Siri\AffectedOperatorStructureType:
+    properties:
+        operatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorRef
+                setter: setOperatorRef
+            type: Calcinai\Siri\OperatorRefStructureType
+        operatorName:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorName
+                setter: setOperatorName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        operatorShortName:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorShortName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorShortName
+                setter: setOperatorShortName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        operationalUnitRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OperationalUnitRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperationalUnitRef
+                setter: setOperationalUnitRef
+            xml_list:
+                inline: true
+                entry_name: OperationalUnitRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\OperationalUnitRefStructureType>
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,203 @@
+Calcinai\Siri\Datex\SituationRecordType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        situationRecordCreationReference:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordCreationReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecordCreationReference
+                setter: setSituationRecordCreationReference
+            type: string
+        situationRecordCreationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordCreationTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecordCreationTime
+                setter: setSituationRecordCreationTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        situationRecordObservationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordObservationTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecordObservationTime
+                setter: setSituationRecordObservationTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        situationRecordVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordVersion
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecordVersion
+                setter: setSituationRecordVersion
+            type: int
+        situationRecordVersionTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordVersionTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecordVersionTime
+                setter: setSituationRecordVersionTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        situationRecordFirstSupplierVersionTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordFirstSupplierVersionTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecordFirstSupplierVersionTime
+                setter: setSituationRecordFirstSupplierVersionTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        informationUsageOverride:
+            expose: true
+            access_type: public_method
+            serialized_name: informationUsageOverride
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInformationUsageOverride
+                setter: setInformationUsageOverride
+            type: string
+        probabilityOfOccurrence:
+            expose: true
+            access_type: public_method
+            serialized_name: probabilityOfOccurrence
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getProbabilityOfOccurrence
+                setter: setProbabilityOfOccurrence
+            type: string
+        sourceInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceInformation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceInformation
+                setter: setSourceInformation
+            type: Calcinai\Siri\Datex\SourceInformationType
+        validity:
+            expose: true
+            access_type: public_method
+            serialized_name: validity
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getValidity
+                setter: setValidity
+            type: Calcinai\Siri\Datex\ValidityType
+        impact:
+            expose: true
+            access_type: public_method
+            serialized_name: impact
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getImpact
+                setter: setImpact
+            type: Calcinai\Siri\Datex\ImpactType
+        cause:
+            expose: true
+            access_type: public_method
+            serialized_name: cause
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCause
+                setter: setCause
+            type: Calcinai\Siri\Datex\CauseType
+        advice:
+            expose: true
+            access_type: public_method
+            serialized_name: advice
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAdvice
+                setter: setAdvice
+            xml_list:
+                inline: true
+                entry_name: advice
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\AdviceType>
+        generalPublicComment:
+            expose: true
+            access_type: public_method
+            serialized_name: generalPublicComment
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getGeneralPublicComment
+                setter: setGeneralPublicComment
+            xml_list:
+                inline: true
+                entry_name: generalPublicComment
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\CommentType>
+        nonGeneralPublicComment:
+            expose: true
+            access_type: public_method
+            serialized_name: nonGeneralPublicComment
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNonGeneralPublicComment
+                setter: setNonGeneralPublicComment
+            xml_list:
+                inline: true
+                entry_name: nonGeneralPublicComment
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\CommentType>
+        groupOfLocations:
+            expose: true
+            access_type: public_method
+            serialized_name: groupOfLocations
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getGroupOfLocations
+                setter: setGroupOfLocations
+            type: Calcinai\Siri\Datex\GroupOfLocationsType
+        management:
+            expose: true
+            access_type: public_method
+            serialized_name: management
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getManagement
+                setter: setManagement
+            type: Calcinai\Siri\Datex\ManagementType
+        situationRecordExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecordExtension
+                setter: setSituationRecordExtension
+            type: Calcinai\Siri\Datex\ExtensionType

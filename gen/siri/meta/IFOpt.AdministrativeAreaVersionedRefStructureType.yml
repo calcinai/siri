@@ -1,0 +1,55 @@
+Calcinai\Siri\IFOpt\AdministrativeAreaVersionedRefStructureType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: created
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        lastUpdated:
+            expose: true
+            access_type: public_method
+            serialized_name: lastUpdated
+            accessor:
+                getter: getLastUpdated
+                setter: setLastUpdated
+            xml_attribute: true
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        modification:
+            expose: true
+            access_type: public_method
+            serialized_name: modification
+            accessor:
+                getter: getModification
+                setter: setModification
+            xml_attribute: true
+            type: string
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: int
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            xml_attribute: true
+            type: string

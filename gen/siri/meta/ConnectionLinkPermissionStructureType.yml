@@ -1,0 +1,12 @@
+Calcinai\Siri\ConnectionLinkPermissionStructureType:
+    properties:
+        connectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLinkRef
+                setter: setConnectionLinkRef
+            type: Calcinai\Siri\ConnectionLinkRefStructureType

@@ -1,0 +1,42 @@
+Calcinai\Siri\AbstractMonitoredCallStructureType:
+    properties:
+        stopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointRef
+                setter: setStopPointRef
+            type: Calcinai\Siri\StopPointRef
+        visitNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: VisitNumber
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVisitNumber
+                setter: setVisitNumber
+            type: Calcinai\Siri\VisitNumber
+        order:
+            expose: true
+            access_type: public_method
+            serialized_name: Order
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOrder
+                setter: setOrder
+            type: int
+        stopPointName:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointName
+                setter: setStopPointName
+            type: Calcinai\Siri\StopPointName

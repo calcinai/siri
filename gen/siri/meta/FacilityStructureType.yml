@@ -1,0 +1,136 @@
+Calcinai\Siri\FacilityStructureType:
+    properties:
+        facilityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityCode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityCode
+                setter: setFacilityCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        facilityClass:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityClass
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityClass
+                setter: setFacilityClass
+            xml_list:
+                inline: true
+                entry_name: FacilityClass
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
+        features:
+            expose: true
+            access_type: public_method
+            serialized_name: Features
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFeatures
+                setter: setFeatures
+            type: array<Calcinai\Siri\AllFacilitiesFeatureStructureType>
+            xml_list:
+                inline: false
+                entry_name: Feature
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        ownerRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOwnerRef
+                setter: setOwnerRef
+            type: Calcinai\Siri\OrganisationRefStructureType
+        ownerName:
+            expose: true
+            access_type: public_method
+            serialized_name: OwnerName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOwnerName
+                setter: setOwnerName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        validityCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityCondition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidityCondition
+                setter: setValidityCondition
+            type: Calcinai\Siri\MonitoringValidityConditionStructureType
+        facilityLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityLocation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityLocation
+                setter: setFacilityLocation
+            type: Calcinai\Siri\FacilityLocationStructureType
+        limitations:
+            expose: true
+            access_type: public_method
+            serialized_name: Limitations
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLimitations
+                setter: setLimitations
+            type: Calcinai\Siri\FacilityStructureType\LimitationsAType
+        suitabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: Suitabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSuitabilities
+                setter: setSuitabilities
+            type: array<Calcinai\Siri\ACSB\SuitabilityStructureType>
+            xml_list:
+                inline: false
+                entry_name: Suitability
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        accessibilityAssessment:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessibilityAssessment
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessibilityAssessment
+                setter: setAccessibilityAssessment
+            type: Calcinai\Siri\ACSB\AccessibilityAssessmentStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

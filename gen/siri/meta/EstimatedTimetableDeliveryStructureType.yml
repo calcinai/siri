@@ -1,0 +1,31 @@
+Calcinai\Siri\EstimatedTimetableDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        estimatedJourneyVersionFrame:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedJourneyVersionFrame
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedJourneyVersionFrame
+                setter: setEstimatedJourneyVersionFrame
+            type: Calcinai\Siri\EstimatedVersionFrameStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

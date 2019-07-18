@@ -1,0 +1,42 @@
+Calcinai\Siri\AbstractDiscoveryDeliveryStructureType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: bool
+        errorCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorCondition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getErrorCondition
+                setter: setErrorCondition
+            type: Calcinai\Siri\ServiceDeliveryErrorConditionStructureType
+        validUntil:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidUntil
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidUntil
+                setter: setValidUntil
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        shortestPossibleCycle:
+            expose: true
+            access_type: public_method
+            serialized_name: ShortestPossibleCycle
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getShortestPossibleCycle
+                setter: setShortestPossibleCycle
+            type: DateInterval

@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\VisibilityInformationType:
+    properties:
+        visibility:
+            expose: true
+            access_type: public_method
+            serialized_name: visibility
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVisibility
+                setter: setVisibility
+            type: Calcinai\Siri\Datex\VisibilityType
+        visibilityInformationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: visibilityInformationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVisibilityInformationExtension
+                setter: setVisibilityInformationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

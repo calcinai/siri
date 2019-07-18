@@ -1,0 +1,22 @@
+Calcinai\Siri\SituationRefStructureType:
+    properties:
+        situationSimpleRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationSimpleRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationSimpleRef
+                setter: setSituationSimpleRef
+            type: Calcinai\Siri\SituationSimpleRef
+        situationFullRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationFullRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationFullRef
+                setter: setSituationFullRef
+            type: Calcinai\Siri\SituationFullRef

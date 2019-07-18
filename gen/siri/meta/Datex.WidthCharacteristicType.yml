@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\WidthCharacteristicType:
+    properties:
+        comparisonOperator:
+            expose: true
+            access_type: public_method
+            serialized_name: comparisonOperator
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComparisonOperator
+                setter: setComparisonOperator
+            type: string
+        vehicleWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleWidth
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleWidth
+                setter: setVehicleWidth
+            type: float
+        widthCharacteristicExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: widthCharacteristicExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWidthCharacteristicExtension
+                setter: setWidthCharacteristicExtension
+            type: Calcinai\Siri\Datex\ExtensionType

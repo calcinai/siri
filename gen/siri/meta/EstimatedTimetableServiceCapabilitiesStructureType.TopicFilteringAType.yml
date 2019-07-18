@@ -1,0 +1,22 @@
+Calcinai\Siri\EstimatedTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
+    properties:
+        filterByOperatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByOperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByOperatorRef
+                setter: setFilterByOperatorRef
+            type: bool
+        filterByLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByLineRef
+                setter: setFilterByLineRef
+            type: bool

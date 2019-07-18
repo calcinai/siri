@@ -1,0 +1,16 @@
+Calcinai\Siri\SituationExchangeRequestStructureType\SituationRoadFilterAType:
+    properties:
+        roadFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: RoadFilter
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRoadFilter
+                setter: setRoadFilter
+            xml_list:
+                inline: true
+                entry_name: RoadFilter
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\RoadFilterStructureType>

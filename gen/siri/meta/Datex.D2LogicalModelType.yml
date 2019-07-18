@@ -1,0 +1,41 @@
+Calcinai\Siri\Datex\D2LogicalModelType:
+    properties:
+        modelBaseVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: modelBaseVersion
+            accessor:
+                getter: getModelBaseVersion
+                setter: setModelBaseVersion
+            xml_attribute: true
+            type: \AnyType
+        exchange:
+            expose: true
+            access_type: public_method
+            serialized_name: exchange
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getExchange
+                setter: setExchange
+            type: Calcinai\Siri\Datex\ExchangeType
+        payloadPublication:
+            expose: true
+            access_type: public_method
+            serialized_name: payloadPublication
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPayloadPublication
+                setter: setPayloadPublication
+            type: Calcinai\Siri\Datex\PayloadPublicationType
+        d2LogicalModelExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: d2LogicalModelExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getD2LogicalModelExtension
+                setter: setD2LogicalModelExtension
+            type: Calcinai\Siri\Datex\ExtensionType

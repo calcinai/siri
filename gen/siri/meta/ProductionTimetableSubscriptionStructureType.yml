@@ -1,0 +1,12 @@
+Calcinai\Siri\ProductionTimetableSubscriptionStructureType:
+    properties:
+        productionTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductionTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductionTimetableRequest
+                setter: setProductionTimetableRequest
+            type: Calcinai\Siri\ProductionTimetableRequest

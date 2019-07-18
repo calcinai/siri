@@ -1,0 +1,32 @@
+Calcinai\Siri\ImageStructureType:
+    properties:
+        imageRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ImageRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImageRef
+                setter: setImageRef
+            type: string
+        imageBinary:
+            expose: true
+            access_type: public_method
+            serialized_name: ImageBinary
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImageBinary
+                setter: setImageBinary
+            type: \AnySimpleType
+        imageContent:
+            expose: true
+            access_type: public_method
+            serialized_name: ImageContent
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImageContent
+                setter: setImageContent
+            type: string

@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\PointType:
+    properties:
+        tpegpointLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegpointLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegpointLocation
+                setter: setTpegpointLocation
+            type: Calcinai\Siri\Datex\TPEGPointLocationType
+        alertCPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCPoint
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCPoint
+                setter: setAlertCPoint
+            type: Calcinai\Siri\Datex\AlertCPointType
+        referencePoint:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePoint
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePoint
+                setter: setReferencePoint
+            type: Calcinai\Siri\Datex\ReferencePointType
+        pointByCoordinates:
+            expose: true
+            access_type: public_method
+            serialized_name: pointByCoordinates
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPointByCoordinates
+                setter: setPointByCoordinates
+            type: Calcinai\Siri\Datex\PointByCoordinatesType
+        pointExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: pointExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPointExtension
+                setter: setPointExtension
+            type: Calcinai\Siri\Datex\ExtensionType

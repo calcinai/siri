@@ -1,0 +1,26 @@
+Calcinai\Siri\Datex\NonWeatherRelatedRoadConditionsType:
+    properties:
+        nonWeatherRelatedRoadConditionType:
+            expose: true
+            access_type: public_method
+            serialized_name: nonWeatherRelatedRoadConditionType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNonWeatherRelatedRoadConditionType
+                setter: setNonWeatherRelatedRoadConditionType
+            xml_list:
+                inline: true
+                entry_name: nonWeatherRelatedRoadConditionType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        nonWeatherRelatedRoadConditionsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: nonWeatherRelatedRoadConditionsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNonWeatherRelatedRoadConditionsExtension
+                setter: setNonWeatherRelatedRoadConditionsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

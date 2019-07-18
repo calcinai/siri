@@ -1,0 +1,22 @@
+Calcinai\Siri\ProgressBetweenStopsStructureType:
+    properties:
+        linkDistance:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkDistance
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkDistance
+                setter: setLinkDistance
+            type: float
+        percentage:
+            expose: true
+            access_type: public_method
+            serialized_name: Percentage
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPercentage
+                setter: setPercentage
+            type: float

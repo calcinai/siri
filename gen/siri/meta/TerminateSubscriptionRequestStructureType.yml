@@ -1,0 +1,32 @@
+Calcinai\Siri\TerminateSubscriptionRequestStructureType:
+    properties:
+        subscriberRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriberRef
+                setter: setSubscriberRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        all:
+            expose: true
+            access_type: public_method
+            serialized_name: All
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAll
+                setter: setAll
+            type: string
+        subscriptionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionRef
+                setter: setSubscriptionRef
+            type: Calcinai\Siri\SubscriptionQualifierStructureType

@@ -1,0 +1,22 @@
+Calcinai\Siri\WaitProlongedDepartureStructureType:
+    properties:
+        expectedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExpectedDepartureTime
+                setter: setExpectedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

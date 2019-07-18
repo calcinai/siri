@@ -1,0 +1,27 @@
+Calcinai\Siri\PushedActionStructureType:
+    properties:
+        beforeNotices:
+            expose: true
+            access_type: public_method
+            serialized_name: BeforeNotices
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getBeforeNotices
+                setter: setBeforeNotices
+            type: array<DateInterval>
+            xml_list:
+                inline: false
+                entry_name: Interval
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        clearNotice:
+            expose: true
+            access_type: public_method
+            serialized_name: ClearNotice
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getClearNotice
+                setter: setClearNotice
+            type: bool

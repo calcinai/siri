@@ -1,0 +1,72 @@
+Calcinai\Siri\CapabilityGeneralInteractionStructureType:
+    properties:
+        interaction:
+            expose: true
+            access_type: public_method
+            serialized_name: Interaction
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInteraction
+                setter: setInteraction
+            type: Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType
+        delivery:
+            expose: true
+            access_type: public_method
+            serialized_name: Delivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDelivery
+                setter: setDelivery
+            type: Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType
+        multipartDespatch:
+            expose: true
+            access_type: public_method
+            serialized_name: MultipartDespatch
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMultipartDespatch
+                setter: setMultipartDespatch
+            type: bool
+        multipleSubscriberFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: MultipleSubscriberFilter
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMultipleSubscriberFilter
+                setter: setMultipleSubscriberFilter
+            type: bool
+        hasConfirmDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: HasConfirmDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasConfirmDelivery
+                setter: setHasConfirmDelivery
+            type: bool
+        hasHeartbeat:
+            expose: true
+            access_type: public_method
+            serialized_name: HasHeartbeat
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasHeartbeat
+                setter: setHasHeartbeat
+            type: bool
+        visitNumberisOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: VisitNumberisOrder
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVisitNumberisOrder
+                setter: setVisitNumberisOrder
+            type: bool

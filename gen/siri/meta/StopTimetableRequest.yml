@@ -1,0 +1,3 @@
+Calcinai\Siri\StopTimetableRequest:
+    xml_root_name: StopTimetableRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

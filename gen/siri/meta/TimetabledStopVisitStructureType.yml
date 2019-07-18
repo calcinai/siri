@@ -1,0 +1,32 @@
+Calcinai\Siri\TimetabledStopVisitStructureType:
+    properties:
+        monitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringRef
+                setter: setMonitoringRef
+            type: Calcinai\Siri\MonitoringRefStructureType
+        targetedVehicleJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: TargetedVehicleJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTargetedVehicleJourney
+                setter: setTargetedVehicleJourney
+            type: Calcinai\Siri\TargetedVehicleJourneyStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

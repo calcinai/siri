@@ -1,0 +1,56 @@
+Calcinai\Siri\Datex\NetworkManagementType:
+    properties:
+        networkManagementType:
+            expose: true
+            access_type: public_method
+            serialized_name: networkManagementType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNetworkManagementType
+                setter: setNetworkManagementType
+            type: string
+        forVehicleWithCharacteristicsOf:
+            expose: true
+            access_type: public_method
+            serialized_name: forVehicleWithCharacteristicsOf
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getForVehicleWithCharacteristicsOf
+                setter: setForVehicleWithCharacteristicsOf
+            xml_list:
+                inline: true
+                entry_name: forVehicleWithCharacteristicsOf
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\VehicleCharacteristicsType>
+        restriction:
+            expose: true
+            access_type: public_method
+            serialized_name: restriction
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRestriction
+                setter: setRestriction
+            type: Calcinai\Siri\Datex\RestrictionType
+        trafficControl:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficControl
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficControl
+                setter: setTrafficControl
+            type: Calcinai\Siri\Datex\TrafficControlType
+        networkManagementExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: networkManagementExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNetworkManagementExtension
+                setter: setNetworkManagementExtension
+            type: Calcinai\Siri\Datex\ExtensionType

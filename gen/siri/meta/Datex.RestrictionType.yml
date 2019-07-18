@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\RestrictionType:
+    properties:
+        equipmentRequirement:
+            expose: true
+            access_type: public_method
+            serialized_name: equipmentRequirement
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEquipmentRequirement
+                setter: setEquipmentRequirement
+            type: string
+        minimumCarOccupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: minimumCarOccupancy
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMinimumCarOccupancy
+                setter: setMinimumCarOccupancy
+            type: int
+        sequentialRampNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: sequentialRampNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSequentialRampNumber
+                setter: setSequentialRampNumber
+            type: int
+        restrictionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: restrictionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRestrictionExtension
+                setter: setRestrictionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

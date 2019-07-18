@@ -1,0 +1,3 @@
+Calcinai\Siri\DataReceivedAcknowledgement:
+    xml_root_name: DataReceivedAcknowledgement
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

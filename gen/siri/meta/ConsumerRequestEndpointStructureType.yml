@@ -1,0 +1,32 @@
+Calcinai\Siri\ConsumerRequestEndpointStructureType:
+    properties:
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: string
+        consumerRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConsumerRef
+                setter: setConsumerRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        messageIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: MessageIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMessageIdentifier
+                setter: setMessageIdentifier
+            type: Calcinai\Siri\MessageQualifierStructureType

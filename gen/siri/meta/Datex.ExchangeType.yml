@@ -1,0 +1,170 @@
+Calcinai\Siri\Datex\ExchangeType:
+    properties:
+        changedFlag:
+            expose: true
+            access_type: public_method
+            serialized_name: changedFlag
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getChangedFlag
+                setter: setChangedFlag
+            type: string
+        clientIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: clientIdentification
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getClientIdentification
+                setter: setClientIdentification
+            type: string
+        deliveryBreak:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryBreak
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDeliveryBreak
+                setter: setDeliveryBreak
+            type: bool
+        denyReason:
+            expose: true
+            access_type: public_method
+            serialized_name: denyReason
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDenyReason
+                setter: setDenyReason
+            type: string
+        historicalStartDate:
+            expose: true
+            access_type: public_method
+            serialized_name: historicalStartDate
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHistoricalStartDate
+                setter: setHistoricalStartDate
+            type: Calcinai\Siri\Datex\DateTimeType
+        historicalStopDate:
+            expose: true
+            access_type: public_method
+            serialized_name: historicalStopDate
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHistoricalStopDate
+                setter: setHistoricalStopDate
+            type: Calcinai\Siri\Datex\DateTimeType
+        keepAlive:
+            expose: true
+            access_type: public_method
+            serialized_name: keepAlive
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getKeepAlive
+                setter: setKeepAlive
+            type: bool
+        requestType:
+            expose: true
+            access_type: public_method
+            serialized_name: requestType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRequestType
+                setter: setRequestType
+            type: string
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: response
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: string
+        subscriptionReference:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriptionReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubscriptionReference
+                setter: setSubscriptionReference
+            type: string
+        supplierIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: supplierIdentification
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSupplierIdentification
+                setter: setSupplierIdentification
+            type: Calcinai\Siri\Datex\InternationalIdentifierType
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            type: Calcinai\Siri\Datex\TargetType
+        subscription:
+            expose: true
+            access_type: public_method
+            serialized_name: subscription
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubscription
+                setter: setSubscription
+            type: Calcinai\Siri\Datex\SubscriptionType
+        filterReference:
+            expose: true
+            access_type: public_method
+            serialized_name: filterReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterReference
+                setter: setFilterReference
+            xml_list:
+                inline: true
+                entry_name: filterReference
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\FilterReferenceType>
+        catalogueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: catalogueReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCatalogueReference
+                setter: setCatalogueReference
+            xml_list:
+                inline: true
+                entry_name: catalogueReference
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\CatalogueReferenceType>
+        exchangeExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: exchangeExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getExchangeExtension
+                setter: setExchangeExtension
+            type: Calcinai\Siri\Datex\ExtensionType

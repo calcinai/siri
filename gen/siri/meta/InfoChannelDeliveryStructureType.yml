@@ -1,0 +1,35 @@
+Calcinai\Siri\InfoChannelDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        infoChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoChannel
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoChannel
+                setter: setInfoChannel
+            xml_list:
+                inline: true
+                entry_name: InfoChannel
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\InfoChannel>
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

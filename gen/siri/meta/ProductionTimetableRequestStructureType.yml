@@ -1,0 +1,86 @@
+Calcinai\Siri\ProductionTimetableRequestStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: Calcinai\Siri\ClosedTimeRangeStructureType
+        timetableVersionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: TimetableVersionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTimetableVersionRef
+                setter: setTimetableVersionRef
+            type: Calcinai\Siri\VersionRefStructureType
+        operatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorRef
+                setter: setOperatorRef
+            type: Calcinai\Siri\OperatorRefStructureType
+        lines:
+            expose: true
+            access_type: public_method
+            serialized_name: Lines
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLines
+                setter: setLines
+            type: array<Calcinai\Siri\LineDirectionStructureType>
+            xml_list:
+                inline: false
+                entry_name: LineDirection
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        incrementalUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: IncrementalUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIncrementalUpdates
+                setter: setIncrementalUpdates
+            type: bool
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

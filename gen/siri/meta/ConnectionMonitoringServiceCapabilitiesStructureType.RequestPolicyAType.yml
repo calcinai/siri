@@ -1,0 +1,12 @@
+Calcinai\Siri\ConnectionMonitoringServiceCapabilitiesStructureType\RequestPolicyAType:
+    properties:
+        foreignJourneysOnly:
+            expose: true
+            access_type: public_method
+            serialized_name: ForeignJourneysOnly
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getForeignJourneysOnly
+                setter: setForeignJourneysOnly
+            type: bool

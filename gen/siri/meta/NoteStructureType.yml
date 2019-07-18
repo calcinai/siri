@@ -1,0 +1,42 @@
+Calcinai\Siri\NoteStructureType:
+    properties:
+        situationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRef
+                setter: setSituationRef
+            type: Calcinai\Siri\SituationRef
+        situationSimpleRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationSimpleRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationSimpleRef
+                setter: setSituationSimpleRef
+            type: Calcinai\Siri\SituationSimpleRef
+        situationFullRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationFullRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationFullRef
+                setter: setSituationFullRef
+            type: Calcinai\Siri\SituationFullRef
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: Calcinai\Siri\NaturalLanguageStringStructureType

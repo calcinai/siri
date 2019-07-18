@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\ObstructionType:
+    properties:
+        numberOfObstructions:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfObstructions
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfObstructions
+                setter: setNumberOfObstructions
+            type: int
+        mobilityOfObstruction:
+            expose: true
+            access_type: public_method
+            serialized_name: mobilityOfObstruction
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMobilityOfObstruction
+                setter: setMobilityOfObstruction
+            type: Calcinai\Siri\Datex\MobilityType
+        obstructionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: obstructionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getObstructionExtension
+                setter: setObstructionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

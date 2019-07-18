@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\PeopleInvolvedType:
+    properties:
+        numberOfPeople:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfPeople
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfPeople
+                setter: setNumberOfPeople
+            type: int
+        injuryStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: injuryStatus
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInjuryStatus
+                setter: setInjuryStatus
+            type: string
+        involvementRole:
+            expose: true
+            access_type: public_method
+            serialized_name: involvementRole
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInvolvementRole
+                setter: setInvolvementRole
+            type: string
+        typeOfPeopleInvolved:
+            expose: true
+            access_type: public_method
+            serialized_name: typeOfPeopleInvolved
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTypeOfPeopleInvolved
+                setter: setTypeOfPeopleInvolved
+            type: string
+        peopleInvolvedExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: peopleInvolvedExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPeopleInvolvedExtension
+                setter: setPeopleInvolvedExtension
+            type: Calcinai\Siri\Datex\ExtensionType

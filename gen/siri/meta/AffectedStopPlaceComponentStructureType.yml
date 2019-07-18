@@ -1,0 +1,82 @@
+Calcinai\Siri\AffectedStopPlaceComponentStructureType:
+    properties:
+        componentRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ComponentRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getComponentRef
+                setter: setComponentRef
+            type: Calcinai\Siri\IFOpt\StopPlaceComponentRefStructureType
+        componentName:
+            expose: true
+            access_type: public_method
+            serialized_name: ComponentName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getComponentName
+                setter: setComponentName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        componentType:
+            expose: true
+            access_type: public_method
+            serialized_name: ComponentType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getComponentType
+                setter: setComponentType
+            type: string
+        pointProjection:
+            expose: true
+            access_type: public_method
+            serialized_name: PointProjection
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getPointProjection
+                setter: setPointProjection
+            type: Calcinai\Siri\IFOpt\PointProjection
+        linkProjection:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkProjection
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getLinkProjection
+                setter: setLinkProjection
+            type: Calcinai\Siri\IFOpt\LinkProjection
+        zoneProjection:
+            expose: true
+            access_type: public_method
+            serialized_name: ZoneProjection
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getZoneProjection
+                setter: setZoneProjection
+            type: Calcinai\Siri\IFOpt\ZoneProjection
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: Offset
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: Calcinai\Siri\OffsetStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

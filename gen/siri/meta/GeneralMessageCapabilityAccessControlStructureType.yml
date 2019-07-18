@@ -1,0 +1,12 @@
+Calcinai\Siri\GeneralMessageCapabilityAccessControlStructureType:
+    properties:
+        checkInfoChannelRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckInfoChannelRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckInfoChannelRef
+                setter: setCheckInfoChannelRef
+            type: bool

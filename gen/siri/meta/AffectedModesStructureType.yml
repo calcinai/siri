@@ -1,0 +1,26 @@
+Calcinai\Siri\AffectedModesStructureType:
+    properties:
+        allModes:
+            expose: true
+            access_type: public_method
+            serialized_name: AllModes
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllModes
+                setter: setAllModes
+            type: string
+        mode:
+            expose: true
+            access_type: public_method
+            serialized_name: Mode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMode
+                setter: setMode
+            xml_list:
+                inline: true
+                entry_name: Mode
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedModesStructureType\ModeAType>

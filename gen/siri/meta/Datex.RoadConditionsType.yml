@@ -1,0 +1,12 @@
+Calcinai\Siri\Datex\RoadConditionsType:
+    properties:
+        roadConditionsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: roadConditionsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadConditionsExtension
+                setter: setRoadConditionsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

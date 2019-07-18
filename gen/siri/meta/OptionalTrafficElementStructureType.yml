@@ -1,0 +1,192 @@
+Calcinai\Siri\OptionalTrafficElementStructureType:
+    properties:
+        situationRecordCreationReference:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordCreationReference
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecordCreationReference
+                setter: setSituationRecordCreationReference
+            type: string
+        situationRecordCreationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordCreationTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecordCreationTime
+                setter: setSituationRecordCreationTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        situationRecordObservationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordObservationTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecordObservationTime
+                setter: setSituationRecordObservationTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        situationRecordVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordVersion
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecordVersion
+                setter: setSituationRecordVersion
+            type: int
+        situationRecordVersionTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordVersionTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecordVersionTime
+                setter: setSituationRecordVersionTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        situationRecordFirstSupplierVersionTime:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordFirstSupplierVersionTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecordFirstSupplierVersionTime
+                setter: setSituationRecordFirstSupplierVersionTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        informationUsageOverride:
+            expose: true
+            access_type: public_method
+            serialized_name: informationUsageOverride
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInformationUsageOverride
+                setter: setInformationUsageOverride
+            type: string
+        probabilityOfOccurrence:
+            expose: true
+            access_type: public_method
+            serialized_name: probabilityOfOccurrence
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProbabilityOfOccurrence
+                setter: setProbabilityOfOccurrence
+            type: string
+        sourceInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceInformation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSourceInformation
+                setter: setSourceInformation
+            type: Calcinai\Siri\Datex\SourceInformationType
+        validity:
+            expose: true
+            access_type: public_method
+            serialized_name: validity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidity
+                setter: setValidity
+            type: Calcinai\Siri\Datex\ValidityType
+        impact:
+            expose: true
+            access_type: public_method
+            serialized_name: impact
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImpact
+                setter: setImpact
+            type: Calcinai\Siri\Datex\ImpactType
+        cause:
+            expose: true
+            access_type: public_method
+            serialized_name: cause
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCause
+                setter: setCause
+            type: Calcinai\Siri\Datex\CauseType
+        advice:
+            expose: true
+            access_type: public_method
+            serialized_name: advice
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAdvice
+                setter: setAdvice
+            type: Calcinai\Siri\Datex\AdviceType
+        generalPublicComment:
+            expose: true
+            access_type: public_method
+            serialized_name: generalPublicComment
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralPublicComment
+                setter: setGeneralPublicComment
+            type: Calcinai\Siri\Datex\CommentType
+        nonGeneralPublicComment:
+            expose: true
+            access_type: public_method
+            serialized_name: nonGeneralPublicComment
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNonGeneralPublicComment
+                setter: setNonGeneralPublicComment
+            type: Calcinai\Siri\Datex\CommentType
+        groupOfLocations:
+            expose: true
+            access_type: public_method
+            serialized_name: groupOfLocations
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGroupOfLocations
+                setter: setGroupOfLocations
+            type: Calcinai\Siri\Datex\GroupOfLocationsType
+        management:
+            expose: true
+            access_type: public_method
+            serialized_name: management
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getManagement
+                setter: setManagement
+            type: Calcinai\Siri\Datex\ManagementType
+        situationRecordExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecordExtension
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecordExtension
+                setter: setSituationRecordExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        trafficElementExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficElementExtension
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTrafficElementExtension
+                setter: setTrafficElementExtension
+            type: Calcinai\Siri\Datex\ExtensionType

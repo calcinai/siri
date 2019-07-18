@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\RoadsideAssistanceType:
+    properties:
+        roadsideAssistanceType:
+            expose: true
+            access_type: public_method
+            serialized_name: roadsideAssistanceType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadsideAssistanceType
+                setter: setRoadsideAssistanceType
+            type: string
+        roadsideAssistanceExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: roadsideAssistanceExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadsideAssistanceExtension
+                setter: setRoadsideAssistanceExtension
+            type: Calcinai\Siri\Datex\ExtensionType

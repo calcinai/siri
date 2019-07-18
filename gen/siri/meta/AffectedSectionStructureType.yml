@@ -1,0 +1,42 @@
+Calcinai\Siri\AffectedSectionStructureType:
+    properties:
+        sectionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSectionRef
+                setter: setSectionRef
+            type: Calcinai\Siri\SectionRefStructureType
+        linkProjection:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkProjection
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkProjection
+                setter: setLinkProjection
+            type: Calcinai\Siri\IFOpt\LinkProjectionStructureType
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: Offset
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: Calcinai\Siri\OffsetStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

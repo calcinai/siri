@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\MobilityType:
+    properties:
+        mobilityType:
+            expose: true
+            access_type: public_method
+            serialized_name: mobilityType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMobilityType
+                setter: setMobilityType
+            type: string
+        mobilityExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: mobilityExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMobilityExtension
+                setter: setMobilityExtension
+            type: Calcinai\Siri\Datex\ExtensionType

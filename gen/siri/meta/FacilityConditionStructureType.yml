@@ -1,0 +1,82 @@
+Calcinai\Siri\FacilityConditionStructureType:
+    properties:
+        facility:
+            expose: true
+            access_type: public_method
+            serialized_name: Facility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacility
+                setter: setFacility
+            type: Calcinai\Siri\FacilityStructureType
+        facilityRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityRef
+                setter: setFacilityRef
+            type: Calcinai\Siri\FacilityRef
+        facilityStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityStatus
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityStatus
+                setter: setFacilityStatus
+            type: Calcinai\Siri\FacilityStatusStructureType
+        situationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRef
+                setter: setSituationRef
+            type: Calcinai\Siri\SituationRef
+        remedy:
+            expose: true
+            access_type: public_method
+            serialized_name: Remedy
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRemedy
+                setter: setRemedy
+            type: Calcinai\Siri\RemedyStructureType
+        monitoringInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringInfo
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringInfo
+                setter: setMonitoringInfo
+            type: Calcinai\Siri\MonitoringInformationStructureType
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: Calcinai\Siri\HalfOpenTimestampRangeStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

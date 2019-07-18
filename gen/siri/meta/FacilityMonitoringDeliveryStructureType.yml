@@ -1,0 +1,31 @@
+Calcinai\Siri\FacilityMonitoringDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        facilityCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityCondition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityCondition
+                setter: setFacilityCondition
+            type: Calcinai\Siri\FacilityConditionStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

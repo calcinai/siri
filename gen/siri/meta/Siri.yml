@@ -1,0 +1,313 @@
+Calcinai\Siri\Siri:
+    xml_root_name: Siri
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        serviceRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceRequest
+                setter: setServiceRequest
+            type: Calcinai\Siri\ServiceRequest
+        subscriptionRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionRequest
+                setter: setSubscriptionRequest
+            type: Calcinai\Siri\SubscriptionRequest
+        terminateSubscriptionRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: TerminateSubscriptionRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTerminateSubscriptionRequest
+                setter: setTerminateSubscriptionRequest
+            type: Calcinai\Siri\TerminateSubscriptionRequest
+        dataReadyNotification:
+            expose: true
+            access_type: public_method
+            serialized_name: DataReadyNotification
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDataReadyNotification
+                setter: setDataReadyNotification
+            type: Calcinai\Siri\DataReadyNotification
+        dataSupplyRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: DataSupplyRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDataSupplyRequest
+                setter: setDataSupplyRequest
+            type: Calcinai\Siri\DataSupplyRequest
+        checkStatusRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckStatusRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckStatusRequest
+                setter: setCheckStatusRequest
+            type: Calcinai\Siri\CheckStatusRequest
+        heartbeatNotification:
+            expose: true
+            access_type: public_method
+            serialized_name: HeartbeatNotification
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHeartbeatNotification
+                setter: setHeartbeatNotification
+            type: Calcinai\Siri\HeartbeatNotification
+        capabilitiesRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: CapabilitiesRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCapabilitiesRequest
+                setter: setCapabilitiesRequest
+            type: Calcinai\Siri\CapabilitiesRequest
+        stopPointsRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointsRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointsRequest
+                setter: setStopPointsRequest
+            type: Calcinai\Siri\StopPointsRequest
+        linesRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: LinesRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinesRequest
+                setter: setLinesRequest
+            type: Calcinai\Siri\LinesRequest
+        serviceFeaturesRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceFeaturesRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceFeaturesRequest
+                setter: setServiceFeaturesRequest
+            type: Calcinai\Siri\ServiceFeaturesRequest
+        productCategoriesRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductCategoriesRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductCategoriesRequest
+                setter: setProductCategoriesRequest
+            type: Calcinai\Siri\ProductCategoriesRequest
+        vehicleFeaturesRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleFeaturesRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleFeaturesRequest
+                setter: setVehicleFeaturesRequest
+            type: Calcinai\Siri\VehicleFeaturesRequest
+        infoChannelRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoChannelRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoChannelRequest
+                setter: setInfoChannelRequest
+            type: Calcinai\Siri\InfoChannelRequest
+        facilityRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityRequest
+                setter: setFacilityRequest
+            type: Calcinai\Siri\FacilityRequest
+        subscriptionResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionResponse
+                setter: setSubscriptionResponse
+            type: Calcinai\Siri\SubscriptionResponse
+        terminateSubscriptionResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: TerminateSubscriptionResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTerminateSubscriptionResponse
+                setter: setTerminateSubscriptionResponse
+            type: Calcinai\Siri\TerminateSubscriptionResponse
+        dataReadyAcknowledgement:
+            expose: true
+            access_type: public_method
+            serialized_name: DataReadyAcknowledgement
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDataReadyAcknowledgement
+                setter: setDataReadyAcknowledgement
+            type: Calcinai\Siri\DataReadyAcknowledgement
+        serviceDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceDelivery
+                setter: setServiceDelivery
+            type: Calcinai\Siri\ServiceDelivery
+        dataReceivedAcknowledgement:
+            expose: true
+            access_type: public_method
+            serialized_name: DataReceivedAcknowledgement
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDataReceivedAcknowledgement
+                setter: setDataReceivedAcknowledgement
+            type: Calcinai\Siri\DataReceivedAcknowledgement
+        checkStatusResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckStatusResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckStatusResponse
+                setter: setCheckStatusResponse
+            type: Calcinai\Siri\CheckStatusResponse
+        capabilitiesResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: CapabilitiesResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCapabilitiesResponse
+                setter: setCapabilitiesResponse
+            type: Calcinai\Siri\CapabilitiesResponse
+        stopPointsDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointsDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointsDelivery
+                setter: setStopPointsDelivery
+            type: Calcinai\Siri\StopPointsDelivery
+        linesDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: LinesDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinesDelivery
+                setter: setLinesDelivery
+            type: Calcinai\Siri\LinesDelivery
+        productCategoriesDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductCategoriesDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductCategoriesDelivery
+                setter: setProductCategoriesDelivery
+            type: Calcinai\Siri\ProductCategoriesDelivery
+        serviceFeaturesDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceFeaturesDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceFeaturesDelivery
+                setter: setServiceFeaturesDelivery
+            type: Calcinai\Siri\ServiceFeaturesDelivery
+        vehicleFeaturesDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleFeaturesDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleFeaturesDelivery
+                setter: setVehicleFeaturesDelivery
+            type: Calcinai\Siri\VehicleFeaturesDelivery
+        infoChannelDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoChannelDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoChannelDelivery
+                setter: setInfoChannelDelivery
+            type: Calcinai\Siri\InfoChannelDelivery
+        facilityDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityDelivery
+                setter: setFacilityDelivery
+            type: Calcinai\Siri\FacilityDelivery
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,82 @@
+Calcinai\Siri\ContextStructureType:
+    properties:
+        countryRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCountryRef
+                setter: setCountryRef
+            type: Calcinai\Siri\IFOpt\CountryRefStructureType
+        participantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipantRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getParticipantRef
+                setter: setParticipantRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        topographicPlaceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: TopographicPlaceRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTopographicPlaceRef
+                setter: setTopographicPlaceRef
+            type: string
+        topographicPlaceName:
+            expose: true
+            access_type: public_method
+            serialized_name: TopographicPlaceName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTopographicPlaceName
+                setter: setTopographicPlaceName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        defaultLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultLanguage
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDefaultLanguage
+                setter: setDefaultLanguage
+            type: string
+        networkContext:
+            expose: true
+            access_type: public_method
+            serialized_name: NetworkContext
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNetworkContext
+                setter: setNetworkContext
+            type: Calcinai\Siri\NetworkContextStructureType
+        actions:
+            expose: true
+            access_type: public_method
+            serialized_name: Actions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getActions
+                setter: setActions
+            type: Calcinai\Siri\ActionsStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

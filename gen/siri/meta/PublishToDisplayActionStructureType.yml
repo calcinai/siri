@@ -1,0 +1,22 @@
+Calcinai\Siri\PublishToDisplayActionStructureType:
+    properties:
+        onPlace:
+            expose: true
+            access_type: public_method
+            serialized_name: OnPlace
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOnPlace
+                setter: setOnPlace
+            type: bool
+        onBoard:
+            expose: true
+            access_type: public_method
+            serialized_name: OnBoard
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOnBoard
+                setter: setOnBoard
+            type: bool

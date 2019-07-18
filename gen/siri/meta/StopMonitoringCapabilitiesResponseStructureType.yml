@@ -1,0 +1,41 @@
+Calcinai\Siri\StopMonitoringCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        stopMonitoringServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitoringServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitoringServiceCapabilities
+                setter: setStopMonitoringServiceCapabilities
+            type: Calcinai\Siri\StopMonitoringServiceCapabilities
+        stopMonitoringPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitoringPermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitoringPermissions
+                setter: setStopMonitoringPermissions
+            type: Calcinai\Siri\StopMonitoringPermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

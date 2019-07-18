@@ -1,0 +1,46 @@
+Calcinai\Siri\Datex\PredefinedLocationType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        predefinedLocationName:
+            expose: true
+            access_type: public_method
+            serialized_name: predefinedLocationName
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPredefinedLocationName
+                setter: setPredefinedLocationName
+            type: array<Calcinai\Siri\Datex\PredefinedLocationType\PredefinedLocationNameAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        predefinedLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: predefinedLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPredefinedLocation
+                setter: setPredefinedLocation
+            type: Calcinai\Siri\Datex\LocationType
+        predefinedLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: predefinedLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPredefinedLocationExtension
+                setter: setPredefinedLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

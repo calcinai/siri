@@ -1,0 +1,16 @@
+Calcinai\Siri\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType:
+    properties:
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getValue
+                setter: setValue
+            xml_list:
+                inline: true
+                entry_name: value
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\PredefinedLocationSetType\PredefinedLocationSetNameAType\ValueAType>

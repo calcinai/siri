@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\ConditionsType:
+    properties:
+        drivingConditionType:
+            expose: true
+            access_type: public_method
+            serialized_name: drivingConditionType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDrivingConditionType
+                setter: setDrivingConditionType
+            type: string
+        conditionsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: conditionsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getConditionsExtension
+                setter: setConditionsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

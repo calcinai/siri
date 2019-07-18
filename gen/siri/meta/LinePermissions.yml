@@ -1,0 +1,28 @@
+Calcinai\Siri\LinePermissions:
+    xml_root_name: LinePermissions
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties:
+        allowAll:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowAll
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllowAll
+                setter: setAllowAll
+            type: bool
+        linePermission:
+            expose: true
+            access_type: public_method
+            serialized_name: LinePermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinePermission
+                setter: setLinePermission
+            xml_list:
+                inline: true
+                entry_name: LinePermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\LinePermissionStructureType>

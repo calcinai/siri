@@ -1,0 +1,3 @@
+Calcinai\Siri\StopMonitoringCapabilitiesRequest:
+    xml_root_name: StopMonitoringCapabilitiesRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

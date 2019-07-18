@@ -1,0 +1,41 @@
+Calcinai\Siri\SituationExchangeDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        ptSituationContext:
+            expose: true
+            access_type: public_method
+            serialized_name: PtSituationContext
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPtSituationContext
+                setter: setPtSituationContext
+            type: Calcinai\Siri\ContextStructureType
+        situations:
+            expose: true
+            access_type: public_method
+            serialized_name: Situations
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituations
+                setter: setSituations
+            type: Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

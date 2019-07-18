@@ -1,0 +1,32 @@
+Calcinai\Siri\EstimatedTimetableSubscriptionStructureType:
+    properties:
+        estimatedTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedTimetableRequest
+                setter: setEstimatedTimetableRequest
+            type: Calcinai\Siri\EstimatedTimetableRequest
+        incrementalUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: IncrementalUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIncrementalUpdates
+                setter: setIncrementalUpdates
+            type: bool
+        changeBeforeUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: ChangeBeforeUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getChangeBeforeUpdates
+                setter: setChangeBeforeUpdates
+            type: DateInterval

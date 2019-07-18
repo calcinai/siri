@@ -1,0 +1,26 @@
+Calcinai\Siri\VehicleMonitoringServicePermissionStructureType\VehicleMonitoringPermissionsAType:
+    properties:
+        allowAll:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowAll
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllowAll
+                setter: setAllowAll
+            type: bool
+        vehicleMonitorPermission:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitorPermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitorPermission
+                setter: setVehicleMonitorPermission
+            xml_list:
+                inline: true
+                entry_name: VehicleMonitorPermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\VehicleMonitorPermissionStructureType>

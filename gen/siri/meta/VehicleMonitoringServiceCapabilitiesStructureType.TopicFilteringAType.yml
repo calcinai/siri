@@ -1,0 +1,52 @@
+Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\TopicFilteringAType:
+    properties:
+        defaultPreviewInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultPreviewInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDefaultPreviewInterval
+                setter: setDefaultPreviewInterval
+            type: DateInterval
+        filterByVehicleMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByVehicleMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByVehicleMonitoringRef
+                setter: setFilterByVehicleMonitoringRef
+            type: bool
+        filterByVehicleRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByVehicleRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByVehicleRef
+                setter: setFilterByVehicleRef
+            type: bool
+        filterByLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByLineRef
+                setter: setFilterByLineRef
+            type: bool
+        filterByDirectionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByDirectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByDirectionRef
+                setter: setFilterByDirectionRef
+            type: bool

@@ -1,0 +1,125 @@
+Calcinai\Siri\Datex\MeasurementSiteRecordType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        computationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: computationMethod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComputationMethod
+                setter: setComputationMethod
+            type: string
+        measurementEquipmentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementEquipmentReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementEquipmentReference
+                setter: setMeasurementEquipmentReference
+            type: string
+        measurementEquipmentTypeUsed:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementEquipmentTypeUsed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementEquipmentTypeUsed
+                setter: setMeasurementEquipmentTypeUsed
+            type: array<Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementEquipmentTypeUsedAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        measurementSiteName:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSiteName
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSiteName
+                setter: setMeasurementSiteName
+            type: array<Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSiteNameAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        measurementSiteNumberOfLanes:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSiteNumberOfLanes
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSiteNumberOfLanes
+                setter: setMeasurementSiteNumberOfLanes
+            type: int
+        measurementSiteReference:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSiteReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSiteReference
+                setter: setMeasurementSiteReference
+            type: string
+        measurementSide:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSide
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSide
+                setter: setMeasurementSide
+            type: string
+        measurementSpecificCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSpecificCharacteristics
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSpecificCharacteristics
+                setter: setMeasurementSpecificCharacteristics
+            xml_list:
+                inline: true
+                entry_name: measurementSpecificCharacteristics
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\MeasurementSiteRecordType\MeasurementSpecificCharacteristicsAType>
+        measurementSiteLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSiteLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSiteLocation
+                setter: setMeasurementSiteLocation
+            type: Calcinai\Siri\Datex\LocationType
+        measurementSiteRecordExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSiteRecordExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSiteRecordExtension
+                setter: setMeasurementSiteRecordExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,137 @@
+Calcinai\Siri\Datex\BasicDataValueType:
+    properties:
+        accuracy:
+            expose: true
+            access_type: public_method
+            serialized_name: accuracy
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAccuracy
+                setter: setAccuracy
+            type: float
+        computationalMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: computationalMethod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComputationalMethod
+                setter: setComputationalMethod
+            type: string
+        fault:
+            expose: true
+            access_type: public_method
+            serialized_name: fault
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFault
+                setter: setFault
+            type: bool
+        faultReason:
+            expose: true
+            access_type: public_method
+            serialized_name: faultReason
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFaultReason
+                setter: setFaultReason
+            type: array<Calcinai\Siri\Datex\BasicDataValueType\FaultReasonAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        numberOfIncompleteInputs:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfIncompleteInputs
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfIncompleteInputs
+                setter: setNumberOfIncompleteInputs
+            type: int
+        numberOfInputValuesUsed:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfInputValuesUsed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfInputValuesUsed
+                setter: setNumberOfInputValuesUsed
+            type: int
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: float
+        smoothingFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: smoothingFactor
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSmoothingFactor
+                setter: setSmoothingFactor
+            type: float
+        standardDeviation:
+            expose: true
+            access_type: public_method
+            serialized_name: standardDeviation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getStandardDeviation
+                setter: setStandardDeviation
+            type: float
+        supplierCalculatedDataQuality:
+            expose: true
+            access_type: public_method
+            serialized_name: supplierCalculatedDataQuality
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSupplierCalculatedDataQuality
+                setter: setSupplierCalculatedDataQuality
+            type: float
+        time:
+            expose: true
+            access_type: public_method
+            serialized_name: time
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTime
+                setter: setTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        affectedLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: affectedLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAffectedLocation
+                setter: setAffectedLocation
+            type: Calcinai\Siri\Datex\GroupOfLocationsType
+        basicDataValueExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: basicDataValueExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getBasicDataValueExtension
+                setter: setBasicDataValueExtension
+            type: Calcinai\Siri\Datex\ExtensionType

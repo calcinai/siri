@@ -1,0 +1,12 @@
+Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType:
+    properties:
+        timeband:
+            expose: true
+            access_type: public_method
+            serialized_name: Timeband
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getTimeband
+                setter: setTimeband
+            type: Calcinai\Siri\IFOpt\TimebandStructureType

@@ -1,0 +1,66 @@
+Calcinai\Siri\Datex\HeaderInformationType:
+    properties:
+        areaOfInterest:
+            expose: true
+            access_type: public_method
+            serialized_name: areaOfInterest
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAreaOfInterest
+                setter: setAreaOfInterest
+            type: string
+        confidentiality:
+            expose: true
+            access_type: public_method
+            serialized_name: confidentiality
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getConfidentiality
+                setter: setConfidentiality
+            type: string
+        informationUsage:
+            expose: true
+            access_type: public_method
+            serialized_name: informationUsage
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInformationUsage
+                setter: setInformationUsage
+            xml_list:
+                inline: true
+                entry_name: informationUsage
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        informationStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: informationStatus
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInformationStatus
+                setter: setInformationStatus
+            type: string
+        urgency:
+            expose: true
+            access_type: public_method
+            serialized_name: urgency
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getUrgency
+                setter: setUrgency
+            type: string
+        headerInformationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: headerInformationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeaderInformationExtension
+                setter: setHeaderInformationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

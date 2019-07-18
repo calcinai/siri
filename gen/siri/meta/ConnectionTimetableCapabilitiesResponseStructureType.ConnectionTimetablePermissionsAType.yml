@@ -1,0 +1,16 @@
+Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType:
+    properties:
+        connectionTimetablePermission:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionTimetablePermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionTimetablePermission
+                setter: setConnectionTimetablePermission
+            xml_list:
+                inline: true
+                entry_name: ConnectionTimetablePermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>

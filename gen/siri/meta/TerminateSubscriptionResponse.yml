@@ -1,0 +1,3 @@
+Calcinai\Siri\TerminateSubscriptionResponse:
+    xml_root_name: TerminateSubscriptionResponse
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

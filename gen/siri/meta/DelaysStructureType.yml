@@ -1,0 +1,32 @@
+Calcinai\Siri\DelaysStructureType:
+    properties:
+        delayBand:
+            expose: true
+            access_type: public_method
+            serialized_name: DelayBand
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDelayBand
+                setter: setDelayBand
+            type: string
+        delayType:
+            expose: true
+            access_type: public_method
+            serialized_name: DelayType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDelayType
+                setter: setDelayType
+            type: string
+        delay:
+            expose: true
+            access_type: public_method
+            serialized_name: Delay
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDelay
+                setter: setDelay
+            type: DateInterval

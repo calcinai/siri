@@ -1,0 +1,26 @@
+Calcinai\Siri\ParameterisedActionStructureType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        actionData:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionData
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getActionData
+                setter: setActionData
+            xml_list:
+                inline: true
+                entry_name: ActionData
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ActionDataStructureType>

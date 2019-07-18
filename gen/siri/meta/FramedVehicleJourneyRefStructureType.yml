@@ -1,0 +1,22 @@
+Calcinai\Siri\FramedVehicleJourneyRefStructureType:
+    properties:
+        dataFrameRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DataFrameRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDataFrameRef
+                setter: setDataFrameRef
+            type: Calcinai\Siri\DataFrameRefStructureType
+        datedVehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DatedVehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDatedVehicleJourneyRef
+                setter: setDatedVehicleJourneyRef
+            type: string

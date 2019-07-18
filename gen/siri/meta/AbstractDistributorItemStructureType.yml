@@ -1,0 +1,76 @@
+Calcinai\Siri\AbstractDistributorItemStructureType:
+    properties:
+        interchangeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: InterchangeRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterchangeRef
+                setter: setInterchangeRef
+            type: Calcinai\Siri\InterchangeRefStructureType
+        connectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLinkRef
+                setter: setConnectionLinkRef
+            type: Calcinai\Siri\ConnectionLinkRefStructureType
+        stopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointRef
+                setter: setStopPointRef
+            type: Calcinai\Siri\StopPointRefStructureType
+        distributorVisitNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorVisitNumber
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorVisitNumber
+                setter: setDistributorVisitNumber
+            type: int
+        distributorOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorOrder
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorOrder
+                setter: setDistributorOrder
+            type: int
+        distributorJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorJourney
+                setter: setDistributorJourney
+            type: Calcinai\Siri\InterchangeJourneyStructureType
+        feederVehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FeederVehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFeederVehicleJourneyRef
+                setter: setFeederVehicleJourneyRef
+            xml_list:
+                inline: true
+                entry_name: FeederVehicleJourneyRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\FramedVehicleJourneyRefStructureType>

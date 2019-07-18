@@ -1,0 +1,18 @@
+Calcinai\Siri\FacilityMonitoringPermissions:
+    xml_root_name: FacilityMonitoringPermissions
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties:
+        facilityMonitoringPermission:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityMonitoringPermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityMonitoringPermission
+                setter: setFacilityMonitoringPermission
+            xml_list:
+                inline: true
+                entry_name: FacilityMonitoringPermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\FacilityMonitoringServicePermissionStructureType>

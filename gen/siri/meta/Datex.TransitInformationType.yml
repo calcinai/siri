@@ -1,0 +1,82 @@
+Calcinai\Siri\Datex\TransitInformationType:
+    properties:
+        journeyDestination:
+            expose: true
+            access_type: public_method
+            serialized_name: journeyDestination
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getJourneyDestination
+                setter: setJourneyDestination
+            type: array<Calcinai\Siri\Datex\TransitInformationType\JourneyDestinationAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        journeyOrigin:
+            expose: true
+            access_type: public_method
+            serialized_name: journeyOrigin
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getJourneyOrigin
+                setter: setJourneyOrigin
+            type: array<Calcinai\Siri\Datex\TransitInformationType\JourneyOriginAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        journeyReference:
+            expose: true
+            access_type: public_method
+            serialized_name: journeyReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getJourneyReference
+                setter: setJourneyReference
+            type: string
+        transitServiceInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: transitServiceInformation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTransitServiceInformation
+                setter: setTransitServiceInformation
+            type: string
+        transitServiceType:
+            expose: true
+            access_type: public_method
+            serialized_name: transitServiceType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTransitServiceType
+                setter: setTransitServiceType
+            type: string
+        scheduledDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: scheduledDepartureTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getScheduledDepartureTime
+                setter: setScheduledDepartureTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        transitInformationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: transitInformationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTransitInformationExtension
+                setter: setTransitInformationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectsScopeStructureType\NetworksAType:
+    properties:
+        affectedNetwork:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedNetwork
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedNetwork
+                setter: setAffectedNetwork
+            xml_list:
+                inline: true
+                entry_name: AffectedNetwork
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectsScopeStructureType\NetworksAType\AffectedNetworkAType>

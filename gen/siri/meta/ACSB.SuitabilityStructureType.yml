@@ -1,0 +1,22 @@
+Calcinai\Siri\ACSB\SuitabilityStructureType:
+    properties:
+        suitable:
+            expose: true
+            access_type: public_method
+            serialized_name: Suitable
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getSuitable
+                setter: setSuitable
+            type: string
+        userNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: UserNeed
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getUserNeed
+                setter: setUserNeed
+            type: Calcinai\Siri\ACSB\UserNeedStructureType

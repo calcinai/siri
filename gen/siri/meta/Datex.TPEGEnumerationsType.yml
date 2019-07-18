@@ -1,0 +1,112 @@
+Calcinai\Siri\Datex\TPEGEnumerationsType:
+    properties:
+        tpegloc03ILCPointDescriptorSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc03ILCPointDescriptorSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc03ILCPointDescriptorSubtypeEnum
+                setter: setTpegloc03ILCPointDescriptorSubtypeEnum
+            type: string
+        tpegenumerationsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegenumerationsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegenumerationsExtension
+                setter: setTpegenumerationsExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        tpegloc02DirectionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc02DirectionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc02DirectionTypeEnum
+                setter: setTpegloc02DirectionTypeEnum
+            type: string
+        tpegloc01LinearLocationSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc01LinearLocationSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc01LinearLocationSubtypeEnum
+                setter: setTpegloc01LinearLocationSubtypeEnum
+            type: string
+        tpegloc01AreaLocationSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc01AreaLocationSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc01AreaLocationSubtypeEnum
+                setter: setTpegloc01AreaLocationSubtypeEnum
+            type: string
+        tpegloc01FramedPointLocationSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc01FramedPointLocationSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc01FramedPointLocationSubtypeEnum
+                setter: setTpegloc01FramedPointLocationSubtypeEnum
+            type: string
+        tpegloc03OtherPointDescriptorSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc03OtherPointDescriptorSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc03OtherPointDescriptorSubtypeEnum
+                setter: setTpegloc03OtherPointDescriptorSubtypeEnum
+            type: string
+        tpegloc01SimplePointLocationSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc01SimplePointLocationSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc01SimplePointLocationSubtypeEnum
+                setter: setTpegloc01SimplePointLocationSubtypeEnum
+            type: string
+        tpegloc04HeightTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc04HeightTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc04HeightTypeEnum
+                setter: setTpegloc04HeightTypeEnum
+            type: string
+        tpegloc03JunctionPointDescriptorSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc03JunctionPointDescriptorSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc03JunctionPointDescriptorSubtypeEnum
+                setter: setTpegloc03JunctionPointDescriptorSubtypeEnum
+            type: string
+        tpegloc03AreaDescriptorSubtypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegloc03AreaDescriptorSubtypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegloc03AreaDescriptorSubtypeEnum
+                setter: setTpegloc03AreaDescriptorSubtypeEnum
+            type: string

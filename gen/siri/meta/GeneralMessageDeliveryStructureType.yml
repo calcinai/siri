@@ -1,0 +1,41 @@
+Calcinai\Siri\GeneralMessageDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        generalMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessage
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessage
+                setter: setGeneralMessage
+            type: Calcinai\Siri\GeneralMessage
+        generalMessageCancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessageCancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessageCancellation
+                setter: setGeneralMessageCancellation
+            type: Calcinai\Siri\GeneralMessageCancellation
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

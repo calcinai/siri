@@ -1,0 +1,47 @@
+Calcinai\Siri\Datex\AlertCDirectionType:
+    properties:
+        alertCDirectionCoded:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCDirectionCoded
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCDirectionCoded
+                setter: setAlertCDirectionCoded
+            type: string
+        alertCDirectionNamed:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCDirectionNamed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCDirectionNamed
+                setter: setAlertCDirectionNamed
+            type: array<Calcinai\Siri\Datex\AlertCDirectionType\AlertCDirectionNamedAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        alertCDirectionSense:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCDirectionSense
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCDirectionSense
+                setter: setAlertCDirectionSense
+            type: bool
+        alertCDirectionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCDirectionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCDirectionExtension
+                setter: setAlertCDirectionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

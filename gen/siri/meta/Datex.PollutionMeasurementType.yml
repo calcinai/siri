@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\PollutionMeasurementType:
+    properties:
+        pollutantConcentration:
+            expose: true
+            access_type: public_method
+            serialized_name: pollutantConcentration
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPollutantConcentration
+                setter: setPollutantConcentration
+            type: float
+        pollutantType:
+            expose: true
+            access_type: public_method
+            serialized_name: pollutantType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPollutantType
+                setter: setPollutantType
+            type: string
+        pollutionMeasurementExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: pollutionMeasurementExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPollutionMeasurementExtension
+                setter: setPollutionMeasurementExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,78 @@
+Calcinai\Siri\Datex\AccidentType:
+    properties:
+        accidentCause:
+            expose: true
+            access_type: public_method
+            serialized_name: accidentCause
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAccidentCause
+                setter: setAccidentCause
+            type: string
+        accidentType:
+            expose: true
+            access_type: public_method
+            serialized_name: accidentType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAccidentType
+                setter: setAccidentType
+            xml_list:
+                inline: true
+                entry_name: accidentType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        vehicleInvolved:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleInvolved
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleInvolved
+                setter: setVehicleInvolved
+            xml_list:
+                inline: true
+                entry_name: vehicleInvolved
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\VehicleType>
+        overviewOfVehiclesInvolved:
+            expose: true
+            access_type: public_method
+            serialized_name: overviewOfVehiclesInvolved
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOverviewOfVehiclesInvolved
+                setter: setOverviewOfVehiclesInvolved
+            xml_list:
+                inline: true
+                entry_name: overviewOfVehiclesInvolved
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\VehiclesInvolvedType>
+        overviewOfPeopleInvolved:
+            expose: true
+            access_type: public_method
+            serialized_name: overviewOfPeopleInvolved
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOverviewOfPeopleInvolved
+                setter: setOverviewOfPeopleInvolved
+            xml_list:
+                inline: true
+                entry_name: overviewOfPeopleInvolved
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\PeopleInvolvedType>
+        accidentExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: accidentExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAccidentExtension
+                setter: setAccidentExtension
+            type: Calcinai\Siri\Datex\ExtensionType

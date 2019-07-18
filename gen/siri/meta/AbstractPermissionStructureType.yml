@@ -1,0 +1,32 @@
+Calcinai\Siri\AbstractPermissionStructureType:
+    properties:
+        allParticipants:
+            expose: true
+            access_type: public_method
+            serialized_name: AllParticipants
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllParticipants
+                setter: setAllParticipants
+            type: string
+        participantRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ParticipantRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getParticipantRef
+                setter: setParticipantRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        generalCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralCapabilities
+                setter: setGeneralCapabilities
+            type: Calcinai\Siri\AbstractPermissionStructureType\GeneralCapabilitiesAType

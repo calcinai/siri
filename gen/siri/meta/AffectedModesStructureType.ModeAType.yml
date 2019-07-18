@@ -1,0 +1,92 @@
+Calcinai\Siri\AffectedModesStructureType\ModeAType:
+    properties:
+        vehicleMode:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMode
+                setter: setVehicleMode
+            type: Calcinai\Siri\VehicleMode
+        airSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: AirSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAirSubmode
+                setter: setAirSubmode
+            type: Calcinai\Siri\AirSubmode
+        busSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: BusSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getBusSubmode
+                setter: setBusSubmode
+            type: Calcinai\Siri\BusSubmode
+        coachSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: CoachSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCoachSubmode
+                setter: setCoachSubmode
+            type: Calcinai\Siri\CoachSubmode
+        metroSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: MetroSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMetroSubmode
+                setter: setMetroSubmode
+            type: Calcinai\Siri\MetroSubmode
+        railSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: RailSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRailSubmode
+                setter: setRailSubmode
+            type: Calcinai\Siri\RailSubmode
+        tramSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: TramSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTramSubmode
+                setter: setTramSubmode
+            type: Calcinai\Siri\TramSubmode
+        waterSubmode:
+            expose: true
+            access_type: public_method
+            serialized_name: WaterSubmode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getWaterSubmode
+                setter: setWaterSubmode
+            type: Calcinai\Siri\WaterSubmode
+        accessMode:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessMode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessMode
+                setter: setAccessMode
+            type: string

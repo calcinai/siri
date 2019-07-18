@@ -1,0 +1,22 @@
+Calcinai\Siri\OffsetStructureType:
+    properties:
+        distanceFromStart:
+            expose: true
+            access_type: public_method
+            serialized_name: DistanceFromStart
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistanceFromStart
+                setter: setDistanceFromStart
+            type: int
+        distanceFromEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: DistanceFromEnd
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistanceFromEnd
+                setter: setDistanceFromEnd
+            type: int

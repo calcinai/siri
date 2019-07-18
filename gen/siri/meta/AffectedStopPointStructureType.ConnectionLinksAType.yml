@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectedStopPointStructureType\ConnectionLinksAType:
+    properties:
+        affectedConnectionLink:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedConnectionLink
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedConnectionLink
+                setter: setAffectedConnectionLink
+            xml_list:
+                inline: true
+                entry_name: AffectedConnectionLink
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedConnectionLinkStructureType>

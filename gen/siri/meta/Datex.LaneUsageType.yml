@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\LaneUsageType:
+    properties:
+        laneUsageAdvice:
+            expose: true
+            access_type: public_method
+            serialized_name: laneUsageAdvice
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLaneUsageAdvice
+                setter: setLaneUsageAdvice
+            type: string
+        laneUsageExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: laneUsageExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLaneUsageExtension
+                setter: setLaneUsageExtension
+            type: Calcinai\Siri\Datex\ExtensionType

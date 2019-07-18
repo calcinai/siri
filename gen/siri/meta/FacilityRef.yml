@@ -1,0 +1,3 @@
+Calcinai\Siri\FacilityRef:
+    xml_root_name: FacilityRef
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

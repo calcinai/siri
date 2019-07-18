@@ -1,0 +1,96 @@
+Calcinai\Siri\Datex\RoadworksType:
+    properties:
+        effectOnRoadLayout:
+            expose: true
+            access_type: public_method
+            serialized_name: effectOnRoadLayout
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEffectOnRoadLayout
+                setter: setEffectOnRoadLayout
+            xml_list:
+                inline: true
+                entry_name: effectOnRoadLayout
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        roadworksDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: roadworksDuration
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadworksDuration
+                setter: setRoadworksDuration
+            type: string
+        roadworksScale:
+            expose: true
+            access_type: public_method
+            serialized_name: roadworksScale
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadworksScale
+                setter: setRoadworksScale
+            type: string
+        underTraffic:
+            expose: true
+            access_type: public_method
+            serialized_name: underTraffic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getUnderTraffic
+                setter: setUnderTraffic
+            type: bool
+        urgentRoadworks:
+            expose: true
+            access_type: public_method
+            serialized_name: urgentRoadworks
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getUrgentRoadworks
+                setter: setUrgentRoadworks
+            type: bool
+        mobility:
+            expose: true
+            access_type: public_method
+            serialized_name: mobility
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMobility
+                setter: setMobility
+            type: Calcinai\Siri\Datex\MobilityType
+        subjectTypeOfWorks:
+            expose: true
+            access_type: public_method
+            serialized_name: subjectTypeOfWorks
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubjectTypeOfWorks
+                setter: setSubjectTypeOfWorks
+            type: Calcinai\Siri\Datex\SubjectTypeOfWorksType
+        associatedMaintenanceVehicles:
+            expose: true
+            access_type: public_method
+            serialized_name: associatedMaintenanceVehicles
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAssociatedMaintenanceVehicles
+                setter: setAssociatedMaintenanceVehicles
+            type: Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType
+        roadworksExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: roadworksExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadworksExtension
+                setter: setRoadworksExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\AxleSpacingType:
+    properties:
+        axleSpacing:
+            expose: true
+            access_type: public_method
+            serialized_name: axleSpacing
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleSpacing
+                setter: setAxleSpacing
+            type: float
+        axleSpacingSequenceIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: axleSpacingSequenceIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleSpacingSequenceIdentifier
+                setter: setAxleSpacingSequenceIdentifier
+            type: int
+        axleSpacingExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: axleSpacingExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleSpacingExtension
+                setter: setAxleSpacingExtension
+            type: Calcinai\Siri\Datex\ExtensionType

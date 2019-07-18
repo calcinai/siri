@@ -1,0 +1,71 @@
+Calcinai\Siri\Datex\TrafficViewRecordType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        recordSequenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: recordSequenceNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRecordSequenceNumber
+                setter: setRecordSequenceNumber
+            type: int
+        trafficElement:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficElement
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficElement
+                setter: setTrafficElement
+            type: Calcinai\Siri\Datex\TrafficElementType
+        operatorAction:
+            expose: true
+            access_type: public_method
+            serialized_name: operatorAction
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOperatorAction
+                setter: setOperatorAction
+            type: Calcinai\Siri\Datex\OperatorActionType
+        elaboratedData:
+            expose: true
+            access_type: public_method
+            serialized_name: elaboratedData
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getElaboratedData
+                setter: setElaboratedData
+            type: Calcinai\Siri\Datex\ElaboratedDataType
+        cctvimages:
+            expose: true
+            access_type: public_method
+            serialized_name: cctvimages
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCctvimages
+                setter: setCctvimages
+            type: Calcinai\Siri\Datex\CCTVImagesType
+        trafficViewRecordExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficViewRecordExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficViewRecordExtension
+                setter: setTrafficViewRecordExtension
+            type: Calcinai\Siri\Datex\ExtensionType

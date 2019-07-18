@@ -1,0 +1,32 @@
+Calcinai\Siri\EasementsStructureType:
+    properties:
+        ticketRestrictions:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketRestrictions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTicketRestrictions
+                setter: setTicketRestrictions
+            type: string
+        easement:
+            expose: true
+            access_type: public_method
+            serialized_name: Easement
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEasement
+                setter: setEasement
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        easementRef:
+            expose: true
+            access_type: public_method
+            serialized_name: EasementRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEasementRef
+                setter: setEasementRef
+            type: Calcinai\Siri\NaturalLanguagePlaceNameStructureType

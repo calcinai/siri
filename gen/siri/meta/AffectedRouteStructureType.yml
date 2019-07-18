@@ -1,0 +1,66 @@
+Calcinai\Siri\AffectedRouteStructureType:
+    properties:
+        routeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RouteRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRouteRef
+                setter: setRouteRef
+            type: Calcinai\Siri\RouteRefStructureType
+        direction:
+            expose: true
+            access_type: public_method
+            serialized_name: Direction
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirection
+                setter: setDirection
+            xml_list:
+                inline: true
+                entry_name: Direction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\DirectionStructureType>
+        sections:
+            expose: true
+            access_type: public_method
+            serialized_name: Sections
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSections
+                setter: setSections
+            type: array<Calcinai\Siri\AffectedSectionStructureType>
+            xml_list:
+                inline: false
+                entry_name: AffectedSection
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        routeLinks:
+            expose: true
+            access_type: public_method
+            serialized_name: RouteLinks
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRouteLinks
+                setter: setRouteLinks
+            type: array<Calcinai\Siri\RouteLinkRefStructureType>
+            xml_list:
+                inline: false
+                entry_name: RouteLinkRef
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

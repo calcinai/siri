@@ -1,0 +1,16 @@
+Calcinai\Siri\PushedActionStructureType\BeforeNoticesAType:
+    properties:
+        interval:
+            expose: true
+            access_type: public_method
+            serialized_name: Interval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterval
+                setter: setInterval
+            xml_list:
+                inline: true
+                entry_name: Interval
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<DateInterval>

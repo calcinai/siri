@@ -1,0 +1,52 @@
+Calcinai\Siri\DataNameSpacesStructureType:
+    properties:
+        stopPointNameSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointNameSpace
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointNameSpace
+                setter: setStopPointNameSpace
+            type: string
+        lineNameSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: LineNameSpace
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineNameSpace
+                setter: setLineNameSpace
+            type: string
+        productCategoryNameSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductCategoryNameSpace
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductCategoryNameSpace
+                setter: setProductCategoryNameSpace
+            type: string
+        serviceFeatureNameSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceFeatureNameSpace
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceFeatureNameSpace
+                setter: setServiceFeatureNameSpace
+            type: string
+        vehicleFeatureNameSpace:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleFeatureNameSpace
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleFeatureNameSpace
+                setter: setVehicleFeatureNameSpace
+            type: string

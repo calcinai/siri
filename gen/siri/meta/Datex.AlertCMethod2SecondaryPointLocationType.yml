@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\AlertCMethod2SecondaryPointLocationType:
+    properties:
+        alertCLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocation
+                setter: setAlertCLocation
+            type: Calcinai\Siri\Datex\AlertCLocationType
+        alertCMethod2SecondaryPointLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCMethod2SecondaryPointLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCMethod2SecondaryPointLocationExtension
+                setter: setAlertCMethod2SecondaryPointLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

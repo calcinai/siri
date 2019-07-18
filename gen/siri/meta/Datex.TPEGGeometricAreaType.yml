@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\TPEGGeometricAreaType:
+    properties:
+        radius:
+            expose: true
+            access_type: public_method
+            serialized_name: radius
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRadius
+                setter: setRadius
+            type: int
+        centrePoint:
+            expose: true
+            access_type: public_method
+            serialized_name: centrePoint
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCentrePoint
+                setter: setCentrePoint
+            type: Calcinai\Siri\Datex\PointCoordinatesType
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Calcinai\Siri\Datex\TPEGAreaDescriptorType
+        tpeggeometricAreaExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpeggeometricAreaExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpeggeometricAreaExtension
+                setter: setTpeggeometricAreaExtension
+            type: Calcinai\Siri\Datex\ExtensionType

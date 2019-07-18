@@ -1,0 +1,151 @@
+Calcinai\Siri\ServiceDeliveryStructureType:
+    properties:
+        srsName:
+            expose: true
+            access_type: public_method
+            serialized_name: srsName
+            accessor:
+                getter: getSrsName
+                setter: setSrsName
+            xml_attribute: true
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: bool
+        errorCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorCondition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getErrorCondition
+                setter: setErrorCondition
+            type: Calcinai\Siri\ServiceDeliveryStructureType\ErrorConditionAType
+        moreData:
+            expose: true
+            access_type: public_method
+            serialized_name: MoreData
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMoreData
+                setter: setMoreData
+            type: bool
+        productionTimetableDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductionTimetableDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductionTimetableDelivery
+                setter: setProductionTimetableDelivery
+            type: Calcinai\Siri\ProductionTimetableDelivery
+        estimatedTimetableDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedTimetableDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedTimetableDelivery
+                setter: setEstimatedTimetableDelivery
+            type: Calcinai\Siri\EstimatedTimetableDelivery
+        stopTimetableDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: StopTimetableDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopTimetableDelivery
+                setter: setStopTimetableDelivery
+            type: Calcinai\Siri\StopTimetableDelivery
+        stopMonitoringDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitoringDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitoringDelivery
+                setter: setStopMonitoringDelivery
+            type: Calcinai\Siri\StopMonitoringDelivery
+        vehicleMonitoringDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringDelivery
+                setter: setVehicleMonitoringDelivery
+            type: Calcinai\Siri\VehicleMonitoringDelivery
+        connectionTimetableDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionTimetableDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionTimetableDelivery
+                setter: setConnectionTimetableDelivery
+            type: Calcinai\Siri\ConnectionTimetableDelivery
+        connectionMonitoringFeederDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringFeederDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringFeederDelivery
+                setter: setConnectionMonitoringFeederDelivery
+            type: Calcinai\Siri\ConnectionMonitoringFeederDelivery
+        connectionMonitoringDistributorDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringDistributorDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringDistributorDelivery
+                setter: setConnectionMonitoringDistributorDelivery
+            type: Calcinai\Siri\ConnectionMonitoringDistributorDelivery
+        generalMessageDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessageDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessageDelivery
+                setter: setGeneralMessageDelivery
+            type: Calcinai\Siri\GeneralMessageDelivery
+        facilityMonitoringDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityMonitoringDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityMonitoringDelivery
+                setter: setFacilityMonitoringDelivery
+            type: Calcinai\Siri\FacilityMonitoringDelivery
+        situationExchangeDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationExchangeDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationExchangeDelivery
+                setter: setSituationExchangeDelivery
+            type: Calcinai\Siri\SituationExchangeDelivery

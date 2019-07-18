@@ -1,0 +1,3 @@
+Calcinai\Siri\VehicleFeaturesRequest:
+    xml_root_name: VehicleFeaturesRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

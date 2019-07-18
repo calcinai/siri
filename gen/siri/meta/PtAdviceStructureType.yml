@@ -1,0 +1,22 @@
+Calcinai\Siri\PtAdviceStructureType:
+    properties:
+        adviceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: AdviceRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAdviceRef
+                setter: setAdviceRef
+            type: Calcinai\Siri\AdviceRefStructureType
+        details:
+            expose: true
+            access_type: public_method
+            serialized_name: Details
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDetails
+                setter: setDetails
+            type: Calcinai\Siri\NaturalLanguageStringStructureType

@@ -1,0 +1,22 @@
+Calcinai\Siri\BlockingStructureType:
+    properties:
+        journeyPlanner:
+            expose: true
+            access_type: public_method
+            serialized_name: JourneyPlanner
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getJourneyPlanner
+                setter: setJourneyPlanner
+            type: bool
+        realTime:
+            expose: true
+            access_type: public_method
+            serialized_name: RealTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRealTime
+                setter: setRealTime
+            type: bool

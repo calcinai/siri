@@ -1,0 +1,92 @@
+Calcinai\Siri\Datex\ExchangeEnumerationsType:
+    properties:
+        exchangeEnumerationsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: exchangeEnumerationsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getExchangeEnumerationsExtension
+                setter: setExchangeEnumerationsExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        denyReasonEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: denyReasonEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDenyReasonEnum
+                setter: setDenyReasonEnum
+            type: string
+        subscriptionStateEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriptionStateEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubscriptionStateEnum
+                setter: setSubscriptionStateEnum
+            type: string
+        requestTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: requestTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRequestTypeEnum
+                setter: setRequestTypeEnum
+            type: string
+        changedFlagEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: changedFlagEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getChangedFlagEnum
+                setter: setChangedFlagEnum
+            type: string
+        compressionMethodEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: compressionMethodEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCompressionMethodEnum
+                setter: setCompressionMethodEnum
+            type: string
+        updateMethodEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: updateMethodEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getUpdateMethodEnum
+                setter: setUpdateMethodEnum
+            type: string
+        responseEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: responseEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getResponseEnum
+                setter: setResponseEnum
+            type: string
+        operatingModeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: operatingModeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOperatingModeEnum
+                setter: setOperatingModeEnum
+            type: string

@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\NetworkLocationType:
+    properties:
+        supplementaryPositionalDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: supplementaryPositionalDescription
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSupplementaryPositionalDescription
+                setter: setSupplementaryPositionalDescription
+            type: Calcinai\Siri\Datex\SupplementaryPositionalDescriptionType
+        destination:
+            expose: true
+            access_type: public_method
+            serialized_name: destination
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDestination
+                setter: setDestination
+            type: Calcinai\Siri\Datex\DestinationType
+        networkLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: networkLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNetworkLocationExtension
+                setter: setNetworkLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,67 @@
+Calcinai\Siri\Datex\SourceInformationType:
+    properties:
+        sourceCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceCountry
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceCountry
+                setter: setSourceCountry
+            type: string
+        sourceIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceIdentification
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceIdentification
+                setter: setSourceIdentification
+            type: string
+        sourceName:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceName
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceName
+                setter: setSourceName
+            type: array<Calcinai\Siri\Datex\SourceInformationType\SourceNameAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        sourceType:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceType
+                setter: setSourceType
+            type: string
+        reliable:
+            expose: true
+            access_type: public_method
+            serialized_name: reliable
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReliable
+                setter: setReliable
+            type: bool
+        sourceInformationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceInformationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceInformationExtension
+                setter: setSourceInformationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

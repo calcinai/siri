@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\OffsetDistanceType:
+    properties:
+        offsetDistance:
+            expose: true
+            access_type: public_method
+            serialized_name: offsetDistance
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOffsetDistance
+                setter: setOffsetDistance
+            type: int
+        offsetDistanceExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: offsetDistanceExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOffsetDistanceExtension
+                setter: setOffsetDistanceExtension
+            type: Calcinai\Siri\Datex\ExtensionType

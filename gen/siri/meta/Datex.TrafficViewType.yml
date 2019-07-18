@@ -1,0 +1,55 @@
+Calcinai\Siri\Datex\TrafficViewType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        trafficViewTime:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficViewTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficViewTime
+                setter: setTrafficViewTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        predefinedLocationSetReference:
+            expose: true
+            access_type: public_method
+            serialized_name: predefinedLocationSetReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPredefinedLocationSetReference
+                setter: setPredefinedLocationSetReference
+            type: string
+        linearTrafficView:
+            expose: true
+            access_type: public_method
+            serialized_name: linearTrafficView
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLinearTrafficView
+                setter: setLinearTrafficView
+            xml_list:
+                inline: true
+                entry_name: linearTrafficView
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\LinearTrafficViewType>
+        trafficViewExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficViewExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficViewExtension
+                setter: setTrafficViewExtension
+            type: Calcinai\Siri\Datex\ExtensionType

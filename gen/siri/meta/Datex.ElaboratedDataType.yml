@@ -1,0 +1,61 @@
+Calcinai\Siri\Datex\ElaboratedDataType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        forecast:
+            expose: true
+            access_type: public_method
+            serialized_name: forecast
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getForecast
+                setter: setForecast
+            type: bool
+        sourceInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: sourceInformation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSourceInformation
+                setter: setSourceInformation
+            type: Calcinai\Siri\Datex\SourceInformationType
+        validity:
+            expose: true
+            access_type: public_method
+            serialized_name: validity
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getValidity
+                setter: setValidity
+            type: Calcinai\Siri\Datex\ValidityType
+        basicDataValue:
+            expose: true
+            access_type: public_method
+            serialized_name: basicDataValue
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getBasicDataValue
+                setter: setBasicDataValue
+            type: Calcinai\Siri\Datex\BasicDataValueType
+        elaboratedDataExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: elaboratedDataExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getElaboratedDataExtension
+                setter: setElaboratedDataExtension
+            type: Calcinai\Siri\Datex\ExtensionType

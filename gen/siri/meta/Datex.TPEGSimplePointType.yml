@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TPEGSimplePointType:
+    properties:
+        tpegLocationType:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegLocationType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegLocationType
+                setter: setTpegLocationType
+            type: string
+        point:
+            expose: true
+            access_type: public_method
+            serialized_name: point
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPoint
+                setter: setPoint
+            type: Calcinai\Siri\Datex\TPEGPointType
+        tpegsimplePointExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegsimplePointExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegsimplePointExtension
+                setter: setTpegsimplePointExtension
+            type: Calcinai\Siri\Datex\ExtensionType

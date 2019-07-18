@@ -1,0 +1,26 @@
+Calcinai\Siri\AffectedRoadsStructureType:
+    properties:
+        datex2Locations:
+            expose: true
+            access_type: public_method
+            serialized_name: Datex2Locations
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDatex2Locations
+                setter: setDatex2Locations
+            type: Calcinai\Siri\Datex\GroupOfLocationsType
+        affectedRoad:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedRoad
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedRoad
+                setter: setAffectedRoad
+            xml_list:
+                inline: true
+                entry_name: AffectedRoad
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedRoadStructureType>

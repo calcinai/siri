@@ -1,0 +1,52 @@
+Calcinai\Siri\CheckStatusResponseBodyStructureType:
+    properties:
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: bool
+        errorCondition:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorCondition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getErrorCondition
+                setter: setErrorCondition
+            type: Calcinai\Siri\CheckStatusResponseStructureType\ErrorConditionAType
+        validUntil:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidUntil
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidUntil
+                setter: setValidUntil
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        shortestPossibleCycle:
+            expose: true
+            access_type: public_method
+            serialized_name: ShortestPossibleCycle
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getShortestPossibleCycle
+                setter: setShortestPossibleCycle
+            type: DateInterval
+        serviceStartedTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceStartedTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceStartedTime
+                setter: setServiceStartedTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

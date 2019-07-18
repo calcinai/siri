@@ -1,0 +1,22 @@
+Calcinai\Siri\GeneralMessageServiceCapabilitiesStructureType\TopicFilteringAType:
+    properties:
+        defaultPreviewInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultPreviewInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDefaultPreviewInterval
+                setter: setDefaultPreviewInterval
+            type: DateInterval
+        filterByInfoChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByInfoChannel
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByInfoChannel
+                setter: setFilterByInfoChannel
+            type: bool

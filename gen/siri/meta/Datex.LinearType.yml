@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\LinearType:
+    properties:
+        tpeglinearLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: tpeglinearLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpeglinearLocation
+                setter: setTpeglinearLocation
+            type: Calcinai\Siri\Datex\TPEGLinearLocationType
+        alertCLinear:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLinear
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLinear
+                setter: setAlertCLinear
+            type: Calcinai\Siri\Datex\AlertCLinearType
+        referencePointLinear:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePointLinear
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePointLinear
+                setter: setReferencePointLinear
+            type: Calcinai\Siri\Datex\ReferencePointLinearType
+        linearExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: linearExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLinearExtension
+                setter: setLinearExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,12 @@
+Calcinai\Siri\AffectsScopeStructureType\VehicleJourneysAType:
+    properties:
+        affectedVehicleJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedVehicleJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedVehicleJourney
+                setter: setAffectedVehicleJourney
+            type: Calcinai\Siri\AffectedVehicleJourneyStructureType

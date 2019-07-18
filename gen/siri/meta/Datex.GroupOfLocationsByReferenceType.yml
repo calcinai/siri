@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\GroupOfLocationsByReferenceType:
+    properties:
+        predefinedLocationSetReference:
+            expose: true
+            access_type: public_method
+            serialized_name: predefinedLocationSetReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPredefinedLocationSetReference
+                setter: setPredefinedLocationSetReference
+            type: string
+        groupOfLocationsByReferenceExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: groupOfLocationsByReferenceExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getGroupOfLocationsByReferenceExtension
+                setter: setGroupOfLocationsByReferenceExtension
+            type: Calcinai\Siri\Datex\ExtensionType

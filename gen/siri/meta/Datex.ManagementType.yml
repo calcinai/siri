@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\ManagementType:
+    properties:
+        lifeCycleManagement:
+            expose: true
+            access_type: public_method
+            serialized_name: lifeCycleManagement
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLifeCycleManagement
+                setter: setLifeCycleManagement
+            type: Calcinai\Siri\Datex\LifeCycleManagementType
+        filterExitManagement:
+            expose: true
+            access_type: public_method
+            serialized_name: filterExitManagement
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterExitManagement
+                setter: setFilterExitManagement
+            type: Calcinai\Siri\Datex\FilterExitManagementType
+        managementExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: managementExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getManagementExtension
+                setter: setManagementExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,116 @@
+Calcinai\Siri\Datex\SubscriptionType:
+    properties:
+        deleteSubscription:
+            expose: true
+            access_type: public_method
+            serialized_name: deleteSubscription
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDeleteSubscription
+                setter: setDeleteSubscription
+            type: bool
+        deliveryInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: deliveryInterval
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDeliveryInterval
+                setter: setDeliveryInterval
+            type: float
+        operatingMode:
+            expose: true
+            access_type: public_method
+            serialized_name: operatingMode
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOperatingMode
+                setter: setOperatingMode
+            type: string
+        subscriptionStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriptionStartTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubscriptionStartTime
+                setter: setSubscriptionStartTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        subscriptionState:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriptionState
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubscriptionState
+                setter: setSubscriptionState
+            type: string
+        subscriptionStopTime:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriptionStopTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubscriptionStopTime
+                setter: setSubscriptionStopTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        updateMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: updateMethod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getUpdateMethod
+                setter: setUpdateMethod
+            type: string
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            xml_list:
+                inline: true
+                entry_name: target
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\TargetType>
+        filterReference:
+            expose: true
+            access_type: public_method
+            serialized_name: filterReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterReference
+                setter: setFilterReference
+            type: Calcinai\Siri\Datex\FilterReferenceType
+        catalogueReference:
+            expose: true
+            access_type: public_method
+            serialized_name: catalogueReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCatalogueReference
+                setter: setCatalogueReference
+            type: Calcinai\Siri\Datex\CatalogueReferenceType
+        subscriptionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: subscriptionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSubscriptionExtension
+                setter: setSubscriptionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

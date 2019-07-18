@@ -1,0 +1,80 @@
+Calcinai\Siri\Datex\VariableMessageSignSettingType:
+    properties:
+        numberOfCharacters:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfCharacters
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfCharacters
+                setter: setNumberOfCharacters
+            type: int
+        numberOfRows:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfRows
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfRows
+                setter: setNumberOfRows
+            type: int
+        vmsFault:
+            expose: true
+            access_type: public_method
+            serialized_name: vmsFault
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVmsFault
+                setter: setVmsFault
+            xml_list:
+                inline: true
+                entry_name: vmsFault
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        vmsIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: vmsIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVmsIdentifier
+                setter: setVmsIdentifier
+            type: string
+        vmsLegend:
+            expose: true
+            access_type: public_method
+            serialized_name: vmsLegend
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVmsLegend
+                setter: setVmsLegend
+            xml_list:
+                inline: true
+                entry_name: vmsLegend
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        vmsType:
+            expose: true
+            access_type: public_method
+            serialized_name: vmsType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVmsType
+                setter: setVmsType
+            type: string
+        variableMessageSignSettingExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: variableMessageSignSettingExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVariableMessageSignSettingExtension
+                setter: setVariableMessageSignSettingExtension
+            type: Calcinai\Siri\Datex\ExtensionType

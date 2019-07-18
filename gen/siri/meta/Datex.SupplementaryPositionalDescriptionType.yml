@@ -1,0 +1,74 @@
+Calcinai\Siri\Datex\SupplementaryPositionalDescriptionType:
+    properties:
+        carriageway:
+            expose: true
+            access_type: public_method
+            serialized_name: carriageway
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarriageway
+                setter: setCarriageway
+            xml_list:
+                inline: true
+                entry_name: carriageway
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        footpath:
+            expose: true
+            access_type: public_method
+            serialized_name: footpath
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFootpath
+                setter: setFootpath
+            type: bool
+        lanes:
+            expose: true
+            access_type: public_method
+            serialized_name: lanes
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLanes
+                setter: setLanes
+            xml_list:
+                inline: true
+                entry_name: lanes
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        lengthAffected:
+            expose: true
+            access_type: public_method
+            serialized_name: lengthAffected
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLengthAffected
+                setter: setLengthAffected
+            type: float
+        locationDescriptor:
+            expose: true
+            access_type: public_method
+            serialized_name: locationDescriptor
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLocationDescriptor
+                setter: setLocationDescriptor
+            xml_list:
+                inline: true
+                entry_name: locationDescriptor
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        supplementaryPositionalDescriptionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: supplementaryPositionalDescriptionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSupplementaryPositionalDescriptionExtension
+                setter: setSupplementaryPositionalDescriptionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\EquipmentDamageObstructionType:
+    properties:
+        equipmentDamageType:
+            expose: true
+            access_type: public_method
+            serialized_name: equipmentDamageType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEquipmentDamageType
+                setter: setEquipmentDamageType
+            type: string
+        equipmentDamageObstructionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: equipmentDamageObstructionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEquipmentDamageObstructionExtension
+                setter: setEquipmentDamageObstructionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

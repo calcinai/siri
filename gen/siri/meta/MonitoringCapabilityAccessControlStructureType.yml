@@ -1,0 +1,32 @@
+Calcinai\Siri\MonitoringCapabilityAccessControlStructureType:
+    properties:
+        checkOperatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckOperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckOperatorRef
+                setter: setCheckOperatorRef
+            type: bool
+        checkLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckLineRef
+                setter: setCheckLineRef
+            type: bool
+        checkMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckMonitoringRef
+                setter: setCheckMonitoringRef
+            type: bool

@@ -1,0 +1,51 @@
+Calcinai\Siri\ConnectionMonitoringDistributorDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        waitProlongedDeparture:
+            expose: true
+            access_type: public_method
+            serialized_name: WaitProlongedDeparture
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getWaitProlongedDeparture
+                setter: setWaitProlongedDeparture
+            type: Calcinai\Siri\WaitProlongedDepartureStructureType
+        stoppingPositionChangedDeparture:
+            expose: true
+            access_type: public_method
+            serialized_name: StoppingPositionChangedDeparture
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStoppingPositionChangedDeparture
+                setter: setStoppingPositionChangedDeparture
+            type: Calcinai\Siri\StoppingPositionChangedDepartureStructureType
+        distributorDepartureCancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributorDepartureCancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDistributorDepartureCancellation
+                setter: setDistributorDepartureCancellation
+            type: Calcinai\Siri\DistributorDepartureCancellationStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

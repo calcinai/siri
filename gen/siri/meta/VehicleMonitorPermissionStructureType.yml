@@ -1,0 +1,12 @@
+Calcinai\Siri\VehicleMonitorPermissionStructureType:
+    properties:
+        vehicleMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringRef
+                setter: setVehicleMonitoringRef
+            type: Calcinai\Siri\VehicleMonitoringRefStructureType

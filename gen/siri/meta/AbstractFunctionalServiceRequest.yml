@@ -1,0 +1,3 @@
+Calcinai\Siri\AbstractFunctionalServiceRequest:
+    xml_root_name: AbstractFunctionalServiceRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

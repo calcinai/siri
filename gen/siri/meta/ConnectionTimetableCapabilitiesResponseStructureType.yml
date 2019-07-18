@@ -1,0 +1,41 @@
+Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        connectionTimetableServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionTimetableServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionTimetableServiceCapabilities
+                setter: setConnectionTimetableServiceCapabilities
+            type: Calcinai\Siri\ConnectionTimetableServiceCapabilities
+        connectionTimetablePermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionTimetablePermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionTimetablePermissions
+                setter: setConnectionTimetablePermissions
+            type: Calcinai\Siri\ConnectionTimetableCapabilitiesResponseStructureType\ConnectionTimetablePermissionsAType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,117 @@
+Calcinai\Siri\Datex\HazardousMaterialsType:
+    properties:
+        chemicalName:
+            expose: true
+            access_type: public_method
+            serialized_name: chemicalName
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getChemicalName
+                setter: setChemicalName
+            type: array<Calcinai\Siri\Datex\HazardousMaterialsType\ChemicalNameAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: false
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        dangerousGoodsFlashPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: dangerousGoodsFlashPoint
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDangerousGoodsFlashPoint
+                setter: setDangerousGoodsFlashPoint
+            type: float
+        dangerousGoodsRegulations:
+            expose: true
+            access_type: public_method
+            serialized_name: dangerousGoodsRegulations
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDangerousGoodsRegulations
+                setter: setDangerousGoodsRegulations
+            type: string
+        hazardCodeIdentification:
+            expose: true
+            access_type: public_method
+            serialized_name: hazardCodeIdentification
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHazardCodeIdentification
+                setter: setHazardCodeIdentification
+            type: string
+        hazardCodeVersionNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: hazardCodeVersionNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHazardCodeVersionNumber
+                setter: setHazardCodeVersionNumber
+            type: int
+        hazardSubstanceItemPageNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: hazardSubstanceItemPageNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHazardSubstanceItemPageNumber
+                setter: setHazardSubstanceItemPageNumber
+            type: string
+        tremCardNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: tremCardNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTremCardNumber
+                setter: setTremCardNumber
+            type: string
+        uNDGNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: uNDGNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getUNDGNumber
+                setter: setUNDGNumber
+            type: string
+        volumeOfDangerousGoods:
+            expose: true
+            access_type: public_method
+            serialized_name: volumeOfDangerousGoods
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVolumeOfDangerousGoods
+                setter: setVolumeOfDangerousGoods
+            type: float
+        weightOfDangerousGoods:
+            expose: true
+            access_type: public_method
+            serialized_name: weightOfDangerousGoods
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWeightOfDangerousGoods
+                setter: setWeightOfDangerousGoods
+            type: float
+        hazardousMaterialsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: hazardousMaterialsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHazardousMaterialsExtension
+                setter: setHazardousMaterialsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

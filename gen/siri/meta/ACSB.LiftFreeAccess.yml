@@ -1,0 +1,3 @@
+Calcinai\Siri\ACSB\LiftFreeAccess:
+    xml_root_name: LiftFreeAccess
+    xml_root_namespace: 'http://www.ifopt.org.uk/acsb'

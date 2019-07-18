@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\HeightCharacteristicType:
+    properties:
+        comparisonOperator:
+            expose: true
+            access_type: public_method
+            serialized_name: comparisonOperator
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComparisonOperator
+                setter: setComparisonOperator
+            type: string
+        vehicleHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleHeight
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleHeight
+                setter: setVehicleHeight
+            type: float
+        heightCharacteristicExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: heightCharacteristicExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeightCharacteristicExtension
+                setter: setHeightCharacteristicExtension
+            type: Calcinai\Siri\Datex\ExtensionType

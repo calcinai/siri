@@ -1,0 +1,62 @@
+Calcinai\Siri\FacilityStructureType\LimitationsAType:
+    properties:
+        wheelchairAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: WheelchairAccess
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getWheelchairAccess
+                setter: setWheelchairAccess
+            type: Calcinai\Siri\ACSB\WheelchairAccess
+        stepFreeAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: StepFreeAccess
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getStepFreeAccess
+                setter: setStepFreeAccess
+            type: Calcinai\Siri\ACSB\StepFreeAccess
+        escalatorFreeAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: EscalatorFreeAccess
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getEscalatorFreeAccess
+                setter: setEscalatorFreeAccess
+            type: Calcinai\Siri\ACSB\EscalatorFreeAccess
+        liftFreeAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: LiftFreeAccess
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getLiftFreeAccess
+                setter: setLiftFreeAccess
+            type: Calcinai\Siri\ACSB\LiftFreeAccess
+        audibleSignalsAvailable:
+            expose: true
+            access_type: public_method
+            serialized_name: AudibleSignalsAvailable
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getAudibleSignalsAvailable
+                setter: setAudibleSignalsAvailable
+            type: Calcinai\Siri\ACSB\AudibleSignalsAvailable
+        visualSignsAvailable:
+            expose: true
+            access_type: public_method
+            serialized_name: VisualSignsAvailable
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getVisualSignsAvailable
+                setter: setVisualSignsAvailable
+            type: Calcinai\Siri\ACSB\VisualSignsAvailable

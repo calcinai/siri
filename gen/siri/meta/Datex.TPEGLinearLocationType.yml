@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\TPEGLinearLocationType:
+    properties:
+        tpegDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegDirection
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegDirection
+                setter: setTpegDirection
+            type: string
+        tpegLocationType:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegLocationType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegLocationType
+                setter: setTpegLocationType
+            type: string
+        to:
+            expose: true
+            access_type: public_method
+            serialized_name: to
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTo
+                setter: setTo
+            type: Calcinai\Siri\Datex\TPEGPointType
+        from:
+            expose: true
+            access_type: public_method
+            serialized_name: from
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFrom
+                setter: setFrom
+            type: Calcinai\Siri\Datex\TPEGPointType
+        tpeglinearLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpeglinearLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpeglinearLocationExtension
+                setter: setTpeglinearLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

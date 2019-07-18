@@ -1,0 +1,52 @@
+Calcinai\Siri\ContextualisedRequestStructureType:
+    properties:
+        serviceRequestContext:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceRequestContext
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceRequestContext
+                setter: setServiceRequestContext
+            type: Calcinai\Siri\ServiceRequestContextStructureType
+        requestTimestamp:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestTimestamp
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestTimestamp
+                setter: setRequestTimestamp
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: string
+        requestorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestorRef
+                setter: setRequestorRef
+            type: Calcinai\Siri\RequestorRef
+        messageIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: MessageIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMessageIdentifier
+                setter: setMessageIdentifier
+            type: Calcinai\Siri\MessageQualifierStructureType

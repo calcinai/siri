@@ -1,0 +1,3 @@
+Calcinai\Siri\ProducerRequest:
+    xml_root_name: ProducerRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

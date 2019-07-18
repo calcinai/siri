@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TargetType:
+    properties:
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: address
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: string
+        protocol:
+            expose: true
+            access_type: public_method
+            serialized_name: protocol
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getProtocol
+                setter: setProtocol
+            type: string
+        targetExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: targetExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTargetExtension
+                setter: setTargetExtension
+            type: Calcinai\Siri\Datex\ExtensionType

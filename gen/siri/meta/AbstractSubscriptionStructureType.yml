@@ -1,0 +1,32 @@
+Calcinai\Siri\AbstractSubscriptionStructureType:
+    properties:
+        subscriberRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriberRef
+                setter: setSubscriberRef
+            type: Calcinai\Siri\ParticipantRefStructureType
+        subscriptionIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionIdentifier
+                setter: setSubscriptionIdentifier
+            type: Calcinai\Siri\SubscriptionQualifierStructureType
+        initialTerminationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: InitialTerminationTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInitialTerminationTime
+                setter: setInitialTerminationTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

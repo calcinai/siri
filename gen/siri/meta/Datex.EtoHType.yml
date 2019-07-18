@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\EtoHType:
+    properties:
+        environmentalObstructionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: environmentalObstructionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEnvironmentalObstructionTypeEnum
+                setter: setEnvironmentalObstructionTypeEnum
+            type: string
+        effectOnRoadLayoutEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: effectOnRoadLayoutEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEffectOnRoadLayoutEnum
+                setter: setEffectOnRoadLayoutEnum
+            type: string
+        etoHExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: etoHExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEtoHExtension
+                setter: setEtoHExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        fuelTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: fuelTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFuelTypeEnum
+                setter: setFuelTypeEnum
+            type: string
+        equipmentDamageTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: equipmentDamageTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEquipmentDamageTypeEnum
+                setter: setEquipmentDamageTypeEnum
+            type: string

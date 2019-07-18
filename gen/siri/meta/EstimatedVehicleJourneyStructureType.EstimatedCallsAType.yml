@@ -1,0 +1,16 @@
+Calcinai\Siri\EstimatedVehicleJourneyStructureType\EstimatedCallsAType:
+    properties:
+        estimatedCall:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedCall
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedCall
+                setter: setEstimatedCall
+            xml_list:
+                inline: true
+                entry_name: EstimatedCall
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\EstimatedCall>

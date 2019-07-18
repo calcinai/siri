@@ -1,0 +1,150 @@
+Calcinai\Siri\Datex\VehicleCharacteristicsType:
+    properties:
+        fuelType:
+            expose: true
+            access_type: public_method
+            serialized_name: fuelType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFuelType
+                setter: setFuelType
+            type: string
+        loadType:
+            expose: true
+            access_type: public_method
+            serialized_name: loadType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLoadType
+                setter: setLoadType
+            type: string
+        vehicleEquipment:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleEquipment
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleEquipment
+                setter: setVehicleEquipment
+            type: string
+        vehicleType:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleType
+                setter: setVehicleType
+            xml_list:
+                inline: true
+                entry_name: vehicleType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        vehicleUsage:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleUsage
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleUsage
+                setter: setVehicleUsage
+            type: string
+        grossWeightCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: grossWeightCharacteristic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getGrossWeightCharacteristic
+                setter: setGrossWeightCharacteristic
+            xml_list:
+                inline: true
+                entry_name: grossWeightCharacteristic
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\GrossWeightCharacteristicType>
+        heightCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: heightCharacteristic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeightCharacteristic
+                setter: setHeightCharacteristic
+            xml_list:
+                inline: true
+                entry_name: heightCharacteristic
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\HeightCharacteristicType>
+        lengthCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: lengthCharacteristic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLengthCharacteristic
+                setter: setLengthCharacteristic
+            xml_list:
+                inline: true
+                entry_name: lengthCharacteristic
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\LengthCharacteristicType>
+        widthCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: widthCharacteristic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWidthCharacteristic
+                setter: setWidthCharacteristic
+            xml_list:
+                inline: true
+                entry_name: widthCharacteristic
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\WidthCharacteristicType>
+        heaviestAxleWeightCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: heaviestAxleWeightCharacteristic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeaviestAxleWeightCharacteristic
+                setter: setHeaviestAxleWeightCharacteristic
+            xml_list:
+                inline: true
+                entry_name: heaviestAxleWeightCharacteristic
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\HeaviestAxleWeightCharacteristicType>
+        numberOfAxlesCharacteristic:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfAxlesCharacteristic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfAxlesCharacteristic
+                setter: setNumberOfAxlesCharacteristic
+            xml_list:
+                inline: true
+                entry_name: numberOfAxlesCharacteristic
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType>
+        vehicleCharacteristicsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleCharacteristicsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleCharacteristicsExtension
+                setter: setVehicleCharacteristicsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

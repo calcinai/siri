@@ -1,0 +1,36 @@
+Calcinai\Siri\Datex\AssociatedMaintenanceVehiclesType:
+    properties:
+        numberOfMaintenanceVehicles:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfMaintenanceVehicles
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfMaintenanceVehicles
+                setter: setNumberOfMaintenanceVehicles
+            type: int
+        maintenanceVehicleActions:
+            expose: true
+            access_type: public_method
+            serialized_name: maintenanceVehicleActions
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMaintenanceVehicleActions
+                setter: setMaintenanceVehicleActions
+            xml_list:
+                inline: true
+                entry_name: maintenanceVehicleActions
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        associatedMaintenanceVehiclesExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: associatedMaintenanceVehiclesExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAssociatedMaintenanceVehiclesExtension
+                setter: setAssociatedMaintenanceVehiclesExtension
+            type: Calcinai\Siri\Datex\ExtensionType

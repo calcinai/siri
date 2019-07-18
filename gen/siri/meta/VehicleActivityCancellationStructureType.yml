@@ -1,0 +1,122 @@
+Calcinai\Siri\VehicleActivityCancellationStructureType:
+    properties:
+        vehicleMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringRef
+                setter: setVehicleMonitoringRef
+            type: Calcinai\Siri\VehicleMonitoringRefStructureType
+        vehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleJourneyRef
+                setter: setVehicleJourneyRef
+            type: Calcinai\Siri\FramedVehicleJourneyRefStructureType
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        directionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionRef
+                setter: setDirectionRef
+            type: Calcinai\Siri\DirectionRefStructureType
+        journeyPatternRef:
+            expose: true
+            access_type: public_method
+            serialized_name: JourneyPatternRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getJourneyPatternRef
+                setter: setJourneyPatternRef
+            type: Calcinai\Siri\JourneyPatternRefStructureType
+        vehicleMode:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMode
+                setter: setVehicleMode
+            type: string
+        routeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RouteRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRouteRef
+                setter: setRouteRef
+            type: Calcinai\Siri\RouteRefStructureType
+        publishedLineName:
+            expose: true
+            access_type: public_method
+            serialized_name: PublishedLineName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublishedLineName
+                setter: setPublishedLineName
+            type: Calcinai\Siri\PublishedLineName
+        directionName:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectionName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionName
+                setter: setDirectionName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        externalLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExternalLineRef
+                setter: setExternalLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        reason:
+            expose: true
+            access_type: public_method
+            serialized_name: Reason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReason
+                setter: setReason
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

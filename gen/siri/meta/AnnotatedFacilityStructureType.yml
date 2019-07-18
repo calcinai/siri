@@ -1,0 +1,32 @@
+Calcinai\Siri\AnnotatedFacilityStructureType:
+    properties:
+        facilityRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityRef
+                setter: setFacilityRef
+            type: Calcinai\Siri\FacilityRef
+        monitored:
+            expose: true
+            access_type: public_method
+            serialized_name: Monitored
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitored
+                setter: setMonitored
+            type: bool
+        facility:
+            expose: true
+            access_type: public_method
+            serialized_name: Facility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacility
+                setter: setFacility
+            type: Calcinai\Siri\FacilityStructureType

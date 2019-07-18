@@ -1,0 +1,417 @@
+Calcinai\Siri\RoadSituationElementStructureType:
+    properties:
+        verification:
+            expose: true
+            access_type: public_method
+            serialized_name: Verification
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVerification
+                setter: setVerification
+            type: string
+        progress:
+            expose: true
+            access_type: public_method
+            serialized_name: Progress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProgress
+                setter: setProgress
+            type: string
+        qualityIndex:
+            expose: true
+            access_type: public_method
+            serialized_name: QualityIndex
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getQualityIndex
+                setter: setQualityIndex
+            type: string
+        reality:
+            expose: true
+            access_type: public_method
+            serialized_name: Reality
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReality
+                setter: setReality
+            type: string
+        likelihood:
+            expose: true
+            access_type: public_method
+            serialized_name: Likelihood
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLikelihood
+                setter: setLikelihood
+            type: string
+        publication:
+            expose: true
+            access_type: public_method
+            serialized_name: Publication
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublication
+                setter: setPublication
+            type: string
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: Calcinai\Siri\PtSituationElementStructureType\ValidityPeriodAType
+        repetitions:
+            expose: true
+            access_type: public_method
+            serialized_name: Repetitions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRepetitions
+                setter: setRepetitions
+            type: array<Calcinai\Siri\DayType>
+            xml_list:
+                inline: false
+                entry_name: DayType
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        publicationWindow:
+            expose: true
+            access_type: public_method
+            serialized_name: PublicationWindow
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublicationWindow
+                setter: setPublicationWindow
+            type: Calcinai\Siri\HalfOpenTimestampRangeStructureType
+        unknownReason:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUnknownReason
+                setter: setUnknownReason
+            type: string
+        miscellaneousReason:
+            expose: true
+            access_type: public_method
+            serialized_name: MiscellaneousReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMiscellaneousReason
+                setter: setMiscellaneousReason
+            type: Calcinai\Siri\MiscellaneousReason
+        personnelReason:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonnelReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPersonnelReason
+                setter: setPersonnelReason
+            type: Calcinai\Siri\PersonnelReason
+        equipmentReason:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEquipmentReason
+                setter: setEquipmentReason
+            type: Calcinai\Siri\EquipmentReason
+        environmentReason:
+            expose: true
+            access_type: public_method
+            serialized_name: EnvironmentReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEnvironmentReason
+                setter: setEnvironmentReason
+            type: Calcinai\Siri\EnvironmentReason
+        undefinedReason:
+            expose: true
+            access_type: public_method
+            serialized_name: UndefinedReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUndefinedReason
+                setter: setUndefinedReason
+            type: string
+        publicEventReason:
+            expose: true
+            access_type: public_method
+            serialized_name: PublicEventReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublicEventReason
+                setter: setPublicEventReason
+            type: string
+        reasonName:
+            expose: true
+            access_type: public_method
+            serialized_name: ReasonName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReasonName
+                setter: setReasonName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        severity:
+            expose: true
+            access_type: public_method
+            serialized_name: Severity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSeverity
+                setter: setSeverity
+            type: Calcinai\Siri\Severity
+        priority:
+            expose: true
+            access_type: public_method
+            serialized_name: Priority
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPriority
+                setter: setPriority
+            type: int
+        sensitivity:
+            expose: true
+            access_type: public_method
+            serialized_name: Sensitivity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSensitivity
+                setter: setSensitivity
+            type: string
+        audience:
+            expose: true
+            access_type: public_method
+            serialized_name: Audience
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAudience
+                setter: setAudience
+            type: string
+        scopeType:
+            expose: true
+            access_type: public_method
+            serialized_name: ScopeType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getScopeType
+                setter: setScopeType
+            type: string
+        reportType:
+            expose: true
+            access_type: public_method
+            serialized_name: ReportType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReportType
+                setter: setReportType
+            type: Calcinai\Siri\ReportType
+        planned:
+            expose: true
+            access_type: public_method
+            serialized_name: Planned
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPlanned
+                setter: setPlanned
+            type: bool
+        keywords:
+            expose: true
+            access_type: public_method
+            serialized_name: Keywords
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getKeywords
+                setter: setKeywords
+            type: string
+        secondaryReasons:
+            expose: true
+            access_type: public_method
+            serialized_name: SecondaryReasons
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSecondaryReasons
+                setter: setSecondaryReasons
+            type: array<Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType>
+            xml_list:
+                inline: false
+                entry_name: Reason
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        summary:
+            expose: true
+            access_type: public_method
+            serialized_name: Summary
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSummary
+                setter: setSummary
+            type: Calcinai\Siri\DefaultedTextStructureType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Calcinai\Siri\DefaultedTextStructureType
+        detail:
+            expose: true
+            access_type: public_method
+            serialized_name: Detail
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDetail
+                setter: setDetail
+            type: Calcinai\Siri\DefaultedTextStructureType
+        advice:
+            expose: true
+            access_type: public_method
+            serialized_name: Advice
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAdvice
+                setter: setAdvice
+            type: Calcinai\Siri\DefaultedTextStructureType
+        internal:
+            expose: true
+            access_type: public_method
+            serialized_name: Internal
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInternal
+                setter: setInternal
+            type: Calcinai\Siri\DefaultedTextStructureType
+        images:
+            expose: true
+            access_type: public_method
+            serialized_name: Images
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImages
+                setter: setImages
+            type: array<Calcinai\Siri\PtSituationElementStructureType\ImagesAType\ImageAType>
+            xml_list:
+                inline: false
+                entry_name: Image
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        infoLinks:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoLinks
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoLinks
+                setter: setInfoLinks
+            type: array<Calcinai\Siri\InfoLinkStructureType>
+            xml_list:
+                inline: false
+                entry_name: InfoLink
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        affects:
+            expose: true
+            access_type: public_method
+            serialized_name: Affects
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffects
+                setter: setAffects
+            type: Calcinai\Siri\AffectsScopeStructureType
+        consequences:
+            expose: true
+            access_type: public_method
+            serialized_name: Consequences
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConsequences
+                setter: setConsequences
+            type: array<Calcinai\Siri\PtConsequenceStructureType>
+            xml_list:
+                inline: false
+                entry_name: Consequence
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        publishingActions:
+            expose: true
+            access_type: public_method
+            serialized_name: PublishingActions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublishingActions
+                setter: setPublishingActions
+            type: Calcinai\Siri\ActionsStructureType
+        situationRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationRecord
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRecord
+                setter: setSituationRecord
+            type: Calcinai\Siri\Datex\SituationRecordType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

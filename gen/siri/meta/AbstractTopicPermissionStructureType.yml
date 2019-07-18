@@ -1,0 +1,12 @@
+Calcinai\Siri\AbstractTopicPermissionStructureType:
+    properties:
+        allow:
+            expose: true
+            access_type: public_method
+            serialized_name: Allow
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllow
+                setter: setAllow
+            type: bool

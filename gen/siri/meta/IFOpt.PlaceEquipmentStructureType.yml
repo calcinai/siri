@@ -1,0 +1,12 @@
+Calcinai\Siri\IFOpt\PlaceEquipmentStructureType:
+    properties:
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\IFOpt\Extensions

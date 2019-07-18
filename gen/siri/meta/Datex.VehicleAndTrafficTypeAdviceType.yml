@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\VehicleAndTrafficTypeAdviceType:
+    properties:
+        forTrafficOfType:
+            expose: true
+            access_type: public_method
+            serialized_name: forTrafficOfType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getForTrafficOfType
+                setter: setForTrafficOfType
+            type: string
+        forVehiclesWithCharacteristicsOf:
+            expose: true
+            access_type: public_method
+            serialized_name: forVehiclesWithCharacteristicsOf
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getForVehiclesWithCharacteristicsOf
+                setter: setForVehiclesWithCharacteristicsOf
+            type: Calcinai\Siri\Datex\VehicleCharacteristicsType
+        vehicleAndTrafficTypeAdviceExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleAndTrafficTypeAdviceExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleAndTrafficTypeAdviceExtension
+                setter: setVehicleAndTrafficTypeAdviceExtension
+            type: Calcinai\Siri\Datex\ExtensionType

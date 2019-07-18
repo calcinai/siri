@@ -1,0 +1,3 @@
+Calcinai\Siri\GeneralMessageServiceCapabilities:
+    xml_root_name: GeneralMessageServiceCapabilities
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

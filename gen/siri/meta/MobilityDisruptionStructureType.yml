@@ -1,0 +1,26 @@
+Calcinai\Siri\MobilityDisruptionStructureType:
+    properties:
+        mobilityImpairedAccess:
+            expose: true
+            access_type: public_method
+            serialized_name: MobilityImpairedAccess
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMobilityImpairedAccess
+                setter: setMobilityImpairedAccess
+            type: bool
+        accessFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessFacility
+                setter: setAccessFacility
+            xml_list:
+                inline: true
+                entry_name: AccessFacility
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AccessFacility>

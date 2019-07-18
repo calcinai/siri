@@ -1,0 +1,45 @@
+Calcinai\Siri\Datex\LinearTrafficViewType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        linearPredefinedLocationReference:
+            expose: true
+            access_type: public_method
+            serialized_name: linearPredefinedLocationReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLinearPredefinedLocationReference
+                setter: setLinearPredefinedLocationReference
+            type: string
+        trafficViewRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficViewRecord
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficViewRecord
+                setter: setTrafficViewRecord
+            xml_list:
+                inline: true
+                entry_name: trafficViewRecord
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\TrafficViewRecordType>
+        linearTrafficViewExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: linearTrafficViewExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLinearTrafficViewExtension
+                setter: setLinearTrafficViewExtension
+            type: Calcinai\Siri\Datex\ExtensionType

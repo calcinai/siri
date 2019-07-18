@@ -1,0 +1,41 @@
+Calcinai\Siri\EstimatedTimetableCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        estimatedTimetableServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedTimetableServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedTimetableServiceCapabilities
+                setter: setEstimatedTimetableServiceCapabilities
+            type: Calcinai\Siri\EstimatedTimetableServiceCapabilities
+        estimatedTimetablePermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: EstimatedTimetablePermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEstimatedTimetablePermissions
+                setter: setEstimatedTimetablePermissions
+            type: Calcinai\Siri\EstimatedTimetablePermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

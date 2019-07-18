@@ -1,0 +1,41 @@
+Calcinai\Siri\StopTimetableCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        stopTimetableServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: StopTimetableServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopTimetableServiceCapabilities
+                setter: setStopTimetableServiceCapabilities
+            type: Calcinai\Siri\StopTimetableServiceCapabilities
+        stopTimetablePermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: StopTimetablePermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopTimetablePermissions
+                setter: setStopTimetablePermissions
+            type: Calcinai\Siri\StopTimetablePermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

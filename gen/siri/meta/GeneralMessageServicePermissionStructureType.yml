@@ -1,0 +1,22 @@
+Calcinai\Siri\GeneralMessageServicePermissionStructureType:
+    properties:
+        infoChannelPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoChannelPermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoChannelPermissions
+                setter: setInfoChannelPermissions
+            type: Calcinai\Siri\GeneralMessageServicePermissionStructureType\InfoChannelPermissionsAType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

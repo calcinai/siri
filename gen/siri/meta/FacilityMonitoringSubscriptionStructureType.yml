@@ -1,0 +1,22 @@
+Calcinai\Siri\FacilityMonitoringSubscriptionStructureType:
+    properties:
+        facilityMonitoringRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityMonitoringRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityMonitoringRequest
+                setter: setFacilityMonitoringRequest
+            type: Calcinai\Siri\FacilityMonitoringRequest
+        incrementalUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: IncrementalUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIncrementalUpdates
+                setter: setIncrementalUpdates
+            type: bool

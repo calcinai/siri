@@ -1,0 +1,32 @@
+Calcinai\Siri\AffectedRoadStructureType:
+    properties:
+        road:
+            expose: true
+            access_type: public_method
+            serialized_name: Road
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRoad
+                setter: setRoad
+            type: Calcinai\Siri\Datex\ReferencePointLinearType
+        linkProjection:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkProjection
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkProjection
+                setter: setLinkProjection
+            type: Calcinai\Siri\IFOpt\LinkProjectionStructureType
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: Offset
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: Calcinai\Siri\OffsetStructureType

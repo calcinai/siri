@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\AlertCMethod2PointType:
+    properties:
+        alertCDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCDirection
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCDirection
+                setter: setAlertCDirection
+            type: Calcinai\Siri\Datex\AlertCDirectionType
+        alertCMethod2PrimaryPointLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCMethod2PrimaryPointLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCMethod2PrimaryPointLocation
+                setter: setAlertCMethod2PrimaryPointLocation
+            type: Calcinai\Siri\Datex\AlertCMethod2PrimaryPointLocationType
+        alertCMethod2PointExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCMethod2PointExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCMethod2PointExtension
+                setter: setAlertCMethod2PointExtension
+            type: Calcinai\Siri\Datex\ExtensionType

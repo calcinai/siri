@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\RoadSurfaceConditionInformationType:
+    properties:
+        roadSurfaceConditionMeasurements:
+            expose: true
+            access_type: public_method
+            serialized_name: roadSurfaceConditionMeasurements
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadSurfaceConditionMeasurements
+                setter: setRoadSurfaceConditionMeasurements
+            type: Calcinai\Siri\Datex\RoadSurfaceConditionMeasurementsType
+        roadSurfaceConditionInformationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: roadSurfaceConditionInformationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRoadSurfaceConditionInformationExtension
+                setter: setRoadSurfaceConditionInformationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,32 @@
+Calcinai\Siri\AbstractSubscriptionRequestStructureType:
+    properties:
+        consumerAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConsumerAddress
+                setter: setConsumerAddress
+            type: string
+        subscriptionFilterIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionFilterIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionFilterIdentifier
+                setter: setSubscriptionFilterIdentifier
+            type: string
+        subscriptionContext:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionContext
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionContext
+                setter: setSubscriptionContext
+            type: Calcinai\Siri\SubscriptionContextStructureType

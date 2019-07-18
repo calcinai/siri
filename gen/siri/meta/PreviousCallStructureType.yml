@@ -1,0 +1,82 @@
+Calcinai\Siri\PreviousCallStructureType:
+    properties:
+        vehicleAtStop:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleAtStop
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleAtStop
+                setter: setVehicleAtStop
+            type: bool
+        aimedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedArrivalTime
+                setter: setAimedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        actualArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getActualArrivalTime
+                setter: setActualArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        expectedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExpectedArrivalTime
+                setter: setExpectedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        aimedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedDepartureTime
+                setter: setAimedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        actualDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getActualDepartureTime
+                setter: setActualDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        expectedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpectedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExpectedDepartureTime
+                setter: setExpectedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

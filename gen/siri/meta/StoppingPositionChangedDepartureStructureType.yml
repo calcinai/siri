@@ -1,0 +1,32 @@
+Calcinai\Siri\StoppingPositionChangedDepartureStructureType:
+    properties:
+        changeNote:
+            expose: true
+            access_type: public_method
+            serialized_name: ChangeNote
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getChangeNote
+                setter: setChangeNote
+            type: Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+        newLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: NewLocation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNewLocation
+                setter: setNewLocation
+            type: Calcinai\Siri\LocationStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

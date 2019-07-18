@@ -1,0 +1,162 @@
+Calcinai\Siri\AllFacilitiesFeatureStructureType:
+    properties:
+        accessFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessFacility
+                setter: setAccessFacility
+            type: Calcinai\Siri\AccessFacility
+        accommodationFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: AccommodationFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccommodationFacility
+                setter: setAccommodationFacility
+            type: Calcinai\Siri\AccommodationFacility
+        assistanceFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: AssistanceFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAssistanceFacility
+                setter: setAssistanceFacility
+            type: Calcinai\Siri\AssistanceFacility
+        fareClassFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: FareClassFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFareClassFacility
+                setter: setFareClassFacility
+            type: Calcinai\Siri\FareClassFacility
+        hireFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: HireFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHireFacility
+                setter: setHireFacility
+            type: Calcinai\Siri\HireFacility
+        luggageFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: LuggageFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLuggageFacility
+                setter: setLuggageFacility
+            type: Calcinai\Siri\LuggageFacility
+        mobilityFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: MobilityFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMobilityFacility
+                setter: setMobilityFacility
+            type: Calcinai\Siri\MobilityFacility
+        nuisanceFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: NuisanceFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNuisanceFacility
+                setter: setNuisanceFacility
+            type: Calcinai\Siri\NuisanceFacility
+        parkingFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: ParkingFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getParkingFacility
+                setter: setParkingFacility
+            type: Calcinai\Siri\ParkingFacility
+        passengerCommsFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerCommsFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPassengerCommsFacility
+                setter: setPassengerCommsFacility
+            type: Calcinai\Siri\PassengerCommsFacility
+        passengerInformationFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: PassengerInformationFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPassengerInformationFacility
+                setter: setPassengerInformationFacility
+            type: Calcinai\Siri\PassengerInformationFacility
+        refreshmentFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: RefreshmentFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRefreshmentFacility
+                setter: setRefreshmentFacility
+            type: Calcinai\Siri\RefreshmentFacility
+        reservedSpaceFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: ReservedSpaceFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReservedSpaceFacility
+                setter: setReservedSpaceFacility
+            type: Calcinai\Siri\ReservedSpaceFacility
+        retailFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: RetailFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRetailFacility
+                setter: setRetailFacility
+            type: Calcinai\Siri\RetailFacility
+        sanitaryFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: SanitaryFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSanitaryFacility
+                setter: setSanitaryFacility
+            type: Calcinai\Siri\SanitaryFacility
+        ticketingFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: TicketingFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTicketingFacility
+                setter: setTicketingFacility
+            type: Calcinai\Siri\TicketingFacility

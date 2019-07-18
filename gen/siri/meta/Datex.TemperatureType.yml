@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\TemperatureType:
+    properties:
+        airTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: airTemperature
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAirTemperature
+                setter: setAirTemperature
+            type: float
+        dewPointTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: dewPointTemperature
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDewPointTemperature
+                setter: setDewPointTemperature
+            type: float
+        maximumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: maximumTemperature
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMaximumTemperature
+                setter: setMaximumTemperature
+            type: float
+        minimumTemperature:
+            expose: true
+            access_type: public_method
+            serialized_name: minimumTemperature
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMinimumTemperature
+                setter: setMinimumTemperature
+            type: float
+        temperatureExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: temperatureExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTemperatureExtension
+                setter: setTemperatureExtension
+            type: Calcinai\Siri\Datex\ExtensionType

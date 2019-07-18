@@ -1,0 +1,32 @@
+Calcinai\Siri\RoadFilterStructureType:
+    properties:
+        roadNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: roadNumber
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRoadNumber
+                setter: setRoadNumber
+            type: string
+        directionBound:
+            expose: true
+            access_type: public_method
+            serialized_name: directionBound
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectionBound
+                setter: setDirectionBound
+            type: string
+        referencePointIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePointIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReferencePointIdentifier
+                setter: setReferencePointIdentifier
+            type: string

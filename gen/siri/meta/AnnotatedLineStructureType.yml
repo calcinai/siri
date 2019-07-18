@@ -1,0 +1,62 @@
+Calcinai\Siri\AnnotatedLineStructureType:
+    properties:
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRefStructureType
+        lineName:
+            expose: true
+            access_type: public_method
+            serialized_name: LineName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineName
+                setter: setLineName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        monitored:
+            expose: true
+            access_type: public_method
+            serialized_name: Monitored
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitored
+                setter: setMonitored
+            type: bool
+        destinations:
+            expose: true
+            access_type: public_method
+            serialized_name: Destinations
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinations
+                setter: setDestinations
+            type: array<Calcinai\Siri\Destination>
+            xml_list:
+                inline: false
+                entry_name: Destination
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        directions:
+            expose: true
+            access_type: public_method
+            serialized_name: Directions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirections
+                setter: setDirections
+            type: array<Calcinai\Siri\Direction>
+            xml_list:
+                inline: false
+                entry_name: Direction
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'

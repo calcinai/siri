@@ -1,0 +1,176 @@
+Calcinai\Siri\FacilityMonitoringRequestStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        previewInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviewInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPreviewInterval
+                setter: setPreviewInterval
+            type: DateInterval
+        startTime:
+            expose: true
+            access_type: public_method
+            serialized_name: StartTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStartTime
+                setter: setStartTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        facilityRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFacilityRef
+                setter: setFacilityRef
+            type: Calcinai\Siri\FacilityRef
+        featureRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FeatureRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFeatureRef
+                setter: setFeatureRef
+            type: Calcinai\Siri\FeatureRef
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRef
+        stopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointRef
+                setter: setStopPointRef
+            type: Calcinai\Siri\StopPointRef
+        connectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLinkRef
+                setter: setConnectionLinkRef
+            type: Calcinai\Siri\ConnectionLinkRef
+        vehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleJourneyRef
+                setter: setVehicleJourneyRef
+            type: Calcinai\Siri\VehicleJourneyRef
+        interchangeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: InterchangeRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterchangeRef
+                setter: setInterchangeRef
+            type: Calcinai\Siri\InterchangeRef
+        vehicleRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleRef
+                setter: setVehicleRef
+            type: Calcinai\Siri\VehicleRef
+        stopPlaceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPlaceRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPlaceRef
+                setter: setStopPlaceRef
+            type: Calcinai\Siri\IFOpt\StopPlaceRefStructureType
+        stopPlaceComponentRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPlaceComponentRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPlaceComponentRef
+                setter: setStopPlaceComponentRef
+            type: Calcinai\Siri\IFOpt\StopPlaceComponentRefStructureType
+        accessibilityNeedsFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessibilityNeedsFilter
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessibilityNeedsFilter
+                setter: setAccessibilityNeedsFilter
+            type: array<Calcinai\Siri\ACSB\UserNeedStructureType>
+            xml_list:
+                inline: false
+                entry_name: UserNeed
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        maximumNumberOfFacilityConditions:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximumNumberOfFacilityConditions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMaximumNumberOfFacilityConditions
+                setter: setMaximumNumberOfFacilityConditions
+            type: int
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

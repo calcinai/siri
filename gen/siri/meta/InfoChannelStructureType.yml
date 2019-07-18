@@ -1,0 +1,32 @@
+Calcinai\Siri\InfoChannelStructureType:
+    properties:
+        infoChannelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoChannelCode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoChannelCode
+                setter: setInfoChannelCode
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        icon:
+            expose: true
+            access_type: public_method
+            serialized_name: Icon
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIcon
+                setter: setIcon
+            type: string

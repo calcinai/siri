@@ -1,0 +1,42 @@
+Calcinai\Siri\ConnectionServicePermissionStructureType:
+    properties:
+        operatorPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: OperatorPermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOperatorPermissions
+                setter: setOperatorPermissions
+            type: Calcinai\Siri\OperatorPermissions
+        linePermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: LinePermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinePermissions
+                setter: setLinePermissions
+            type: Calcinai\Siri\LinePermissions
+        connectionLinkPermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLinkPermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLinkPermissions
+                setter: setConnectionLinkPermissions
+            type: Calcinai\Siri\ConnectionLinkPermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

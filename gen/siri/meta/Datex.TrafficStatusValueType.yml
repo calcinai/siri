@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TrafficStatusValueType:
+    properties:
+        trafficStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficStatus
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficStatus
+                setter: setTrafficStatus
+            type: string
+        trafficTrendType:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficTrendType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficTrendType
+                setter: setTrafficTrendType
+            type: string
+        trafficStatusValueExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficStatusValueExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficStatusValueExtension
+                setter: setTrafficStatusValueExtension
+            type: Calcinai\Siri\Datex\ExtensionType

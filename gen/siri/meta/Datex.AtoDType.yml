@@ -1,0 +1,252 @@
+Calcinai\Siri\Datex\AtoDType:
+    properties:
+        dayGroupEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: dayGroupEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDayGroupEnum
+                setter: setDayGroupEnum
+            type: string
+        computationMethodEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: computationMethodEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComputationMethodEnum
+                setter: setComputationMethodEnum
+            type: string
+        atoDExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: atoDExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAtoDExtension
+                setter: setAtoDExtension
+            type: Calcinai\Siri\Datex\ExtensionType
+        carParkConfigurationEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: carParkConfigurationEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarParkConfigurationEnum
+                setter: setCarParkConfigurationEnum
+            type: string
+        authorityOperationTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: authorityOperationTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAuthorityOperationTypeEnum
+                setter: setAuthorityOperationTypeEnum
+            type: string
+        comparisonOperatorEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: comparisonOperatorEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComparisonOperatorEnum
+                setter: setComparisonOperatorEnum
+            type: string
+        dataClassEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: dataClassEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDataClassEnum
+                setter: setDataClassEnum
+            type: string
+        abnormalTrafficTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: abnormalTrafficTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAbnormalTrafficTypeEnum
+                setter: setAbnormalTrafficTypeEnum
+            type: string
+        delaysTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: delaysTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDelaysTypeEnum
+                setter: setDelaysTypeEnum
+            type: string
+        diversionAdviceEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: diversionAdviceEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDiversionAdviceEnum
+                setter: setDiversionAdviceEnum
+            type: string
+        confidentialityValueEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: confidentialityValueEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getConfidentialityValueEnum
+                setter: setConfidentialityValueEnum
+            type: string
+        countryEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: countryEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCountryEnum
+                setter: setCountryEnum
+            type: string
+        datexPictogramEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: datexPictogramEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDatexPictogramEnum
+                setter: setDatexPictogramEnum
+            type: string
+        carParkStatusEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: carParkStatusEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarParkStatusEnum
+                setter: setCarParkStatusEnum
+            type: string
+        animalPresenceTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: animalPresenceTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAnimalPresenceTypeEnum
+                setter: setAnimalPresenceTypeEnum
+            type: string
+        disturbanceActivityTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: disturbanceActivityTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDisturbanceActivityTypeEnum
+                setter: setDisturbanceActivityTypeEnum
+            type: string
+        constructionWorkTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: constructionWorkTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getConstructionWorkTypeEnum
+                setter: setConstructionWorkTypeEnum
+            type: string
+        delayCodeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: delayCodeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDelayCodeEnum
+                setter: setDelayCodeEnum
+            type: string
+        dayEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: dayEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDayEnum
+                setter: setDayEnum
+            type: string
+        causeTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: causeTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCauseTypeEnum
+                setter: setCauseTypeEnum
+            type: string
+        accidentTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: accidentTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAccidentTypeEnum
+                setter: setAccidentTypeEnum
+            type: string
+        dangerousGoodRegulationsEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: dangerousGoodRegulationsEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDangerousGoodRegulationsEnum
+                setter: setDangerousGoodRegulationsEnum
+            type: string
+        areaOfInterestEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: areaOfInterestEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAreaOfInterestEnum
+                setter: setAreaOfInterestEnum
+            type: string
+        accidentCauseEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: accidentCauseEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAccidentCauseEnum
+                setter: setAccidentCauseEnum
+            type: string
+        drivingConditionTypeEnum:
+            expose: true
+            access_type: public_method
+            serialized_name: drivingConditionTypeEnum
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDrivingConditionTypeEnum
+                setter: setDrivingConditionTypeEnum
+            type: string

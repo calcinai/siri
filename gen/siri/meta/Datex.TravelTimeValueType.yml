@@ -1,0 +1,86 @@
+Calcinai\Siri\Datex\TravelTimeValueType:
+    properties:
+        travelTime:
+            expose: true
+            access_type: public_method
+            serialized_name: travelTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTravelTime
+                setter: setTravelTime
+            type: float
+        travelTimeTrendType:
+            expose: true
+            access_type: public_method
+            serialized_name: travelTimeTrendType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTravelTimeTrendType
+                setter: setTravelTimeTrendType
+            type: string
+        travelTimeType:
+            expose: true
+            access_type: public_method
+            serialized_name: travelTimeType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTravelTimeType
+                setter: setTravelTimeType
+            type: string
+        freeFlowSpeed:
+            expose: true
+            access_type: public_method
+            serialized_name: freeFlowSpeed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFreeFlowSpeed
+                setter: setFreeFlowSpeed
+            type: float
+        freeFlowTravelTime:
+            expose: true
+            access_type: public_method
+            serialized_name: freeFlowTravelTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFreeFlowTravelTime
+                setter: setFreeFlowTravelTime
+            type: float
+        normallyExpectedTravelTime:
+            expose: true
+            access_type: public_method
+            serialized_name: normallyExpectedTravelTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNormallyExpectedTravelTime
+                setter: setNormallyExpectedTravelTime
+            type: float
+        vehicleType:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleType
+                setter: setVehicleType
+            xml_list:
+                inline: true
+                entry_name: vehicleType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        travelTimeValueExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: travelTimeValueExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTravelTimeValueExtension
+                setter: setTravelTimeValueExtension
+            type: Calcinai\Siri\Datex\ExtensionType

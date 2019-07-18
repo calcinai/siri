@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\ReferencePointSecondaryLocationType:
+    properties:
+        referencePoint:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePoint
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePoint
+                setter: setReferencePoint
+            type: Calcinai\Siri\Datex\ReferencePointType
+        referencePointSecondaryLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: referencePointSecondaryLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReferencePointSecondaryLocationExtension
+                setter: setReferencePointSecondaryLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,69 @@
+Calcinai\Siri\Datex\SituationType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        overallImpact:
+            expose: true
+            access_type: public_method
+            serialized_name: overallImpact
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOverallImpact
+                setter: setOverallImpact
+            type: string
+        relatedSituation:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedSituation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRelatedSituation
+                setter: setRelatedSituation
+            xml_list:
+                inline: true
+                entry_name: relatedSituation
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        headerInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: headerInformation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeaderInformation
+                setter: setHeaderInformation
+            type: Calcinai\Siri\Datex\HeaderInformationType
+        situationRecord:
+            expose: true
+            access_type: public_method
+            serialized_name: situationRecord
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationRecord
+                setter: setSituationRecord
+            xml_list:
+                inline: true
+                entry_name: situationRecord
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\SituationRecordType>
+        situationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: situationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSituationExtension
+                setter: setSituationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,16 @@
+Calcinai\Siri\DatedVehicleJourneyStructureType\DatedCallsAType:
+    properties:
+        datedCall:
+            expose: true
+            access_type: public_method
+            serialized_name: DatedCall
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDatedCall
+                setter: setDatedCall
+            xml_list:
+                inline: true
+                entry_name: DatedCall
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\DatedCall>

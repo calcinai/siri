@@ -1,0 +1,3 @@
+Calcinai\Siri\Datex\D2LogicalModel:
+    xml_root_name: d2LogicalModel
+    xml_root_namespace: 'http://datex2.eu/schema/1_0/1_0'

@@ -1,0 +1,76 @@
+Calcinai\Siri\AffectedInterchangeStructureType:
+    properties:
+        interchangeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: InterchangeRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterchangeRef
+                setter: setInterchangeRef
+            type: Calcinai\Siri\InterchangeRefStructureType
+        interchangeStopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: InterchangeStopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterchangeStopPointRef
+                setter: setInterchangeStopPointRef
+            type: Calcinai\Siri\StopPointRefStructureType
+        interchangeStopPointName:
+            expose: true
+            access_type: public_method
+            serialized_name: InterchangeStopPointName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterchangeStopPointName
+                setter: setInterchangeStopPointName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        connectingVehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectingVehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectingVehicleJourneyRef
+                setter: setConnectingVehicleJourneyRef
+            type: Calcinai\Siri\DatedVehicleJourneyRefStructureType
+        interchangeStatusType:
+            expose: true
+            access_type: public_method
+            serialized_name: InterchangeStatusType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInterchangeStatusType
+                setter: setInterchangeStatusType
+            type: Calcinai\Siri\InterchangeStatusType
+        connectionLink:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLink
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLink
+                setter: setConnectionLink
+            xml_list:
+                inline: true
+                entry_name: ConnectionLink
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedConnectionLinkStructureType>
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

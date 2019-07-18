@@ -1,0 +1,22 @@
+Calcinai\Siri\TransportDescriptionStructureType:
+    properties:
+        communicationsTransportMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: CommunicationsTransportMethod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCommunicationsTransportMethod
+                setter: setCommunicationsTransportMethod
+            type: string
+        compressionMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: CompressionMethod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCompressionMethod
+                setter: setCompressionMethod
+            type: string

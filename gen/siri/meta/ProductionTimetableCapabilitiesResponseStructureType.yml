@@ -1,0 +1,41 @@
+Calcinai\Siri\ProductionTimetableCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        productionTimetableServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductionTimetableServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductionTimetableServiceCapabilities
+                setter: setProductionTimetableServiceCapabilities
+            type: Calcinai\Siri\ProductionTimetableServiceCapabilities
+        productionTimetablePermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductionTimetablePermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductionTimetablePermissions
+                setter: setProductionTimetablePermissions
+            type: Calcinai\Siri\ProductionTimetablePermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

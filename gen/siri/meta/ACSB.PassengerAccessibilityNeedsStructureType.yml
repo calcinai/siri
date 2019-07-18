@@ -1,0 +1,26 @@
+Calcinai\Siri\ACSB\PassengerAccessibilityNeedsStructureType:
+    properties:
+        userNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: UserNeed
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getUserNeed
+                setter: setUserNeed
+            xml_list:
+                inline: true
+                entry_name: UserNeed
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            type: array<Calcinai\Siri\ACSB\UserNeedStructureType>
+        accompaniedByCarer:
+            expose: true
+            access_type: public_method
+            serialized_name: AccompaniedByCarer
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/acsb'
+            accessor:
+                getter: getAccompaniedByCarer
+                setter: setAccompaniedByCarer
+            type: bool

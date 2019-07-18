@@ -1,0 +1,18 @@
+Calcinai\Siri\GeneralMessagePermissions:
+    xml_root_name: GeneralMessagePermissions
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties:
+        generalMessagePermission:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessagePermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessagePermission
+                setter: setGeneralMessagePermission
+            xml_list:
+                inline: true
+                entry_name: GeneralMessagePermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\GeneralMessageServicePermissionStructureType>

@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\LengthCharacteristicType:
+    properties:
+        comparisonOperator:
+            expose: true
+            access_type: public_method
+            serialized_name: comparisonOperator
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComparisonOperator
+                setter: setComparisonOperator
+            type: string
+        vehicleLength:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleLength
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleLength
+                setter: setVehicleLength
+            type: float
+        lengthCharacteristicExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: lengthCharacteristicExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLengthCharacteristicExtension
+                setter: setLengthCharacteristicExtension
+            type: Calcinai\Siri\Datex\ExtensionType

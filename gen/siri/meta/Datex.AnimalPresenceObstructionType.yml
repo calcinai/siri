@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\AnimalPresenceObstructionType:
+    properties:
+        alive:
+            expose: true
+            access_type: public_method
+            serialized_name: alive
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlive
+                setter: setAlive
+            type: bool
+        animalPresenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: animalPresenceType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAnimalPresenceType
+                setter: setAnimalPresenceType
+            type: string
+        animalPresenceObstructionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: animalPresenceObstructionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAnimalPresenceObstructionExtension
+                setter: setAnimalPresenceObstructionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

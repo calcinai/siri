@@ -1,0 +1,36 @@
+Calcinai\Siri\PlaceNameStructureType:
+    properties:
+        placeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: PlaceRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPlaceRef
+                setter: setPlaceRef
+            type: Calcinai\Siri\JourneyPlaceRefStructureType
+        placeName:
+            expose: true
+            access_type: public_method
+            serialized_name: PlaceName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPlaceName
+                setter: setPlaceName
+            type: Calcinai\Siri\NaturalLanguagePlaceNameStructureType
+        placeShortName:
+            expose: true
+            access_type: public_method
+            serialized_name: PlaceShortName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPlaceShortName
+                setter: setPlaceShortName
+            xml_list:
+                inline: true
+                entry_name: PlaceShortName
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\NaturalLanguagePlaceNameStructureType>

@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\TPEGPointLocationType:
+    properties:
+        tpegDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegDirection
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegDirection
+                setter: setTpegDirection
+            type: string
+        tpegpointLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegpointLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegpointLocationExtension
+                setter: setTpegpointLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

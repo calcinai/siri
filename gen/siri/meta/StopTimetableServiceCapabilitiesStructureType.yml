@@ -1,0 +1,42 @@
+Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType:
+    properties:
+        topicFiltering:
+            expose: true
+            access_type: public_method
+            serialized_name: TopicFiltering
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTopicFiltering
+                setter: setTopicFiltering
+            type: Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType
+        requestPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestPolicy
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestPolicy
+                setter: setRequestPolicy
+            type: Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType
+        accessControl:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessControl
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessControl
+                setter: setAccessControl
+            type: Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\AccessControlAType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\DelaysType:
+    properties:
+        delayCoded:
+            expose: true
+            access_type: public_method
+            serialized_name: delayCoded
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDelayCoded
+                setter: setDelayCoded
+            type: string
+        delaysType:
+            expose: true
+            access_type: public_method
+            serialized_name: delaysType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDelaysType
+                setter: setDelaysType
+            type: string
+        delayTimeValue:
+            expose: true
+            access_type: public_method
+            serialized_name: delayTimeValue
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDelayTimeValue
+                setter: setDelayTimeValue
+            type: float
+        delaysExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: delaysExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDelaysExtension
+                setter: setDelaysExtension
+            type: Calcinai\Siri\Datex\ExtensionType

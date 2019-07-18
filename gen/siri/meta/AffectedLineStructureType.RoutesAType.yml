@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectedLineStructureType\RoutesAType:
+    properties:
+        affectedRoute:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedRoute
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedRoute
+                setter: setAffectedRoute
+            xml_list:
+                inline: true
+                entry_name: AffectedRoute
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedRouteStructureType>

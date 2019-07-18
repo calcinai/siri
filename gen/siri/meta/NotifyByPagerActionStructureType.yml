@@ -1,0 +1,22 @@
+Calcinai\Siri\NotifyByPagerActionStructureType:
+    properties:
+        pagerGroupRef:
+            expose: true
+            access_type: public_method
+            serialized_name: PagerGroupRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPagerGroupRef
+                setter: setPagerGroupRef
+            type: string
+        pager:
+            expose: true
+            access_type: public_method
+            serialized_name: Pager
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPager
+                setter: setPager
+            type: string

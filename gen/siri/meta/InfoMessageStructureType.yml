@@ -1,0 +1,71 @@
+Calcinai\Siri\InfoMessageStructureType:
+    properties:
+        formatRef:
+            expose: true
+            access_type: public_method
+            serialized_name: formatRef
+            accessor:
+                getter: getFormatRef
+                setter: setFormatRef
+            xml_attribute: true
+            type: \AnyType
+        infoMessageIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoMessageIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoMessageIdentifier
+                setter: setInfoMessageIdentifier
+            type: Calcinai\Siri\InfoMessageRefStructureType
+        infoMessageVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoMessageVersion
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoMessageVersion
+                setter: setInfoMessageVersion
+            type: int
+        infoChannelRef:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoChannelRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoChannelRef
+                setter: setInfoChannelRef
+            type: Calcinai\Siri\InfoChannelRefStructureType
+        validUntilTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidUntilTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidUntilTime
+                setter: setValidUntilTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        situationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRef
+                setter: setSituationRef
+            type: Calcinai\Siri\SituationRef
+        content:
+            expose: true
+            access_type: public_method
+            serialized_name: Content
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getContent
+                setter: setContent
+            type: \AnyType

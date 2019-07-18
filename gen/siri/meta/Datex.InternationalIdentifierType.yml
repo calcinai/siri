@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\InternationalIdentifierType:
+    properties:
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string
+        nationalIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: nationalIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNationalIdentifier
+                setter: setNationalIdentifier
+            type: string
+        internationalIdentifierExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: internationalIdentifierExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getInternationalIdentifierExtension
+                setter: setInternationalIdentifierExtension
+            type: Calcinai\Siri\Datex\ExtensionType

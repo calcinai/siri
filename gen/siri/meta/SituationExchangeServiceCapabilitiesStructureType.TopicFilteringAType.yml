@@ -1,0 +1,102 @@
+Calcinai\Siri\SituationExchangeServiceCapabilitiesStructureType\TopicFilteringAType:
+    properties:
+        defaultPreviewInterval:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultPreviewInterval
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDefaultPreviewInterval
+                setter: setDefaultPreviewInterval
+            type: DateInterval
+        filterByFacilityRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByFacilityRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByFacilityRef
+                setter: setFilterByFacilityRef
+            type: bool
+        filterByLocationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByLocationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByLocationRef
+                setter: setFilterByLocationRef
+            type: bool
+        filterByVehicleRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByVehicleRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByVehicleRef
+                setter: setFilterByVehicleRef
+            type: bool
+        filterByLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByLineRef
+                setter: setFilterByLineRef
+            type: bool
+        filterByStopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByStopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByStopPointRef
+                setter: setFilterByStopPointRef
+            type: bool
+        filterByVehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByVehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByVehicleJourneyRef
+                setter: setFilterByVehicleJourneyRef
+            type: bool
+        filterByConnectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByConnectionLinkRef
+                setter: setFilterByConnectionLinkRef
+            type: bool
+        filterByInterchangeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByInterchangeRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByInterchangeRef
+                setter: setFilterByInterchangeRef
+            type: bool
+        filterBySpecificNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterBySpecificNeed
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterBySpecificNeed
+                setter: setFilterBySpecificNeed
+            type: bool

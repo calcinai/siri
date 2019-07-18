@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\PointCoordinatesType:
+    properties:
+        latitude:
+            expose: true
+            access_type: public_method
+            serialized_name: latitude
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLatitude
+                setter: setLatitude
+            type: float
+        longitude:
+            expose: true
+            access_type: public_method
+            serialized_name: longitude
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLongitude
+                setter: setLongitude
+            type: float
+        pointCoordinatesExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: pointCoordinatesExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPointCoordinatesExtension
+                setter: setPointCoordinatesExtension
+            type: Calcinai\Siri\Datex\ExtensionType

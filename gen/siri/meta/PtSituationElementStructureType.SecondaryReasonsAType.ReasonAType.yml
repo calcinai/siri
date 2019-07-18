@@ -1,0 +1,82 @@
+Calcinai\Siri\PtSituationElementStructureType\SecondaryReasonsAType\ReasonAType:
+    properties:
+        unknownReason:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUnknownReason
+                setter: setUnknownReason
+            type: string
+        miscellaneousReason:
+            expose: true
+            access_type: public_method
+            serialized_name: MiscellaneousReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMiscellaneousReason
+                setter: setMiscellaneousReason
+            type: Calcinai\Siri\MiscellaneousReason
+        personnelReason:
+            expose: true
+            access_type: public_method
+            serialized_name: PersonnelReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPersonnelReason
+                setter: setPersonnelReason
+            type: Calcinai\Siri\PersonnelReason
+        equipmentReason:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEquipmentReason
+                setter: setEquipmentReason
+            type: Calcinai\Siri\EquipmentReason
+        environmentReason:
+            expose: true
+            access_type: public_method
+            serialized_name: EnvironmentReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEnvironmentReason
+                setter: setEnvironmentReason
+            type: Calcinai\Siri\EnvironmentReason
+        undefinedReason:
+            expose: true
+            access_type: public_method
+            serialized_name: UndefinedReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUndefinedReason
+                setter: setUndefinedReason
+            type: string
+        publicEventReason:
+            expose: true
+            access_type: public_method
+            serialized_name: PublicEventReason
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublicEventReason
+                setter: setPublicEventReason
+            type: string
+        reasonName:
+            expose: true
+            access_type: public_method
+            serialized_name: ReasonName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReasonName
+                setter: setReasonName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType

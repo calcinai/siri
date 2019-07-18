@@ -1,0 +1,32 @@
+Calcinai\Siri\ConnectingJourneyFilterStructureType:
+    properties:
+        datedVehicleJourneyRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DatedVehicleJourneyRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDatedVehicleJourneyRef
+                setter: setDatedVehicleJourneyRef
+            type: string
+        visitNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: VisitNumber
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVisitNumber
+                setter: setVisitNumber
+            type: Calcinai\Siri\VisitNumber
+        timetabledArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: TimetabledArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTimetabledArrivalTime
+                setter: setTimetabledArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

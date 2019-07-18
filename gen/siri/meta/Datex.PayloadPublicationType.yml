@@ -1,0 +1,51 @@
+Calcinai\Siri\Datex\PayloadPublicationType:
+    properties:
+        lang:
+            expose: true
+            access_type: public_method
+            serialized_name: lang
+            accessor:
+                getter: getLang
+                setter: setLang
+            xml_attribute: true
+            type: string
+        feedType:
+            expose: true
+            access_type: public_method
+            serialized_name: feedType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFeedType
+                setter: setFeedType
+            type: string
+        publicationTime:
+            expose: true
+            access_type: public_method
+            serialized_name: publicationTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPublicationTime
+                setter: setPublicationTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        publicationCreator:
+            expose: true
+            access_type: public_method
+            serialized_name: publicationCreator
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPublicationCreator
+                setter: setPublicationCreator
+            type: Calcinai\Siri\Datex\InternationalIdentifierType
+        payloadPublicationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: payloadPublicationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPayloadPublicationExtension
+                setter: setPayloadPublicationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

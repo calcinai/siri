@@ -1,0 +1,22 @@
+Calcinai\Siri\IFOpt\AliasStructureType:
+    properties:
+        privateCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PrivateCode
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getPrivateCode
+                setter: setPrivateCode
+            type: string
+        identifierType:
+            expose: true
+            access_type: public_method
+            serialized_name: IdentifierType
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getIdentifierType
+                setter: setIdentifierType
+            type: string

@@ -1,0 +1,22 @@
+Calcinai\Siri\AbstractCapabilitiesStructureType:
+    properties:
+        generalInteraction:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralInteraction
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralInteraction
+                setter: setGeneralInteraction
+            type: Calcinai\Siri\CapabilityGeneralInteractionStructureType
+        transportDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportDescription
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTransportDescription
+                setter: setTransportDescription
+            type: Calcinai\Siri\TransportDescriptionStructureType

@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\ManagementDescriptiveDataType:
+    properties:
+        messageChain:
+            expose: true
+            access_type: public_method
+            serialized_name: messageChain
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMessageChain
+                setter: setMessageChain
+            type: string
+        managementDescriptiveDataExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: managementDescriptiveDataExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getManagementDescriptiveDataExtension
+                setter: setManagementDescriptiveDataExtension
+            type: Calcinai\Siri\Datex\ExtensionType

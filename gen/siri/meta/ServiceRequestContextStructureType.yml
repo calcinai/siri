@@ -1,0 +1,202 @@
+Calcinai\Siri\ServiceRequestContextStructureType:
+    properties:
+        checkStatusAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckStatusAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckStatusAddress
+                setter: setCheckStatusAddress
+            type: string
+        subscribeAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscribeAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscribeAddress
+                setter: setSubscribeAddress
+            type: string
+        manageSubscriptionAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ManageSubscriptionAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getManageSubscriptionAddress
+                setter: setManageSubscriptionAddress
+            type: string
+        getDataAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: GetDataAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGetDataAddress
+                setter: setGetDataAddress
+            type: string
+        statusResponseAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusResponseAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStatusResponseAddress
+                setter: setStatusResponseAddress
+            type: string
+        subscriberAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriberAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriberAddress
+                setter: setSubscriberAddress
+            type: string
+        notifyAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: NotifyAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNotifyAddress
+                setter: setNotifyAddress
+            type: string
+        consumerAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsumerAddress
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConsumerAddress
+                setter: setConsumerAddress
+            type: string
+        dataNameSpaces:
+            expose: true
+            access_type: public_method
+            serialized_name: DataNameSpaces
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDataNameSpaces
+                setter: setDataNameSpaces
+            type: Calcinai\Siri\DataNameSpacesStructureType
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        wgsDecimalDegrees:
+            expose: true
+            access_type: public_method
+            serialized_name: WgsDecimalDegrees
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getWgsDecimalDegrees
+                setter: setWgsDecimalDegrees
+            type: string
+        gmlCoordinateFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: GmlCoordinateFormat
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGmlCoordinateFormat
+                setter: setGmlCoordinateFormat
+            type: string
+        dataHorizon:
+            expose: true
+            access_type: public_method
+            serialized_name: DataHorizon
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDataHorizon
+                setter: setDataHorizon
+            type: DateInterval
+        requestTimeout:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestTimeout
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestTimeout
+                setter: setRequestTimeout
+            type: DateInterval
+        deliveryMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryMethod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDeliveryMethod
+                setter: setDeliveryMethod
+            type: string
+        multipartDespatch:
+            expose: true
+            access_type: public_method
+            serialized_name: MultipartDespatch
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMultipartDespatch
+                setter: setMultipartDespatch
+            type: bool
+        confirmDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: ConfirmDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConfirmDelivery
+                setter: setConfirmDelivery
+            type: bool
+        maximimumNumberOfSubscriptions:
+            expose: true
+            access_type: public_method
+            serialized_name: MaximimumNumberOfSubscriptions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMaximimumNumberOfSubscriptions
+                setter: setMaximimumNumberOfSubscriptions
+            type: int
+        allowedPredictors:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowedPredictors
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllowedPredictors
+                setter: setAllowedPredictors
+            type: string
+        predictionFunction:
+            expose: true
+            access_type: public_method
+            serialized_name: PredictionFunction
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPredictionFunction
+                setter: setPredictionFunction
+            type: string

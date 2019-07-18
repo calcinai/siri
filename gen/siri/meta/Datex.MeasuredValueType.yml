@@ -1,0 +1,47 @@
+Calcinai\Siri\Datex\MeasuredValueType:
+    properties:
+        measurementEquipmentTypeUsed:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementEquipmentTypeUsed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementEquipmentTypeUsed
+                setter: setMeasurementEquipmentTypeUsed
+            type: array<Calcinai\Siri\Datex\MeasuredValueType\MeasurementEquipmentTypeUsedAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        locationCharacteristicsOverride:
+            expose: true
+            access_type: public_method
+            serialized_name: locationCharacteristicsOverride
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLocationCharacteristicsOverride
+                setter: setLocationCharacteristicsOverride
+            type: Calcinai\Siri\Datex\LocationCharacteristicsOverrideType
+        basicDataValue:
+            expose: true
+            access_type: public_method
+            serialized_name: basicDataValue
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getBasicDataValue
+                setter: setBasicDataValue
+            type: Calcinai\Siri\Datex\BasicDataValueType
+        measuredValueExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: measuredValueExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasuredValueExtension
+                setter: setMeasuredValueExtension
+            type: Calcinai\Siri\Datex\ExtensionType

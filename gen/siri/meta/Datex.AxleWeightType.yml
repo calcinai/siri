@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\AxleWeightType:
+    properties:
+        axleSequenceIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: axleSequenceIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleSequenceIdentifier
+                setter: setAxleSequenceIdentifier
+            type: int
+        axleWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: axleWeight
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleWeight
+                setter: setAxleWeight
+            type: float
+        maximumPermittedAxleWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: maximumPermittedAxleWeight
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMaximumPermittedAxleWeight
+                setter: setMaximumPermittedAxleWeight
+            type: float
+        axleWeightExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: axleWeightExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleWeightExtension
+                setter: setAxleWeightExtension
+            type: Calcinai\Siri\Datex\ExtensionType

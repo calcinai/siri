@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectsScopeStructureType\StopPointsAType:
+    properties:
+        affectedStopPoint:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedStopPoint
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedStopPoint
+                setter: setAffectedStopPoint
+            xml_list:
+                inline: true
+                entry_name: AffectedStopPoint
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedStopPointStructureType>

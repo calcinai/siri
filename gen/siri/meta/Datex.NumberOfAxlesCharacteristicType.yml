@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\NumberOfAxlesCharacteristicType:
+    properties:
+        comparisonOperator:
+            expose: true
+            access_type: public_method
+            serialized_name: comparisonOperator
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getComparisonOperator
+                setter: setComparisonOperator
+            type: string
+        numberOfAxles:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfAxles
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfAxles
+                setter: setNumberOfAxles
+            type: int
+        numberOfAxlesCharacteristicExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfAxlesCharacteristicExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfAxlesCharacteristicExtension
+                setter: setNumberOfAxlesCharacteristicExtension
+            type: Calcinai\Siri\Datex\ExtensionType

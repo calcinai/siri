@@ -1,0 +1,32 @@
+Calcinai\Siri\DataReadyResponseStructureType\ErrorConditionAType:
+    properties:
+        unknownSubscriptionError:
+            expose: true
+            access_type: public_method
+            serialized_name: UnknownSubscriptionError
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUnknownSubscriptionError
+                setter: setUnknownSubscriptionError
+            type: Calcinai\Siri\UnknownSubscriptionError
+        otherError:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherError
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOtherError
+                setter: setOtherError
+            type: Calcinai\Siri\OtherError
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Calcinai\Siri\ErrorDescriptionStructureType

@@ -1,0 +1,66 @@
+Calcinai\Siri\MonitoredStopVisitStructureType:
+    properties:
+        monitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoringRef
+                setter: setMonitoringRef
+            type: Calcinai\Siri\MonitoringRefStructureType
+        clearDownRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ClearDownRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getClearDownRef
+                setter: setClearDownRef
+            type: Calcinai\Siri\ClearDownRefStructureType
+        monitoredVehicleJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoredVehicleJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoredVehicleJourney
+                setter: setMonitoredVehicleJourney
+            type: Calcinai\Siri\MonitoredVehicleJourneyStructureType
+        stopVisitNote:
+            expose: true
+            access_type: public_method
+            serialized_name: StopVisitNote
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopVisitNote
+                setter: setStopVisitNote
+            xml_list:
+                inline: true
+                entry_name: StopVisitNote
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\NaturalLanguageStringStructureType>
+        stopFacility:
+            expose: true
+            access_type: public_method
+            serialized_name: StopFacility
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopFacility
+                setter: setStopFacility
+            type: Calcinai\Siri\FacilityRefStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

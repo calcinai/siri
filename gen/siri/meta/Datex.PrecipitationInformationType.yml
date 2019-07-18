@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\PrecipitationInformationType:
+    properties:
+        precipitationDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: precipitationDetail
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPrecipitationDetail
+                setter: setPrecipitationDetail
+            type: Calcinai\Siri\Datex\PrecipitationDetailType
+        precipitationInformationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: precipitationInformationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPrecipitationInformationExtension
+                setter: setPrecipitationInformationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

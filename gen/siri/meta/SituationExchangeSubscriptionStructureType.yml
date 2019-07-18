@@ -1,0 +1,22 @@
+Calcinai\Siri\SituationExchangeSubscriptionStructureType:
+    properties:
+        situationExchangeRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationExchangeRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationExchangeRequest
+                setter: setSituationExchangeRequest
+            type: Calcinai\Siri\SituationExchangeRequest
+        incrementalUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: IncrementalUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIncrementalUpdates
+                setter: setIncrementalUpdates
+            type: bool

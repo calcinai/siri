@@ -1,0 +1,42 @@
+Calcinai\Siri\StopTimetableSubscriptionStructureType:
+    properties:
+        stopTimetableRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: StopTimetableRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopTimetableRequest
+                setter: setStopTimetableRequest
+            type: Calcinai\Siri\StopTimetableRequest
+        incrementalUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: IncrementalUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIncrementalUpdates
+                setter: setIncrementalUpdates
+            type: bool
+        changeBeforeUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: ChangeBeforeUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getChangeBeforeUpdates
+                setter: setChangeBeforeUpdates
+            type: DateInterval
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

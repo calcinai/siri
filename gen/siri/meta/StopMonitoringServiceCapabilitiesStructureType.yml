@@ -1,0 +1,52 @@
+Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType:
+    properties:
+        topicFiltering:
+            expose: true
+            access_type: public_method
+            serialized_name: TopicFiltering
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTopicFiltering
+                setter: setTopicFiltering
+            type: Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\TopicFilteringAType
+        requestPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestPolicy
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestPolicy
+                setter: setRequestPolicy
+            type: Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\RequestPolicyAType
+        subscriptionPolicy:
+            expose: true
+            access_type: public_method
+            serialized_name: SubscriptionPolicy
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSubscriptionPolicy
+                setter: setSubscriptionPolicy
+            type: Calcinai\Siri\CapabilitySubscriptionPolicyStructureType
+        accessControl:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessControl
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessControl
+                setter: setAccessControl
+            type: Calcinai\Siri\MonitoringCapabilityAccessControlStructureType
+        responseFeatures:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseFeatures
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getResponseFeatures
+                setter: setResponseFeatures
+            type: Calcinai\Siri\StopMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType

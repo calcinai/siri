@@ -1,0 +1,26 @@
+Calcinai\Siri\StopMonitoringServicePermissionStructureType\StopMonitorPermissionsAType:
+    properties:
+        allowAll:
+            expose: true
+            access_type: public_method
+            serialized_name: AllowAll
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllowAll
+                setter: setAllowAll
+            type: bool
+        stopMonitorPermission:
+            expose: true
+            access_type: public_method
+            serialized_name: StopMonitorPermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopMonitorPermission
+                setter: setStopMonitorPermission
+            xml_list:
+                inline: true
+                entry_name: StopMonitorPermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\StopMonitorPermissionStructureType>

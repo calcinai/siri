@@ -1,0 +1,32 @@
+Calcinai\Siri\InfoMessageCancellationStructureType:
+    properties:
+        infoMessageIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoMessageIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoMessageIdentifier
+                setter: setInfoMessageIdentifier
+            type: Calcinai\Siri\InfoMessageRefStructureType
+        infoChannelRef:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoChannelRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getInfoChannelRef
+                setter: setInfoChannelRef
+            type: Calcinai\Siri\InfoChannelRefStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\TPEGHeightType:
+    properties:
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: float
+        heightType:
+            expose: true
+            access_type: public_method
+            serialized_name: heightType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeightType
+                setter: setHeightType
+            type: string
+        tpegheightExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegheightExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegheightExtension
+                setter: setTpegheightExtension
+            type: Calcinai\Siri\Datex\ExtensionType

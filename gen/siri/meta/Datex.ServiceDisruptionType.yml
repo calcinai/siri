@@ -1,0 +1,26 @@
+Calcinai\Siri\Datex\ServiceDisruptionType:
+    properties:
+        serviceDisruptionType:
+            expose: true
+            access_type: public_method
+            serialized_name: serviceDisruptionType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getServiceDisruptionType
+                setter: setServiceDisruptionType
+            xml_list:
+                inline: true
+                entry_name: serviceDisruptionType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        serviceDisruptionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: serviceDisruptionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getServiceDisruptionExtension
+                setter: setServiceDisruptionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

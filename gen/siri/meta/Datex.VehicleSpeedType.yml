@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\VehicleSpeedType:
+    properties:
+        individualVehicleSpeed:
+            expose: true
+            access_type: public_method
+            serialized_name: individualVehicleSpeed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getIndividualVehicleSpeed
+                setter: setIndividualVehicleSpeed
+            type: float
+        vehicleSpeedExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleSpeedExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleSpeedExtension
+                setter: setVehicleSpeedExtension
+            type: Calcinai\Siri\Datex\ExtensionType

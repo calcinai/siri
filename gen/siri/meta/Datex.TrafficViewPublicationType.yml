@@ -1,0 +1,36 @@
+Calcinai\Siri\Datex\TrafficViewPublicationType:
+    properties:
+        headerInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: headerInformation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHeaderInformation
+                setter: setHeaderInformation
+            type: Calcinai\Siri\Datex\HeaderInformationType
+        trafficView:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficView
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficView
+                setter: setTrafficView
+            xml_list:
+                inline: true
+                entry_name: trafficView
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\TrafficViewType>
+        trafficViewPublicationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficViewPublicationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficViewPublicationExtension
+                setter: setTrafficViewPublicationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

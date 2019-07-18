@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectedVehicleJourneyStructureType\CallsAType:
+    properties:
+        call:
+            expose: true
+            access_type: public_method
+            serialized_name: Call
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCall
+                setter: setCall
+            xml_list:
+                inline: true
+                entry_name: Call
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedCallStructureType>

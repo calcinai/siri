@@ -1,0 +1,12 @@
+Calcinai\Siri\Datex\TrafficElementType:
+    properties:
+        trafficElementExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficElementExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficElementExtension
+                setter: setTrafficElementExtension
+            type: Calcinai\Siri\Datex\ExtensionType

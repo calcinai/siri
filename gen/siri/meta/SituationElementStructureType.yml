@@ -1,0 +1,37 @@
+Calcinai\Siri\SituationElementStructureType:
+    properties:
+        references:
+            expose: true
+            access_type: public_method
+            serialized_name: References
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getReferences
+                setter: setReferences
+            type: array<Calcinai\Siri\RelatedSituationStructureType>
+            xml_list:
+                inline: false
+                entry_name: RelatedToRef
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        source:
+            expose: true
+            access_type: public_method
+            serialized_name: Source
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSource
+                setter: setSource
+            type: Calcinai\Siri\SituationSourceStructureType
+        versionedAtTime:
+            expose: true
+            access_type: public_method
+            serialized_name: VersionedAtTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVersionedAtTime
+                setter: setVersionedAtTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

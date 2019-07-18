@@ -1,0 +1,12 @@
+Calcinai\Siri\AbstractReferencingItemStructureType:
+    properties:
+        itemRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getItemRef
+                setter: setItemRef
+            type: Calcinai\Siri\ItemRefStructureType

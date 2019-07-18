@@ -1,0 +1,22 @@
+Calcinai\Siri\CapabilitySubscriptionPolicyStructureType:
+    properties:
+        hasIncrementalUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: HasIncrementalUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasIncrementalUpdates
+                setter: setHasIncrementalUpdates
+            type: bool
+        hasChangeSensitivity:
+            expose: true
+            access_type: public_method
+            serialized_name: HasChangeSensitivity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasChangeSensitivity
+                setter: setHasChangeSensitivity
+            type: bool

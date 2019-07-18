@@ -1,0 +1,32 @@
+Calcinai\Siri\StopTimetableServiceCapabilitiesStructureType\TopicFilteringAType:
+    properties:
+        filterByMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByMonitoringRef
+                setter: setFilterByMonitoringRef
+            type: bool
+        filterByLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByLineRef
+                setter: setFilterByLineRef
+            type: bool
+        filterByDirectionRef:
+            expose: true
+            access_type: public_method
+            serialized_name: FilterByDirectionRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFilterByDirectionRef
+                setter: setFilterByDirectionRef
+            type: bool

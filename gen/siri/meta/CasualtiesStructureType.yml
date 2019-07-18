@@ -1,0 +1,22 @@
+Calcinai\Siri\CasualtiesStructureType:
+    properties:
+        numberOfDeaths:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfDeaths
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNumberOfDeaths
+                setter: setNumberOfDeaths
+            type: int
+        numberOfInjured:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfInjured
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNumberOfInjured
+                setter: setNumberOfInjured
+            type: int

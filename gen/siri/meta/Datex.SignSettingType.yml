@@ -1,0 +1,100 @@
+Calcinai\Siri\Datex\SignSettingType:
+    properties:
+        datexPictogram:
+            expose: true
+            access_type: public_method
+            serialized_name: datexPictogram
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDatexPictogram
+                setter: setDatexPictogram
+            xml_list:
+                inline: true
+                entry_name: datexPictogram
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        pictogramList:
+            expose: true
+            access_type: public_method
+            serialized_name: pictogramList
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPictogramList
+                setter: setPictogramList
+            type: string
+        pictogramListEntry:
+            expose: true
+            access_type: public_method
+            serialized_name: pictogramListEntry
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPictogramListEntry
+                setter: setPictogramListEntry
+            xml_list:
+                inline: true
+                entry_name: pictogramListEntry
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        reasonForSetting:
+            expose: true
+            access_type: public_method
+            serialized_name: reasonForSetting
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getReasonForSetting
+                setter: setReasonForSetting
+            type: array<Calcinai\Siri\Datex\SignSettingType\ReasonForSettingAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        setBy:
+            expose: true
+            access_type: public_method
+            serialized_name: setBy
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSetBy
+                setter: setSetBy
+            type: array<Calcinai\Siri\Datex\SignSettingType\SetByAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        signAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: signAddress
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSignAddress
+                setter: setSignAddress
+            type: string
+        timeLastSet:
+            expose: true
+            access_type: public_method
+            serialized_name: timeLastSet
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTimeLastSet
+                setter: setTimeLastSet
+            type: Calcinai\Siri\Datex\DateTimeType
+        signSettingExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: signSettingExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSignSettingExtension
+                setter: setSignSettingExtension
+            type: Calcinai\Siri\Datex\ExtensionType

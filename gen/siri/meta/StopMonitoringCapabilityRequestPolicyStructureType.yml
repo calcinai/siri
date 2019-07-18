@@ -1,0 +1,22 @@
+Calcinai\Siri\StopMonitoringCapabilityRequestPolicyStructureType:
+    properties:
+        useReferences:
+            expose: true
+            access_type: public_method
+            serialized_name: UseReferences
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUseReferences
+                setter: setUseReferences
+            type: bool
+        useNames:
+            expose: true
+            access_type: public_method
+            serialized_name: UseNames
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUseNames
+                setter: setUseNames
+            type: bool

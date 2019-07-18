@@ -1,0 +1,70 @@
+Calcinai\Siri\IFOpt\PointProjectionStructureType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        srsName:
+            expose: true
+            access_type: public_method
+            serialized_name: srsName
+            accessor:
+                getter: getSrsName
+                setter: setSrsName
+            xml_attribute: true
+            type: string
+        longitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Longitude
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getLongitude
+                setter: setLongitude
+            type: float
+        latitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Latitude
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getLatitude
+                setter: setLatitude
+            type: float
+        altitude:
+            expose: true
+            access_type: public_method
+            serialized_name: Altitude
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getAltitude
+                setter: setAltitude
+            type: float
+        coordinates:
+            expose: true
+            access_type: public_method
+            serialized_name: Coordinates
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getCoordinates
+                setter: setCoordinates
+            type: Calcinai\Siri\CoordinatesStructureType
+        precision:
+            expose: true
+            access_type: public_method
+            serialized_name: Precision
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getPrecision
+                setter: setPrecision
+            type: int

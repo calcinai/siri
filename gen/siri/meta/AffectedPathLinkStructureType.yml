@@ -1,0 +1,80 @@
+Calcinai\Siri\AffectedPathLinkStructureType:
+    properties:
+        linkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkRef
+                setter: setLinkRef
+            xml_list:
+                inline: true
+                entry_name: LinkRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
+        linkName:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkName
+                setter: setLinkName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        accessibilityFeature:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessibilityFeature
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAccessibilityFeature
+                setter: setAccessibilityFeature
+            type: string
+        linkDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkDirection
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkDirection
+                setter: setLinkDirection
+            xml_list:
+                inline: true
+                entry_name: LinkDirection
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
+        linkProjection:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkProjection
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkProjection
+                setter: setLinkProjection
+            type: Calcinai\Siri\IFOpt\LinkProjectionStructureType
+        offset:
+            expose: true
+            access_type: public_method
+            serialized_name: Offset
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOffset
+                setter: setOffset
+            type: Calcinai\Siri\OffsetStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,26 @@
+Calcinai\Siri\Datex\GeneralObstructionType:
+    properties:
+        obstructionType:
+            expose: true
+            access_type: public_method
+            serialized_name: obstructionType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getObstructionType
+                setter: setObstructionType
+            xml_list:
+                inline: true
+                entry_name: obstructionType
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        generalObstructionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: generalObstructionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getGeneralObstructionExtension
+                setter: setGeneralObstructionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

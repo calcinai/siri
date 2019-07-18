@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\PointDestinationType:
+    properties:
+        point:
+            expose: true
+            access_type: public_method
+            serialized_name: point
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPoint
+                setter: setPoint
+            type: Calcinai\Siri\Datex\PointType
+        pointDestinationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: pointDestinationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPointDestinationExtension
+                setter: setPointDestinationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

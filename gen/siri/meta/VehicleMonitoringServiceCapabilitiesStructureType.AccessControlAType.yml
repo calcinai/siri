@@ -1,0 +1,32 @@
+Calcinai\Siri\VehicleMonitoringServiceCapabilitiesStructureType\AccessControlAType:
+    properties:
+        checkOperatorRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckOperatorRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckOperatorRef
+                setter: setCheckOperatorRef
+            type: bool
+        checkLineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckLineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckLineRef
+                setter: setCheckLineRef
+            type: bool
+        checkVehicleMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: CheckVehicleMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCheckVehicleMonitoringRef
+                setter: setCheckVehicleMonitoringRef
+            type: bool

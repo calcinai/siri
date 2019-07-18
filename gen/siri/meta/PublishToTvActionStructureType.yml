@@ -1,0 +1,22 @@
+Calcinai\Siri\PublishToTvActionStructureType:
+    properties:
+        ceefax:
+            expose: true
+            access_type: public_method
+            serialized_name: Ceefax
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCeefax
+                setter: setCeefax
+            type: bool
+        teletext:
+            expose: true
+            access_type: public_method
+            serialized_name: Teletext
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTeletext
+                setter: setTeletext
+            type: bool

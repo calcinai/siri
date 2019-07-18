@@ -1,0 +1,110 @@
+Calcinai\Siri\AffectedConnectionLinkStructureType:
+    properties:
+        connectionLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLinkRef
+                setter: setConnectionLinkRef
+            xml_list:
+                inline: true
+                entry_name: ConnectionLinkRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ConnectionLinkRefStructureType>
+        connectionName:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionName
+                setter: setConnectionName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        allLines:
+            expose: true
+            access_type: public_method
+            serialized_name: AllLines
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAllLines
+                setter: setAllLines
+            type: \AnyType
+        lineRef:
+            expose: true
+            access_type: public_method
+            serialized_name: LineRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineRef
+                setter: setLineRef
+            type: Calcinai\Siri\LineRef
+        connectingStopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectingStopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectingStopPointRef
+                setter: setConnectingStopPointRef
+            type: Calcinai\Siri\StopPointRefStructureType
+        connectingStopPointName:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectingStopPointName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectingStopPointName
+                setter: setConnectingStopPointName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        connectingZoneRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectingZoneRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectingZoneRef
+                setter: setConnectingZoneRef
+            type: Calcinai\Siri\ZoneRefStructureType
+        connectionDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionDirection
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionDirection
+                setter: setConnectionDirection
+            type: string
+        affectedPathLink:
+            expose: true
+            access_type: public_method
+            serialized_name: AffectedPathLink
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffectedPathLink
+                setter: setAffectedPathLink
+            xml_list:
+                inline: true
+                entry_name: AffectedPathLink
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\AffectedPathLinkStructureType>
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

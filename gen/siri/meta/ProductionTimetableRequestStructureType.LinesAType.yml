@@ -1,0 +1,16 @@
+Calcinai\Siri\ProductionTimetableRequestStructureType\LinesAType:
+    properties:
+        lineDirection:
+            expose: true
+            access_type: public_method
+            serialized_name: LineDirection
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLineDirection
+                setter: setLineDirection
+            xml_list:
+                inline: true
+                entry_name: LineDirection
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\LineDirectionStructureType>

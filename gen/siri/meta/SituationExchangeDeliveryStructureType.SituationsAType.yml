@@ -1,0 +1,30 @@
+Calcinai\Siri\SituationExchangeDeliveryStructureType\SituationsAType:
+    properties:
+        ptSituationElement:
+            expose: true
+            access_type: public_method
+            serialized_name: PtSituationElement
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPtSituationElement
+                setter: setPtSituationElement
+            xml_list:
+                inline: true
+                entry_name: PtSituationElement
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\PtSituationElementStructureType>
+        roadSituationElement:
+            expose: true
+            access_type: public_method
+            serialized_name: RoadSituationElement
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRoadSituationElement
+                setter: setRoadSituationElement
+            xml_list:
+                inline: true
+                entry_name: RoadSituationElement
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\RoadSituationElement>

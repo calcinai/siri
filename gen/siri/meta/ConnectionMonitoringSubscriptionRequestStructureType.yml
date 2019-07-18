@@ -1,0 +1,22 @@
+Calcinai\Siri\ConnectionMonitoringSubscriptionRequestStructureType:
+    properties:
+        connectionMonitoringRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionMonitoringRequest
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionMonitoringRequest
+                setter: setConnectionMonitoringRequest
+            type: Calcinai\Siri\ConnectionMonitoringRequest
+        changeBeforeUpdates:
+            expose: true
+            access_type: public_method
+            serialized_name: ChangeBeforeUpdates
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getChangeBeforeUpdates
+                setter: setChangeBeforeUpdates
+            type: DateInterval

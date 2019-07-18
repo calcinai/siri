@@ -1,0 +1,60 @@
+Calcinai\Siri\Datex\OverallPeriodType:
+    properties:
+        overallStartTime:
+            expose: true
+            access_type: public_method
+            serialized_name: overallStartTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOverallStartTime
+                setter: setOverallStartTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        overallEndTime:
+            expose: true
+            access_type: public_method
+            serialized_name: overallEndTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOverallEndTime
+                setter: setOverallEndTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        validPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: validPeriod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getValidPeriod
+                setter: setValidPeriod
+            xml_list:
+                inline: true
+                entry_name: validPeriod
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\PeriodType>
+        exceptionPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: exceptionPeriod
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getExceptionPeriod
+                setter: setExceptionPeriod
+            xml_list:
+                inline: true
+                entry_name: exceptionPeriod
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\PeriodType>
+        overallPeriodExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: overallPeriodExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOverallPeriodExtension
+                setter: setOverallPeriodExtension
+            type: Calcinai\Siri\Datex\ExtensionType

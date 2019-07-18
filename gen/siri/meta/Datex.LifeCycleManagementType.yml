@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\LifeCycleManagementType:
+    properties:
+        cancel:
+            expose: true
+            access_type: public_method
+            serialized_name: cancel
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCancel
+                setter: setCancel
+            type: bool
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: end
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: bool
+        lifeCycleManagementExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: lifeCycleManagementExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLifeCycleManagementExtension
+                setter: setLifeCycleManagementExtension
+            type: Calcinai\Siri\Datex\ExtensionType

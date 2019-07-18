@@ -1,0 +1,25 @@
+Calcinai\Siri\ServiceFeaturesDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        serviceFeature:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceFeature
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceFeature
+                setter: setServiceFeature
+            xml_list:
+                inline: true
+                entry_name: ServiceFeature
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ServiceFeature>

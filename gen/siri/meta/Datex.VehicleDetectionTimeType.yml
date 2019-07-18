@@ -1,0 +1,72 @@
+Calcinai\Siri\Datex\VehicleDetectionTimeType:
+    properties:
+        arrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: arrivalTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getArrivalTime
+                setter: setArrivalTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        exitTime:
+            expose: true
+            access_type: public_method
+            serialized_name: exitTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getExitTime
+                setter: setExitTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        passageTime:
+            expose: true
+            access_type: public_method
+            serialized_name: passageTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPassageTime
+                setter: setPassageTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        presenceTime:
+            expose: true
+            access_type: public_method
+            serialized_name: presenceTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPresenceTime
+                setter: setPresenceTime
+            type: Calcinai\Siri\Datex\DateTimeType
+        timeGap:
+            expose: true
+            access_type: public_method
+            serialized_name: timeGap
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTimeGap
+                setter: setTimeGap
+            type: float
+        timeHeadway:
+            expose: true
+            access_type: public_method
+            serialized_name: timeHeadway
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTimeHeadway
+                setter: setTimeHeadway
+            type: float
+        vehicleDetectionTimeExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleDetectionTimeExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleDetectionTimeExtension
+                setter: setVehicleDetectionTimeExtension
+            type: Calcinai\Siri\Datex\ExtensionType

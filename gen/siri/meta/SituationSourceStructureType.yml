@@ -1,0 +1,142 @@
+Calcinai\Siri\SituationSourceStructureType:
+    properties:
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string
+        sourceType:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceType
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSourceType
+                setter: setSourceType
+            type: string
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: Email
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            type: string
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: string
+        fax:
+            expose: true
+            access_type: public_method
+            serialized_name: Fax
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFax
+                setter: setFax
+            type: string
+        web:
+            expose: true
+            access_type: public_method
+            serialized_name: Web
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getWeb
+                setter: setWeb
+            type: string
+        other:
+            expose: true
+            access_type: public_method
+            serialized_name: Other
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOther
+                setter: setOther
+            type: string
+        sourceMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceMethod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSourceMethod
+                setter: setSourceMethod
+            type: string
+        agentReference:
+            expose: true
+            access_type: public_method
+            serialized_name: AgentReference
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAgentReference
+                setter: setAgentReference
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getName
+                setter: setName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        sourceRole:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceRole
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSourceRole
+                setter: setSourceRole
+            type: string
+        timeOfCommunication:
+            expose: true
+            access_type: public_method
+            serialized_name: TimeOfCommunication
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTimeOfCommunication
+                setter: setTimeOfCommunication
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        externalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExternalCode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExternalCode
+                setter: setExternalCode
+            type: string
+        sourceFile:
+            expose: true
+            access_type: public_method
+            serialized_name: SourceFile
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSourceFile
+                setter: setSourceFile
+            type: string

@@ -1,0 +1,32 @@
+Calcinai\Siri\IFOpt\AbstractEquipmentStructureType:
+    properties:
+        equipmentId:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentId
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getEquipmentId
+                setter: setEquipmentId
+            type: string
+        equipmentName:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentName
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getEquipmentName
+                setter: setEquipmentName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        typeOfEquipment:
+            expose: true
+            access_type: public_method
+            serialized_name: TypeOfEquipment
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getTypeOfEquipment
+                setter: setTypeOfEquipment
+            type: Calcinai\Siri\IFOpt\EquipmentTypeRefStructureType

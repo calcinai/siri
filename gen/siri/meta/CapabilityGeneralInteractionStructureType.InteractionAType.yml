@@ -1,0 +1,22 @@
+Calcinai\Siri\CapabilityGeneralInteractionStructureType\InteractionAType:
+    properties:
+        requestResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestResponse
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestResponse
+                setter: setRequestResponse
+            type: bool
+        publishSubscribe:
+            expose: true
+            access_type: public_method
+            serialized_name: PublishSubscribe
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPublishSubscribe
+                setter: setPublishSubscribe
+            type: bool

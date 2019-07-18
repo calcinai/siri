@@ -1,0 +1,4 @@
+Calcinai\Siri\ProductionTimetableCapabilitiesRequest:
+    xml_root_name: ProductionTimetableCapabilitiesRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties: {  }

@@ -1,0 +1,131 @@
+Calcinai\Siri\PtConsequenceStructureType:
+    properties:
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: Period
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: Calcinai\Siri\HalfOpenTimestampRangeStructureType
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: Condition
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: Calcinai\Siri\Condition
+        severity:
+            expose: true
+            access_type: public_method
+            serialized_name: Severity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSeverity
+                setter: setSeverity
+            type: string
+        affects:
+            expose: true
+            access_type: public_method
+            serialized_name: Affects
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAffects
+                setter: setAffects
+            type: Calcinai\Siri\AffectsScopeStructureType
+        suitabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: Suitabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSuitabilities
+                setter: setSuitabilities
+            type: array<Calcinai\Siri\ACSB\SuitabilityStructureType>
+            xml_list:
+                inline: false
+                entry_name: Suitability
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        advice:
+            expose: true
+            access_type: public_method
+            serialized_name: Advice
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAdvice
+                setter: setAdvice
+            type: Calcinai\Siri\PtAdviceStructureType
+        blocking:
+            expose: true
+            access_type: public_method
+            serialized_name: Blocking
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getBlocking
+                setter: setBlocking
+            type: Calcinai\Siri\BlockingStructureType
+        boarding:
+            expose: true
+            access_type: public_method
+            serialized_name: Boarding
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getBoarding
+                setter: setBoarding
+            type: Calcinai\Siri\BoardingStructureType
+        delays:
+            expose: true
+            access_type: public_method
+            serialized_name: Delays
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDelays
+                setter: setDelays
+            type: Calcinai\Siri\DelaysStructureType
+        casualties:
+            expose: true
+            access_type: public_method
+            serialized_name: Casualties
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getCasualties
+                setter: setCasualties
+            type: Calcinai\Siri\CasualtiesStructureType
+        easements:
+            expose: true
+            access_type: public_method
+            serialized_name: Easements
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEasements
+                setter: setEasements
+            xml_list:
+                inline: true
+                entry_name: Easements
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\EasementsStructureType>
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

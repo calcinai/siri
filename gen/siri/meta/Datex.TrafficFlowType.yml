@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\TrafficFlowType:
+    properties:
+        axleFlow:
+            expose: true
+            access_type: public_method
+            serialized_name: axleFlow
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleFlow
+                setter: setAxleFlow
+            type: int
+        pCUFlow:
+            expose: true
+            access_type: public_method
+            serialized_name: pCUFlow
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPCUFlow
+                setter: setPCUFlow
+            type: int
+        percentageLongVehicles:
+            expose: true
+            access_type: public_method
+            serialized_name: percentageLongVehicles
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPercentageLongVehicles
+                setter: setPercentageLongVehicles
+            type: float
+        vehicleFlow:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleFlow
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleFlow
+                setter: setVehicleFlow
+            type: int
+        trafficFlowExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficFlowExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficFlowExtension
+                setter: setTrafficFlowExtension
+            type: Calcinai\Siri\Datex\ExtensionType

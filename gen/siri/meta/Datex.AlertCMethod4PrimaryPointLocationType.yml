@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\AlertCMethod4PrimaryPointLocationType:
+    properties:
+        alertCLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocation
+                setter: setAlertCLocation
+            type: Calcinai\Siri\Datex\AlertCLocationType
+        offsetDistance:
+            expose: true
+            access_type: public_method
+            serialized_name: offsetDistance
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOffsetDistance
+                setter: setOffsetDistance
+            type: Calcinai\Siri\Datex\OffsetDistanceType
+        alertCMethod4PrimaryPointLocationExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCMethod4PrimaryPointLocationExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCMethod4PrimaryPointLocationExtension
+                setter: setAlertCMethod4PrimaryPointLocationExtension
+            type: Calcinai\Siri\Datex\ExtensionType

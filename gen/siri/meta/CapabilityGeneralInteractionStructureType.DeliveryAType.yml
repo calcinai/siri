@@ -1,0 +1,22 @@
+Calcinai\Siri\CapabilityGeneralInteractionStructureType\DeliveryAType:
+    properties:
+        directDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDirectDelivery
+                setter: setDirectDelivery
+            type: bool
+        fetchedDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: FetchedDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFetchedDelivery
+                setter: setFetchedDelivery
+            type: bool

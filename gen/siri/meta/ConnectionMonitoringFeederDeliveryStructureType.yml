@@ -1,0 +1,41 @@
+Calcinai\Siri\ConnectionMonitoringFeederDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        monitoredFeederArrival:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoredFeederArrival
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoredFeederArrival
+                setter: setMonitoredFeederArrival
+            type: Calcinai\Siri\MonitoredFeederArrivalStructureType
+        monitoredFeederArrivalCancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoredFeederArrivalCancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoredFeederArrivalCancellation
+                setter: setMonitoredFeederArrivalCancellation
+            type: Calcinai\Siri\MonitoredFeederArrivalCancellationStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

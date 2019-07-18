@@ -1,0 +1,52 @@
+Calcinai\Siri\Datex\AlertCAreaType:
+    properties:
+        alertCLocationCountryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocationCountryCode
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocationCountryCode
+                setter: setAlertCLocationCountryCode
+            type: string
+        alertCLocationTableNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocationTableNumber
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocationTableNumber
+                setter: setAlertCLocationTableNumber
+            type: string
+        alertCLocationTableVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCLocationTableVersion
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCLocationTableVersion
+                setter: setAlertCLocationTableVersion
+            type: string
+        areaLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: areaLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAreaLocation
+                setter: setAreaLocation
+            type: Calcinai\Siri\Datex\AlertCLocationType
+        alertCAreaExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCAreaExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCAreaExtension
+                setter: setAlertCAreaExtension
+            type: Calcinai\Siri\Datex\ExtensionType

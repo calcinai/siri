@@ -1,0 +1,22 @@
+Calcinai\Siri\DestinationStructureType:
+    properties:
+        destinationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationRef
+                setter: setDestinationRef
+            type: Calcinai\Siri\DestinationRefStructureType
+        destinationName:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationName
+                setter: setDestinationName
+            type: Calcinai\Siri\NaturalLanguageStringStructureType

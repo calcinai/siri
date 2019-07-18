@@ -1,0 +1,46 @@
+Calcinai\Siri\Datex\MatrixSignSettingType:
+    properties:
+        aspectDisplayed:
+            expose: true
+            access_type: public_method
+            serialized_name: aspectDisplayed
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAspectDisplayed
+                setter: setAspectDisplayed
+            type: string
+        matrixFault:
+            expose: true
+            access_type: public_method
+            serialized_name: matrixFault
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMatrixFault
+                setter: setMatrixFault
+            xml_list:
+                inline: true
+                entry_name: matrixFault
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        matrixIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: matrixIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMatrixIdentifier
+                setter: setMatrixIdentifier
+            type: string
+        matrixSignSettingExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: matrixSignSettingExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMatrixSignSettingExtension
+                setter: setMatrixSignSettingExtension
+            type: Calcinai\Siri\Datex\ExtensionType

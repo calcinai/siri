@@ -1,0 +1,16 @@
+Calcinai\Siri\IFOpt\LinkProjectionStructureType\LineAType:
+    properties:
+        pointProjection:
+            expose: true
+            access_type: public_method
+            serialized_name: PointProjection
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getPointProjection
+                setter: setPointProjection
+            xml_list:
+                inline: true
+                entry_name: PointProjection
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            type: array<Calcinai\Siri\IFOpt\PointProjection>

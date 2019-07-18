@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\TPEGAreaDescriptorType:
+    properties:
+        tpegDescriptorType:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegDescriptorType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegDescriptorType
+                setter: setTpegDescriptorType
+            type: string
+        tpegareaDescriptorExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegareaDescriptorExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegareaDescriptorExtension
+                setter: setTpegareaDescriptorExtension
+            type: Calcinai\Siri\Datex\ExtensionType

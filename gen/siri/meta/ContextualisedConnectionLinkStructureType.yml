@@ -1,0 +1,72 @@
+Calcinai\Siri\ContextualisedConnectionLinkStructureType:
+    properties:
+        connectionLinkCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConnectionLinkCode
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getConnectionLinkCode
+                setter: setConnectionLinkCode
+            type: string
+        stopPointRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointRef
+                setter: setStopPointRef
+            type: Calcinai\Siri\StopPointRef
+        stopPointName:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPointName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStopPointName
+                setter: setStopPointName
+            type: Calcinai\Siri\StopPointName
+        defaultDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: DefaultDuration
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDefaultDuration
+                setter: setDefaultDuration
+            type: DateInterval
+        frequentTravellerDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: FrequentTravellerDuration
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getFrequentTravellerDuration
+                setter: setFrequentTravellerDuration
+            type: DateInterval
+        occasionalTravellerDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: OccasionalTravellerDuration
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOccasionalTravellerDuration
+                setter: setOccasionalTravellerDuration
+            type: DateInterval
+        impairedAccessDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: ImpairedAccessDuration
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImpairedAccessDuration
+                setter: setImpairedAccessDuration
+            type: DateInterval

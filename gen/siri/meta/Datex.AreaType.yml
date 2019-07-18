@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\AreaType:
+    properties:
+        alertCArea:
+            expose: true
+            access_type: public_method
+            serialized_name: alertCArea
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAlertCArea
+                setter: setAlertCArea
+            type: Calcinai\Siri\Datex\AlertCAreaType
+        tpegareaLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: tpegareaLocation
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTpegareaLocation
+                setter: setTpegareaLocation
+            type: Calcinai\Siri\Datex\TPEGAreaLocationType
+        areaExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: areaExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAreaExtension
+                setter: setAreaExtension
+            type: Calcinai\Siri\Datex\ExtensionType

@@ -1,0 +1,51 @@
+Calcinai\Siri\VehicleMonitoringDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        vehicleActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleActivity
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleActivity
+                setter: setVehicleActivity
+            type: Calcinai\Siri\VehicleActivityStructureType
+        vehicleActivityCancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleActivityCancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleActivityCancellation
+                setter: setVehicleActivityCancellation
+            type: Calcinai\Siri\VehicleActivityCancellationStructureType
+        vehicleActivityNote:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleActivityNote
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleActivityNote
+                setter: setVehicleActivityNote
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\FilterReferenceType:
+    properties:
+        deleteFilter:
+            expose: true
+            access_type: public_method
+            serialized_name: deleteFilter
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDeleteFilter
+                setter: setDeleteFilter
+            type: bool
+        filterOperationApproved:
+            expose: true
+            access_type: public_method
+            serialized_name: filterOperationApproved
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterOperationApproved
+                setter: setFilterOperationApproved
+            type: bool
+        keyFilterReference:
+            expose: true
+            access_type: public_method
+            serialized_name: keyFilterReference
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getKeyFilterReference
+                setter: setKeyFilterReference
+            type: string
+        filterReferenceExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: filterReferenceExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFilterReferenceExtension
+                setter: setFilterReferenceExtension
+            type: Calcinai\Siri\Datex\ExtensionType

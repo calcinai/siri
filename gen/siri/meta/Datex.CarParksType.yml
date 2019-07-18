@@ -1,0 +1,112 @@
+Calcinai\Siri\Datex\CarParksType:
+    properties:
+        carParkConfiguration:
+            expose: true
+            access_type: public_method
+            serialized_name: carParkConfiguration
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarParkConfiguration
+                setter: setCarParkConfiguration
+            type: string
+        carParkIdentity:
+            expose: true
+            access_type: public_method
+            serialized_name: carParkIdentity
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarParkIdentity
+                setter: setCarParkIdentity
+            type: string
+        carParkOccupancy:
+            expose: true
+            access_type: public_method
+            serialized_name: carParkOccupancy
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarParkOccupancy
+                setter: setCarParkOccupancy
+            type: float
+        carParkStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: carParkStatus
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarParkStatus
+                setter: setCarParkStatus
+            type: string
+        exitRate:
+            expose: true
+            access_type: public_method
+            serialized_name: exitRate
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getExitRate
+                setter: setExitRate
+            type: int
+        fillRate:
+            expose: true
+            access_type: public_method
+            serialized_name: fillRate
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getFillRate
+                setter: setFillRate
+            type: int
+        numberOfVacantParkingSpaces:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfVacantParkingSpaces
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfVacantParkingSpaces
+                setter: setNumberOfVacantParkingSpaces
+            type: int
+        occupiedSpaces:
+            expose: true
+            access_type: public_method
+            serialized_name: occupiedSpaces
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOccupiedSpaces
+                setter: setOccupiedSpaces
+            type: int
+        queueingTime:
+            expose: true
+            access_type: public_method
+            serialized_name: queueingTime
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getQueueingTime
+                setter: setQueueingTime
+            type: Calcinai\Siri\Datex\TimeType
+        totalCapacity:
+            expose: true
+            access_type: public_method
+            serialized_name: totalCapacity
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTotalCapacity
+                setter: setTotalCapacity
+            type: int
+        carParksExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: carParksExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCarParksExtension
+                setter: setCarParksExtension
+            type: Calcinai\Siri\Datex\ExtensionType

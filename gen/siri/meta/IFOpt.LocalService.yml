@@ -1,0 +1,3 @@
+Calcinai\Siri\IFOpt\LocalService:
+    xml_root_name: LocalService
+    xml_root_namespace: 'http://www.ifopt.org.uk/ifopt'

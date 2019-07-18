@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\ImpactType:
+    properties:
+        impactOnTraffic:
+            expose: true
+            access_type: public_method
+            serialized_name: impactOnTraffic
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getImpactOnTraffic
+                setter: setImpactOnTraffic
+            type: string
+        impactDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: impactDetails
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getImpactDetails
+                setter: setImpactDetails
+            type: Calcinai\Siri\Datex\ImpactDetailsType
+        delays:
+            expose: true
+            access_type: public_method
+            serialized_name: delays
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDelays
+                setter: setDelays
+            type: Calcinai\Siri\Datex\DelaysType
+        impactExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: impactExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getImpactExtension
+                setter: setImpactExtension
+            type: Calcinai\Siri\Datex\ExtensionType

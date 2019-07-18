@@ -1,0 +1,41 @@
+Calcinai\Siri\StopTimetableDeliveryStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        timetabledStopVisit:
+            expose: true
+            access_type: public_method
+            serialized_name: TimetabledStopVisit
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTimetabledStopVisit
+                setter: setTimetabledStopVisit
+            type: Calcinai\Siri\TimetabledStopVisitStructureType
+        timetabledStopVisitCancellation:
+            expose: true
+            access_type: public_method
+            serialized_name: TimetabledStopVisitCancellation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTimetabledStopVisitCancellation
+                setter: setTimetabledStopVisitCancellation
+            type: Calcinai\Siri\TimetabledStopVisitCancellationStructureType
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

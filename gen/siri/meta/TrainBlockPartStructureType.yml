@@ -1,0 +1,32 @@
+Calcinai\Siri\TrainBlockPartStructureType:
+    properties:
+        numberOfBlockParts:
+            expose: true
+            access_type: public_method
+            serialized_name: NumberOfBlockParts
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getNumberOfBlockParts
+                setter: setNumberOfBlockParts
+            type: int
+        trainPartRef:
+            expose: true
+            access_type: public_method
+            serialized_name: TrainPartRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTrainPartRef
+                setter: setTrainPartRef
+            type: Calcinai\Siri\TrainPartRefStructureType
+        positionOfTrainBlockPart:
+            expose: true
+            access_type: public_method
+            serialized_name: PositionOfTrainBlockPart
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPositionOfTrainBlockPart
+                setter: setPositionOfTrainBlockPart
+            type: Calcinai\Siri\NaturalLanguageStringStructureType

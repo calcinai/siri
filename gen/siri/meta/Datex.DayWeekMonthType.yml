@@ -1,0 +1,54 @@
+Calcinai\Siri\Datex\DayWeekMonthType:
+    properties:
+        applicableDay:
+            expose: true
+            access_type: public_method
+            serialized_name: applicableDay
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getApplicableDay
+                setter: setApplicableDay
+            xml_list:
+                inline: true
+                entry_name: applicableDay
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        applicableWeek:
+            expose: true
+            access_type: public_method
+            serialized_name: applicableWeek
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getApplicableWeek
+                setter: setApplicableWeek
+            xml_list:
+                inline: true
+                entry_name: applicableWeek
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        applicableMonth:
+            expose: true
+            access_type: public_method
+            serialized_name: applicableMonth
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getApplicableMonth
+                setter: setApplicableMonth
+            xml_list:
+                inline: true
+                entry_name: applicableMonth
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        dayWeekMonthExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: dayWeekMonthExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDayWeekMonthExtension
+                setter: setDayWeekMonthExtension
+            type: Calcinai\Siri\Datex\ExtensionType

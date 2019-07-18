@@ -1,0 +1,42 @@
+Calcinai\Siri\InfoLinkStructureType:
+    properties:
+        uri:
+            expose: true
+            access_type: public_method
+            serialized_name: Uri
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUri
+                setter: setUri
+            type: string
+        label:
+            expose: true
+            access_type: public_method
+            serialized_name: Label
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLabel
+                setter: setLabel
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        image:
+            expose: true
+            access_type: public_method
+            serialized_name: Image
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getImage
+                setter: setImage
+            type: Calcinai\Siri\ImageStructureType
+        linkContent:
+            expose: true
+            access_type: public_method
+            serialized_name: LinkContent
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getLinkContent
+                setter: setLinkContent
+            type: string

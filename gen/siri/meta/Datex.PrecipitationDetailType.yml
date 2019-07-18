@@ -1,0 +1,42 @@
+Calcinai\Siri\Datex\PrecipitationDetailType:
+    properties:
+        depositionDepth:
+            expose: true
+            access_type: public_method
+            serialized_name: depositionDepth
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDepositionDepth
+                setter: setDepositionDepth
+            type: float
+        precipitationIntensity:
+            expose: true
+            access_type: public_method
+            serialized_name: precipitationIntensity
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPrecipitationIntensity
+                setter: setPrecipitationIntensity
+            type: float
+        precipitationType:
+            expose: true
+            access_type: public_method
+            serialized_name: precipitationType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPrecipitationType
+                setter: setPrecipitationType
+            type: string
+        precipitationDetailExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: precipitationDetailExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPrecipitationDetailExtension
+                setter: setPrecipitationDetailExtension
+            type: Calcinai\Siri\Datex\ExtensionType

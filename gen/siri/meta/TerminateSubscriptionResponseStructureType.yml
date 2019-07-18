@@ -1,0 +1,12 @@
+Calcinai\Siri\TerminateSubscriptionResponseStructureType:
+    properties:
+        terminationResponseStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: TerminationResponseStatus
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTerminationResponseStatus
+                setter: setTerminationResponseStatus
+            type: Calcinai\Siri\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType

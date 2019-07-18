@@ -1,0 +1,12 @@
+Calcinai\Siri\AbstractItemStructureType:
+    properties:
+        recordedAtTime:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordedAtTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRecordedAtTime
+                setter: setRecordedAtTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

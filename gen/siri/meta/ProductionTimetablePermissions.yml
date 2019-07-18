@@ -1,0 +1,18 @@
+Calcinai\Siri\ProductionTimetablePermissions:
+    xml_root_name: ProductionTimetablePermissions
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties:
+        productionTimetablePermission:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductionTimetablePermission
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProductionTimetablePermission
+                setter: setProductionTimetablePermission
+            xml_list:
+                inline: true
+                entry_name: ProductionTimetablePermission
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ConnectionServicePermissionStructureType>

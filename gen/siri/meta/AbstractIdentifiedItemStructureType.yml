@@ -1,0 +1,12 @@
+Calcinai\Siri\AbstractIdentifiedItemStructureType:
+    properties:
+        itemIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getItemIdentifier
+                setter: setItemIdentifier
+            type: string

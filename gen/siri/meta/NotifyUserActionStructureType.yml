@@ -1,0 +1,32 @@
+Calcinai\Siri\NotifyUserActionStructureType:
+    properties:
+        workgroupRef:
+            expose: true
+            access_type: public_method
+            serialized_name: WorkgroupRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getWorkgroupRef
+                setter: setWorkgroupRef
+            type: string
+        userName:
+            expose: true
+            access_type: public_method
+            serialized_name: UserName
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUserName
+                setter: setUserName
+            type: string
+        userRef:
+            expose: true
+            access_type: public_method
+            serialized_name: UserRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUserRef
+                setter: setUserRef
+            type: string

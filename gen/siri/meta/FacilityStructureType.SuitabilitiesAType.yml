@@ -1,0 +1,16 @@
+Calcinai\Siri\FacilityStructureType\SuitabilitiesAType:
+    properties:
+        suitability:
+            expose: true
+            access_type: public_method
+            serialized_name: Suitability
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSuitability
+                setter: setSuitability
+            xml_list:
+                inline: true
+                entry_name: Suitability
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ACSB\SuitabilityStructureType>

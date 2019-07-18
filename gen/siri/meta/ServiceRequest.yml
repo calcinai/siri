@@ -1,0 +1,4 @@
+Calcinai\Siri\ServiceRequest:
+    xml_root_name: ServiceRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties: {  }

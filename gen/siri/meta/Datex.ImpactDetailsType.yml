@@ -1,0 +1,62 @@
+Calcinai\Siri\Datex\ImpactDetailsType:
+    properties:
+        capacityRemaining:
+            expose: true
+            access_type: public_method
+            serialized_name: capacityRemaining
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCapacityRemaining
+                setter: setCapacityRemaining
+            type: float
+        numberOfLanesRestricted:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfLanesRestricted
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfLanesRestricted
+                setter: setNumberOfLanesRestricted
+            type: int
+        numberOfOperationalLanes:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfOperationalLanes
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfOperationalLanes
+                setter: setNumberOfOperationalLanes
+            type: int
+        originalNumberOfLanes:
+            expose: true
+            access_type: public_method
+            serialized_name: originalNumberOfLanes
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getOriginalNumberOfLanes
+                setter: setOriginalNumberOfLanes
+            type: int
+        trafficRestrictionType:
+            expose: true
+            access_type: public_method
+            serialized_name: trafficRestrictionType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTrafficRestrictionType
+                setter: setTrafficRestrictionType
+            type: string
+        impactDetailsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: impactDetailsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getImpactDetailsExtension
+                setter: setImpactDetailsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

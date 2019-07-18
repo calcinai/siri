@@ -1,0 +1,12 @@
+Calcinai\Siri\AbstractServiceRequestStructureType:
+    properties:
+        messageIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: MessageIdentifier
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMessageIdentifier
+                setter: setMessageIdentifier
+            type: Calcinai\Siri\MessageQualifierStructureType

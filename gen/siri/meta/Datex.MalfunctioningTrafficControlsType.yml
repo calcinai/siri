@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\MalfunctioningTrafficControlsType:
+    properties:
+        malfunctioningTrafficControlEquipmentType:
+            expose: true
+            access_type: public_method
+            serialized_name: malfunctioningTrafficControlEquipmentType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMalfunctioningTrafficControlEquipmentType
+                setter: setMalfunctioningTrafficControlEquipmentType
+            type: string
+        numberOfMalfunctioningTrafficControlEquipments:
+            expose: true
+            access_type: public_method
+            serialized_name: numberOfMalfunctioningTrafficControlEquipments
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getNumberOfMalfunctioningTrafficControlEquipments
+                setter: setNumberOfMalfunctioningTrafficControlEquipments
+            type: int
+        malfunctioningTrafficControlsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: malfunctioningTrafficControlsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMalfunctioningTrafficControlsExtension
+                setter: setMalfunctioningTrafficControlsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

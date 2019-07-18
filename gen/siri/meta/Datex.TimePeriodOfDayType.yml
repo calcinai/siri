@@ -1,0 +1,12 @@
+Calcinai\Siri\Datex\TimePeriodOfDayType:
+    properties:
+        timePeriodOfDayExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: timePeriodOfDayExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTimePeriodOfDayExtension
+                setter: setTimePeriodOfDayExtension
+            type: Calcinai\Siri\Datex\ExtensionType

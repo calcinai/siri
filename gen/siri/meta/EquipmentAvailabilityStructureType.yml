@@ -1,0 +1,77 @@
+Calcinai\Siri\EquipmentAvailabilityStructureType:
+    properties:
+        equipmentRef:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEquipmentRef
+                setter: setEquipmentRef
+            type: Calcinai\Siri\IFOpt\EquipmentRefStructureType
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: Calcinai\Siri\NaturalLanguageStringStructureType
+        equipmentTypeRef:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentTypeRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEquipmentTypeRef
+                setter: setEquipmentTypeRef
+            type: Calcinai\Siri\IFOpt\EquipmentTypeRefStructureType
+        validityPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidityPeriod
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidityPeriod
+                setter: setValidityPeriod
+            type: Calcinai\Siri\HalfOpenTimestampRangeStructureType
+        equipmentStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentStatus
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEquipmentStatus
+                setter: setEquipmentStatus
+            type: string
+        equipmentFeatures:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentFeatures
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEquipmentFeatures
+                setter: setEquipmentFeatures
+            type: array<Calcinai\Siri\FeatureRefStructureType>
+            xml_list:
+                inline: false
+                entry_name: FeatureRef
+                skip_when_empty: true
+                namespace: 'http://www.siri.org.uk/siri'
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

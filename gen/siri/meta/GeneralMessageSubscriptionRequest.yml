@@ -1,0 +1,3 @@
+Calcinai\Siri\GeneralMessageSubscriptionRequest:
+    xml_root_name: GeneralMessageSubscriptionRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

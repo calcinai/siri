@@ -1,0 +1,140 @@
+Calcinai\Siri\Datex\VehicleType:
+    properties:
+        vehicleColour:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleColour
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleColour
+                setter: setVehicleColour
+            type: array<Calcinai\Siri\Datex\VehicleType\VehicleColourAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        vehicleCountryOfOrigin:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleCountryOfOrigin
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleCountryOfOrigin
+                setter: setVehicleCountryOfOrigin
+            type: array<Calcinai\Siri\Datex\VehicleType\VehicleCountryOfOriginAType\ValueAType>
+            xml_list:
+                inline: false
+                entry_name: value
+                skip_when_empty: true
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+        vehicleIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleIdentifier
+                setter: setVehicleIdentifier
+            type: string
+        vehicleManufacturer:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleManufacturer
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleManufacturer
+                setter: setVehicleManufacturer
+            type: string
+        vehicleModel:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleModel
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleModel
+                setter: setVehicleModel
+            type: string
+        vehicleRegistrationPlateIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleRegistrationPlateIdentifier
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleRegistrationPlateIdentifier
+                setter: setVehicleRegistrationPlateIdentifier
+            type: string
+        vehicleStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleStatus
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleStatus
+                setter: setVehicleStatus
+            type: string
+        vehicleCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleCharacteristics
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleCharacteristics
+                setter: setVehicleCharacteristics
+            type: Calcinai\Siri\Datex\VehicleCharacteristicsType
+        axleSpacingOnVehicle:
+            expose: true
+            access_type: public_method
+            serialized_name: axleSpacingOnVehicle
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleSpacingOnVehicle
+                setter: setAxleSpacingOnVehicle
+            xml_list:
+                inline: true
+                entry_name: axleSpacingOnVehicle
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\AxleSpacingType>
+        axleWeightsOfVehicle:
+            expose: true
+            access_type: public_method
+            serialized_name: axleWeightsOfVehicle
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAxleWeightsOfVehicle
+                setter: setAxleWeightsOfVehicle
+            xml_list:
+                inline: true
+                entry_name: axleWeightsOfVehicle
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\AxleWeightType>
+        hazardousGoodsAssociatedWithVehicle:
+            expose: true
+            access_type: public_method
+            serialized_name: hazardousGoodsAssociatedWithVehicle
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getHazardousGoodsAssociatedWithVehicle
+                setter: setHazardousGoodsAssociatedWithVehicle
+            type: Calcinai\Siri\Datex\HazardousMaterialsType
+        vehicleExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: vehicleExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getVehicleExtension
+                setter: setVehicleExtension
+            type: Calcinai\Siri\Datex\ExtensionType

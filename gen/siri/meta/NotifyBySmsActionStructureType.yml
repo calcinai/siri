@@ -1,0 +1,22 @@
+Calcinai\Siri\NotifyBySmsActionStructureType:
+    properties:
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: string
+        premium:
+            expose: true
+            access_type: public_method
+            serialized_name: Premium
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPremium
+                setter: setPremium
+            type: bool

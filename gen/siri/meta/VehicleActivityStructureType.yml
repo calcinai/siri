@@ -1,0 +1,66 @@
+Calcinai\Siri\VehicleActivityStructureType:
+    properties:
+        validUntilTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidUntilTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getValidUntilTime
+                setter: setValidUntilTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        vehicleMonitoringRef:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleMonitoringRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleMonitoringRef
+                setter: setVehicleMonitoringRef
+            type: Calcinai\Siri\VehicleMonitoringRefStructureType
+        progressBetweenStops:
+            expose: true
+            access_type: public_method
+            serialized_name: ProgressBetweenStops
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getProgressBetweenStops
+                setter: setProgressBetweenStops
+            type: Calcinai\Siri\ProgressBetweenStopsStructureType
+        monitoredVehicleJourney:
+            expose: true
+            access_type: public_method
+            serialized_name: MonitoredVehicleJourney
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMonitoredVehicleJourney
+                setter: setMonitoredVehicleJourney
+            type: Calcinai\Siri\VehicleActivityStructureType\MonitoredVehicleJourneyAType
+        vehicleActivityNote:
+            expose: true
+            access_type: public_method
+            serialized_name: VehicleActivityNote
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getVehicleActivityNote
+                setter: setVehicleActivityNote
+            xml_list:
+                inline: true
+                entry_name: VehicleActivityNote
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\NaturalLanguageStringStructureType>
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

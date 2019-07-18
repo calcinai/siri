@@ -1,0 +1,16 @@
+Calcinai\Siri\AffectedRouteStructureType\RouteLinksAType:
+    properties:
+        routeLinkRef:
+            expose: true
+            access_type: public_method
+            serialized_name: RouteLinkRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRouteLinkRef
+                setter: setRouteLinkRef
+            xml_list:
+                inline: true
+                entry_name: RouteLinkRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\RouteLinkRefStructureType>

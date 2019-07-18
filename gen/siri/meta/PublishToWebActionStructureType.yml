@@ -1,0 +1,32 @@
+Calcinai\Siri\PublishToWebActionStructureType:
+    properties:
+        incidents:
+            expose: true
+            access_type: public_method
+            serialized_name: Incidents
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getIncidents
+                setter: setIncidents
+            type: bool
+        homePage:
+            expose: true
+            access_type: public_method
+            serialized_name: HomePage
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHomePage
+                setter: setHomePage
+            type: bool
+        ticker:
+            expose: true
+            access_type: public_method
+            serialized_name: Ticker
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getTicker
+                setter: setTicker
+            type: bool

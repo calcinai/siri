@@ -1,0 +1,40 @@
+Calcinai\Siri\Datex\GroupOfLocationsType:
+    properties:
+        locationContainedInGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: locationContainedInGroup
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getLocationContainedInGroup
+                setter: setLocationContainedInGroup
+            xml_list:
+                inline: true
+                entry_name: locationContainedInGroup
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\LocationType>
+        routeDestination:
+            expose: true
+            access_type: public_method
+            serialized_name: routeDestination
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getRouteDestination
+                setter: setRouteDestination
+            xml_list:
+                inline: true
+                entry_name: routeDestination
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<Calcinai\Siri\Datex\DestinationType>
+        groupOfLocationsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: groupOfLocationsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getGroupOfLocationsExtension
+                setter: setGroupOfLocationsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

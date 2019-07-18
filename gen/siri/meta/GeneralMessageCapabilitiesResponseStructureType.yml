@@ -1,0 +1,41 @@
+Calcinai\Siri\GeneralMessageCapabilitiesResponseStructureType:
+    properties:
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        generalMessageServiceCapabilities:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessageServiceCapabilities
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessageServiceCapabilities
+                setter: setGeneralMessageServiceCapabilities
+            type: Calcinai\Siri\GeneralMessageServiceCapabilities
+        generalMessagePermissions:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessagePermissions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessagePermissions
+                setter: setGeneralMessagePermissions
+            type: Calcinai\Siri\GeneralMessagePermissions
+        extensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Extensions
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getExtensions
+                setter: setExtensions
+            type: Calcinai\Siri\Extensions

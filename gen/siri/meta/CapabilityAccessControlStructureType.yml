@@ -1,0 +1,12 @@
+Calcinai\Siri\CapabilityAccessControlStructureType:
+    properties:
+        requestChecking:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestChecking
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getRequestChecking
+                setter: setRequestChecking
+            type: bool

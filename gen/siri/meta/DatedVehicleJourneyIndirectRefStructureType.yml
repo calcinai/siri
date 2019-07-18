@@ -1,0 +1,42 @@
+Calcinai\Siri\DatedVehicleJourneyIndirectRefStructureType:
+    properties:
+        originRef:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getOriginRef
+                setter: setOriginRef
+            type: Calcinai\Siri\StopPointRefStructureType
+        aimedDepartureTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedDepartureTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedDepartureTime
+                setter: setAimedDepartureTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        destinationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getDestinationRef
+                setter: setDestinationRef
+            type: Calcinai\Siri\StopPointRefStructureType
+        aimedArrivalTime:
+            expose: true
+            access_type: public_method
+            serialized_name: AimedArrivalTime
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getAimedArrivalTime
+                setter: setAimedArrivalTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

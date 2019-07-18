@@ -1,0 +1,3 @@
+Calcinai\Siri\ProductCategoriesRequest:
+    xml_root_name: ProductCategoriesRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

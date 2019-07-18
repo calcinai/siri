@@ -1,0 +1,30 @@
+Calcinai\Siri\AnnotatedStopPointStructureType\FeaturesAType:
+    properties:
+        serviceFeature:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceFeature
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceFeature
+                setter: setServiceFeature
+            xml_list:
+                inline: true
+                entry_name: ServiceFeature
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ServiceFeatureStructureType>
+        serviceFeatureRef:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceFeatureRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getServiceFeatureRef
+                setter: setServiceFeatureRef
+            xml_list:
+                inline: true
+                entry_name: ServiceFeatureRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\ServiceFeatureRef>

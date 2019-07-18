@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\TemporaryLimitsType:
+    properties:
+        temporarySpeedLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: temporarySpeedLimit
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTemporarySpeedLimit
+                setter: setTemporarySpeedLimit
+            type: float
+        temporaryLimitsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: temporaryLimitsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getTemporaryLimitsExtension
+                setter: setTemporaryLimitsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

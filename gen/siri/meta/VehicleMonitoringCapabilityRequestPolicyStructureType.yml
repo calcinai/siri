@@ -1,0 +1,22 @@
+Calcinai\Siri\VehicleMonitoringCapabilityRequestPolicyStructureType:
+    properties:
+        hasReferences:
+            expose: true
+            access_type: public_method
+            serialized_name: HasReferences
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasReferences
+                setter: setHasReferences
+            type: bool
+        hasNames:
+            expose: true
+            access_type: public_method
+            serialized_name: HasNames
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasNames
+                setter: setHasNames
+            type: bool

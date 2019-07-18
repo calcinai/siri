@@ -1,0 +1,72 @@
+Calcinai\Siri\Datex\MeasurementSpecificCharacteristicsType:
+    properties:
+        accuracy:
+            expose: true
+            access_type: public_method
+            serialized_name: accuracy
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getAccuracy
+                setter: setAccuracy
+            type: float
+        period:
+            expose: true
+            access_type: public_method
+            serialized_name: period
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPeriod
+                setter: setPeriod
+            type: float
+        smoothingFactor:
+            expose: true
+            access_type: public_method
+            serialized_name: smoothingFactor
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSmoothingFactor
+                setter: setSmoothingFactor
+            type: float
+        specificLane:
+            expose: true
+            access_type: public_method
+            serialized_name: specificLane
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSpecificLane
+                setter: setSpecificLane
+            type: string
+        specificMeasurementValueType:
+            expose: true
+            access_type: public_method
+            serialized_name: specificMeasurementValueType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSpecificMeasurementValueType
+                setter: setSpecificMeasurementValueType
+            type: string
+        specificVehicleCharacteristics:
+            expose: true
+            access_type: public_method
+            serialized_name: specificVehicleCharacteristics
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getSpecificVehicleCharacteristics
+                setter: setSpecificVehicleCharacteristics
+            type: Calcinai\Siri\Datex\VehicleCharacteristicsType
+        measurementSpecificCharacteristicsExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: measurementSpecificCharacteristicsExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getMeasurementSpecificCharacteristicsExtension
+                setter: setMeasurementSpecificCharacteristicsExtension
+            type: Calcinai\Siri\Datex\ExtensionType

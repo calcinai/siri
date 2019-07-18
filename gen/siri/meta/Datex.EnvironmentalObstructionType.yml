@@ -1,0 +1,32 @@
+Calcinai\Siri\Datex\EnvironmentalObstructionType:
+    properties:
+        depth:
+            expose: true
+            access_type: public_method
+            serialized_name: depth
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getDepth
+                setter: setDepth
+            type: float
+        environmentalObstructionType:
+            expose: true
+            access_type: public_method
+            serialized_name: environmentalObstructionType
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEnvironmentalObstructionType
+                setter: setEnvironmentalObstructionType
+            type: string
+        environmentalObstructionExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: environmentalObstructionExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getEnvironmentalObstructionExtension
+                setter: setEnvironmentalObstructionExtension
+            type: Calcinai\Siri\Datex\ExtensionType

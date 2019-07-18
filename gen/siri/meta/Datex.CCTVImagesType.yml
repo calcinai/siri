@@ -1,0 +1,26 @@
+Calcinai\Siri\Datex\CCTVImagesType:
+    properties:
+        cctvUri:
+            expose: true
+            access_type: public_method
+            serialized_name: cctvUri
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCctvUri
+                setter: setCctvUri
+            xml_list:
+                inline: true
+                entry_name: cctvUri
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            type: array<string>
+        cctvimagesExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: cctvimagesExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getCctvimagesExtension
+                setter: setCctvimagesExtension
+            type: Calcinai\Siri\Datex\ExtensionType

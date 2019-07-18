@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\PlacesType:
+    properties:
+        placesAdvice:
+            expose: true
+            access_type: public_method
+            serialized_name: placesAdvice
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPlacesAdvice
+                setter: setPlacesAdvice
+            type: string
+        placesExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: placesExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getPlacesExtension
+                setter: setPlacesExtension
+            type: Calcinai\Siri\Datex\ExtensionType

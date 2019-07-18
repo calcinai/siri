@@ -1,0 +1,4 @@
+Calcinai\Siri\ProductionTimetableSubscriptionRequest:
+    xml_root_name: ProductionTimetableSubscriptionRequest
+    xml_root_namespace: 'http://www.siri.org.uk/siri'
+    properties: {  }

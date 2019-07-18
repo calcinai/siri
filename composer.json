@@ -1,0 +1,21 @@
+{
+    "name": "calcinai/siri",
+    "description": "Service Interface for Real Time Information SDK",
+    "authors": [
+        {
+            "name": "Michael Calcinai",
+            "email": "michael@calcin.ai"
+        }
+    ],
+    "require": {
+        "goetas-webservices/xsd2php-runtime": "^0.2.10"
+    },
+    "require-dev": {
+        "goetas-webservices/xsd2php": "^0.3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Calcinai\\Siri\\": "gen/siri/src"
+        }
+    }
+}

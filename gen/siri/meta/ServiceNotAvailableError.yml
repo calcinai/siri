@@ -1,0 +1,3 @@
+Calcinai\Siri\ServiceNotAvailableError:
+    xml_root_name: ServiceNotAvailableError
+    xml_root_namespace: 'http://www.siri.org.uk/siri'

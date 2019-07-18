@@ -1,0 +1,22 @@
+Calcinai\Siri\Datex\WinterDrivingType:
+    properties:
+        winterDrivingAdvice:
+            expose: true
+            access_type: public_method
+            serialized_name: winterDrivingAdvice
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWinterDrivingAdvice
+                setter: setWinterDrivingAdvice
+            type: string
+        winterDrivingExtension:
+            expose: true
+            access_type: public_method
+            serialized_name: winterDrivingExtension
+            xml_element:
+                namespace: 'http://datex2.eu/schema/1_0/1_0'
+            accessor:
+                getter: getWinterDrivingExtension
+                setter: setWinterDrivingExtension
+            type: Calcinai\Siri\Datex\ExtensionType

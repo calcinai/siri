@@ -1,0 +1,32 @@
+Calcinai\Siri\FacilityChangeStructureType:
+    properties:
+        equipmentAvailability:
+            expose: true
+            access_type: public_method
+            serialized_name: EquipmentAvailability
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getEquipmentAvailability
+                setter: setEquipmentAvailability
+            type: Calcinai\Siri\EquipmentAvailabilityStructureType
+        situationRef:
+            expose: true
+            access_type: public_method
+            serialized_name: SituationRef
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getSituationRef
+                setter: setSituationRef
+            type: Calcinai\Siri\SituationRef
+        mobilityDisruption:
+            expose: true
+            access_type: public_method
+            serialized_name: MobilityDisruption
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getMobilityDisruption
+                setter: setMobilityDisruption
+            type: Calcinai\Siri\MobilityDisruptionStructureType

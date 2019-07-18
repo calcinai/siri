@@ -1,0 +1,46 @@
+Calcinai\Siri\IFOpt\ValidityConditionStructureType:
+    properties:
+        fromDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: FromDateTime
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getFromDateTime
+                setter: setFromDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        toDateTime:
+            expose: true
+            access_type: public_method
+            serialized_name: ToDateTime
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getToDateTime
+                setter: setToDateTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        dayType:
+            expose: true
+            access_type: public_method
+            serialized_name: DayType
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getDayType
+                setter: setDayType
+            type: string
+        timebands:
+            expose: true
+            access_type: public_method
+            serialized_name: Timebands
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getTimebands
+                setter: setTimebands
+            xml_list:
+                inline: true
+                entry_name: Timebands
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            type: array<Calcinai\Siri\IFOpt\ValidityConditionStructureType\TimebandsAType>

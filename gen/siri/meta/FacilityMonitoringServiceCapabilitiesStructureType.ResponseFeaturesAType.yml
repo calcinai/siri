@@ -1,0 +1,22 @@
+Calcinai\Siri\FacilityMonitoringServiceCapabilitiesStructureType\ResponseFeaturesAType:
+    properties:
+        hasRemedy:
+            expose: true
+            access_type: public_method
+            serialized_name: HasRemedy
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasRemedy
+                setter: setHasRemedy
+            type: bool
+        hasFacilityLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: HasFacilityLocation
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getHasFacilityLocation
+                setter: setHasFacilityLocation
+            type: bool
