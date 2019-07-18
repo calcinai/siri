@@ -50,4 +50,13 @@ class Serializer
     {
         return $this->serializer->serialize($siri, $format);
     }
+
+    /**
+     * @param $xml
+     * @return Siri
+     */
+    public function deserialize($xml)
+    {
+        return $this->serializer->deserialize($xml, Siri::class, 'xml');
+    }
 }

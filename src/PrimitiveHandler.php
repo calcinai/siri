@@ -10,6 +10,7 @@ namespace Calcinai\Siri;
 use JMS\Serializer\Context;
 use JMS\Serializer\GraphNavigator;
 use JMS\Serializer\Handler\SubscribingHandlerInterface;
+use JMS\Serializer\XmlDeserializationVisitor;
 use JMS\Serializer\XmlSerializationVisitor;
 
 class PrimitiveHandler implements SubscribingHandlerInterface
@@ -40,6 +41,12 @@ class PrimitiveHandler implements SubscribingHandlerInterface
                 'type' => PrimitiveType::class,
                 'method' => 'serializePrimitive'
             ],
+            [
+                'direction' => GraphNavigator::DIRECTION_DESERIALIZATION,
+                'format' => 'xml',
+                'type' => PrimitiveType::class,
+                'method' => 'deserializePrimitive'
+            ],
         ];
     }
 
@@ -53,6 +60,11 @@ class PrimitiveHandler implements SubscribingHandlerInterface
                 return $visitor->visitSimpleString($primitive, $type, $context);
 
         }
+    }
+
+    public function deserializePrimitive(XmlDeserializationVisitor $visitor, $primitive, array $type, Context $context)
+    {
+        return $primitive;
     }
 
 }
