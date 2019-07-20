@@ -21,16 +21,20 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
     /**
      * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
      *
-     * @property \Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit
+     * @property \Calcinai\Siri\Objects\TimetabledStopVisitStructureType[] $timetabledStopVisit
      */
-    private $timetabledStopVisit = null;
+    private $timetabledStopVisit = [
+        
+    ];
 
     /**
      * A cancellation of a previously issued stop visit
      *
-     * @property \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation
+     * @property \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType[] $timetabledStopVisitCancellation
      */
-    private $timetabledStopVisitCancellation = null;
+    private $timetabledStopVisitCancellation = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -64,11 +68,51 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
     }
 
     /**
+     * Adds as timetabledStopVisit
+     *
+     * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit
+     */
+    public function addToTimetabledStopVisit(\Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit)
+    {
+        $this->timetabledStopVisit[] = $timetabledStopVisit;
+        return $this;
+    }
+
+    /**
+     * isset timetabledStopVisit
+     *
+     * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetTimetabledStopVisit($index)
+    {
+        return isset($this->timetabledStopVisit[$index]);
+    }
+
+    /**
+     * unset timetabledStopVisit
+     *
+     * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetTimetabledStopVisit($index)
+    {
+        unset($this->timetabledStopVisit[$index]);
+    }
+
+    /**
      * Gets as timetabledStopVisit
      *
      * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
      *
-     * @return \Calcinai\Siri\Objects\TimetabledStopVisitStructureType
+     * @return \Calcinai\Siri\Objects\TimetabledStopVisitStructureType[]
      */
     public function getTimetabledStopVisit()
     {
@@ -80,13 +124,53 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
      *
      * A visit to a stop by a vehicle as an arrival and /or departure, as timetabled in the production timetable
      *
-     * @param \Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit
+     * @param \Calcinai\Siri\Objects\TimetabledStopVisitStructureType[] $timetabledStopVisit
      * @return self
      */
-    public function setTimetabledStopVisit(\Calcinai\Siri\Objects\TimetabledStopVisitStructureType $timetabledStopVisit)
+    public function setTimetabledStopVisit(array $timetabledStopVisit)
     {
         $this->timetabledStopVisit = $timetabledStopVisit;
         return $this;
+    }
+
+    /**
+     * Adds as timetabledStopVisitCancellation
+     *
+     * A cancellation of a previously issued stop visit
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation
+     */
+    public function addToTimetabledStopVisitCancellation(\Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation)
+    {
+        $this->timetabledStopVisitCancellation[] = $timetabledStopVisitCancellation;
+        return $this;
+    }
+
+    /**
+     * isset timetabledStopVisitCancellation
+     *
+     * A cancellation of a previously issued stop visit
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetTimetabledStopVisitCancellation($index)
+    {
+        return isset($this->timetabledStopVisitCancellation[$index]);
+    }
+
+    /**
+     * unset timetabledStopVisitCancellation
+     *
+     * A cancellation of a previously issued stop visit
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetTimetabledStopVisitCancellation($index)
+    {
+        unset($this->timetabledStopVisitCancellation[$index]);
     }
 
     /**
@@ -94,7 +178,7 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
      *
      * A cancellation of a previously issued stop visit
      *
-     * @return \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType
+     * @return \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType[]
      */
     public function getTimetabledStopVisitCancellation()
     {
@@ -106,10 +190,10 @@ class StopTimetableDeliveryStructureType extends AbstractServiceDeliveryStructur
      *
      * A cancellation of a previously issued stop visit
      *
-     * @param \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation
+     * @param \Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType[] $timetabledStopVisitCancellation
      * @return self
      */
-    public function setTimetabledStopVisitCancellation(\Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType $timetabledStopVisitCancellation)
+    public function setTimetabledStopVisitCancellation(array $timetabledStopVisitCancellation)
     {
         $this->timetabledStopVisitCancellation = $timetabledStopVisitCancellation;
         return $this;

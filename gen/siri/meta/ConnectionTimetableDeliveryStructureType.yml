@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\ConnectionTimetableDeliveryStructureType:
             accessor:
                 getter: getTimetabledFeederArrival
                 setter: setTimetabledFeederArrival
-            type: Calcinai\Siri\Objects\TimetabledFeederArrival
+            xml_list:
+                inline: true
+                entry_name: TimetabledFeederArrival
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\TimetabledFeederArrival>
         timetabledFeederArrivalCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +32,11 @@ Calcinai\Siri\Objects\ConnectionTimetableDeliveryStructureType:
             accessor:
                 getter: getTimetabledFeederArrivalCancellation
                 setter: setTimetabledFeederArrivalCancellation
-            type: Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation
+            xml_list:
+                inline: true
+                entry_name: TimetabledFeederArrivalCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\TimetabledFeederArrivalCancellation>
         extensions:
             expose: true
             access_type: public_method

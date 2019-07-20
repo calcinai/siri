@@ -61,9 +61,11 @@ class MonitoredStopVisitCancellationStructureType extends AbstractReferencingIte
     /**
      * A method of transportation such as bus, rail, etc.
      *
-     * @property string $vehicleMode
+     * @property string[] $vehicleMode
      */
-    private $vehicleMode = null;
+    private $vehicleMode = [
+        
+    ];
 
     /**
      * Identifier of Route that Journey follows.
@@ -282,11 +284,51 @@ class MonitoredStopVisitCancellationStructureType extends AbstractReferencingIte
     }
 
     /**
+     * Adds as vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @return self
+     * @param string $vehicleMode
+     */
+    public function addToVehicleMode($vehicleMode)
+    {
+        $this->vehicleMode[] = $vehicleMode;
+        return $this;
+    }
+
+    /**
+     * isset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleMode($index)
+    {
+        return isset($this->vehicleMode[$index]);
+    }
+
+    /**
+     * unset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleMode($index)
+    {
+        unset($this->vehicleMode[$index]);
+    }
+
+    /**
      * Gets as vehicleMode
      *
      * A method of transportation such as bus, rail, etc.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleMode()
     {
@@ -301,7 +343,7 @@ class MonitoredStopVisitCancellationStructureType extends AbstractReferencingIte
      * @param string $vehicleMode
      * @return self
      */
-    public function setVehicleMode($vehicleMode)
+    public function setVehicleMode(array $vehicleMode)
     {
         $this->vehicleMode = $vehicleMode;
         return $this;

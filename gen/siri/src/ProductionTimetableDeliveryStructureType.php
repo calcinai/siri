@@ -19,9 +19,11 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame
+     * @property \Calcinai\Siri\Objects\DatedTimetableVersionFrame[] $datedTimetableVersionFrame
      */
-    private $datedTimetableVersionFrame = null;
+    private $datedTimetableVersionFrame = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -55,9 +57,43 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     }
 
     /**
+     * Adds as datedTimetableVersionFrame
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame
+     */
+    public function addToDatedTimetableVersionFrame(\Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame)
+    {
+        $this->datedTimetableVersionFrame[] = $datedTimetableVersionFrame;
+        return $this;
+    }
+
+    /**
+     * isset datedTimetableVersionFrame
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetDatedTimetableVersionFrame($index)
+    {
+        return isset($this->datedTimetableVersionFrame[$index]);
+    }
+
+    /**
+     * unset datedTimetableVersionFrame
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetDatedTimetableVersionFrame($index)
+    {
+        unset($this->datedTimetableVersionFrame[$index]);
+    }
+
+    /**
      * Gets as datedTimetableVersionFrame
      *
-     * @return \Calcinai\Siri\Objects\DatedTimetableVersionFrame
+     * @return \Calcinai\Siri\Objects\DatedTimetableVersionFrame[]
      */
     public function getDatedTimetableVersionFrame()
     {
@@ -67,10 +103,10 @@ class ProductionTimetableDeliveryStructureType extends AbstractServiceDeliverySt
     /**
      * Sets a new datedTimetableVersionFrame
      *
-     * @param \Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame
+     * @param \Calcinai\Siri\Objects\DatedTimetableVersionFrame[] $datedTimetableVersionFrame
      * @return self
      */
-    public function setDatedTimetableVersionFrame(\Calcinai\Siri\Objects\DatedTimetableVersionFrame $datedTimetableVersionFrame)
+    public function setDatedTimetableVersionFrame(array $datedTimetableVersionFrame)
     {
         $this->datedTimetableVersionFrame = $datedTimetableVersionFrame;
         return $this;

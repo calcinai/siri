@@ -1,0 +1,12 @@
+Calcinai\Siri\Objects\AccessibilityNeedsFilterStructureType:
+    properties:
+        userNeed:
+            expose: true
+            access_type: public_method
+            serialized_name: UserNeed
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getUserNeed
+                setter: setUserNeed
+            type: Calcinai\Siri\Objects\ACSB\UserNeedStructureType

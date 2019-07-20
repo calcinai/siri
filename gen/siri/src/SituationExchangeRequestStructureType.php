@@ -87,9 +87,11 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Types of Situation to include
      *
-     * @property string $scope
+     * @property string[] $scope
      */
-    private $scope = null;
+    private $scope = [
+        
+    ];
 
     /**
      * Whether just planned, unplanned or both Situations will be returned.
@@ -115,9 +117,11 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * ProgressStatus. One of a specified set of overall processing states assigned to situation. For example, 'Draft' for not yet published; 'Published' for live situations; 'Closed' indicates a completed situation. If not specified return open, published closing and closed. l
      *
-     * @property string $progress
+     * @property string[] $progress
      */
-    private $progress = null;
+    private $progress = [
+        
+    ];
 
     /**
      * Whether situation is real or a test. If not specified return all
@@ -136,9 +140,11 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Operational unit responsible for managing services.
      *
-     * @property string $operationalUnitRef
+     * @property string[] $operationalUnitRef
      */
-    private $operationalUnitRef = null;
+    private $operationalUnitRef = [
+        
+    ];
 
     /**
      * Identifier of Network.
@@ -148,9 +154,11 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     private $networkRef = null;
 
     /**
-     * @property string $lineRef
+     * @property string[] $lineRef
      */
-    private $lineRef = null;
+    private $lineRef = [
+        
+    ];
 
     /**
      * @property string $stopPointRef
@@ -158,14 +166,18 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     private $stopPointRef = null;
 
     /**
-     * @property string $connectionLinkRef
+     * @property string[] $connectionLinkRef
      */
-    private $connectionLinkRef = null;
+    private $connectionLinkRef = [
+        
+    ];
 
     /**
-     * @property string $facilityRef
+     * @property string[] $facilityRef
      */
-    private $facilityRef = null;
+    private $facilityRef = [
+        
+    ];
 
     /**
      * @property string $stopPlaceRef
@@ -218,9 +230,11 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     /**
      * Parameters to filter Situation Exchange requests, based on specific needs .
      *
-     * @property \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter
+     * @property \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType[] $accessibilityNeedFilter
      */
-    private $accessibilityNeedFilter = null;
+    private $accessibilityNeedFilter = [
+        
+    ];
 
     /**
      * Preferred language in which to return text values.
@@ -544,11 +558,51 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     }
 
     /**
+     * Adds as scope
+     *
+     * Types of Situation to include
+     *
+     * @return self
+     * @param string $scope
+     */
+    public function addToScope($scope)
+    {
+        $this->scope[] = $scope;
+        return $this;
+    }
+
+    /**
+     * isset scope
+     *
+     * Types of Situation to include
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetScope($index)
+    {
+        return isset($this->scope[$index]);
+    }
+
+    /**
+     * unset scope
+     *
+     * Types of Situation to include
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetScope($index)
+    {
+        unset($this->scope[$index]);
+    }
+
+    /**
      * Gets as scope
      *
      * Types of Situation to include
      *
-     * @return string
+     * @return string[]
      */
     public function getScope()
     {
@@ -563,7 +617,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      * @param string $scope
      * @return self
      */
-    public function setScope($scope)
+    public function setScope(array $scope)
     {
         $this->scope = $scope;
         return $this;
@@ -648,11 +702,51 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     }
 
     /**
+     * Adds as progress
+     *
+     * ProgressStatus. One of a specified set of overall processing states assigned to situation. For example, 'Draft' for not yet published; 'Published' for live situations; 'Closed' indicates a completed situation. If not specified return open, published closing and closed. l
+     *
+     * @return self
+     * @param string $progress
+     */
+    public function addToProgress($progress)
+    {
+        $this->progress[] = $progress;
+        return $this;
+    }
+
+    /**
+     * isset progress
+     *
+     * ProgressStatus. One of a specified set of overall processing states assigned to situation. For example, 'Draft' for not yet published; 'Published' for live situations; 'Closed' indicates a completed situation. If not specified return open, published closing and closed. l
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetProgress($index)
+    {
+        return isset($this->progress[$index]);
+    }
+
+    /**
+     * unset progress
+     *
+     * ProgressStatus. One of a specified set of overall processing states assigned to situation. For example, 'Draft' for not yet published; 'Published' for live situations; 'Closed' indicates a completed situation. If not specified return open, published closing and closed. l
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetProgress($index)
+    {
+        unset($this->progress[$index]);
+    }
+
+    /**
      * Gets as progress
      *
      * ProgressStatus. One of a specified set of overall processing states assigned to situation. For example, 'Draft' for not yet published; 'Published' for live situations; 'Closed' indicates a completed situation. If not specified return open, published closing and closed. l
      *
-     * @return string
+     * @return string[]
      */
     public function getProgress()
     {
@@ -667,7 +761,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      * @param string $progress
      * @return self
      */
-    public function setProgress($progress)
+    public function setProgress(array $progress)
     {
         $this->progress = $progress;
         return $this;
@@ -726,11 +820,51 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     }
 
     /**
+     * Adds as operationalUnitRef
+     *
+     * Operational unit responsible for managing services.
+     *
+     * @return self
+     * @param string $operationalUnitRef
+     */
+    public function addToOperationalUnitRef($operationalUnitRef)
+    {
+        $this->operationalUnitRef[] = $operationalUnitRef;
+        return $this;
+    }
+
+    /**
+     * isset operationalUnitRef
+     *
+     * Operational unit responsible for managing services.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetOperationalUnitRef($index)
+    {
+        return isset($this->operationalUnitRef[$index]);
+    }
+
+    /**
+     * unset operationalUnitRef
+     *
+     * Operational unit responsible for managing services.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetOperationalUnitRef($index)
+    {
+        unset($this->operationalUnitRef[$index]);
+    }
+
+    /**
      * Gets as operationalUnitRef
      *
      * Operational unit responsible for managing services.
      *
-     * @return string
+     * @return string[]
      */
     public function getOperationalUnitRef()
     {
@@ -745,7 +879,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      * @param string $operationalUnitRef
      * @return self
      */
-    public function setOperationalUnitRef($operationalUnitRef)
+    public function setOperationalUnitRef(array $operationalUnitRef)
     {
         $this->operationalUnitRef = $operationalUnitRef;
         return $this;
@@ -778,9 +912,43 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     }
 
     /**
+     * Adds as lineRef
+     *
+     * @return self
+     * @param string $lineRef
+     */
+    public function addToLineRef($lineRef)
+    {
+        $this->lineRef[] = $lineRef;
+        return $this;
+    }
+
+    /**
+     * isset lineRef
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetLineRef($index)
+    {
+        return isset($this->lineRef[$index]);
+    }
+
+    /**
+     * unset lineRef
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetLineRef($index)
+    {
+        unset($this->lineRef[$index]);
+    }
+
+    /**
      * Gets as lineRef
      *
-     * @return string
+     * @return string[]
      */
     public function getLineRef()
     {
@@ -793,7 +961,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      * @param string $lineRef
      * @return self
      */
-    public function setLineRef($lineRef)
+    public function setLineRef(array $lineRef)
     {
         $this->lineRef = $lineRef;
         return $this;
@@ -822,9 +990,43 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     }
 
     /**
+     * Adds as connectionLinkRef
+     *
+     * @return self
+     * @param string $connectionLinkRef
+     */
+    public function addToConnectionLinkRef($connectionLinkRef)
+    {
+        $this->connectionLinkRef[] = $connectionLinkRef;
+        return $this;
+    }
+
+    /**
+     * isset connectionLinkRef
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetConnectionLinkRef($index)
+    {
+        return isset($this->connectionLinkRef[$index]);
+    }
+
+    /**
+     * unset connectionLinkRef
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetConnectionLinkRef($index)
+    {
+        unset($this->connectionLinkRef[$index]);
+    }
+
+    /**
      * Gets as connectionLinkRef
      *
-     * @return string
+     * @return string[]
      */
     public function getConnectionLinkRef()
     {
@@ -837,16 +1039,50 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      * @param string $connectionLinkRef
      * @return self
      */
-    public function setConnectionLinkRef($connectionLinkRef)
+    public function setConnectionLinkRef(array $connectionLinkRef)
     {
         $this->connectionLinkRef = $connectionLinkRef;
         return $this;
     }
 
     /**
+     * Adds as facilityRef
+     *
+     * @return self
+     * @param string $facilityRef
+     */
+    public function addToFacilityRef($facilityRef)
+    {
+        $this->facilityRef[] = $facilityRef;
+        return $this;
+    }
+
+    /**
+     * isset facilityRef
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetFacilityRef($index)
+    {
+        return isset($this->facilityRef[$index]);
+    }
+
+    /**
+     * unset facilityRef
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetFacilityRef($index)
+    {
+        unset($this->facilityRef[$index]);
+    }
+
+    /**
      * Gets as facilityRef
      *
-     * @return string
+     * @return string[]
      */
     public function getFacilityRef()
     {
@@ -859,7 +1095,7 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      * @param string $facilityRef
      * @return self
      */
-    public function setFacilityRef($facilityRef)
+    public function setFacilityRef(array $facilityRef)
     {
         $this->facilityRef = $facilityRef;
         return $this;
@@ -1098,11 +1334,51 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
     }
 
     /**
+     * Adds as accessibilityNeedFilter
+     *
+     * Parameters to filter Situation Exchange requests, based on specific needs .
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter
+     */
+    public function addToAccessibilityNeedFilter(\Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter)
+    {
+        $this->accessibilityNeedFilter[] = $accessibilityNeedFilter;
+        return $this;
+    }
+
+    /**
+     * isset accessibilityNeedFilter
+     *
+     * Parameters to filter Situation Exchange requests, based on specific needs .
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetAccessibilityNeedFilter($index)
+    {
+        return isset($this->accessibilityNeedFilter[$index]);
+    }
+
+    /**
+     * unset accessibilityNeedFilter
+     *
+     * Parameters to filter Situation Exchange requests, based on specific needs .
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetAccessibilityNeedFilter($index)
+    {
+        unset($this->accessibilityNeedFilter[$index]);
+    }
+
+    /**
      * Gets as accessibilityNeedFilter
      *
      * Parameters to filter Situation Exchange requests, based on specific needs .
      *
-     * @return \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType
+     * @return \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType[]
      */
     public function getAccessibilityNeedFilter()
     {
@@ -1114,10 +1390,10 @@ class SituationExchangeRequestStructureType extends AbstractFunctionalServiceReq
      *
      * Parameters to filter Situation Exchange requests, based on specific needs .
      *
-     * @param \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter
+     * @param \Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType[] $accessibilityNeedFilter
      * @return self
      */
-    public function setAccessibilityNeedFilter(\Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType $accessibilityNeedFilter)
+    public function setAccessibilityNeedFilter(array $accessibilityNeedFilter)
     {
         $this->accessibilityNeedFilter = $accessibilityNeedFilter;
         return $this;

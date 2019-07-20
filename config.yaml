@@ -16,3 +16,4 @@ xsd2php:
     'Calcinai\Siri\Objects\Datex': gen/datex/meta
   aliases:
     'http://www.siri.org.uk/siri':
+      'Calcinai\Siri\Objects\Datex': gen/datex/meta

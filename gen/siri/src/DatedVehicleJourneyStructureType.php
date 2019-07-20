@@ -49,9 +49,11 @@ class DatedVehicleJourneyStructureType
     /**
      * A method of transportation such as bus, rail, etc.
      *
-     * @property string $vehicleMode
+     * @property string[] $vehicleMode
      */
-    private $vehicleMode = null;
+    private $vehicleMode = [
+        
+    ];
 
     /**
      * Identifier of Route that Journey follows.
@@ -96,16 +98,20 @@ class DatedVehicleJourneyStructureType
     /**
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $serviceFeatureRef
+     * @property string[] $serviceFeatureRef
      */
-    private $serviceFeatureRef = null;
+    private $serviceFeatureRef = [
+        
+    ];
 
     /**
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $vehicleFeatureRef
+     * @property string[] $vehicleFeatureRef
      */
-    private $vehicleFeatureRef = null;
+    private $vehicleFeatureRef = [
+        
+    ];
 
     /**
      * For train services with Named Journeys. Train name, e.g. “West Coast Express”. If omitted: No train name. Inherited property.
@@ -115,9 +121,11 @@ class DatedVehicleJourneyStructureType
     private $vehicleJourneyName = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      */
-    private $journeyNote = null;
+    private $journeyNote = [
+        
+    ];
 
     /**
      * Description of the destination stop (vehicle signage) to show on vehicle, Can be overwritten for a journey, and then also section by section by the entry in an Individual Call.
@@ -169,9 +177,11 @@ class DatedVehicleJourneyStructureType
     private $datedCalls = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\DatedCall $datedCall
+     * @property \Calcinai\Siri\Objects\DatedCall[] $datedCall
      */
-    private $datedCall = null;
+    private $datedCall = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -309,11 +319,51 @@ class DatedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @return self
+     * @param string $vehicleMode
+     */
+    public function addToVehicleMode($vehicleMode)
+    {
+        $this->vehicleMode[] = $vehicleMode;
+        return $this;
+    }
+
+    /**
+     * isset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleMode($index)
+    {
+        return isset($this->vehicleMode[$index]);
+    }
+
+    /**
+     * unset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleMode($index)
+    {
+        unset($this->vehicleMode[$index]);
+    }
+
+    /**
      * Gets as vehicleMode
      *
      * A method of transportation such as bus, rail, etc.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleMode()
     {
@@ -328,7 +378,7 @@ class DatedVehicleJourneyStructureType
      * @param string $vehicleMode
      * @return self
      */
-    public function setVehicleMode($vehicleMode)
+    public function setVehicleMode(array $vehicleMode)
     {
         $this->vehicleMode = $vehicleMode;
         return $this;
@@ -487,11 +537,51 @@ class DatedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $serviceFeatureRef
+     */
+    public function addToServiceFeatureRef($serviceFeatureRef)
+    {
+        $this->serviceFeatureRef[] = $serviceFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetServiceFeatureRef($index)
+    {
+        return isset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
+     * unset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetServiceFeatureRef($index)
+    {
+        unset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
      * Gets as serviceFeatureRef
      *
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getServiceFeatureRef()
     {
@@ -506,10 +596,50 @@ class DatedVehicleJourneyStructureType
      * @param string $serviceFeatureRef
      * @return self
      */
-    public function setServiceFeatureRef($serviceFeatureRef)
+    public function setServiceFeatureRef(array $serviceFeatureRef)
     {
         $this->serviceFeatureRef = $serviceFeatureRef;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $vehicleFeatureRef
+     */
+    public function addToVehicleFeatureRef($vehicleFeatureRef)
+    {
+        $this->vehicleFeatureRef[] = $vehicleFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleFeatureRef($index)
+    {
+        return isset($this->vehicleFeatureRef[$index]);
+    }
+
+    /**
+     * unset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleFeatureRef($index)
+    {
+        unset($this->vehicleFeatureRef[$index]);
     }
 
     /**
@@ -517,7 +647,7 @@ class DatedVehicleJourneyStructureType
      *
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleFeatureRef()
     {
@@ -532,7 +662,7 @@ class DatedVehicleJourneyStructureType
      * @param string $vehicleFeatureRef
      * @return self
      */
-    public function setVehicleFeatureRef($vehicleFeatureRef)
+    public function setVehicleFeatureRef(array $vehicleFeatureRef)
     {
         $this->vehicleFeatureRef = $vehicleFeatureRef;
         return $this;
@@ -565,9 +695,43 @@ class DatedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as journeyNote
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     */
+    public function addToJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    {
+        $this->journeyNote[] = $journeyNote;
+        return $this;
+    }
+
+    /**
+     * isset journeyNote
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetJourneyNote($index)
+    {
+        return isset($this->journeyNote[$index]);
+    }
+
+    /**
+     * unset journeyNote
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetJourneyNote($index)
+    {
+        unset($this->journeyNote[$index]);
+    }
+
+    /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\Objects\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote[]
      */
     public function getJourneyNote()
     {
@@ -577,10 +741,10 @@ class DatedVehicleJourneyStructureType
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    public function setJourneyNote(array $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;
@@ -809,9 +973,43 @@ class DatedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as datedCall
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\DatedCall $datedCall
+     */
+    public function addToDatedCall(\Calcinai\Siri\Objects\DatedCall $datedCall)
+    {
+        $this->datedCall[] = $datedCall;
+        return $this;
+    }
+
+    /**
+     * isset datedCall
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetDatedCall($index)
+    {
+        return isset($this->datedCall[$index]);
+    }
+
+    /**
+     * unset datedCall
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetDatedCall($index)
+    {
+        unset($this->datedCall[$index]);
+    }
+
+    /**
      * Gets as datedCall
      *
-     * @return \Calcinai\Siri\Objects\DatedCall
+     * @return \Calcinai\Siri\Objects\DatedCall[]
      */
     public function getDatedCall()
     {
@@ -821,10 +1019,10 @@ class DatedVehicleJourneyStructureType
     /**
      * Sets a new datedCall
      *
-     * @param \Calcinai\Siri\Objects\DatedCall $datedCall
+     * @param \Calcinai\Siri\Objects\DatedCall[] $datedCall
      * @return self
      */
-    public function setDatedCall(\Calcinai\Siri\Objects\DatedCall $datedCall)
+    public function setDatedCall(array $datedCall)
     {
         $this->datedCall = $datedCall;
         return $this;

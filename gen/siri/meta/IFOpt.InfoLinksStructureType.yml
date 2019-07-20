@@ -1,0 +1,12 @@
+Calcinai\Siri\Objects\IFOpt\InfoLinksStructureType:
+    properties:
+        infoLink:
+            expose: true
+            access_type: public_method
+            serialized_name: InfoLink
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getInfoLink
+                setter: setInfoLink
+            type: Calcinai\Siri\Objects\IFOpt\InfoLink

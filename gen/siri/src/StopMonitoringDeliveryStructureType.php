@@ -21,37 +21,47 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Identifier of stop monitoring point(s) that were requested. This can a be used to return the requested Monitoring ref if there are no stop visits for the stop.
      *
-     * @property string $monitoringRef
+     * @property string[] $monitoringRef
      */
-    private $monitoringRef = null;
+    private $monitoringRef = [
+        
+    ];
 
     /**
      * A visit to a stop by a vehicle as an arrival and /or departure.
      *
-     * @property \Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit
+     * @property \Calcinai\Siri\Objects\MonitoredStopVisitStructureType[] $monitoredStopVisit
      */
-    private $monitoredStopVisit = null;
+    private $monitoredStopVisit = [
+        
+    ];
 
     /**
      * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
      *
-     * @property \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation
+     * @property \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType[] $monitoredStopVisitCancellation
      */
-    private $monitoredStopVisitCancellation = null;
+    private $monitoredStopVisitCancellation = [
+        
+    ];
 
     /**
      * Line notice for stop
      *
-     * @property \Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice
+     * @property \Calcinai\Siri\Objects\StopLineNoticeStructureType[] $stopLineNotice
      */
-    private $stopLineNotice = null;
+    private $stopLineNotice = [
+        
+    ];
 
     /**
      * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
      *
-     * @property \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation
+     * @property \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType[] $stopLineNoticeCancellation
      */
-    private $stopLineNoticeCancellation = null;
+    private $stopLineNoticeCancellation = [
+        
+    ];
 
     /**
      * Text associated with whole delivery.
@@ -92,11 +102,51 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
     }
 
     /**
+     * Adds as monitoringRef
+     *
+     * Identifier of stop monitoring point(s) that were requested. This can a be used to return the requested Monitoring ref if there are no stop visits for the stop.
+     *
+     * @return self
+     * @param string $monitoringRef
+     */
+    public function addToMonitoringRef($monitoringRef)
+    {
+        $this->monitoringRef[] = $monitoringRef;
+        return $this;
+    }
+
+    /**
+     * isset monitoringRef
+     *
+     * Identifier of stop monitoring point(s) that were requested. This can a be used to return the requested Monitoring ref if there are no stop visits for the stop.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetMonitoringRef($index)
+    {
+        return isset($this->monitoringRef[$index]);
+    }
+
+    /**
+     * unset monitoringRef
+     *
+     * Identifier of stop monitoring point(s) that were requested. This can a be used to return the requested Monitoring ref if there are no stop visits for the stop.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetMonitoringRef($index)
+    {
+        unset($this->monitoringRef[$index]);
+    }
+
+    /**
      * Gets as monitoringRef
      *
      * Identifier of stop monitoring point(s) that were requested. This can a be used to return the requested Monitoring ref if there are no stop visits for the stop.
      *
-     * @return string
+     * @return string[]
      */
     public function getMonitoringRef()
     {
@@ -111,10 +161,50 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      * @param string $monitoringRef
      * @return self
      */
-    public function setMonitoringRef($monitoringRef)
+    public function setMonitoringRef(array $monitoringRef)
     {
         $this->monitoringRef = $monitoringRef;
         return $this;
+    }
+
+    /**
+     * Adds as monitoredStopVisit
+     *
+     * A visit to a stop by a vehicle as an arrival and /or departure.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit
+     */
+    public function addToMonitoredStopVisit(\Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit)
+    {
+        $this->monitoredStopVisit[] = $monitoredStopVisit;
+        return $this;
+    }
+
+    /**
+     * isset monitoredStopVisit
+     *
+     * A visit to a stop by a vehicle as an arrival and /or departure.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetMonitoredStopVisit($index)
+    {
+        return isset($this->monitoredStopVisit[$index]);
+    }
+
+    /**
+     * unset monitoredStopVisit
+     *
+     * A visit to a stop by a vehicle as an arrival and /or departure.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetMonitoredStopVisit($index)
+    {
+        unset($this->monitoredStopVisit[$index]);
     }
 
     /**
@@ -122,7 +212,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * A visit to a stop by a vehicle as an arrival and /or departure.
      *
-     * @return \Calcinai\Siri\Objects\MonitoredStopVisitStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredStopVisitStructureType[]
      */
     public function getMonitoredStopVisit()
     {
@@ -134,13 +224,53 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * A visit to a stop by a vehicle as an arrival and /or departure.
      *
-     * @param \Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit
+     * @param \Calcinai\Siri\Objects\MonitoredStopVisitStructureType[] $monitoredStopVisit
      * @return self
      */
-    public function setMonitoredStopVisit(\Calcinai\Siri\Objects\MonitoredStopVisitStructureType $monitoredStopVisit)
+    public function setMonitoredStopVisit(array $monitoredStopVisit)
     {
         $this->monitoredStopVisit = $monitoredStopVisit;
         return $this;
+    }
+
+    /**
+     * Adds as monitoredStopVisitCancellation
+     *
+     * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation
+     */
+    public function addToMonitoredStopVisitCancellation(\Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation)
+    {
+        $this->monitoredStopVisitCancellation[] = $monitoredStopVisitCancellation;
+        return $this;
+    }
+
+    /**
+     * isset monitoredStopVisitCancellation
+     *
+     * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetMonitoredStopVisitCancellation($index)
+    {
+        return isset($this->monitoredStopVisitCancellation[$index]);
+    }
+
+    /**
+     * unset monitoredStopVisitCancellation
+     *
+     * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetMonitoredStopVisitCancellation($index)
+    {
+        unset($this->monitoredStopVisitCancellation[$index]);
     }
 
     /**
@@ -148,7 +278,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
      *
-     * @return \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType[]
      */
     public function getMonitoredStopVisitCancellation()
     {
@@ -160,13 +290,53 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated Stop Visit which should now be removed from the arrival/departure board for the stop.
      *
-     * @param \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation
+     * @param \Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType[] $monitoredStopVisitCancellation
      * @return self
      */
-    public function setMonitoredStopVisitCancellation(\Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType $monitoredStopVisitCancellation)
+    public function setMonitoredStopVisitCancellation(array $monitoredStopVisitCancellation)
     {
         $this->monitoredStopVisitCancellation = $monitoredStopVisitCancellation;
         return $this;
+    }
+
+    /**
+     * Adds as stopLineNotice
+     *
+     * Line notice for stop
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice
+     */
+    public function addToStopLineNotice(\Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice)
+    {
+        $this->stopLineNotice[] = $stopLineNotice;
+        return $this;
+    }
+
+    /**
+     * isset stopLineNotice
+     *
+     * Line notice for stop
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetStopLineNotice($index)
+    {
+        return isset($this->stopLineNotice[$index]);
+    }
+
+    /**
+     * unset stopLineNotice
+     *
+     * Line notice for stop
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetStopLineNotice($index)
+    {
+        unset($this->stopLineNotice[$index]);
     }
 
     /**
@@ -174,7 +344,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Line notice for stop
      *
-     * @return \Calcinai\Siri\Objects\StopLineNoticeStructureType
+     * @return \Calcinai\Siri\Objects\StopLineNoticeStructureType[]
      */
     public function getStopLineNotice()
     {
@@ -186,13 +356,53 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Line notice for stop
      *
-     * @param \Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice
+     * @param \Calcinai\Siri\Objects\StopLineNoticeStructureType[] $stopLineNotice
      * @return self
      */
-    public function setStopLineNotice(\Calcinai\Siri\Objects\StopLineNoticeStructureType $stopLineNotice)
+    public function setStopLineNotice(array $stopLineNotice)
     {
         $this->stopLineNotice = $stopLineNotice;
         return $this;
+    }
+
+    /**
+     * Adds as stopLineNoticeCancellation
+     *
+     * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation
+     */
+    public function addToStopLineNoticeCancellation(\Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation)
+    {
+        $this->stopLineNoticeCancellation[] = $stopLineNoticeCancellation;
+        return $this;
+    }
+
+    /**
+     * isset stopLineNoticeCancellation
+     *
+     * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetStopLineNoticeCancellation($index)
+    {
+        return isset($this->stopLineNoticeCancellation[$index]);
+    }
+
+    /**
+     * unset stopLineNoticeCancellation
+     *
+     * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetStopLineNoticeCancellation($index)
+    {
+        unset($this->stopLineNoticeCancellation[$index]);
     }
 
     /**
@@ -200,7 +410,7 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
      *
-     * @return \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType
+     * @return \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType[]
      */
     public function getStopLineNoticeCancellation()
     {
@@ -212,10 +422,10 @@ class StopMonitoringDeliveryStructureType extends AbstractServiceDeliveryStructu
      *
      * Reference to an previously communicated stop line event which should now be removed from the arrival/departure board for the stop.
      *
-     * @param \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation
+     * @param \Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType[] $stopLineNoticeCancellation
      * @return self
      */
-    public function setStopLineNoticeCancellation(\Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType $stopLineNoticeCancellation)
+    public function setStopLineNoticeCancellation(array $stopLineNoticeCancellation)
     {
         $this->stopLineNoticeCancellation = $stopLineNoticeCancellation;
         return $this;

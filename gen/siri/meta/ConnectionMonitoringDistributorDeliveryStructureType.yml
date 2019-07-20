@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\ConnectionMonitoringDistributorDeliveryStructureType:
             accessor:
                 getter: getWaitProlongedDeparture
                 setter: setWaitProlongedDeparture
-            type: Calcinai\Siri\Objects\WaitProlongedDepartureStructureType
+            xml_list:
+                inline: true
+                entry_name: WaitProlongedDeparture
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\WaitProlongedDepartureStructureType>
         stoppingPositionChangedDeparture:
             expose: true
             access_type: public_method
@@ -28,7 +32,11 @@ Calcinai\Siri\Objects\ConnectionMonitoringDistributorDeliveryStructureType:
             accessor:
                 getter: getStoppingPositionChangedDeparture
                 setter: setStoppingPositionChangedDeparture
-            type: Calcinai\Siri\Objects\StoppingPositionChangedDepartureStructureType
+            xml_list:
+                inline: true
+                entry_name: StoppingPositionChangedDeparture
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StoppingPositionChangedDepartureStructureType>
         distributorDepartureCancellation:
             expose: true
             access_type: public_method
@@ -38,7 +46,11 @@ Calcinai\Siri\Objects\ConnectionMonitoringDistributorDeliveryStructureType:
             accessor:
                 getter: getDistributorDepartureCancellation
                 setter: setDistributorDepartureCancellation
-            type: Calcinai\Siri\Objects\DistributorDepartureCancellationStructureType
+            xml_list:
+                inline: true
+                entry_name: DistributorDepartureCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\DistributorDepartureCancellationStructureType>
         extensions:
             expose: true
             access_type: public_method

@@ -9,7 +9,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getProductionTimetableRequest
                 setter: setProductionTimetableRequest
-            type: Calcinai\Siri\Objects\ProductionTimetableRequest
+            xml_list:
+                inline: true
+                entry_name: ProductionTimetableRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ProductionTimetableRequest>
         estimatedTimetableRequest:
             expose: true
             access_type: public_method
@@ -19,7 +23,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getEstimatedTimetableRequest
                 setter: setEstimatedTimetableRequest
-            type: Calcinai\Siri\Objects\EstimatedTimetableRequest
+            xml_list:
+                inline: true
+                entry_name: EstimatedTimetableRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\EstimatedTimetableRequest>
         stopTimetableRequest:
             expose: true
             access_type: public_method
@@ -29,7 +37,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getStopTimetableRequest
                 setter: setStopTimetableRequest
-            type: Calcinai\Siri\Objects\StopTimetableRequest
+            xml_list:
+                inline: true
+                entry_name: StopTimetableRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StopTimetableRequest>
         stopMonitoringMultipleRequest:
             expose: true
             access_type: public_method
@@ -39,7 +51,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getStopMonitoringMultipleRequest
                 setter: setStopMonitoringMultipleRequest
-            type: Calcinai\Siri\Objects\StopMonitoringMultipleRequest
+            xml_list:
+                inline: true
+                entry_name: StopMonitoringMultipleRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StopMonitoringMultipleRequest>
         stopMonitoringRequest:
             expose: true
             access_type: public_method
@@ -49,7 +65,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getStopMonitoringRequest
                 setter: setStopMonitoringRequest
-            type: Calcinai\Siri\Objects\StopMonitoringRequest
+            xml_list:
+                inline: true
+                entry_name: StopMonitoringRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StopMonitoringRequest>
         vehicleMonitoringRequest:
             expose: true
             access_type: public_method
@@ -59,7 +79,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getVehicleMonitoringRequest
                 setter: setVehicleMonitoringRequest
-            type: Calcinai\Siri\Objects\VehicleMonitoringRequest
+            xml_list:
+                inline: true
+                entry_name: VehicleMonitoringRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\VehicleMonitoringRequest>
         connectionTimetableRequest:
             expose: true
             access_type: public_method
@@ -69,7 +93,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getConnectionTimetableRequest
                 setter: setConnectionTimetableRequest
-            type: Calcinai\Siri\Objects\ConnectionTimetableRequest
+            xml_list:
+                inline: true
+                entry_name: ConnectionTimetableRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ConnectionTimetableRequest>
         connectionMonitoringRequest:
             expose: true
             access_type: public_method
@@ -79,7 +107,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getConnectionMonitoringRequest
                 setter: setConnectionMonitoringRequest
-            type: Calcinai\Siri\Objects\ConnectionMonitoringRequest
+            xml_list:
+                inline: true
+                entry_name: ConnectionMonitoringRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ConnectionMonitoringRequest>
         generalMessageRequest:
             expose: true
             access_type: public_method
@@ -89,7 +121,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getGeneralMessageRequest
                 setter: setGeneralMessageRequest
-            type: Calcinai\Siri\Objects\GeneralMessageRequest
+            xml_list:
+                inline: true
+                entry_name: GeneralMessageRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\GeneralMessageRequest>
         facilityMonitoringRequest:
             expose: true
             access_type: public_method
@@ -99,7 +135,11 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getFacilityMonitoringRequest
                 setter: setFacilityMonitoringRequest
-            type: Calcinai\Siri\Objects\FacilityMonitoringRequest
+            xml_list:
+                inline: true
+                entry_name: FacilityMonitoringRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\FacilityMonitoringRequest>
         situationExchangeRequest:
             expose: true
             access_type: public_method
@@ -109,4 +149,8 @@ Calcinai\Siri\Objects\ServiceRequestStructureType:
             accessor:
                 getter: getSituationExchangeRequest
                 setter: setSituationExchangeRequest
-            type: Calcinai\Siri\Objects\SituationExchangeRequest
+            xml_list:
+                inline: true
+                entry_name: SituationExchangeRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\SituationExchangeRequest>

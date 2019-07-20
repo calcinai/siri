@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\EstimatedTimetableDeliveryStructureType:
             accessor:
                 getter: getEstimatedJourneyVersionFrame
                 setter: setEstimatedJourneyVersionFrame
-            type: Calcinai\Siri\Objects\EstimatedVersionFrameStructureType
+            xml_list:
+                inline: true
+                entry_name: EstimatedJourneyVersionFrame
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\EstimatedVersionFrameStructureType>
         extensions:
             expose: true
             access_type: public_method

@@ -21,16 +21,20 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
     /**
      * A feeder arrival at the connection point
      *
-     * @property \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival
+     * @property \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType[] $monitoredFeederArrival
      */
-    private $monitoredFeederArrival = null;
+    private $monitoredFeederArrival = [
+        
+    ];
 
     /**
      * Cancellation of a feeder arrival at a connection point.
      *
-     * @property \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation
+     * @property \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType[] $monitoredFeederArrivalCancellation
      */
-    private $monitoredFeederArrivalCancellation = null;
+    private $monitoredFeederArrivalCancellation = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -64,11 +68,51 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
     }
 
     /**
+     * Adds as monitoredFeederArrival
+     *
+     * A feeder arrival at the connection point
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival
+     */
+    public function addToMonitoredFeederArrival(\Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival)
+    {
+        $this->monitoredFeederArrival[] = $monitoredFeederArrival;
+        return $this;
+    }
+
+    /**
+     * isset monitoredFeederArrival
+     *
+     * A feeder arrival at the connection point
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetMonitoredFeederArrival($index)
+    {
+        return isset($this->monitoredFeederArrival[$index]);
+    }
+
+    /**
+     * unset monitoredFeederArrival
+     *
+     * A feeder arrival at the connection point
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetMonitoredFeederArrival($index)
+    {
+        unset($this->monitoredFeederArrival[$index]);
+    }
+
+    /**
      * Gets as monitoredFeederArrival
      *
      * A feeder arrival at the connection point
      *
-     * @return \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType[]
      */
     public function getMonitoredFeederArrival()
     {
@@ -80,13 +124,53 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
      *
      * A feeder arrival at the connection point
      *
-     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival
+     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType[] $monitoredFeederArrival
      * @return self
      */
-    public function setMonitoredFeederArrival(\Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType $monitoredFeederArrival)
+    public function setMonitoredFeederArrival(array $monitoredFeederArrival)
     {
         $this->monitoredFeederArrival = $monitoredFeederArrival;
         return $this;
+    }
+
+    /**
+     * Adds as monitoredFeederArrivalCancellation
+     *
+     * Cancellation of a feeder arrival at a connection point.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation
+     */
+    public function addToMonitoredFeederArrivalCancellation(\Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation)
+    {
+        $this->monitoredFeederArrivalCancellation[] = $monitoredFeederArrivalCancellation;
+        return $this;
+    }
+
+    /**
+     * isset monitoredFeederArrivalCancellation
+     *
+     * Cancellation of a feeder arrival at a connection point.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetMonitoredFeederArrivalCancellation($index)
+    {
+        return isset($this->monitoredFeederArrivalCancellation[$index]);
+    }
+
+    /**
+     * unset monitoredFeederArrivalCancellation
+     *
+     * Cancellation of a feeder arrival at a connection point.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetMonitoredFeederArrivalCancellation($index)
+    {
+        unset($this->monitoredFeederArrivalCancellation[$index]);
     }
 
     /**
@@ -94,7 +178,7 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
      *
      * Cancellation of a feeder arrival at a connection point.
      *
-     * @return \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType
+     * @return \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType[]
      */
     public function getMonitoredFeederArrivalCancellation()
     {
@@ -106,10 +190,10 @@ class ConnectionMonitoringFeederDeliveryStructureType extends AbstractServiceDel
      *
      * Cancellation of a feeder arrival at a connection point.
      *
-     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation
+     * @param \Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType[] $monitoredFeederArrivalCancellation
      * @return self
      */
-    public function setMonitoredFeederArrivalCancellation(\Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType $monitoredFeederArrivalCancellation)
+    public function setMonitoredFeederArrivalCancellation(array $monitoredFeederArrivalCancellation)
     {
         $this->monitoredFeederArrivalCancellation = $monitoredFeederArrivalCancellation;
         return $this;

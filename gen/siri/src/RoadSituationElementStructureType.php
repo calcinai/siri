@@ -49,16 +49,20 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     /**
      * Publishing status one of a specified set of substates to which an situation can be assigned.
      *
-     * @property string $publication
+     * @property string[] $publication
      */
-    private $publication = null;
+    private $publication = [
+        
+    ];
 
     /**
      * Overall inclusive Period of applicability of situation
      *
-     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod
+     * @property \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType[] $validityPeriod
      */
-    private $validityPeriod = null;
+    private $validityPeriod = [
+        
+    ];
 
     /**
      * situation applies only on the repeated day types within the overall validity period(s). For example Sunday.
@@ -401,11 +405,51 @@ class RoadSituationElementStructureType extends SituationElementStructureType
     }
 
     /**
+     * Adds as publication
+     *
+     * Publishing status one of a specified set of substates to which an situation can be assigned.
+     *
+     * @return self
+     * @param string $publication
+     */
+    public function addToPublication($publication)
+    {
+        $this->publication[] = $publication;
+        return $this;
+    }
+
+    /**
+     * isset publication
+     *
+     * Publishing status one of a specified set of substates to which an situation can be assigned.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetPublication($index)
+    {
+        return isset($this->publication[$index]);
+    }
+
+    /**
+     * unset publication
+     *
+     * Publishing status one of a specified set of substates to which an situation can be assigned.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetPublication($index)
+    {
+        unset($this->publication[$index]);
+    }
+
+    /**
      * Gets as publication
      *
      * Publishing status one of a specified set of substates to which an situation can be assigned.
      *
-     * @return string
+     * @return string[]
      */
     public function getPublication()
     {
@@ -420,10 +464,50 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      * @param string $publication
      * @return self
      */
-    public function setPublication($publication)
+    public function setPublication(array $publication)
     {
         $this->publication = $publication;
         return $this;
+    }
+
+    /**
+     * Adds as validityPeriod
+     *
+     * Overall inclusive Period of applicability of situation
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod
+     */
+    public function addToValidityPeriod(\Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod)
+    {
+        $this->validityPeriod[] = $validityPeriod;
+        return $this;
+    }
+
+    /**
+     * isset validityPeriod
+     *
+     * Overall inclusive Period of applicability of situation
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetValidityPeriod($index)
+    {
+        return isset($this->validityPeriod[$index]);
+    }
+
+    /**
+     * unset validityPeriod
+     *
+     * Overall inclusive Period of applicability of situation
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetValidityPeriod($index)
+    {
+        unset($this->validityPeriod[$index]);
     }
 
     /**
@@ -431,7 +515,7 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Overall inclusive Period of applicability of situation
      *
-     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType
+     * @return \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType[]
      */
     public function getValidityPeriod()
     {
@@ -443,10 +527,10 @@ class RoadSituationElementStructureType extends SituationElementStructureType
      *
      * Overall inclusive Period of applicability of situation
      *
-     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod
+     * @param \Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType[] $validityPeriod
      * @return self
      */
-    public function setValidityPeriod(\Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType $validityPeriod)
+    public function setValidityPeriod(array $validityPeriod)
     {
         $this->validityPeriod = $validityPeriod;
         return $this;

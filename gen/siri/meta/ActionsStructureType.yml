@@ -9,7 +9,11 @@ Calcinai\Siri\Objects\ActionsStructureType:
             accessor:
                 getter: getPublishToWebAction
                 setter: setPublishToWebAction
-            type: Calcinai\Siri\Objects\PublishToWebAction
+            xml_list:
+                inline: true
+                entry_name: PublishToWebAction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\PublishToWebAction>
         publishToMobileAction:
             expose: true
             access_type: public_method
@@ -19,7 +23,11 @@ Calcinai\Siri\Objects\ActionsStructureType:
             accessor:
                 getter: getPublishToMobileAction
                 setter: setPublishToMobileAction
-            type: Calcinai\Siri\Objects\PublishToMobileAction
+            xml_list:
+                inline: true
+                entry_name: PublishToMobileAction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\PublishToMobileAction>
         publishToTvAction:
             expose: true
             access_type: public_method
@@ -39,7 +47,11 @@ Calcinai\Siri\Objects\ActionsStructureType:
             accessor:
                 getter: getPublishToAlertsAction
                 setter: setPublishToAlertsAction
-            type: Calcinai\Siri\Objects\PublishToAlertsAction
+            xml_list:
+                inline: true
+                entry_name: PublishToAlertsAction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\PublishToAlertsAction>
         manualAction:
             expose: true
             access_type: public_method
@@ -49,7 +61,11 @@ Calcinai\Siri\Objects\ActionsStructureType:
             accessor:
                 getter: getManualAction
                 setter: setManualAction
-            type: Calcinai\Siri\Objects\ManualAction
+            xml_list:
+                inline: true
+                entry_name: ManualAction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ManualAction>
         notifyByEmailAction:
             expose: true
             access_type: public_method
@@ -59,7 +75,11 @@ Calcinai\Siri\Objects\ActionsStructureType:
             accessor:
                 getter: getNotifyByEmailAction
                 setter: setNotifyByEmailAction
-            type: Calcinai\Siri\Objects\NotifyByEmailAction
+            xml_list:
+                inline: true
+                entry_name: NotifyByEmailAction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\NotifyByEmailAction>
         notifyBySmsAction:
             expose: true
             access_type: public_method
@@ -79,7 +99,11 @@ Calcinai\Siri\Objects\ActionsStructureType:
             accessor:
                 getter: getNotifyByPagerAction
                 setter: setNotifyByPagerAction
-            type: Calcinai\Siri\Objects\NotifyByPagerAction
+            xml_list:
+                inline: true
+                entry_name: NotifyByPagerAction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\NotifyByPagerAction>
         notifyUserAction:
             expose: true
             access_type: public_method
@@ -89,7 +113,11 @@ Calcinai\Siri\Objects\ActionsStructureType:
             accessor:
                 getter: getNotifyUserAction
                 setter: setNotifyUserAction
-            type: Calcinai\Siri\Objects\NotifyUserAction
+            xml_list:
+                inline: true
+                entry_name: NotifyUserAction
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\NotifyUserAction>
         extensions:
             expose: true
             access_type: public_method

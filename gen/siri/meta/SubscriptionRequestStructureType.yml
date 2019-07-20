@@ -9,7 +9,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getProductionTimetableSubscriptionRequest
                 setter: setProductionTimetableSubscriptionRequest
-            type: Calcinai\Siri\Objects\ProductionTimetableSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: ProductionTimetableSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ProductionTimetableSubscriptionRequest>
         estimatedTimetableSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -19,7 +23,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getEstimatedTimetableSubscriptionRequest
                 setter: setEstimatedTimetableSubscriptionRequest
-            type: Calcinai\Siri\Objects\EstimatedTimetableSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: EstimatedTimetableSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\EstimatedTimetableSubscriptionRequest>
         stopTimetableSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -29,7 +37,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getStopTimetableSubscriptionRequest
                 setter: setStopTimetableSubscriptionRequest
-            type: Calcinai\Siri\Objects\StopTimetableSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: StopTimetableSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StopTimetableSubscriptionRequest>
         stopMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -39,7 +51,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getStopMonitoringSubscriptionRequest
                 setter: setStopMonitoringSubscriptionRequest
-            type: Calcinai\Siri\Objects\StopMonitoringSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: StopMonitoringSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StopMonitoringSubscriptionRequest>
         vehicleMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -49,7 +65,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getVehicleMonitoringSubscriptionRequest
                 setter: setVehicleMonitoringSubscriptionRequest
-            type: Calcinai\Siri\Objects\VehicleMonitoringSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: VehicleMonitoringSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\VehicleMonitoringSubscriptionRequest>
         connectionTimetableSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -59,7 +79,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getConnectionTimetableSubscriptionRequest
                 setter: setConnectionTimetableSubscriptionRequest
-            type: Calcinai\Siri\Objects\ConnectionTimetableSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: ConnectionTimetableSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ConnectionTimetableSubscriptionRequest>
         connectionMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -69,7 +93,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getConnectionMonitoringSubscriptionRequest
                 setter: setConnectionMonitoringSubscriptionRequest
-            type: Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: ConnectionMonitoringSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ConnectionMonitoringSubscriptionRequest>
         generalMessageSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -79,7 +107,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getGeneralMessageSubscriptionRequest
                 setter: setGeneralMessageSubscriptionRequest
-            type: Calcinai\Siri\Objects\GeneralMessageSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: GeneralMessageSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\GeneralMessageSubscriptionRequest>
         facilityMonitoringSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -89,7 +121,11 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getFacilityMonitoringSubscriptionRequest
                 setter: setFacilityMonitoringSubscriptionRequest
-            type: Calcinai\Siri\Objects\FacilityMonitoringSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: FacilityMonitoringSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\FacilityMonitoringSubscriptionRequest>
         situationExchangeSubscriptionRequest:
             expose: true
             access_type: public_method
@@ -99,4 +135,8 @@ Calcinai\Siri\Objects\SubscriptionRequestStructureType:
             accessor:
                 getter: getSituationExchangeSubscriptionRequest
                 setter: setSituationExchangeSubscriptionRequest
-            type: Calcinai\Siri\Objects\SituationExchangeSubscriptionRequest
+            xml_list:
+                inline: true
+                entry_name: SituationExchangeSubscriptionRequest
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\SituationExchangeSubscriptionRequest>

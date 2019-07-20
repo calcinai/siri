@@ -94,23 +94,29 @@ class OptionalTrafficElementStructureType
     /**
      * Advice of Road Situation as specified by Datex2 model.
      *
-     * @property \Calcinai\Siri\Objects\Datex\AdviceType $advice
+     * @property \Calcinai\Siri\Objects\Datex\AdviceType[] $advice
      */
-    private $advice = null;
+    private $advice = [
+        
+    ];
 
     /**
      * Datex 2 comments for public use
      *
-     * @property \Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment
+     * @property \Calcinai\Siri\Objects\Datex\CommentType[] $generalPublicComment
      */
-    private $generalPublicComment = null;
+    private $generalPublicComment = [
+        
+    ];
 
     /**
      * Ccomments not for public use
      *
-     * @property \Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment
+     * @property \Calcinai\Siri\Objects\Datex\CommentType[] $nonGeneralPublicComment
      */
-    private $nonGeneralPublicComment = null;
+    private $nonGeneralPublicComment = [
+        
+    ];
 
     /**
      * Datex 2 model of where event ois taking place on teh road
@@ -439,11 +445,51 @@ class OptionalTrafficElementStructureType
     }
 
     /**
+     * Adds as advice
+     *
+     * Advice of Road Situation as specified by Datex2 model.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\Datex\AdviceType $advice
+     */
+    public function addToAdvice(\Calcinai\Siri\Objects\Datex\AdviceType $advice)
+    {
+        $this->advice[] = $advice;
+        return $this;
+    }
+
+    /**
+     * isset advice
+     *
+     * Advice of Road Situation as specified by Datex2 model.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetAdvice($index)
+    {
+        return isset($this->advice[$index]);
+    }
+
+    /**
+     * unset advice
+     *
+     * Advice of Road Situation as specified by Datex2 model.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetAdvice($index)
+    {
+        unset($this->advice[$index]);
+    }
+
+    /**
      * Gets as advice
      *
      * Advice of Road Situation as specified by Datex2 model.
      *
-     * @return \Calcinai\Siri\Objects\Datex\AdviceType
+     * @return \Calcinai\Siri\Objects\Datex\AdviceType[]
      */
     public function getAdvice()
     {
@@ -455,13 +501,53 @@ class OptionalTrafficElementStructureType
      *
      * Advice of Road Situation as specified by Datex2 model.
      *
-     * @param \Calcinai\Siri\Objects\Datex\AdviceType $advice
+     * @param \Calcinai\Siri\Objects\Datex\AdviceType[] $advice
      * @return self
      */
-    public function setAdvice(\Calcinai\Siri\Objects\Datex\AdviceType $advice)
+    public function setAdvice(array $advice)
     {
         $this->advice = $advice;
         return $this;
+    }
+
+    /**
+     * Adds as generalPublicComment
+     *
+     * Datex 2 comments for public use
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment
+     */
+    public function addToGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment)
+    {
+        $this->generalPublicComment[] = $generalPublicComment;
+        return $this;
+    }
+
+    /**
+     * isset generalPublicComment
+     *
+     * Datex 2 comments for public use
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetGeneralPublicComment($index)
+    {
+        return isset($this->generalPublicComment[$index]);
+    }
+
+    /**
+     * unset generalPublicComment
+     *
+     * Datex 2 comments for public use
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetGeneralPublicComment($index)
+    {
+        unset($this->generalPublicComment[$index]);
     }
 
     /**
@@ -469,7 +555,7 @@ class OptionalTrafficElementStructureType
      *
      * Datex 2 comments for public use
      *
-     * @return \Calcinai\Siri\Objects\Datex\CommentType
+     * @return \Calcinai\Siri\Objects\Datex\CommentType[]
      */
     public function getGeneralPublicComment()
     {
@@ -481,13 +567,53 @@ class OptionalTrafficElementStructureType
      *
      * Datex 2 comments for public use
      *
-     * @param \Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType[] $generalPublicComment
      * @return self
      */
-    public function setGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $generalPublicComment)
+    public function setGeneralPublicComment(array $generalPublicComment)
     {
         $this->generalPublicComment = $generalPublicComment;
         return $this;
+    }
+
+    /**
+     * Adds as nonGeneralPublicComment
+     *
+     * Ccomments not for public use
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment
+     */
+    public function addToNonGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment)
+    {
+        $this->nonGeneralPublicComment[] = $nonGeneralPublicComment;
+        return $this;
+    }
+
+    /**
+     * isset nonGeneralPublicComment
+     *
+     * Ccomments not for public use
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetNonGeneralPublicComment($index)
+    {
+        return isset($this->nonGeneralPublicComment[$index]);
+    }
+
+    /**
+     * unset nonGeneralPublicComment
+     *
+     * Ccomments not for public use
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetNonGeneralPublicComment($index)
+    {
+        unset($this->nonGeneralPublicComment[$index]);
     }
 
     /**
@@ -495,7 +621,7 @@ class OptionalTrafficElementStructureType
      *
      * Ccomments not for public use
      *
-     * @return \Calcinai\Siri\Objects\Datex\CommentType
+     * @return \Calcinai\Siri\Objects\Datex\CommentType[]
      */
     public function getNonGeneralPublicComment()
     {
@@ -507,10 +633,10 @@ class OptionalTrafficElementStructureType
      *
      * Ccomments not for public use
      *
-     * @param \Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment
+     * @param \Calcinai\Siri\Objects\Datex\CommentType[] $nonGeneralPublicComment
      * @return self
      */
-    public function setNonGeneralPublicComment(\Calcinai\Siri\Objects\Datex\CommentType $nonGeneralPublicComment)
+    public function setNonGeneralPublicComment(array $nonGeneralPublicComment)
     {
         $this->nonGeneralPublicComment = $nonGeneralPublicComment;
         return $this;

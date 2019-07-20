@@ -19,14 +19,18 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\GeneralMessage $generalMessage
+     * @property \Calcinai\Siri\Objects\GeneralMessage[] $generalMessage
      */
-    private $generalMessage = null;
+    private $generalMessage = [
+        
+    ];
 
     /**
-     * @property \Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation
+     * @property \Calcinai\Siri\Objects\GeneralMessageCancellation[] $generalMessageCancellation
      */
-    private $generalMessageCancellation = null;
+    private $generalMessageCancellation = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -60,9 +64,43 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     }
 
     /**
+     * Adds as generalMessage
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\GeneralMessage $generalMessage
+     */
+    public function addToGeneralMessage(\Calcinai\Siri\Objects\GeneralMessage $generalMessage)
+    {
+        $this->generalMessage[] = $generalMessage;
+        return $this;
+    }
+
+    /**
+     * isset generalMessage
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetGeneralMessage($index)
+    {
+        return isset($this->generalMessage[$index]);
+    }
+
+    /**
+     * unset generalMessage
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetGeneralMessage($index)
+    {
+        unset($this->generalMessage[$index]);
+    }
+
+    /**
      * Gets as generalMessage
      *
-     * @return \Calcinai\Siri\Objects\GeneralMessage
+     * @return \Calcinai\Siri\Objects\GeneralMessage[]
      */
     public function getGeneralMessage()
     {
@@ -72,19 +110,53 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Sets a new generalMessage
      *
-     * @param \Calcinai\Siri\Objects\GeneralMessage $generalMessage
+     * @param \Calcinai\Siri\Objects\GeneralMessage[] $generalMessage
      * @return self
      */
-    public function setGeneralMessage(\Calcinai\Siri\Objects\GeneralMessage $generalMessage)
+    public function setGeneralMessage(array $generalMessage)
     {
         $this->generalMessage = $generalMessage;
         return $this;
     }
 
     /**
+     * Adds as generalMessageCancellation
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation
+     */
+    public function addToGeneralMessageCancellation(\Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation)
+    {
+        $this->generalMessageCancellation[] = $generalMessageCancellation;
+        return $this;
+    }
+
+    /**
+     * isset generalMessageCancellation
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetGeneralMessageCancellation($index)
+    {
+        return isset($this->generalMessageCancellation[$index]);
+    }
+
+    /**
+     * unset generalMessageCancellation
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetGeneralMessageCancellation($index)
+    {
+        unset($this->generalMessageCancellation[$index]);
+    }
+
+    /**
      * Gets as generalMessageCancellation
      *
-     * @return \Calcinai\Siri\Objects\GeneralMessageCancellation
+     * @return \Calcinai\Siri\Objects\GeneralMessageCancellation[]
      */
     public function getGeneralMessageCancellation()
     {
@@ -94,10 +166,10 @@ class GeneralMessageDeliveryStructureType extends AbstractServiceDeliveryStructu
     /**
      * Sets a new generalMessageCancellation
      *
-     * @param \Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation
+     * @param \Calcinai\Siri\Objects\GeneralMessageCancellation[] $generalMessageCancellation
      * @return self
      */
-    public function setGeneralMessageCancellation(\Calcinai\Siri\Objects\GeneralMessageCancellation $generalMessageCancellation)
+    public function setGeneralMessageCancellation(array $generalMessageCancellation)
     {
         $this->generalMessageCancellation = $generalMessageCancellation;
         return $this;

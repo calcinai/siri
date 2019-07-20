@@ -72,16 +72,20 @@ class FacilityLocationStructureType
     /**
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $serviceFeatureRef
+     * @property string[] $serviceFeatureRef
      */
-    private $serviceFeatureRef = null;
+    private $serviceFeatureRef = [
+        
+    ];
 
     /**
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $vehicleFeatureRef
+     * @property string[] $vehicleFeatureRef
      */
-    private $vehicleFeatureRef = null;
+    private $vehicleFeatureRef = [
+        
+    ];
 
     /**
      * Gets as lineRef
@@ -320,11 +324,51 @@ class FacilityLocationStructureType
     }
 
     /**
+     * Adds as serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $serviceFeatureRef
+     */
+    public function addToServiceFeatureRef($serviceFeatureRef)
+    {
+        $this->serviceFeatureRef[] = $serviceFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetServiceFeatureRef($index)
+    {
+        return isset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
+     * unset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetServiceFeatureRef($index)
+    {
+        unset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
      * Gets as serviceFeatureRef
      *
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getServiceFeatureRef()
     {
@@ -339,10 +383,50 @@ class FacilityLocationStructureType
      * @param string $serviceFeatureRef
      * @return self
      */
-    public function setServiceFeatureRef($serviceFeatureRef)
+    public function setServiceFeatureRef(array $serviceFeatureRef)
     {
         $this->serviceFeatureRef = $serviceFeatureRef;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $vehicleFeatureRef
+     */
+    public function addToVehicleFeatureRef($vehicleFeatureRef)
+    {
+        $this->vehicleFeatureRef[] = $vehicleFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleFeatureRef($index)
+    {
+        return isset($this->vehicleFeatureRef[$index]);
+    }
+
+    /**
+     * unset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleFeatureRef($index)
+    {
+        unset($this->vehicleFeatureRef[$index]);
     }
 
     /**
@@ -350,7 +434,7 @@ class FacilityLocationStructureType
      *
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleFeatureRef()
     {
@@ -365,7 +449,7 @@ class FacilityLocationStructureType
      * @param string $vehicleFeatureRef
      * @return self
      */
-    public function setVehicleFeatureRef($vehicleFeatureRef)
+    public function setVehicleFeatureRef(array $vehicleFeatureRef)
     {
         $this->vehicleFeatureRef = $vehicleFeatureRef;
         return $this;

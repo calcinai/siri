@@ -1,0 +1,12 @@
+Calcinai\Siri\Objects\GeneralMessageDeliveriesStructureType:
+    properties:
+        generalMessageDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: GeneralMessageDelivery
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getGeneralMessageDelivery
+                setter: setGeneralMessageDelivery
+            type: Calcinai\Siri\Objects\GeneralMessageDelivery

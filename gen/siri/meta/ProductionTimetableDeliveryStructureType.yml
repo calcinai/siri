@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\ProductionTimetableDeliveryStructureType:
             accessor:
                 getter: getDatedTimetableVersionFrame
                 setter: setDatedTimetableVersionFrame
-            type: Calcinai\Siri\Objects\DatedTimetableVersionFrame
+            xml_list:
+                inline: true
+                entry_name: DatedTimetableVersionFrame
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\DatedTimetableVersionFrame>
         extensions:
             expose: true
             access_type: public_method

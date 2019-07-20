@@ -42,9 +42,11 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
     /**
      * Return only the specified journeys
      *
-     * @property \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter
+     * @property \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType[] $connectingJourneyFilter
      */
-    private $connectingJourneyFilter = null;
+    private $connectingJourneyFilter = [
+        
+    ];
 
     /**
      * Preferred language in which to return text values.
@@ -163,11 +165,51 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
     }
 
     /**
+     * Adds as connectingJourneyFilter
+     *
+     * Return only the specified journeys
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter
+     */
+    public function addToConnectingJourneyFilter(\Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter)
+    {
+        $this->connectingJourneyFilter[] = $connectingJourneyFilter;
+        return $this;
+    }
+
+    /**
+     * isset connectingJourneyFilter
+     *
+     * Return only the specified journeys
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetConnectingJourneyFilter($index)
+    {
+        return isset($this->connectingJourneyFilter[$index]);
+    }
+
+    /**
+     * unset connectingJourneyFilter
+     *
+     * Return only the specified journeys
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetConnectingJourneyFilter($index)
+    {
+        unset($this->connectingJourneyFilter[$index]);
+    }
+
+    /**
      * Gets as connectingJourneyFilter
      *
      * Return only the specified journeys
      *
-     * @return \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType
+     * @return \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType[]
      */
     public function getConnectingJourneyFilter()
     {
@@ -179,10 +221,10 @@ class ConnectionMonitoringRequestStructureType extends AbstractFunctionalService
      *
      * Return only the specified journeys
      *
-     * @param \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter
+     * @param \Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType[] $connectingJourneyFilter
      * @return self
      */
-    public function setConnectingJourneyFilter(\Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType $connectingJourneyFilter)
+    public function setConnectingJourneyFilter(array $connectingJourneyFilter)
     {
         $this->connectingJourneyFilter = $connectingJourneyFilter;
         return $this;

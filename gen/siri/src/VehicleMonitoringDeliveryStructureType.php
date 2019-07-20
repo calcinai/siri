@@ -21,23 +21,29 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
     /**
      * Describes the progress of a vehicle along its route.
      *
-     * @property \Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity
+     * @property \Calcinai\Siri\Objects\VehicleActivityStructureType[] $vehicleActivity
      */
-    private $vehicleActivity = null;
+    private $vehicleActivity = [
+        
+    ];
 
     /**
      * Reference to an previously communicated vehicle activity which should now be removed from the system.
      *
-     * @property \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation
+     * @property \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType[] $vehicleActivityCancellation
      */
-    private $vehicleActivityCancellation = null;
+    private $vehicleActivityCancellation = [
+        
+    ];
 
     /**
      * Annotation to accompany of Vehicle Activities.
      *
-     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $vehicleActivityNote
      */
-    private $vehicleActivityNote = null;
+    private $vehicleActivityNote = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -71,11 +77,51 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
     }
 
     /**
+     * Adds as vehicleActivity
+     *
+     * Describes the progress of a vehicle along its route.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity
+     */
+    public function addToVehicleActivity(\Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity)
+    {
+        $this->vehicleActivity[] = $vehicleActivity;
+        return $this;
+    }
+
+    /**
+     * isset vehicleActivity
+     *
+     * Describes the progress of a vehicle along its route.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleActivity($index)
+    {
+        return isset($this->vehicleActivity[$index]);
+    }
+
+    /**
+     * unset vehicleActivity
+     *
+     * Describes the progress of a vehicle along its route.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleActivity($index)
+    {
+        unset($this->vehicleActivity[$index]);
+    }
+
+    /**
      * Gets as vehicleActivity
      *
      * Describes the progress of a vehicle along its route.
      *
-     * @return \Calcinai\Siri\Objects\VehicleActivityStructureType
+     * @return \Calcinai\Siri\Objects\VehicleActivityStructureType[]
      */
     public function getVehicleActivity()
     {
@@ -87,13 +133,53 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Describes the progress of a vehicle along its route.
      *
-     * @param \Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity
+     * @param \Calcinai\Siri\Objects\VehicleActivityStructureType[] $vehicleActivity
      * @return self
      */
-    public function setVehicleActivity(\Calcinai\Siri\Objects\VehicleActivityStructureType $vehicleActivity)
+    public function setVehicleActivity(array $vehicleActivity)
     {
         $this->vehicleActivity = $vehicleActivity;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleActivityCancellation
+     *
+     * Reference to an previously communicated vehicle activity which should now be removed from the system.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation
+     */
+    public function addToVehicleActivityCancellation(\Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation)
+    {
+        $this->vehicleActivityCancellation[] = $vehicleActivityCancellation;
+        return $this;
+    }
+
+    /**
+     * isset vehicleActivityCancellation
+     *
+     * Reference to an previously communicated vehicle activity which should now be removed from the system.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleActivityCancellation($index)
+    {
+        return isset($this->vehicleActivityCancellation[$index]);
+    }
+
+    /**
+     * unset vehicleActivityCancellation
+     *
+     * Reference to an previously communicated vehicle activity which should now be removed from the system.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleActivityCancellation($index)
+    {
+        unset($this->vehicleActivityCancellation[$index]);
     }
 
     /**
@@ -101,7 +187,7 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Reference to an previously communicated vehicle activity which should now be removed from the system.
      *
-     * @return \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType
+     * @return \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType[]
      */
     public function getVehicleActivityCancellation()
     {
@@ -113,13 +199,53 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Reference to an previously communicated vehicle activity which should now be removed from the system.
      *
-     * @param \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation
+     * @param \Calcinai\Siri\Objects\VehicleActivityCancellationStructureType[] $vehicleActivityCancellation
      * @return self
      */
-    public function setVehicleActivityCancellation(\Calcinai\Siri\Objects\VehicleActivityCancellationStructureType $vehicleActivityCancellation)
+    public function setVehicleActivityCancellation(array $vehicleActivityCancellation)
     {
         $this->vehicleActivityCancellation = $vehicleActivityCancellation;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleActivityNote
+     *
+     * Annotation to accompany of Vehicle Activities.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote
+     */
+    public function addToVehicleActivityNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote)
+    {
+        $this->vehicleActivityNote[] = $vehicleActivityNote;
+        return $this;
+    }
+
+    /**
+     * isset vehicleActivityNote
+     *
+     * Annotation to accompany of Vehicle Activities.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleActivityNote($index)
+    {
+        return isset($this->vehicleActivityNote[$index]);
+    }
+
+    /**
+     * unset vehicleActivityNote
+     *
+     * Annotation to accompany of Vehicle Activities.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleActivityNote($index)
+    {
+        unset($this->vehicleActivityNote[$index]);
     }
 
     /**
@@ -127,7 +253,7 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Annotation to accompany of Vehicle Activities.
      *
-     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[]
      */
     public function getVehicleActivityNote()
     {
@@ -139,10 +265,10 @@ class VehicleMonitoringDeliveryStructureType extends AbstractServiceDeliveryStru
      *
      * Annotation to accompany of Vehicle Activities.
      *
-     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $vehicleActivityNote
      * @return self
      */
-    public function setVehicleActivityNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $vehicleActivityNote)
+    public function setVehicleActivityNote(array $vehicleActivityNote)
     {
         $this->vehicleActivityNote = $vehicleActivityNote;
         return $this;

@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\FacilityMonitoringDeliveryStructureType:
             accessor:
                 getter: getFacilityCondition
                 setter: setFacilityCondition
-            type: Calcinai\Siri\Objects\FacilityConditionStructureType
+            xml_list:
+                inline: true
+                entry_name: FacilityCondition
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\FacilityConditionStructureType>
         extensions:
             expose: true
             access_type: public_method

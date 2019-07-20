@@ -29,4 +29,8 @@ Calcinai\Siri\Objects\TerminateSubscriptionRequestStructureType:
             accessor:
                 getter: getSubscriptionRef
                 setter: setSubscriptionRef
-            type: Calcinai\Siri\Objects\SubscriptionQualifierStructureType
+            xml_list:
+                inline: true
+                entry_name: SubscriptionRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\SubscriptionQualifierStructureType>

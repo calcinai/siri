@@ -21,9 +21,11 @@ class GeneralMessageRequestStructureType extends AbstractFunctionalServiceReques
     /**
      * Identifier of channel for which messages are to be returned
      *
-     * @property string $infoChannelRef
+     * @property string[] $infoChannelRef
      */
-    private $infoChannelRef = null;
+    private $infoChannelRef = [
+        
+    ];
 
     /**
      * Preferred language in which to return text values.
@@ -64,11 +66,51 @@ class GeneralMessageRequestStructureType extends AbstractFunctionalServiceReques
     }
 
     /**
+     * Adds as infoChannelRef
+     *
+     * Identifier of channel for which messages are to be returned
+     *
+     * @return self
+     * @param string $infoChannelRef
+     */
+    public function addToInfoChannelRef($infoChannelRef)
+    {
+        $this->infoChannelRef[] = $infoChannelRef;
+        return $this;
+    }
+
+    /**
+     * isset infoChannelRef
+     *
+     * Identifier of channel for which messages are to be returned
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetInfoChannelRef($index)
+    {
+        return isset($this->infoChannelRef[$index]);
+    }
+
+    /**
+     * unset infoChannelRef
+     *
+     * Identifier of channel for which messages are to be returned
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetInfoChannelRef($index)
+    {
+        unset($this->infoChannelRef[$index]);
+    }
+
+    /**
      * Gets as infoChannelRef
      *
      * Identifier of channel for which messages are to be returned
      *
-     * @return string
+     * @return string[]
      */
     public function getInfoChannelRef()
     {
@@ -83,7 +125,7 @@ class GeneralMessageRequestStructureType extends AbstractFunctionalServiceReques
      * @param string $infoChannelRef
      * @return self
      */
-    public function setInfoChannelRef($infoChannelRef)
+    public function setInfoChannelRef(array $infoChannelRef)
     {
         $this->infoChannelRef = $infoChannelRef;
         return $this;

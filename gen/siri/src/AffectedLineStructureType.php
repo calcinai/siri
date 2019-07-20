@@ -21,9 +21,11 @@ class AffectedLineStructureType
     ];
 
     /**
-     * @property string $lineRef
+     * @property string[] $lineRef
      */
-    private $lineRef = null;
+    private $lineRef = [
+        
+    ];
 
     /**
      * Destinations to which the line runs
@@ -129,9 +131,43 @@ class AffectedLineStructureType
     }
 
     /**
+     * Adds as lineRef
+     *
+     * @return self
+     * @param string $lineRef
+     */
+    public function addToLineRef($lineRef)
+    {
+        $this->lineRef[] = $lineRef;
+        return $this;
+    }
+
+    /**
+     * isset lineRef
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetLineRef($index)
+    {
+        return isset($this->lineRef[$index]);
+    }
+
+    /**
+     * unset lineRef
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetLineRef($index)
+    {
+        unset($this->lineRef[$index]);
+    }
+
+    /**
      * Gets as lineRef
      *
-     * @return string
+     * @return string[]
      */
     public function getLineRef()
     {
@@ -144,7 +180,7 @@ class AffectedLineStructureType
      * @param string $lineRef
      * @return self
      */
-    public function setLineRef($lineRef)
+    public function setLineRef(array $lineRef)
     {
         $this->lineRef = $lineRef;
         return $this;

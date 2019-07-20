@@ -48,7 +48,11 @@ Calcinai\Siri\Objects\ConnectionMonitoringRequestStructureType:
             accessor:
                 getter: getConnectingJourneyFilter
                 setter: setConnectingJourneyFilter
-            type: Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType
+            xml_list:
+                inline: true
+                entry_name: ConnectingJourneyFilter
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ConnectingJourneyFilterStructureType>
         language:
             expose: true
             access_type: public_method

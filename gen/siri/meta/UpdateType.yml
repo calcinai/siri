@@ -1,0 +1,17 @@
+Calcinai\Siri\Objects\UpdateType:
+    properties:
+        strings:
+            expose: true
+            access_type: public_method
+            serialized_name: strings
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getStrings
+                setter: setStrings
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: string
+                skip_when_empty: false
+                namespace: 'http://www.siri.org.uk/siri'

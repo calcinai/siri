@@ -9,4 +9,8 @@ Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType:
             accessor:
                 getter: getTerminationResponseStatus
                 setter: setTerminationResponseStatus
-            type: Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType
+            xml_list:
+                inline: true
+                entry_name: TerminationResponseStatus
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\TerminateSubscriptionResponseStructureType\TerminationResponseStatusAType>

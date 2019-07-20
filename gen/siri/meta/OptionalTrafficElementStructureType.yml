@@ -129,7 +129,11 @@ Calcinai\Siri\Objects\OptionalTrafficElementStructureType:
             accessor:
                 getter: getAdvice
                 setter: setAdvice
-            type: Calcinai\Siri\Objects\Datex\AdviceType
+            xml_list:
+                inline: true
+                entry_name: advice
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\Datex\AdviceType>
         generalPublicComment:
             expose: true
             access_type: public_method
@@ -139,7 +143,11 @@ Calcinai\Siri\Objects\OptionalTrafficElementStructureType:
             accessor:
                 getter: getGeneralPublicComment
                 setter: setGeneralPublicComment
-            type: Calcinai\Siri\Objects\Datex\CommentType
+            xml_list:
+                inline: true
+                entry_name: generalPublicComment
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\Datex\CommentType>
         nonGeneralPublicComment:
             expose: true
             access_type: public_method
@@ -149,7 +157,11 @@ Calcinai\Siri\Objects\OptionalTrafficElementStructureType:
             accessor:
                 getter: getNonGeneralPublicComment
                 setter: setNonGeneralPublicComment
-            type: Calcinai\Siri\Objects\Datex\CommentType
+            xml_list:
+                inline: true
+                entry_name: nonGeneralPublicComment
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\Datex\CommentType>
         groupOfLocations:
             expose: true
             access_type: public_method

@@ -28,9 +28,11 @@ class TerminateSubscriptionRequestStructureType extends RequestStructureType
     /**
      * Terminate the subscription identfiied by the reference.
      *
-     * @property string $subscriptionRef
+     * @property string[] $subscriptionRef
      */
-    private $subscriptionRef = null;
+    private $subscriptionRef = [
+        
+    ];
 
     /**
      * Gets as subscriberRef
@@ -85,11 +87,51 @@ class TerminateSubscriptionRequestStructureType extends RequestStructureType
     }
 
     /**
+     * Adds as subscriptionRef
+     *
+     * Terminate the subscription identfiied by the reference.
+     *
+     * @return self
+     * @param string $subscriptionRef
+     */
+    public function addToSubscriptionRef($subscriptionRef)
+    {
+        $this->subscriptionRef[] = $subscriptionRef;
+        return $this;
+    }
+
+    /**
+     * isset subscriptionRef
+     *
+     * Terminate the subscription identfiied by the reference.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetSubscriptionRef($index)
+    {
+        return isset($this->subscriptionRef[$index]);
+    }
+
+    /**
+     * unset subscriptionRef
+     *
+     * Terminate the subscription identfiied by the reference.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetSubscriptionRef($index)
+    {
+        unset($this->subscriptionRef[$index]);
+    }
+
+    /**
      * Gets as subscriptionRef
      *
      * Terminate the subscription identfiied by the reference.
      *
-     * @return string
+     * @return string[]
      */
     public function getSubscriptionRef()
     {
@@ -104,7 +146,7 @@ class TerminateSubscriptionRequestStructureType extends RequestStructureType
      * @param string $subscriptionRef
      * @return self
      */
-    public function setSubscriptionRef($subscriptionRef)
+    public function setSubscriptionRef(array $subscriptionRef)
     {
         $this->subscriptionRef = $subscriptionRef;
         return $this;

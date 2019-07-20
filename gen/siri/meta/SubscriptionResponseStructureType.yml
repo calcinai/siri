@@ -9,7 +9,11 @@ Calcinai\Siri\Objects\SubscriptionResponseStructureType:
             accessor:
                 getter: getResponseStatus
                 setter: setResponseStatus
-            type: Calcinai\Siri\Objects\ResponseStatus
+            xml_list:
+                inline: true
+                entry_name: ResponseStatus
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ResponseStatus>
         subscriptionManagerAddress:
             expose: true
             access_type: public_method

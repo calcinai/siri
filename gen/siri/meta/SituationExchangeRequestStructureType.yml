@@ -138,7 +138,11 @@ Calcinai\Siri\Objects\SituationExchangeRequestStructureType:
             accessor:
                 getter: getScope
                 setter: setScope
-            type: string
+            xml_list:
+                inline: true
+                entry_name: Scope
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
         predictability:
             expose: true
             access_type: public_method
@@ -178,7 +182,11 @@ Calcinai\Siri\Objects\SituationExchangeRequestStructureType:
             accessor:
                 getter: getProgress
                 setter: setProgress
-            type: string
+            xml_list:
+                inline: true
+                entry_name: Progress
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
         reality:
             expose: true
             access_type: public_method
@@ -208,7 +216,11 @@ Calcinai\Siri\Objects\SituationExchangeRequestStructureType:
             accessor:
                 getter: getOperationalUnitRef
                 setter: setOperationalUnitRef
-            type: Calcinai\Siri\Objects\OperationalUnitRefStructureType
+            xml_list:
+                inline: true
+                entry_name: OperationalUnitRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\OperationalUnitRefStructureType>
         networkRef:
             expose: true
             access_type: public_method
@@ -228,7 +240,11 @@ Calcinai\Siri\Objects\SituationExchangeRequestStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\Objects\LineRef
+            xml_list:
+                inline: true
+                entry_name: LineRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\LineRef>
         stopPointRef:
             expose: true
             access_type: public_method
@@ -248,7 +264,11 @@ Calcinai\Siri\Objects\SituationExchangeRequestStructureType:
             accessor:
                 getter: getConnectionLinkRef
                 setter: setConnectionLinkRef
-            type: Calcinai\Siri\Objects\ConnectionLinkRef
+            xml_list:
+                inline: true
+                entry_name: ConnectionLinkRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ConnectionLinkRef>
         facilityRef:
             expose: true
             access_type: public_method
@@ -258,7 +278,11 @@ Calcinai\Siri\Objects\SituationExchangeRequestStructureType:
             accessor:
                 getter: getFacilityRef
                 setter: setFacilityRef
-            type: Calcinai\Siri\Objects\FacilityRef
+            xml_list:
+                inline: true
+                entry_name: FacilityRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\FacilityRef>
         stopPlaceRef:
             expose: true
             access_type: public_method
@@ -353,7 +377,11 @@ Calcinai\Siri\Objects\SituationExchangeRequestStructureType:
             accessor:
                 getter: getAccessibilityNeedFilter
                 setter: setAccessibilityNeedFilter
-            type: Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType
+            xml_list:
+                inline: true
+                entry_name: AccessibilityNeedFilter
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ACSB\PassengerAccessibilityNeedsStructureType>
         language:
             expose: true
             access_type: public_method

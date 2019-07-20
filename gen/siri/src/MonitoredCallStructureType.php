@@ -73,16 +73,20 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Text annotation that applies to this call.
      *
-     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote
+     * @property \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $callNote
      */
-    private $callNote = null;
+    private $callNote = [
+        
+    ];
 
     /**
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @property \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
+     * @property \Calcinai\Siri\Objects\FacilityConditionElement[] $facilityConditionElement
      */
-    private $facilityConditionElement = null;
+    private $facilityConditionElement = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
@@ -90,9 +94,11 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
     private $facilityChangeElement = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef[] $situationRef
      */
-    private $situationRef = null;
+    private $situationRef = [
+        
+    ];
 
     /**
      * @property \DateTime $aimedArrivalTime
@@ -396,11 +402,51 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
     }
 
     /**
+     * Adds as callNote
+     *
+     * Text annotation that applies to this call.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote
+     */
+    public function addToCallNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote)
+    {
+        $this->callNote[] = $callNote;
+        return $this;
+    }
+
+    /**
+     * isset callNote
+     *
+     * Text annotation that applies to this call.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetCallNote($index)
+    {
+        return isset($this->callNote[$index]);
+    }
+
+    /**
+     * unset callNote
+     *
+     * Text annotation that applies to this call.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetCallNote($index)
+    {
+        unset($this->callNote[$index]);
+    }
+
+    /**
      * Gets as callNote
      *
      * Text annotation that applies to this call.
      *
-     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType
+     * @return \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[]
      */
     public function getCallNote()
     {
@@ -412,13 +458,53 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
      *
      * Text annotation that applies to this call.
      *
-     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote
+     * @param \Calcinai\Siri\Objects\NaturalLanguageStringStructureType[] $callNote
      * @return self
      */
-    public function setCallNote(\Calcinai\Siri\Objects\NaturalLanguageStringStructureType $callNote)
+    public function setCallNote(array $callNote)
     {
         $this->callNote = $callNote;
         return $this;
+    }
+
+    /**
+     * Adds as facilityConditionElement
+     *
+     * Information about a change of Equipment availabiltiy at stop that may affect access or use.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
+     */
+    public function addToFacilityConditionElement(\Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement)
+    {
+        $this->facilityConditionElement[] = $facilityConditionElement;
+        return $this;
+    }
+
+    /**
+     * isset facilityConditionElement
+     *
+     * Information about a change of Equipment availabiltiy at stop that may affect access or use.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetFacilityConditionElement($index)
+    {
+        return isset($this->facilityConditionElement[$index]);
+    }
+
+    /**
+     * unset facilityConditionElement
+     *
+     * Information about a change of Equipment availabiltiy at stop that may affect access or use.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetFacilityConditionElement($index)
+    {
+        unset($this->facilityConditionElement[$index]);
     }
 
     /**
@@ -426,7 +512,7 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @return \Calcinai\Siri\Objects\FacilityConditionElement
+     * @return \Calcinai\Siri\Objects\FacilityConditionElement[]
      */
     public function getFacilityConditionElement()
     {
@@ -438,10 +524,10 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @param \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
+     * @param \Calcinai\Siri\Objects\FacilityConditionElement[] $facilityConditionElement
      * @return self
      */
-    public function setFacilityConditionElement(\Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement)
+    public function setFacilityConditionElement(array $facilityConditionElement)
     {
         $this->facilityConditionElement = $facilityConditionElement;
         return $this;
@@ -470,9 +556,43 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
     }
 
     /**
+     * Adds as situationRef
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
+     */
+    public function addToSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
+    {
+        $this->situationRef[] = $situationRef;
+        return $this;
+    }
+
+    /**
+     * isset situationRef
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetSituationRef($index)
+    {
+        return isset($this->situationRef[$index]);
+    }
+
+    /**
+     * unset situationRef
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetSituationRef($index)
+    {
+        unset($this->situationRef[$index]);
+    }
+
+    /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\Objects\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef[]
      */
     public function getSituationRef()
     {
@@ -482,10 +602,10 @@ class MonitoredCallStructureType extends AbstractMonitoredCallStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef[] $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
+    public function setSituationRef(array $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;

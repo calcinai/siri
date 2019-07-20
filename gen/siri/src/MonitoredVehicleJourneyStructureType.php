@@ -42,9 +42,11 @@ class MonitoredVehicleJourneyStructureType
     /**
      * A method of transportation such as bus, rail, etc.
      *
-     * @property string $vehicleMode
+     * @property string[] $vehicleMode
      */
-    private $vehicleMode = null;
+    private $vehicleMode = [
+        
+    ];
 
     /**
      * Identifier of Route that Journey follows.
@@ -89,16 +91,20 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $serviceFeatureRef
+     * @property string[] $serviceFeatureRef
      */
-    private $serviceFeatureRef = null;
+    private $serviceFeatureRef = [
+        
+    ];
 
     /**
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $vehicleFeatureRef
+     * @property string[] $vehicleFeatureRef
      */
-    private $vehicleFeatureRef = null;
+    private $vehicleFeatureRef = [
+        
+    ];
 
     /**
      * @property string $originRef
@@ -122,9 +128,11 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @property \Calcinai\Siri\Objects\PlaceNameStructureType $via
+     * @property \Calcinai\Siri\Objects\PlaceNameStructureType[] $via
      */
-    private $via = null;
+    private $via = [
+        
+    ];
 
     /**
      * @property string $destinationRef
@@ -153,9 +161,11 @@ class MonitoredVehicleJourneyStructureType
     private $vehicleJourneyName = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      */
-    private $journeyNote = null;
+    private $journeyNote = [
+        
+    ];
 
     /**
      * Whether this is a Headway Service, that is shown as operating at a prescribed interval rather than to a fixed timetable. Default is false.
@@ -181,9 +191,11 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @property \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
+     * @property \Calcinai\Siri\Objects\FacilityConditionElement[] $facilityConditionElement
      */
-    private $facilityConditionElement = null;
+    private $facilityConditionElement = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\FacilityChangeElement $facilityChangeElement
@@ -191,9 +203,11 @@ class MonitoredVehicleJourneyStructureType
     private $facilityChangeElement = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\SituationRef $situationRef
+     * @property \Calcinai\Siri\Objects\SituationRef[] $situationRef
      */
-    private $situationRef = null;
+    private $situationRef = [
+        
+    ];
 
     /**
      * Whether there is real-time information available for journey; if not present, not known.
@@ -289,9 +303,11 @@ class MonitoredVehicleJourneyStructureType
     /**
      * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
      *
-     * @property \Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart
+     * @property \Calcinai\Siri\Objects\TrainBlockPartStructureType[] $trainBlockPart
      */
-    private $trainBlockPart = null;
+    private $trainBlockPart = [
+        
+    ];
 
     /**
      * Block that vehicle is running.
@@ -447,11 +463,51 @@ class MonitoredVehicleJourneyStructureType
     }
 
     /**
+     * Adds as vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @return self
+     * @param string $vehicleMode
+     */
+    public function addToVehicleMode($vehicleMode)
+    {
+        $this->vehicleMode[] = $vehicleMode;
+        return $this;
+    }
+
+    /**
+     * isset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleMode($index)
+    {
+        return isset($this->vehicleMode[$index]);
+    }
+
+    /**
+     * unset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleMode($index)
+    {
+        unset($this->vehicleMode[$index]);
+    }
+
+    /**
      * Gets as vehicleMode
      *
      * A method of transportation such as bus, rail, etc.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleMode()
     {
@@ -466,7 +522,7 @@ class MonitoredVehicleJourneyStructureType
      * @param string $vehicleMode
      * @return self
      */
-    public function setVehicleMode($vehicleMode)
+    public function setVehicleMode(array $vehicleMode)
     {
         $this->vehicleMode = $vehicleMode;
         return $this;
@@ -625,11 +681,51 @@ class MonitoredVehicleJourneyStructureType
     }
 
     /**
+     * Adds as serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $serviceFeatureRef
+     */
+    public function addToServiceFeatureRef($serviceFeatureRef)
+    {
+        $this->serviceFeatureRef[] = $serviceFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetServiceFeatureRef($index)
+    {
+        return isset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
+     * unset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetServiceFeatureRef($index)
+    {
+        unset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
      * Gets as serviceFeatureRef
      *
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getServiceFeatureRef()
     {
@@ -644,10 +740,50 @@ class MonitoredVehicleJourneyStructureType
      * @param string $serviceFeatureRef
      * @return self
      */
-    public function setServiceFeatureRef($serviceFeatureRef)
+    public function setServiceFeatureRef(array $serviceFeatureRef)
     {
         $this->serviceFeatureRef = $serviceFeatureRef;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $vehicleFeatureRef
+     */
+    public function addToVehicleFeatureRef($vehicleFeatureRef)
+    {
+        $this->vehicleFeatureRef[] = $vehicleFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleFeatureRef($index)
+    {
+        return isset($this->vehicleFeatureRef[$index]);
+    }
+
+    /**
+     * unset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleFeatureRef($index)
+    {
+        unset($this->vehicleFeatureRef[$index]);
     }
 
     /**
@@ -655,7 +791,7 @@ class MonitoredVehicleJourneyStructureType
      *
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleFeatureRef()
     {
@@ -670,7 +806,7 @@ class MonitoredVehicleJourneyStructureType
      * @param string $vehicleFeatureRef
      * @return self
      */
-    public function setVehicleFeatureRef($vehicleFeatureRef)
+    public function setVehicleFeatureRef(array $vehicleFeatureRef)
     {
         $this->vehicleFeatureRef = $vehicleFeatureRef;
         return $this;
@@ -751,11 +887,51 @@ class MonitoredVehicleJourneyStructureType
     }
 
     /**
+     * Adds as via
+     *
+     * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\PlaceNameStructureType $via
+     */
+    public function addToVia(\Calcinai\Siri\Objects\PlaceNameStructureType $via)
+    {
+        $this->via[] = $via;
+        return $this;
+    }
+
+    /**
+     * isset via
+     *
+     * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVia($index)
+    {
+        return isset($this->via[$index]);
+    }
+
+    /**
+     * unset via
+     *
+     * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVia($index)
+    {
+        unset($this->via[$index]);
+    }
+
+    /**
      * Gets as via
      *
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @return \Calcinai\Siri\Objects\PlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\PlaceNameStructureType[]
      */
     public function getVia()
     {
@@ -767,10 +943,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @param \Calcinai\Siri\Objects\PlaceNameStructureType $via
+     * @param \Calcinai\Siri\Objects\PlaceNameStructureType[] $via
      * @return self
      */
-    public function setVia(\Calcinai\Siri\Objects\PlaceNameStructureType $via)
+    public function setVia(array $via)
     {
         $this->via = $via;
         return $this;
@@ -877,9 +1053,43 @@ class MonitoredVehicleJourneyStructureType
     }
 
     /**
+     * Adds as journeyNote
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     */
+    public function addToJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    {
+        $this->journeyNote[] = $journeyNote;
+        return $this;
+    }
+
+    /**
+     * isset journeyNote
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetJourneyNote($index)
+    {
+        return isset($this->journeyNote[$index]);
+    }
+
+    /**
+     * unset journeyNote
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetJourneyNote($index)
+    {
+        unset($this->journeyNote[$index]);
+    }
+
+    /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\Objects\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote[]
      */
     public function getJourneyNote()
     {
@@ -889,10 +1099,10 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    public function setJourneyNote(array $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;
@@ -977,11 +1187,51 @@ class MonitoredVehicleJourneyStructureType
     }
 
     /**
+     * Adds as facilityConditionElement
+     *
+     * Information about a change of Equipment availabiltiy at stop that may affect access or use.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
+     */
+    public function addToFacilityConditionElement(\Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement)
+    {
+        $this->facilityConditionElement[] = $facilityConditionElement;
+        return $this;
+    }
+
+    /**
+     * isset facilityConditionElement
+     *
+     * Information about a change of Equipment availabiltiy at stop that may affect access or use.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetFacilityConditionElement($index)
+    {
+        return isset($this->facilityConditionElement[$index]);
+    }
+
+    /**
+     * unset facilityConditionElement
+     *
+     * Information about a change of Equipment availabiltiy at stop that may affect access or use.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetFacilityConditionElement($index)
+    {
+        unset($this->facilityConditionElement[$index]);
+    }
+
+    /**
      * Gets as facilityConditionElement
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @return \Calcinai\Siri\Objects\FacilityConditionElement
+     * @return \Calcinai\Siri\Objects\FacilityConditionElement[]
      */
     public function getFacilityConditionElement()
     {
@@ -993,10 +1243,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * Information about a change of Equipment availabiltiy at stop that may affect access or use.
      *
-     * @param \Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement
+     * @param \Calcinai\Siri\Objects\FacilityConditionElement[] $facilityConditionElement
      * @return self
      */
-    public function setFacilityConditionElement(\Calcinai\Siri\Objects\FacilityConditionElement $facilityConditionElement)
+    public function setFacilityConditionElement(array $facilityConditionElement)
     {
         $this->facilityConditionElement = $facilityConditionElement;
         return $this;
@@ -1025,9 +1275,43 @@ class MonitoredVehicleJourneyStructureType
     }
 
     /**
+     * Adds as situationRef
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
+     */
+    public function addToSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
+    {
+        $this->situationRef[] = $situationRef;
+        return $this;
+    }
+
+    /**
+     * isset situationRef
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetSituationRef($index)
+    {
+        return isset($this->situationRef[$index]);
+    }
+
+    /**
+     * unset situationRef
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetSituationRef($index)
+    {
+        unset($this->situationRef[$index]);
+    }
+
+    /**
      * Gets as situationRef
      *
-     * @return \Calcinai\Siri\Objects\SituationRef
+     * @return \Calcinai\Siri\Objects\SituationRef[]
      */
     public function getSituationRef()
     {
@@ -1037,10 +1321,10 @@ class MonitoredVehicleJourneyStructureType
     /**
      * Sets a new situationRef
      *
-     * @param \Calcinai\Siri\Objects\SituationRef $situationRef
+     * @param \Calcinai\Siri\Objects\SituationRef[] $situationRef
      * @return self
      */
-    public function setSituationRef(\Calcinai\Siri\Objects\SituationRef $situationRef)
+    public function setSituationRef(array $situationRef)
     {
         $this->situationRef = $situationRef;
         return $this;
@@ -1385,11 +1669,51 @@ class MonitoredVehicleJourneyStructureType
     }
 
     /**
+     * Adds as trainBlockPart
+     *
+     * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart
+     */
+    public function addToTrainBlockPart(\Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart)
+    {
+        $this->trainBlockPart[] = $trainBlockPart;
+        return $this;
+    }
+
+    /**
+     * isset trainBlockPart
+     *
+     * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetTrainBlockPart($index)
+    {
+        return isset($this->trainBlockPart[$index]);
+    }
+
+    /**
+     * unset trainBlockPart
+     *
+     * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetTrainBlockPart($index)
+    {
+        unset($this->trainBlockPart[$index]);
+    }
+
+    /**
      * Gets as trainBlockPart
      *
      * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
      *
-     * @return \Calcinai\Siri\Objects\TrainBlockPartStructureType
+     * @return \Calcinai\Siri\Objects\TrainBlockPartStructureType[]
      */
     public function getTrainBlockPart()
     {
@@ -1401,10 +1725,10 @@ class MonitoredVehicleJourneyStructureType
      *
      * If a vehicle journey is a coupled journey, i.e. comprises several coupled block parts, there will be a separate delivery for each block part and this element will indicate the vehicles that the journey part uses.
      *
-     * @param \Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart
+     * @param \Calcinai\Siri\Objects\TrainBlockPartStructureType[] $trainBlockPart
      * @return self
      */
-    public function setTrainBlockPart(\Calcinai\Siri\Objects\TrainBlockPartStructureType $trainBlockPart)
+    public function setTrainBlockPart(array $trainBlockPart)
     {
         $this->trainBlockPart = $trainBlockPart;
         return $this;

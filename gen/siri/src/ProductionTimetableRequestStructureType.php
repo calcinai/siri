@@ -35,9 +35,11 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
     /**
      * Filter the results to include journeys for only the specified operator(s).
      *
-     * @property string $operatorRef
+     * @property string[] $operatorRef
      */
-    private $operatorRef = null;
+    private $operatorRef = [
+        
+    ];
 
     /**
      * Filter the results to include only vehicles along the given line(s).
@@ -144,11 +146,51 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
     }
 
     /**
+     * Adds as operatorRef
+     *
+     * Filter the results to include journeys for only the specified operator(s).
+     *
+     * @return self
+     * @param string $operatorRef
+     */
+    public function addToOperatorRef($operatorRef)
+    {
+        $this->operatorRef[] = $operatorRef;
+        return $this;
+    }
+
+    /**
+     * isset operatorRef
+     *
+     * Filter the results to include journeys for only the specified operator(s).
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetOperatorRef($index)
+    {
+        return isset($this->operatorRef[$index]);
+    }
+
+    /**
+     * unset operatorRef
+     *
+     * Filter the results to include journeys for only the specified operator(s).
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetOperatorRef($index)
+    {
+        unset($this->operatorRef[$index]);
+    }
+
+    /**
      * Gets as operatorRef
      *
      * Filter the results to include journeys for only the specified operator(s).
      *
-     * @return string
+     * @return string[]
      */
     public function getOperatorRef()
     {
@@ -163,7 +205,7 @@ class ProductionTimetableRequestStructureType extends AbstractFunctionalServiceR
      * @param string $operatorRef
      * @return self
      */
-    public function setOperatorRef($operatorRef)
+    public function setOperatorRef(array $operatorRef)
     {
         $this->operatorRef = $operatorRef;
         return $this;

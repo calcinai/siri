@@ -21,9 +21,11 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Estomated JorneyVersions, grouped by timetable version.
      *
-     * @property \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame
+     * @property \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType[] $estimatedJourneyVersionFrame
      */
-    private $estimatedJourneyVersionFrame = null;
+    private $estimatedJourneyVersionFrame = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -57,11 +59,51 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
     }
 
     /**
+     * Adds as estimatedJourneyVersionFrame
+     *
+     * Estomated JorneyVersions, grouped by timetable version.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame
+     */
+    public function addToEstimatedJourneyVersionFrame(\Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame)
+    {
+        $this->estimatedJourneyVersionFrame[] = $estimatedJourneyVersionFrame;
+        return $this;
+    }
+
+    /**
+     * isset estimatedJourneyVersionFrame
+     *
+     * Estomated JorneyVersions, grouped by timetable version.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetEstimatedJourneyVersionFrame($index)
+    {
+        return isset($this->estimatedJourneyVersionFrame[$index]);
+    }
+
+    /**
+     * unset estimatedJourneyVersionFrame
+     *
+     * Estomated JorneyVersions, grouped by timetable version.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetEstimatedJourneyVersionFrame($index)
+    {
+        unset($this->estimatedJourneyVersionFrame[$index]);
+    }
+
+    /**
      * Gets as estimatedJourneyVersionFrame
      *
      * Estomated JorneyVersions, grouped by timetable version.
      *
-     * @return \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType
+     * @return \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType[]
      */
     public function getEstimatedJourneyVersionFrame()
     {
@@ -73,10 +115,10 @@ class EstimatedTimetableDeliveryStructureType extends AbstractServiceDeliveryStr
      *
      * Estomated JorneyVersions, grouped by timetable version.
      *
-     * @param \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame
+     * @param \Calcinai\Siri\Objects\EstimatedVersionFrameStructureType[] $estimatedJourneyVersionFrame
      * @return self
      */
-    public function setEstimatedJourneyVersionFrame(\Calcinai\Siri\Objects\EstimatedVersionFrameStructureType $estimatedJourneyVersionFrame)
+    public function setEstimatedJourneyVersionFrame(array $estimatedJourneyVersionFrame)
     {
         $this->estimatedJourneyVersionFrame = $estimatedJourneyVersionFrame;
         return $this;

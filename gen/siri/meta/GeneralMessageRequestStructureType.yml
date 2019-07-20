@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\GeneralMessageRequestStructureType:
             accessor:
                 getter: getInfoChannelRef
                 setter: setInfoChannelRef
-            type: Calcinai\Siri\Objects\InfoChannelRefStructureType
+            xml_list:
+                inline: true
+                entry_name: InfoChannelRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\InfoChannelRefStructureType>
         language:
             expose: true
             access_type: public_method

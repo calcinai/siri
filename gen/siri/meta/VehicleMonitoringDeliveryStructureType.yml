@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\VehicleMonitoringDeliveryStructureType:
             accessor:
                 getter: getVehicleActivity
                 setter: setVehicleActivity
-            type: Calcinai\Siri\Objects\VehicleActivityStructureType
+            xml_list:
+                inline: true
+                entry_name: VehicleActivity
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\VehicleActivityStructureType>
         vehicleActivityCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +32,11 @@ Calcinai\Siri\Objects\VehicleMonitoringDeliveryStructureType:
             accessor:
                 getter: getVehicleActivityCancellation
                 setter: setVehicleActivityCancellation
-            type: Calcinai\Siri\Objects\VehicleActivityCancellationStructureType
+            xml_list:
+                inline: true
+                entry_name: VehicleActivityCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\VehicleActivityCancellationStructureType>
         vehicleActivityNote:
             expose: true
             access_type: public_method
@@ -38,7 +46,11 @@ Calcinai\Siri\Objects\VehicleMonitoringDeliveryStructureType:
             accessor:
                 getter: getVehicleActivityNote
                 setter: setVehicleActivityNote
-            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
+            xml_list:
+                inline: true
+                entry_name: VehicleActivityNote
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\NaturalLanguageStringStructureType>
         extensions:
             expose: true
             access_type: public_method

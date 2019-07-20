@@ -129,7 +129,11 @@ Calcinai\Siri\Objects\EstimatedCallStructureType:
             accessor:
                 getter: getCallNote
                 setter: setCallNote
-            type: Calcinai\Siri\Objects\NaturalLanguageStringStructureType
+            xml_list:
+                inline: true
+                entry_name: CallNote
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\NaturalLanguageStringStructureType>
         facilityConditionElement:
             expose: true
             access_type: public_method
@@ -139,7 +143,11 @@ Calcinai\Siri\Objects\EstimatedCallStructureType:
             accessor:
                 getter: getFacilityConditionElement
                 setter: setFacilityConditionElement
-            type: Calcinai\Siri\Objects\FacilityConditionElement
+            xml_list:
+                inline: true
+                entry_name: FacilityConditionElement
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\FacilityConditionElement>
         facilityChangeElement:
             expose: true
             access_type: public_method
@@ -159,7 +167,11 @@ Calcinai\Siri\Objects\EstimatedCallStructureType:
             accessor:
                 getter: getSituationRef
                 setter: setSituationRef
-            type: Calcinai\Siri\Objects\SituationRef
+            xml_list:
+                inline: true
+                entry_name: SituationRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\SituationRef>
         aimedArrivalTime:
             expose: true
             access_type: public_method

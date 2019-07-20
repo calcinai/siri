@@ -49,7 +49,11 @@ Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType:
             accessor:
                 getter: getVehicleMode
                 setter: setVehicleMode
-            type: string
+            xml_list:
+                inline: true
+                entry_name: VehicleMode
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
         routeRef:
             expose: true
             access_type: public_method

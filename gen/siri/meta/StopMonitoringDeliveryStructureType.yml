@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\StopMonitoringDeliveryStructureType:
             accessor:
                 getter: getMonitoringRef
                 setter: setMonitoringRef
-            type: Calcinai\Siri\Objects\MonitoringRefStructureType
+            xml_list:
+                inline: true
+                entry_name: MonitoringRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\MonitoringRefStructureType>
         monitoredStopVisit:
             expose: true
             access_type: public_method
@@ -28,7 +32,11 @@ Calcinai\Siri\Objects\StopMonitoringDeliveryStructureType:
             accessor:
                 getter: getMonitoredStopVisit
                 setter: setMonitoredStopVisit
-            type: Calcinai\Siri\Objects\MonitoredStopVisitStructureType
+            xml_list:
+                inline: true
+                entry_name: MonitoredStopVisit
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\MonitoredStopVisitStructureType>
         monitoredStopVisitCancellation:
             expose: true
             access_type: public_method
@@ -38,7 +46,11 @@ Calcinai\Siri\Objects\StopMonitoringDeliveryStructureType:
             accessor:
                 getter: getMonitoredStopVisitCancellation
                 setter: setMonitoredStopVisitCancellation
-            type: Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType
+            xml_list:
+                inline: true
+                entry_name: MonitoredStopVisitCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\MonitoredStopVisitCancellationStructureType>
         stopLineNotice:
             expose: true
             access_type: public_method
@@ -48,7 +60,11 @@ Calcinai\Siri\Objects\StopMonitoringDeliveryStructureType:
             accessor:
                 getter: getStopLineNotice
                 setter: setStopLineNotice
-            type: Calcinai\Siri\Objects\StopLineNoticeStructureType
+            xml_list:
+                inline: true
+                entry_name: StopLineNotice
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StopLineNoticeStructureType>
         stopLineNoticeCancellation:
             expose: true
             access_type: public_method
@@ -58,7 +74,11 @@ Calcinai\Siri\Objects\StopMonitoringDeliveryStructureType:
             accessor:
                 getter: getStopLineNoticeCancellation
                 setter: setStopLineNoticeCancellation
-            type: Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType
+            xml_list:
+                inline: true
+                entry_name: StopLineNoticeCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\StopLineNoticeCancellationStructureType>
         note:
             expose: true
             access_type: public_method

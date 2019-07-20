@@ -59,7 +59,11 @@ Calcinai\Siri\Objects\DatedVehicleJourneyStructureType:
             accessor:
                 getter: getVehicleMode
                 setter: setVehicleMode
-            type: string
+            xml_list:
+                inline: true
+                entry_name: VehicleMode
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
         routeRef:
             expose: true
             access_type: public_method
@@ -129,7 +133,11 @@ Calcinai\Siri\Objects\DatedVehicleJourneyStructureType:
             accessor:
                 getter: getServiceFeatureRef
                 setter: setServiceFeatureRef
-            type: Calcinai\Siri\Objects\ServiceFeatureRef
+            xml_list:
+                inline: true
+                entry_name: ServiceFeatureRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ServiceFeatureRef>
         vehicleFeatureRef:
             expose: true
             access_type: public_method
@@ -139,7 +147,11 @@ Calcinai\Siri\Objects\DatedVehicleJourneyStructureType:
             accessor:
                 getter: getVehicleFeatureRef
                 setter: setVehicleFeatureRef
-            type: Calcinai\Siri\Objects\VehicleFeatureRefStructureType
+            xml_list:
+                inline: true
+                entry_name: VehicleFeatureRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\VehicleFeatureRefStructureType>
         vehicleJourneyName:
             expose: true
             access_type: public_method
@@ -159,7 +171,11 @@ Calcinai\Siri\Objects\DatedVehicleJourneyStructureType:
             accessor:
                 getter: getJourneyNote
                 setter: setJourneyNote
-            type: Calcinai\Siri\Objects\JourneyNote
+            xml_list:
+                inline: true
+                entry_name: JourneyNote
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\JourneyNote>
         destinationDisplay:
             expose: true
             access_type: public_method
@@ -244,7 +260,11 @@ Calcinai\Siri\Objects\DatedVehicleJourneyStructureType:
             accessor:
                 getter: getDatedCall
                 setter: setDatedCall
-            type: Calcinai\Siri\Objects\DatedCall
+            xml_list:
+                inline: true
+                entry_name: DatedCall
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\DatedCall>
         extensions:
             expose: true
             access_type: public_method

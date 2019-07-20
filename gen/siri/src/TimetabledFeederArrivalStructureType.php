@@ -49,9 +49,11 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * A method of transportation such as bus, rail, etc.
      *
-     * @property string $vehicleMode
+     * @property string[] $vehicleMode
      */
-    private $vehicleMode = null;
+    private $vehicleMode = [
+        
+    ];
 
     /**
      * Identifier of Route that Journey follows.
@@ -96,16 +98,20 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $serviceFeatureRef
+     * @property string[] $serviceFeatureRef
      */
-    private $serviceFeatureRef = null;
+    private $serviceFeatureRef = [
+        
+    ];
 
     /**
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $vehicleFeatureRef
+     * @property string[] $vehicleFeatureRef
      */
-    private $vehicleFeatureRef = null;
+    private $vehicleFeatureRef = [
+        
+    ];
 
     /**
      * Name of the origin of the journey.
@@ -136,9 +142,11 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     private $destinationShortName = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      */
-    private $journeyNote = null;
+    private $journeyNote = [
+        
+    ];
 
     /**
      * Whether this is a Headway Service, that is shown as operating at a prescribed interval rather than to a fixed timetable. Default is false.
@@ -339,11 +347,51 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     }
 
     /**
+     * Adds as vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @return self
+     * @param string $vehicleMode
+     */
+    public function addToVehicleMode($vehicleMode)
+    {
+        $this->vehicleMode[] = $vehicleMode;
+        return $this;
+    }
+
+    /**
+     * isset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleMode($index)
+    {
+        return isset($this->vehicleMode[$index]);
+    }
+
+    /**
+     * unset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleMode($index)
+    {
+        unset($this->vehicleMode[$index]);
+    }
+
+    /**
      * Gets as vehicleMode
      *
      * A method of transportation such as bus, rail, etc.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleMode()
     {
@@ -358,7 +406,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      * @param string $vehicleMode
      * @return self
      */
-    public function setVehicleMode($vehicleMode)
+    public function setVehicleMode(array $vehicleMode)
     {
         $this->vehicleMode = $vehicleMode;
         return $this;
@@ -517,11 +565,51 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     }
 
     /**
+     * Adds as serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $serviceFeatureRef
+     */
+    public function addToServiceFeatureRef($serviceFeatureRef)
+    {
+        $this->serviceFeatureRef[] = $serviceFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetServiceFeatureRef($index)
+    {
+        return isset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
+     * unset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetServiceFeatureRef($index)
+    {
+        unset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
      * Gets as serviceFeatureRef
      *
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getServiceFeatureRef()
     {
@@ -536,10 +624,50 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      * @param string $serviceFeatureRef
      * @return self
      */
-    public function setServiceFeatureRef($serviceFeatureRef)
+    public function setServiceFeatureRef(array $serviceFeatureRef)
     {
         $this->serviceFeatureRef = $serviceFeatureRef;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $vehicleFeatureRef
+     */
+    public function addToVehicleFeatureRef($vehicleFeatureRef)
+    {
+        $this->vehicleFeatureRef[] = $vehicleFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleFeatureRef($index)
+    {
+        return isset($this->vehicleFeatureRef[$index]);
+    }
+
+    /**
+     * unset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleFeatureRef($index)
+    {
+        unset($this->vehicleFeatureRef[$index]);
     }
 
     /**
@@ -547,7 +675,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      *
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleFeatureRef()
     {
@@ -562,7 +690,7 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
      * @param string $vehicleFeatureRef
      * @return self
      */
-    public function setVehicleFeatureRef($vehicleFeatureRef)
+    public function setVehicleFeatureRef(array $vehicleFeatureRef)
     {
         $this->vehicleFeatureRef = $vehicleFeatureRef;
         return $this;
@@ -673,9 +801,43 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     }
 
     /**
+     * Adds as journeyNote
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     */
+    public function addToJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    {
+        $this->journeyNote[] = $journeyNote;
+        return $this;
+    }
+
+    /**
+     * isset journeyNote
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetJourneyNote($index)
+    {
+        return isset($this->journeyNote[$index]);
+    }
+
+    /**
+     * unset journeyNote
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetJourneyNote($index)
+    {
+        unset($this->journeyNote[$index]);
+    }
+
+    /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\Objects\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote[]
      */
     public function getJourneyNote()
     {
@@ -685,10 +847,10 @@ class TimetabledFeederArrivalStructureType extends AbstractFeederItemStructureTy
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    public function setJourneyNote(array $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;

@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\GeneralMessageDeliveryStructureType:
             accessor:
                 getter: getGeneralMessage
                 setter: setGeneralMessage
-            type: Calcinai\Siri\Objects\GeneralMessage
+            xml_list:
+                inline: true
+                entry_name: GeneralMessage
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\GeneralMessage>
         generalMessageCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +32,11 @@ Calcinai\Siri\Objects\GeneralMessageDeliveryStructureType:
             accessor:
                 getter: getGeneralMessageCancellation
                 setter: setGeneralMessageCancellation
-            type: Calcinai\Siri\Objects\GeneralMessageCancellation
+            xml_list:
+                inline: true
+                entry_name: GeneralMessageCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\GeneralMessageCancellation>
         extensions:
             expose: true
             access_type: public_method

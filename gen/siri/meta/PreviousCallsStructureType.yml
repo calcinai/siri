@@ -1,0 +1,12 @@
+Calcinai\Siri\Objects\PreviousCallsStructureType:
+    properties:
+        previousCall:
+            expose: true
+            access_type: public_method
+            serialized_name: PreviousCall
+            xml_element:
+                namespace: 'http://www.siri.org.uk/siri'
+            accessor:
+                getter: getPreviousCall
+                setter: setPreviousCall
+            type: Calcinai\Siri\Objects\PreviousCallStructureType

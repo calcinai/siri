@@ -49,7 +49,11 @@ Calcinai\Siri\Objects\DatedTimetableVersionFrameStructureType:
             accessor:
                 getter: getVehicleMode
                 setter: setVehicleMode
-            type: string
+            xml_list:
+                inline: true
+                entry_name: VehicleMode
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
         routeRef:
             expose: true
             access_type: public_method
@@ -119,7 +123,11 @@ Calcinai\Siri\Objects\DatedTimetableVersionFrameStructureType:
             accessor:
                 getter: getServiceFeatureRef
                 setter: setServiceFeatureRef
-            type: Calcinai\Siri\Objects\ServiceFeatureRef
+            xml_list:
+                inline: true
+                entry_name: ServiceFeatureRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ServiceFeatureRef>
         vehicleFeatureRef:
             expose: true
             access_type: public_method
@@ -129,7 +137,11 @@ Calcinai\Siri\Objects\DatedTimetableVersionFrameStructureType:
             accessor:
                 getter: getVehicleFeatureRef
                 setter: setVehicleFeatureRef
-            type: Calcinai\Siri\Objects\VehicleFeatureRefStructureType
+            xml_list:
+                inline: true
+                entry_name: VehicleFeatureRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\VehicleFeatureRefStructureType>
         destinationDisplay:
             expose: true
             access_type: public_method

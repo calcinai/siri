@@ -42,9 +42,11 @@ class TargetedVehicleJourneyStructureType
     /**
      * A method of transportation such as bus, rail, etc.
      *
-     * @property string $vehicleMode
+     * @property string[] $vehicleMode
      */
-    private $vehicleMode = null;
+    private $vehicleMode = [
+        
+    ];
 
     /**
      * Identifier of Route that Journey follows.
@@ -89,16 +91,20 @@ class TargetedVehicleJourneyStructureType
     /**
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $serviceFeatureRef
+     * @property string[] $serviceFeatureRef
      */
-    private $serviceFeatureRef = null;
+    private $serviceFeatureRef = [
+        
+    ];
 
     /**
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @property string $vehicleFeatureRef
+     * @property string[] $vehicleFeatureRef
      */
-    private $vehicleFeatureRef = null;
+    private $vehicleFeatureRef = [
+        
+    ];
 
     /**
      * @property string $originRef
@@ -122,9 +128,11 @@ class TargetedVehicleJourneyStructureType
     /**
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @property \Calcinai\Siri\Objects\PlaceNameStructureType $via
+     * @property \Calcinai\Siri\Objects\PlaceNameStructureType[] $via
      */
-    private $via = null;
+    private $via = [
+        
+    ];
 
     /**
      * @property string $destinationRef
@@ -153,9 +161,11 @@ class TargetedVehicleJourneyStructureType
     private $vehicleJourneyName = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @property \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      */
-    private $journeyNote = null;
+    private $journeyNote = [
+        
+    ];
 
     /**
      * Whether this is a Headway Service, that is shown as operating at a prescribed interval rather than to a fixed timetable. Default is false.
@@ -288,11 +298,51 @@ class TargetedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @return self
+     * @param string $vehicleMode
+     */
+    public function addToVehicleMode($vehicleMode)
+    {
+        $this->vehicleMode[] = $vehicleMode;
+        return $this;
+    }
+
+    /**
+     * isset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleMode($index)
+    {
+        return isset($this->vehicleMode[$index]);
+    }
+
+    /**
+     * unset vehicleMode
+     *
+     * A method of transportation such as bus, rail, etc.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleMode($index)
+    {
+        unset($this->vehicleMode[$index]);
+    }
+
+    /**
      * Gets as vehicleMode
      *
      * A method of transportation such as bus, rail, etc.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleMode()
     {
@@ -307,7 +357,7 @@ class TargetedVehicleJourneyStructureType
      * @param string $vehicleMode
      * @return self
      */
-    public function setVehicleMode($vehicleMode)
+    public function setVehicleMode(array $vehicleMode)
     {
         $this->vehicleMode = $vehicleMode;
         return $this;
@@ -466,11 +516,51 @@ class TargetedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $serviceFeatureRef
+     */
+    public function addToServiceFeatureRef($serviceFeatureRef)
+    {
+        $this->serviceFeatureRef[] = $serviceFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetServiceFeatureRef($index)
+    {
+        return isset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
+     * unset serviceFeatureRef
+     *
+     * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetServiceFeatureRef($index)
+    {
+        unset($this->serviceFeatureRef[$index]);
+    }
+
+    /**
      * Gets as serviceFeatureRef
      *
      * Classification of service into arbitrary Service categories, e.g. school bus. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getServiceFeatureRef()
     {
@@ -485,10 +575,50 @@ class TargetedVehicleJourneyStructureType
      * @param string $serviceFeatureRef
      * @return self
      */
-    public function setServiceFeatureRef($serviceFeatureRef)
+    public function setServiceFeatureRef(array $serviceFeatureRef)
     {
         $this->serviceFeatureRef = $serviceFeatureRef;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @return self
+     * @param string $vehicleFeatureRef
+     */
+    public function addToVehicleFeatureRef($vehicleFeatureRef)
+    {
+        $this->vehicleFeatureRef[] = $vehicleFeatureRef;
+        return $this;
+    }
+
+    /**
+     * isset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleFeatureRef($index)
+    {
+        return isset($this->vehicleFeatureRef[$index]);
+    }
+
+    /**
+     * unset vehicleFeatureRef
+     *
+     * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleFeatureRef($index)
+    {
+        unset($this->vehicleFeatureRef[$index]);
     }
 
     /**
@@ -496,7 +626,7 @@ class TargetedVehicleJourneyStructureType
      *
      * Features of Vehicle providing journey. Recommended SIRI values based on TPEG are given in SIRI documentation and enumerated in the siri_facilities package.
      *
-     * @return string
+     * @return string[]
      */
     public function getVehicleFeatureRef()
     {
@@ -511,7 +641,7 @@ class TargetedVehicleJourneyStructureType
      * @param string $vehicleFeatureRef
      * @return self
      */
-    public function setVehicleFeatureRef($vehicleFeatureRef)
+    public function setVehicleFeatureRef(array $vehicleFeatureRef)
     {
         $this->vehicleFeatureRef = $vehicleFeatureRef;
         return $this;
@@ -592,11 +722,51 @@ class TargetedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as via
+     *
+     * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\PlaceNameStructureType $via
+     */
+    public function addToVia(\Calcinai\Siri\Objects\PlaceNameStructureType $via)
+    {
+        $this->via[] = $via;
+        return $this;
+    }
+
+    /**
+     * isset via
+     *
+     * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVia($index)
+    {
+        return isset($this->via[$index]);
+    }
+
+    /**
+     * unset via
+     *
+     * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVia($index)
+    {
+        unset($this->via[$index]);
+    }
+
+    /**
      * Gets as via
      *
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @return \Calcinai\Siri\Objects\PlaceNameStructureType
+     * @return \Calcinai\Siri\Objects\PlaceNameStructureType[]
      */
     public function getVia()
     {
@@ -608,10 +778,10 @@ class TargetedVehicleJourneyStructureType
      *
      * Names of via points, used to help identify the line, for example, Luton to Luton via Sutton. Currently 3 in VDV. Should only be included if the detail level was requested.
      *
-     * @param \Calcinai\Siri\Objects\PlaceNameStructureType $via
+     * @param \Calcinai\Siri\Objects\PlaceNameStructureType[] $via
      * @return self
      */
-    public function setVia(\Calcinai\Siri\Objects\PlaceNameStructureType $via)
+    public function setVia(array $via)
     {
         $this->via = $via;
         return $this;
@@ -718,9 +888,43 @@ class TargetedVehicleJourneyStructureType
     }
 
     /**
+     * Adds as journeyNote
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     */
+    public function addToJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    {
+        $this->journeyNote[] = $journeyNote;
+        return $this;
+    }
+
+    /**
+     * isset journeyNote
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetJourneyNote($index)
+    {
+        return isset($this->journeyNote[$index]);
+    }
+
+    /**
+     * unset journeyNote
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetJourneyNote($index)
+    {
+        unset($this->journeyNote[$index]);
+    }
+
+    /**
      * Gets as journeyNote
      *
-     * @return \Calcinai\Siri\Objects\JourneyNote
+     * @return \Calcinai\Siri\Objects\JourneyNote[]
      */
     public function getJourneyNote()
     {
@@ -730,10 +934,10 @@ class TargetedVehicleJourneyStructureType
     /**
      * Sets a new journeyNote
      *
-     * @param \Calcinai\Siri\Objects\JourneyNote $journeyNote
+     * @param \Calcinai\Siri\Objects\JourneyNote[] $journeyNote
      * @return self
      */
-    public function setJourneyNote(\Calcinai\Siri\Objects\JourneyNote $journeyNote)
+    public function setJourneyNote(array $journeyNote)
     {
         $this->journeyNote = $journeyNote;
         return $this;

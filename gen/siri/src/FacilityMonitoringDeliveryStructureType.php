@@ -19,9 +19,11 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     private $version = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition
+     * @property \Calcinai\Siri\Objects\FacilityConditionStructureType[] $facilityCondition
      */
-    private $facilityCondition = null;
+    private $facilityCondition = [
+        
+    ];
 
     /**
      * @property \Calcinai\Siri\Objects\Extensions $extensions
@@ -55,9 +57,43 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     }
 
     /**
+     * Adds as facilityCondition
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition
+     */
+    public function addToFacilityCondition(\Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition)
+    {
+        $this->facilityCondition[] = $facilityCondition;
+        return $this;
+    }
+
+    /**
+     * isset facilityCondition
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetFacilityCondition($index)
+    {
+        return isset($this->facilityCondition[$index]);
+    }
+
+    /**
+     * unset facilityCondition
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetFacilityCondition($index)
+    {
+        unset($this->facilityCondition[$index]);
+    }
+
+    /**
      * Gets as facilityCondition
      *
-     * @return \Calcinai\Siri\Objects\FacilityConditionStructureType
+     * @return \Calcinai\Siri\Objects\FacilityConditionStructureType[]
      */
     public function getFacilityCondition()
     {
@@ -67,10 +103,10 @@ class FacilityMonitoringDeliveryStructureType extends AbstractServiceDeliveryStr
     /**
      * Sets a new facilityCondition
      *
-     * @param \Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition
+     * @param \Calcinai\Siri\Objects\FacilityConditionStructureType[] $facilityCondition
      * @return self
      */
-    public function setFacilityCondition(\Calcinai\Siri\Objects\FacilityConditionStructureType $facilityCondition)
+    public function setFacilityCondition(array $facilityCondition)
     {
         $this->facilityCondition = $facilityCondition;
         return $this;

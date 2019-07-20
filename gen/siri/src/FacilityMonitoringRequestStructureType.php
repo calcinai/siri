@@ -33,9 +33,11 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
     private $startTime = null;
 
     /**
-     * @property string $facilityRef
+     * @property string[] $facilityRef
      */
-    private $facilityRef = null;
+    private $facilityRef = [
+        
+    ];
 
     /**
      * @property string $featureRef
@@ -191,9 +193,43 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
     }
 
     /**
+     * Adds as facilityRef
+     *
+     * @return self
+     * @param string $facilityRef
+     */
+    public function addToFacilityRef($facilityRef)
+    {
+        $this->facilityRef[] = $facilityRef;
+        return $this;
+    }
+
+    /**
+     * isset facilityRef
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetFacilityRef($index)
+    {
+        return isset($this->facilityRef[$index]);
+    }
+
+    /**
+     * unset facilityRef
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetFacilityRef($index)
+    {
+        unset($this->facilityRef[$index]);
+    }
+
+    /**
      * Gets as facilityRef
      *
-     * @return string
+     * @return string[]
      */
     public function getFacilityRef()
     {
@@ -206,7 +242,7 @@ class FacilityMonitoringRequestStructureType extends AbstractFunctionalServiceRe
      * @param string $facilityRef
      * @return self
      */
-    public function setFacilityRef($facilityRef)
+    public function setFacilityRef(array $facilityRef)
     {
         $this->facilityRef = $facilityRef;
         return $this;

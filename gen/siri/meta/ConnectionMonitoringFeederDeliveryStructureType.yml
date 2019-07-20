@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\ConnectionMonitoringFeederDeliveryStructureType:
             accessor:
                 getter: getMonitoredFeederArrival
                 setter: setMonitoredFeederArrival
-            type: Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType
+            xml_list:
+                inline: true
+                entry_name: MonitoredFeederArrival
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\MonitoredFeederArrivalStructureType>
         monitoredFeederArrivalCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +32,11 @@ Calcinai\Siri\Objects\ConnectionMonitoringFeederDeliveryStructureType:
             accessor:
                 getter: getMonitoredFeederArrivalCancellation
                 setter: setMonitoredFeederArrivalCancellation
-            type: Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType
+            xml_list:
+                inline: true
+                entry_name: MonitoredFeederArrivalCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\MonitoredFeederArrivalCancellationStructureType>
         extensions:
             expose: true
             access_type: public_method

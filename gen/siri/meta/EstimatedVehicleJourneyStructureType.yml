@@ -89,7 +89,11 @@ Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType:
             accessor:
                 getter: getVehicleMode
                 setter: setVehicleMode
-            type: string
+            xml_list:
+                inline: true
+                entry_name: VehicleMode
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
         routeRef:
             expose: true
             access_type: public_method
@@ -159,7 +163,11 @@ Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType:
             accessor:
                 getter: getServiceFeatureRef
                 setter: setServiceFeatureRef
-            type: Calcinai\Siri\Objects\ServiceFeatureRef
+            xml_list:
+                inline: true
+                entry_name: ServiceFeatureRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\ServiceFeatureRef>
         vehicleFeatureRef:
             expose: true
             access_type: public_method
@@ -169,7 +177,11 @@ Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType:
             accessor:
                 getter: getVehicleFeatureRef
                 setter: setVehicleFeatureRef
-            type: Calcinai\Siri\Objects\VehicleFeatureRefStructureType
+            xml_list:
+                inline: true
+                entry_name: VehicleFeatureRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\VehicleFeatureRefStructureType>
         vehicleJourneyName:
             expose: true
             access_type: public_method
@@ -189,7 +201,11 @@ Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType:
             accessor:
                 getter: getJourneyNote
                 setter: setJourneyNote
-            type: Calcinai\Siri\Objects\JourneyNote
+            xml_list:
+                inline: true
+                entry_name: JourneyNote
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\JourneyNote>
         headwayService:
             expose: true
             access_type: public_method
@@ -209,7 +225,11 @@ Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType:
             accessor:
                 getter: getFacilityConditionElement
                 setter: setFacilityConditionElement
-            type: Calcinai\Siri\Objects\FacilityConditionElement
+            xml_list:
+                inline: true
+                entry_name: FacilityConditionElement
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\FacilityConditionElement>
         facilityChangeElement:
             expose: true
             access_type: public_method
@@ -229,7 +249,11 @@ Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType:
             accessor:
                 getter: getSituationRef
                 setter: setSituationRef
-            type: Calcinai\Siri\Objects\SituationRef
+            xml_list:
+                inline: true
+                entry_name: SituationRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\SituationRef>
         monitored:
             expose: true
             access_type: public_method
@@ -314,7 +338,11 @@ Calcinai\Siri\Objects\EstimatedVehicleJourneyStructureType:
             accessor:
                 getter: getEstimatedCall
                 setter: setEstimatedCall
-            type: Calcinai\Siri\Objects\EstimatedCall
+            xml_list:
+                inline: true
+                entry_name: EstimatedCall
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\EstimatedCall>
         isCompleteStopSequence:
             expose: true
             access_type: public_method

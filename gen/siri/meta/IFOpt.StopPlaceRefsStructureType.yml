@@ -1,0 +1,12 @@
+Calcinai\Siri\Objects\IFOpt\StopPlaceRefsStructureType:
+    properties:
+        stopPlaceRef:
+            expose: true
+            access_type: public_method
+            serialized_name: StopPlaceRef
+            xml_element:
+                namespace: 'http://www.ifopt.org.uk/ifopt'
+            accessor:
+                getter: getStopPlaceRef
+                setter: setStopPlaceRef
+            type: Calcinai\Siri\Objects\IFOpt\StopPlaceRef

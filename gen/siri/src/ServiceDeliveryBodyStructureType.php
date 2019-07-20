@@ -40,69 +40,91 @@ class ServiceDeliveryBodyStructureType
     private $moreData = null;
 
     /**
-     * @property \Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery
+     * @property \Calcinai\Siri\Objects\ProductionTimetableDelivery[] $productionTimetableDelivery
      */
-    private $productionTimetableDelivery = null;
+    private $productionTimetableDelivery = [
+        
+    ];
 
     /**
-     * @property \Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery
+     * @property \Calcinai\Siri\Objects\EstimatedTimetableDelivery[] $estimatedTimetableDelivery
      */
-    private $estimatedTimetableDelivery = null;
+    private $estimatedTimetableDelivery = [
+        
+    ];
 
     /**
-     * @property \Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery
+     * @property \Calcinai\Siri\Objects\StopTimetableDelivery[] $stopTimetableDelivery
      */
-    private $stopTimetableDelivery = null;
+    private $stopTimetableDelivery = [
+        
+    ];
 
     /**
      * Delviery for Stop Event service.
      *
-     * @property \Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery
+     * @property \Calcinai\Siri\Objects\StopMonitoringDelivery[] $stopMonitoringDelivery
      */
-    private $stopMonitoringDelivery = null;
+    private $stopMonitoringDelivery = [
+        
+    ];
 
     /**
      * Delviery for Vehicle Activity Service
      *
-     * @property \Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery
+     * @property \Calcinai\Siri\Objects\VehicleMonitoringDelivery[] $vehicleMonitoringDelivery
      */
-    private $vehicleMonitoringDelivery = null;
+    private $vehicleMonitoringDelivery = [
+        
+    ];
 
     /**
-     * @property \Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionTimetableDelivery[] $connectionTimetableDelivery
      */
-    private $connectionTimetableDelivery = null;
-
-    /**
-     * Delivery for Connection Protection Fetcher Service.
-     *
-     * @property \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
-     */
-    private $connectionMonitoringFeederDelivery = null;
+    private $connectionTimetableDelivery = [
+        
+    ];
 
     /**
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @property \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery[] $connectionMonitoringFeederDelivery
      */
-    private $connectionMonitoringDistributorDelivery = null;
+    private $connectionMonitoringFeederDelivery = [
+        
+    ];
+
+    /**
+     * Delivery for Connection Protection Fetcher Service.
+     *
+     * @property \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery[] $connectionMonitoringDistributorDelivery
+     */
+    private $connectionMonitoringDistributorDelivery = [
+        
+    ];
 
     /**
      * Delivery for general Message service.
      *
-     * @property \Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery
+     * @property \Calcinai\Siri\Objects\GeneralMessageDelivery[] $generalMessageDelivery
      */
-    private $generalMessageDelivery = null;
+    private $generalMessageDelivery = [
+        
+    ];
 
     /**
-     * @property \Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery
+     * @property \Calcinai\Siri\Objects\FacilityMonitoringDelivery[] $facilityMonitoringDelivery
      */
-    private $facilityMonitoringDelivery = null;
+    private $facilityMonitoringDelivery = [
+        
+    ];
 
     /**
-     * @property \Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery
+     * @property \Calcinai\Siri\Objects\SituationExchangeDelivery[] $situationExchangeDelivery
      */
-    private $situationExchangeDelivery = null;
+    private $situationExchangeDelivery = [
+        
+    ];
 
     /**
      * Gets as srsName
@@ -209,9 +231,43 @@ class ServiceDeliveryBodyStructureType
     }
 
     /**
+     * Adds as productionTimetableDelivery
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery
+     */
+    public function addToProductionTimetableDelivery(\Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery)
+    {
+        $this->productionTimetableDelivery[] = $productionTimetableDelivery;
+        return $this;
+    }
+
+    /**
+     * isset productionTimetableDelivery
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetProductionTimetableDelivery($index)
+    {
+        return isset($this->productionTimetableDelivery[$index]);
+    }
+
+    /**
+     * unset productionTimetableDelivery
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetProductionTimetableDelivery($index)
+    {
+        unset($this->productionTimetableDelivery[$index]);
+    }
+
+    /**
      * Gets as productionTimetableDelivery
      *
-     * @return \Calcinai\Siri\Objects\ProductionTimetableDelivery
+     * @return \Calcinai\Siri\Objects\ProductionTimetableDelivery[]
      */
     public function getProductionTimetableDelivery()
     {
@@ -221,19 +277,53 @@ class ServiceDeliveryBodyStructureType
     /**
      * Sets a new productionTimetableDelivery
      *
-     * @param \Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery
+     * @param \Calcinai\Siri\Objects\ProductionTimetableDelivery[] $productionTimetableDelivery
      * @return self
      */
-    public function setProductionTimetableDelivery(\Calcinai\Siri\Objects\ProductionTimetableDelivery $productionTimetableDelivery)
+    public function setProductionTimetableDelivery(array $productionTimetableDelivery)
     {
         $this->productionTimetableDelivery = $productionTimetableDelivery;
         return $this;
     }
 
     /**
+     * Adds as estimatedTimetableDelivery
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery
+     */
+    public function addToEstimatedTimetableDelivery(\Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery)
+    {
+        $this->estimatedTimetableDelivery[] = $estimatedTimetableDelivery;
+        return $this;
+    }
+
+    /**
+     * isset estimatedTimetableDelivery
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetEstimatedTimetableDelivery($index)
+    {
+        return isset($this->estimatedTimetableDelivery[$index]);
+    }
+
+    /**
+     * unset estimatedTimetableDelivery
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetEstimatedTimetableDelivery($index)
+    {
+        unset($this->estimatedTimetableDelivery[$index]);
+    }
+
+    /**
      * Gets as estimatedTimetableDelivery
      *
-     * @return \Calcinai\Siri\Objects\EstimatedTimetableDelivery
+     * @return \Calcinai\Siri\Objects\EstimatedTimetableDelivery[]
      */
     public function getEstimatedTimetableDelivery()
     {
@@ -243,19 +333,53 @@ class ServiceDeliveryBodyStructureType
     /**
      * Sets a new estimatedTimetableDelivery
      *
-     * @param \Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery
+     * @param \Calcinai\Siri\Objects\EstimatedTimetableDelivery[] $estimatedTimetableDelivery
      * @return self
      */
-    public function setEstimatedTimetableDelivery(\Calcinai\Siri\Objects\EstimatedTimetableDelivery $estimatedTimetableDelivery)
+    public function setEstimatedTimetableDelivery(array $estimatedTimetableDelivery)
     {
         $this->estimatedTimetableDelivery = $estimatedTimetableDelivery;
         return $this;
     }
 
     /**
+     * Adds as stopTimetableDelivery
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery
+     */
+    public function addToStopTimetableDelivery(\Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery)
+    {
+        $this->stopTimetableDelivery[] = $stopTimetableDelivery;
+        return $this;
+    }
+
+    /**
+     * isset stopTimetableDelivery
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetStopTimetableDelivery($index)
+    {
+        return isset($this->stopTimetableDelivery[$index]);
+    }
+
+    /**
+     * unset stopTimetableDelivery
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetStopTimetableDelivery($index)
+    {
+        unset($this->stopTimetableDelivery[$index]);
+    }
+
+    /**
      * Gets as stopTimetableDelivery
      *
-     * @return \Calcinai\Siri\Objects\StopTimetableDelivery
+     * @return \Calcinai\Siri\Objects\StopTimetableDelivery[]
      */
     public function getStopTimetableDelivery()
     {
@@ -265,13 +389,53 @@ class ServiceDeliveryBodyStructureType
     /**
      * Sets a new stopTimetableDelivery
      *
-     * @param \Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery
+     * @param \Calcinai\Siri\Objects\StopTimetableDelivery[] $stopTimetableDelivery
      * @return self
      */
-    public function setStopTimetableDelivery(\Calcinai\Siri\Objects\StopTimetableDelivery $stopTimetableDelivery)
+    public function setStopTimetableDelivery(array $stopTimetableDelivery)
     {
         $this->stopTimetableDelivery = $stopTimetableDelivery;
         return $this;
+    }
+
+    /**
+     * Adds as stopMonitoringDelivery
+     *
+     * Delviery for Stop Event service.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery
+     */
+    public function addToStopMonitoringDelivery(\Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery)
+    {
+        $this->stopMonitoringDelivery[] = $stopMonitoringDelivery;
+        return $this;
+    }
+
+    /**
+     * isset stopMonitoringDelivery
+     *
+     * Delviery for Stop Event service.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetStopMonitoringDelivery($index)
+    {
+        return isset($this->stopMonitoringDelivery[$index]);
+    }
+
+    /**
+     * unset stopMonitoringDelivery
+     *
+     * Delviery for Stop Event service.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetStopMonitoringDelivery($index)
+    {
+        unset($this->stopMonitoringDelivery[$index]);
     }
 
     /**
@@ -279,7 +443,7 @@ class ServiceDeliveryBodyStructureType
      *
      * Delviery for Stop Event service.
      *
-     * @return \Calcinai\Siri\Objects\StopMonitoringDelivery
+     * @return \Calcinai\Siri\Objects\StopMonitoringDelivery[]
      */
     public function getStopMonitoringDelivery()
     {
@@ -291,13 +455,53 @@ class ServiceDeliveryBodyStructureType
      *
      * Delviery for Stop Event service.
      *
-     * @param \Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery
+     * @param \Calcinai\Siri\Objects\StopMonitoringDelivery[] $stopMonitoringDelivery
      * @return self
      */
-    public function setStopMonitoringDelivery(\Calcinai\Siri\Objects\StopMonitoringDelivery $stopMonitoringDelivery)
+    public function setStopMonitoringDelivery(array $stopMonitoringDelivery)
     {
         $this->stopMonitoringDelivery = $stopMonitoringDelivery;
         return $this;
+    }
+
+    /**
+     * Adds as vehicleMonitoringDelivery
+     *
+     * Delviery for Vehicle Activity Service
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery
+     */
+    public function addToVehicleMonitoringDelivery(\Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery)
+    {
+        $this->vehicleMonitoringDelivery[] = $vehicleMonitoringDelivery;
+        return $this;
+    }
+
+    /**
+     * isset vehicleMonitoringDelivery
+     *
+     * Delviery for Vehicle Activity Service
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetVehicleMonitoringDelivery($index)
+    {
+        return isset($this->vehicleMonitoringDelivery[$index]);
+    }
+
+    /**
+     * unset vehicleMonitoringDelivery
+     *
+     * Delviery for Vehicle Activity Service
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetVehicleMonitoringDelivery($index)
+    {
+        unset($this->vehicleMonitoringDelivery[$index]);
     }
 
     /**
@@ -305,7 +509,7 @@ class ServiceDeliveryBodyStructureType
      *
      * Delviery for Vehicle Activity Service
      *
-     * @return \Calcinai\Siri\Objects\VehicleMonitoringDelivery
+     * @return \Calcinai\Siri\Objects\VehicleMonitoringDelivery[]
      */
     public function getVehicleMonitoringDelivery()
     {
@@ -317,19 +521,53 @@ class ServiceDeliveryBodyStructureType
      *
      * Delviery for Vehicle Activity Service
      *
-     * @param \Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery
+     * @param \Calcinai\Siri\Objects\VehicleMonitoringDelivery[] $vehicleMonitoringDelivery
      * @return self
      */
-    public function setVehicleMonitoringDelivery(\Calcinai\Siri\Objects\VehicleMonitoringDelivery $vehicleMonitoringDelivery)
+    public function setVehicleMonitoringDelivery(array $vehicleMonitoringDelivery)
     {
         $this->vehicleMonitoringDelivery = $vehicleMonitoringDelivery;
         return $this;
     }
 
     /**
+     * Adds as connectionTimetableDelivery
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery
+     */
+    public function addToConnectionTimetableDelivery(\Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery)
+    {
+        $this->connectionTimetableDelivery[] = $connectionTimetableDelivery;
+        return $this;
+    }
+
+    /**
+     * isset connectionTimetableDelivery
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetConnectionTimetableDelivery($index)
+    {
+        return isset($this->connectionTimetableDelivery[$index]);
+    }
+
+    /**
+     * unset connectionTimetableDelivery
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetConnectionTimetableDelivery($index)
+    {
+        unset($this->connectionTimetableDelivery[$index]);
+    }
+
+    /**
      * Gets as connectionTimetableDelivery
      *
-     * @return \Calcinai\Siri\Objects\ConnectionTimetableDelivery
+     * @return \Calcinai\Siri\Objects\ConnectionTimetableDelivery[]
      */
     public function getConnectionTimetableDelivery()
     {
@@ -339,13 +577,53 @@ class ServiceDeliveryBodyStructureType
     /**
      * Sets a new connectionTimetableDelivery
      *
-     * @param \Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionTimetableDelivery[] $connectionTimetableDelivery
      * @return self
      */
-    public function setConnectionTimetableDelivery(\Calcinai\Siri\Objects\ConnectionTimetableDelivery $connectionTimetableDelivery)
+    public function setConnectionTimetableDelivery(array $connectionTimetableDelivery)
     {
         $this->connectionTimetableDelivery = $connectionTimetableDelivery;
         return $this;
+    }
+
+    /**
+     * Adds as connectionMonitoringFeederDelivery
+     *
+     * Delivery for Connection Protection Fetcher Service.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
+     */
+    public function addToConnectionMonitoringFeederDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery)
+    {
+        $this->connectionMonitoringFeederDelivery[] = $connectionMonitoringFeederDelivery;
+        return $this;
+    }
+
+    /**
+     * isset connectionMonitoringFeederDelivery
+     *
+     * Delivery for Connection Protection Fetcher Service.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetConnectionMonitoringFeederDelivery($index)
+    {
+        return isset($this->connectionMonitoringFeederDelivery[$index]);
+    }
+
+    /**
+     * unset connectionMonitoringFeederDelivery
+     *
+     * Delivery for Connection Protection Fetcher Service.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetConnectionMonitoringFeederDelivery($index)
+    {
+        unset($this->connectionMonitoringFeederDelivery[$index]);
     }
 
     /**
@@ -353,7 +631,7 @@ class ServiceDeliveryBodyStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @return \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery[]
      */
     public function getConnectionMonitoringFeederDelivery()
     {
@@ -365,13 +643,53 @@ class ServiceDeliveryBodyStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @param \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery[] $connectionMonitoringFeederDelivery
      * @return self
      */
-    public function setConnectionMonitoringFeederDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringFeederDelivery $connectionMonitoringFeederDelivery)
+    public function setConnectionMonitoringFeederDelivery(array $connectionMonitoringFeederDelivery)
     {
         $this->connectionMonitoringFeederDelivery = $connectionMonitoringFeederDelivery;
         return $this;
+    }
+
+    /**
+     * Adds as connectionMonitoringDistributorDelivery
+     *
+     * Delivery for Connection Protection Fetcher Service.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
+     */
+    public function addToConnectionMonitoringDistributorDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery)
+    {
+        $this->connectionMonitoringDistributorDelivery[] = $connectionMonitoringDistributorDelivery;
+        return $this;
+    }
+
+    /**
+     * isset connectionMonitoringDistributorDelivery
+     *
+     * Delivery for Connection Protection Fetcher Service.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetConnectionMonitoringDistributorDelivery($index)
+    {
+        return isset($this->connectionMonitoringDistributorDelivery[$index]);
+    }
+
+    /**
+     * unset connectionMonitoringDistributorDelivery
+     *
+     * Delivery for Connection Protection Fetcher Service.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetConnectionMonitoringDistributorDelivery($index)
+    {
+        unset($this->connectionMonitoringDistributorDelivery[$index]);
     }
 
     /**
@@ -379,7 +697,7 @@ class ServiceDeliveryBodyStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @return \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery
+     * @return \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery[]
      */
     public function getConnectionMonitoringDistributorDelivery()
     {
@@ -391,13 +709,53 @@ class ServiceDeliveryBodyStructureType
      *
      * Delivery for Connection Protection Fetcher Service.
      *
-     * @param \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery
+     * @param \Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery[] $connectionMonitoringDistributorDelivery
      * @return self
      */
-    public function setConnectionMonitoringDistributorDelivery(\Calcinai\Siri\Objects\ConnectionMonitoringDistributorDelivery $connectionMonitoringDistributorDelivery)
+    public function setConnectionMonitoringDistributorDelivery(array $connectionMonitoringDistributorDelivery)
     {
         $this->connectionMonitoringDistributorDelivery = $connectionMonitoringDistributorDelivery;
         return $this;
+    }
+
+    /**
+     * Adds as generalMessageDelivery
+     *
+     * Delivery for general Message service.
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery
+     */
+    public function addToGeneralMessageDelivery(\Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery)
+    {
+        $this->generalMessageDelivery[] = $generalMessageDelivery;
+        return $this;
+    }
+
+    /**
+     * isset generalMessageDelivery
+     *
+     * Delivery for general Message service.
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetGeneralMessageDelivery($index)
+    {
+        return isset($this->generalMessageDelivery[$index]);
+    }
+
+    /**
+     * unset generalMessageDelivery
+     *
+     * Delivery for general Message service.
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetGeneralMessageDelivery($index)
+    {
+        unset($this->generalMessageDelivery[$index]);
     }
 
     /**
@@ -405,7 +763,7 @@ class ServiceDeliveryBodyStructureType
      *
      * Delivery for general Message service.
      *
-     * @return \Calcinai\Siri\Objects\GeneralMessageDelivery
+     * @return \Calcinai\Siri\Objects\GeneralMessageDelivery[]
      */
     public function getGeneralMessageDelivery()
     {
@@ -417,19 +775,53 @@ class ServiceDeliveryBodyStructureType
      *
      * Delivery for general Message service.
      *
-     * @param \Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery
+     * @param \Calcinai\Siri\Objects\GeneralMessageDelivery[] $generalMessageDelivery
      * @return self
      */
-    public function setGeneralMessageDelivery(\Calcinai\Siri\Objects\GeneralMessageDelivery $generalMessageDelivery)
+    public function setGeneralMessageDelivery(array $generalMessageDelivery)
     {
         $this->generalMessageDelivery = $generalMessageDelivery;
         return $this;
     }
 
     /**
+     * Adds as facilityMonitoringDelivery
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery
+     */
+    public function addToFacilityMonitoringDelivery(\Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery)
+    {
+        $this->facilityMonitoringDelivery[] = $facilityMonitoringDelivery;
+        return $this;
+    }
+
+    /**
+     * isset facilityMonitoringDelivery
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetFacilityMonitoringDelivery($index)
+    {
+        return isset($this->facilityMonitoringDelivery[$index]);
+    }
+
+    /**
+     * unset facilityMonitoringDelivery
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetFacilityMonitoringDelivery($index)
+    {
+        unset($this->facilityMonitoringDelivery[$index]);
+    }
+
+    /**
      * Gets as facilityMonitoringDelivery
      *
-     * @return \Calcinai\Siri\Objects\FacilityMonitoringDelivery
+     * @return \Calcinai\Siri\Objects\FacilityMonitoringDelivery[]
      */
     public function getFacilityMonitoringDelivery()
     {
@@ -439,19 +831,53 @@ class ServiceDeliveryBodyStructureType
     /**
      * Sets a new facilityMonitoringDelivery
      *
-     * @param \Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery
+     * @param \Calcinai\Siri\Objects\FacilityMonitoringDelivery[] $facilityMonitoringDelivery
      * @return self
      */
-    public function setFacilityMonitoringDelivery(\Calcinai\Siri\Objects\FacilityMonitoringDelivery $facilityMonitoringDelivery)
+    public function setFacilityMonitoringDelivery(array $facilityMonitoringDelivery)
     {
         $this->facilityMonitoringDelivery = $facilityMonitoringDelivery;
         return $this;
     }
 
     /**
+     * Adds as situationExchangeDelivery
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery
+     */
+    public function addToSituationExchangeDelivery(\Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery)
+    {
+        $this->situationExchangeDelivery[] = $situationExchangeDelivery;
+        return $this;
+    }
+
+    /**
+     * isset situationExchangeDelivery
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetSituationExchangeDelivery($index)
+    {
+        return isset($this->situationExchangeDelivery[$index]);
+    }
+
+    /**
+     * unset situationExchangeDelivery
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetSituationExchangeDelivery($index)
+    {
+        unset($this->situationExchangeDelivery[$index]);
+    }
+
+    /**
      * Gets as situationExchangeDelivery
      *
-     * @return \Calcinai\Siri\Objects\SituationExchangeDelivery
+     * @return \Calcinai\Siri\Objects\SituationExchangeDelivery[]
      */
     public function getSituationExchangeDelivery()
     {
@@ -461,10 +887,10 @@ class ServiceDeliveryBodyStructureType
     /**
      * Sets a new situationExchangeDelivery
      *
-     * @param \Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery
+     * @param \Calcinai\Siri\Objects\SituationExchangeDelivery[] $situationExchangeDelivery
      * @return self
      */
-    public function setSituationExchangeDelivery(\Calcinai\Siri\Objects\SituationExchangeDelivery $situationExchangeDelivery)
+    public function setSituationExchangeDelivery(array $situationExchangeDelivery)
     {
         $this->situationExchangeDelivery = $situationExchangeDelivery;
         return $this;

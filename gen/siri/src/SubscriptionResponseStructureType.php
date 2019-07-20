@@ -12,9 +12,11 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
 {
 
     /**
-     * @property \Calcinai\Siri\Objects\ResponseStatus $responseStatus
+     * @property \Calcinai\Siri\Objects\ResponseStatus[] $responseStatus
      */
-    private $responseStatus = null;
+    private $responseStatus = [
+        
+    ];
 
     /**
      * Endpoint address of subscription manager if different from that of the Producer or known default.
@@ -36,9 +38,43 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
     private $extensions = null;
 
     /**
+     * Adds as responseStatus
+     *
+     * @return self
+     * @param \Calcinai\Siri\Objects\ResponseStatus $responseStatus
+     */
+    public function addToResponseStatus(\Calcinai\Siri\Objects\ResponseStatus $responseStatus)
+    {
+        $this->responseStatus[] = $responseStatus;
+        return $this;
+    }
+
+    /**
+     * isset responseStatus
+     *
+     * @param int|string $index
+     * @return bool
+     */
+    public function issetResponseStatus($index)
+    {
+        return isset($this->responseStatus[$index]);
+    }
+
+    /**
+     * unset responseStatus
+     *
+     * @param int|string $index
+     * @return void
+     */
+    public function unsetResponseStatus($index)
+    {
+        unset($this->responseStatus[$index]);
+    }
+
+    /**
      * Gets as responseStatus
      *
-     * @return \Calcinai\Siri\Objects\ResponseStatus
+     * @return \Calcinai\Siri\Objects\ResponseStatus[]
      */
     public function getResponseStatus()
     {
@@ -48,10 +84,10 @@ class SubscriptionResponseStructureType extends ResponseEndpointStructureType
     /**
      * Sets a new responseStatus
      *
-     * @param \Calcinai\Siri\Objects\ResponseStatus $responseStatus
+     * @param \Calcinai\Siri\Objects\ResponseStatus[] $responseStatus
      * @return self
      */
-    public function setResponseStatus(\Calcinai\Siri\Objects\ResponseStatus $responseStatus)
+    public function setResponseStatus(array $responseStatus)
     {
         $this->responseStatus = $responseStatus;
         return $this;

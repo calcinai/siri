@@ -38,7 +38,11 @@ Calcinai\Siri\Objects\ProductionTimetableRequestStructureType:
             accessor:
                 getter: getOperatorRef
                 setter: setOperatorRef
-            type: Calcinai\Siri\Objects\OperatorRefStructureType
+            xml_list:
+                inline: true
+                entry_name: OperatorRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\OperatorRefStructureType>
         lines:
             expose: true
             access_type: public_method

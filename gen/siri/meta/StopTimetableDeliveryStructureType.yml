@@ -18,7 +18,11 @@ Calcinai\Siri\Objects\StopTimetableDeliveryStructureType:
             accessor:
                 getter: getTimetabledStopVisit
                 setter: setTimetabledStopVisit
-            type: Calcinai\Siri\Objects\TimetabledStopVisitStructureType
+            xml_list:
+                inline: true
+                entry_name: TimetabledStopVisit
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\TimetabledStopVisitStructureType>
         timetabledStopVisitCancellation:
             expose: true
             access_type: public_method
@@ -28,7 +32,11 @@ Calcinai\Siri\Objects\StopTimetableDeliveryStructureType:
             accessor:
                 getter: getTimetabledStopVisitCancellation
                 setter: setTimetabledStopVisitCancellation
-            type: Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType
+            xml_list:
+                inline: true
+                entry_name: TimetabledStopVisitCancellation
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\TimetabledStopVisitCancellationStructureType>
         extensions:
             expose: true
             access_type: public_method

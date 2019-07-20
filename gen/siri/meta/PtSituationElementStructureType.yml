@@ -59,7 +59,11 @@ Calcinai\Siri\Objects\PtSituationElementStructureType:
             accessor:
                 getter: getPublication
                 setter: setPublication
-            type: string
+            xml_list:
+                inline: true
+                entry_name: Publication
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<string>
         validityPeriod:
             expose: true
             access_type: public_method
@@ -69,7 +73,11 @@ Calcinai\Siri\Objects\PtSituationElementStructureType:
             accessor:
                 getter: getValidityPeriod
                 setter: setValidityPeriod
-            type: Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType
+            xml_list:
+                inline: true
+                entry_name: ValidityPeriod
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\PtSituationElementStructureType\ValidityPeriodAType>
         repetitions:
             expose: true
             access_type: public_method

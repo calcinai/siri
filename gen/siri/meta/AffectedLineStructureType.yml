@@ -23,7 +23,11 @@ Calcinai\Siri\Objects\AffectedLineStructureType:
             accessor:
                 getter: getLineRef
                 setter: setLineRef
-            type: Calcinai\Siri\Objects\LineRef
+            xml_list:
+                inline: true
+                entry_name: LineRef
+                namespace: 'http://www.siri.org.uk/siri'
+            type: array<Calcinai\Siri\Objects\LineRef>
         destinations:
             expose: true
             access_type: public_method
